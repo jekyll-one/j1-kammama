@@ -1,6 +1,6 @@
 ---
 title:                                  Spontanorama
-tagline:                                Podcast mit Ralf Schmitz
+tagline:                                Podcast mit Ralf Schmitz und Gästen
 
 #date:                                  2024-05-23
 #last_modified:                         2024-05-23
@@ -8,15 +8,14 @@ tagline:                                Podcast mit Ralf Schmitz
 description: >
                                         Hier ist alles möglich, denn kein Gast ist vorherbestimmt – Ralf Schmitz weiß
                                         nie, wer als Nächstes durch die Tür tritt. Während er im Studio ungeduldig
-                                        wartet, läuft draußen ein Teammitglied durch die Straßen, auf der Suche
-                                        nach wildfremden Passantinnen und Passanten, die jetzt in diesem Moment
-                                        bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
-                                        quatschen.
+                                        wartet, läuft draußen ein Teammitglied durch die Straßen der Innenstadt von
+                                        Köln, auf der Suche nach Passanten, die bereit sind alles stehen und liegen
+                                        zu lassen um spontan mit Ralf zu quatschen.
 keywords: >
-                                        Spontanorama, Podcast, Ralf Schmitz
+                                        Spontanorama, Podcast, Impro, Ralf Schmitz
 
-categories:                             [ Podcast ]
-tags:                                   [ Impro, Ralf Schmitz ]
+categories:                             [ Audio ]
+tags:                                   [ Podcast, Impro ]
 
 image:
   path:                                 /assets/image/modules/attics/1920x1280/spontanorama.jpg
@@ -27,15 +26,14 @@ group:                                  Featured
 #series:                                Featured
 
 tts:                                    true
-fab_menu_id:                            open_toc
+fab_menu_id:                            default                                 # open_toc
 comments:                               false
 regenerate:                             false
 
 resources:                              []
 resource_options:
   - attic:
-      opacity:                          1
-#     alignY:                           0.3
+#     opacity:                          0.5
       padding_top:                      650
       slides:
         - url:                          /assets/image/modules/attics/1920x1280/spontanorama.jpg
@@ -50,18 +48,18 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
+:url-player--spontanorama-2024:         /pages/public/audio/podcast/spontanorama/#spontanorama
 
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
 [role="dropcap"]
-Mit diesem Format ist alles möglich, denn kein Gast ist vorherbestimmt.
-Ralf Schmitz weiß nie, wer als Nächstes durch die Tür tritt.
+Spontanorama. Mit dem Format ist alles möglich, denn kein Gast ist vorherbestimmt.
+Ralf Schmitz weiß nie, wer als Nächstes durch die Tür kommt.
 
-Während er
-im Studio ungeduldig wartet, läuft draußen ein Teammitglied durch die Straßen,
-auf der Suche nach wildfremden Passantinnen und Passanten, die jetzt in diesem
-Moment bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
-quatschen.
+Während er im Studio ungeduldig wartet, läuft draußen ein Teammitglied durch
+die Straßen der Innenstadt von Köln. Immer auf der Suche nach Passanten, die
+in diesem Moment bereit sind alles stehen und liegen zu lassen um spontan mit
+Ralf zu quatschen.
 
 excerpt__end
 
@@ -76,20 +74,17 @@ excerpt__end
 
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-All you’re doing at the end of the day is writing your content, and the J1
-Template does all the tricky things: putting out HTML, Javascript, and CSS.
-As a result, the site creation process gets out of your way.
 
 mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
-*3 Minutes* zum lesen
+*3 Minuten* Lesezeit
 
 
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
 [role="mt-5"]
-== Format des Podcasts
+== Über den Podcast
 
-Jede Folge ist eine neue Überraschung, mit einer Mischung aus Lachen,
+Jede Folge ist eine Überraschung mit einer Mischung aus Lachen,
 tiefgründigen Momenten und unerwarteten Geschichten aus Ralfs Leben und
 denen seiner Gäste.
 
@@ -97,3 +92,7 @@ Während Ralf im Studio ungeduldig wartet, läuft draußen ein Teammitglied
 durch die Straßen der Kölneer Innenstadt auf der Suche nach Passantinnen
 und Passanten, die spontan bereit sind, alles stehen und liegen zu lassen,
 um mit Ralf Schmitz für eine Stunde zu quatschen.
+
+[role="mb-7"]
+Hören Sie rein - es ist ein großer Spaß:
+link:{url-player--spontanorama-2024}[Spontanorama 2024, {browser-window--new}].

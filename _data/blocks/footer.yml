@@ -209,14 +209,14 @@ settings:
                 link:
                   title:                Fernsehserien
                   title_translation:    notranslate
-                  tagline:              Exceller Katalog für Kino und TV
-                  href:                 https://www.fernsehserien.de/
+                  tagline:              Katalog für Kino und TV
+                  href:                 https://fernsehserien.de/
 
               - name:                   Mediatheken
                 link:
-                  title:                Mediatheken
+                  title:                MediathekView
                   title_translation:    notranslate
-                  tagline:              Videos der Mediatheken von ARD & Co
+                  tagline:              Online-Katalog der Mediatheken von ARD & Co
                   href:                 https://mediathekviewweb.de/
 
           # --------------------------------------------------------------------

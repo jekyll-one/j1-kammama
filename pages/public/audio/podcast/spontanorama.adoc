@@ -1,9 +1,9 @@
 ---
-title:                                  Spontanorama
+title:                                  SpontanOrama
 tagline:                                Podcast mit Ralf Schmitz
 
-#date:                                  2024-05-23
-#last_modified:                         2024-05-23
+date:                                   2024-09-11
+#last_modified:                         2024-09-11
 
 description: >
                                         Hier ist alles möglich, denn kein Gast ist vorherbestimmt – Ralf Schmitz weiß
@@ -13,7 +13,7 @@ description: >
                                         bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
                                         quatschen.
 keywords: >
-                                        Spontanorama, Podcast, Ralf Schmitz
+                                        SpontanOrama, Podcast, Impro, Ralf Schmitz
 
 categories:                             [ Podcast ]
 tags:                                   [ Impro, Ralf Schmitz ]
@@ -23,21 +23,23 @@ image:
   width:                                1920
   height:                               1200
 
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
 regenerate:                             false
-personalization:                        true
 permalink:                              /pages/public/audio/podcast/spontanorama/
 
 resources:                              [ amplitudejs ]
 resource_options:
   - attic:
 #     opacity:                          0.5
-#     alignY:                           0.3
       padding_top:                      650
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/spontanorama.png
-          alt:                          spontanorama
+        - url:                          /assets/image/modules/attics/1920x1280/spontanorama.jpg
+          alt:                          SpontanOrama
 ---
-
 
 // Page Initializer
 // =============================================================================
@@ -48,7 +50,6 @@ resource_options:
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
 
-
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
 {% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
@@ -58,26 +59,52 @@ resource_options:
 {% include {{load_attributes}} scope="global" %}
 
 [role="dropcap"]
-The Audio tag in HTML5 is a great way to add audio media to web pages.
-However, the browser fully controls the audio playback interface,
-which can limit or even break a page's design if audio media is used.
-
-AmplitudeJS for J1 Template offers a straightforward solution for web
-developers. It allows them to easily customize the appearance of their audio
-players without the need for complex scripting. By leveraging J1 Template
-and Amplitude's API, web designers can craft unique interfaces that define
-the visual and functional aspects of a player's audio control elements.
+SpontanOrama. Mit dem Format ist alles möglich, denn kein Gast ist vorherbestimmt.
+Ralf Schmitz weiß nie, wer als Nächstes durch die Tür kommt.
 
 mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-*5-10 Minutes* to read
+*60+ Minuten* Audiozeit
+
+
+[role="mt-4"]
+== About
+
+Während Ralf im Studio ungeduldig wartet, läuft draußen ein Teammitglied
+durch die Straßen der Kölneer Innenstadt auf der Suche nach Passantinnen
+und Passanten, die spontan bereit sind, alles stehen und liegen zu lassen,
+um mit Ralf Schmitz für eine Stunde zu quatschen.
+
+Der Podcast ist auf allen gängigen Plattformen für Podcast verfügbar wie:
+
+Spotify::
+  Die unangefochtene Nummer eins. Spotify bietet nicht nur Musik, sondern
+  auch eine riesige Auswahl an Podcasts. Es ist einfach zu bedienen und
+  bietet personalisierte Empfehlungen.
+
+Apple Podcasts::
+  Die Standard-App für Apple-Nutzer. Hier findest du eine große Auswahl
+  an Podcasts, die du direkt auf deinem iPhone, iPad oder Mac hören kannst.
+
+[role="mt-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der _Spotify_ Podcast-Plattform
+https://megaphone.spotify.com/de-DE[Megaphone, {browser-window--new}]
+geladen. Daher ist eine Internetverbindung zum Hören des Podcasts
+*zwingend* erforderlich.
+====
 
 
 [role="mt-5"]
-== Podcasts 2024
+== Podcasts
 
-Audio players can easily be embedded in web pages using the *audio* tag
-`<audio>.` Browsers have a built-in framework for decoding and playing audio
-content directly within a webpage.
+Spontanorama ist eine Produktion von Early Studios, die im Mai 2024 gestartet
+ist. Im Player sind alle Episoden verfügbar, die bis *September 2024*
+produziert wurden. Es erscheint jeden Donnerstag eine neue Folge.
 
-.Emancipator · From Dusk To Dawn
-amplitude::free_emancipator_large[role="mt-3 mb-5"]
+// .Podcast 2024
+// amplitude::spontanorama_2024_compact[role="mt-3 mb-5"]
+
+.Spontanorama 2024
+amplitude::spontanorama_2024_large[role="mt-4 mb-7"]

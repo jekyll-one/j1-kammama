@@ -237,9 +237,9 @@ robots:
 
 # ------------------------------------------------------------------------------
 # BRAND configuration
-# Set the brand image and favicon (located in /asset/images)
+# Set the fbrand image and favicon (located in /asset/images)
 brand:
-  image:                                icons/kammama/kammama-icon.png
+  image:                                icons/kammama/kammama.png
   image_height:                         48px
   text:                                 Kammama
   text_color:                           "#9E9E9E"

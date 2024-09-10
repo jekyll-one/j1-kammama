@@ -89,7 +89,7 @@ settings:
               type:                     text
               position:                 left                                    # left | center
               title:                    Auf's Auge und in's Ohr
-              tagline:                  <b>Video und Audio von Heute und Gestern</b>
+              tagline:                  <b>Beliebte Videos und Audios von Heute und Gestern</b>
               translate_description:    notranslate                             # translate|notranslate
               description_properties:   mt-3 mb-3
               description: >

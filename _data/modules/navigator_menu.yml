@@ -28,32 +28,44 @@
 # ------------------------------------------------------------------------------
 # Menu Podcasts
 #
-- item:                                 Podcasts
+- item:                                 Audio
   sublevel:
 
-    - title:                            Spontanorama
-      href:                             /pages/public/audio/podcast/spontanorama/
-      icon:                             book-marker
+      - title:                          Hörbücher
+        icon:                           volume-high
+        dropdown:
+
+          - title:                      Spontanorama
+            href:                       /pages/public/audio/podcast/spontanorama/
+            icon:                       ear-hearing
+
+      - title:                          Podcasts
+        icon:                           volume-high
+        dropdown:
+
+          - title:                      Spontanorama
+            href:                       /pages/public/audio/podcast/spontanorama/
+            icon:                       ear-hearing
 
 # ------------------------------------------------------------------------------
 # Menu Filme & Serien
 #
-- item:                                 Filme & Serien
+- item:                                 Video
   sublevel:
 
       - title:                          Filme
-        icon:                           eye
+        icon:                           video
         dropdown:
           - title:                      Spontanorama
             href:                       /pages/public/audio/podcast/spontanorama/
-            icon:                       book-marker
+            icon:                       eye
 
       - title:                          Serien
-        icon:                           eye
+        icon:                           video
         dropdown:
           - title:                      Spontanorama
             href:                       /pages/public/audio/podcast/spontanorama/
-            icon:                       book-marker
+            icon:                       eye
 
 # ------------------------------------------------------------------------------
 # Menu BLOG
