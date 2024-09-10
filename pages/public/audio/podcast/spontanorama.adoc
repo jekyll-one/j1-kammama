@@ -1,0 +1,83 @@
+---
+title:                                  Spontanorama
+tagline:                                Podcast mit Ralf Schmitz
+
+#date:                                  2024-05-23
+#last_modified:                         2024-05-23
+
+description: >
+                                        Hier ist alles möglich, denn kein Gast ist vorherbestimmt – Ralf Schmitz weiß
+                                        nie, wer als Nächstes durch die Tür tritt. Während er im Studio ungeduldig
+                                        wartet, läuft draußen ein Teammitglied durch die Straßen, auf der Suche
+                                        nach wildfremden Passantinnen und Passanten, die jetzt in diesem Moment
+                                        bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
+                                        quatschen.
+keywords: >
+                                        Spontanorama, Podcast, Ralf Schmitz
+
+categories:                             [ Podcast ]
+tags:                                   [ Impro, Ralf Schmitz ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/spontanorama.png
+  width:                                1920
+  height:                               1200
+
+regenerate:                             false
+personalization:                        true
+permalink:                              /pages/public/audio/podcast/spontanorama/
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+#     opacity:                          0.5
+#     alignY:                           0.3
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/spontanorama.png
+          alt:                          spontanorama
+---
+
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+[role="dropcap"]
+The Audio tag in HTML5 is a great way to add audio media to web pages.
+However, the browser fully controls the audio playback interface,
+which can limit or even break a page's design if audio media is used.
+
+AmplitudeJS for J1 Template offers a straightforward solution for web
+developers. It allows them to easily customize the appearance of their audio
+players without the need for complex scripting. By leveraging J1 Template
+and Amplitude's API, web designers can craft unique interfaces that define
+the visual and functional aspects of a player's audio control elements.
+
+mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+*5-10 Minutes* to read
+
+
+[role="mt-5"]
+== Podcasts 2024
+
+Audio players can easily be embedded in web pages using the *audio* tag
+`<audio>.` Browsers have a built-in framework for decoding and playing audio
+content directly within a webpage.
+
+.Emancipator · From Dusk To Dawn
+amplitude::free_emancipator_large[role="mt-3 mb-5"]

@@ -1,0 +1,114 @@
+---
+title:                                  Kultserie
+tagline:                                aus den 1970ern
+
+#date:                                  2024-09-01
+#last_modified:                         2023-01-01
+
+description: >
+                                        Die beiden Truckerfahrer Franz Meersdonk (Manfred Krug) und
+                                        Günther Willers (Rüdiger Kirschstein) fahren Terminfracht durch die ganze Welt.
+                                        Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
+                                        und Sitten, sondern auch auf viele zwielichtige Typen, Diebe und
+                                        Halsabschneider.
+keywords: >
+                                        open source, free, template, jekyll, jekyllone, web,
+                                        sites, static, jamstack, bootstrap
+
+categories:                             [ TV Serie ]
+tags:                                   [ Epos, Trucker ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/auf-achse.png
+  width:                                1920
+  height:                               1200
+
+group:                                  Featured
+#series:                                Featured
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+
+resources:                              [ animate ]
+resource_options:
+  - attic:
+      opacity:                          0.5
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/auf-achse.png
+          alt:                          Auf Achse
+          alignY:                       0.3
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+// Place an excerpt at the most top position
+// -----------------------------------------------------------------------------
+[role="dropcap"]
+Die beiden Truckerfahrer Franz Meersdonk (Manfred Krug) und Günther Willers
+(Rüdiger Kirschstein) fahren Terminfracht durch die ganze Welt.
+
+Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
+und Sitten, sondern auch auf viele zwielichtige Typen, Diebe und
+Halsabschneider.
+
+excerpt__end
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Auf Achse ist der Titel einer deutschen Fernsehserie der ARD. Die Serie wurde
+von 1978 bis 1996 gedreht und lief im Vorabendprogramm. Es wurden insgesamt
+86 Folgen produziert.
+
+mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
+*5 Minutes* zum lesen
+
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Format der Serie
+
+Quelle: https://de.wikipedia.org/wiki/Auf_Achse_(Fernsehserie)[Auf_Achse (Fernsehserie, {browser-window--new} ]
+
+Die Idee zu der Fernfahrer-Serie stammt von Georg Feil, und das Projekt
+wurde dann zusammen mit dem Regisseur Hartmut Griesmayr sowie dem Kameramann
+Joseph Vilsmaier geplant und gestartet.
+
+Die Besetzung der Hauptrollen war dabei nicht einfach. Gesucht wurden zwei
+Schauspieler, die LKW fahren konnten. Nachdem zunächst eine andere Besetzung
+für die Hauptrolle des Franz Meersdonk geplant war, wurde schließlich
+Manfred Krug engagiert, der gerade aus der DDR in die Bundesrepublik
+ausgereist war.
+
+Als dessen Gegenpart Günther Willers verpflichtete man Rüdiger Kirschstein.
+Um das Alltagsleben der Fernfahrer möglichst realitätsnah und fehlerfrei zu
+zeigen, wurde eigens der erfahrene selbständige Fernfahrer Engelbert Teischl
+(Orient-Berti) aus Freising als Berater für die erste Staffel engagiert.
+
+Teischl fuhr selbst regelmäßig in den Nahen Osten. Er hatte die Aufgabe,
+die Crew u. a. dahingehend zu instruieren, dass die Bewegungen, Abläufe
+und Rituale der Fernfahrer in der Serie echt aussahen. Entsprechend wurde
+im Konzept zu dieser Serie Wert darauf gelegt, die Länder, Menschen und
+Kulturen so zu zeigen, wie sie sind. Daher werden die Einheimischen meist
+in ihrer Landessprache zu hören sein und keine Untertitel angeboten.
+Man setzte grundsätzlich auf Statisten und oft auf Schauspieler aus dem
+jeweiligen Land.

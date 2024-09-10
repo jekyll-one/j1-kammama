@@ -1,0 +1,831 @@
+# ------------------------------------------------------------------------------
+# ~/_data/modules/j1_navigator_menu.yml (development)
+# Configuration of the J1 NAV Module for the main navigation bar
+#
+# Product/Info:
+# https://jekyll.one
+#
+# Copyright (C) 2023, 2024 Juergen Adams
+#
+# J1 Template is licensed under the MIT License.
+# See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
+# ------------------------------------------------------------------------------
+# NOTE:
+#   For general navigation settings, see navigator.yml
+# ------------------------------------------------------------------------------
+# NOTE:
+#   NO default settings
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Menu TOUR
+#
+- item:                                 Tour
+  sublevel:
+
+    - title:                            Image
+      href:                             /pages/public/tour/present_images/
+      icon:                             image
+    - title:                            Audio
+      href:                             /pages/public/tour/present_audio/
+      icon:                             volume-high
+    - title:                            Video
+      href:                             /pages/public/tour/present_video/
+      icon:                             video
+
+    - title:                            Typography
+      href:                             /pages/public/tour/typography/
+      icon:                             format-text
+    - title:                            Icons
+      href:                             /pages/public/tour/mdi_icon_font/
+      icon:                             fan
+    - title:                            Extensions
+      href:                             /pages/public/tour/asciidoc_extensions/
+      icon:                             format-annotation-plus
+    - title:                            Modals
+      href:                             /pages/public/tour/modals/
+      icon:                             image
+    - title:                            Tables
+      href:                             /pages/public/tour/responsive_tables/
+      icon:                             table
+
+    - title:                            Themes
+      href:                             /pages/public/tour/themes/
+      icon:                             theme-light-dark
+    - title:                            Highligher
+      href:                             /pages/public/tour/rouge/
+      icon:                             code-parentheses
+    - title:                            Search
+      href:                             /pages/public/tour/quicksearch/
+      icon:                             magnify
+
+# ------------------------------------------------------------------------------
+# Menu LEARN
+#
+- item:                                 Learn
+  sublevel:
+
+    - title:                            Where to go
+      href:                             /pages/public/learn/where_to_go/
+      icon:                             foot-print
+
+#   - title:                            Core Web Vitals
+#     href:                             /pages/public/learn/core_web_vitals/
+#     icon:                             quadcopter
+#
+#   - title:                            BS Sass Variables
+#     href:                             /pages/public/learn/bs_sass_variables/
+#     icon:                             code-tags
+
+    # --------------------------------------------------------------------------
+    # Collections
+    #
+    - title:                            Collections
+      icon:                             application
+      dropdown:
+
+        - title:                        Jekyll Collections
+          href:                         /pages/public/learn/bookshelf/jekyll_collections/
+          icon:                         head-question
+
+        - title:                        Bookshelf
+          href:                         /pages/public/learn/bookshelf/viewer_all_books/
+          icon:                         book-marker
+
+        - title:                        Bookshelf Collection
+          icon:                         eye
+          dropdown:
+            - title:                    Biography
+              href:                     /pages/public/learn/bookshelf/article_previewer/biography/
+              icon:                     book-marker
+            - title:                    Fantasy
+              href:                     /pages/public/learn/bookshelf/article_previewer/fantasy/
+              icon:                     book-marker
+            - title:                    Romance
+              href:                     /pages/public/learn/bookshelf/article_previewer/romance/
+              icon:                     book-marker
+
+    # --------------------------------------------------------------------------
+    # Tutorials
+    #
+    - title:                            Tutorials
+      icon:                             wizard-hat
+      dropdown:
+
+        - title:                        Rocketstart
+          href:                         //jekyll.one/pages/public/learn/rocketstart/
+          icon:                         rocket-launch
+          target:                       _blank
+
+
+        - title:                        Site Development
+          href:                         //jekyll.one/pages/public/learn/devstart/
+          icon:                         launch
+
+        - title:                        Jekyll In A Day
+          icon:                         alpha-j-box
+          dropdown:
+
+            - title:                    Meet & Greet
+              href:                     //jekyll.one/pages/public/learn/kickstart/web_in_a_day/meet_and_greet/
+              icon:                     human-queue
+              target:                   _blank
+            - title:                    A awesome Site
+              href:                     //jekyll.one/pages/public/learn/kickstart/web_in_a_day/a_awesome_site/
+              icon:                     sitemap
+              target:                   _blank
+            - title:                    Development System
+              href:                     //jekyll.one/pages/public/learn/kickstart/web_in_a_day/dev_system/
+              icon:                     hammer-wrench
+              target:                   _blank
+            - title:                    Project Management
+              href:                     //jekyll.one/pages/public/learn/kickstart/web_in_a_day/manage_projects/
+              icon:                     abacus
+              target:                   _blank
+            - title:                    Creating content
+              href:                     //jekyll.one/pages/public/learn/kickstart/web_in_a_day/create_content/
+              icon:                     file-document-edit
+              target:                   _blank
+
+        - title:                        Learning SEO
+          icon:                         wizard-hat
+          dropdown:
+
+            - title:                    What SEO Is
+              href:                     //jekyll.one/pages/public/learn/kickstart/learning_seo/what_seo_is/
+              icon:                     search-web
+              target:                   _blank
+            - title:                    Factors of Success
+              href:                     //jekyll.one/pages/public/learn/kickstart/learning_seo/success_factors/
+              icon:                     calculator-variant-outline
+              target:                   _blank
+            - title:                    Structured Data
+              href:                     //jekyll.one/pages/public/learn/kickstart/learning_seo/structured_data/
+              icon:                     sitemap
+              target:                   _blank
+            - title:                    Content Optimization
+              href:                     //jekyll.one/pages/public/learn/kickstart/learning_seo/content_optimization/
+              icon:                     calculator-variant-outline
+              target:                   _blank
+
+# ------------------------------------------------------------------------------
+# TopLevel item FEATURES
+#
+# - item:                                 Features
+#   href:                                 /#panel_home_intro
+
+# ------------------------------------------------------------------------------
+# TopLevel item BLOG
+#
+# - item:                                 Blog
+#   href:                                 /#home_news_panel
+
+# ------------------------------------------------------------------------------
+# Menu BLOG
+#
+- item:                                 Blog
+  sublevel:
+
+    - title:                            Navigator
+      href:                             /pages/public/blog/navigator/
+      icon:                             near-me
+    - title:                            Categories
+      href:                             /pages/public/blog/navigator/archive/categoryview/
+      icon:                             pin
+    - title:                            Date
+      href:                             /pages/public/blog/navigator/archive/dateview/
+      icon:                             calendar
+    - title:                            Archive
+      href:                             /pages/public/blog/navigator/archive/allview/
+      icon:                             archive
+
+# ------------------------------------------------------------------------------
+# Menu MANUALS
+#
+- item:                                 Manuals
+  sublevel:
+
+    - title:                            Where to go
+      href:                             //jekyll.one/pages/public/manuals/where_to_go/
+      icon:                             foot-print
+      target:                           _blank
+
+    # --------------------------------------------------------------------------
+    # Modules
+    #
+    - title:                            Modules
+      icon:                             alpha-j-box
+      dropdown:
+
+        - title:                        lightGallery
+          href:                         //jekyll.one/pages/public/manuals/videojs/lightgallery_api/
+          icon:                         flashlight
+          target:                       _blank
+        - title:                        Speak2Me
+          href:                         //jekyll.one/pages/public/modules/speak2me/
+          icon:                         speaker
+          target:                       _blank
+        - title:                        Master Header
+          href:                         //jekyll.one/pages/public/manuals/modules/attic/
+          icon:                         window-shutter
+          target:                       _blank
+        - title:                        Carousel
+          href:                         //jekyll.one/pages/public/manuals/modules/carousel/
+          icon:                         view-carousel
+          target:                       _blank
+        - title:                        Cookie Consent
+          href:                         //jekyll.one/pages/public/manuals/modules/cookie_consent/
+          icon:                         cookie
+          target:                       _blank
+        - title:                        Galleries
+          href:                         //jekyll.one/pages/public/manuals/modules/gallery/
+          icon:                         view-dashboard-variant
+          target:                       _blank
+        - title:                        Lightbox
+          href:                         //jekyll.one/pages/public/manuals/modules/lightbox/
+          icon:                         flashlight
+          target:                       _blank
+        - title:                        Logger
+          href:                         //jekyll.one/pages/public/manuals/modules/logger/
+          icon:                         file-document-edit-outline
+        - title:                        Master Slider
+          href:                         //jekyll.one/pages/public/manuals/modules/masterslider/
+          icon:                         gesture-swipe
+          target:                       _blank
+        - title:                        Mobile Menu
+          href:                         //jekyll.one/pages/public/manuals/mmenu/
+          icon:                         menu
+          target:                       _blank
+        - title:                        MSDropdown
+          href:                         //jekyll.one/pages/public/manuals/msdropdown/
+          icon:                         form-dropdown
+          target:                       _blank
+        - title:                        Navigator
+          href:                         //jekyll.one/pages/public/manuals/modules/navigator/
+          target:                       _blank
+          icon:                         near-me
+        - title:                        Range Slider
+          href:                         //jekyll.one/pages/public/manuals/modules/rangeslider/
+          icon:                         abacus
+          target:                       _blank
+        - title:                        Themer
+          href:                         //jekyll.one/pages/public/manuals/modules/themer/
+          icon:                         theme-light-dark
+          target:                       _blank
+        - title:                        Toccer
+          href:                         //jekyll.one/pages/public/manuals/modules/toccer/
+          icon:                         wrap
+          target:                       _blank
+        - title:                        iFramer
+          href:                         //jekyll.one/pages/public/manuals/modules/iframer/
+          icon:                         window-open-variant
+          target:                       _blank
+
+    # --------------------------------------------------------------------------
+    # J1 Components
+    #
+    - title:                            Components
+      icon:                             alpha-j-box
+      dropdown:
+
+#       - title:                        Resources
+#         href:                         //jekyll.one/pages/public/manuals/j1/resources/
+#         href:                         '#'
+#         icon:                         garage
+#       - title:                        Layouts
+#         href:                         //jekyllrb.com/docs/layouts/
+#         icon:                         page-layout-body
+#         target:                       _blank
+
+        - title:                        Font Icons
+          icon:                         emoticon-cool-outline
+          dropdown:
+
+            - title:                    MDI Icons (Regular)
+              href:                     //jekyll.one/pages/public/manuals/components/fonticons/mdi/
+              icon:                     emoticon-cool-outline
+              target:                   _blank
+
+            - title:                    MDI Icons (Light)
+              href:                     //jekyll.one/pages/public/manuals/components/fonticons/mdil/
+              icon:                     emoticon-cool-outline
+              target:                   _blank
+
+#        - title:                        Blocks
+#          icon:                         page-layout-header-footer
+#          dropdown:
+
+#           - title:                    Banner And Panel
+#              href:                     '#'
+#              href:                     //jekyll.one/pages/public/manuals/components/j1/blocks/banner_panel/
+#              icon:                     order-bool-descending
+
+#            - title:                    Footer
+#              href:                     //jekyll.one/pages/public/manuals/components/j1/blocks/footer/
+#              icon:                     order-bool-ascending
+
+#       - title:                        Content
+#         icon:                         file
+#         dropdown:
+
+#           - title:                    Pages
+#             href:                     '#'
+#             href:                     //jekyll.one/pages/public/manuals/components/j1/content/pages/
+#             icon:                     file-document
+
+#           - title:                    Posts
+#             href:                     '#'
+#             href:                     //jekyll.one/pages/public/manuals/components/j1/content/posts/
+#             icon:                     file-delimited
+
+#           - title:                    Collections
+#             href:                     //jekyll.one/pages/public/manuals/components/j1/content/collections/
+#             icon:                     file-percent
+#           - title:                    Posts
+#           - title:                    Collections
+#             href:                     //jekyll.one/pages/public/manuals/j1/content/collections/
+#             icon:                     file-percent
+#             target:                   _blank
+
+    # --------------------------------------------------------------------------
+    # J1 Integrations
+    #
+    - title:                            Integrations
+      icon:                             alpha-j-box
+      dropdown:
+
+        - title:                        Google
+          icon:                         google
+          dropdown:
+
+            - title:                    Google Translate
+              href:                     '#'
+              icon:                     google-translate
+            - title:                    Google Analytics
+              href:                     '#'
+              icon:                     google-analytics
+
+            - title:                    Google Adsense
+              href:                     //jekyll.one/pages/public/manuals/integrations/google/adsense/
+              icon:                     google-ads
+            - title:                    Google Gemini
+              href:                     //jekyll.one//pages/public/manuals/integrations/google/gemini/
+              icon:                     robot
+
+        - title:                        Audio
+          icon:                         speaker
+          dropdown:
+
+          - title:                      AmplitudeJS API
+            href:                       /pages/public/manuals/integrations/amplitudejs/amplitudejs_api/
+            icon:                       speaker
+
+        - title:                        Video
+          icon:                         video
+          dropdown:
+
+            - title:                    VideoJS API
+              href:                     //jekyll.one/pages/public/manuals/integrations/videojs/videojs_api/
+              icon:                     video
+            - title:                    YouTube API
+              href:                     //jekyll.one/pages/public/manuals/videojs/youtube_api/
+              icon:                     video
+            - title:                    Dailymotion API
+              href:                     //jekyll.one/pages/public/manuals/integrations/videojs/dailymotion_api/
+              icon:                     video
+            - title:                    Vimeo API
+              href:                     //jekyll.one/pages/public/manuals/integrations/videojs/vimeo_api/
+              icon:                     video
+            - title:                    Wistia API
+              href:                     //jekyll.one/pages/public/manuals/integrations/videojs/wistia_api/
+              icon:                     video
+
+#       - title:                        Comment Providers
+#         icon:                         comment
+#         dropdown:
+
+#           - title:                      Hyvor Talk
+#             href:                       '#'
+#             icon:                       comment-outline
+
+#           - title:                      Disqus
+#             href:                       '#'
+#             icon:                       disqus
+
+    # --------------------------------------------------------------------------
+    # J1 Plugins
+    #
+    - title:                            Plugins
+      icon:                             alpha-j-box
+      dropdown:
+
+#       - title:                        Internal Plugins
+#         icon:                         power-plug-outline
+#         dropdown:
+#
+#           - title:                    J1 SiteMap
+#             href:                     '#'                                     # //jekyll.one/pages/public/manuals/j1/plugins/j1_sitemap/
+#             icon:                     map-marker-radius
+#           - title:                    J1 SEO Tags
+#             href:                     '#'                                     # //jekyll.one/pages/public/manuals/j1/plugins/j1_seo_tags/
+#             icon:                     tag-text
+#           - title:                    J1 Feeds
+#             href:                     '#'                                     # //jekyll.one/pages/public/manuals/j1/plugins/j1_feeds/
+#             icon:                     slide
+#           - title:                    J1 Quicksearch
+#             href:                     '#'                                     # //jekyll.one/pages/public/manuals/j1/plugins/quicksearch/
+#             icon:                     magnify
+
+        - title:                        External Plugins
+          icon:                         power-plug
+          dropdown:
+
+            - title:                    Asciidoctor
+              href:                     //jekyll.one/pages/public/manuals/components/j1/plugins/asciidoctor/
+              icon:                     hospital
+              target:                   _blank
+
+#           - title:                    J1 Paginator
+#             href:                     //jekyll.one/pages/public/manuals/components/j1/plugins/j1_paginator/
+#             href:                     '#'
+#             icon:                     page-last
+
+# ------------------------------------------------------------------------------
+# Menu TOOLS
+#
+- item:                                 Tools
+  sublevel:
+
+    # --------------------------------------------------------------------------
+    # Previewer
+    #
+    - title:                            Previewer
+      icon:                             eye
+      dropdown:
+
+      - title:                          Current Theme
+        href:                           /pages/public/tools/previewer/current_theme/
+        icon:                           theme-light-dark
+
+#      - title:                         J1 DocSearch
+#        href:                          ://jekyll.one/pages/public/tools/previewer/docsearch/
+#        icon:                          head-question
+#        target:                        _blank
+#      - title:                         J1 iFramer
+#        href:                          //jekyll.one/pages/public/tools/previewer/iframer/
+#        icon:                          window-open-variant
+#        target:                        _blank
+
+#      - title:                         Icon Picker
+#        href:                          /pages/public/test_icon_picker/
+#        icon:                          emoticon-cool-outline
+#      - title:                         Google Gemini AI
+#        href:                          /pages/public/tools/previewer/google-gemini-ai/
+#        icon:                          robot
+#      - title:                         Google Gemini AI
+#        href:                          //jekyll.one/pages/public/tools/previewer/google-gemini-ai/
+#        icon:                          robot
+#        target:                        _blank
+
+      - title:                          J1 Amplitude
+        href:                           /pages/public/tools/previewer/amplitudejs/
+        icon:                           speaker
+
+      - title:                          J1 Geolocation
+        href:                           //jekyll.one/pages/public/tools/previewer/geolocation/
+        icon:                           google-maps
+        target:                         _blank
+      - title:                          J1 Gemini
+        href:                           //jekyll.one/pages/public/tools/previewer/google-gemini-ai/
+        icon:                           robot
+        target:                         _blank
+      - title:                          J1 Gallery
+        href:                           //jekyll.one/pages/public/tools/previewer/gallery/
+        icon:                           view-dashboard-variant
+        target:                         _blank
+      - title:                          J1 Masonry
+        href:                           //jekyll.one/pages/public/tools/previewer/masonry/
+        icon:                           view-dashboard-variant
+        target:                         _blank
+      - title:                          J1 VideoJS
+        href:                           //jekyll.one/pages/public/tools/previewer/videojs/
+        icon:                           video
+        target:                         _blank
+      - title:                          J1 Speech Converter
+        href:                           //jekyll.one/pages/public/tools/previewer/speak2me/
+        icon:                           speaker
+        target:                         _blank
+      - title:                          J1 Slick Slider
+        href:                           //jekyll.one/pages/public/tools/previewer/slick/
+        icon:                           view-carousel
+        target:                         _blank
+      - title:                          J1 Master Slider
+        href:                           //jekyll.one/pages/public/tools/previewer/masterslider/
+        icon:                           view-carousel
+        target:                         _blank
+      - title:                          J1 Font Icons
+        href:                           //jekyll.one/pages/public/tools/previewer/icon-picker/
+        icon:                           emoticon-cool-outline
+        target:                         _blank
+      - title:                          J1 Flag Icons
+        href:                           //jekyll.one/pages/public/tools/previewer/country_flags/
+        icon:                           flag
+        target:                         _blank
+      - title:                          J1 Highlighter
+        href:                           //jekyll.one/pages/public/tools/previewer/rouge/
+        icon:                           code-parentheses
+        target:                         _blank
+      - title:                          J1 Colors
+        href:                           //jekyll.one/pages/public/tools/previewer/color_palette/
+        icon:                           format-color-fill
+        target:                         _blank
+
+    # --------------------------------------------------------------------------
+    # Cheatsheets
+    #
+    - title:                            Cheatsheets
+      icon:                             book
+      dropdown:
+
+        - title:                        J1
+          href:                         //jekyll.one/pages/public/tools/cheatsheet/j1/
+          icon:                         alpha-j-box-outline
+          target:                       _blank
+        - title:                        YAML
+          href:                         //jekyll.one/pages/public/tools/cheatsheet/yaml/
+          icon:                         alpha-y-box-outline
+          target:                       _blank
+        - title:                        Git
+          href:                         //jekyll.one/pages/public/tools/cheatsheet/git/
+          icon:                         git
+          target:                       _blank
+        - title:                        Gem
+          href:                         //jekyll.one/pages/public/tools/cheatsheet/gem/
+          icon:                         language-ruby
+          target:                       _blank
+
+    # --------------------------------------------------------------------------
+    # Tools
+    #
+    - title:                            ToolBox
+      icon:                             toolbox
+      dropdown:
+
+        - title:                        HTML Validation
+          href:                         //jekyll.one/pages/public/tools/toolbox/html_validation/
+          icon:                         language-html5
+          target:                       _blank
+        - title:                        Pandoc
+          href:                         //jekyll.one/pages/public/tools/toolbox/pandoc/
+          icon:                         cog-transfer
+          target:                       _blank
+        - title:                        Platform
+          href:                         //jekyll.one/pages/public/tools/toolbox/platform/
+          icon:                         folder-information
+          target:                       _blank
+
+        # ----------------------------------------------------------------------
+        # AsciiDoc
+        #
+        - title:                        Asciidoc
+          icon:                         format-color-text
+          dropdown:
+
+            - title:                    Language Documentation
+              href:                     //docs.asciidoctor.org/asciidoc/latest/
+              icon:                     book
+              target:                   _blank
+
+            - title:                    Asciidoctor Documentation
+              href:                     //docs.asciidoctor.org/asciidoctor/latest/
+              icon:                     hospital
+              target:                   _blank
+
+            - title:                    Asciidoctor CLI
+              href:                     //docs.asciidoctor.org/asciidoctor/latest/cli/
+              icon:                     hospital
+              target:                   _blank
+
+        # ----------------------------------------------------------------------
+        # Jekyll
+        #
+        - title:                        Jekyll
+          icon:                         flask
+          dropdown:
+
+            - title:                    Liquid
+              href:                     //jekyll.one/pages/public/tools/toolbox/liquid/
+              icon:                     mustache
+              target:                   _blank
+            - title:                    Commandline
+              href:                     //jekyll.one/pages/public/tools/toolbox/jekyll/commandline/
+              icon:                     console-line
+              target:                   _blank
+            - title:                    Configuration
+              href:                     //jekyll.one/pages/public/tools/toolbox/jekyll/configuration/
+              icon:                     code-braces
+              target:                   _blank
+            - title:                    Time and Date formats
+              href:                     //jekyll.one/pages/public/tools/toolbox/jekyll/date_time_formats/
+              icon:                     calendar-blank
+              target:                   _blank
+
+# ------------------------------------------------------------------------------
+# Menu ONLINE
+#
+- item:                                 Online
+  megamenu:
+
+    - title:                            Sites
+      icon:                             web
+      column:
+        - title:                        Jekyll Home
+          href:                         //jekyllrb.com/
+          target:                       _blank
+          icon:                         flask
+        - title:                        Jekyll Talk
+          href:                         //talk.jekyllrb.com/
+          target:                       _blank
+          icon:                         flask
+        - title:                        Asciidoctor
+          href:                         //asciidoctor.org/
+          target:                       _blank
+          icon:                         hospital
+        - title:                        Ruby
+          href:                         //www.ruby-lang.org/en/
+          target:                       _blank
+          icon:                         language-ruby
+        - title:                        RubyGems
+          href:                         //rubygems.org/gems/j1-template/
+          target:                       _blank
+          icon:                         language-ruby
+        - title:                        NpmJS
+          href:                         //www.npmjs.com/
+          target:                       _blank
+          icon:                         language-javascript
+        - title:                        jQuery
+          href:                         //jquery.com/
+          target:                       _blank
+          icon:                         jquery
+        - title:                        Bootstrap Home
+          href:                         //getbootstrap.com/
+          target:                       _blank
+          icon:                         bootstrap
+        - title:                        Bootstrap CDN
+          href:                         //bootstrapcdn.com/
+          target:                       _blank
+          icon:                         bootstrap
+        - title:                        FA Icons
+          href:                         //fontawesome.io/icons/
+          target:                       _blank
+          icon:                         font-awesome
+        - title:                        MD Icons
+          href:                         //materialdesignicons.com/
+          target:                       _blank
+          icon:                         google
+        - title:                        cdnJS
+          href:                         //cdnjs.com/
+          target:                       _blank
+          icon:                         cloud-outline
+
+    - title:                            Knowledge
+      icon:                             lightbulb-on
+      column:
+        - title:                        Learn Jekyll at CloudCannon
+          href:                         //jekyll.tips/
+          target:                       _blank
+          icon:                         flask
+        - title:                        Jekyll Cheat Sheet
+          href:                         //learn.cloudcannon.com/jekyll-cheat-sheet/
+          target:                       _blank
+          icon:                         flask
+        - title:                        Jekyll Stackoverflow
+          href:                         //stackoverflow.com/questions/tagged/jekyll
+          target:                       _blank
+          icon:                         flask
+        - title:                        BS 5 Stackoverflow
+          href:                         //stackoverflow.com/questions/tagged/bootstrap-5
+          target:                       _blank
+          icon:                         bootstrap
+        - title:                        W3 Schools
+          href:                         //www.w3schools.com/
+          target:                       _blank
+          icon:                         xml
+        - title:                        SelfHTML
+          href:                         //wiki.selfhtml.org/
+          target:                       _blank
+          icon:                         language-html5
+        - title:                        Learn CSS
+          href:                         //developer.mozilla.org/en-US/docs/Learn/CSS
+          target:                       _blank
+          icon:                         language-css3
+        - title:                        Learn Javascript
+          href:                         https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+          target:                       _blank
+          icon:                         language-javascript
+        - title:                        Asciidoc Language
+          href:                         //docs.asciidoctor.org/asciidoc/latest/
+          target:                       _blank
+          icon:                         format-color-text
+        - title:                        Asciidoctor Docs
+          href:                         //docs.asciidoctor.org/asciidoctor/latest/
+          target:                       _blank
+          icon:                         hospital
+        - title:                        Asciidoctor QuickReference
+          href:                         //docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+          target:                       _blank
+          icon:                         hospital
+        - title:                        Asciidoctor Writers Gude
+          href:                         //asciidoctor.org/docs/asciidoc-writers-guide/
+          target:                       _blank
+          icon:                         hospital
+
+    - title:                            Tools
+      icon:                             wrench
+      column:
+
+        - title:                        FreeFormatter
+          href:                         //freeformatter.com/
+          target:                       _blank
+          icon:                         cached
+        - title:                        AppDevTools
+          href:                         //appdevtools.com/
+          target:                       _blank
+          icon:                         cached
+        - title:                        Minify JS Online
+          href:                         //minify-js.com/
+          target:                       _blank
+          icon:                         cached
+        - title:                        W3C Validator
+          href:                         //validator.w3.org/
+          target:                       _blank
+          icon:                         language-html5
+        - title:                        Closing Tag Checker
+          href:                         //aliciaramirez.com/closing-tags-checker/
+          target:                       _blank
+          icon:                         language-html5
+        - title:                        Convert CSS to Sass
+          href:                         //cssportal.com/css-to-scss/
+          target:                       _blank
+          icon:                         language-css3
+        - title:                        CSS Matic Tools
+          href:                         //www.cssmatic.com
+          target:                       _blank
+          icon:                         language-css3
+        - title:                        JSON Editor
+          href:                         //jsoneditoronline.org/
+          target:                       _blank
+          icon:                         code-json
+        - title:                        YAML Parser
+          href:                         //yaml-online-parser.appspot.com/
+          target:                       _blank
+          icon:                         code-braces
+        - title:                        Character Codes
+          href:                         //html.spec.whatwg.org/multipage/named-characters.html
+          target:                       _blank
+          icon:                         alpha-a-box-outline
+        - title:                        RegEx 101
+          href:                         //regex101.com/
+          target:                       _blank
+          icon:                         regex
+        - title:                        RegEx Library
+          href:                         //regexlib.com/
+          target:                       _blank
+          icon:                         regex
+
+# ------------------------------------------------------------------------------
+# Menu Themes
+#
+- item:                                 Theme
+  theme_select:
+    - preview:                          enabled
+      title:                            Preview
+      href:                             /pages/public/tools/previewer/current_theme/
+      icon:                             eye
+    - local_themes:                     enabled
+      title:                            Jekyll One
+      icon:                             alpha-j-box
+    - bootswatch_themes:                enabled
+      title:                            Bootswatch
+      icon:                             bootstrap
+
+# ------------------------------------------------------------------------------
+# Menu ABOUT
+#
+- item:                                 About
+  sublevel:
+    - title:                            Starter
+      icon:                             home-variant-outline
+      href:                             /pages/public/about/starter/
+    - title:                            Issues
+      icon:                             bug
+      href:                             /pages/public/about/reporting_issues/
+    - title:                            Features
+      icon:                             wrench
+      href:                             /pages/public/about/features/
+    - title:                            Privacy
+      icon:                             heart
+      href:                             /pages/public/legal/en/privacy/
+
+# ------------------------------------------------------------------------------
+# END config

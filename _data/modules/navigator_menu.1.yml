@@ -1,0 +1,101 @@
+# ------------------------------------------------------------------------------
+# ~/_data/modules/j1_navigator_menu.yml (runtime)
+# Configuration of the J1 NAV Module for the main navigation bar
+#
+# Product/Info:
+# https://jekyll.one
+#
+# Copyright (C) 2023 Juergen Adams
+#
+# J1 Theme is licensed under the MIT License.
+# See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
+#
+# ------------------------------------------------------------------------------
+# NOTE:
+#   For general navigation settings, see navigator.yml
+# ------------------------------------------------------------------------------
+# NOTE:
+#   NO default settings
+# ------------------------------------------------------------------------------
+
+
+# ------------------------------------------------------------------------------
+# TopLevel item
+#
+- item:                                 Top Story
+  href:                                 /#top-story
+
+# ------------------------------------------------------------------------------
+# Menu STORIES
+#
+- item:                                 Stories
+  sublevel:
+
+    - title:                            Masturbation
+      href:                             /pages/public/stories/masturbation/
+      icon:                             heart
+    - title:                            Sexualpädagogik
+      href:                             /pages/public/stories/sex_education/
+      icon:                             wizard-hat
+
+#   - title:                            Zuammengefasst
+#     href:                             /pages/public/stories/summarized/
+#     icon:                             gender-male-female-variant
+
+# ------------------------------------------------------------------------------
+# Menu BLOG
+#
+- item:                                 Blog
+  sublevel:
+
+    - title:                            Navigator
+      href:                             /pages/public/blog/navigator/
+      icon:                             near-me
+    - title:                            Kategorien
+      href:                             /pages/public/blog/navigator/archive/categoryview/
+      icon:                             pin
+    - title:                            Archiv
+      href:                             /pages/public/blog/navigator/archive/allview/
+      icon:                             archive
+
+# ------------------------------------------------------------------------------
+# Menu BOOKS
+#
+- item:                                 Bücher
+  sublevel:
+
+    - title:                            Kinderbücher
+      href:                             /pages/public/learn/bookshelf/child_readers/
+      icon:                             book-marker
+    - title:                            Jugendbücher
+      href:                             /pages/public/learn/bookshelf/young_readers/
+      icon:                             book-marker
+    - title:                            Erotische Literatur
+      href:                             /pages/public/learn/bookshelf/adult_readers/
+      icon:                             book-marker
+
+# ------------------------------------------------------------------------------
+# Menu ABOUT
+#
+- item:                                 Über
+  sublevel:
+
+#   - title:                            Wo gehts lang
+#     href:                             /pages/public/about/where_to_go/
+#     icon:                             foot-print
+
+    - title:                            Diese Website
+      icon:                             home-variant-outline
+      href:                             /pages/public/about/site/
+    - title:                            Making-of
+      icon:                             tools
+      href:                             /pages/public/about/making-of/
+    - title:                            Privatsphäre
+      icon:                             heart
+      href:                             /pages/public/legal/de/privacy/
+    - title:                            Kommentare
+      icon:                             comment
+      href:                             /pages/public/legal/de/comment_policy/
+
+# ------------------------------------------------------------------------------
+# END config

@@ -1,0 +1,118 @@
+---
+title:                                  Impressum
+tagline:                                Informationen zum Betreiber
+
+date:                                   2024-01-19
+#last_modified:                         2024-01-19
+
+description: >
+                                        Erforderliche Informationen der zum Inhalt
+                                        Verantwortlichen Personen gemäß § 18 Abs. 1 MStV
+                                        der deutschen Gesetzgebung zu Informationspflichten
+                                        und Auskunftsrechten
+
+categories:                             [ Site ]
+tags:                                   [ Impress ]
+
+robots:
+  index:                                false
+  follow:                               false
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/lum3n.jpg
+  width:                                1920
+  height:                               1200
+
+sitemap:                                false
+exclude_from_search:                    true
+fab_menu_id:                            default
+comments:                               false
+toc:                                    false
+regenerate:                             false
+permalink:                              /pages/public/legal/de/impress/
+
+resources:                              []
+resource_options:
+  - attic:
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/lum3n.jpg
+          alt:                          LUM3N
+          badge:
+            type:                       unsplash
+            author:                     LUM3N
+            href:                       //unsplash.com/de/@lum3n
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:eu-region:                             true
+:legal-warning:                         false
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="none" %}
+
+ifeval::[{legal-warning} == false]
+[role="mt-4"]
+[WARNING]
+====
+Dieses Dokument *stellt* keine *Rechtsberatung* dar. Es ist dringend empfohlen,
+rechtliche Aspekte und deren Auswirkungen zu überprüfen.
+====
+endif::[]
+
+// NOTE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Ist ein Impressum gesetzlich vorgeschrieben?
+// Ein Impressum ist auf allen kommerziellen Websites, die im
+// deutschsprachigen Raum veröffentlicht werden, gesetzlich vorgeschrieben
+// (Deutschland, Österreich und der Schweiz). Dies gilt unabhängig davon,
+// ob die Website über eine .de-Top-Level-Domain veröffentlicht wird oder nicht.
+//
+// Wenn Sie lediglich einen persönlichen Blog ohne Werbung haben und kein
+// Geld damit verdienen, ist das Impressum nicht erforderlich.
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Nachfolgend finden Sie alle erforderlichen Informationen der zum Inhalt
+verantwortlichen Personen gemäß der Deutschland gültigen Regeln nach
+§ 18 Abs. 1 MStV zu Informationspflichten und Auskunftsrechten.
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+ifeval::[{eu-region} == true]
+.Postanschrift
+----
+  Juergen Adams
+  Erasmusstrasse 28
+  40223 Duesseldorf
+----
+endif::[]
+
+.Kontakt
+[source, text]
+----
+  webmaster@jekyll.one
+----
+
+ifeval::[{eu-region} == true]
+[role="mb-7"]
+.Inhaltlich Verantwortlicher gemäß § 18 Abs. 1 MStV:
+----
+  Juergen Adams
+  Erasmusstrasse 28
+  40223 Duesseldorf
+----
+endif::[]

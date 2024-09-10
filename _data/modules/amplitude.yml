@@ -1,0 +1,122 @@
+# ------------------------------------------------------------------------------
+# ~/_data/modules/amplitude.yml
+# User Configuration of the AmplitudeJS Module
+#
+# Product/Info:
+# https://jekyll.one
+#
+# Copyright (C) 2023, 2024 Juergen Adams
+#
+# J1 Template is licensed under the MIT License.
+# See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Description
+#
+description:
+  title:                                AmplitudeJS
+  scope:                                User settings
+  location:                             _data/modules/amplitude.yml
+
+# ------------------------------------------------------------------------------
+# User settings
+#
+settings:
+
+  # ============================================================================
+  # PLAYLIST configuration
+  # ----------------------------------------------------------------------------
+  playlists:
+
+    # --------------------------------------------------------------------------
+    # Emancipator
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             emancipator
+      title:                            Emancipator
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_from_dusk_to_dawn
+        name:                           From Dusk To Dawn
+        artist:                         Emancipator
+#       audio_base:                     //521dimensions.com/song
+        audio_base:                     /assets/audio/album/emancipator/from-dusk-to-dawn
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        Dusk To Dawn
+          audio:                        DuskToDawn.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/from-dusk-to-dawn.jpg
+          duration:                     "5:25"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        First Snow
+          audio:                        FirstSnow.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/soon-it-will-be-cold-enough.jpg
+          duration:                     "5:12"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        Anthem
+          audio:                        Anthem.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/anthem.jpg
+          duration:                     "5:40"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        Safe In The Steep Cliffs
+          audio:                        SafeInTheSteepCliffs.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/safe-in-the-steep-cliffs.jpg
+          duration:                     "4:35"
+
+  # ============================================================================
+  # PLAYER configuration
+  # ----------------------------------------------------------------------------
+  players:
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Emancipator
+    # --------------------------------------------------------------------------
+    #
+    - plaver:
+      enabled:                          true
+
+      # ------------------------------------------------------------------------
+      # PLAYER settings
+      #
+      id:                               free_emancipator_large
+      type:                             large
+
+      playlist:
+        name:                           emancipator
+        title:                          Emancipator
+        audio_info:                     true
+        controls:                       true
+
+# ------------------------------------------------------------------------------
+# END config

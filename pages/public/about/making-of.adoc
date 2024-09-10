@@ -1,0 +1,144 @@
+---
+title:                                  Making-of
+title_extention:                        Die Entstehung der Seite
+tagline:                                Einblicke
+
+date:                                   2024-01-24
+#last_modified:                         2024-01-01
+
+description: >
+                                        In diesem Making-of werden Interviews mit den Beteiligten, Unterstützern und
+                                        Einblicke in den kreativen Prozess sowie lustige wie interessante Anekdoten
+                                        angeboten.
+keywords: >
+                                        Solo-Sex, Solo Sex, Solosex, Sex, Sexualität,
+                                        Beziehungen, Liebe, Partnerschaft
+
+categories:                             [ Site ]
+tags:                                   [ Review ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/lum3n.jpg
+  width:                                1920
+  height:                               1280
+
+tts:                                    true
+scrollbar:                              false
+comments:                               true
+
+regenerate:                             false
+permalink:                              /pages/public/about/making-of/
+
+resources:                              [ lightgallery, gallery, videojs ]
+resource_options:
+  - attic:
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/lum3n.jpg
+          alt:                          LUM3N
+          badge:
+            type:                       unsplash
+            author:                     LUM3N
+            href:                       //unsplash.com/de/@lum3n
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+// In diesem Making-of werden Interviews mit den Beteiligten, Unterstützern und
+// Einblicke in den kreativen Prozess sowie lustige wie interessante Anekdoten
+// angeboten.
+
+// Place an excerpt at the most top position
+// -----------------------------------------------------------------------------
+[role="dropcap"]
+Beruflich bin ich Ingenieur für Computer- und Automatisierungssyteme. Nicht
+unbedingt ein Beruf, in dem es fachlich um Sexualität geht. Und auch Privat
+hatte ich das Thema Solosex nicht auf meiner persönlichen Bucketlist.
+
+Wie komme ich also dazu, diese Seiten zu schreiben?
+
+excerpt__end
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+mdi:clock-time-five-outline[24px, md-gray mr-2 mt-4]
+*5-30 Minuten* zum Lesen
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// https://carolinkebekus.de/
+// https://hazelbrugger.com/
+// https://www.giannabacio.de/
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5 mb-4"]
+Als Hobby habe ich ein Tool link:{url-j1--home}[JekyllOne Template, {browser-window--new}]
+geschrieben, mit dessen Hilfe man Websites wie diese erstellen kann. Sie werden
+es ahnen: Diese Site ist genau mit diesem Werkzeug entstanden.
+
+Als Entwickler von Tools ist man nicht zwangsläufig auch der Spezialist in der
+Anwendung. Zudem sind in meinem Werkzeugkasten eine Reihe von Funktionen, die
+man schlicht an einem konkreten Beispiel ausprobieren muß.
+
+Eine Art von Erweckung hatte mich getroffen, als ich die *Sträter Show* mit
+_Marc-Uwe Kling_ als Gast gesehen hatte. Sexualität ist so ein Thema.
+Insbesondere für Eltern, die sehrwohl im Laufe der Zeit zu Spezialisten in
+Fragen von Erziehung der eigenen Kinder geworden sind.
+
+Dennoch sind wir *normale* Erwachsene und keine Pädagogen. Wenn es um
+spezielles Wissen geht, dass man seinen Kindern vermitteln möchte, kann soetwas
+auch gewaltig schiefgehen. Ein wie ich finde sehr amüsanter Rohrkrepierer zum
+Thema *Aufklärung* zeigt das folgende Video.
+
+.Sträter Show mit Marc-Uwe Kling (WDR Fernsehen, 11. September 2023, 10 Min)
+videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/282/2823650/2823650_48912942.mp4[start="00:32:30" poster="/assets/video/gallery/straeter-marc-uwe-kling.jpg" role="mt-4 mb-5"]
+
+Ja, es wäre schön hätte man ein kleines Vögelein das immer das Richtige ins
+Ohr flüstert. Dabei habe ich mich an eine der Shows: "Darüber lacht die Welt"
+erinnert, in der Hape Kerkeling auf seine unnachahmliche Weise mit Hilfe eines
+solchen Vögelchen eine Reihe an professionellen Schachspielern gehörig auf die
+Schippe nimmt.
+
+Der kleine Vogel war in diesem Falle die noch junge Schachmeisterin
+_Elisabeth Pähtz_. Sie ist heute Großmeisterin der Frauen und erhielt
+im November 2022 auch den allgemeinen Großmeistertitel.
+
+Schauen Sie sich das Video an, wie Hape als orientalischer Schachmeister und
+Elisabeth als Souffleuse beim FC Bayern für einigen Wirbel sorgt.
+
+.Hape Kerkeling - Schachmatt beim FC Bayern (Sat.1, Darüber lacht die Welt, 1999)
+youtube::eDwXAx79KtQ&t=5s[poster="/assets/video/gallery/hape-kerkeling-darueber-lacht-die-welt.jpg" role="mt-4 mb-5"]
+
+Doch zurück zum eigenlichen Thema. Ich bin männlich und empfinde mich seit
+meiner Geburt auch so. Was ich daher nicht Wissen kann, wie Frauen über solche
+Themen denken. Und was sie von einem Angebot wie dieer Webseite halten.
+
+
+[role="mt-4 mb-7"]
+Damit auch an dieser Stelle: Viel Spaß auf den Seiten und viele neue
+Erkenntnisse!

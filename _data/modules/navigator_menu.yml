@@ -1,0 +1,114 @@
+# ------------------------------------------------------------------------------
+# ~/_data/modules/j1_navigator_menu.yml (runtime)
+# Configuration of the J1 NAV Module for the main navigation bar
+#
+# Product/Info:
+# https://jekyll.one
+#
+# Copyright (C) 2023 Juergen Adams
+#
+# J1 Theme is licensed under the MIT License.
+# See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
+#
+# ------------------------------------------------------------------------------
+# NOTE:
+#   For general navigation settings, see navigator.yml
+# ------------------------------------------------------------------------------
+# NOTE:
+#   NO default settings
+# ------------------------------------------------------------------------------
+
+
+# ------------------------------------------------------------------------------
+# TopLevel item
+#
+- item:                                 Top Story
+  href:                                 /#top-story
+
+# ------------------------------------------------------------------------------
+# Menu Podcasts
+#
+- item:                                 Podcasts
+  sublevel:
+
+    - title:                            Spontanorama
+      href:                             /pages/public/audio/podcast/spontanorama/
+      icon:                             book-marker
+
+# ------------------------------------------------------------------------------
+# Menu Filme & Serien
+#
+- item:                                 Filme & Serien
+  sublevel:
+
+      - title:                          Filme
+        icon:                           eye
+        dropdown:
+          - title:                      Spontanorama
+            href:                       /pages/public/audio/podcast/spontanorama/
+            icon:                       book-marker
+
+      - title:                          Serien
+        icon:                           eye
+        dropdown:
+          - title:                      Spontanorama
+            href:                       /pages/public/audio/podcast/spontanorama/
+            icon:                       book-marker
+
+# ------------------------------------------------------------------------------
+# Menu BLOG
+#
+- item:                                 Blog
+  sublevel:
+
+    - title:                            Navigator
+      href:                             /pages/public/blog/navigator/
+      icon:                             near-me
+    - title:                            Kategorien
+      href:                             /pages/public/blog/navigator/archive/categoryview/
+      icon:                             pin
+    - title:                            Archiv
+      href:                             /pages/public/blog/navigator/archive/allview/
+      icon:                             archive
+
+# ------------------------------------------------------------------------------
+# Menu Themes
+#
+# - item:                                 Theme
+#   theme_select:
+#     - preview:                          enabled
+#       title:                            Preview
+#       href:                             /pages/public/tools/previewer/current_theme/
+#       icon:                             eye
+#     - local_themes:                     enabled
+#       title:                            Jekyll One
+#       icon:                             alpha-j-box
+#     - bootswatch_themes:                enabled
+#       title:                            Bootswatch
+#       icon:                             bootstrap
+
+# ------------------------------------------------------------------------------
+# Menu ABOUT
+#
+- item:                                 Über
+  sublevel:
+
+#   - title:                            Wo gehts lang
+#     href:                             /pages/public/about/where_to_go/
+#     icon:                             foot-print
+
+    - title:                            Diese Website
+      icon:                             home-variant-outline
+      href:                             /pages/public/about/site/
+    - title:                            Making-of
+      icon:                             tools
+      href:                             /pages/public/about/making-of/
+    - title:                            Privatsphäre
+      icon:                             heart
+      href:                             /pages/public/legal/de/privacy/
+    - title:                            Kommentare
+      icon:                             comment
+      href:                             /pages/public/legal/de/comment_policy/
+
+# ------------------------------------------------------------------------------
+# END config

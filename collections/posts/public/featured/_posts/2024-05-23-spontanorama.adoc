@@ -1,0 +1,99 @@
+---
+title:                                  Spontanorama
+tagline:                                Podcast mit Ralf Schmitz
+
+#date:                                  2024-05-23
+#last_modified:                         2024-05-23
+
+description: >
+                                        Hier ist alles möglich, denn kein Gast ist vorherbestimmt – Ralf Schmitz weiß
+                                        nie, wer als Nächstes durch die Tür tritt. Während er im Studio ungeduldig
+                                        wartet, läuft draußen ein Teammitglied durch die Straßen, auf der Suche
+                                        nach wildfremden Passantinnen und Passanten, die jetzt in diesem Moment
+                                        bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
+                                        quatschen.
+keywords: >
+                                        Spontanorama, Podcast, Ralf Schmitz
+
+categories:                             [ Podcast ]
+tags:                                   [ Impro, Ralf Schmitz ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/spontanorama.jpg
+  width:                                1920
+  height:                               1200
+
+group:                                  Featured
+#series:                                Featured
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+
+resources:                              []
+resource_options:
+  - attic:
+      opacity:                          1
+#     alignY:                           0.3
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/spontanorama.jpg
+          alt:                          spontanorama
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+// Place an excerpt at the most top position
+// -----------------------------------------------------------------------------
+[role="dropcap"]
+Mit diesem Format ist alles möglich, denn kein Gast ist vorherbestimmt.
+Ralf Schmitz weiß nie, wer als Nächstes durch die Tür tritt.
+
+Während er
+im Studio ungeduldig wartet, läuft draußen ein Teammitglied durch die Straßen,
+auf der Suche nach wildfremden Passantinnen und Passanten, die jetzt in diesem
+Moment bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
+quatschen.
+
+excerpt__end
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All you’re doing at the end of the day is writing your content, and the J1
+Template does all the tricky things: putting out HTML, Javascript, and CSS.
+As a result, the site creation process gets out of your way.
+
+mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
+*3 Minutes* zum lesen
+
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Format des Podcasts
+
+Jede Folge ist eine neue Überraschung, mit einer Mischung aus Lachen,
+tiefgründigen Momenten und unerwarteten Geschichten aus Ralfs Leben und
+denen seiner Gäste.
+
+Während Ralf im Studio ungeduldig wartet, läuft draußen ein Teammitglied
+durch die Straßen der Kölneer Innenstadt auf der Suche nach Passantinnen
+und Passanten, die spontan bereit sind, alles stehen und liegen zu lassen,
+um mit Ralf Schmitz für eine Stunde zu quatschen.

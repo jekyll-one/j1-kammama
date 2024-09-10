@@ -1,0 +1,85 @@
+# ------------------------------------------------------------------------------
+# ~/_data/modules/iconPicker.yml
+# User configuration settings for J1 iconPicker module
+#
+# Product/Info:
+# https://jekyll.one
+#
+# Copyright (C) 2023, 2024 Juergen Adams
+#
+# J1 Template is licensed under the MIT License.
+# See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Description
+#
+description:
+  title:                                J1 iconPicker
+  scope:                                User settings
+  location:                             _data/modules/iconPicker.yml
+
+# ------------------------------------------------------------------------------
+# User configuration settings
+#
+settings:
+  enabled:                              true
+
+  # ----------------------------------------------------------------------------
+  # PAGE options
+  # ----------------------------------------------------------------------------
+  #
+  picker_button_wrapper_classes:        mt-3 mb-4 d-grid gap-2
+  picker_button_id:                     icon_picker
+  picker_button_label:                  Show icon set selected
+  picker_button_classes:                btn btn-info btn-flex btn-lg
+  picker_button_icon:                   emoticon
+
+  # ----------------------------------------------------------------------------
+  # API options
+  # ----------------------------------------------------------------------------
+  #
+  api_options:
+    iconLibraries:                      [
+                                          mdi-icons-base.min.json,
+                                          mdi-icons-light.min.json,
+                                          font-awesome.min.json
+                                        ]
+    iconLibrariesCss:                   [
+                                          //cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css,
+                                          //cdn.jsdelivr.net/npm/@mdi/light-font@0.2.63/css/materialdesignicons-light.min.css,
+                                          //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css
+                                        ]
+
+  # ----------------------------------------------------------------------------
+  # PICKER options
+  # NOTE:
+  #   Picker configurations (currently NOT supported)
+  # ----------------------------------------------------------------------------
+  #
+  pickers:
+
+    # --------------------------------------------------------------------------
+    # MDI Light Picker
+    #
+    - picker:
+      enabled:                          false
+
+      id:                               base
+      picker_button_id:                 icon_picker_base
+      iconLibraries:                    [ mdi-icons-light.min.json ]
+      iconLibrariesCss:                 [ /assets/theme/j1/core/css/icon-fonts/mdil.min.css ]
+
+    # --------------------------------------------------------------------------
+    # MDI Base Picker
+    #
+    - picker:
+      enabled:                          false
+
+      id:                               mdi
+      picker_button_id:                 icon_picker_base
+      iconLibraries:                    [ mdi-icons-base.min.json ]
+      iconLibrariesCss:                 [ /assets/theme/j1/core/css/icon-fonts/mdib.min.css ]
+
+# ------------------------------------------------------------------------------
+# END config

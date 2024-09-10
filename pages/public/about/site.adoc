@@ -1,0 +1,98 @@
+---
+title:                                  Diese Website
+title_extention:                        Über diese Seiten
+tagline:                                Über diese Seiten
+
+date:                                   2024-01-24
+#last_modified:                         2024-01-24
+
+description: >
+                                        Diese Seiten sind eine kuratierte Website zum Thema Solosex.
+                                        Es richtet sich an junge Menschen. Doch auch Eltern wie Erwachsene
+                                        sollen interessante Beiträge finden können, die das Eine oder Andere
+                                        besprechen, dass so nicht unbedingt bekannt ist.
+keywords: >
+                                        Solo-Sex, Solosex, Sexualität,
+                                        Beziehungen, Liebe, Partnerschaft
+
+categories:                             [ Site ]
+tags:                                   [ Review ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/lum3n.jpg
+  width:                                1920
+  height:                               1080
+
+tts:                                    true
+fab_menu_id:                            default
+scrollbar:                              false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/about/site/
+
+resources:                              [ animate ]
+resource_options:
+  - attic:
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/lum3n.jpg
+          alt:                          Solo-Sex
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+// Attribute settings for section control
+//
+:badges-enabled:                        false
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+ifeval::[{badges-enabled} == true]
+[role="mb-5"]
+{badge-j1--version-latest} {badge-j1--downloads}
+endif::[]
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Diese Seiten sind eine kuratierte Website zum Thema *Solosex*. Es richtet sich
+primär an Jugendliche (12+) und junge Erwachsene. Doch auch Eltern und *späte*
+Jugendliche sollen interessante Beiträge finden können, die das Eine oder
+Andere besprechen, dass so nicht unbedingt bekannt ist.
+
+[role="mt-4 mb-4"]
+.Hinweis
+[CAUTION]
+====
+Diese Webseite ist derzeit im Aufbau.
+====
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+Ziel ist den Besuchern einen Überlick über das Thema zu bieten, ohne dass
+sofort eine Recherche im Internet nötig ist. Eine allgemeine Suche im Internet
+zu Themen aus dem Bereich Sexualität liefert zwamgsläufig eine Menge kommerzieller
+Inhalte.
+
+Um eines soll es auf den Seiten nicht gehen: *Pornografie*. Gegen Pornofilme
+als eine Phantasie für Erwachsene spricht in meinen Augen wenig. Doch es sollen
+Erwachsene entscheiden, ob es den jeweiligen Geschmack trifft und beurteilen,
+was man von dem *Angebot* zu halten hat.
+
+[role="mb-7"]
+Damit viel Spaß auf den Seiten und viele neue Erkenntnisse!

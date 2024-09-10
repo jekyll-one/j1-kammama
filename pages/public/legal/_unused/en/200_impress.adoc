@@ -1,0 +1,110 @@
+---
+title:                                  Impress
+tagline:                                Legal Information
+
+date:                                   2020-10-23
+#last_modified:                         2023-01-01
+
+description: >
+                                        Required information about the content responsible
+                                        persons in accordance of the Germany laws based on
+                                        § 18 section 1 MStV regarding Information obligations
+                                        and rights to information
+
+categories:                             [ Site ]
+tags:                                   [ Impress ]
+
+robots:
+  index:                                false
+  follow:                               false
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/j1-starter-mockup-1.jpg
+  width:                                1920
+  height:                               1200
+
+sitemap:                                false
+exclude_from_search:                    true
+fab_menu_id:                            default
+comments:                               false
+toc:                                    false
+regenerate:                             false
+permalink:                              /pages/public/legal/en/impress/
+
+resources:                              [ rouge ]
+resource_options:
+  - attic:
+      padding_top:                      630
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/j1-starter-mockup-1.jpg
+          alt:                          J1 Template Mockup
+
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:eu-region:                             true
+:legal-warning:                         false
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="none" %}
+
+ifeval::[{legal-warning} == true]
+[WARNING]
+====
+This document *does not* constitute any *legal advice*. It is
+highly recommended to verify legal aspects and implications.
+====
+endif::[]
+
+// NOTE
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Ist ein Impressum gesetzlich vorgeschrieben?
+// Ein Impressum ist auf allen kommerziellen Websites, die im
+// deutschsprachigen Raum veröffentlicht werden, gesetzlich vorgeschrieben
+// (Deutschland, Österreich und der Schweiz). Dies gilt unabhängig davon,
+// ob die Website über eine .de-Top-Level-Domain veröffentlicht wird oder nicht.
+//
+// Wenn Sie lediglich einen persönlichen Blog ohne Werbung haben und kein
+// Geld damit verdienen, ist das Impressum nicht erforderlich.
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Find below the required information about the content responsible persons in
+accordance of the German Laws with section 18 of paragraph 1 MStV regarding
+information obligations and rights to information.
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+ifeval::[{eu-region} == true]
+.Postal address
+----
+  <your-postal-address>
+----
+endif::[]
+
+.Contact
+[source, text]
+----
+  webmaster@<your.domain>
+----
+
+ifeval::[{eu-region} == true]
+[role="mb-7"]
+.Responsible for the content according to § 18 Abs. 1 MStV:
+----
+  <your-postal-address>
+----
+endif::[]
