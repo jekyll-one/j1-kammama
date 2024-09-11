@@ -34,12 +34,12 @@ resource_options:
   - attic:
       padding_top:                      650
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/lum3n.jpg
-          alt:                          LUM3N
+        - url:                          /assets/image/modules/attics/1920x1280/alice-donovan-rouse.jpg
+          alt:                          alice-donovan-rouse
           badge:
             type:                       unsplash
-            author:                     LUM3N
-            href:                       //unsplash.com/de/@lum3n
+            author:                     Alice Donovan Rouse
+            href:                       https://unsplash.com/de/@alicekat
 ---
 
 // Page Initializer

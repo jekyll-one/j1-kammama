@@ -77,13 +77,16 @@ um mit Ralf Schmitz für eine Stunde zu quatschen.
 Der Podcast ist auf allen gängigen Plattformen für Podcast verfügbar wie:
 
 Spotify::
-  Die unangefochtene Nummer eins. Spotify bietet nicht nur Musik, sondern
-  auch eine riesige Auswahl an Podcasts. Es ist einfach zu bedienen und
-  bietet personalisierte Empfehlungen.
+  https://open.spotify.com/intl-de/[Spotify, {browser-window--new}]
+  ist die unangefochtene Nummer eins. Spotify bietet nicht nur Musik,
+  sondern auch eine riesige Auswahl an Podcasts. Es ist einfach zu bedienen
+  und bietet personalisierte Empfehlungen.
 
 Apple Podcasts::
-  Die Standard-App für Apple-Nutzer. Hier findest du eine große Auswahl
-  an Podcasts, die du direkt auf deinem iPhone, iPad oder Mac hören kannst.
+  https://www.apple.com/de/apple-podcasts/[Apple Podcasts, {browser-window--new}]
+  ist die Standard-Plattform für Apple-Nutzer. Hier findest du eine große
+  Auswahl an Podcasts, die du direkt auf deinem iPhone, iPad oder Mac hören
+  kannst.
 
 [role="mt-4"]
 [TIP]
