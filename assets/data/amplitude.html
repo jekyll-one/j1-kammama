@@ -103,6 +103,16 @@ amplitude_defaults: {{amplitude_defaults | debug}}
       {% assign display_hours   = true %}
     {% endif %}
 
+    {% assign shuffle = false %}
+    {% if player.shuffle %}
+      {% assign shuffle   = true %}
+    {% endif %}
+
+    {% assign repeat = false %}
+    {% if player.repeat %}
+      {% assign repeat   = true %}
+    {% endif %}
+
     {% comment %} unused
     ----------------------------------------------------------------------------
     {% unless player.playlist.scrollbar %}
@@ -539,11 +549,13 @@ amplitude_defaults: {{amplitude_defaults | debug}}
             <div id="large_player_controls">
 
               <div class="large-player-controls-container">
+                {% if shuffle %}
                 <div
                   id="large_player_shuffle"
                   class="amplitude-shuffle amplitude-shuffle-off"
                   data-amplitude-playlist="{{player_playlist}}">
                 </div>
+                {% endif %}
                 <div
                   id="large_player_previous"
                   class="amplitude-prev"
@@ -559,12 +571,13 @@ amplitude_defaults: {{amplitude_defaults | debug}}
                   class="amplitude-next"
                   data-amplitude-playlist="{{player_playlist}}">
                 </div>
+                {% if repeat %}
                 <div
                   id="repeat_container_large_player"
                   class="amplitude-repeat amplitude-repeat-off"
                   data-amplitude-playlist="{{player_playlist}}">
                 </div>
-
+                {% endif %}
                 <!-- START volume container -->
                 <div class="compact-player-volume-container">
                   <div class="volume-controls">

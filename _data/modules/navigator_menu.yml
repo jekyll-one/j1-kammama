@@ -53,14 +53,14 @@
 - item:                                 Video
   sublevel:
 
-      - title:                          Filme
+      - title:                          Serien
         icon:                           video
         dropdown:
-          - title:                      Spontanorama
-            href:                       /pages/public/audio/podcast/spontanorama/
+          - title:                      Auf Achse
+            href:                       /pages/public/audio/podcast/auf-achse/
             icon:                       eye
 
-      - title:                          Serien
+      - title:                          Filme
         icon:                           video
         dropdown:
           - title:                      Spontanorama

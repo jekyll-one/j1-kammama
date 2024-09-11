@@ -61,7 +61,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH3620876950.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/was-wolltest-du-gerade-eigentlich-machen/id1741818812?i=1000653504852
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:42:16"
+          duration:                     "00:41:26"
 
         # title 02
         - item:
@@ -71,7 +71,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH5736564883.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mama-ich-w%C3%A4re-gerne-ein-pottwal/id1741818812?i=1000654224140
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:57:33"
+          duration:                     "00:56:44"
 
         # title 03
         - item:
@@ -81,7 +81,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH5176024731.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-wilden-00er-jahre/id1741818812?i=1000654983003
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:57:19"
+          duration:                     "00:57:39"
 
         # title 04
         - item:
@@ -91,7 +91,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH4916731254.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/zwei-schauspieler-in-schottland/id1741818812?i=1000655723815
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "01:05:35"
+          duration:                     "01:05:27"
 
         # title 05
         - item:
@@ -101,7 +101,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH6618135223.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/d%C3%BCnne-luft-und-italienischer-kaffee/id1741818812?i=1000656441315
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:58:00"
+          duration:                     "00:55:12"
 
         # title 06
         - item:
@@ -111,7 +111,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH8017985151.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-geschichten-von-scrabble-man/id1741818812?i=1000657218868
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:53:00"
+          duration:                     "00:49:25"
 
         # title 07
         - item:
@@ -121,7 +121,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH3868463003.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/geeint-in-der-abneigung/id1741818812?i=1000657979323
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:59:27"
+          duration:                     "00:59:12"
 
         # title 08
         - item:
@@ -131,7 +131,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH5391596454.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-champignon-mafia/id1741818812?i=1000658835647
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:48:17"
+          duration:                     "00:48:09"
 
         # title 09
         - item:
@@ -141,7 +141,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH5096457580.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/der-sprache-eine-sprache-geben/id1741818812?i=1000659565878
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:44:48"
+          duration:                     "00:44:40"
 
         # title 10
         - item:
@@ -151,7 +151,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH6576412628.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-herkunft-von-hildegard/id1741818812?i=1000660366358
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:56:36"
+          duration:                     "00:56:27"
 
         # title 11
         - item:
@@ -161,7 +161,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH5586806905.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mit-einer-sonne-im-herzen/id1741818812?i=1000661082383
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:55:29"
+          duration:                     "00:55:30"
 
         # title 12
         - item:
@@ -181,7 +181,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH8191293375.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/uschi-und-die-liebe/id1741818812?i=1000662567462
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "00:56:18"
+          duration:                     "00:56:39"
 
         # title 14
         - item:
@@ -241,7 +241,7 @@ settings:
           audio:                        EARLYSTUDIOSGMBH9170736970.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/symmetrische-zusammenkunft/id1741818812?i=1000666951961
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
-          duration:                     "01:16:36"
+          duration:                     "01:16:06"
 
         # title 20
         - item:
@@ -253,13 +253,14 @@ settings:
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:59:33"
 
+
   # ============================================================================
   # PLAYER configuration
   # ----------------------------------------------------------------------------
   players:
 
     # --------------------------------------------------------------------------
-    # LARGE player, Emancipator
+    # LARGE player, Spontanorama
     # --------------------------------------------------------------------------
     #
     - plaver:
@@ -268,6 +269,11 @@ settings:
       # ------------------------------------------------------------------------
       # TIME settings
       display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      shuffle:                          true
+      repeat:                           true
 
       # ------------------------------------------------------------------------
       # PLAYER settings
@@ -282,27 +288,23 @@ settings:
         controls:                       true
 
     # --------------------------------------------------------------------------
-    # COMOACT player, Emancipator
+    # COMPACT player, Spontanorama
     # --------------------------------------------------------------------------
     #
-    # - plaver:
-    #   enabled:                          true
-    #
-    #   # ------------------------------------------------------------------------
-    #   # TIME settings
-    #   hours:                            true
-    #
-    #   # ------------------------------------------------------------------------
-    #   # PLAYER settings
-    #   #
-    #   id:                               spontanorama_2024_compact
-    #   type:                             compact
-    #
-    #   playlist:
-    #     name:                           spontanorama
-    #     title:                          Spontanorama
-    #     audio_info:                     true
-    #     controls:                       true
+    - plaver:
+      enabled:                          false
+
+      # ------------------------------------------------------------------------
+      # PLAYER settings
+      #
+      id:                               spontanorama_2024_compact
+      type:                             compact
+
+      playlist:
+        name:                           spontanorama
+        title:                          Spontanorama
+        audio_info:                     true
+        controls:                       true
 
 # ------------------------------------------------------------------------------
 # END config

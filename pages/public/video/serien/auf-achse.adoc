@@ -1,17 +1,17 @@
 ---
-title:                                  Kultserie · Trucker Epos
+
+title:                                  Trucker Epos
 tagline:                                TV Serie aus den 1980ern
 
-#date:                                  2024-09-01
+date:                                   2024-09-01
 #last_modified:                         2023-01-01
 
 description: >
                                         Die beiden Truckerfahrer Franz Meersdonk (Manfred Krug) und
-                                        Günther Willers (Rüdiger Kirschstein) fahren Terminfracht durch
-                                        die ganze Welt.
-                                        Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde
-                                        Bräuche und Sitten, sondern auch auf viele zwielichtige Typen,
-                                        Diebe und Halsabschneider.
+                                        Günther Willers (Rüdiger Kirschstein) fahren Terminfracht durch die ganze Welt.
+                                        Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
+                                        und Sitten, sondern auch auf viele zwielichtige Typen, Diebe und
+                                        Halsabschneider.
 keywords: >
                                         Kultserie, Fernsehserie, TV, Trucker Epos,
                                         Manfred Krug, Rüdiger Kirschstein
@@ -24,18 +24,18 @@ image:
   width:                                1920
   height:                               1200
 
-group:                                  Featured
-#series:                                Featured
-
 tts:                                    true
-fab_menu_id:                            default                                 # open_toc
+fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
+permalink:                              /pages/public/audio/podcast/auf-achse/
 
-resources:                              []
+resources:                              [
+                                          gallery, lightgallery, masonry,
+                                          rouge, videojs, vimeo-player
+                                        ]
 resource_options:
   - attic:
-#     opacity:                          0.5
       padding_top:                      650
       slides:
         - url:                          /assets/image/modules/attics/1920x1280/auf-achse.png
@@ -51,18 +51,6 @@ resource_options:
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
 
-// Place an excerpt at the most top position
-// -----------------------------------------------------------------------------
-[role="dropcap"]
-Die beiden Truckerfahrer Franz Meersdonk und Günther Willers fahren
-Terminfracht durch die ganze Welt.
-
-Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
-und Sitten, sondern auch auf viele zwielichtige Typen, Diebe und
-Halsabschneider.
-
-excerpt__end
-
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
 {% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
@@ -71,27 +59,28 @@ excerpt__end
 // -----------------------------------------------------------------------------
 {% include {{load_attributes}} scope="global" %}
 
+[role="dropcap"]
+Die beiden Truckerfahrer Franz Meersdonk und Günther Willers fahren
+Terminfracht durch die ganze Welt.
 
-// Page content
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Auf Achse ist der Titel einer deutschen Fernsehserie. Die Serie wurde
-von 1978 bis 1996 gedreht und lief ab 1980 im Vorabendprogramm der ARD.
-Es wurden insgesamt 86 Folgen produziert.
+Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
+und Sitten, sondern auch auf viele zwielichtige Typen, Diebe und
+Halsabschneider.
 
-mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
-*5 Minuten* Lesezeit
+mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+*45+ Minuten* Videozeit
 
 
-// Include sub-documents (if any)
-// -----------------------------------------------------------------------------
-[role="mt-5"]
+[role="mt-4"]
 == Über die Serie
 
 Quelle: https://de.wikipedia.org/wiki/Auf_Achse_(Fernsehserie)[Wikipedia, {browser-window--new} ]
 
-Die Idee zu der Fernfahrer-Serie stammt von Georg Feil, und das Projekt
-wurde dann zusammen mit dem Regisseur Hartmut Griesmayr sowie dem Kameramann
-Joseph Vilsmaier geplant und gestartet.
+Die Idee zu der Fernfahrer-Serie stammt von Georg Feil. Das Projekt wurde dann
+zusammen mit dem Regisseur Hartmut Griesmayr sowie dem Kameramann
+Joseph Vilsmaier geplant. Die Produktion lief von 1978 bis 1996 und startete
+ab dem Jahr 1980 im Vorabendprogramm der ARD. Es wurden insgesamt 86 Folgen
+produziert.
 
 Die Besetzung der Hauptrollen war dabei nicht ganz einfach. Gesucht wurden zwei
 Schauspieler, die LKW fahren konnten. Nachdem zunächst eine andere Besetzung
@@ -113,3 +102,25 @@ zeigen, wie sie sind.
 Daher werden die Einheimischen meist in ihrer Landessprache zu hören sein und
 keine Untertitel angeboten. Man setzte grundsätzlich auf Statisten und oft auf
 Schauspieler aus dem jeweiligen Land.
+
+
+[role="mt-5"]
+== Erste Staffel
+
+lorem:sentences[5]
+
+.Staffel 1 (1980)
+gallery::auf_achse_s01[role="mt-5 mb-4"]
+
+[role="mt-5 mb-4"]
+lorem:sentences[5]
+
+
+[role="mt-5"]
+== Zweite Staffel (1983/84)
+
+[role="mb-7"]
+In Vorbereitung.
+
+// .Staffel 2
+// gallery::auf_achse_s02[role="mt-5 mb-4"]

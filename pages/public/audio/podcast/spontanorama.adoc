@@ -67,7 +67,7 @@ mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
 
 
 [role="mt-4"]
-== About
+== Über den Podcast
 
 Während Ralf im Studio ungeduldig wartet, läuft draußen ein Teammitglied
 durch die Straßen der Kölneer Innenstadt auf der Suche nach Passantinnen
@@ -95,6 +95,8 @@ geladen. Daher ist eine Internetverbindung zum Hören des Podcasts
 *zwingend* erforderlich.
 ====
 
+// .Podcast 2024 (compact)
+// amplitude::spontanorama_2024_compact[role="mt-3 mb-5"]
 
 [role="mt-5"]
 == Podcasts
@@ -102,9 +104,6 @@ geladen. Daher ist eine Internetverbindung zum Hören des Podcasts
 Spontanorama ist eine Produktion von Early Studios, die im Mai 2024 gestartet
 ist. Im Player sind alle Episoden verfügbar, die bis *September 2024*
 produziert wurden. Es erscheint jeden Donnerstag eine neue Folge.
-
-// .Podcast 2024
-// amplitude::spontanorama_2024_compact[role="mt-3 mb-5"]
 
 .Spontanorama 2024
 amplitude::spontanorama_2024_large[role="mt-4 mb-7"]
