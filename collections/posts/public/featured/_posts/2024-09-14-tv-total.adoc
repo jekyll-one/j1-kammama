@@ -1,0 +1,102 @@
+---
+title:                                  TV Total
+tagline:                                Late-Night-Show der 00er Jahre
+
+#date:                                  2024-09-14
+#last_modified:                         2023-01-01
+
+description: >
+                                        Mitte 1999 startete Late-Night-Show TV Total mit Stefan Raab.
+                                        Der Moderator gehörte bald zu den bekanntesten Gesichtern im
+                                        deutschen (Privat-)Fernsehen.
+
+keywords:                               TV, Show, TV Total
+
+categories:                             [ Video ]
+tags:                                   [ TV Total, Show ]
+
+image:
+  path:                                 //img.youtube.com/vi/guXJa2qbwfM/maxresdefault.jpg
+  width:                                1920
+  height:                               1200
+
+group:                                  Featured
+#series:                                Featured
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+
+resources:                              []
+resource_options:
+  - attic:
+#     opacity:                          0.5
+      padding_top:                      650
+      slides:
+        - url:                          //img.youtube.com/vi/guXJa2qbwfM/maxresdefault.jpg
+          alt:                          TV Total
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:url-video--tv-boxkampf:                /pages/public/video/tv-highlights/tv-total/#raab-vs-halmich
+
+// Place an excerpt at the most top position
+// -----------------------------------------------------------------------------
+[role="dropcap"]
+Mitte 1999 startete Late-Night-Show TV Total mit Stefan Raab. Der Moderator
+gehörte bald zu den bekanntesten Gesichtern im deutschen (Privat-)Fernsehen.
+
+Verrückte Studioaktionen und der konsequente Einsatz kurzer Videoschnipsel
+für seine Kommentare wurden zum Markenzeichen der Show.
+
+excerpt__end
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Raab kommentierte mit scharfer Zunge das aktuelle Tagesgeschehen, spottet über
+Ausschnitte aus TV und Internet und begrüßte (mehr oder weniger) Prominente aus
+dem deutschen wie internationalen Showbiz auf seinem Gästesessel.
+
+mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
+*5 Minuten* Lesezeit
+
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über die Show
+
+Quelle: https://www.fernsehserien.de/tv-total[fernsehserien.de, {browser-window--new} ]
+
+Raab kommentierte mit scharfer Zunge das aktuelle Tagesgeschehen, spottet über
+Ausschnitte aus TV und Internet und begrüßte (mehr oder weniger)Prominente aus
+dem deutschen wie internationalen Showbiz auf seinem Gästesessel.
+
+Wiederkehrende Rubriken wie die Verleihung des *Raab der Woche* für skurrile
+Auftritte in den Medien und *Raab in Gefahr*, bei dem sich der Moderator
+diversen Mutproben aussetzte, oder das Studio-Quiz *Blamieren oder kassieren*
+trugen wesentlich zum Erfolg der Sendung bei.
+
+Stefan Raab hatte seiner Zeit das TV Publikum wohl häufig gespalten. Jedoch
+eines war immer Gewiss: Hier wird was rausgehauen!
+
+[role="mb-7"]
+Das ist (und bleibt)t Kult: &nbsp;
+link:{url-video--tv-boxkampf}[TV Boxkampf Raab vs. Halmich, {browser-window--new}].

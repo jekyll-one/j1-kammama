@@ -1,6 +1,6 @@
 ---
-title:                                  Kultserie · Trucker Epos
-tagline:                                TV Serie aus den 1980ern
+title:                                  Auf Achse
+tagline:                                Kult-Serie aus den 1980ern
 
 #date:                                  2024-09-01
 #last_modified:                         2023-01-01
@@ -17,10 +17,10 @@ keywords: >
                                         Manfred Krug, Rüdiger Kirschstein
 
 categories:                             [ Video ]
-tags:                                   [ TV Serie, Trucker Epos ]
+tags:                                   [ TV Serie ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/auf-achse.png
+  path:                                 /assets/image/posts/featured/auf-achse.jpg
   width:                                1920
   height:                               1200
 
@@ -28,7 +28,7 @@ group:                                  Featured
 #series:                                Featured
 
 tts:                                    true
-fab_menu_id:                            default                                 # open_toc
+fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
 
@@ -38,7 +38,7 @@ resource_options:
 #     opacity:                          0.5
       padding_top:                      650
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/auf-achse.png
+        - url:                          /assets/image/posts/featured/auf-achse.jpg
           alt:                          Auf Achse
 ---
 
@@ -50,6 +50,7 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
+:url-player--auf-achse:                 /pages/public/video/serien/auf-achse/#erste-staffel
 
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
@@ -58,8 +59,7 @@ Die beiden Truckerfahrer Franz Meersdonk und Günther Willers fahren
 Terminfracht durch die ganze Welt.
 
 Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
-und Sitten, sondern auch auf viele zwielichtige Typen, Diebe und
-Halsabschneider.
+und Sitten, sondern auch auf zwielichtige Typen, Diebe und Halsabschneider.
 
 excerpt__end
 
@@ -113,3 +113,7 @@ zeigen, wie sie sind.
 Daher werden die Einheimischen meist in ihrer Landessprache zu hören sein und
 keine Untertitel angeboten. Man setzte grundsätzlich auf Statisten und oft auf
 Schauspieler aus dem jeweiligen Land.
+
+[role="mb-7"]
+Schaeun Sie rein. Es ist und bleibt Kult: &nbsp;
+link:{url-player--auf-achse}[Auf Achse, {browser-window--new}].

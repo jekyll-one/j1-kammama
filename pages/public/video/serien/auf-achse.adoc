@@ -28,7 +28,7 @@ tts:                                    true
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
-permalink:                              /pages/public/audio/podcast/auf-achse/
+permalink:                              /pages/public/video/serien/auf-achse/
 
 resources:                              [
                                           gallery, lightgallery, masonry,
@@ -105,18 +105,19 @@ Schauspieler aus dem jeweiligen Land.
 
 
 [role="mt-5"]
-== Erste Staffel
+[[erste-staffel]]
+== Erste Staffel (1980)
 
-lorem:sentences[5]
+Die erste Staffel ist wohl die *kultigste*. Spannende Stories, die man den
+Schauspielern abnimmt. Es werden Geschichten so erzählt, dass man glauben
+kann das die Länder, Menschen und Kulturen so sind - wie sie sind.
 
-.Staffel 1 (1980)
-gallery::auf_achse_s01[role="mt-5 mb-4"]
-
-[role="mt-5 mb-4"]
-lorem:sentences[5]
+.Staffel 1
+gallery::auf_achse_s01[role="mt-4 mb-4"]
 
 
 [role="mt-5"]
+[[zweite-staffel]]
 == Zweite Staffel (1983/84)
 
 [role="mb-7"]

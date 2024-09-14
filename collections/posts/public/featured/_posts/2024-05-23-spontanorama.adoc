@@ -1,6 +1,6 @@
 ---
 title:                                  Spontanorama
-tagline:                                Podcast mit Ralf Schmitz und Gästen
+tagline:                                Gespräche mit Ralf Schmitz und Gästen
 
 #date:                                  2024-05-23
 #last_modified:                         2024-05-23
@@ -15,10 +15,10 @@ keywords: >
                                         Spontanorama, Podcast, Impro, Ralf Schmitz
 
 categories:                             [ Audio ]
-tags:                                   [ Podcast, Impro ]
+tags:                                   [ Podcast ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/spontanorama.jpg
+  path:                                 /assets/image/posts/featured/ralf-schmitz.jpg
   width:                                1920
   height:                               1200
 
@@ -26,7 +26,7 @@ group:                                  Featured
 #series:                                Featured
 
 tts:                                    true
-fab_menu_id:                            default                                 # open_toc
+fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
 
@@ -36,8 +36,8 @@ resource_options:
 #     opacity:                          0.5
       padding_top:                      650
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/spontanorama.jpg
-          alt:                          spontanorama
+        - url:                          /assets/image/posts/featured/ralf-schmitz.jpg
+          alt:                          Ralf Schmitz
 ---
 
 // Page Initializer
@@ -53,13 +53,11 @@ resource_options:
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
 [role="dropcap"]
-Spontanorama. Mit dem Format ist alles möglich, denn kein Gast ist vorherbestimmt.
-Ralf Schmitz weiß nie, wer als Nächstes durch die Tür kommt.
+Spontanorama, der neue Podcast mit Ralf Schmitz. Er führt ungezwungene
+Gespräche mit zufälligen Passantinnen und Passenten, die kurz zuvor von
+der Straße aufgelesen wurden.
 
-Während er im Studio ungeduldig wartet, läuft draußen ein Teammitglied durch
-die Straßen der Innenstadt von Köln. Immer auf der Suche nach Passanten, die
-in diesem Moment bereit sind alles stehen und liegen zu lassen um spontan mit
-Ralf zu quatschen.
+Eine Talkshow mit Unbekannten - im wahrsten Sinne des Wortes.
 
 excerpt__end
 
@@ -75,7 +73,7 @@ excerpt__end
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
+mdi:clock-time-five-outline[24px, md-gray mr-1 mt-3]
 *3 Minuten* Lesezeit
 
 
@@ -84,15 +82,15 @@ mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
 [role="mt-5"]
 == Über den Podcast
 
-Jede Folge ist eine Überraschung mit einer Mischung aus Lachen,
-tiefgründigen Momenten und unerwarteten Geschichten aus Ralfs Leben und
-denen seiner Gäste.
+Jede Folge ist eine Überraschung mit einer Mischung aus Lachen, tiefgründigen
+Momenten und unerwarteten Geschichten aus Ralfs Leben und denen seiner Gäste.
+Egal, ob es sich um eine ältere Dame handelt, die gerade auf dem Weg zum
+Einkaufen war, oder um einen Studenten, der gerade seine Bachelorarbeit
+abgegeben hat - es kann jeden treffen.
 
-Während Ralf im Studio ungeduldig wartet, läuft draußen ein Teammitglied
-durch die Straßen der Kölneer Innenstadt auf der Suche nach Passantinnen
-und Passanten, die spontan bereit sind, alles stehen und liegen zu lassen,
-um mit Ralf Schmitz für eine Stunde zu quatschen.
+In dieser einzigartigen Atmosphäre entstehen Gespräche, die nicht nur
+unvorhersehbar, sondern auch außerordentlich authentisch sind.
 
 [role="mb-7"]
-Hören Sie rein - es ist ein großer Spaß:
+Hören Sie rein, es ist ein großer Spaß:&nbsp;
 link:{url-player--spontanorama-2024}[Spontanorama 2024, {browser-window--new}].

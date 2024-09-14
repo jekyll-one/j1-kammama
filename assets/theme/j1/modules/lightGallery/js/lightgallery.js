@@ -17,8 +17,9 @@
 */
 
 /*!
- * lightgallery | 2.7.2 | September 20th 2023
+ * lightgallery | 2.8.0-beta.2 | April 25th 2024
  * http://www.lightgalleryjs.com/
+ * https://github.com/sachinchoolur/lightGallery/tree/2.8.0-beta.2
  * Copyright (c) 2020 Sachin Neravath;
  * @license GPLv3
  */
@@ -69,111 +70,111 @@
      * Below interfaces are used to build the website documentations
      * */
     var lGEvents = {
-        afterAppendSlide:               'lgAfterAppendSlide',
-        init:                           'lgInit',
-        hasVideo:                       'lgHasVideo',
-        containerResize:                'lgContainerResize',
-        updateSlides:                   'lgUpdateSlides',
-        afterAppendSubHtml:             'lgAfterAppendSubHtml',
-        beforeOpen:                     'lgBeforeOpen',
-        afterOpen:                      'lgAfterOpen',
-        slideItemLoad:                  'lgSlideItemLoad',
-        beforeSlide:                    'lgBeforeSlide',
-        afterSlide:                     'lgAfterSlide',
-        posterClick:                    'lgPosterClick',
-        dragStart:                      'lgDragStart',
-        dragMove:                       'lgDragMove',
-        dragEnd:                        'lgDragEnd',
-        beforeNextSlide:                'lgBeforeNextSlide',
-        beforePrevSlide:                'lgBeforePrevSlide',
-        beforeClose:                    'lgBeforeClose',
-        afterClose:                     'lgAfterClose',
-        rotateLeft:                     'lgRotateLeft',
-        rotateRight:                    'lgRotateRight',
-        flipHorizontal:                 'lgFlipHorizontal',
-        flipVertical:                   'lgFlipVertical',
-        autoplay:                       'lgAutoplay',
-        autoplayStart:                  'lgAutoplayStart',
-        autoplayStop:                   'lgAutoplayStop',
+        afterAppendSlide: 'lgAfterAppendSlide',
+        init: 'lgInit',
+        hasVideo: 'lgHasVideo',
+        containerResize: 'lgContainerResize',
+        updateSlides: 'lgUpdateSlides',
+        afterAppendSubHtml: 'lgAfterAppendSubHtml',
+        beforeOpen: 'lgBeforeOpen',
+        afterOpen: 'lgAfterOpen',
+        slideItemLoad: 'lgSlideItemLoad',
+        beforeSlide: 'lgBeforeSlide',
+        afterSlide: 'lgAfterSlide',
+        posterClick: 'lgPosterClick',
+        dragStart: 'lgDragStart',
+        dragMove: 'lgDragMove',
+        dragEnd: 'lgDragEnd',
+        beforeNextSlide: 'lgBeforeNextSlide',
+        beforePrevSlide: 'lgBeforePrevSlide',
+        beforeClose: 'lgBeforeClose',
+        afterClose: 'lgAfterClose',
+        rotateLeft: 'lgRotateLeft',
+        rotateRight: 'lgRotateRight',
+        flipHorizontal: 'lgFlipHorizontal',
+        flipVertical: 'lgFlipVertical',
+        autoplay: 'lgAutoplay',
+        autoplayStart: 'lgAutoplayStart',
+        autoplayStop: 'lgAutoplayStop',
     };
 
     var lightGalleryCoreSettings = {
-        mode:                           'lg-slide',
-        easing:                         'ease',
-        speed:                          400,
-        licenseKey:                     '0000-0000-000-0000',
-        height:                         '100%',
-        width:                          '100%',
-        addClass:                       '',
-        startClass:                     'lg-start-zoom',
-        backdropDuration:               300,
-        container:                      '',
-        startAnimationDuration:         400,
-        zoomFromOrigin:                 true,
-        hideBarsDelay:                  0,
-        showBarsAfter:                  10000,
-        slideDelay:                     0,
-        supportLegacyBrowser:           true,
-        allowMediaOverlap:              false,
-        videoMaxSize:                   '1280-720',
-        loadYouTubePoster:              true,
-        defaultCaptionHeight:           0,
-        ariaLabelledby:                 '',
-        ariaDescribedby:                '',
-        resetScrollPosition:            true,
-        hideScrollbar:                  false,
-        closable:                       true,
-        swipeToClose:                   true,
-        closeOnTap:                     true,
-        showCloseIcon:                  true,
-        showMaximizeIcon:               false,
-        loop:                           true,
-        escKey:                         true,
-        keyPress:                       true,
-        trapFocus:                      true,
-        controls:                       true,
-        slideEndAnimation:              true,
-        hideControlOnEnd:               false,
-        mousewheel:                     false,
-        getCaptionFromTitleOrAlt:       true,
-        appendSubHtmlTo:                '.lg-sub-html',
-        subHtmlSelectorRelative:        false,
-        preload:                        2,
-        numberOfSlideItemsInDom:        10,
-        selector:                       '',
-        selectWithin:                   '',
-        nextHtml:                       '',
-        prevHtml:                       '',
-        index:                          0,
-        iframeWidth:                    '100%',
-        iframeHeight:                   '100%',
-        iframeMaxWidth:                 '100%',
-        iframeMaxHeight:                '100%',
-        download:                       true,
-        counter:                        true,
-        appendCounterTo:                '.lg-toolbar',
-        swipeThreshold:                 50,
-        enableSwipe:                    true,
-        enableDrag:                     true,
-        dynamic:                        false,
-        dynamicEl:                      [],
-        extraProps:                     [],
-        exThumbImage:                   '',
-        isMobile:                       undefined,
+        mode: 'lg-slide',
+        easing: 'ease',
+        speed: 400,
+        licenseKey: '0000-0000-000-0000',
+        height: '100%',
+        width: '100%',
+        addClass: '',
+        startClass: 'lg-start-zoom',
+        backdropDuration: 300,
+        container: '',
+        startAnimationDuration: 400,
+        zoomFromOrigin: true,
+        hideBarsDelay: 0,
+        showBarsAfter: 10000,
+        slideDelay: 0,
+        supportLegacyBrowser: true,
+        allowMediaOverlap: false,
+        videoMaxSize: '1280-720',
+        loadYouTubePoster: true,
+        defaultCaptionHeight: 0,
+        ariaLabelledby: '',
+        ariaDescribedby: '',
+        resetScrollPosition: true,
+        hideScrollbar: false,
+        closable: true,
+        swipeToClose: true,
+        closeOnTap: true,
+        showCloseIcon: true,
+        showMaximizeIcon: false,
+        loop: true,
+        escKey: true,
+        keyPress: true,
+        trapFocus: true,
+        controls: true,
+        slideEndAnimation: true,
+        hideControlOnEnd: false,
+        mousewheel: false,
+        getCaptionFromTitleOrAlt: true,
+        appendSubHtmlTo: '.lg-sub-html',
+        subHtmlSelectorRelative: false,
+        preload: 2,
+        numberOfSlideItemsInDom: 10,
+        selector: '',
+        selectWithin: '',
+        nextHtml: '',
+        prevHtml: '',
+        index: 0,
+        iframeWidth: '100%',
+        iframeHeight: '100%',
+        iframeMaxWidth: '100%',
+        iframeMaxHeight: '100%',
+        download: true,
+        counter: true,
+        appendCounterTo: '.lg-toolbar',
+        swipeThreshold: 50,
+        enableSwipe: true,
+        enableDrag: true,
+        dynamic: false,
+        dynamicEl: [],
+        extraProps: [],
+        exThumbImage: '',
+        isMobile: undefined,
         mobileSettings: {
-                                        controls: false,
-                                        showCloseIcon: false,
-                                        download: false,
+            controls: false,
+            showCloseIcon: false,
+            download: false,
         },
-        plugins:                        [],
+        plugins: [],
         strings: {
-                                        closeGallery: 'Close gallery',
-                                        toggleMaximize: 'Toggle maximize',
-                                        previousSlide: 'Previous slide',
-                                        nextSlide: 'Next slide',
-                                        download: 'Download',
-                                        playVideo: 'Play video',
-                                        mediaLoadingFailed: 'Oops... Failed to load content...',
+            closeGallery: 'Close gallery',
+            toggleMaximize: 'Toggle maximize',
+            previousSlide: 'Previous slide',
+            nextSlide: 'Next slide',
+            download: 'Download',
+            playVideo: 'Play video',
+            mediaLoadingFailed: 'Oops... Failed to load content...',
         },
     };
 
@@ -466,7 +467,12 @@
         };
         lgQuery.prototype.prepend = function (html) {
             this._each(function (el) {
-                el.insertAdjacentHTML('afterbegin', html);
+                if (typeof html === 'string') {
+                    el.insertAdjacentHTML('afterbegin', html);
+                }
+                else if (html instanceof HTMLElement) {
+                    el.insertBefore(html.cloneNode(true), el.firstChild);
+                }
             });
             return this;
         };
@@ -591,6 +597,27 @@
     }
     var utils = {
         /**
+         * Fetches HTML content from a given URL and inserts it into a specified element.
+         *
+         * @param url - The URL to fetch the HTML content from.
+         * @param element - The DOM element (jQuery object) to insert the HTML content into.
+         * @param insertMethod - The method to insert the HTML ('append' or 'replace').
+         */
+        fetchCaptionFromUrl: function (url, element, insertMethod) {
+            // Fetch content from the URL
+            fetch(url)
+                .then(function (response) { return response.text(); })
+                .then(function (htmlContent) {
+                if (insertMethod === 'append') {
+                    var contentDiv = "<div class=\"lg-sub-html\">" + htmlContent + "</div>";
+                    element.append(contentDiv);
+                }
+                else {
+                    element.html(htmlContent);
+                }
+            });
+        },
+        /**
          * get possible width and height from the lgSize attribute. Used for ZoomFromOrigin option
          */
         getSize: function (el, container, spacing, defaultLgSize) {
@@ -674,7 +701,7 @@
         },
         getIframeMarkup: function (iframeWidth, iframeHeight, iframeMaxWidth, iframeMaxHeight, src, iframeTitle) {
             var title = iframeTitle ? 'title="' + iframeTitle + '"' : '';
-            return "<div class=\"lg-video-cont lg-has-iframe\" style=\"width:" + iframeWidth + "; max-width:" + iframeMaxWidth + "; height: " + iframeHeight + "; max-height:" + iframeMaxHeight + "\">\n                    <iframe class=\"lg-object\" frameborder=\"0\" " + title + " src=\"" + src + "\"  allowfullscreen=\"true\"></iframe>\n                </div>";
+            return "<div class=\"lg-media-cont lg-has-iframe\" style=\"width:" + iframeWidth + "; max-width:" + iframeMaxWidth + "; height: " + iframeHeight + "; max-height:" + iframeMaxHeight + "\">\n                    <iframe class=\"lg-object\" frameborder=\"0\" " + title + " src=\"" + src + "\"  allowfullscreen=\"true\"></iframe>\n                </div>";
         },
         getImgMarkup: function (index, src, altAttr, srcset, sizes, sources) {
             var srcsetAttr = srcset ? "srcset=\"" + srcset + "\"" : '';
@@ -743,13 +770,14 @@
             else if (_isVideo && _isVideo.vimeo) {
                 videoClass = 'lg-has-vimeo';
             }
-            else if (_isVideo && _isVideo.tiktoc) {
-                videoClass = 'lg-has-tiktoc';
-            }
             else {
                 videoClass = 'lg-has-html5';
             }
-            return "<div class=\"lg-video-cont " + videoClass + "\" style=\"" + videoContStyle + "\">\n                <div class=\"lg-video-play-button\">\n                <svg\n                    viewBox=\"0 0 20 20\"\n                    preserveAspectRatio=\"xMidYMid\"\n                    focusable=\"false\"\n                    aria-labelledby=\"" + playVideoString + "\"\n                    role=\"img\"\n                    class=\"lg-video-play-icon\"\n                >\n                    <title>" + playVideoString + "</title>\n                    <polygon class=\"lg-video-play-icon-inner\" points=\"1,0 20,10 1,20\"></polygon>\n                </svg>\n                <svg class=\"lg-video-play-icon-bg\" viewBox=\"0 0 50 50\" focusable=\"false\">\n                    <circle cx=\"50%\" cy=\"50%\" r=\"20\"></circle></svg>\n                <svg class=\"lg-video-play-icon-circle\" viewBox=\"0 0 50 50\" focusable=\"false\">\n                    <circle cx=\"50%\" cy=\"50%\" r=\"20\"></circle>\n                </svg>\n            </div>\n            " + (dummyImg || '') + "\n            <img class=\"lg-object lg-video-poster\" src=\"" + _poster + "\" />\n        </div>";
+            var _dummy = dummyImg;
+            if (typeof dummyImg !== 'string') {
+                _dummy = dummyImg.outerHTML;
+            }
+            return "<div class=\"lg-video-cont " + videoClass + "\" style=\"" + videoContStyle + "\">\n                <div class=\"lg-video-play-button\">\n                <svg\n                    viewBox=\"0 0 20 20\"\n                    preserveAspectRatio=\"xMidYMid\"\n                    focusable=\"false\"\n                    aria-labelledby=\"" + playVideoString + "\"\n                    role=\"img\"\n                    class=\"lg-video-play-icon\"\n                >\n                    <title>" + playVideoString + "</title>\n                    <polygon class=\"lg-video-play-icon-inner\" points=\"1,0 20,10 1,20\"></polygon>\n                </svg>\n                <svg class=\"lg-video-play-icon-bg\" viewBox=\"0 0 50 50\" focusable=\"false\">\n                    <circle cx=\"50%\" cy=\"50%\" r=\"20\"></circle></svg>\n                <svg class=\"lg-video-play-icon-circle\" viewBox=\"0 0 50 50\" focusable=\"false\">\n                    <circle cx=\"50%\" cy=\"50%\" r=\"20\"></circle>\n                </svg>\n            </div>\n            " + _dummy + "\n            <img class=\"lg-object lg-video-poster\" src=\"" + _poster + "\" />\n        </div>";
         },
         getFocusableElements: function (container) {
             var elements = container.querySelectorAll('a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input[type="text"]:not([disabled]), input[type="radio"]:not([disabled]), input[type="checkbox"]:not([disabled]), select:not([disabled])');
@@ -797,6 +825,7 @@
                 dynamicEl.alt = alt || title || '';
                 dynamicElements.push(dynamicEl);
             });
+            console.log(dynamicElements, 'dynamicElements');
             return dynamicElements;
         },
         isMobile: function () {
@@ -811,9 +840,7 @@
          * @todo - this information can be moved to dynamicEl to avoid frequent calls
          */
         isVideo: function (src, isHTML5VIdeo, index) {
-            // jadams, 2024-08-01: workaound when src equals '#'
-            // jadams, 2024-08-01: TODO, check why src is set to '#'
-            if (!src || src === '#') {
+            if (!src) {
                 if (isHTML5VIdeo) {
                     return {
                         html5: true,
@@ -826,15 +853,9 @@
                     return;
                 }
             }
-
-            var youtube     = src.match(/\/\/(?:www\.)?youtu(?:\.be|be\.com|be-nocookie\.com)\/(?:watch\?v=|embed\/)?([a-z0-9\-\_\%]+)([\&|?][\S]*)*/i);
-            var vimeo       = src.match(/\/\/(?:www\.)?(?:player\.)?vimeo.com\/(?:video\/)?([0-9a-z\-_]+)(.*)?/i);
-
-            // jadams, added dailymotion|wistia|tiktoc
-            var dailymotion = src.match(/\/\/(?:www\.)?dai(?:\.ly)\/(?:video\/)?([0-9a-z\-_]+)(.*)?/);
-            var tiktoc      = src.match(/\/\/(?:www\.)?tiktok.com\/embed\/?([0-9a-z\-_]+)(.*)?/);
-            var wistia      = src.match(/\/\/(?:fast\.)?(wistia\.com|wi\.st)\/(medias|embed)\/([0-9a-z\-_]+)(.*)/);
-
+            var youtube = src.match(/\/\/(?:www\.)?youtu(?:\.be|be\.com|be-nocookie\.com)\/(?:watch\?v=|embed\/)?([a-z0-9\-\_\%]+)([\&|?][\S]*)*/i);
+            var vimeo = src.match(/\/\/(?:www\.)?(?:player\.)?vimeo.com\/(?:video\/)?([0-9a-z\-_]+)(.*)?/i);
+            var wistia = src.match(/https?:\/\/(.+)?(wistia\.com|wi\.st)\/(medias|embed)\/([0-9a-z\-_]+)(.*)/);
             if (youtube) {
                 return {
                     youtube: youtube,
@@ -845,19 +866,9 @@
                     vimeo: vimeo,
                 };
             }
-            else if (dailymotion) {
-                return {
-                    dailymotion: dailymotion,
-                };
-            }
             else if (wistia) {
                 return {
                     wistia: wistia,
-                };
-            }
-            else if (tiktoc) {
-                return {
-                    tiktoc: tiktoc,
                 };
             }
         },
@@ -934,7 +945,17 @@
             if (this.settings.dynamic) {
                 this.zoomFromOrigin = false;
             }
-            if (!this.settings.container) {
+            if (this.settings.container) {
+                var container = this.settings.container;
+                if (typeof container === 'function') {
+                    this.settings.container = container();
+                }
+                else if (typeof container === 'string') {
+                    var el = document.querySelector(container);
+                    this.settings.container = el !== null && el !== void 0 ? el : document.body;
+                }
+            }
+            else {
                 this.settings.container = document.body;
             }
             // settings.preload should not be grater than $item.length
@@ -1002,8 +1023,7 @@
                 console.error('Please provide a valid license key');
             }
             else if (this.settings.licenseKey === '0000-0000-000-0000') {
-              // jadams: disabled license warning
-              // console.warn("lightGallery: " + " license key not valid for business use: " + this.settings.licenseKey);
+                console.warn("lightGallery: " + this.settings.licenseKey + " license key is not valid for production use");
             }
         };
         LightGallery.prototype.getSlideItem = function (index) {
@@ -1367,7 +1387,7 @@
         };
         /**
          * Note - Changing the position of the media on every slide transition creates a flickering effect.
-         * Therefore, The height of the caption is calculated dynamically, only once based on the first slide caption.
+         * Therefore, The height of the caption is calculated dynamically, only once based on the first slide caption.
          * if you have dynamic captions for each media,
          * you can provide an appropriate height for the captions via allowMediaOverlap option
          */
@@ -1474,7 +1494,7 @@
             }
             if (this.settings.appendSubHtmlTo !== '.lg-item') {
                 if (subHtmlUrl) {
-                    this.outer.find('.lg-sub-html').load(subHtmlUrl);
+                    utils.fetchCaptionFromUrl(subHtmlUrl, this.outer.find('.lg-sub-html'), 'replace');
                 }
                 else {
                     this.outer.find('.lg-sub-html').html(subHtml);
@@ -1483,7 +1503,7 @@
             else {
                 var currentSlide = $LG(this.getSlideItemId(index));
                 if (subHtmlUrl) {
-                    currentSlide.load(subHtmlUrl);
+                    utils.fetchCaptionFromUrl(subHtmlUrl, currentSlide, 'append');
                 }
                 else {
                     currentSlide.append("<div class=\"lg-sub-html\">" + subHtml + "</div>");
@@ -1551,10 +1571,14 @@
                 if (!_dummyImgSrc)
                     return '';
                 var imgStyle = this.getDummyImgStyles(this.currentImageSize);
-                var dummyImgContent = "<img " + alt + " style=\"" + imgStyle + "\" class=\"lg-dummy-img\" src=\"" + _dummyImgSrc + "\" />";
+                var dummyImgContentImg = document.createElement('img');
+                dummyImgContentImg.alt = alt || '';
+                dummyImgContentImg.src = _dummyImgSrc;
+                dummyImgContentImg.className = "lg-dummy-img";
+                dummyImgContentImg.style.cssText = imgStyle;
                 $currentSlide.addClass('lg-first-slide');
                 this.outer.addClass('lg-first-slide-loading');
-                return dummyImgContent;
+                return dummyImgContentImg;
             }
             return '';
         };
@@ -1571,8 +1595,10 @@
             else {
                 imgContent = utils.getImgMarkup(index, src, altAttr, srcset, sizes, sources);
             }
-            var imgMarkup = "<picture class=\"lg-img-wrap\"> " + imgContent + "</picture>";
-            $currentSlide.prepend(imgMarkup);
+            var picture = document.createElement('picture');
+            picture.className = 'lg-img-wrap';
+            $LG(picture).append(imgContent);
+            $currentSlide.prepend(picture);
         };
         LightGallery.prototype.onSlideObjectLoad = function ($slide, isHTML5VideoWithoutPoster, onLoad, onError) {
             var mediaObject = $slide.find('.lg-object').first();
@@ -1641,18 +1667,16 @@
                     _this.settings.loadYouTubePoster &&
                     !element.poster &&
                     element.__slideVideoInfo.youtube) {
-                    element.poster = "//img.youtube.com/vi/" + element.__slideVideoInfo.youtube[1] + "/mqdefault.jpg";
+                    element.poster = "//img.youtube.com/vi/" + element.__slideVideoInfo.youtube[1] + "/maxresdefault.jpg";
                 }
             });
         };
-
         /**
          *  Load slide content into slide.
          *  This is used to load content into slides that is not visible too
          *  @param {Number} index - index of the slide.
          *  @param {Boolean} rec - if true call loadcontent() function again.
          */
-         // jadams
         LightGallery.prototype.loadContent = function (index, rec) {
             var _this = this;
             var currentGalleryItem = this.galleryItems[index];
@@ -2504,7 +2528,8 @@
         LightGallery.prototype.isSlideElement = function (target) {
             return (target.hasClass('lg-outer') ||
                 target.hasClass('lg-item') ||
-                target.hasClass('lg-img-wrap'));
+                target.hasClass('lg-img-wrap') ||
+                target.hasClass('lg-img-rotate'));
         };
         LightGallery.prototype.isPosterElement = function (target) {
             var playButton = this.getSlideItem(this.index)

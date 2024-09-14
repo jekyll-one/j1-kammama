@@ -170,12 +170,17 @@ settings:
 
             title:                      Kammama
             title_translation:          notranslate
-            tagline:                    ... nomma.
+            tagline:                    nomma
             text: >
-                                        Altes und Neues für Auge und Ohr.
+                                        Neues und Altes für Auge und Ohr.
                                         Portfolio beliebter Audios und Videos.
                                         <br><br>
-                                        Brutze Bratze ...
+                                        Die Website ist ein Verzeichnis von Inhalten,
+                                        die man nur schwer findet oder bereits
+                                        in Vergessenheit geraten sind.
+                                        <br><br>
+                                        Kennen etwas, was sich lohnt? Einach Email
+                                        an: kamma@nomma.org
 
             justify:                    false
 
@@ -188,7 +193,7 @@ settings:
 
             title:                      Blog
             title_translation:          notranslate                             # translate|notranslate
-            tagline:                    latest news
+            tagline:                    Trailer
             category:                   featured
             max_posts:                  3
 
@@ -205,19 +210,26 @@ settings:
 
             links:
 
-              - name:                   Kino und TV
+              - name:                   TV und Kino
                 link:
                   title:                Fernsehserien
                   title_translation:    notranslate
-                  tagline:              Katalog für Kino und TV
+                  tagline:              Katalog für TV und Kino
                   href:                 https://fernsehserien.de/
 
               - name:                   Mediatheken
                 link:
                   title:                MediathekView
                   title_translation:    notranslate
-                  tagline:              Online-Katalog der Mediatheken von ARD & Co
+                  tagline:              Online Mediathek von ARD & Co
                   href:                 https://mediathekviewweb.de/
+
+              - name:                   Spotify
+                link:
+                  title:                Spotify
+                  title_translation:    notranslate
+                  tagline:              Riesige Auswahl an Podcasts
+                  href:                 https://open.spotify.com/
 
           # --------------------------------------------------------------------
           # CONTACT box

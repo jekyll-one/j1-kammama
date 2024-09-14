@@ -1,0 +1,303 @@
+---
+layout:                                 page
+
+title:                                  Posts by Category
+tagline:                                Explore Posts
+
+date:                                   2023-09-20
+#last_modified:                         2023-01-01
+
+description: >
+                                        When it comes to the usability of a website, the focus of your
+                                        visitors is on one important component: The Navigation System
+                                        of the site. To make all posts using J1 Template easy accessible
+                                        to the visitors, the Navigation System of the Jekyll Template
+                                        provides a Blog Explorer module. The explorer module supports
+                                        the users for browsing articles by sorting criteria like category
+                                        and date or browsing the archive for all articles.
+
+categories:                             [ Blog ]
+tags:                                   [ Navigator, Categories ]
+
+pagination:
+  enabled:                              false
+  permalink:                            /page:num/
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/matthaeus.jpg
+  width:                                1920
+  height:                               1280
+
+#tts:                                   false
+fab_menu_id:                            open_toc
+sort:                                   date
+exclude_from_search:                    true
+regenerate:                             false                                   # set to 'true', if update posts is required
+
+resources:                              [ animate ]
+resource_options:
+  - attic:
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/matthaeus.jpg
+          alt:                          Photo by Matthaeus on Unsplash
+          badge:
+            type:                       unsplash
+            author:                     Matthaeus
+            href:                       //unsplash.com/@matthaeus123
+---
+
+{% comment %} Debugging
+--------------------------------------------------------------------------------
+skip_categories:            {{skip_categories | debug}}
+site_category_word_list:    {{site_category_word_list | debug}}
+--------------------------------------------------------------------------------
+{% endcomment %}
+
+{% comment %} Liquid procedures
+-------------------------------------------------------------------------------- {% endcomment %}
+{% capture get_page_path %}themes/{{site.template.name}}/procedures/global/get_page_path.proc{% endcapture %}
+{% capture select_icon_size %}themes/{{site.template.name}}/procedures/global/select_icon_size.proc{% endcapture %}
+{% capture get_category_item %}themes/{{site.template.name}}/procedures/global/get_category_item.proc{% endcapture %}
+{% capture create_word_cloud %}themes/{{site.template.name}}/procedures/global/create_word_cloud.proc{% endcapture %}
+
+
+{% comment %} Set config files
+-------------------------------------------------------------------------------- {% endcomment %}
+{% assign template_config         = site.data.j1_config %}
+{% assign blocks                  = site.data.blocks %}
+{% assign modules                 = site.data.modules %}
+{% assign plugins                 = site.data.plugins %}
+
+{% comment %} Set config data
+-------------------------------------------------------------------------------- {% endcomment %}
+{% assign blog_navigator_defaults = modules.defaults.blog_navigator.defaults %}
+{% assign blog_navigator_settings = modules.blog_navigator.settings %}
+
+{% comment %} Set config options
+-------------------------------------------------------------------------------- {% endcomment %}
+{% assign blog_navigator_options  = blog_navigator_defaults | merge: blog_navigator_settings %}
+
+{% comment %} Variables
+-------------------------------------------------------------------------------- {% endcomment %}
+{% assign truncate_words          = site.excerpt_truncate_words %}
+{% assign category_blacklist      = template_config.posts.category_blacklist %}
+
+
+{% if site.permalink == 'none' %}
+  {% capture browser_page_url %}{{page.url}}.html{% endcapture %}
+{% else %}
+  {% capture browser_page_url %}{{page.url}}{% endcapture %}
+{% endif %}
+
+{% comment %} Generate URLs for all Navigator Views
+------------------------------------------------------------------------ {% endcomment %}
+{% include {{get_page_path}} mode='absolute' %}
+{% assign navigator_path = page_path|remove_first: 'archive' %}
+{% capture navigator %}{{navigator_path}}{% endcapture %}
+{% capture date_view %}{{page_path}}/dateview/{% endcapture %}
+{% capture category_view %}{{page_path}}/categoryview/{% endcapture %}
+{% capture tag_view %}{{page_path}}/tagview/{% endcapture %}
+{% capture all_view %}{{page_path}}/allview/{% endcapture %}
+
+{% if page.sort == 'title' %}
+  {% assign sorted_posts = site.posts|sort: 'title' %}
+{% elsif page.sort == 'date' %}
+  {% assign sorted_posts = site.posts|sort: 'date' %}
+{% else %}
+  {% assign sorted_posts = site.posts|sort: 'date' %}
+{% endif %}
+
+{% comment %} TODO: skip_words NOT longer needed? Already done
+by processing of categories
+--------------------------------------------------------------------------------
+{% capture skip_words %} Posts Public {% endcapture %}
+--------------------------------------------------------------------------------
+{% endcomment %}
+
+{% comment %} category processing
+-------------------------------------------------------------------------------- {% endcomment %}
+{% for category in category_blacklist %}
+{% assign capitalized = category|capitalize %}
+  {% capture black_list %}{{black_list|append: capitalized}}{% unless forloop.last %},{% endunless %}{% endcapture %}
+{% endfor %}
+{% assign skip_categories = black_list | split: "," | join: " " %}
+
+{% capture site_category_word_list %}{% for category in site.categories %}{{category|first|capitalize|lstrip|rstrip}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign category_words = site_category_word_list|split:',' %}
+{% assign categories = category_words|uniq %}
+
+{% for category in categories %}
+  {% if skip_categories contains category %} {% continue %} {% endif %}
+  {% capture category_list %}{{category_list|append: category}}{% unless forloop.last %},{% endunless %}{% endcapture %}
+{% endfor %}
+
+{% comment %} Collect CSS image filters
+-------------------------------------------------------------------------------- {% endcomment %}
+{% if blog_navigator_options.filters %}
+  {% for filter in blog_navigator_options.filters %}
+    {% capture css_filters %}{{css_filters}} {{filter[0]}}({{filter[1]}}){% endcapture %}
+  {% endfor %}
+  {% capture image_filters %}filter:{{css_filters}}{% endcapture %}
+{% else %}
+  {% assign image_filters = '' %}
+{% endif %}
+
+{% comment %} Collect Readmore Text
+-------------------------------------------------------------------------------- {% endcomment %}
+{% if blog_navigator_options.readmore_text %}
+  {% assign readmore_text = blog_navigator_options.readmore_text %}
+{% endif %}
+
+{% comment %} Collect Button Text/Description
+-------------------------------------------------------------------------------- {% endcomment %}
+{% assign home_button_text                  = blog_navigator_options.button_text.view_pager.home %}
+{% assign navigator_button_text             = blog_navigator_options.button_text.view_pager.navigator %}
+{% assign category_view_button_text         = blog_navigator_options.button_text.view_pager.category_view %}
+{% assign date_view_button_text             = blog_navigator_options.button_text.view_pager.date_view %}
+{% assign archive_view_button_text          = blog_navigator_options.button_text.view_pager.archive_view %}
+{% assign tag_view_button_text              = blog_navigator_options.button_text.view_pager.tag_view %}
+
+{% assign description_enabled               = blog_navigator_options.category_view.page_description.enabled %}
+{% assign description_text                  = blog_navigator_options.category_view.page_description.text %}
+{% assign headline_enabled                  = blog_navigator_options.category_view.headline.enabled %}
+{% assign headline_text                     = blog_navigator_options.category_view.headline.text %}
+
+
+{% comment %} Main
+-------------------------------------------------------------------------------- {% endcomment %}
+<!-- [INFO   ] [blog.navigator.archive.categoryview.html ] [Begin content] -->
+{% include {{create_word_cloud}} source="categories" word_list=category_list %}
+
+{% comment %} Generate navigation pager
+-------------------------------------------------------------------------------- {% endcomment %}
+<!-- [INFO   ] [ {{page.url}} ] [Generate HTML}] -->
+<div class="paginator speak2me-ignore ml-3">
+  <ul class="pagination raised-z0">
+    <li class="page-item"><a class="page-link" href="/"             title="Back to {{home_button_text}}">{{home_button_text}}</a></li>
+    <li class="page-item"><a class="page-link" href="{{navigator}}" title="Back to {{navigator_button_text}}">{{navigator_button_text}}</a></li>
+    <li class="page-item"><a class="page-link" href="{{date_view}}" title="View by {{date_view_button_text}}">{{date_view_button_text}}</a></li>
+<!-- li class="page-item"><a class="page-link" href="{{tag_view}}"  title="View by {{tag_view_button_text}}">{{tag_view_button_text}}</a></li -->
+    <li class="page-item"><a class="page-link" href="{{all_view}}"  title="View {{archive_view_button_text}}">{{archive_view_button_text}}</a></li>
+  </ul>
+</div>
+
+{% comment %} Generate content section
+-------------------------------------------------------------------------------- {% endcomment %}
+<div class="content post-search-results ml-3">
+  {% if description_enabled %}
+  <div class="view-description mt-4 mb-4">{{description_text}}</div>
+  {% endif %}
+
+  {% if headline_enabled %}
+  <div class="post-headline mt-4 mb-5">
+    <h2 id="post_headline" class="notoc">{{headline_text}}</h2>
+  </div>
+  {% endif %}
+
+  {% assign tags = site.categories|sort %}
+  {% for tag in tags %}
+    {% assign category = tag|first %}
+    {% unless category_list contains category %} {% continue %} {% endunless %}
+
+    <h2 id="{{tag|first|downcase}}" class="anchor-link mb-4">
+      <i class="mdib mdib-pin mr-1"></i>{{tag|first|capitalize}}
+    </h2>
+
+      {% for post in sorted_posts %}
+        {%if post.categories contains tag[0]%}
+          {% assign category = tag|first %}
+          {% include {{get_category_item}} category=category %}
+          {% include {{select_icon_size}} family=icon_family size=icon_size %}
+          {% assign icon_size = size %}
+          {% comment %} {% assign excerpt = post.excerpt|truncatewords: truncate_words|replace:'...',' ...'|strip_html %} {% endcomment %}
+          {% assign excerpt = post.excerpt|truncatewords: truncate_words|replace:'...',' ...' %}
+
+          {% comment %} jadams, 2023-09-20: currently NOT used
+          ----------------------------------------------------------------------
+          <!-- Collect comment provider details -->
+          {% for sharing in builder_config.sharing_provider %}
+            {% assign provider      = sharing.provider %}
+            {% assign likes_count   = sharing.likes_count %}
+            {% assign comment_count = sharing.comment_count %}
+          {% endfor %}
+          ---------------------------------------------------------------------- {% endcomment %}
+
+          <article class="card raised-z0 mb-5">
+
+            <div class="card-header bg-primary pt-3 pb-2">
+              <h3 id="{{100000|rand}}" class="md-white notranslate">{{post.title}}</h3>
+            </div>
+
+            <div class="row mx-0">
+              <!-- [INFO   ] [j1.pages.blog.navigator.categoryview     ] [Check if post image is available] -->
+              {% if post.image %}
+              <!-- [INFO   ] [j1.pages.blog.navigator.categoryview     ] [Post image is available] -->
+              {% if post.image.path %}
+              <!-- [INFO   ] [j1.pages.blog.navigator.categoryview     ] [use full post image data] -->
+              <div class="col-md-6 img-bg--fill px-0"
+                style="border-right: 1px dotted rgba(0, 0, 0, 0.25); {{image_filters}}; background-image: url({{post.image.path}});">
+              </div>
+              {% else %}
+              <div class="col-md-6 img-bg--fill px-0"
+                style="border-right: 1px dotted rgba(0, 0, 0, 0.25); {{image_filters}}; background-image: url({{post.image}});">
+              </div>
+              {% endif %}
+              {% else %}
+              <!-- [INFO   ] [j1.pages.blog.navigator.categoryview     ] [Post image missing, using configured default image] -->
+              <div class="col-md-6 img-bg--fill px-0"
+                style="border-right: 1px dotted rgba(0, 0, 0, 0.25); {{image_filters}}; background-image: url({{blog_navigator_options.post_image}});">
+              </div>
+              {% endif %}
+
+              <div class="col-md-6 p-0">
+                <div class="card-body r-text-300 mt-0">{{excerpt}}</div>
+                <div class="card-footer speak2me-ignore not-rounded r-text-200">
+                  <div class="card-footer-text">
+
+                    {% if post.date %}
+                    <i class="mdi mdi-calendar-blank md-grey-600 mr-2"></i>{{post.date | localize: "%Y %B, %e"}}
+                    {% endif %}
+
+                    {% comment %} jadams, 2023-09-20: currently NOT used
+                	  ------------------------------------------------------------
+              		  {% if likes_count %}
+                			<span class="ml-3">
+                			<i class="mdib mdib-heart md-grey-900 mr-0"></i> · {{likes_count}}
+                      </span>
+              		  {% endif %}
+
+              		  {% if comment_count %}
+                			<span class="ml-3">
+                			<i class="mdib mdib-comment md-grey-900 mr-0"></i> · {{comment_count}}
+                      </span>
+              		  {% endif %}
+                    ------------------------------------------------------------ {% endcomment %}
+
+                    <!-- Cleanup categories by given blacklist -->
+                    {% assign my_categories = post.categories | difference: category_blacklist %}
+
+                    <!-- Build element strings -->
+                    {% assign categories    = my_categories |join: " · "  %}
+                    {% assign tags          = post.tags | join: " · "  %}
+
+                    <p class="result-item-text small mb-3 notranslate">
+                      <i class="mdi mdi-tag-text-outline mdi-18px mr-1"></i>
+                      <span class="sr-categories">{{categories}}</span>
+                      <br>
+                      <i class="mdi mdi-tag mdi-18px mr-1"></i>
+                      <span class="sr-tags">{{tags}}</span>
+                  </p>
+
+                  </div>
+                  <a class="card-link text-lowercase"
+                     href="{{post.url}}">
+                     {{readmore_text}} · {{post.tagline}}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+  {% endfor %}
+</div>

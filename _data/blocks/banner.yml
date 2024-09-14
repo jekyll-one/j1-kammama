@@ -89,148 +89,34 @@ settings:
               type:                     text
               position:                 left                                    # left | center
               title:                    Auf's Auge und in's Ohr
-              tagline:                  <b>Beliebte Videos und Audios von Heute und Gestern</b>
+              tagline:                  <b>Video und Audio von Gestern und Heute</b>
               translate_description:    notranslate                             # translate|notranslate
               description_properties:   mt-3 mb-3
               description: >
                                         <p class="dropcap">
-                                          The build-in Web of J1 Template is a full-featured template for Jekyll to
-                                          create modern dynamic websites. The template system provides a clean
-                                          implementation for starting new projects. J1 Template is open source,
-                                          and the modules packed are also free to use.
+                                          Ich lebe in der Region Rhein-Ruhr. Das geflügelte Wort: <b>Kamma nomma</b>
+                                          heißt hier soviel wie: Kann man nochmal. Wenn es sich lohnt etwas wieder
+                                          zu machen, ja dann Kamma nomma.
                                         </p>
+
                                         <p>
-                                          J1 Template is designed to be lightweight and easily customizable.
-                                          It comes with a basic structure and styling out of the box so that you
-                                          can create a website quickly and easily, without having to worry about
-                                          the code.
+                                          Email, gesendet im Freundes- und Bekanntenkreis, zu Inhalten im Internet die
+                                          sich lohnen werden viel gesendet. Diese Website möchte solche Inhalte sammeln,
+                                          von Gestern bis Heute, die sich lohnen nochmal zu lesen, hören oder anzusehen
+                                          und mit allen Menschen teilen.
+                                          <br><br>
+                                          Die Website ist ein Verzeichnis von Inhalten, die man oft nur schwer
+                                          findet, selten sind oder sind bereits in Vergessenheit geraten. Kennen
+                                          etwas, dass sich lohnt?
+                                          <br>
+                                          Einach eine Email an <b>kamma@nomma.org</b>.
                                         </p>
-                                        <p>
-                                          It features a modern, minimalist design with a focus on usability
-                                          and accessibility. Additionally, it comes with built-in support for
-                                          search engine optimization and social media integration, making it
-                                          easy to get your site off the ground and running.
+
+                                        <p class="mt-4">
+                                          Viel Freude auf dieser Site. Hoffentlich finden Sie etwas und sagen:
+                                          <b>Kamma nomma</b>!
                                         </p>
-                                        <p class="mt-4 fw-bold">Explore what is possible when using static webs.</p>
               buttons:
-
-                # - name:                 Roundtrip
-                #   button:
-                #     enabled:            true
-                #     id:                 roundtrip
-                #     translate:          notranslate                             # translate|notranslate
-                #     title:              Roundtrip
-                #     tagline:            learn top features
-                #     class:              btn btn-raised btn-xl btn-primary text-uppercase text-left mr-2 mb-2
-                #     style:              "min-width: 270px"
-                #     icon:               briefcase-search-outline
-                #     icon_color:
-                #     icon_size:          3x
-                #     href:               /pages/public/tour/present_images/
-                #     target:
-                #
-                # - name:                 Rocketstart
-                #   button:
-                #     enabled:            true
-                #     id:                 rocketstart
-                #     translate:          notranslate                             # translate|notranslate
-                #     title:              Rocketstart
-                #     tagline:            finished in minutes
-                #     class:              btn btn-raised btn-xl btn-primary text-uppercase text-left mr-2 mb-2
-                #     style:              "min-width: 270px"
-                #     icon:               rocket-launch
-                #     icon_color:
-                #     icon_size:          3x
-                #     href:               https://jekyll.one/pages/public/learn/rocketstart/
-                #     target:             blank
-                #
-                # - name:                 Download
-                #   button:
-                #     enabled:            true
-                #     id:                 download
-                #     translate:          notranslate                             # translate|notranslate
-                #     title:              Download
-                #     tagline:            get on rubygems
-                #     class:              btn btn-raised btn-xl btn-primary text-uppercase text-left mr-2 mb-2
-                #     style:              "min-width: 270px"
-                #     icon:               briefcase-download-outline
-                #     icon_color:
-                #     icon_size:          3x
-                #     href:               https://rubygems.org/gems/j1-template
-                #     target:             blank
-
-  # ----------------------------------------------------------------------------
-  # PARALLAX banner
-  #
-  #   Places an image (full width) with a parallax effect. Additionally,
-  #   a quotation text is configurable and placed centered on top of
-  #   the image.
-  #
-  # ----------------------------------------------------------------------------
-  #
-  parallax:
-    # --------------------------------------------------------------------------
-    # home_parallax_banner
-    #
-    - name:                             Home Parallax Banner
-      banner:
-        enabled:                        false
-
-        id:                             banner_home_parallax
-        comment:                        Main parallax banner shown on home page
-        type:                           parallax
-        properties:
-
-        cards:
-
-          - name:                       Quote settings
-            card:
-              enabled:                  true
-              type:                     quote
-#             cite:                     J1 Team
-              cite_text_size:           300%
-              cite_text_quotes:         false
-              cite_text: >
-                                        <strong>
-                                          <span class="text-primary">Making is</span>
-                                          <span class="text-light">like Wanting, <br> but even</span>
-                                          <span class="text-primary">Better</span>
-                                        </strong>
-
-              text_color:               var(--md-gray-300)
-              gridify:                  true
-              size_y:                   450
-              darken:                   6
-              background_image:         /assets/image/modules/attics/ideas-start-here-1920x1280-bw.jpg
-
-
-  # ----------------------------------------------------------------------------
-  # IMAGE banner
-  #
-  #   Place an image (full width).
-  #
-  # ----------------------------------------------------------------------------
-  #
-  image:
-    # --------------------------------------------------------------------------
-    # home_image_banner
-    #
-    - name:                             Home Image Banner
-      banner:
-        enabled:                        false
-
-        id:                             banner_home_image
-        comment:                        Image banner shown on home page
-        type:                           image
-        properties:                     mt-6 mb-6
-
-        image:
-          gridify:                      false
-          height:                       450
-          justify:                      true
-          brightness:                   80
-          opacity:                      false
-          picture:                      /assets/image/modules/attics/ideas-start-here-1920x1280-bw.jpg
 
 # ------------------------------------------------------------------------------
 # END config

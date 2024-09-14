@@ -1,0 +1,105 @@
+---
+title:                                  TV Total
+tagline:                                Highlights
+
+date:                                   2024-09-14
+#last_modified:                         2023-01-01
+
+description: >
+                                        Mitte 1999 startete Late-Night-Show TV Total mit Stefan Raab.
+                                        Der Moderator gehörte bald zu den bekanntesten Gesichtern im
+                                        deutschen (Privat-)Fernsehen.
+
+keywords:                               TV, Show, TV Total
+
+categories:                             [ Video ]
+tags:                                   [ TV Total, Show ]
+
+image:
+  path:                                 //img.youtube.com/vi/guXJa2qbwfM/maxresdefault.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/tv-highlights/tv-total/
+
+resources:                              [ videojs ]
+resource_options:
+  - attic:
+      padding_top:                      650
+      slides:
+        - url:                          //img.youtube.com/vi/guXJa2qbwfM/maxresdefault.jpg
+          alt:                          TV Total
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+[role="dropcap"]
+Mitte 1999 startete Late-Night-Show TV Total mit Stefan Raab. Der Moderator
+gehörte bald zu den bekanntesten Gesichtern im deutschen (Privat-)Fernsehen.
+
+Verrückte Studioaktionen und der konsequente Einsatz kurzer Videoschnipsel
+für seine Kommentare wurden zum Markenzeichen der Show.
+
+mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+*45+ Minuten* Videozeit
+
+
+[role="mt-4"]
+== Über die Show
+
+Quelle: https://www.fernsehserien.de/tv-total[fernsehserien.de, {browser-window--new} ]
+
+Raab kommentierte mit scharfer Zunge das aktuelle Tagesgeschehen, spottet über
+Ausschnitte aus TV und Internet und begrüßte (mehr oder weniger) Prominente aus
+dem deutschen wie internationalen Showbiz auf seinem Gästesessel.
+
+Wiederkehrende Rubriken wie die Verleihung des *Raab der Woche* für skurrile
+Auftritte in den Medien und *Raab in Gefahr*, bei dem sich der Moderator
+diversen Mutproben aussetzte, oder das Studio-Quiz *Blamieren oder kassieren*
+trugen wesentlich zum Erfolg der Show bei.
+
+Stefan Raab hatte seiner Zeit das TV Publikum wohl häufig gespalten. Jedoch
+eines war immer Gewiss: Hier wird was rausgehauen!
+
+
+[role="mt-5"]
+[[raab-vs-halmich]]
+== TV Boxkampf Raab vs. Halmich
+
+Raab war immer für eines gut: Spektakel. Und da hat er sich keineswegs
+ausgenommen. Ein Highlight aus der Rubrik *Raab in Gefahr* war der Boxkampf
+*Raab vs. Halmich* zu dem er die damals amtierende Boxweltmeisterin im
+Fliegengewicht _Regina Halmich_ herausgefordert hatte.
+
+Auf seine *besondere* Weise. Das Resultat: Die Boxweltmeisterin stimmte zu
+und es kam zu dem Kampf der beiden. Spoiler: Der Moderator brach sich während
+des Kampfes die Nase.
+
+Ob der _Raabinator_ die volle Distanz gehen kann? Sehen Sie den (ersten)
+TV Boxkampf *Raab vs. Halmich* aus dem Jahr 2001.
+
+.Raab vs. Halmich
+youtube::L61urS-gsGc[poster="//img.youtube.com/vi/L61urS-gsGc/maxresdefault.jpg" role="mt-4 mb-5"]
+
+[role="mb-7"]
+Stefan Rabb stieg in den Ring und kämpfte gegen die damalige Weltmeisterin.
+Ohne Kopfschutz, ohne doppelten Boden: aber mit viel Herz.

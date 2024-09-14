@@ -1,0 +1,112 @@
+---
+title:                                  Harnas
+tagline:                                Abenteuer Afrika
+
+date:                                   2024-09-01
+#last_modified:                         2023-01-01
+
+description: >
+                                        Harnas, der Name der Farm und das Waisenhaus für wilde Tiere,
+                                        ist Afrikaans und bedeutet: Schutz. Viele verwaiste oder misshandelte
+                                        Tiere werden hier gerettet. Vor 30 Jahren wurde Harnas von der Familie
+                                        van der Merwe gegründet. Chefin Marieta hat ein großes Herz, goldenen
+                                        Humor und sie bestimmt, wo’s langgeht.
+keywords: >
+                                        Fernsehserie, TV, Tier-Doku
+
+categories:                             [ Video ]
+tags:                                   [ TV Serie, Tier-Doku ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/harnas.png
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/serien/harnas/
+
+resources:                              [
+                                          gallery, lightgallery, masonry,
+                                          rouge, videojs, vimeo-player
+                                        ]
+resource_options:
+  - attic:
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/harnas.jpg
+          alt:                          Auf Achse
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+[role="dropcap"]
+Harnas, der Name der Farm, ist Afrikaans und bedeutet: Schutz. Viele
+verwaiste oder misshandelte Tiere werden hier gerettet. Vor 30 Jahren wurde
+Harnas von der Familie van der Merwe gegründet. Chefin Marieta hat ein großes
+Herz, goldenen Humor und sie bestimmt, wo’s langgeht.
+
+Betrieben wird die Wildtierfarm von der Harnas Wildlife Foundation, einer
+namibischen Non-Profit-Organisation, die sich über Spenden finanziert und
+von prominenten Paten wie Angelina Jolie unterstützt wird.
+
+mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+*45+ Minuten* Videozeit
+
+
+[role="mt-4"]
+== Über die Serie
+
+Quelle: https://www.harnas.at/Harnas.html[harnas.at, {browser-window--new} ]
+
+Aufgenommen auf Harnas werden vor allem verwaiste Tierkinder, verletzte
+Wildtiere und etliche als Haustiere gehaltene und oftmals misshandelte
+Affen und andere Exoten. Die Tiere sollen wieder an das Leben in der Wildnis
+gewöhnt werden.
+
+Die Tier-Doku begleitet den Alltag der freiwilligen Helfer (Volontäre) aus
+aller Welt und der Pfleger auf Harnas, die rund 400 Tiere in weitläufigen
+Gehegen versorgen.
+
+
+[role="mt-5"]
+== Zweite Staffel (2013)
+
+lorem:sentences[5]
+
+.Staffel 2
+gallery::harnas_s02[role="mt-4 mb-4"]
+
+lorem:sentences[5]
+
+
+[role="mt-5"]
+== Erste Staffel (2011)
+
+In Vorbereitung.
+
+.S02E01 · Von Straußen, Pavianen und dem Springbock Bambi Blommetjie
+youtube::64RebCRdTm4[poster="//img.youtube.com/vi/64RebCRdTm4/maxresdefault.jpg" role="mt-4 mb-5"]
+
+// .Staffel 1 (1980)
+// gallery::auf_achse_s01[role="mt-5 mb-4"]
+
+[role="mt-5 mb-7"]
+lorem:sentences[5]

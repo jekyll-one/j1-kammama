@@ -31,18 +31,21 @@
 - item:                                 Audio
   sublevel:
 
-      - title:                          Hörbücher
-        icon:                           volume-high
-        dropdown:
-
-          - title:                      Spontanorama
-            href:                       /pages/public/audio/podcast/spontanorama/
-            icon:                       ear-hearing
+      # - title:                          Hörbücher
+      #   icon:                           volume-high
+      #   dropdown:
+      #
+      #     - title:                      Spontanorama
+      #       href:                       /pages/public/audio/podcast/spontanorama/
+      #       icon:                       ear-hearing
 
       - title:                          Podcasts
         icon:                           volume-high
         dropdown:
 
+          - title:                      Stundenhotel
+            href:                       /pages/public/audio/podcast/stundenhotel/
+            icon:                       ear-hearing
           - title:                      Spontanorama
             href:                       /pages/public/audio/podcast/spontanorama/
             icon:                       ear-hearing
@@ -56,16 +59,30 @@
       - title:                          Serien
         icon:                           video
         dropdown:
+
           - title:                      Auf Achse
-            href:                       /pages/public/audio/podcast/auf-achse/
+            href:                       /pages/public/video/serien/auf-achse/
+            icon:                       eye
+          - title:                      Waisenhaus für wilde Tiere
+            href:                       /pages/public/video/serien/harnas/
             icon:                       eye
 
-      - title:                          Filme
+      - title:                          Shows
         icon:                           video
         dropdown:
-          - title:                      Spontanorama
-            href:                       /pages/public/audio/podcast/spontanorama/
+
+          - title:                      TV Total
+            href:                       /pages/public/video/tv-highlights/tv-total/
             icon:                       eye
+
+
+# - title:                          Filme
+#   icon:                           video
+#   dropdown:
+#     - title:                      Spontanorama
+#       href:                       /pages/public/audio/podcast/spontanorama/
+#       icon:                       eye
+
 
 # ------------------------------------------------------------------------------
 # Menu BLOG
@@ -98,6 +115,12 @@
 #     - bootswatch_themes:                enabled
 #       title:                            Bootswatch
 #       icon:                             bootstrap
+
+# ------------------------------------------------------------------------------
+# TopLevel item
+#
+- item:                                 Vorschau
+  href:                                 /#previewer
 
 # ------------------------------------------------------------------------------
 # Menu ABOUT
