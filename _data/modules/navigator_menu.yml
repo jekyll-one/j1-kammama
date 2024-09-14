@@ -67,6 +67,17 @@
             href:                       /pages/public/video/serien/harnas/
             icon:                       eye
 
+      - title:                          TV Highlights
+        icon:                           video
+        dropdown:
+
+          - title:                      Kerkeling
+            href:                       /pages/public/video/tv-highlights/kerkeling/
+            icon:                       eye
+          - title:                      Sträter
+            href:                       /pages/public/video/tv-highlights/straeter/
+            icon:                       eye
+
       - title:                          Shows
         icon:                           video
         dropdown:

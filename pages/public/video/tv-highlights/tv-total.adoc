@@ -6,7 +6,7 @@ date:                                   2024-09-14
 #last_modified:                         2023-01-01
 
 description: >
-                                        Mitte 1999 startete Late-Night-Show TV Total mit Stefan Raab.
+                                        Mitte 1999 startete die Late-Night-Show TV Total mit Stefan Raab.
                                         Der Moderator gehörte bald zu den bekanntesten Gesichtern im
                                         deutschen (Privat-)Fernsehen.
 
@@ -53,7 +53,7 @@ resource_options:
 {% include {{load_attributes}} scope="global" %}
 
 [role="dropcap"]
-Mitte 1999 startete Late-Night-Show TV Total mit Stefan Raab. Der Moderator
+Mitte 1999 startete die Late-Night-Show TV Total mit Stefan Raab. Der Moderator
 gehörte bald zu den bekanntesten Gesichtern im deutschen (Privat-)Fernsehen.
 
 Verrückte Studioaktionen und der konsequente Einsatz kurzer Videoschnipsel
@@ -80,6 +80,13 @@ trugen wesentlich zum Erfolg der Show bei.
 Stefan Raab hatte seiner Zeit das TV Publikum wohl häufig gespalten. Jedoch
 eines war immer Gewiss: Hier wird was rausgehauen!
 
+[role="mt-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Videos direkt über das Angebot
+der Plattform _YouTube_ geladen. Daher ist eine Internetverbindung zum Ansehen
+der Videos *zwingend* erforderlich.
+====
 
 [role="mt-5"]
 [[raab-vs-halmich]]

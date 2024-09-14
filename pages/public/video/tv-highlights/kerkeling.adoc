@@ -1,0 +1,105 @@
+---
+title:                                  Hape Kerkeling
+tagline:                                Highlights
+
+date:                                   2024-09-14
+#last_modified:                         2023-01-01
+
+description: >
+                                        Mitte 1999 startete die Late-Night-Show TV Total mit Stefan Raab.
+                                        Der Moderator gehörte bald zu den bekanntesten Gesichtern im
+                                        deutschen (Privat-)Fernsehen.
+
+keywords:                               TV, Show, Darüber lacht die Welt,
+                                        Hape Kerkeling
+
+categories:                             [ Video ]
+tags:                                   [ Hape Kerkeling, Show ]
+
+image:
+  path:                                 /assets/image/pages/kerkeling/hape-kerkeling.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/tv-highlights/kerkeling/
+
+resources:                              [ videojs ]
+resource_options:
+  - attic:
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/pages/kerkeling/hape-kerkeling.jpg
+          alt:                          Hape Kerkeling
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+[role="dropcap"]
+
+lorem:sentences[5]
+
+mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+*45+ Minuten* Videozeit
+
+
+[role="mt-4"]
+== Über Hape Kerkeling
+
+Quelle: https://de.wikipedia.org/wiki/Hape_Kerkeling[Wikipedia, {browser-window--new}]
+
+lorem:sentences[5]
+
+[role="mt-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Videos direkt über das Angebot
+der _ARD Mediathek_ oder über die Plattform _YouTube_ geladen. Daher ist eine
+Internetverbindung zum Ansehen der Videos *zwingend* erforderlich.
+====
+
+
+[role="mt-5"]
+[[schachmatt]]
+== Schachmatt beim FC Bayern
+
+Ja, es wäre schön hätte man ein kleines Vögelein das immer das Richtige ins
+Ohr flüstert. Dabei habe ich mich an eine der Shows: "Darüber lacht die Welt"
+erinnert, in der Hape Kerkeling auf seine unnachahmliche Weise mit Hilfe eines
+solchen Vögelchen eine Reihe an professionellen Schachspielern gehörig auf die
+Schippe nimmt.
+
+Der kleine Vogel war in diesem Falle die noch junge Schachmeisterin
+_Elisabeth Pähtz_. Sie ist heute Großmeisterin der Frauen und erhielt
+im November 2022 auch den allgemeinen Großmeistertitel.
+
+Schauen Sie sich das Video an, wie Hape als orientalischer Schachmeister und
+Elisabeth als Souffleuse beim FC Bayern für einigen Wirbel sorgt.
+
+.Hape Kerkeling - Schachmatt beim FC Bayern (Sat.1, Darüber lacht die Welt, 1999)
+youtube::eDwXAx79KtQ&t=5s[poster="/assets/video/gallery/hape-kerkeling-darueber-lacht-die-welt.jpg" role="mt-4 mb-5"]
+
+
+[role="mt-5"]
+[[schlaemmer]]
+== Horst Schlämmer
+
+lorem:sentences[5]

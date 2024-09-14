@@ -51,7 +51,7 @@ resource_options:
 // Place an excerpt at the most top position
 // -----------------------------------------------------------------------------
 [role="dropcap"]
-Mitte 1999 startete Late-Night-Show TV Total mit Stefan Raab. Der Moderator
+Mitte 1999 startete die Late-Night-Show TV Total mit Stefan Raab. Der Moderator
 gehörte bald zu den bekanntesten Gesichtern im deutschen (Privat-)Fernsehen.
 
 Verrückte Studioaktionen und der konsequente Einsatz kurzer Videoschnipsel
@@ -83,11 +83,15 @@ mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
 [role="mt-5"]
 == Über die Show
 
-Quelle: https://www.fernsehserien.de/tv-total[fernsehserien.de, {browser-window--new} ]
+Quellen:
 
-Raab kommentierte mit scharfer Zunge das aktuelle Tagesgeschehen, spottet über
-Ausschnitte aus TV und Internet und begrüßte (mehr oder weniger)Prominente aus
-dem deutschen wie internationalen Showbiz auf seinem Gästesessel.
+* https://www.fernsehserien.de/tv-total[Fernsehserien, {browser-window--new} ]
+* https://de.wikipedia.org/wiki/TV_total[Wikipedia, {browser-window--new} ]
+
+[role="mt-4"]
+Die Show und der Moderator Stefan Raab wurden schnell bekannt. Die respektlose
+Auseinandersetzung mit Pannen und fragwürdigen Entwicklungen im deutschen
+Fernsehen war für die damaligen (TV-)Verhältnisse durchaus bemerkswert.
 
 Wiederkehrende Rubriken wie die Verleihung des *Raab der Woche* für skurrile
 Auftritte in den Medien und *Raab in Gefahr*, bei dem sich der Moderator
@@ -97,6 +101,6 @@ trugen wesentlich zum Erfolg der Sendung bei.
 Stefan Raab hatte seiner Zeit das TV Publikum wohl häufig gespalten. Jedoch
 eines war immer Gewiss: Hier wird was rausgehauen!
 
-[role="mb-7"]
-Das ist (und bleibt)t Kult: &nbsp;
+[role="mt-4 mb-7"]
+Dieses Event ist und bleibt Kult: &nbsp;
 link:{url-video--tv-boxkampf}[TV Boxkampf Raab vs. Halmich, {browser-window--new}].

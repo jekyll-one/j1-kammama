@@ -115,5 +115,5 @@ keine Untertitel angeboten. Man setzte grundsätzlich auf Statisten und oft auf
 Schauspieler aus dem jeweiligen Land.
 
 [role="mb-7"]
-Schaeun Sie rein. Es ist und bleibt Kult: &nbsp;
+Schauen Sie rein. Es ist und bleibt Kult: &nbsp;
 link:{url-player--auf-achse}[Auf Achse, {browser-window--new}].
