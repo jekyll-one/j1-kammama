@@ -1,0 +1,137 @@
+---
+title:                                  Horst Evers
+tagline:                                Autor und Kabarettist
+
+date:                                   2024-09-15
+#last_modified:                         2023-01-01
+
+description: >
+                                        Horst Evers schreibt famose Texte und Bücher. Als Comedian
+                                        verwandelt er alltägliche Erlebnisse, Vorfälle und Beobachtungen
+                                        mit viel Witz und einer Prise Weisheit in komische Geschichten.
+                                        Er entführt in eine vertraute Welt, in der es doch von überraschenden
+                                        Wendungen, unverhofften Abenteuern und erstaunlichen Einsichten
+                                        nur so wimmelt.
+
+keywords:                               Kabarettist, Horst Evers
+
+
+categories:                             [ Video ]
+tags:                                   [ Horst Evers, Kabarettist ]
+
+image:
+  path:                                 /assets/image/pages/evers/horst-evers.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/comedy/evers/
+
+resources:                              [ videojs ]
+resource_options:
+  - attic:
+      padding_top:                      450
+      slides:
+        - url:                          /assets/image/pages/evers/horst-evers.jpg
+          alt:                          Horst Evers
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+[role="dropcap"]
+
+Horst Evers schreibt famose Texte und Bücher. Als Comedian verwandelt er
+alltägliche Erlebnisse, Vorfälle und Beobachtungen mit viel Witz und einer
+Prise Weisheit in komische Geschichten.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
+
+// timeinfo::45+[type="video"]
+
+// mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+// *45+ Minuten* Videozeit
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="mt-5"]
+== Über Horst Evers
+// Quelle: https://de.wikipedia.org/wiki/Horst_Evers[Wikipedia, {browser-window--new}]
+
+Den Alltag kennt jeder und ist vertraut. Horst Evers entführt in eine vertraute
+Welt, in der es doch von überraschenden Wendungen, unverhofften Abenteuern und
+erstaunlichen Einsichten nur so wimmelt.
+Das ist das Besondere: Er findet ungewöhnliches im Gewöhnlichen.
+
+[role="mt-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Videos direkt über die Plattform
+_YouTube_ geladen. Daher ist eine Internetverbindung zum Ansehen der Videos
+*zwingend* erforderlich.
+====
+
+
+[role="mt-5"]
+[[parkfest-2019]]
+== Das radioeins Parkfest 2019
+
+Spontanes und Auszüge aus seinem aktuellen Programm _Früher war ich älter_.
+Es wird neue Geschichten geben, sehr viel zum Lachen, vielleicht ein Lied,
+eher nicht Tanz und garantiert keine Tiere. Horst Evers hat zumindest große
+Pläne für diesen Abend. Wenn alles klappt, würde uns das allerdings überraschen.
+
+Aber am Besten schauen Sie sich das selbst an. Bislang hat sich das eigentlich
+immer für alle Beteiligten sehr gelohnt.
+
+.Horst Evers - Parkfest 2019 (radioeins)
+youtube::6Tmnahq5gAE[poster="https://img.youtube.com/vi/6Tmnahq5gAE/maxresdefault.jpg" role="mt-4 mb-5"]
+
+
+[role="mt-5"]
+[[parkfest-2022]]
+== Das radioeins Parkfest 2022
+
+Mit seinem aktuellen Programm: _Ich bin ja keiner, der sich an die große
+Glocke hängt_, ist Horst regelmäßig zu Gast im Mehringhoftheater und bei
+den Wühlmäusen. Jetzt liest er neue und bekannte Texte live beim radioeins
+Parkfest. Er erzählt mitten aus dem Hier und Jetzt.
+
+.Horst Evers - Parkfest 2022 (radioeins)
+youtube::jyMxNuBW100[poster="https://img.youtube.com/vi/jyMxNuBW100/maxresdefault.jpg" role="mt-4 mb-5"]
+
+
+[role="mt-5"]
+[[parkfest-2024]]
+== Das radioeins Parkfest 2024
+
+Dieser Mann führt Buch. Über alles: Seinen Alltag, seine Begegnungen, seine
+Erlebnisse. Die Liste der Bücher, die er mit diesem Material geschrieben hat,
+ist schier endlos. Es gibt kaum jemanden, dem es gelingt, den alltäglichsten
+Dingen einen absurden Twist zu verpassen, der einen garantiert zum Schmunzeln
+bringt.
+
+.Horst Evers - Parkfest 2024 (radioeins)
+youtube::2rtQOsWaAXc[poster="https://img.youtube.com/vi/2rtQOsWaAXc/maxresdefault.jpg" role="mt-4 mb-5"]

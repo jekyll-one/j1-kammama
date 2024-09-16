@@ -356,6 +356,7 @@ resources:
       data:
         css:                            [
                                           core/css/themes/unolight/bootstrap,
+                                          core/css/icon-fonts/fontawesome,
                                           core/css/icon-fonts/mdib,
                                           core/css/vendor
                                         ]
@@ -1747,7 +1748,7 @@ resources:
   #
   - name:                               J1 lazyLoader
     resource:
-      enabled:                          true
+      enabled:                          false
 
       id:                               lazy-loader
       comment:                          Module lazyLoader

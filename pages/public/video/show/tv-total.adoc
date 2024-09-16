@@ -1,6 +1,6 @@
 ---
 title:                                  TV Total
-tagline:                                Highlights
+tagline:                                TV Show der 00er Jahre
 
 date:                                   2024-09-14
 #last_modified:                         2023-01-01
@@ -13,7 +13,7 @@ description: >
 keywords:                               TV, Show, TV Total
 
 categories:                             [ Video ]
-tags:                                   [ TV Total, Show ]
+tags:                                   [ Show, TV Total ]
 
 image:
   path:                                 //img.youtube.com/vi/guXJa2qbwfM/maxresdefault.jpg
@@ -24,12 +24,12 @@ tts:                                    true
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
-permalink:                              /pages/public/video/tv-highlights/tv-total/
+permalink:                              /pages/public/video/show/tv-total/
 
 resources:                              [ videojs ]
 resource_options:
   - attic:
-      padding_top:                      650
+      padding_top:                      450
       slides:
         - url:                          //img.youtube.com/vi/guXJa2qbwfM/maxresdefault.jpg
           alt:                          TV Total
@@ -59,11 +59,17 @@ gehörte bald zu den bekanntesten Gesichtern im deutschen (Privat-)Fernsehen.
 Verrückte Studioaktionen und der konsequente Einsatz kurzer Videoschnipsel
 für seine Kommentare wurden zum Markenzeichen der Show.
 
-mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-*45+ Minuten* Videozeit
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
 
 
-[role="mt-4"]
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="mt-5"]
 == Über die Show
 
 Quelle: https://www.fernsehserien.de/tv-total[fernsehserien.de, {browser-window--new} ]

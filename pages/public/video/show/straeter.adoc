@@ -1,37 +1,37 @@
 ---
-title:                                  Torsten Sträter
-tagline:                                Highlights
+title:                                  Sträter
+tagline:                                TV Show
 
 date:                                   2024-09-14
 #last_modified:                         2023-01-01
 
 description: >
-                                        Mitte 1999 startete die Late-Night-Show TV Total mit Stefan Raab.
-                                        Der Moderator gehörte bald zu den bekanntesten Gesichtern im
-                                        deutschen (Privat-)Fernsehen.
+                                        Torsten Sträter lädt mit seiner Show zu einem Abend unter Freunden
+                                        in Köln ein. Nach einem Stand-up-Teil heißt er im Verlauf der Show
+                                        Gästen willkommen.
 
-keywords:                               TV, Show, TV Total
+keywords:                               TV, Show, Sträter, Torsten Sträter
 
 categories:                             [ Video ]
-tags:                                   [ TV Total, Show ]
+tags:                                   [ Show, Torsten Sträter ]
 
 image:
-  path:                                 /assets/image/pages/straeter/torsten-straeter.jpg
-  width:                                1920
-  height:                               1200
+  path:                                 /assets/image/leute/torsten-straeter.jpg
+  width:                                1280
+  height:                               720
 
 tts:                                    true
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
-permalink:                              /pages/public/video/tv-highlights/straeter/
+permalink:                              /pages/public/video/show/straeter/
 
 resources:                              [ videojs ]
 resource_options:
   - attic:
-      padding_top:                      650
+      padding_top:                      450
       slides:
-        - url:                          /assets/image/pages/straeter/torsten-straeter.jpg
+        - url:                          /assets/image/leute/torsten-straeter.jpg
           alt:                          Torsten Sträter
 ---
 
@@ -54,18 +54,30 @@ resource_options:
 
 [role="dropcap"]
 
-lorem:sentences[5]
+Torsten Sträter lädt mit seiner Show zu *einem Abend unter Freunden* in Köln
+(Mülheimer Hafen) ein. Nach einem Stand-up-Teil heißt er im Verlauf der Show
+Gästen willkommen.
 
-mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-*45+ Minuten* Videozeit
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
 
 
-[role="mt-4"]
-== Über Torsten Sträter
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="mt-5"]
+== Über die Show
 
-Quelle: https://de.wikipedia.org/wiki/Torsten_Str%C3%A4ter[Wikipedia, {browser-window--new}]
+Torsten Sträter lädt mit seiner Show zu *einem Abend unter Freunden* in Köln
+(Mülheimer Hafen) ein. Nach einem Stand-up-Teil heißt er im Verlauf der Show
+Gästen willkommen.
 
-lorem:sentences[5]
+In der Rubrik *Hausbesuche* trifft der Kabarettist außerdem auf skurrile
+Leute aus dem sogenannten *echten Leben*, die ihm etwas zu sagen oder zu
+zeigen haben.
 
 [role="mt-4"]
 [TIP]
@@ -76,19 +88,9 @@ Internetverbindung zum Ansehen der Videos *zwingend* erforderlich.
 ====
 
 
-== Sträter Show und Gäste
-
-Torsten Sträter lädt ein zu *einem Abend unter Freunden* im Mülheimer Hafen
-in Köln. Nach einem Stand-up-Teil heißt er im Verlauf der Show einen
-prominenten und einen weniger prominenten Gast willkommen.
-
-In der Rubrik *Hausbesuche* trifft der Kabarettist außerdem auf skurrile
-Leute aus dem sogenannten *echten Leben*, die ihm etwas zu sagen oder zu
-zeigen haben.
-
 [role="mt-5"]
 [[straeter-marc-uwe-kling]]
-=== Show mit Marc-Uwe Kling
+== Show mit Autor Marc-Uwe Kling
 
 Sexualität ist so ein Thema. Insbesondere für Eltern, die sehrwohl im Laufe
 der Zeit zu Spezialisten in Fragen von Erziehung der eigenen Kinder geworden
@@ -105,7 +107,7 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/282/2823650/2823
 
 [role="mt-5"]
 [[straeter-laura-wotorra]]
-=== Show mit Laura Wontorra
+== Show mit Moderation Laura Wontorra
 
 Laura Wontorra erzählt Torsten Stäter über ihre steile Karriere, ihre
 Kochkünste und über Lampenfieber. Gemeinsam kommentieren sie sportliche
@@ -118,7 +120,7 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/310/3104436/3104
 
 [role="mt-5"]
 [[straeter-wladimir-kaminer]]
-=== Show mit Wladimir Kaminer
+== Show mit Autor Wladimir Kaminer
 
 Zu Gast ist der Schriftsteller Wladimir Kaminer, der mit Sträter eine Reihe
 von Lokalnachrichten aus aller Welt vorträgt.
@@ -129,7 +131,7 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2921065/2921
 
 [role="mt-5"]
 [[straeter-ralph-ruthe]]
-=== Show mit Ralph Ruthe
+== Show mit Cartoonist Ralph Ruthe
 
 Zu Gast ist der Zeichner und Cartoonist Ralph Ruthe. Das Gespräch ist gefüllt
 mit lustigen Sprüchen, nostalgischen Texten und brillanten *Witzbildchen* von
@@ -141,7 +143,13 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2925505/2925
 
 [role="mt-5"]
 [[tino-bomelino]]
-== Tino Bomelino
+== Rubriken
+
+lorem:sentences[5]
+
+[role="mt-4"]
+[[tino-bomelino]]
+=== Tino Bomelino
 
 Comedian Tino Bomelino, im *richtigen* Leben _Tino Hartmann_ (geboren 1985 in
 Ost-Berlin), ist eigentlich studierter Informatiker (Universität Stuttgart).
@@ -166,7 +174,7 @@ von Freunden: Gut gemeint, aber ...
 
 [role="mt-5"]
 [[tino-bomelino-unsterblichkeit]]
-=== Unsterblichkeit
+==== Unsterblichkeit
 //Wie werde ich unsterblich? – Tino Bomelino | STRÄTER Folge 20
 
 Tino Bomelino erklärt, was alles anders wäre, wären wir unsterblich. Und gibt
@@ -180,7 +188,7 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/310/3104436/3104
 
 [role="mt-5"]
 [[tino-bomelino-hobbys]]
-=== Beliebte Hobbys
+==== Beliebte Hobbys
 
 Tino Bomelino präsentiert die beliebtesten Hobbys. Falls jemand noch kein
 Hobby hat und eines sucht, kann diese Präsentation bei der Suche nach
@@ -193,15 +201,14 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2921065/2921
 
 [role="mt-5"]
 [[tino-bomelino-erfolgs-kurs]]
-=== Erfolgs-Kurs
+==== Erfolgs-Kurs
 //Tino Bomelino stellt seinen Erfolgskurs vor! | STRÄTER Folge 19
 
 Tino Bomelino präsentiert wie man sein Leben optimieren kann. Ein Thema das
 sicher viele beschäftigt. Zeit ist Geld, das Konzept des GlobalTurbo für das
-Einsparen von Zeit ist revolutionär.
-
-Tino Bomelino präsentiert seinen Erfolgskurs – für alle, die Bock haben auf
-Erfolg. Morgens ganz entspannt Kaffee machen? Der absolut falsche Weg!
+Einsparen von Zeit ist revolutionär. Tino präsentiert seinen Erfolgskurs für
+alle, die Bock auf Erfolg haben. Eines Vorab: Morgens ganz entspannt Kaffee
+machen? Der absolut falsche Weg!
 
 Tino erklärt, wie Erfolg richtig geht.
 
@@ -211,16 +218,14 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2925505/2925
 
 [role="mt-5"]
 [[tino-bomelino-unklare-gegenteile]]
-=== Unklare Gegenteile
+==== Unklare Gegenteile
 //Ausschnitt aus STRÄTER Folge 23 vom 26.10.2023.
 
-Wissen ist Macht - dass weis wohl jeder. Würde es Warnhinweise für die
+Wissen ist Macht; dass weis wohl jeder. Würde es Warnhinweise für die
 Präsentation von Tino Bomelino geben, dann vielleicht soetws: Kann Teile
-von Wissen enthalten.
-
-Manche Gegenteile sind ganz offensichtlich, Tino Bomelino hat ein paar Paare
-von Gegenteilen mitgebracht, die weniger offensichtlich sind. Die möglicher
-Weise wichtig sind.
+von Wissen enthalten. Manche Gegenteile sind ganz offensichtlich, Tino hat
+Beispiele von Gegenteilen mitgebracht, die weniger bekannt oder unklar sind,
+aber schon wichtig sein können.
 
 Lernen für's Leben mit Tino.
 
@@ -229,32 +234,32 @@ youtube::SxiubinEdfs[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" r
 
 [role="mt-5"]
 [[tino-bomelino-unnötige-superhelden]]
-=== Unnötige Superhelden
+==== Unnötige Superhelden
 //Tino Bomelino stellt unnötige Superhelden vor | STRÄTER Folge 21
 
 Was kann die *Enten-Frau*? Wie kommuniziert *Telepathio*? Warum kommt
-die *Teleportier-Frau* immer zu spät? Und was findet *Super-Mann*
-nicht super?
+die *Teleportier-Frau* immer zu spät? Und was findet *Super-Mann* nicht
+super?
 
-Thema Superhelden unklar? Tino Bomelino gibt Antworten.
+Thema Superhelden unklar? Tino gibt Antworten.
 
 .Tino Bomelino · Unnötige Superhelden
 youtube::Is4R8H0dtlA[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
 
 [role="mt-5"]
 [[tino-bomelino-geschäftsideen]]
-=== Geschäftsideen
+==== Geschäftsideen
 //Tino Bomelino – Geschäftsideen für Torsten Sträter & Harald Schmidt | STRÄTER Folge 22
 
-Käse mit Pizza im Rand, ein Ausmalbuch für Erwachsene, Tiervermietung und
+Käse mit Pizza im Rand, ein Ausmalbuch für Erwachsene. Eine Tiervermietung und
 ein Pyramiden-Bastelplan, der dich und deine Freunde garantiert nicht in ein
-Pyramiden-System stürzen wird. Bomelino bietet viele gute Ideen für die
-Eigenständigkeit auf die man kommen kann - irgendwann.
+Pyramiden-System stürzen wird. Tino präsentiert viele gute Ideen für die
+Selbständigkeit auf die man nicht (unbedingt) kommt.
 
 Durchstarten im eigenen Business - mit Tino.
 
 .Tino Bomelino · Geschäftsideen
 youtube::yQ1jeCUmV0c[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
 
-
+[role="mb-7"]
 lorem:sentences[5]

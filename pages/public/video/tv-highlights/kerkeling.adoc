@@ -17,9 +17,9 @@ categories:                             [ Video ]
 tags:                                   [ Hape Kerkeling, Show ]
 
 image:
-  path:                                 /assets/image/pages/kerkeling/hape-kerkeling.jpg
-  width:                                1920
-  height:                               1200
+  path:                                 /assets/image/leute/hape-kerkeling.jpg
+  width:                                1280
+  height:                               720
 
 tts:                                    true
 fab_menu_id:                            open_toc
@@ -30,9 +30,9 @@ permalink:                              /pages/public/video/tv-highlights/kerkel
 resources:                              [ videojs ]
 resource_options:
   - attic:
-      padding_top:                      650
+      padding_top:                      450
       slides:
-        - url:                          /assets/image/pages/kerkeling/hape-kerkeling.jpg
+        - url:                          /assets/image/leute/hape-kerkeling.jpg
           alt:                          Hape Kerkeling
 ---
 
@@ -57,10 +57,18 @@ resource_options:
 
 lorem:sentences[5]
 
-mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-*45+ Minuten* Videozeit
+// mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+// *45+ Minuten* Videozeit
 
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
 
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="mt-4"]
 == Über Hape Kerkeling
 

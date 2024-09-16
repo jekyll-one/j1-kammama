@@ -16,8 +16,8 @@ keywords: >
                                         Radio Bremen Zwei, Wischmeyers Stundenhotel, Podcast,
                                         Tina Voß, Dietmar Wischmeyer
 
-categories:                             [ Podcast ]
-tags:                                   [ Radio Bremen Zwei, Tina Voß, Dietmar Wischmeyer ]
+categories:                             [ Audio ]
+tags:                                   [ Podcast, Tina Voß, Dietmar Wischmeyer ]
 
 image:
   path:                                 /assets/image/modules/attics/1920x1280/stundenhotel.jpg
@@ -36,7 +36,7 @@ resources:                              [ amplitudejs ]
 resource_options:
   - attic:
 #     opacity:                          0.5
-      padding_top:                      650
+      padding_top:                      450
       slides:
         - url:                          /assets/image/modules/attics/1920x1280/stundenhotel.jpg
           alt:                          stundenhotel
@@ -67,29 +67,24 @@ Bremen Zwei.
 Beim Podcast-Date liefern sie sich bissige Dialoge zu einem Thema.
 Spontan und teils mit harten Pointen.
 
-mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-*60+ Minuten* Audiozeit
+// mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+// *60+ Minuten* Audiozeit
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  60+ Minuten Audiozeit
+</div>
+++++
 
 
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="mt-4"]
-== Über den Podcast
+== Podcasts
 
-lorem:sentences[5]
-
-Der Podcast ist bei der ARD (Mediathek) und auf allen gängigen Plattformen
-für Podcasts verfügbar wie:
-
-Spotify::
-  https://open.spotify.com/intl-de/[Spotify, {browser-window--new}]
-  ist die unangefochtene Nummer eins. Spotify bietet nicht nur Musik,
-  sondern auch eine riesige Auswahl an Podcasts. Es ist einfach zu bedienen
-  und bietet personalisierte Empfehlungen.
-
-Apple Podcasts::
-  https://www.apple.com/de/apple-podcasts/[Apple Podcasts, {browser-window--new}]
-  ist die Standard-Plattform für Apple-Nutzer. Hier findest du eine große Auswahl
-  an Podcasts, die du direkt auf deinem iPhone, iPad oder Mac hören kannst.
-
+Im Player sind alle Episoden verfügbar, die bis *September 2024*
+produziert wurden. Es erscheint jeden Monat eine neue Folge.
 
 [role="mt-4"]
 [TIP]
@@ -98,16 +93,6 @@ Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
 der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
 Podcasts *zwingend* erforderlich.
 ====
-
-
-[role="mt-5"]
-== Podcasts
-
-lorem:sentences[5]
-
-// Spontanorama ist eine Produktion von Early Studios, die im Mai 2024 gestartet
-// ist. Im Player sind alle Episoden verfügbar, die bis *September 2024*
-// produziert wurden. Es erscheint jeden Donnerstag eine neue Folge.
 
 .Stundenhotel 2024
 amplitude::stundenhotel_2024_large[role="mt-4 mb-7"]

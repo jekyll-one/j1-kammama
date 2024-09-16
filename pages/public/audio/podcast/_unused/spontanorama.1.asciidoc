@@ -1,5 +1,5 @@
 ---
-title:                                  Spontanorama
+title:                                  SpontanOrama
 tagline:                                Podcast mit Ralf Schmitz
 
 date:                                   2024-09-11
@@ -8,15 +8,15 @@ date:                                   2024-09-11
 description: >
                                         Hier ist alles möglich, denn kein Gast ist vorherbestimmt – Ralf Schmitz weiß
                                         nie, wer als Nächstes durch die Tür tritt. Während er im Studio ungeduldig
-                                        wartet, läuft draußen ein Teammitglied durch die Straßen der Kölner Innenstadt,
-                                        auf der Suche nach Passantinnen und Passanten, die jetzt in diesem Moment
+                                        wartet, läuft draußen ein Teammitglied durch die Straßen, auf der Suche
+                                        nach wildfremden Passantinnen und Passanten, die jetzt in diesem Moment
                                         bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
                                         quatschen.
 keywords: >
-                                        Podcast, SpontanOrama, Ralf Schmitz
+                                        SpontanOrama, Podcast, Impro, Ralf Schmitz
 
-categories:                             [ Audio ]
-tags:                                   [ Podcast, Ralf Schmitz ]
+categories:                             [ Podcast ]
+tags:                                   [ Impro, Ralf Schmitz ]
 
 image:
   path:                                 /assets/image/modules/attics/1920x1280/spontanorama.png
@@ -59,59 +59,54 @@ resource_options:
 {% include {{load_attributes}} scope="global" %}
 
 [role="dropcap"]
-Spontanorama, mit dem Format ist alles möglich, denn kein Gast ist
-vorherbestimmt. Ralf Schmitz weiß nie, wer als Nächstes durch die Tür kommt.
+SpontanOrama. Mit dem Format ist alles möglich, denn kein Gast ist vorherbestimmt.
+Ralf Schmitz weiß nie, wer als Nächstes durch die Tür kommt.
 
-// mdib:clock[24px, md-gray mt-4 mr-2]
-// *60+ Minuten* Audiozeit
-
-++++
-<div class="video-title">
-  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
-  60+ Minuten Audiozeit
-</div>
-++++
+mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+*60+ Minuten* Audiozeit
 
 
-// Page content
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="mt-4"]
+== Über den Podcast
+
 Während Ralf im Studio ungeduldig wartet, läuft draußen ein Teammitglied
-durch die Straßen der Kölner Innenstadt auf der Suche nach Passantinnen
+durch die Straßen der Kölneer Innenstadt auf der Suche nach Passantinnen
 und Passanten, die spontan bereit sind, alles stehen und liegen zu lassen,
 um mit Ralf Schmitz für eine Stunde zu quatschen.
 
-[role="mt-4 mb-4"]
+Der Podcast ist auf allen gängigen Plattformen für Podcast verfügbar wie:
+
+Spotify::
+  https://open.spotify.com/intl-de/[Spotify, {browser-window--new}]
+  ist die unangefochtene Nummer eins. Spotify bietet nicht nur Musik,
+  sondern auch eine riesige Auswahl an Podcasts. Es ist einfach zu bedienen
+  und bietet personalisierte Empfehlungen.
+
+Apple Podcasts::
+  https://www.apple.com/de/apple-podcasts/[Apple Podcasts, {browser-window--new}]
+  ist die Standard-Plattform für Apple-Nutzer. Hier findest du eine große
+  Auswahl an Podcasts, die du direkt auf deinem iPhone, iPad oder Mac hören
+  kannst.
+
+[role="mt-4"]
 [TIP]
 ====
 Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
 der _Spotify_ Podcast-Plattform
 https://megaphone.spotify.com/de-DE[Megaphone, {browser-window--new}]
-geladen. Eine Internetverbindung zum Hören des Podcasts ist *zwingend*
-erforderlich.
+geladen. Daher ist eine Internetverbindung zum Hören des Podcasts
+*zwingend* erforderlich.
 ====
 
+// .Podcast 2024 (compact)
+// amplitude::spontanorama_2024_compact[role="mt-3 mb-5"]
 
 [role="mt-5"]
 == Podcasts
 
-Im Player sind alle Episoden verfügbar, die bis *September 2024* produziert
-wurden. Es erscheint jeden Donnerstag eine neue Folge.
+Spontanorama ist eine Produktion von Early Studios, die im Mai 2024 gestartet
+ist. Im Player sind alle Episoden verfügbar, die bis *September 2024*
+produziert wurden. Es erscheint jeden Donnerstag eine neue Folge.
 
 .Spontanorama 2024
 amplitude::spontanorama_2024_large[role="mt-4 mb-7"]
-
-++++
-<style>
-  .content-info {
-    display: flex;
-    align-items: center;
-    text-rendering: optimizeLegibility;
-    text-align: left;
-    line-height: 1.25;
-    font-size: 1.125rem;
-    font-weight: 500;
-    margin-bottom: .5rem;
-  }
-</style>
-++++

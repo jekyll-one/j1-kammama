@@ -1,0 +1,108 @@
+---
+title:                                  Missverstehen Sie mich richtig!
+tagline:                                Talk Show von Gregor Gysi mit Gästen
+
+date:                                   2024-09-15
+#last_modified:                         2023-01-01
+
+description: >
+                                        Missverstehen Sie mich richtig! ist ein Talk, bei der Gregor Gysi in
+                                        Berliner Theatern, meist im Kabarett-Theater Distel, wechselnde prominente
+                                        Gäste interviewt.
+
+keywords:                               Talk, Show, Gregor Gysi,
+                                        Bernhard Hoëcker
+
+
+categories:                             [ Video ]
+tags:                                   [ Show, Gregor Gysi ]
+
+image:
+  path:                                 /assets/image/leute/gregor-gysi.jpg
+  width:                                1280
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/show/missverstehen/
+
+resources:                              [ videojs ]
+resource_options:
+  - attic:
+      padding_top:                      450
+      slides:
+        - url:                          /assets/image/leute/gregor-gysi.jpg
+          alt:                          Gregor Gysi
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+[role="dropcap"]
+Missverstehen Sie mich richtig! ist ein Talk, bei der Gregor Gysi in
+Berliner Theatern, meist im Kabarett-Theater Distel,prominente Gäste
+interviewt.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="mt-5"]
+== Über die Show
+
+Gysi selbst zählt Moderator zu einem der vier Berufe, die er aktiv ausübe.
+In einem Porträt anlässlich seines 75. Geburtstages beschrieb das _Magazin Stern_
+die vier Tätigkeiten und lobte seine Moderation. Gysi hält sich vornehmlich im
+Hintergrund, macht pointierte Bemerkungen, stellt kluge Zwischenfragen und
+entwickelt eine angenehme Gesprächsatmosphäre in der der Gast im Vordergrund
+steht.
+
+Der https://www.youtube.com/c/MISSVERSTEHENSIEMICHRICHTIG[YouTube-Kanal, {browser-window--new}]
+der Show hat mittlerweile über 220.000 Abonnenten und seine Videos wurden bisher
+über 42 Millionen mal abgespielt (Stand: Juni 2024).
+
+[role="mt-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Videos direkt über die Plattform
+_YouTube_ geladen. Daher ist eine Internetverbindung zum Ansehen der Videos
+*zwingend* erforderlich.
+====
+
+
+[role="mt-5"]
+[[gast-hoëcker]]
+== Zu Gast Bernhard Hoëcker
+
+Bernhard Hoëcker ist ein bekannter deutscher Schauspieler, Komiker und Moderator.
+Er wurde vor allem durch die Parodiesendung _Switch_ und als ständiges Mitglied
+des Rateteams in _Genial daneben_ bekannt.
+
+Hoëcker ist nicht nur ein humorvoller Entertainer. Bernhard verbindet seinen
+trockenen Humor mit einem beeindruckenden Wissensschatz. Sein Allgemeinwissen
+macht ihn zu einem gern gesehenen Gast in deutschen Quizshows.
+
+.Zu Gast: Bernhard Hoëcker
+youtube::ZrTiPQv1Qic[poster="https://img.youtube.com/vi/ZrTiPQv1Qic/maxresdefault.jpg" role="mt-4 mb-5"]

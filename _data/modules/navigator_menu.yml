@@ -67,6 +67,22 @@
             href:                       /pages/public/video/serien/harnas/
             icon:                       eye
 
+      - title:                          Show
+        icon:                           video
+        dropdown:
+
+          - title:                      TV Total
+            href:                       /pages/public/video/show/tv-total/
+            icon:                       eye
+
+          - title:                      Sträter
+            href:                       /pages/public/video/show/straeter/
+            icon:                       eye
+
+          - title:                      Missverstehen Sie mich richtig!
+            href:                       /pages/public/video/show/missverstehen/
+            icon:                       eye
+
       - title:                          TV Highlights
         icon:                           video
         dropdown:
@@ -74,26 +90,14 @@
           - title:                      Kerkeling
             href:                       /pages/public/video/tv-highlights/kerkeling/
             icon:                       eye
-          - title:                      Sträter
-            href:                       /pages/public/video/tv-highlights/straeter/
-            icon:                       eye
 
-      - title:                          Shows
+      - title:                          Comedy
         icon:                           video
         dropdown:
 
-          - title:                      TV Total
-            href:                       /pages/public/video/tv-highlights/tv-total/
+          - title:                      Horst Evers
+            href:                       /pages/public/video/comedy/evers/
             icon:                       eye
-
-
-# - title:                          Filme
-#   icon:                           video
-#   dropdown:
-#     - title:                      Spontanorama
-#       href:                       /pages/public/audio/podcast/spontanorama/
-#       icon:                       eye
-
 
 # ------------------------------------------------------------------------------
 # Menu BLOG
@@ -130,7 +134,7 @@
 # ------------------------------------------------------------------------------
 # TopLevel item
 #
-- item:                                 Vorschau
+- item:                                 Trailer
   href:                                 /#previewer
 
 # ------------------------------------------------------------------------------
@@ -146,9 +150,11 @@
     - title:                            Diese Website
       icon:                             home-variant-outline
       href:                             /pages/public/about/site/
-    - title:                            Making-of
-      icon:                             tools
-      href:                             /pages/public/about/making-of/
+
+#   - title:                            Making-of
+#     icon:                             tools
+#     href:                             /pages/public/about/making-of/
+
     - title:                            Privatsphäre
       icon:                             heart
       href:                             /pages/public/legal/de/privacy/

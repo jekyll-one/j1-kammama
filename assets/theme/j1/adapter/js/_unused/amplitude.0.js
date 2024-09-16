@@ -603,7 +603,8 @@ j1.adapter.amplitude = ((j1, window) => {
                     // ---------------------------------------------------------
                     // START mini player UI events
                     //
-                    if (document.getElementById(playerID) !== null) {
+                    // if (document.getElementById(playerID) !== null) {
+                    if (document.getElementById('{{player.id}}') !== null) {
 
                       // click on progress bar
                       // -------------------------------------------------------
@@ -629,7 +630,8 @@ j1.adapter.amplitude = ((j1, window) => {
                     // ---------------------------------------------------------
                     // START compact player UI events
                     //
-                    if (document.getElementById(playerID) !== null) {
+                    // if (document.getElementById(playerID) !== null) {
+                    if (document.getElementById('{{player.id}}') !== null) {
 
                       // show|hide scrollbar in playlist
                       // -------------------------------------------------------
@@ -722,9 +724,11 @@ j1.adapter.amplitude = ((j1, window) => {
                     {% endif %}
 
                     {% if player.id contains 'large' %}
+                    // ---------------------------------------------------------
                     // START large player UI events
                     //
-                    if (document.getElementById(playerID) !== null) {
+                    // if (document.getElementById(playerID) !== null) {
+                    if (document.getElementById('{{player.id}}') !== null) {
 
                       // click on progress bar
                       // -------------------------------------------------------

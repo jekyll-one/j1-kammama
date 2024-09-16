@@ -67,11 +67,19 @@ Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
 und Sitten, sondern auch auf viele zwielichtige Typen, Diebe und
 Halsabschneider.
 
-mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-*45+ Minuten* Videozeit
+// mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
+// *45+ Minuten* Videozeit
 
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
 
-[role="mt-4"]
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="mt-5"]
 == Über die Serie
 
 Quelle: https://de.wikipedia.org/wiki/Auf_Achse_(Fernsehserie)[Wikipedia, {browser-window--new} ]
