@@ -43,7 +43,7 @@ monitor:
 #   default:                            https://jekyll.one/
 # ------------------------------------------------------------------------------
 theme:
-  name:                                 UnoDark                                 # UnoLight
+  name:                                 UnoLight
   author:                               J1 Team
   author_url:                           https://jekyll.one/
 
@@ -436,7 +436,7 @@ preload:
 #   several round trips to the final server that handles the user's request.
 # ------------------------------------------------------------------------------
 preconnect:
-  enabled:                              false
+  enabled:                              true
   urls:                                 [ //bootswatch.com ]
 
 # ------------------------------------------------------------------------------

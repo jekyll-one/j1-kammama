@@ -29,7 +29,7 @@ permalink:                              /pages/public/video/show/tv-total/
 resources:                              [ videojs ]
 resource_options:
   - attic:
-      padding_top:                      450
+      padding_top:                      550
       slides:
         - url:                          //img.youtube.com/vi/guXJa2qbwfM/maxresdefault.jpg
           alt:                          TV Total
@@ -52,6 +52,9 @@ resource_options:
 // -----------------------------------------------------------------------------
 {% include {{load_attributes}} scope="global" %}
 
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
 Mitte 1999 startete die Late-Night-Show TV Total mit Stefan Raab. Der Moderator
 gehörte bald zu den bekanntesten Gesichtern im deutschen (Privat-)Fernsehen.
@@ -66,9 +69,8 @@ für seine Kommentare wurden zum Markenzeichen der Show.
 </div>
 ++++
 
-
-// Page content
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
 [role="mt-5"]
 == Über die Show
 

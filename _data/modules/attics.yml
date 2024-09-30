@@ -37,6 +37,18 @@ description:
 #
 settings:
 
+  # duo-color effect, base color 'blue' (requires gray-scaled images)
+  #
+  background_color_1:                   var(--md-gray-300)
+  background_color_2:                   var(--md-gray-900)
+
+  # CSS filter setting applied on (backstretch|background) image
+  #
+  filters:
+    grayscale:                          0
+    contrast:                           1
+    brightness:                         1
+
   # ----------------------------------------------------------------------------
   # Layout specific properties
   #
@@ -68,7 +80,7 @@ settings:
         id:                             attic_page
         layout:                         page
 
-        padding_top:                    600
+        padding_top:                    450
 
     # --------------------------------------------------------------------------
     # Posts
@@ -81,7 +93,7 @@ settings:
         layout:                         [ collection, post ]
 
         title_animate:                  animate__fadeInDown
-        padding_top:                    600
+        padding_top:                    450
 
 # ------------------------------------------------------------------------------
 # END config

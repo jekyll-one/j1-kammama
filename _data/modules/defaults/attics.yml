@@ -30,7 +30,7 @@
 description:
   title:                                Attics
   scope:                                Default settings
-  location:                             _data/modules/defaults/header.yml
+  location:                             _data/modules/defaults/attics.yml
 
 # ------------------------------------------------------------------------------
 # Default configuration settings
@@ -56,7 +56,7 @@ defaults:
   r_text:                               enabled
   text_emphasis:                        stronger
 
-  padding_top:                          500
+  padding_top:                          400
   padding_bottom:                       50
   margin_bottom:                        50
 
@@ -93,9 +93,9 @@ defaults:
   # CSS filter setting applied on (backstretch|background) image
   #
   filters:
-    grayscale:                          0
-    contrast:                           1
-    brightness:                         1
+    grayscale:                          1
+    contrast:                           0.8
+    brightness:                         0.8
 
   # currently NOT supported
   #
@@ -130,7 +130,7 @@ defaults:
 
   # Sets the opacity for all header images. Can be
   #  any number between 0.0 and 1.0
-  opacity:                              1
+  opacity:                              0.5
   # alignX, the x-alignment for the image, can be
   # 'left'|'center'|'right' or any number between 0.0 and 1.0
   alignX:                               0.5

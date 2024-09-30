@@ -34,7 +34,7 @@ permalink:                              /pages/public/about/site/
 resources:                              [ animate ]
 resource_options:
   - attic:
-      padding_top:                      650
+      padding_top:                      550
       slides:
         - url:                          /assets/image/modules/attics/1920x1280/alice-donovan-rouse.jpg
           alt:                          alice-donovan-rouse

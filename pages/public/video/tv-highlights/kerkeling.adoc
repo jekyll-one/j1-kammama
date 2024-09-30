@@ -30,7 +30,7 @@ permalink:                              /pages/public/video/tv-highlights/kerkel
 resources:                              [ videojs ]
 resource_options:
   - attic:
-      padding_top:                      450
+      padding_top:                      550
       slides:
         - url:                          /assets/image/leute/hape-kerkeling.jpg
           alt:                          Hape Kerkeling
@@ -53,12 +53,11 @@ resource_options:
 // -----------------------------------------------------------------------------
 {% include {{load_attributes}} scope="global" %}
 
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
-
 lorem:sentences[5]
-
-// mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-// *45+ Minuten* Videozeit
 
 ++++
 <div class="video-title">
@@ -67,8 +66,8 @@ lorem:sentences[5]
 </div>
 ++++
 
-// Page content
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
 [role="mt-4"]
 == Über Hape Kerkeling
 

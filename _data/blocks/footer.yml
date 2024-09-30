@@ -98,7 +98,7 @@ settings:
               enabled:                  true
 
               type:                     copyright
-              statement:                © 2023, 2024 J1 · All rights reserved
+              statement:                © 2024, 2025 Lanus.tech · Ale Rechte vorbehalten
               translate_statement:      notranslate                             # translate|notranslate
               href:                     /pages/public/legal/de/copyright/
 
@@ -116,7 +116,7 @@ settings:
               enabled:                  true
 
               type:                     privacy
-              statement:                Privacy
+              statement:                Privatsphäre
               translate_statement:      notranslate                             # translate|notranslate
               href:                     /pages/public/legal/de/privacy/
 
@@ -125,7 +125,7 @@ settings:
               enabled:                  false
 
               type:                     comments
-              statement:                Comments
+              statement:                Kommentare
               translate_statement:      notranslate                             # translate|notranslate
               href:                     /pages/public/legal/de/comment_policy/
 

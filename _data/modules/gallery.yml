@@ -35,6 +35,137 @@ settings:
     # ==========================================================================
 
     # --------------------------------------------------------------------------
+    # HTML5 VIDEO
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               jg_video_html5
+      type:                             video
+      video:                            html5
+      video_base_path:                  /assets/video/html5
+      image_base_path:                  /assets/video/poster/html5
+      thumb_base_path:                  /assets/video/poster/html5
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      true
+          videojsTheme:                 vjs-theme-uno
+
+        videojsOptions:
+          enabled:                      true
+
+          muted:                        false
+          preload:                      true
+#         videoStart:                   ["00:00:30", "00:01:30"]                  # start time (hh:mm:ss) for [video1, video2]
+
+          controls:                     true
+          controlBar:
+            playbackRates:              [0.25, 0.5, 1, 1.5, 2]
+            remainingTimeDisplay:       true
+            pictureInPictureToggle:     false
+
+            volumePanel:
+              inline:                   false
+
+            hotkeysPlugin:
+              enabled:                  true
+              options:
+                volumeStep:             0.2
+
+            zoomPlugin:
+              enabled:                  true
+              options:
+                moveX:                  0
+                moveY:                  0
+                rotate:                 0
+                zoom:                   1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        - video:                        # video 1
+          enabled:                      true
+
+          name:                         Peck Pocketed
+          type:                         html5
+          size:                         1280-720
+          source:                       peck_pocketed.mp4
+          poster_image:                 peck_pocketed.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Peck Pocketed &middot; Student Academy Award winning Cartoon Clip
+          description: >
+                                        <h5>Peck Pocketed by Kevin Herron | Disney Favorite</h5>
+                                        <h6>Student Academy Award winning Cartoon Clip</h6>
+                                        <br>
+          tracks:
+            - track:
+              default:                  true                                    # Indicates that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate
+              kind:                     captions
+              srclang:                  en                                      # Code for the language of the text track
+              label:                    English                                 # Descriptive text for the track that will used in the user interface (player)
+              src:                      /assets/video/tracks/html5/peck_pocketed/captions/video.vtt
+
+            - track:
+              default:                  true                                    # Indicates that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate
+              kind:                     chapters
+              srclang:                  en                                      # Code for the language of the text track
+              label:                    Chapters                                # Descriptive text for the track that will used in the user interface (player)
+              src:                      /assets/video/tracks/html5/peck_pocketed/chapters/video.vtt
+
+        - video:                        # video 2
+          enabled:                      true
+
+          name:                         Rollin Wild
+          type:                         html5
+          size:                         1280-720
+          source:                       rolling_wild.mp4
+          poster_image:                 rolling_wild.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Rollin` Wild &middot; Short Funny animated video clip created at the Film Academy
+          description: >
+                                        <h5>Rollin` Wild</h5>
+                                        <h6>Short Funny Animated Clip created at the Film Academy</h6>
+                                        <br>
+
+    # --------------------------------------------------------------------------
     # Online VIDEO Auf Achse (YouTube)
     # See: https://www.youtube.com/playlist?list=PL0JpwqkRm94I2f1dykG_o5b1moIEx10_n
     #
@@ -647,8 +778,213 @@ settings:
                                         <!-- h6></h6 -->
 
 
+    # --------------------------------------------------------------------------
+    # Online VIDEO Mimi Rutherfurt (YouTube)
+    # See: https://www.youtube.com/watch?v=qEhzpBJpUq0&list=PLLsYXB2u7E7CjL97CTVUnJl4WY3ws6Ptj
+    #
+    - gallery:
+      enabled:                          true
 
+      id:                               radioplay_mimi_rutherfurt
+      type:                             video
+      video:                            youtube
+      image_base_path:                  /assets/audio/cover/mimi-rutherfurt
 
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      true
+
+#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+#         controls:                     1                                       # default = 0
+#         enablejsapi:                  1                                       # default = 1
+#         hl:                           en                                      # default = en
+#         loop:                         0                                       # default = 0
+          mute:                         0                                       # default = 1
+#         playsinline:                  1                                       # for mobile|iOS only
+#         wmode:                        opaque                                  # default = opaque
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        - video:                        # video 1
+          enabled:                      true
+
+          name:                         2018E01
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=qEhzpBJpUq0
+          poster_image:                 E01-Alte-Zeiten.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 2018E01 · Alte Zeiten
+          description: >
+                                        <h5>2018E01 · Alte Zeiten</h5>
+                                        <!-- h6>
+                                          An einem kalten Winterabend möchte Mimi Rutherfurt ihren alten Freund
+                                          Mr. Crawford besuchen, findet ihn jedoch tot in seinem Haus auf. Alles
+                                          deutet auf einen Selbstmord hin, doch die kriminalistische Dame will
+                                          daran nicht glauben, weswegen sie der neue Inspector nicht ernst nimmt.
+                                          <br>
+                                          Doch ein altes Foto enthält wichtige Hinweise ...
+                                          <br><br>
+                                        </h6 -->
+
+        - video:                        # video 2
+          enabled:                      true
+
+          name:                         2018E02
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=VLqH-swWQ6w
+          poster_image:                 E02-Nacht-Express.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 2018E02 · Nacht-Express
+          description: >
+                                        <h5>2018E02 · Nacht-Express</h5>
+                                        <!-- h6>
+                                          In einem Zugabteil lernt Inspector Thorndike seine Mitfahrerin,
+                                          die rüstige und Krimiinteressierte Rentnerin Mimi Rutherfurt,
+                                          eher unfreiwillig kennen. Doch eine weitere unangenehme Überraschung
+                                          wartet auf ihn, denn in einem anderen Abteil findet Miss Rutherfurt
+                                          eine Leiche.
+                                          <br>
+                                          Ein Wettlauf gegen die Zeit beginnt, denn in ein paar Stunden hat der
+                                          Zug sein Ziel erreicht und der Täter kann sich aus dem Staub machen ...
+                                          <br><br>
+                                        </h6 -->
+
+        - video:                        # video 3
+          enabled:                      true
+
+          name:                         2018E03
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=WAI07l_v9FA
+          poster_image:                 E03-Puppenspielerin.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 2018E03 · Puppenspielerin
+          description: >
+                                        <h5>2018E03 · Puppenspielerin</h5>
+                                        <!-- h6>
+                                          Der Secret Service bittet Mimi Rutherfurt auf einer Insel in der Karibik,
+                                          genannt "Lagoon Island", um Hilfe. Mr. Elpram hat einen seiner Geheimagenten
+                                          verloren. Dieser scheint spurlos verschwunden. Als er später durch Zufall auf
+                                          den Fotos eines Touristen auftaucht, können sie sich kaum vorstellen, welche
+                                          grausame Veränderung mit dem Mann vorgegangen sein muss.
+                                          <br><br>
+                                        </h6 -->
+
+        - video:                        # video 4
+          enabled:                      true
+
+          name:                         2018E04
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=ADKSPZJDErY
+          poster_image:                 E04-Todesliste.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 2018E04 · Todesliste
+          description: >
+                                        <h5>2018E04 · Todesliste</h5>
+                                        <!-- h6>
+                                          Ein mysteriöser Mörder treibt sein Unwesen und schlachtet seine Opfer regelrecht ab.
+                                          Einziger Hinweis ist ein mit Blut gemalter Schriftzug, der immer gleich lautet:
+                                          "The Demonic".
+                                          <br>
+                                          Durch Zufall stolpert auch Mimi Rutherfurt über den Fall und greift der Polizei gleich
+                                          kräftig unter die Arme...
+                                          <br><br>
+                                        </h6 -->
+
+        - video:                        # video 5
+          enabled:                      true
+
+          name:                         2019E05
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=ce_8ez1rFP0
+          poster_image:                 E05-Buckingham-Palace.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 2019E05 · Buckingham Palace
+          description: >
+                                        <h5>2019E05 · Buckingham Palace</h5>
+                                        <!-- h6>
+                                          Alte Beziehungen haben die Hobbykriminalistin Mimi Rutherfurt in eine ganz besondere
+                                          Lage gebracht: Getarnt als Küchenhilfe ermittelt sie nirgendwo anders als im berühmten
+                                          Buckingham Palace, in dem ein tückischer Mord Queen Mum in Besorgnis gebracht hat.
+                                          <br>
+                                          Denn die Krönungsfeier ihrer Tochter Elizabeth II. steht kurz bevor. Kann Mimi den Fall
+                                          rechtzeitig aufklären?
+                                        </h6 -->
+
+        - video:                        # video 6
+          enabled:                      true
+
+          name:                         2019E06
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=Isy7X_HFYKc
+          poster_image:                 E06-Flucht im Dunkeln.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 2019E06 · Flucht im Dunkeln
+          description: >
+                                        <h5>2019E06 · Flucht im Dunkeln</h5>
+                                        <h6>Info</h6>
+                                        <!-- h6>
+                                          Zusammen mit ihrer Freundin Helen Silmkins hat sich Mimi Rutherfurt der Verschönerung
+                                          eines ganz besonderen Ortes verschrieben: Stonehenge. Denn dort soll das Sommerfest
+                                          ihres Denkmalschutzvereines stattfinden.
+                                          <br>
+                                          Bald stößt ein eifriger Helfer hinzu, der ihnen den ganzen Tag lang hilft.
+                                          Doch Mimi Rutherfurt ist er nicht ganz geheuer...
+                                        </h6 -->
 
 # ------------------------------------------------------------------------------
 # END config

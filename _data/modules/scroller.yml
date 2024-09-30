@@ -71,7 +71,7 @@ settings:
         pagePath:                       /assets/data/news_panel_posts/page
         elementScroll:                  true                                    # false = window, true = container
         scrollOffset:                   200
-        lastPage:                       3                                       # 1 page "equals" 2 posts
+        lastPage:                       2                                       # 1 page "equals" 2 posts
         infoLastPage:                   true
 
         lastPageInfo_en: >

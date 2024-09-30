@@ -29,7 +29,7 @@ permalink:                              /pages/public/video/show/straeter/
 resources:                              [ videojs ]
 resource_options:
   - attic:
-      padding_top:                      450
+      padding_top:                      550
       slides:
         - url:                          /assets/image/leute/torsten-straeter.jpg
           alt:                          Torsten Sträter
@@ -52,8 +52,10 @@ resource_options:
 // -----------------------------------------------------------------------------
 {% include {{load_attributes}} scope="global" %}
 
-[role="dropcap"]
 
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
 Torsten Sträter lädt mit seiner Show zu *einem Abend unter Freunden* in Köln
 (Mülheimer Hafen) ein. Nach einem Stand-up-Teil heißt er im Verlauf der Show
 Gästen willkommen.
@@ -65,9 +67,8 @@ Gästen willkommen.
 </div>
 ++++
 
-
-// Page content
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
 [role="mt-5"]
 == Über die Show
 
@@ -142,13 +143,11 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2925505/2925
 
 
 [role="mt-5"]
-[[tino-bomelino]]
 == Rubriken
 
 lorem:sentences[5]
 
 [role="mt-4"]
-[[tino-bomelino]]
 === Tino Bomelino
 
 Comedian Tino Bomelino, im *richtigen* Leben _Tino Hartmann_ (geboren 1985 in

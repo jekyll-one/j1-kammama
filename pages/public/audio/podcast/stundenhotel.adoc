@@ -36,7 +36,7 @@ resources:                              [ amplitudejs ]
 resource_options:
   - attic:
 #     opacity:                          0.5
-      padding_top:                      450
+      padding_top:                      550
       slides:
         - url:                          /assets/image/modules/attics/1920x1280/stundenhotel.jpg
           alt:                          stundenhotel
@@ -50,6 +50,9 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
+:time-num--string:                      60+
+:time-de--string:                       Minuten
+:time-de--description:                  Audiozeit
 
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
@@ -59,6 +62,8 @@ resource_options:
 // -----------------------------------------------------------------------------
 {% include {{load_attributes}} scope="global" %}
 
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
 Einmal im Monat trifft sich Dietmar Wischmeyer mit Sparringspartnerin
 Tina Voß in "Wischmeyers Stundenhotel", dem satirischen Podcast von
@@ -67,32 +72,34 @@ Bremen Zwei.
 Beim Podcast-Date liefern sie sich bissige Dialoge zu einem Thema.
 Spontan und teils mit harten Pointen.
 
-// mdi:clock-time-five-outline[24px, md-gray mt-4 mb-5 mr-2]
-// *60+ Minuten* Audiozeit
-
+[subs=attributes]
 ++++
-<div class="video-title">
+<!-- div class="video-title">
   <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
   60+ Minuten Audiozeit
+</div -->
+
+<div class="video-title">
+  <i class="mdi mdi-gray mdi-clock-time-five-outline mdi-24px mr-2"></i>
+  {time-num--string} {time-de--string} {time-de--description}
 </div>
 ++++
 
-
-// Page content
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[role="mt-4"]
-== Podcasts
-
-Im Player sind alle Episoden verfügbar, die bis *September 2024*
-produziert wurden. Es erscheint jeden Monat eine neue Folge.
-
-[role="mt-4"]
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
 [TIP]
 ====
 Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
 der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
 Podcasts *zwingend* erforderlich.
 ====
+
+[role="mt-5"]
+== Episoden 2024
+
+Im Player sind alle Episoden verfügbar, die bis *September 2024*
+produziert wurden. Es erscheint jeden Monat eine neue Folge.
 
 .Stundenhotel 2024
 amplitude::stundenhotel_2024_large[role="mt-4 mb-7"]

@@ -36,7 +36,7 @@ resources:                              []
 resource_options:
   - attic:
 #     opacity:                          0.5
-      padding_top:                      650
+      padding_top:                      550
       slides:
         - url:                          /assets/image/posts/featured/auf-achse.jpg
           alt:                          Auf Achse
@@ -52,17 +52,6 @@ resource_options:
 // :page--attr:                         <attr-value>
 :url-player--auf-achse:                 /pages/public/video/serien/auf-achse/#erste-staffel
 
-// Place an excerpt at the most top position
-// -----------------------------------------------------------------------------
-[role="dropcap"]
-Die beiden Truckerfahrer Franz Meersdonk und Günther Willers fahren
-Terminfracht durch die ganze Welt.
-
-Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
-und Sitten, sondern auch auf zwielichtige Typen, Diebe und Halsabschneider.
-
-excerpt__end
-
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
 {% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
@@ -74,13 +63,27 @@ excerpt__end
 
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Die beiden Truckerfahrer Franz Meersdonk und Günther Willers fahren
+Terminfracht durch die ganze Welt.
+
+Bei ihren abenteuerlichen Touren treffen sie nicht nur auf fremde Bräuche
+und Sitten, sondern auch auf zwielichtige Typen, Diebe und Halsabschneider.
+
+excerpt__end
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
 Auf Achse ist der Titel einer deutschen Fernsehserie. Die Serie wurde
 von 1978 bis 1996 gedreht und lief ab 1980 im Vorabendprogramm der ARD.
 Es wurden insgesamt 86 Folgen produziert.
 
-mdi:clock-time-five-outline[24px, md-gray mr-2 mt-3]
-*5 Minuten* Lesezeit
-
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  3 Minuten Lesezeit
+</div>
+++++
 
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------

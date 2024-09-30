@@ -1,6 +1,6 @@
 ---
 title:                                  Spontanorama
-tagline:                                Gespräche mit Ralf Schmitz und Gästen
+tagline:                                Mit Ralf Schmitz und Gästen
 
 #date:                                  2024-05-23
 #last_modified:                         2024-05-23
@@ -15,12 +15,12 @@ keywords: >
                                         Spontanorama, Podcast, Impro, Ralf Schmitz
 
 categories:                             [ Audio ]
-tags:                                   [ Podcast ]
+tags:                                   [ Podcast, Ralf Schmitz ]
 
 image:
-  path:                                 /assets/image/posts/featured/ralf-schmitz.jpg
-  width:                                1920
-  height:                               1200
+  path:                                 /assets/image/leute/ralf-schmitz.jpg
+  width:                                1280
+  height:                               720
 
 group:                                  Featured
 #series:                                Featured
@@ -34,9 +34,9 @@ resources:                              []
 resource_options:
   - attic:
 #     opacity:                          0.5
-      padding_top:                      650
+      padding_top:                      550
       slides:
-        - url:                          /assets/image/posts/featured/ralf-schmitz.jpg
+        - url:                          /assets/image/leute/ralf-schmitz.jpg
           alt:                          Ralf Schmitz
 ---
 
@@ -48,18 +48,9 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
-:url-player--spontanorama-2024:         /pages/public/audio/podcast/spontanorama/#podcasts
+:url-player--spontanorama-2024:         /pages/public/audio/podcast/spontanorama/#episoden
 
-// Place an excerpt at the most top position
-// -----------------------------------------------------------------------------
-[role="dropcap"]
-Spontanorama, der neue Podcast mit Ralf Schmitz. Er führt ungezwungene
-Gespräche mit zufälligen Passantinnen und Passenten, die kurz zuvor von
-der Straße aufgelesen wurden.
 
-Eine Talkshow mit Unbekannten - im wahrsten Sinne des Wortes.
-
-excerpt__end
 
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
@@ -72,9 +63,29 @@ excerpt__end
 
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Spontanorama, der neue Podcast mit Ralf Schmitz. Er führt ungezwungene
+Gespräche mit zufälligen Passantinnen und Passenten, die kurz zuvor von
+der Straße aufgelesen wurden.
 
-mdi:clock-time-five-outline[24px, md-gray mr-1 mt-3]
-*3 Minuten* Lesezeit
+Eine Talkshow mit Unbekannten - im wahrsten Sinne des Wortes.
+
+excerpt__end
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+Jede Folge ist eine Überraschung mit einer Mischung aus Lachen, tiefgründigen
+Momenten und unerwarteten Geschichten aus Ralfs Leben und denen seiner Gäste.
+Egal, ob es sich um eine ältere Dame handelt, die gerade auf dem Weg zum
+Einkaufen war, oder um einen Studenten, der gerade seine Bachelorarbeit
+abgegeben hat - es kann jeden treffen.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  3 Minuten Lesezeit
+</div>
+++++
 
 
 // Include sub-documents (if any)
@@ -82,11 +93,10 @@ mdi:clock-time-five-outline[24px, md-gray mr-1 mt-3]
 [role="mt-5"]
 == Über den Podcast
 
-Jede Folge ist eine Überraschung mit einer Mischung aus Lachen, tiefgründigen
-Momenten und unerwarteten Geschichten aus Ralfs Leben und denen seiner Gäste.
-Egal, ob es sich um eine ältere Dame handelt, die gerade auf dem Weg zum
-Einkaufen war, oder um einen Studenten, der gerade seine Bachelorarbeit
-abgegeben hat - es kann jeden treffen.
+Ralf Schmitz weiß nie, wer als Nächstes durch die Tür tritt. Während er im
+Studio ungeduldig wartet, läuft draußen ein Teammitglied durch die Straßen
+der Innenstadt von Köln, auf der Suche nach Passanten, die bereit sind alles
+stehen und liegen zu lassen um spontan mit Ralf zu quatschen
 
 In dieser einzigartigen Atmosphäre entstehen Gespräche, die nicht nur
 unvorhersehbar, sondern auch außerordentlich authentisch sind.

@@ -53,7 +53,7 @@ environment:                            development
 # ------------------------------------------------------------------------------
 # Sets the build version of the site
 #
-version:                                2024.3.14
+version:                                2024.3.15
 
 # copyright
 # ------------------------------------------------------------------------------
@@ -216,16 +216,24 @@ doctype:                                html
 #   default:                            false
 # ------------------------------------------------------------------------------
 #
-title:                                  Kammama
-title_extention:                        Audio und Video Portfolio zum (wieder) reinschnuppern
+title:                                  J1 Template
+title_extention:                        Free Bootstrap V5 theme for Jekyll
 
-slogan:                                 Audio und Video Portfolio zum (wieder) reinschnuppern
+slogan:                                 Free Jekyll Template based on Bootstrap V5 for websites,
+                                        landing pages, blogs, portfolios, directories, ecommerce
+                                        and documentations.
 description: >
-                                        Audio und Video Portfolio zum (wieder) reinschnuppern.
-
+                                        J1 Template gives web developers and hobbyists a clean
+                                        implementation in Jekyll for starting new projects
+                                        based on Bootstap V5. The template combines the best
+                                        software for the Web. Jekyll One is open source,
+                                        free to use, and the modules packed as well.
 keywords: >
-                                        free, site, website, audio und video,
-                                        portfolio, directory
+                                        free, open, source, open source, free, bootstap,
+                                        theme, template, jekyll, jekyll one, web, sites,
+                                        website, landing page, portfolio, directory,
+                                        ecommerce, documentation, jamstack,
+                                        deploy, netlify
 
 # Crawling/Indexing ENABLED for default. Settings managed page-wise using
 # front matter defaults or by page default settings to make sure that only
@@ -237,17 +245,17 @@ robots:
 
 # ------------------------------------------------------------------------------
 # BRAND configuration
-# Set the fbrand image and favicon (located in /asset/images)
+# Set the brand image and favicon (located in /asset/images)
 brand:
-  image:                                icons/kammama/kammama.png
+  image:                                icons/j1/j1-512x512.png
   image_height:                         48px
-  text:                                 Kammama
+  text:                                 Jekyll One
   text_color:                           "#9E9E9E"
 
 # Set the favicon and type
 #
 favicon:
-  image:                                icons/kammama/favicon.ico
+  image:                                icons/j1/favicon.ico
   type:                                 image/ico
 
 
@@ -308,7 +316,7 @@ permalink:                              pretty
 # site.url will be set to the value of host, port.
 # NOTE: Required setting for the sitemap plugin, for example.
 #
-url:                                    http://localhost:15000
+url:                                    http://localhost:30000
 
 # The subpath of your site, e.g. /blog/. Used in conjunction with
 # site.url (see above) when you want a link to something with the
@@ -334,7 +342,7 @@ base_path:                              ""
 #
 protocol:                               http
 host:                                   localhost
-port:                                   15000
+port:                                   30000
 timezone:                               Europe/Berlin
 encoding:                               UTF-8
 

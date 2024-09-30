@@ -31,7 +31,7 @@ permalink:                              /pages/public/video/show/missverstehen/
 resources:                              [ videojs ]
 resource_options:
   - attic:
-      padding_top:                      450
+      padding_top:                      550
       slides:
         - url:                          /assets/image/leute/gregor-gysi.jpg
           alt:                          Gregor Gysi
@@ -54,6 +54,9 @@ resource_options:
 // -----------------------------------------------------------------------------
 {% include {{load_attributes}} scope="global" %}
 
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
 Missverstehen Sie mich richtig! ist ein Talk, bei der Gregor Gysi in
 Berliner Theatern, meist im Kabarett-Theater Distel,prominente Gäste
@@ -66,9 +69,8 @@ interviewt.
 </div>
 ++++
 
-
-// Page content
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
 [role="mt-5"]
 == Über die Show
 

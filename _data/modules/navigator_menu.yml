@@ -31,13 +31,13 @@
 - item:                                 Audio
   sublevel:
 
-      # - title:                          Hörbücher
-      #   icon:                           volume-high
-      #   dropdown:
-      #
-      #     - title:                      Spontanorama
-      #       href:                       /pages/public/audio/podcast/spontanorama/
-      #       icon:                       ear-hearing
+      - title:                          Hörbücher
+        icon:                           volume-high
+        dropdown:
+
+          - title:                      Mimi Rutherfurt
+            href:                       /pages/public/audio/radioplay/mimi-rutherfurt/
+            icon:                       ear-hearing
 
       - title:                          Podcasts
         icon:                           volume-high
@@ -134,7 +134,7 @@
 # ------------------------------------------------------------------------------
 # TopLevel item
 #
-- item:                                 Trailer
+- item:                                 Vorschau
   href:                                 /#previewer
 
 # ------------------------------------------------------------------------------
