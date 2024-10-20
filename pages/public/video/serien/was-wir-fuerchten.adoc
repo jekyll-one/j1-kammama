@@ -1,0 +1,99 @@
+---
+title:                                  Was wir fürchten
+tagline:                                Mystery Miniserie
+
+date:                                   2024-10-19
+#last_modified:                         2024-10-19
+
+description: >
+                                        Die 17-jährige Lisa zieht mit ihrer Mutter Franka in eine
+                                        idyllische Stadt im Schwarzwald. Der Ortswechsel und die Ruhe
+                                        sollen der Jugendlichen guttun, da sie zuletzt verstärkt unter
+                                        Panikattacken litt, die eine psychische Ursache zu haben scheinen.
+keywords: >
+                                        Miniserie, TV, Mystery
+
+categories:                             [ Video ]
+tags:                                   [ Miniserie, Mystery ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/was-wir-fuerchten.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/serien/was-wir-fuerchten/
+
+resources:                              [
+                                          gallery, lightgallery,
+                                          videojs, vimeo-player
+                                        ]
+resource_options:
+  - attic:
+      padding_top:                      550
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/was-wir-fuerchten.jpg
+          alt:                          Auf Achse
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Die 17-jährige Lisa zieht mit ihrer Mutter Franka in eineidyllische Stadt im
+Schwarzwald. Der Ortswechsel und die Ruhe sollen der Jugendlichen guttun, da
+sie zuletzt verstärkt unter Panikattacken litt, die eine psychische Ursache
+zu haben scheinen.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über die Serie
+
+ZDFneo's *Was wir fürchten* von *2023* erschönert Halloween und die dunklen
+Tage besonders durch eine Eigenschaft: Eine wilde Mischung die Spaß macht.
+
+Für junge Leute der *Generation Z* und Fans von Coming of Age, Drama, Horror,
+Krimi und Mystery.
+
+
+[role="mt-5"]
+== Alle Folgen (2023)
+
+Ausgerechnet bei einer Gedenkfeier zum ersten Jahrestag eines Amoklaufs am
+Gymnasium wird die Stadt mit einem nächsten Unglück in Angst und Schrecken
+versetzt.
+
+Die Ereignisse überschlagen sich, als Franka, die neue Polizeichefin der Stadt,
+sich mit ihren Ermittlungen selbst in große Gefahr bringt und Lisa verstörende
+Erscheinungen hat – aus dem Reich der Toten ...
+
+.Episoden
+gallery::jg_video_wwf[role="mt-4 mb-8"]

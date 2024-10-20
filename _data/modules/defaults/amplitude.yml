@@ -243,6 +243,14 @@ defaults:
     # default:                          500
     #
     # --------------------------------------------------------------------------
+    # player_skip_seconds
+    # --------------------------------------------------------------------------
+    # Skip offeset (measured in seconds) used by forward|backward buttons of
+    # compact|lage players.
+    #
+    # values:                           integer (ms)
+    # default:                          500
+    # --------------------------------------------------------------------------
 
     # --------------------------------------------------------------------------
     # PLAYER defaults
@@ -254,6 +262,7 @@ defaults:
     play_next_title:                    true
     pause_next_title:                   false
     delay_next_title:                   250
+    player_skip_seconds:                10
 
     volume:
       value:                            50

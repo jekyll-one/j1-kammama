@@ -59,7 +59,7 @@ version:                                2024.3.15
 # ------------------------------------------------------------------------------
 # Sets the copyright info of the site
 #
-copyright:                              © 2023, 2024 J1 · All rights reserved
+copyright:                              © 2024, 2025 J1 · Alle Rechte vorbehalten
 
 # noscript
 # ------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ template:
 #   values:                             HTML doc types
 #   default:                            html
 #
-language:                               en
+language:                               de
 coding:                                 UTF-8
 doctype:                                html
 
@@ -216,24 +216,16 @@ doctype:                                html
 #   default:                            false
 # ------------------------------------------------------------------------------
 #
-title:                                  J1 Template
-title_extention:                        Free Bootstrap V5 theme for Jekyll
+title:                                  Kammama
+title_extention:                        Audio und Video Portfolio zum (wieder) reinschnuppern
 
-slogan:                                 Free Jekyll Template based on Bootstrap V5 for websites,
-                                        landing pages, blogs, portfolios, directories, ecommerce
-                                        and documentations.
+slogan:                                 Audio und Video Portfolio zum (wieder) reinschnuppern
 description: >
-                                        J1 Template gives web developers and hobbyists a clean
-                                        implementation in Jekyll for starting new projects
-                                        based on Bootstap V5. The template combines the best
-                                        software for the Web. Jekyll One is open source,
-                                        free to use, and the modules packed as well.
+                                        Audio und Video Portfolio zum (wieder) reinschnuppern.
+
 keywords: >
-                                        free, open, source, open source, free, bootstap,
-                                        theme, template, jekyll, jekyll one, web, sites,
-                                        website, landing page, portfolio, directory,
-                                        ecommerce, documentation, jamstack,
-                                        deploy, netlify
+                                        free, site, website, audio und video,
+                                        portfolio, directory
 
 # Crawling/Indexing ENABLED for default. Settings managed page-wise using
 # front matter defaults or by page default settings to make sure that only
@@ -245,17 +237,17 @@ robots:
 
 # ------------------------------------------------------------------------------
 # BRAND configuration
-# Set the brand image and favicon (located in /asset/images)
+# Set the fbrand image and favicon (located in /asset/images)
 brand:
-  image:                                icons/j1/j1-512x512.png
+  image:                                icons/kammama/kammama.png
   image_height:                         48px
-  text:                                 Jekyll One
+  text:                                 Kammama
   text_color:                           "#9E9E9E"
 
 # Set the favicon and type
 #
 favicon:
-  image:                                icons/j1/favicon.ico
+  image:                                icons/kammama/favicon.ico
   type:                                 image/ico
 
 
@@ -316,7 +308,7 @@ permalink:                              pretty
 # site.url will be set to the value of host, port.
 # NOTE: Required setting for the sitemap plugin, for example.
 #
-url:                                    http://localhost:30000
+url:                                    http://localhost:16000
 
 # The subpath of your site, e.g. /blog/. Used in conjunction with
 # site.url (see above) when you want a link to something with the
@@ -342,7 +334,7 @@ base_path:                              ""
 #
 protocol:                               http
 host:                                   localhost
-port:                                   30000
+port:                                   16000
 timezone:                               Europe/Berlin
 encoding:                               UTF-8
 
@@ -529,7 +521,7 @@ author:
   twitter:
   feedburner:
 
-logo:                                   /assets/image/icons/j1/j1-512x512.png
+logo:                                   icons/kammama/kammama.png
 
 image:
   path:                                 /assets/image/promo/home/screenshot.jpg
@@ -649,7 +641,7 @@ defaults:
         name:                           Juergen Adams
         url:                            https://jekyll.one/
 
-      logo:                             /assets/image/icons/j1/j1-512x512.png
+      logo:                             icons/kammama/kammama.png
 
       image:
         path:                           /assets/image/promo/home/screenshot.jpg
@@ -703,7 +695,7 @@ defaults:
         name:                           Juergen Adams
         url:                            https://jekyll.one/
 
-      logo:                             /assets/image/icons/j1/j1-512x512.png
+      logo:                             icons/kammama/kammama.png
 
       image:
         path:                           /assets/image/promo/home/screenshot.jpg
@@ -748,32 +740,32 @@ defaults:
   # ----------------------------------------------------------------------------
   # Book Shelf
   #
-  - scope:
-      type:                             biography
-      path:                             collections/_biography
-
-    values:
-      layout:                           page
-      tts:                              false
-      canonical:                        false
-
-  - scope:
-      type:                             fantasy
-      path:                             collections/_fantasy
-
-    values:
-      layout:                           page
-      tts:                              false
-      canonical:                        false
-
-  - scope:
-      type:                             romance
-      path:                             collections/_romance
-
-    values:
-      layout:                           page
-      tts:                              false
-      canonical:                        false
+  # - scope:
+  #     type:                             biography
+  #     path:                             collections/_biography
+  #
+  #   values:
+  #     layout:                           page
+  #     tts:                              false
+  #     canonical:                        false
+  #
+  # - scope:
+  #     type:                             fantasy
+  #     path:                             collections/_fantasy
+  #
+  #   values:
+  #     layout:                           page
+  #     tts:                              false
+  #     canonical:                        false
+  #
+  # - scope:
+  #     type:                             romance
+  #     path:                             collections/_romance
+  #
+  #   values:
+  #     layout:                           page
+  #     tts:                              false
+  #     canonical:                        false
 
 
 # ==============================================================================

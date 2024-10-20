@@ -1,6 +1,6 @@
 ---
 title:                                  Missverstehen Sie mich richtig!
-tagline:                                Talk Show von Gregor Gysi mit Gästen
+tagline:                                Gregor Gysi und Gäste
 
 date:                                   2024-09-15
 #last_modified:                         2023-01-01
@@ -107,4 +107,4 @@ trockenen Humor mit einem beeindruckenden Wissensschatz. Sein Allgemeinwissen
 macht ihn zu einem gern gesehenen Gast in deutschen Quizshows.
 
 .Zu Gast: Bernhard Hoëcker
-youtube::ZrTiPQv1Qic[poster="https://img.youtube.com/vi/ZrTiPQv1Qic/maxresdefault.jpg" role="mt-4 mb-5"]
+youtube::ZrTiPQv1Qic[poster="https://img.youtube.com/vi/ZrTiPQv1Qic/maxresdefault.jpg" role="mt-4 mb-7"]

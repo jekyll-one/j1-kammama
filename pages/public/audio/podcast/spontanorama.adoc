@@ -96,8 +96,8 @@ erforderlich.
 [role="mt-5"]
 == Episoden
 
-Im Player sind alle Episoden verfügbar, die bis *September 2024* produziert
-wurden. Es erscheint jeden Donnerstag eine neue Folge.
+Im Player sind alle Episoden verfügbar, die bis *Oktober 2024* produziert
+wurden. Es erscheint jeden *Donnerstag eine neue Folge*.
 
 .Spontanorama 2024
-amplitude::spontanorama_2024_large[role="mt-4 mb-7"]
+amplitude::spontanorama_2024_large[role="mt-4 mb-8"]

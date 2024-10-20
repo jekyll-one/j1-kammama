@@ -46,7 +46,7 @@ settings:
         name:                           Spontanorama
         artist:                         Ralf Schmitz
         audio_base:                     //traffic.megaphone.fm
-        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        cover_image:                    /assets/audio/cover/spontanorama/spontanorama.jpg
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -283,109 +283,141 @@ settings:
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:05:52"
 
+        # title 24
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E24 · Ein Topf mit Salz
+          audio:                        EARLYSTUDIOSGMBH2160363806.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/ein-topf-mit-salz/id1741818812?i=1000671604806
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "00:54:01"
+
+        # title 25
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E25 · Nichts Lebendes in der Wohnung
+          audio:                        EARLYSTUDIOSGMBH3669994699.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/nichts-lebendes-in-der-wohnung/id1741818812?i=1000672425180
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:02:00"
+
+        # title 26
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E26 · Das richtige Mango-Management
+          audio:                        EARLYSTUDIOSGMBH1235501434.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/das-richtige-mango-management/id1741818812?i=1000673360731
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:02:00"
+
+
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel (2023)
     # --------------------------------------------------------------------------
     #
-    - playlist:
-      enabled:                          true
+    # - playlist:
+    #   enabled:                          true
+    #
+    #   name:                             stundenhotel_2023
+    #   title:                            Stundenhotel 2023
+    #
+    #   # ------------------------------------------------------------------------
+    #   # ALBUM settings
+    #   # ------------------------------------------------------------------------
+    #   album:                            &album_stundenhotel_2023
+    #     name:                           Stundenhotel
+    #     artist:                         Wischmeyer & Voß
+    #     audio_base:                     //rbprogressivedl-a.akamaihd.net
+    #     cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
+    #
+    #   # ------------------------------------------------------------------------
+    #   # TITLE settings (songs)
+    #   # ------------------------------------------------------------------------
+    #   items:
+    #
+    #     # title 01
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        24E01 · Mach's mir nochmal von hinten 2023
+    #       audio:                        clips/131/131040/131040_00521213_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-nochmal-von-hinten-2023-der-zweite-teil-des-jahresrueckblicks/bremen-zwei/13010265/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E01.jpg
+    #       duration:                     "01:06:53"
+    #
+    #     # title 02
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        23E02 · Nach uns die Zukunft
+    #       audio:                        clips/132/132443/132443_00525982_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/nach-uns-die-zukunft/bremen-zwei/13092223/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E02.jpg
+    #       duration:                     "01:11:29"
+    #
+    #     # title 03
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        23E03 · Futur II
+    #       audio:                        clips/134/134023/134023_00531244_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/futur-ii/bremen-zwei/13175287/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E03.jpg
+    #       duration:                     "01:30:38"
+    #
+    #     # title 04
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        23E04 · Manni Manni
+    #       audio:                        clips/135/135820/135820_00537057_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/manni-manni/bremen-zwei/13268195/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E04.jpg
+    #       duration:                     "01:19:00"
+    #
+    #     # title 05
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        23E05 · Brotlose Kunstfehler
+    #       audio:                        clips/136/136986/136986_00540859_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/brotlose-kunstfehler/bremen-zwei/13363073/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E05.jpg
+    #       duration:                     "01:08:44"
+    #
+    #     # title 06
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        23E06 · Mach's mir im Mai (Teil 1)
+    #       audio:                        clips/137/137316/137316_00541891_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-1/bremen-zwei/13383931/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E06.jpg
+    #       duration:                     "01:02:02"
+    #
+    #     # title 07
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        23E07 · Mach's mir im Mai (Teil 2)
+    #       audio:                        clips/137/137320/137320_00541902_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-2/bremen-zwei/13383983/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E07.jpg
+    #       duration:                     "01:08:45"
+    #
+    #     # title 08
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_stundenhotel_2023
+    #       title:                        34E08 · Luxus - Thema verfehlt
+    #       audio:                        clips/139/139563/139563_00549321_audio_stereo.mp3
+    #       audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/luxus-thema-verfehlt/bremen-zwei/13521805/
+    #       cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E08.jpg
+    #       duration:                     "01:13:28"
 
-      name:                             stundenhotel_2023
-      title:                            Stundenhotel 2023
-
-      # ------------------------------------------------------------------------
-      # ALBUM settings
-      # ------------------------------------------------------------------------
-      album:                            &album_stundenhotel_2023
-        name:                           Stundenhotel
-        artist:                         Wischmeyer & Voß
-        audio_base:                     //rbprogressivedl-a.akamaihd.net
-        cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
-
-      # ------------------------------------------------------------------------
-      # TITLE settings (songs)
-      # ------------------------------------------------------------------------
-      items:
-
-        # title 01
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        24E01 · Mach's mir nochmal von hinten 2023
-          audio:                        clips/131/131040/131040_00521213_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-nochmal-von-hinten-2023-der-zweite-teil-des-jahresrueckblicks/bremen-zwei/13010265/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E01.jpg
-          duration:                     "01:06:53"
-
-        # title 02
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        23E02 · Nach uns die Zukunft
-          audio:                        clips/132/132443/132443_00525982_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/nach-uns-die-zukunft/bremen-zwei/13092223/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E02.jpg
-          duration:                     "01:11:29"
-
-        # title 03
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        23E03 · Futur II
-          audio:                        clips/134/134023/134023_00531244_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/futur-ii/bremen-zwei/13175287/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E03.jpg
-          duration:                     "01:30:38"
-
-        # title 04
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        23E04 · Manni Manni
-          audio:                        clips/135/135820/135820_00537057_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/manni-manni/bremen-zwei/13268195/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E04.jpg
-          duration:                     "01:19:00"
-
-        # title 05
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        23E05 · Brotlose Kunstfehler
-          audio:                        clips/136/136986/136986_00540859_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/brotlose-kunstfehler/bremen-zwei/13363073/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E05.jpg
-          duration:                     "01:08:44"
-
-        # title 06
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        23E06 · Mach's mir im Mai (Teil 1)
-          audio:                        clips/137/137316/137316_00541891_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-1/bremen-zwei/13383931/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E06.jpg
-          duration:                     "01:02:02"
-
-        # title 07
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        23E07 · Mach's mir im Mai (Teil 2)
-          audio:                        clips/137/137320/137320_00541902_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-2/bremen-zwei/13383983/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E07.jpg
-          duration:                     "01:08:45"
-
-        # title 08
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        34E08 · Luxus - Thema verfehlt
-          audio:                        clips/139/139563/139563_00549321_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/luxus-thema-verfehlt/bremen-zwei/13521805/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E08.jpg
-          duration:                     "01:13:28"
 
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel (2024)
@@ -550,8 +582,8 @@ settings:
       type:                             large
 
       playlist:
-        name:                           spontanorama
-        title:                          Spontanorama
+        name:                           spontanorama_2024
+        title:                          Spontanorama 2024
         audio_info:                     true
         controls:                       true
 
@@ -560,20 +592,21 @@ settings:
     # COMPACT player, Spontanorama
     # --------------------------------------------------------------------------
     #
-    - plaver:
-      enabled:                          false
+    # - plaver:
+    #   enabled:                          false
+    #
+    #   # ------------------------------------------------------------------------
+    #   # PLAYER settings
+    #   #
+    #   id:                               spontanorama_2024_compact
+    #   type:                             compact
+    #
+    #   playlist:
+    #     name:                           spontanorama
+    #     title:                          Spontanorama
+    #     audio_info:                     true
+    #     controls:                       true
 
-      # ------------------------------------------------------------------------
-      # PLAYER settings
-      #
-      id:                               spontanorama_2024_compact
-      type:                             compact
-
-      playlist:
-        name:                           spontanorama
-        title:                          Spontanorama
-        audio_info:                     true
-        controls:                       true
 
     # --------------------------------------------------------------------------
     # LARGE player, Stundenhotel (2023)

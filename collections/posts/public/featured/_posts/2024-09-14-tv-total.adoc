@@ -46,7 +46,7 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
-:url-video--tv-boxkampf:                /pages/public/video/tv-highlights/tv-total/#raab-vs-halmich
+:url-video--tv-boxkampf:                /pages/public/video/show/tv-total/#raab-vs-halmich
 
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------

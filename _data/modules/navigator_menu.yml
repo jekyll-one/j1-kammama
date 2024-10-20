@@ -66,6 +66,9 @@
           - title:                      Waisenhaus für wilde Tiere
             href:                       /pages/public/video/serien/harnas/
             icon:                       eye
+          - title:                      Was wir fürchten
+            href:                       /pages/public/video/serien/was-wir-fuerchten/
+            icon:                       eye
 
       - title:                          Show
         icon:                           video
