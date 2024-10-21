@@ -88,7 +88,7 @@ Spontan und teils mit harten Pointen.
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
 [role="mt-5"]
-[TIP]
+[NOTE]
 ====
 Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
 der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
@@ -119,13 +119,24 @@ Ansichten nicht unbedingt teilen.
 .Wischmeyers Logbuch der Bekloppten und Bescheuerten · Die 12 Verlorenen
 youtube::1j8ScJPL6Uw[poster="/assets/video/poster/youtube/wischmeyers-logbuch.jpg" role="mt-4 mb-5"]
 
-Die Besonderheit an diesen Promi-Podcast ist der (Dauer-)Gast _Tina Voß_, die
-sich in jeder Folge tapfer den Kommentaren und Bemerkungen Wischmeyer's
-zum jeweigen Thema stellt.
+Die Besonderheit an diesen Promi-Podcast ist der **Dauer-Gast** _Tina Voß_,
+die sich in jeder Folge tapfer den Kommentaren und Bemerkungen Wischmeyer's
+zum jeweiligen Thema stellt.
 
-...
+Dank der beiden Protagonisten, die sich jeder in ihrer Weise auf das Thema
+des Posdcast vorbereiten, enstehen sehr unterhaltsame Gespräche wie amüsante
+Wortgefechte.
 
-Es erscheint jeden Monat eine neue Folge.
+Ein Thema ist in jedem Podcast Programm: *Untenrum*. Zwischenmenschliches von
+Frauen und Männern, Norddeutsch das *Wemsen*, findet immer seinen Platz.
+
+[role="mt-4"]
+[TIP]
+====
+Es erscheint in der *ersten Woche jeden Monats* eine neue Folge. Der Tag des
+neuen Podcasts ist unbekannt. Der genaue Tag wird von einem einäugigen
+Blinden mit runden Würfeln ermittelt: Das kann schon mal etwas brauchen.
+====
 
 
 [role="mt-5"]
@@ -135,4 +146,4 @@ Im Player sind alle Episoden verfügbar, die im *Jahr 2024* produziert wurden.
 Episonen aus voherigen Jahren findedt man in den folgenden Abschnitten.
 
 .Stundenhotel 2024
-amplitude::stundenhotel_2024_large[role="mt-4 mb-7"]
+amplitude::stundenhotel_2024_large[role="mt-4 mb-8"]

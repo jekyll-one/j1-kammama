@@ -571,12 +571,8 @@ settings:
       display_hours:                    true
 
       # ------------------------------------------------------------------------
-      # CONTROL BUTTON settings
-      #
-      song_progress_bar:                true
+      # CONTROL settings
       skip_forward_backward_button:     true
-      volume_slider:
-        enabled:                        false
 
       # ------------------------------------------------------------------------
       # PLAYER settings
@@ -588,6 +584,7 @@ settings:
         name:                           spontanorama_2024
         title:                          Spontanorama 2024
         audio_info:                     true
+        controls:                       true
 
 
     # --------------------------------------------------------------------------
@@ -621,13 +618,10 @@ settings:
     #   # TIME settings
     #   display_hours:                    true
     #
-    # # ------------------------------------------------------------------------
-    # # CONTROL BUTTON settings
-    # #
-    # song_progress_bar:                true
-    # skip_forward_backward_button:     true
-    # volume_slider:
-    #   enabled:                        false
+    #   # ------------------------------------------------------------------------
+    #   # CONTROL settings
+    #   shuffle_button:                   true
+    #   repeat_button:                    true
     #
     #   # ------------------------------------------------------------------------
     #   # PLAYER settings
@@ -641,6 +635,7 @@ settings:
     #     audio_info:                     true
     #     controls:                       true
 
+
     # --------------------------------------------------------------------------
     # LARGE player, Stundenhotel (2024)
     # --------------------------------------------------------------------------
@@ -653,12 +648,8 @@ settings:
       display_hours:                    true
 
       # ------------------------------------------------------------------------
-      # CONTROL BUTTON settings
-      #
-      song_progress_bar:                true
+      # CONTROL settings
       skip_forward_backward_button:     true
-      volume_slider:
-        enabled:                        false
 
       # ------------------------------------------------------------------------
       # PLAYER settings
@@ -670,6 +661,7 @@ settings:
         name:                           stundenhotel_2024
         title:                          Stundenhotel 2024
         audio_info:                     true
+        controls:                       true
 
 
     # --------------------------------------------------------------------------
@@ -679,6 +671,9 @@ settings:
     # - plaver:
     #   enabled:                          false
     #
+    #   # ------------------------------------------------------------------------
+    #   # TIME settings
+    #   display_hours:                    true
     #
     #   # ------------------------------------------------------------------------
     #   # CONTROL settings

@@ -83,7 +83,7 @@ und Passanten, die spontan bereit sind, alles stehen und liegen zu lassen,
 um mit Ralf Schmitz für eine Stunde zu quatschen.
 
 [role="mt-4 mb-4"]
-[TIP]
+[NOTE]
 ====
 Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
 der _Spotify_ Podcast-Plattform
@@ -97,7 +97,13 @@ erforderlich.
 == Episoden
 
 Im Player sind alle Episoden verfügbar, die bis *Oktober 2024* produziert
-wurden. Es erscheint jeden *Donnerstag eine neue Folge*.
+wurden.
+
+[role="mt-4 mb-5"]
+[TIP]
+====
+Es erscheint in *jeder Woche Donnerstags* eine neue Folge.
+====
 
 .Spontanorama 2024
 amplitude::spontanorama_2024_large[role="mt-4 mb-8"]
