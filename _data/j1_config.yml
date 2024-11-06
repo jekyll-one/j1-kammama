@@ -43,7 +43,7 @@ monitor:
 #   default:                            https://jekyll.one/
 # ------------------------------------------------------------------------------
 theme:
-  name:                                 UnoLight
+  name:                                 UnoDark                                 # UnoLight
   author:                               J1 Team
   author_url:                           https://jekyll.one/
 
