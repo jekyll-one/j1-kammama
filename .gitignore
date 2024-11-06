@@ -3,7 +3,6 @@
 
 node_modules/
 
-
 # Unneeded files created by you or helper processes
 # ------------------------------------------------------------------------------
 
@@ -41,6 +40,8 @@ private.yml
 
 # Unneeded files for the generated site
 # ------------------------------------------------------------------------------
+
+package-lock.json
 
 Gemfile.lock
 

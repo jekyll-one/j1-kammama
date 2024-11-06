@@ -85,25 +85,33 @@ um mit Ralf Schmitz für eine Stunde zu quatschen.
 [role="mt-4 mb-4"]
 [NOTE]
 ====
-Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
-der _Spotify_ Podcast-Plattform
-https://megaphone.spotify.com/de-DE[Megaphone, {browser-window--new}]
-geladen. Eine Internetverbindung zum Hören des Podcasts ist *zwingend*
+Aus Gründen des *Urheberschutzes*, lädt der Audio Player alle Folgen über
+die Server von https://earlystudios.com/[Early, {browser-window--new}].
+Eine Internetverbindung zum Hören der Podcasts ist daher *zwingend*
 erforderlich.
+
+Darüberhinaus finden Sie den Podcast überall da, wo es Podcasts gibt.
+Z.B. bei https://podcasts.apple.com/de/podcast/spontanorama/id1741818812[Apple Podcasts, {browser-window--new}]
+oder in den Angeboten von https://open.spotify.com/show/1CZ31uaQ6JTwood52CKQ9H[Spotify, {browser-window--new}].
 ====
 
 
 [role="mt-5"]
 == Episoden
 
-Im Player sind alle Episoden verfügbar, die bis *Oktober 2024* produziert
-wurden.
+Im Player sind alle Episoden verfügbar, die im Jahr *2024* produziert wurden.
 
 [role="mt-4 mb-5"]
 [TIP]
 ====
-Es erscheint in *jeder Woche Donnerstags* eine neue Folge.
+Es erscheint *jede Woche Donnerstags* eine neue Folge.
 ====
+
+// .Spontanorama 2024
+// amplitude::spontanorama_2024_compact[role="mt-4 mb-5"]
+
+// lorem:sentences[5]
 
 .Spontanorama 2024
 amplitude::spontanorama_2024_large[role="mt-4 mb-8"]
+

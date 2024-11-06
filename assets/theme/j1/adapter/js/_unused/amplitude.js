@@ -113,6 +113,9 @@ j1.adapter.amplitude = ((j1, window) => {
 
   // amplitude api settings
   // ----------------------
+  var ytpSongIndex    = "0";
+  var ytpAutoPlay     = false;
+  var ytpLoop         = true;
   var playLists       = {};
   var playersUILoaded = { state: false };
   var apiInitialized  = { state: false };
@@ -125,32 +128,54 @@ j1.adapter.amplitude = ((j1, window) => {
   var amplitudeDefaults;
   var amplitudeSettings;
   var amplitudeOptions;
+  var ytPlayer;
+  var ytpPlaybackRate
 
   // amplitude player (instance) settings
+  // NOTE: slider VALUE is set by Adapter|Amplitude API
   // ------------------------------------
   var xhrLoadState;
   var dependency;
-  var playerCounter             = 0;
-  var load_dependencies         = {};
-  var playersProcessed          = [];
-  var playersHtmlLoaded         = false;
-  var processingPlayersFinished = false;
-  var playerAudioInfo           = ('{{amplitude_defaults.playlist.audio_info}}' === 'true') ? true : false;
-  var playerDefaultType         = '{{amplitude_defaults.player.type}}';
-  var playerVolumeValue         = '{{amplitude_defaults.player.volume.value}}';
-  var playerVolumeDecrement     = '{{amplitude_defaults.player.volume.decrement}}';
-  var playerVolumeIncrement     = '{{amplitude_defaults.player.volume.increment}}';
-  var playerRepeat              = ('{{amplitude_defaults.player.repeat}}' === 'true') ? true : false;
-  var playerShuffle             = ('{{amplitude_defaults.player.shuffle}}' === 'true') ? true : false;
-  var playerPlayNextTitle       = ('{{amplitude_defaults.player.play_next_title}}' === 'true') ? true : false;
-  var playerPauseNextTitle      = ('{{amplitude_defaults.player.pause_next_title}}' === 'true') ? true : false;
-  var playerDelayNextTitle      = '{{amplitude_defaults.player.delay_next_title}}';
-
-  var playerSkipSeconds         = '{{amplitude_defaults.player.player_skip_seconds}}.00';
+  var playerCounter                     = 0;
+  var load_dependencies                 = {};
+  var playersProcessed                  = [];
+  var playersHtmlLoaded                 = false;
+  var processingPlayersFinished         = false;
+  var playerAudioInfo                   = ('{{amplitude_defaults.playlist.audio_info}}' === 'true') ? true : false;
+  var playerDefaultType                 = '{{amplitude_defaults.player.type}}';
+  var playerVolumeValue                 = '{{amplitude_defaults.player.volume_slider.preset_value}}';
+  var playerVolumeSliderStep            = '{{amplitude_defaults.player.volume_slider.slider_step}}';
+  var playerRepeat                      = ('{{amplitude_defaults.player.repeat}}' === 'true') ? true : false;
+  var playerShuffle                     = ('{{amplitude_defaults.player.shuffle}}' === 'true') ? true : false;
+  var playerPlayNextTitle               = ('{{amplitude_defaults.player.play_next_title}}' === 'true') ? true : false;
+  var playerPauseNextTitle              = ('{{amplitude_defaults.player.pause_next_title}}' === 'true') ? true : false;
+  var playerDelayNextTitle              = '{{amplitude_defaults.player.delay_next_title}}';
+  var playerForwardBackwardSkipSeconds  = '{{amplitude_defaults.player.forward_backward_skip_seconds}}';
 
   // unused settings
-  // var playerWaveformSampleRate  = '{{amplitude_defaults.player.waveform_sample_rate}}';
+  // ---------------------------------------------------------------------------
+  // var playerWaveformSampleRate       = '{{amplitude_defaults.player.waveform_sample_rate}}';
 
+  // ---------------------------------------------------------------------------
+  // YouTube Player Tech (loaded early, runs on Document Ready)
+  // ---------------------------------------------------------------------------
+  //
+  // $(function() {
+  //   // Load YTP API code asynchronously and create a player for later use
+  //   var techScript;
+  //   var tech    = document.createElement('script');
+  //
+  //   tech.id     = 'yt_player_init';
+  //   tech.src    = "/assets/theme/j1/modules/amplitudejs/js/tech/ytp.js";
+  //   techScript  = document.getElementsByTagName('script')[0];
+  //
+  //   // Append Tech script
+  //   techScript.parentNode.insertBefore(tech, techScript);
+  // });
+
+  // ---------------------------------------------------------------------------
+  // helper functions
+  // ---------------------------------------------------------------------------
 
   // ---------------------------------------------------------------------------
   // main
@@ -191,7 +216,6 @@ j1.adapter.amplitude = ((j1, window) => {
         var pageState      = $('#content').css("display");
         var pageVisible    = (pageState === 'block') ? true : false;
         var j1CoreFinished = (j1.getState() === 'finished') ? true : false;
-        // var atticFinished  = (j1.adapter.attic.getState() == 'finished') ? true : false;
 
         if (j1CoreFinished && pageVisible) {
           startTimeModule = Date.now();
@@ -219,6 +243,7 @@ j1.adapter.amplitude = ((j1, window) => {
           var dependencies_met_players_loaded = setInterval (() => {
             if (playersUILoaded.state) {
               _this.initApi(songs);
+              // var playbackRate = ytPlayer.getPlaybackRate();
 
               clearInterval(dependencies_met_players_loaded);
             } // END if playersUILoaded
@@ -238,6 +263,7 @@ j1.adapter.amplitude = ((j1, window) => {
           clearInterval(dependencies_met_page_ready);
         } // END pageVisible
       }, 10); // END dependencies_met_page_ready
+
     }, // END init
 
     // -------------------------------------------------------------------------
@@ -427,7 +453,8 @@ j1.adapter.amplitude = ((j1, window) => {
 
       {% endif %} {% endfor %}
 
-      // See: https://521dimensions.com/open-source/amplitudejs/docs
+      // See:  https://521dimensions.com/open-source/amplitudejs/docs
+      // NOTE: slider VALUE (volume) is set by DEFAULT settings (player)
       Amplitude.init({
         bindings: {
           33:  'play_pause',
@@ -508,9 +535,10 @@ j1.adapter.amplitude = ((j1, window) => {
         // },
         continue_next:    playerPlayNextTitle,
         volume:           playerVolumeValue,
-        volume_decrement: playerVolumeDecrement,
-        volume_increment: playerVolumeIncrement
+        volume_decrement: playerVolumeSliderStep,
+        volume_increment: playerVolumeSliderStep
       }); // END Amplitude init
+
     }, // END initApi
 
     // -------------------------------------------------------------------------
@@ -522,16 +550,19 @@ j1.adapter.amplitude = ((j1, window) => {
         if (apiInitialized.state) {
             logger.info('\n' + 'initialize player specific UI events: started');
 
+          var parentContainer = (document.getElementById('{{xhr_container_id}}') !== null) ? true : false;
+          var parentContainerExist = ($('#' + '{{xhr_container_id}}')[0] !== undefined) ? true : false;
+          
           {% for player in amplitude_options.players %} {% if player.enabled %}
             {% assign xhr_data_path = amplitude_options.xhr_data_path %}
             {% capture xhr_container_id %}{{player.id}}_parent{% endcapture %}
 
-            playerID      = '{{player.id}}';
-            playerType    = '{{player.type}}';
-            playList      = '{{player.playlist}}';
-            playListName  = '{{player.playlist.name}}'
-            playListTitle = '{{player.playlist.title}}';
-
+            playerID            = '{{player.id}}';
+            playerType          = '{{player.type}}';
+            playList            = '{{player.playlist}}';
+            playListName        = '{{player.playlist.name}}'
+            playListTitle       = '{{player.playlist.title}}';
+            
             logger.debug('\n' + 'set playlist {{player.playlist}} on id #{{player.id}} with title: ' + playListTitle);
 
             // dynamic loader variable to setup the player on ID {{player.id}}
@@ -543,9 +574,11 @@ j1.adapter.amplitude = ((j1, window) => {
             // -----------------------------------------------------------------
             load_dependencies['dependencies_met_player_loaded_{{player.id}}'] = setInterval (() => {
               // check if HTML portion of the player is loaded successfully
-              var xhrLoadState = j1.xhrDOMState['#' + '{{xhr_container_id}}'];
+              var xhrLoadState        = j1.xhrDOMState['#' + '{{xhr_container_id}}'];
+              var playerExistsInPage  = ($('#' + '{{xhr_container_id}}')[0] !== undefined) ? true : false;
 
-              if (xhrLoadState === 'success') {
+              if (xhrLoadState === 'success' && playerExistsInPage) {
+//            if (xhrLoadState === 'success') {
 
                 // set song (title) specific audio info links
                 // -------------------------------------------------------------
@@ -554,10 +587,11 @@ j1.adapter.amplitude = ((j1, window) => {
                   _this.setAudioInfo(infoLinks);
                 }
 
+                // jadams, 2024-10-19: (song) events DISABLED
                 // set song (title) specific UI events
                 // -------------------------------------------------------------
-                var songElements = document.getElementsByClassName('song');
-                _this.songEvents(songElements);
+                // var songElements = document.getElementsByClassName('song');
+                // _this.songEvents(songElements);
 
                 // player specific UI events
                 // -------------------------------------------------------------
@@ -602,10 +636,11 @@ j1.adapter.amplitude = ((j1, window) => {
                       // show|hide scrollbar in playlist
                       // -------------------------------------------------------
                       const songsInPlaylist = Amplitude.getSongsInPlaylist(playListName);
-
                       if (songsInPlaylist.length <= 8) {
                         const titleListCompactPlayer = document.getElementById('compact_player_title_list_' + playListName);
-                        titleListCompactPlayer.classList.add('hide-scrollbar');
+                        if (titleListCompactPlayer !== null) {
+                          titleListCompactPlayer.classList.add('hide-scrollbar');
+                        }
                       }
 
                       // show|hide playlist
@@ -613,7 +648,7 @@ j1.adapter.amplitude = ((j1, window) => {
 
                       // show playlist
                       var showPlaylist = document.getElementById("show_playlist_{{player.id}}");
-
+                      if (showPlaylist !== null) {
                         showPlaylist.addEventListener('click', function(event) {
                           var scrollOffset = (window.innerWidth >= 720) ? -130 : -110;
 
@@ -628,7 +663,7 @@ j1.adapter.amplitude = ((j1, window) => {
                           playlistScreen.classList.remove('slide-out-top');
                           playlistScreen.classList.add('slide-in-top');
                           playlistScreen.style.display = "block";
-                          playlistScreen.style.zIndex = "999";
+                          playlistScreen.style.zIndex = "199";
 
                           // disable scrolling (if window viewport >= BS Medium and above)
                           if (window.innerWidth >= 720) {
@@ -638,24 +673,26 @@ j1.adapter.amplitude = ((j1, window) => {
                               $('body').addClass('stop-scrolling');
                             }
                           }
-                      }); // END EventListener 'click' (compact player|show playlist)
+                        }); // END EventListener 'click' (compact player|show playlist)
+                     }
 
                       // hide playlist
                       var hidePlaylist = document.getElementById("hide_playlist_{{player.id}}");
+                      if (hidePlaylist !== null) {
+                        hidePlaylist.addEventListener('click', function(event) {
+                          var playlistScreen = document.getElementById("playlist_screen_{{player.id}}");
 
-                      hidePlaylist.addEventListener('click', function(event) {
-                        var playlistScreen = document.getElementById("playlist_screen_{{player.id}}");
+                          playlistScreen.classList.remove('slide-in-top');
+                          playlistScreen.classList.add('slislide-out-top');
+                          playlistScreen.style.display = "none";
+                          playlistScreen.style.zIndex = "1";
 
-                        playlistScreen.classList.remove('slide-in-top');
-                        playlistScreen.classList.add('slislide-out-top');
-                        playlistScreen.style.display = "none";
-                        playlistScreen.style.zIndex = "1";
-
-                        // enable scrolling
-                        if ($('body').hasClass('stop-scrolling')) {
-                          $('body').removeClass('stop-scrolling');
-                        }
-                      }); // END EventListener 'click' (compact player|show playlist)
+                          // enable scrolling
+                          if ($('body').hasClass('stop-scrolling')) {
+                            $('body').removeClass('stop-scrolling');
+                          }
+                        }); // END EventListener 'click' (compact player|show playlist)
+                      }
 
                       // click on progress bar
                       // -------------------------------------------------------
@@ -681,44 +718,54 @@ j1.adapter.amplitude = ((j1, window) => {
                       // add listeners to all SkipForwardButtons found
                       var compactPlayerSkipForwardButtons = document.getElementsByClassName("compact-player-skip-forward");
                       for (var i=0; i<compactPlayerSkipForwardButtons.length; i++) {
-                        compactPlayerSkipForwardButtons[i].addEventListener('click', function(event) {
-                          const skipOffset  = parseFloat(playerSkipSeconds);
-                          const duration    = Amplitude.getSongDuration();
-                          const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
-                          const targetTime  = parseFloat(currentTime + skipOffset);
+                        if (compactPlayerSkipForwardButtons[i].id === 'skip-forward_{{player.id}}') {
+                          compactPlayerSkipForwardButtons[i].addEventListener('click', function(event) {
+                            const skipOffset  = parseFloat(playerForwardBackwardSkipSeconds);
+                            const duration    = Amplitude.getSongDuration();
+                            const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
+                            const targetTime  = parseFloat(currentTime + skipOffset);
 
-                          if (currentTime > 0) {
-                            Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
-                          } // END EventListener 'click'
-                        });
-                      }
+                            if (currentTime > 0) {
+                              Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
+                            } // END EventListener 'click'
+                          });
+                        } // END if ID
+                      } // END for SkipForwardButtons
 
                       // add listeners to all SkipBackwardButtons found
                       var compactPlayerSkipBackwardButtons = document.getElementsByClassName("compact-player-skip-backward");
                       for (var i=0; i<compactPlayerSkipBackwardButtons.length; i++) {
-                        compactPlayerSkipBackwardButtons[i].addEventListener('click', function(event) {
-                          const skipOffset  = parseFloat(playerSkipSeconds);
-                          const duration    = Amplitude.getSongDuration();
-                          const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
-                          const targetTime  = parseFloat(currentTime - skipOffset);
+                        if (compactPlayerSkipBackwardButtons[i].id === 'skip-backward_{{player.id}}') {
+                          compactPlayerSkipBackwardButtons[i].addEventListener('click', function(event) {
+                            const skipOffset  = parseFloat(playerForwardBackwardSkipSeconds);
+                            const duration    = Amplitude.getSongDuration();
+                            const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
+                            const targetTime  = parseFloat(currentTime - skipOffset);
 
-                          if (currentTime > 0) {
-                            Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
-                          } // END EventListener 'click'
-                        });
-                      }
+                            if (currentTime > 0) {
+                              Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
+                            } // END EventListener 'click'
+                          });
+                        } // END if ID
+                      } // END for SkipBackwardButtons
 
-                      // click on shuffle icon
-                      document.getElementById('compact_player_shuffle').addEventListener('click', function(event) {
-                        var shuffleState = (document.getElementById('compact_player_shuffle').className.includes('amplitude-shuffle-on')) ? true : false;
-                        Amplitude.setShuffle(shuffleState)
-                      }); // END EventListener 'click'
+                      // click on shuffle button
+                      var compactPlayerShuffleButton = document.getElementById('compact_player_shuffle');
+                      if (compactPlayerShuffleButton) {
+                        compactPlayerShuffleButton.addEventListener('click', function(event) {
+                          var shuffleState = (document.getElementById('compact_player_shuffle').className.includes('amplitude-shuffle-on')) ? true : false;
+                          Amplitude.setShuffle(shuffleState)
+                        }); // END EventListener 'click'
+                      } // END compactPlayerShuffleButton
 
-                      // click on repeat icon
-                      document.getElementById('compact_player_repeat').addEventListener('click', function(event) {
-                        var repeatState = (document.getElementById('compact_player_repeat').className.includes('amplitude-repeat-on')) ? true : false;
-                        Amplitude.setRepeat(repeatState)
-                      }); // END EventListener 'click'
+                      // click on repeat button
+                      var compactPlayerRepeatButton = document.getElementById('compact_player_repeat');
+                      if (compactPlayerRepeatButton) {
+                        compactPlayerRepeatButton.addEventListener('click', function(event) {
+                          var repeatState = (document.getElementById('compact_player_repeat').className.includes('amplitude-repeat-on')) ? true : false;
+                          Amplitude.setRepeat(repeatState)
+                        }); // END EventListener 'click'
+                      } // END compactPlayerRepeatButton
 
                     } // END compact player UI events
                     {% endif %}
@@ -727,6 +774,74 @@ j1.adapter.amplitude = ((j1, window) => {
                     // START large player UI events
                     //
                     if (document.getElementById('{{player.id}}') !== null) {
+
+                      // listener overloads for Youtube video (large player)
+                      // -------------------------------------------------------
+
+                      // click on prev button
+                      var largePlayerPreviousButton = document.getElementById('large_player_previous');
+                      if (largePlayerPreviousButton && largePlayerPreviousButton.getAttribute("data-amplitude-source") === 'youtube') {
+                        largePlayerPreviousButton.addEventListener('click', function(event) {
+                          var playlist  = this.getAttribute("data-amplitude-playlist");
+                          var songIndex = ytpSongIndex;                          // Amplitude.getActiveIndex();
+
+                        }); // END EventListener 'click'
+                      }
+
+                      // click on play_pause button
+                      var largePlayerPlayButton = document.getElementById('large_player_play_pause');
+                      if (largePlayerPlayButton && largePlayerPlayButton.getAttribute("data-amplitude-source") === 'youtube') {
+                        largePlayerPlayButton.addEventListener('click', function(event) {
+                          var playlist      = this.getAttribute("data-amplitude-playlist");
+                          var songMetaData  = Amplitude.getSongAtIndex(ytpSongIndex);
+                          var songURL       = songMetaData.url;
+                          var songIndex     = ytpSongIndex;
+
+                          var dependencies_met_ytIframeAPIReady = setInterval (() => {
+                            if (j1.adapter.amplitude['iframeAPIReady']) {
+                              ytPlayer          = j1.adapter.amplitude['ytPlayer'];
+                              ytpPlaybackRate   = ytPlayer.getPlaybackRate()
+
+                              // ytPlayer.loadVideoById({
+                              //   'videoId': 'bHQqvYy5KYo',
+                              //   'startSeconds': 5,
+                              //   'endSeconds': 60
+                              // });
+
+                              // ytPlayer.loadVideoByUrl(
+                              //   mediaContentUrl:  songURL,
+                              //   startSeconds: 10
+                              // )
+
+                              // ytPlayer.playVideo();
+
+                              clearInterval(dependencies_met_ytIframeAPIReady);
+                            } // END if playersUILoaded
+                          }, 10); // END dependencies_met_ytIframeAPIReady
+
+                        }); // END EventListener 'click'
+                      }
+
+                      // click on next button
+                      var largePlayerNextButton = document.getElementById('large_player_next');
+                      if (largePlayerNextButton && largePlayerPlayButton.getAttribute("data-amplitude-source") === 'youtube') {
+                        largePlayerNextButton.addEventListener('click', function(event) {
+                          var playlist  = this.getAttribute("data-amplitude-playlist");
+                          var songIndex = ytpSongIndex;                          // Amplitude.getActiveIndex();
+                        }); // END EventListener 'click'
+                      }
+
+                      // click on song container
+                      var largetPlayerSongContainer = document.getElementsByClassName("song amplitude-song-container");
+                      for (var i=0; i<largetPlayerSongContainer.length; i++) {
+                        if (largetPlayerSongContainer[i].dataset.amplitudeSource === 'youtube') {
+                          largetPlayerSongContainer[i].addEventListener('click', function(event) {
+                            var playlist        = this.getAttribute("data-amplitude-playlist");
+                            var playlistLength  = largetPlayerSongContainer.length;
+                            ytpSongIndex         = this.getAttribute("data-amplitude-song-index");
+                          });
+                        } // END if Attribute
+                      } // END for
 
                       // add listeners to all progress bars found
                       // -------------------------------------------------------
@@ -748,44 +863,75 @@ j1.adapter.amplitude = ((j1, window) => {
                       // add listeners to all SkipForwardButtons found
                       var largePlayerSkipForwardButtons = document.getElementsByClassName("large-player-skip-forward");
                       for (var i=0; i<largePlayerSkipForwardButtons.length; i++) {
-                        largePlayerSkipForwardButtons[i].addEventListener('click', function(event) {
-                          const skipOffset  = parseFloat(playerSkipSeconds);
-                          const duration    = Amplitude.getSongDuration();
-                          const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
-                          const targetTime  = parseFloat(currentTime + skipOffset);
+                        if (largePlayerSkipForwardButtons[i].id === 'skip-forward_{{player.id}}') {
+                          if (largePlayerSkipForwardButtons[i].dataset.amplitudeSource === 'youtube') {
+                            largePlayerSkipForwardButtons[i].addEventListener('click', function(event) {
+                              const skipOffset  = parseFloat(playerForwardBackwardSkipSeconds);
+                              //const duration    = Amplitude.getSongDuration();
+                              //const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
+                              //const targetTime  = parseFloat(currentTime + skipOffset);
 
-                          if (currentTime > 0) {
-                            Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
-                          } // END EventListener 'click'
-                        });
-                      }
+                              // if (currentTime > 0) {
+                              //   Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
+                              // }
+                            }); // END EventListener 'click
+                          } else {
+                            largePlayerSkipForwardButtons[i].addEventListener('click', function(event) {
+                              const skipOffset  = parseFloat(playerForwardBackwardSkipSeconds);
+                              const duration    = Amplitude.getSongDuration();
+                              const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
+                              const targetTime  = parseFloat(currentTime + skipOffset);
+
+                              if (currentTime > 0) {
+                                Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
+                              }
+                            }); // END EventListener 'click
+                          }
+
+                        } // END if ID
+                      } // END for SkipForwardButtons
 
                       // add listeners to all SkipBackwardButtons found
                       var largePlayerSkipBackwardButtons = document.getElementsByClassName("large-player-skip-backward");
                       for (var i=0; i<largePlayerSkipBackwardButtons.length; i++) {
-                        largePlayerSkipBackwardButtons[i].addEventListener('click', function(event) {
-                          const skipOffset  = parseFloat(playerSkipSeconds);
-                          const duration    = Amplitude.getSongDuration();
-                          const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
-                          const targetTime  = parseFloat(currentTime - skipOffset);
+                        if (largePlayerSkipBackwardButtons[i].id === 'skip-backward_{{player.id}}') {
+                          if (largePlayerSkipBackwardButtons[i].dataset.amplitudeSource === 'youtube') {
+                            largePlayerSkipBackwardButtons[i].addEventListener('click', function(event) {
+                              const skipOffset  = parseFloat(playerForwardBackwardSkipSeconds);
+                            }); // END EventListener 'click'
+                          } else {
+                            largePlayerSkipBackwardButtons[i].addEventListener('click', function(event) {
+                              const skipOffset  = parseFloat(playerForwardBackwardSkipSeconds);
+                              const duration    = Amplitude.getSongDuration();
+                              const currentTime = parseFloat(Amplitude.getSongPlayedSeconds());
+                              const targetTime  = parseFloat(currentTime - skipOffset);
 
-                          if (currentTime > 0) {
-                            Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
-                          } // END EventListener 'click'
-                        });
-                      }
+                              if (currentTime > 0) {
+                                Amplitude.setSongPlayedPercentage((targetTime / duration) * 100);
+                              }
+                            }); // END EventListener 'click'
+                          }
 
-                      // click on shuffle icon
-                      document.getElementById('large_player_shuffle').addEventListener('click', function(event) {
-                        var shuffleState = (document.getElementById('large_player_shuffle').className.includes('amplitude-shuffle-on')) ? true : false;
-                        Amplitude.setShuffle(shuffleState)
-                      }); // END EventListener 'click'
+                        } // END if ID
+                      } // END for SkipBackwardButtons
 
-                      // click on repeat icon
-                      document.getElementById('repeat_container_large_player').addEventListener('click', function(event) {
-                        var repeatState = (document.getElementById('repeat_container_large_player').className.includes('amplitude-repeat-on')) ? true : false;
-                        Amplitude.setRepeat(repeatState)
-                      }); // END EventListener 'click'
+                      // click on shuffle button
+                      var largePlayerShuffleButton = document.getElementById('large_player_shuffle');
+                      if (largePlayerShuffleButton) {
+                        largePlayerShuffleButton.addEventListener('click', function(event) {
+                          var shuffleState = (document.getElementById('large_player_shuffle').className.includes('amplitude-shuffle-on')) ? true : false;
+                          Amplitude.setShuffle(shuffleState)
+                        }); // END EventListener 'click'
+                      } // END largePlayerShuffleButton
+
+                      // click on repeat button
+                      var largePlayerRepeatButton = document.getElementById('large_player_repeat');
+                      if (largePlayerShuffleButton) {
+                        largePlayerRepeatButton.addEventListener('click', function(event) {
+                          var repeatState = (document.getElementById('large_player_repeat').className.includes('amplitude-repeat-on')) ? true : false;
+                          Amplitude.setRepeat(repeatState)
+                        }); // END EventListener 'click'
+                      } // END largePlayerRepeatButton
 
                       // enable|disable scrolling on playlist
                       // -------------------------------------------------------
@@ -797,7 +943,9 @@ j1.adapter.amplitude = ((j1, window) => {
 
                         if (songsInPlaylist.length <= 8) {
                           const titleListLargePlayer = document.getElementById('large_player_title_list_' + playListName);
-                          titleListLargePlayer.classList.add('hide-scrollbar');
+                          if (titleListLargePlayer !== null) {
+                            titleListLargePlayer.classList.add('hide-scrollbar');
+                          }
                         }
 
                         // scroll to player top position
