@@ -361,6 +361,17 @@ settings:
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:53:42"
 
+        # title 29
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E29 · Begegnungen mit der anderen Seite
+          rating:                       2
+          audio:                        EARLYSTUDIOSGMBH4130157548.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/begegnungen-mit-der-anderen-seite/id1741818812?i=1000675980838
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:12:45"
+
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel (2023)
     # --------------------------------------------------------------------------
