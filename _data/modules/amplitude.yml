@@ -622,8 +622,30 @@ settings:
           cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E10.jpg
           duration:                     "01:16:13"
 
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2024
+          title:                        24E11 · Ey, lieb sein, Du Vollpfosten
+          rating:                       3
+          audio:                        clips/142/142840/142840_00560298_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/go-west-und-der-rest/bremen-zwei/13668961/
+          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E11.jpg
+          duration:                     "01:13:06"
 
-  # ============================================================================
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2024
+          title:                        24E12 · Maustot im Angebot
+          rating:                       3
+          audio:                        clips/144/144622/144622_00566238_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/maustot-im-angebot/bremen-zwei/13832097/
+          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E12.jpg
+          duration:                     "01:14:58"
+
+  
+    # ============================================================================
   # PLAYER configuration
   # ----------------------------------------------------------------------------
   players:
