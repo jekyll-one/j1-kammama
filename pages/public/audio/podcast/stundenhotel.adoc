@@ -54,6 +54,10 @@ resource_options:
 :time-de--string:                       Minuten
 :time-de--description:                  Audiozeit
 
+// Attribute settings for section control
+//
+:ytp_video:                             false
+
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
 {% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
@@ -116,8 +120,10 @@ eines Intellektuellen. Er hält sein Wissen noch seine persönliche Meinung
 hinter dem Berg. So manche werden ihn als Klugscheisser empfinden und seine
 Ansichten nicht unbedingt teilen.
 
+ifeval::[{ytp_video} == true]
 .Wischmeyers Logbuch der Bekloppten und Bescheuerten · Die 12 Verlorenen
 youtube::1j8ScJPL6Uw[poster="/assets/video/poster/youtube/wischmeyers-logbuch.jpg" role="mt-4 mb-5"]
+endif::[]
 
 Die Besonderheit an diesen Promi-Podcast ist der **Dauer-Gast** _Tina Voß_,
 die sich in jeder Folge tapfer den Kommentaren und Bemerkungen Wischmeyer's
