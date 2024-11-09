@@ -159,9 +159,6 @@ amplitude::stundenhotel_2024_large[role="mt-4 mb-5"]
 === 2023
 
 Im Player sind alle Episoden verfügbar, die im *Jahr 2023* produziert wurden.
-Episonen aus voherigen Jahren findedt man in den folgenden Abschnitten.
 
 .Stundenhotel 2023
 amplitude::stundenhotel_2023_large[role="mt-4 mb-8"]
-
-
