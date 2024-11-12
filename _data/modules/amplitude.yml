@@ -379,10 +379,10 @@ settings:
     #
     - playlist:
       enabled:                          true
-    
+
       name:                             stundenhotel_2023
       title:                            Stundenhotel 2023
-    
+
       # ------------------------------------------------------------------------
       # ALBUM settings
       # ------------------------------------------------------------------------
@@ -391,12 +391,12 @@ settings:
         artist:                         Wischmeyer & Voß
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
-    
+
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
       # ------------------------------------------------------------------------
       items:
-       
+
         # title 01
         - item:
           enabled:                      true
@@ -406,7 +406,7 @@ settings:
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt/bremen-zwei/12307751/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E01.jpg
           duration:                     "01:00:49"
-    
+
         # title 02
         - item:
           enabled:                      true
@@ -416,7 +416,7 @@ settings:
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt-2/bremen-zwei/12399667/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E02.jpg
           duration:                     "00:59:20"
-    
+
         # title 03
         - item:
           enabled:                      true
@@ -445,7 +445,7 @@ settings:
           audio:                        clips/120/120012/120012_00484559_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/come-in-and-find-out/bremen-zwei/12599305/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E05.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:17:56"
           
         # title 06
         - item:
@@ -455,7 +455,7 @@ settings:
           audio:                        clips/121/121408/121408_00489119_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ohne-wenn-und-aberglaube/bremen-zwei/12683395/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E06.jpg
-          duration:                     "01:00:00"          
+          duration:                     "01:22:19"          
 
         # title 07
         - item:
@@ -465,7 +465,7 @@ settings:
           audio:                        clips/122/122340/122340_00492249_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/seniorenresidenz-moderfrieden/bremen-zwei/94497682/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E07.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:03:33"
 
         # title 08
         - item:
@@ -475,7 +475,7 @@ settings:
           audio:                        clips/123/123213/123213_00495261_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/muell-oder-zecken/bremen-zwei/94562434/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E09.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:10:23"
 
         # title 09
         - item:
@@ -485,7 +485,7 @@ settings:
           audio:                        clips/124/124619/124619_00499941_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/unbedingt-abwehrbereit/bremen-zwei/94650438/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E09.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:09:10"
 
         # title 10
         - item:
@@ -495,7 +495,7 @@ settings:
           audio:                        clips/126/126163/126163_00505084_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ich-mach-s-mir-selbst/bremen-zwei/94752454/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E10.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:12:03"
 
         # title 11
         - item:
@@ -505,7 +505,7 @@ settings:
           audio:                        clips/127/127066/127066_00508013_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/na-dann-gute-nacht/bremen-zwei/94814450/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E11.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:19:32"
 
         # title 12
         - item:
@@ -515,7 +515,7 @@ settings:
           audio:                        clips/128/128185/128185_00511714_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/feste-feiern-locker-bleiben/bremen-zwei/12835417/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E12.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:16:35"
 
         # title 13
         - item:
@@ -525,7 +525,17 @@ settings:
           audio:                        clips/130/130416/130416_00519141_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/schoen-eng-ist-weit-genug/bremen-zwei/12968235/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E13.jpg
-          duration:                     "01:00:00"
+          duration:                     "01:19:43"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2023
+          title:                        23E14 · Mach's mir von hinten – Jahresrückblick 2022
+          audio:                        clips/114/114755/114755_00466976_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2022/bremen-zwei/12202975/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=448&ch=29c7745bfd759a36 # /assets/audio/cover/stundenhotel/2023/S23E14.jpg
+          duration:                     "02:03:29"
 
 
     # --------------------------------------------------------------------------
