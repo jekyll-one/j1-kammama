@@ -29,21 +29,20 @@ include Asciidoctor
 # ------------------------------------------------------------------------------
 Asciidoctor::Extensions.register do
 
-  class SlickBlockMacro < Extensions::BlockMacroProcessor
+  class MasonryBlockMacro < Extensions::BlockMacroProcessor
     use_dsl
 
-    named :slick
+    named :masonry
     name_positional_attributes 'role'
-    default_attrs 'role' => 'mt-3 mb-3'
+    default_attributes 'role' => 'mt-3 mb-3'
 
     def process parent, target, attributes
 
-      # title_html  = (attributes.has_key? 'title') ? %(<div class="carousel-title">#{attributes['title']}</div>\n) : nil
-      title_html  = (attributes.has_key? 'title') ? %(<div class="carousel-title"> <i class="mdib mdib-view-carousel mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
+      title_html  = (attributes.has_key? 'title') ? %(<div class="masonry-title"> <i class="mdib mdib-collage mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
       html        = %(
         <div class="#{attributes['role']}">
           #{title_html}
-          <div id="#{target}_parent" class="slider slider-parent"></div>
+          <div id="#{target}_parent" class="masonry masonry-parent"></div>
         </div>
       )
 
@@ -51,5 +50,5 @@ Asciidoctor::Extensions.register do
     end
   end
 
-  block_macro SlickBlockMacro
+  block_macro MasonryBlockMacro
 end

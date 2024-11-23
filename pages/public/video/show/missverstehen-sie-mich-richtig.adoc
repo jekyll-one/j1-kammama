@@ -1,6 +1,7 @@
 ---
 title:                                  Missverstehen Sie mich richtig!
 tagline:                                Gregor Gysi und Gäste
+title_extention:                        Talk mit Gysi und Gästen
 
 date:                                   2024-09-15
 #last_modified:                         2023-01-01

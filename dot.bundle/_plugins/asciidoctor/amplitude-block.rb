@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# ~/_plugins/asciidoctor-extensions/slick-block.rb
-# Asciidoctor extension for J1 Slick (Carousel)
+# ~/_plugins/asciidoctor-extensions/amplitude-block.rb
+# Asciidoctor extension for J1 Amplitude (Audio)
 #
 # Product/Info:
 # https://jekyll.one
@@ -14,36 +14,36 @@ require 'asciidoctor/extensions' unless RUBY_ENGINE == 'opal'
 include Asciidoctor
 
 # ------------------------------------------------------------------------------
-# A block macro that embeds a (Slick) Slider (parent) block
+# A block macro that embeds a (Amplitude) player (parent) block
 # into the output document
 #
 # Usage:
 #
-#   slick::slider_id[role="additional classes"]
+#   amplitude::player_id[role="additional classes"]
 #
 # Example:
 #
-#   .The slider title
-#   slick::image_slider[role="mt-3 mb-5"]
+#   .Player title
+#   amplitude::example_player[role="mt-3 mb-5"]
 #
 # ------------------------------------------------------------------------------
 Asciidoctor::Extensions.register do
 
-  class SlickBlockMacro < Extensions::BlockMacroProcessor
+  class AmplitudeBlockMacro < Extensions::BlockMacroProcessor
     use_dsl
 
-    named :slick
+    named :amplitude
     name_positional_attributes 'role'
     default_attrs 'role' => 'mt-3 mb-3'
 
     def process parent, target, attributes
 
-      # title_html  = (attributes.has_key? 'title') ? %(<div class="carousel-title">#{attributes['title']}</div>\n) : nil
-      title_html  = (attributes.has_key? 'title') ? %(<div class="carousel-title"> <i class="mdib mdib-view-carousel mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
-      html        = %(
-        <div class="#{attributes['role']}">
+      title_html = (attributes.has_key? 'title') ? %(<div class="player-title"> <i class="mdib mdib-ear-hearing mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
+
+      html = %(
+        <div class="audioblock #{attributes['role']}">
           #{title_html}
-          <div id="#{target}_parent" class="slider slider-parent"></div>
+          <div id="#{target}_parent" class="amplitude-player"></div>
         </div>
       )
 
@@ -51,5 +51,5 @@ Asciidoctor::Extensions.register do
     end
   end
 
-  block_macro SlickBlockMacro
+  block_macro AmplitudeBlockMacro
 end

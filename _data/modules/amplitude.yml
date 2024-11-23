@@ -372,6 +372,27 @@ settings:
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:12:45"
 
+        # title 30
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E30 · Die Stimme muss passen
+          rating:                       2
+          audio:                        EARLYSTUDIOSGMBH4365471324.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/die-stimme-muss-passen/id1741818812?i=1000676874063
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:01:53"
+
+        # title 31
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E31 · Internationale Knöpfe
+          rating:                       2
+          audio:                        EARLYSTUDIOSGMBH8851903473.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/internationale-kn%C3%B6pfe/id1741818812?i=1000677694033
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "00:57:37"
 
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel (2023)
@@ -760,7 +781,8 @@ settings:
       song_progress_bar:                true
       skip_forward_backward_button:     true
       volume_slider:
-        enabled:                        false
+        enabled:                        true
+        preset_value:                   46
     
       # ------------------------------------------------------------------------
       # PLAYER settings
@@ -792,7 +814,8 @@ settings:
       song_progress_bar:                true
       skip_forward_backward_button:     true
       volume_slider:
-        enabled:                        false
+        enabled:                        true
+        preset_value:                   46
 
       # ------------------------------------------------------------------------
       # PLAYER settings

@@ -1,6 +1,8 @@
 ---
 title:                                  Sträter
 tagline:                                TV Show
+title_extention:                        Sträter Show
+
 
 date:                                   2024-09-14
 #last_modified:                         2023-01-01

@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# ~/_plugins/asciidoctor-extensions/carousel-block.rb
-# Asciidoctor extension for J1 Carousel (Owl Carousel)
+# ~/_plugins/asciidoctor-extensions/gist-block.rb
+# Asciidoctor extension for J1 Theme
 #
 # Product/Info:
 # https://jekyll.one
@@ -13,34 +13,37 @@
 require 'asciidoctor/extensions' unless RUBY_ENGINE == 'opal'
 include Asciidoctor
 
-# A block macro that embeds a Carousel block into the output document
+# A block macro that embeds a Gist into the output document
 #
 # Usage
 #
-#   carousel::carousel_id[role="additional classes"]
+#   gist::12345[]
 #
 # Example:
 #
-#   .Carousel title
-#   carousel::owl_demo_simple[role="mb-5"]
+#   .Guard setup to live preview AsciiDoc output
+#   gist::mojavelinux/5546622[]
 #
 Asciidoctor::Extensions.register do
 
-  class ImageBlockMacro < Extensions::BlockMacroProcessor
+  class GistBlockMacro < Extensions::BlockMacroProcessor
     use_dsl
 
-    named :carousel
+    named :gist
     name_positional_attributes 'role'
     default_attrs 'role' => 'mt-3 mb-3'
 
     def process parent, target, attributes
 
-      title_html  = (attributes.has_key? 'title') ? %(<div class="carousel-title"> <i class="mdib mdib-view-carousel mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
-
+      title_html  = (attributes.has_key? 'title') ? %(<div class="title notranslate">#{attributes['title']}</div>\n) : nil
       html        = %(
         <div class="#{attributes['role']}">
-          #{title_html}
-          <div id="#{target}" class="slider"></div>
+          <div class="openblock gist">
+             #{title_html}
+             <div class="content">
+               <script src="https://gist.github.com/#{target}.js"></script>
+             </div>
+          </div>
         </div>
       )
 
@@ -48,5 +51,5 @@ Asciidoctor::Extensions.register do
     end
   end
 
-  block_macro ImageBlockMacro
+  block_macro GistBlockMacro
 end

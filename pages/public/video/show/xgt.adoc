@@ -1,0 +1,159 @@
+---
+title:                                  AGT · BGT
+tagline:                                Compiliations
+title_extention:                        Best of Compiliations
+
+date:                                   2024-09-14
+#last_modified:                         2023-01-01
+
+description: >
+                                        Unbestritten sind Großbritannien und die USA führend im Bereich des
+                                        (kommerziellen) Entertainments. Weltweit bekant sind die Shows
+                                        BGT (Btitan's got Tatlent) und AGT (America's got Tatemt).
+
+keywords:                               TV, Show, AGT, BGT
+
+categories:                             [ Video ]
+tags:                                   [ Show, AGT, BGT ]
+
+image:
+  path:                                 /assets/image/pages/xgt/xgt.jpg
+  width:                                1920
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/show/xgt/
+
+resources:                              [ videojs ]
+resource_options:
+  - attic:
+      padding_top:                      550
+      slides:
+        - url:                          /assets/image/pages/xgt/xgt.jpg
+          alt:                          XGT Logo
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Unbestritten sind Großbritannien und die USA führend im Bereich des
+(kommerziellen) Entertainments. Weltweit bekant sind die Shows
+BGT (Btitan's got Tatlent) und AGT (America's got Tatemt).
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  30+ Minuten Videozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über die Show
+
+Btitan's und America’s Got Talent (Akronym: BGT/AGT) ist eine im Fernsehen
+übertragene Talentshow-Wettbewerb und Teil des von Simon Cowell gegründeten
+globalen Got-Talent-Franchise.
+
+Der Wettbewerb beginnt jedes Jahr mit einer Reihe von Vorsprechphasen
+(den *Auditions*), die von Produktionsteams in verschiedenen Städten der
+Vereinigten Staaten durchgeführt wird.
+Diese Phase ist offen für alle Formen von Acts und wird von einer unabhängigen
+Gruppe beurteilt und bestimmt somit, wer an der nächsten Phase der Auditions
+mit dem Titel „Judges' Auditions“ teilnimmt; diese finden an einem öffentlichen
+Ort in ausgewählten Städten im ganzen Land und statt werden von den Juroren
+besucht, die den diesjährigen Wettbewerb handhaben.
+
+Teilnehmer, die ihre Vorsprechen bestehen und einen Platz in den Live-Runden
+der Wettbewerbe bekommen werden in Gruppen eingeteilt und treten gegeneinander
+an, um sich einen Platz im Live-Finale des Wettbewerbs zu sichern. Live-Episoden
+des Wettbewerbs finden an einem festgelegten Veranstaltungsort statt.
+
+Aktuell (2024) ist der Veranstaltungsort der Live-Sessions von AGT Los Angeles
+und werden wöchentlich ausgestrahlt werden. Die ??? weicht von dem Zeitplan
+anderer internationaler Ausgaben ab. Britain's Got Talent zum Beispiel sendet
+seine Live-Folgen innerhalb einer Woche.
+
+[role="mt-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Videos direkt über die Plattform
+_YouTube_ geladen. Daher ist eine Internetverbindung zum Ansehen der Videos
+*zwingend* erforderlich.
+====
+
+[role="mt-5"]
+[[agt]]
+== AGT
+// See: https://de.wikipedia.org/wiki/America%E2%80%99s_Got_Talent
+
+Das Programm wird von Fremantle USA und Syco Entertainment produziert und
+im Fernsehsender NBC ausgestrahlt.
+
+Dog Dancing wird recht häufig auf der Bühne präsentiert. So präsentierte
+Adrian Stoica in der 18. Staffel von AGT seinen Hund Hurricane
+https://www.youtube.com/watch?v=ENGRnUN1UKQ)[Youtube, {browser-window--new}].
+Aber sehen Sie sich Roni Sagi an, eine junge israelische Hundetrainerin, und
+ihren Hund _Rhythm_.
+
+Das ist Hunde-Training auf höchstem Niveau.
+
+.Roni Sagi & Rhythm · AGT 2024 
+youtube::1J2qz6B-PFY[poster="//img.youtube.com/vi/1J2qz6B-PFY/maxresdefault.jpg" role="mt-4 mb-5"]
+
+
+Sky Elements nutzt den Nachthimmel als Leinwand, auf der alles möglich ist.
+Eine große Gruppe Drohnen malt Lichter in den Himmel, um die fesselndsten
+Geschichten zu erzählen.
+
+Das ist sind Emotionen am Nachhimmel, die man auch als Nicht-Amerikaner
+verstehen kann.
+
+.Sky Elements · AGT 2024 
+youtube::cN8IrZUhPtc[poster="//img.youtube.com/vi/cN8IrZUhPtc/maxresdefault.jpg" role="mt-4 mb-5"]
+
+
+[role="mt-5"]
+[[bgt]]
+== BGT
+// See: https://de.wikipedia.org/wiki/Britain%E2%80%99s_Got_Talent
+
+An der Castingshow können Personen jeglichen Alters teilnehmen. Es können
+Personen einzeln oder in einer Gruppe auftreten. Die Kandidaten treten mit
+einem selbst gewählten Programm, wie etwa Singen oder einer Tanzperformance,
+vor der Jury und dem Publikum auf.
+
+Die Juroren können während der Vorstellung einen Buzzer betätigen, um
+anzuzeigen, dass ihnen die Vorstellung nicht gefällt. Haben alle Juroren den
+Buzzer betätigt, muss der Kandidat mit seiner Vorstellung aufhören.
+
+Am Schluss des Auftritts bewerten die Juroren den Kandidaten mit Ja (Yes) oder
+Nein (No). Hat der Kandidat von der Mehrheit der Juroren ein Ja bekommen, darf
+er in der nächsten Runde erneut auftreten.
+
+.Gifted Kids · BGT
+youtube::npe6S1tBrYs[poster="//img.youtube.com/vi/npe6S1tBrYs/maxresdefault.jpg" role="mt-4 mb-8"]
+
+

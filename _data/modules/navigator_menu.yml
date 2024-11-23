@@ -62,29 +62,31 @@
 
           - title:                      Auf Achse
             href:                       /pages/public/video/serien/auf-achse/
-            icon:                       eye
+            icon:                       video
           - title:                      Waisenhaus für wilde Tiere
             href:                       /pages/public/video/serien/harnas/
-            icon:                       eye
+            icon:                       video
           - title:                      Was wir fürchten
             href:                       /pages/public/video/serien/was-wir-fuerchten/
-            icon:                       eye
+            icon:                       video
 
       - title:                          Show
         icon:                           video
         dropdown:
 
+          - title:                      AGT & BGT
+            href:                       /pages/public/video/show/xgt/
+            icon:                       video
+
           - title:                      TV Total
             href:                       /pages/public/video/show/tv-total/
-            icon:                       eye
-
+            icon:                       video
           - title:                      Sträter
             href:                       /pages/public/video/show/straeter/
-            icon:                       eye
-
+            icon:                       video
           - title:                      Missverstehen Sie mich richtig!
             href:                       /pages/public/video/show/missverstehen/
-            icon:                       eye
+            icon:                       video
 
       - title:                          TV Highlights
         icon:                           video
@@ -92,7 +94,7 @@
 
           - title:                      Kerkeling
             href:                       /pages/public/video/tv-highlights/kerkeling/
-            icon:                       eye
+            icon:                       video
 
       - title:                          Comedy
         icon:                           video
@@ -100,7 +102,7 @@
 
           - title:                      Horst Evers
             href:                       /pages/public/video/comedy/evers/
-            icon:                       eye
+            icon:                       video
 
 # ------------------------------------------------------------------------------
 # Menu BLOG

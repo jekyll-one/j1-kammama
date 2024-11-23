@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# ~/_plugins/asciidoctor-extensions/carousel-block.rb
-# Asciidoctor extension for J1 Carousel (Owl Carousel)
+# ~/_plugins/asciidoctor-extensions/gallery-block.rb
+# Asciidoctor extension for J1 Galleries
 #
 # Product/Info:
 # https://jekyll.one
@@ -13,34 +13,34 @@
 require 'asciidoctor/extensions' unless RUBY_ENGINE == 'opal'
 include Asciidoctor
 
-# A block macro that embeds a Carousel block into the output document
+# A block macro that embeds a Gallery block into the output document
 #
 # Usage
 #
-#   carousel::carousel_id[role="additional classes"]
+#   gallery::gallery_id[role="additional classes"]
 #
 # Example:
 #
-#   .Carousel title
-#   carousel::owl_demo_simple[role="mb-5"]
+#   .The gallery title
+#   gallery::jg_live_demo[role="mt-4 mb-5"]
 #
 Asciidoctor::Extensions.register do
 
   class ImageBlockMacro < Extensions::BlockMacroProcessor
     use_dsl
 
-    named :carousel
+    named :gallery
     name_positional_attributes 'role'
-    default_attrs 'role' => 'mt-3 mb-3'
+    default_attrs 'role' => 'mt-4 mb-4'
 
     def process parent, target, attributes
 
-      title_html  = (attributes.has_key? 'title') ? %(<div class="carousel-title"> <i class="mdib mdib-view-carousel mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
+      title_html = (attributes.has_key? 'title') ? %(<div class="gallery-title"> <i class="mdib mdib-collage mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
 
-      html        = %(
+      html = %(
         <div class="#{attributes['role']}">
           #{title_html}
-          <div id="#{target}" class="slider"></div>
+          <div id="#{target}_parent" class="gallery"></div>
         </div>
       )
 

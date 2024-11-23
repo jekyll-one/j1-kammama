@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# ~/_plugins/asciidoctor-extensions/carousel-block.rb
-# Asciidoctor extension for J1 Carousel (Owl Carousel)
+# ~/_plugins/asciidoctor-extensions/google-adsense-block.rb
+# Asciidoctor extension for J1 Ads (Google Adsense)
 #
 # Product/Info:
 # https://jekyll.one
@@ -13,34 +13,33 @@
 require 'asciidoctor/extensions' unless RUBY_ENGINE == 'opal'
 include Asciidoctor
 
-# A block macro that embeds a Carousel block into the output document
+# ------------------------------------------------------------------------------
+# A block macro that embeds a (Google Adsense) Ad block
+# into the output document
 #
-# Usage
+# Usage:
 #
-#   carousel::carousel_id[role="additional classes"]
+#   gad::ad_id[role="additional container classes"]
 #
 # Example:
 #
-#   .Carousel title
-#   carousel::owl_demo_simple[role="mb-5"]
+#   gad::ad_1234567890["mb-5"]
 #
+# ------------------------------------------------------------------------------
 Asciidoctor::Extensions.register do
 
-  class ImageBlockMacro < Extensions::BlockMacroProcessor
+  class GoogleAdsensekBlockMacro < Extensions::BlockMacroProcessor
     use_dsl
 
-    named :carousel
+    named :gad
     name_positional_attributes 'role'
     default_attrs 'role' => 'mt-3 mb-3'
 
     def process parent, target, attributes
 
-      title_html  = (attributes.has_key? 'title') ? %(<div class="carousel-title"> <i class="mdib mdib-view-carousel mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
-
-      html        = %(
+      html = %(
         <div class="#{attributes['role']}">
-          #{title_html}
-          <div id="#{target}" class="slider"></div>
+          <div id="#{target}" class="gad-container speak2me-ignore"></div>
         </div>
       )
 
@@ -48,5 +47,5 @@ Asciidoctor::Extensions.register do
     end
   end
 
-  block_macro ImageBlockMacro
+  block_macro GoogleAdsensekBlockMacro
 end

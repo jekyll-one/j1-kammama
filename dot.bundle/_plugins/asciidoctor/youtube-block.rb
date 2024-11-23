@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# ~/_plugins/asciidoctor-extensions/video-block.rb
-# Asciidoctor extension for local HTML5 Video
+# ~/_plugins/asciidoctor-extensions/youtube-block.rb
+# Asciidoctor extension for YouTube Video
 #
 # Product/Info:
 # https://jekyll.one
@@ -14,35 +14,42 @@ require 'asciidoctor/extensions' unless RUBY_ENGINE == 'opal'
 include Asciidoctor
 
 # ------------------------------------------------------------------------------
-# A block macro that embeds a local video using VideoJS into the output document
+# A block macro that embeds a video from the YouTube platform
+# into the output document
 #
 # Usage:
 #
-#   .Title
-#   video::video_path[start="hh:mm:ss" poster="full_image_path" theme="vjs_theme_name" zoom="true|false" role="CSS classes"]
+#   youtube::video_id[poster="full_image_path" theme="vjs_theme_name" role="CSS classes"]
 #
 # Example:
 #
-#   .MP4 Video, Rolling Wild
-#   videojs::/assets/video/gallery/html5/video2.mp4[start="00:00:50" poster="/assets/video/gallery/video1-poster.jpg" role="mt-4 mb-5"]
+#   .Video title
+#   youtube::nV8UZJNBY6Y[poster="/assets/image/icons/videojs/videojs-poster.png" theme="city" role="mt-5 mb-5"]
 #
 # ------------------------------------------------------------------------------
 # See:
 # https://www.tutorialspoint.com/creating-a-responsive-video-player-using-video-js
 # ------------------------------------------------------------------------------
+# NOTE
+# Bei YouTube Nocookie handelt es sich um einen Code zum
+# Einbetten inklusive entsprechender URL, der es Webseitenbetreibern
+# erlaubt, Videos ohne Tracking Cookies auf ihren Webseiten zu
+# integrieren. Der Code muss für jedes eingebettete Video generiert
+# und eingefügt werden.
+#
+# See: https://www.datenschutz.org/youtube-nocookie/
+# ------------------------------------------------------------------------------
 
 Asciidoctor::Extensions.register do
 
-  class VideoJSBlockMacro < Extensions::BlockMacroProcessor
+  class YouTubeBlockMacro < Extensions::BlockMacroProcessor
     use_dsl
 
-    named :videojs
-    name_positional_attributes 'caption', 'start', 'poster', 'theme', 'zoom', 'role'
-    default_attrs 'caption' => 'true',
-                  'start' => '00:00:00',
-                  'poster' => '/assets/video/gallery/videojs-poster.png',
+    named :youtube
+    name_positional_attributes 'poster', 'theme', 'custom_buttons', 'role'
+    default_attrs 'poster' => '/assets/image/icons/videojs/videojs-poster.png',
                   'theme' => 'uno',
-                  'zoom' => false,
+                  'custom_buttons' => true,
                   'role' => 'mt-3 mb-3'
 
     def process parent, target, attributes
@@ -53,10 +60,10 @@ Asciidoctor::Extensions.register do
       title_html      = (attributes.has_key? 'title') ? %(<div class="video-title"> <i class="mdib mdib-video mdib-24px mr-2"></i> #{attributes['title']} </div>\n) : nil
       poster_image    = (poster = attributes['poster']) ? %(#{poster}) : nil
       theme_name      = (theme  = attributes['theme'])  ? %(#{theme}) : nil
-      caption_enabled = (caption  = attributes['caption'])  ? true : false
+      custom_buttons  = (custom_buttons = attributes['custom_buttons']) ? %(#{custom_buttons}) : nil
 
       html = %(
-        <div class="videojs-player bottom #{attributes['role']}">
+        <div class="youtube-player bottom #{attributes['role']}">
           #{title_html}
           <video
             id="#{video_id}"
@@ -68,16 +75,15 @@ Asciidoctor::Extensions.register do
             aria-label="#{attributes['title']}"
             data-setup='{
               "fluid" : true,
+              "techOrder": [
+                "youtube", "html5"
+              ],
               "sources": [{
-                "type": "video/mp4",
-                "src": "#{target}"
+                "type": "video/youtube",
+                "src": "//youtube.com/watch?v=#{target}"
               }],
               "controlBar": {
                 "pictureInPictureToggle": false,
-                "skipButtons": {
-                  "backward": 15,
-                  "forward": 15
-                },
                 "volumePanel": {
                   "inline": false
                 }
@@ -111,77 +117,7 @@ Asciidoctor::Extensions.register do
               var j1CoreFinished = (j1.getState() === 'finished') ? true : false;
 
               if (j1CoreFinished && pageVisible) {
-
-                if ('#{caption_enabled}' === 'true') {
-                  addCaptionAfterImage('#{poster_image}');
-                }
-
-                var appliedOnce = false;
-                videojs("#{video_id}").ready(function() {
-                  var videojsPlayer = this;
-
-                  // add playbackRates
-                  videojsPlayer.playbackRates([0.5, 1, 1.5, 2]);
-
-                  // add hotkeys plugin
-                  videojsPlayer.hotkeys({
-                    volumeStep: 0.1,
-                    seekStep: 15,
-                    enableMute: true,
-                    enableFullscreen: true,
-                    enableNumbers: false,
-                    enableVolumeScroll: true,
-                    enableHoverScroll: true,
-                    alwaysCaptureHotkeys: true,
-                    captureDocumentHotkeys: true,
-                    documentHotkeysFocusElementFilter: e => e.tagName.toLowerCase() === "body",
-
-                    // Mimic VLC seek behavior (default to: 15)
-                    seekStep: function(e) {
-                      if (e.ctrlKey && e.altKey) {
-                        return 5*60;
-                      } else if (e.ctrlKey) {
-                        return 60;
-                      } else if (e.altKey) {
-                        return 10;
-                      } else {
-                        return 15;
-                      }
-
-                    },
-
-                    // Enhance existing simple hotkey with a complex hotkey
-                    fullscreenKey: function(e) {
-                      // fullscreen with the F key or Ctrl+Enter
-                      return ((e.which === 70) || (e.ctrlKey && e.which === 13));
-                    },                    
-
-                  });
-
-                  // add skipButtons plugin
-                  videojsPlayer.skipButtons({
-                    forward:  10,
-                    backward: 10
-                  });
-
-                  // add zoom plugin
-                  videojsPlayer.zoomButtons({
-                    moveX:  0,
-                    moveY:  0,
-                    rotate: 0,
-                    zoom:   1
-                  });
-
-                  // set start position of current video
-                  // -----------------------------------------------------------
-                  videojsPlayer.on("play", function() {
-                    var startFromSecond = new Date('1970-01-01T' + "#{attributes['start']}" + 'Z').getTime() / 1000;
-                    if (!appliedOnce) {
-                      videojsPlayer.currentTime(startFromSecond);
-                      appliedOnce = true;
-                    }
-                  });
-                });
+                addCaptionAfterImage('#{poster_image}');
 
                 // scroll to player top position
                 // -------------------------------------------------------------
@@ -202,7 +138,73 @@ Asciidoctor::Extensions.register do
                 clearInterval(dependencies_met_page_ready);
               }
             }, 10);
-          });
+
+            // set custom controls on vjs player
+            // -----------------------------------------------------------------
+            var dependencies_met_vjs_player_exist = setInterval (function (options) {
+              var vjsPlayerExist          = document.getElementById("#{video_id}") ? true : false;
+              var vjsPlayerCustomButtons  = ("#{custom_buttons}" === 'true') ? true : false;
+
+              if (vjsPlayerExist && vjsPlayerCustomButtons) {
+                // apply custom controls on event 'player ready'
+                videojs("#{video_id}").ready(function() {
+                  var vjsPlayer = this;
+
+                  // add playbackRates
+                  //
+                  vjsPlayer.playbackRates([0.25, 0.5, 1, 1.5, 2]);
+  
+                  // add hotkeys plugin
+                  //
+                  vjsPlayer.hotkeys({
+                    volumeStep: 0.1,
+                    seekStep: 15,
+                    enableMute: true,
+                    enableFullscreen: true,
+                    enableNumbers: false,
+                    enableVolumeScroll: true,
+                    enableHoverScroll: true,
+                    alwaysCaptureHotkeys: true,
+                    captureDocumentHotkeys: true,
+                    documentHotkeysFocusElementFilter: e => e.tagName.toLowerCase() === "body",
+  
+                    // Mimic VLC seek behavior (default to: 15)
+                    //
+                    seekStep: function(e) {
+                      if (e.ctrlKey && e.altKey) {
+                        return 5*60;
+                      } else if (e.ctrlKey) {
+                        return 60;
+                      } else if (e.altKey) {
+                        return 10;
+                      } else {
+                        return 15;
+                      }
+                    },
+  
+                    // Enhance existing simple hotkey with a complex hotkey
+                    fullscreenKey: function(e) {
+                      // fullscreen with the F key or Ctrl+Enter
+                      return ((e.which === 70) || (e.ctrlKey && e.which === 13));
+                    }                 
+                  }); // END hotkeys plugin
+  
+                  // add skipButtons plugin
+                  //
+                  vjsPlayer.skipButtons({
+                    forward:  10,
+                    backward: 10
+                  }); // END skipButtons plugin                
+  
+                }); // END player ready (set custom controls)
+
+                clearInterval(dependencies_met_vjs_player_exist);
+              } // END if 'vjsPlayerExist'
+
+            }, 10); // END 'dependencies_met_vjs_player_exist'
+
+          }); // END 'document ready'
+
         </script>
       )
 
@@ -210,5 +212,5 @@ Asciidoctor::Extensions.register do
     end
   end
 
-  block_macro VideoJSBlockMacro
+  block_macro YouTubeBlockMacro
 end
