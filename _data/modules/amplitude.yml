@@ -30,7 +30,7 @@ settings:
   playlists:
 
     # --------------------------------------------------------------------------
-    # Spontanorama (2024)
+    # Spontanorama 2024
     # --------------------------------------------------------------------------
     #
     - playlist:
@@ -421,7 +421,7 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2024
           title:                        24E34 · Trainieren mit Witz
-          rating:                       4
+          rating:                       3
           audio:                        EARLYSTUDIOSGMBH2190260904.mp3
           audio_info:                   https://podcasts.apple.com/de/podcast/trainieren-mit-witz/id1741818812?i=1000680074245
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
@@ -451,7 +451,7 @@ settings:
 
 
     # --------------------------------------------------------------------------
-    #  Wischmeyers Stundenhotel (2023)
+    #  Wischmeyers Stundenhotel 2023
     # --------------------------------------------------------------------------
     #
     - playlist:
@@ -616,7 +616,7 @@ settings:
 
 
     # --------------------------------------------------------------------------
-    #  Wischmeyers Stundenhotel (2024)
+    #  Wischmeyers Stundenhotel 2024
     # --------------------------------------------------------------------------
     #
     - playlist:
@@ -792,8 +792,55 @@ settings:
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/auch-an-geschenke-denken/bremen-zwei/13924519/
           cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E13.jpg
           duration:                     "01:03:09"
-  
-  
+
+
+    # --------------------------------------------------------------------------
+    # Mimi Rutherfurt
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             mimi_rutherfurt_yt
+      title:                            Mimi Rutherfurt
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_mimi_rutherfurt_yt
+        name:                           Mimi Rutherfurt
+        artist:                         Maritim Verlag
+        audio_base:                     //youtube.com
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_mimi_rutherfurt_yt
+          title:                        Alte Zeiten
+          audio:                        watch?v=qEhzpBJpUq0
+          rating:                       3
+          audio_info:                   //www.youtube.com/@MaritimVerlag
+          cover_image:                  //img.youtube.com/vi/qEhzpBJpUq0/maxresdefault.jpg
+          duration:                     "00:48:15"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_mimi_rutherfurt_yt
+          title:                        Nacht-Express
+          audio:                        watch?v=I4VTc8nQxDs
+          rating:                       3
+          audio_info:                   //www.youtube.com/@MaritimVerlag
+          cover_image:                  //img.youtube.com/vi/I4VTc8nQxDs/maxresdefault.jpg
+          duration:                     "00:59:35"
+
+
   # ============================================================================
   # PLAYER configuration
   # ----------------------------------------------------------------------------
@@ -821,13 +868,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46 
-
-      # ------------------------------------------------------------------------
-      # PLUGIN settings
-      #
-      # plugin_manager:
-      #   enabled:                        false
+        preset_value:                   46
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -852,7 +893,7 @@ settings:
       id:                               stundenhotel_2023_large
       type:                             large
       display_hours:                    true
-    
+
       # ------------------------------------------------------------------------
       # CONTROL settings
       #
@@ -914,9 +955,9 @@ settings:
       # ------------------------------------------------------------------------
       # GENERAL settings
       #
-      enabled:                          true
+      enabled:                          false
       id:                               mimi_rutherfurt_large
-      type:                             large      
+      type:                             large
       display_hours:                    true
 
       # ------------------------------------------------------------------------
@@ -932,10 +973,11 @@ settings:
       # PLAYLIST settings
       #
       playlist:
-        name:                           mimi_rutherfurt
+        name:                           mimi_rutherfurt_yt
         title:                          Mimi Rrutherfurt
         audio_info:                     true
-        audio_rating:                   true 
+        audio_rating:                   true
+
 
 # ------------------------------------------------------------------------------
 # END config
