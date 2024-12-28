@@ -1,7 +1,7 @@
 ---
 title:                                  TV Total
-tagline:                                TV Show der 00er Jahre
-title_extention:                        TV Show der 00er Jahre
+tagline:                                Kultshow der 00er Jahre
+title_extention:                        Kultshow der 00er Jahre
 
 date:                                   2024-09-14
 #last_modified:                         2023-01-01

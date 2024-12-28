@@ -1,19 +1,21 @@
 ---
-title:                                  Spontanorama
-tagline:                                Podcast mit Ralf Schmitz
+title:                                  SpontanOrama
+tagline:                                Talk mit Ralf Schmitz und Gästen
 
 date:                                   2024-09-11
-#last_modified:                         2024-09-11
+last_modified:                          2024-12-28
 
 description: >
-                                        Hier ist alles möglich, denn kein Gast ist vorherbestimmt – Ralf Schmitz weiß
-                                        nie, wer als Nächstes durch die Tür tritt. Während er im Studio ungeduldig
-                                        wartet, läuft draußen ein Teammitglied durch die Straßen der Kölner Innenstadt,
-                                        auf der Suche nach Passantinnen und Passanten, die jetzt in diesem Moment
-                                        bereit sind, alles stehen und liegen zu lassen, um spontan mit Ralf zu
-                                        quatschen.
+                                        Spontanorama, der Alles-Ist-Möglich Talk. In den Gesprächen mit
+                                        seinen zufälligen Gästen ist alles möglich, denn kein Gast ist
+                                        vorherbestimmt. Ralf Schmitz weiß nie, wer als Nächstes durch die
+                                        Tür des Studios kommt. Während Ralf ungeduldig wartet, läuft draußen
+                                        ein Mitglied seines Teams durch die Straßen der Kölner Innenstadt.
+                                        Immer auf der Suche nach Passantinnen und Passanten, die in diesem
+                                        Moment bereit sind, alles stehen und liegen zu lassen um spontan mit
+                                        Ralf zu  quatschen.
 keywords: >
-                                        Podcast, SpontanOrama, Ralf Schmitz
+                                        Podcast, Spontanorama, Ralf Schmitz
 
 categories:                             [ Audio ]
 tags:                                   [ Podcast, Ralf Schmitz ]
@@ -62,8 +64,10 @@ resource_options:
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
-Spontanorama, mit dem Format ist alles möglich, denn kein Gast ist
-vorherbestimmt. Ralf Schmitz weiß nie, wer als Nächstes durch die Tür kommt.
+Spontanorama, der Alles-Ist-Möglich Talk. Kein Gast in den Gesprächen ist
+vorherbestimmt. Ralf weiß nie, wer als Nächstes durch die Tür des Studios
+kommt. Die Podcasts sind im wahrsten Sinne des Wortes eines: Spontan.
+Und immer: Überraschend (gut).
 
 ++++
 <div class="video-title">
@@ -75,38 +79,94 @@ vorherbestimmt. Ralf Schmitz weiß nie, wer als Nächstes durch die Tür kommt.
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
 [role="mt-5"]
+== Über Ralf Schmitz
+
+Ralf Schmitz ist ein vielseitiger deutscher Unterhaltungskünstler. Viele
+Menschen in Deutschland werden ihn kennen, aber nicht unbedingt alle.
+Das wäre aber schade, da er durch viele Talente überzeuen kann. Seine
+Schlagfertigkeit, das improvisatorische Können und seine energiegeladenen
+Auftritte machen ihn einzigartig.
+
+Er begann seine Karriere im Improvisationstheater _Die Springmaus_ in Bonn.
+Der Durchbruch gelang mit der Sketch-Comedy-Show _Die Dreisten Drei_, für
+die er im Jahr 2003 als *Newcomer des Jahres* den Deutschen Comedypreis
+bekam.
+
+Als Moderaator hat Ralf zahlreiche TV-Shows präsentert. Darunter _Take Me Out_
+und _Schmitz in the City_. Als Schauspieler hat er in Filmen und Serien 
+mitgewirkt, die schon heute legendär sind. Darunter die TV-Show _Schillerstraße_
+und der Kino-Film _7 Zwerge – Männer allein im Wald_ von 2004; eine Komödie
+von und mit Otto Waalkes.
+
+In seinem neuen Projekt von 2024, dem Podcast-Format *SpantanOrama*, stellt
+Ralf sein Können als Moderator und sein Interesse an Menschen und deren
+Geschichten unter Beweis.
+
+[role="mt-4"]
+=== Mehr über Ralf
+
+Ralf Schmitz hat sich als einer der beliebtesten deutschen Comedians etabliert.
+Es ist bekannt für seine Fähigkeit zu improvisieren. Ralf berrscht zahlreiche
+Genres und ist als Solokünstler mit eigenen Bühnenprogrammen zu sehen.
+
+* https://de.wikipedia.org/wiki/Ralf_Schmitz[Wikipedia, {browser-window--new}]
+* https://www.prosieben.de/themen/stars/profile/ralf-schmitz-64334[ProSieben, {browser-window--new}]
+* https://www.eventim.de/artist/ralf-schmitz[Eventim, {browser-window--new}]
+
+
+[role="mt-5"]
 == Über den Podcast
 
-Während Ralf im Studio ungeduldig wartet, läuft draußen ein Teammitglied
-durch die Straßen der Kölner Innenstadt auf der Suche nach Passantinnen
-und Passanten, die spontan bereit sind, alles stehen und liegen zu lassen,
-um mit Ralf Schmitz für eine Stunde zu quatschen.
+Während er im Studio ungeduldig wartet, läuft draußen ein Mitglied seines
+Teams durch die Straßen der Kölner Innenstadt. Immer auf der Suche nach
+zufälligen Passantinnen und Passanten, die spontan bereit sind alles stehen
+und liegen zu lassen um mit Ralf Schmitz für eine Stunde zu quatschen.
 
 [role="mt-4 mb-4"]
 [NOTE]
 ====
 Aus Gründen des *Urheberschutzes*, lädt der Audio Player alle Folgen über
-die Server von https://earlystudios.com/[Early, {browser-window--new}].
-Eine Internetverbindung zum Hören der Podcasts ist daher *zwingend*
-erforderlich.
+das Angebot der https://earlystudios.com/[Early Studios, {browser-window--new}].
 
-Darüberhinaus finden Sie den Podcast überall da, wo es Podcasts gibt.
-Z.B. bei https://podcasts.apple.com/de/podcast/spontanorama/id1741818812[Apple Podcasts, {browser-window--new}]
-oder in den Angeboten von https://open.spotify.com/show/1CZ31uaQ6JTwood52CKQ9H[Spotify, {browser-window--new}].
+Daher ist zum Hören ist eine Internetverbindung *erforderlich*. Es erscheint
+jeweils an *Donnerstagen* in *jeder Woche* eine neue Folge.
 ====
 
 
 [role="mt-5"]
 == Episoden
 
-Im Player sind alle Episoden verfügbar, die im Jahr *2024* produziert wurden.
+Jede Folge ist eine Überraschung. Die Gespräche sind eine wilde Mischung aus
+Wortwitz, einzigartigen persönlichen wie unerwarteten Geschichten von Ralf
+und seiner Gäste.
 
 [role="mt-4 mb-5"]
 [TIP]
 ====
-Es erscheint *jede Woche Donnerstags* eine neue Folge.
+Die Episoden werden auf der Seite *wöchentlich* aktualisiert. Alle Folgen des
+Podcasts findet man überall da, wo es Podcasts gibt. Zum Beispiel bei:
+
+// * https://www.tiktok.com/@ralfschmitzoffiziell/video/7361702507791256865?lang=de-DE[Tiktok, {browser-window--new}]
+* https://podcast.de/podcast/3446603/spontanorama[Podcasts.de, {browser-window--new}]
+* https://podcasts.apple.com/de/podcast/spontanorama/id1741818812[Apple Podcasts, {browser-window--new}]
+* https://open.spotify.com/show/1CZ31uaQ6JTwood52CKQ9H[Spotify, {browser-window--new}]
 ====
 
-.Spontanorama 2024
+// [role="mt-4"]
+// === 2025
+
+// Im Player sind alle Episoden verfügbar, die im Jahr *2025* produziert
+// wurden.
+
+// .Spontanorama · 2025
+// amplitude::spontanorama_2025_large[role="mt-4 mb-5"]
+
+[role="mt-4"]
+=== 2024
+
+In April startete der Podcast. Im Player sind alle Episoden verfügbar, die
+im Jahr *2024* produziert wurden.
+
+.Spontanorama · 2024
 amplitude::spontanorama_2024_large[role="mt-4 mb-8"]
 

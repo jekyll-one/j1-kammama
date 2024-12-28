@@ -1,6 +1,6 @@
 ---
-title:                                  Wischmeyers Stundenhotel
-tagline:                                Satire Podcast
+title:                                  Stundenhotel
+tagline:                                Satire Podcast mit Dietmar Wischmeyer
 
 date:                                   2024-09-10
 #last_modified:                         2024-09-10

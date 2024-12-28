@@ -58,7 +58,7 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2024
           title:                        24E01 · Was wolltest du gerade eigentlich machen?
-          rating:                       3
+          rating:                       4
           audio:                        EARLYSTUDIOSGMBH3620876950.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/was-wolltest-du-gerade-eigentlich-machen/id1741818812?i=1000653504852
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
@@ -390,9 +390,65 @@ settings:
           title:                        24E31 · Internationale Knöpfe
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH8851903473.mp3
-          audio_info:                   //podcasts.apple.com/de/podcast/internationale-kn%C3%B6pfe/id1741818812?i=1000677694033
+          audio_info:                   //podcasts.apple.com/de/podcast/internationale-kn6pfe/id1741818812?i=1000677694033
           cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:57:37"
+
+        # title 32
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E32 · Schön unangenehm
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH7308547194.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/schön-unangenehm/id1741818812?i=1000678464844
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "00:55:32"
+  
+          # title 33
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E33 · Mach die Spülmaschine auf
+          rating:                       4
+          audio:                        EARLYSTUDIOSGMBH9359245174.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/mach-die-spülmaschine-auf/id1741818812?i=1000679272782
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:02:59"
+
+          # title 34
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E34 · Trainieren mit Witz
+          rating:                       4
+          audio:                        EARLYSTUDIOSGMBH2190260904.mp3
+          audio_info:                   https://podcasts.apple.com/de/podcast/trainieren-mit-witz/id1741818812?i=1000680074245
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:04:17"
+
+          # title 35
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E35 · Mit geschlossenen Fenstern schreien
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH3511658701.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/mit-geschlossenen-fenstern-schreien/id1741818812?i=1000680894411
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:05:22"
+
+          # title 36
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2024
+          title:                        24E36 · Regionalprogramm zu Karneval
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH4027575030.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/regionalprogramm-zu-karneval/id1741818812?i=1000681689260
+          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
+          duration:                     "01:08:33"
+
 
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel (2023)
@@ -726,6 +782,17 @@ settings:
           cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E12.jpg
           duration:                     "01:14:58"
 
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2024
+          title:                        24E13 · Auch an Geschenke denken
+          rating:                       3
+          audio:                        clips/145/145913/145913_00570553_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/auch-an-geschenke-denken/bremen-zwei/13924519/
+          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E13.jpg
+          duration:                     "01:03:09"
+  
   
   # ============================================================================
   # PLAYER configuration
@@ -733,83 +800,94 @@ settings:
   players:
 
     # --------------------------------------------------------------------------
-    # LARGE player, Spontanorama (2024)
+    # Spontanorama 2024, LARGE player
     # --------------------------------------------------------------------------
     #
     - plaver:
-      enabled:                          true
 
       # ------------------------------------------------------------------------
-      # TIME settings
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               spontanorama_2024_large
+      type:                             large
       display_hours:                    true
 
       # ------------------------------------------------------------------------
-      # CONTROL BUTTON settings
+      # CONTROL settings
       #
       song_progress_bar:                true
       skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
       volume_slider:
-        enabled:                        false
+        enabled:                        true
+        preset_value:                   46 
 
       # ------------------------------------------------------------------------
-      # PLAYER settings
+      # PLUGIN settings
       #
-      id:                               spontanorama_2024_large
-      type:                             large
-      audio_rating:                     enabled
+      # plugin_manager:
+      #   enabled:                        false
 
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
       playlist:
         name:                           spontanorama_2024
         title:                          Spontanorama 2024
         audio_info:                     true
+        audio_rating:                   true 
 
 
     # --------------------------------------------------------------------------
-    # LARGE player, Stundenhotel (2023)
+    # Stundenhotel 2023, LARGE player
     # --------------------------------------------------------------------------
     #
     - plaver:
-      enabled:                          true
-    
+
       # ------------------------------------------------------------------------
-      # TIME settings
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2023_large
+      type:                             large
       display_hours:                    true
     
       # ------------------------------------------------------------------------
-      # CONTROL BUTTON settings
+      # CONTROL settings
       #
       song_progress_bar:                true
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
         preset_value:                   46
-    
+
       # ------------------------------------------------------------------------
-      # PLAYER settings
-      #
-      id:                               stundenhotel_2023_large
-      type:                             large
-      rating:                           enabled
-    
+      # PLAYLIST settings
+      #    
       playlist:
         name:                           stundenhotel_2023
         title:                          Stundenhotel 2023
         audio_info:                     true
+        audio_rating:                   true 
 
 
     # --------------------------------------------------------------------------
-    # LARGE player, Stundenhotel (2024)
+    # Stundenhotel 2024, LARGE player
     # --------------------------------------------------------------------------
     #
     - plaver:
-      enabled:                          true
 
       # ------------------------------------------------------------------------
-      # TIME settings
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2024_large
+      type:                             large
       display_hours:                    true
 
       # ------------------------------------------------------------------------
-      # CONTROL BUTTON settings
+      # CONTROL settings
       #
       song_progress_bar:                true
       skip_forward_backward_button:     true
@@ -818,48 +896,46 @@ settings:
         preset_value:                   46
 
       # ------------------------------------------------------------------------
-      # PLAYER settings
+      # PLAYLIST settings
       #
-      id:                               stundenhotel_2024_large
-      type:                             large
-      audio_rating:                     enabled
-
       playlist:
         name:                           stundenhotel_2024
         title:                          Stundenhotel 2024
         audio_info:                     true
+        audio_rating:                   true
 
 
     # --------------------------------------------------------------------------
-    # LARGE player, Mimi Rutherfurt
+    # Mimi Rutherfurt, LARGE player
     # --------------------------------------------------------------------------
     #
     - plaver:
-      enabled:                          false
 
       # ------------------------------------------------------------------------
-      # TIME settings
+      # GENERAL settings
+      #
+      enabled:                          true
+      id:                               mimi_rutherfurt_large
+      type:                             large      
       display_hours:                    true
 
       # ------------------------------------------------------------------------
-      # CONTROL BUTTON settings
+      # CONTROL settings
       #
       song_progress_bar:                true
       skip_forward_backward_button:     true
       volume_slider:
-        enabled:                        false
+        enabled:                        true
+        preset_value:                   46
 
       # ------------------------------------------------------------------------
-      # PLAYER settings
+      # PLAYLIST settings
       #
-      id:                               mimi_rutherfurt_large
-      type:                             large
-      rating:                           enabled
-
       playlist:
         name:                           mimi_rutherfurt
         title:                          Mimi Rrutherfurt
         audio_info:                     true
+        audio_rating:                   true 
 
 # ------------------------------------------------------------------------------
 # END config

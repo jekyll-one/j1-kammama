@@ -26,83 +26,92 @@
   href:                                 /#top-story
 
 # ------------------------------------------------------------------------------
-# Menu Podcasts
+# Menu Audio
 #
 - item:                                 Audio
   sublevel:
 
-      - title:                          Hörbücher
-        icon:                           volume-high
-        dropdown:
+    - title:                            Player
+      href:                             /pages/public/audio/player
+      icon:                             play
 
-          - title:                      Mimi Rutherfurt
-            href:                       /pages/public/audio/radioplay/mimi-rutherfurt/
-            icon:                       ear-hearing
+    - title:                            Podcasts
+      icon:                             volume-high
+      dropdown:
 
-      - title:                          Podcasts
-        icon:                           volume-high
-        dropdown:
+        - title:                        SpontanOrama
+          href:                         /pages/public/audio/podcast/spontanorama/
+          icon:                         ear-hearing
+        - title:                        Stundenhotel
+          href:                         /pages/public/audio/podcast/stundenhotel/
+          icon:                         ear-hearing
 
-          - title:                      Stundenhotel
-            href:                       /pages/public/audio/podcast/stundenhotel/
-            icon:                       ear-hearing
-          - title:                      Spontanorama
-            href:                       /pages/public/audio/podcast/spontanorama/
-            icon:                       ear-hearing
+    - title:                            Hörbücher
+      icon:                             volume-high
+      dropdown:
+
+        - title:                        Mimi Rutherfurt
+          href:                         /pages/public/audio/radioplay/mimi-rutherfurt/
+          icon:                         ear-hearing
 
 # ------------------------------------------------------------------------------
-# Menu Filme & Serien
+# Menu Video
 #
 - item:                                 Video
   sublevel:
 
-      - title:                          Serien
-        icon:                           video
-        dropdown:
+    - title:                            Player
+      href:                             /pages/public/video/player
+      icon:                             play
 
-          - title:                      Auf Achse
-            href:                       /pages/public/video/serien/auf-achse/
-            icon:                       video
-          - title:                      Waisenhaus für wilde Tiere
-            href:                       /pages/public/video/serien/harnas/
-            icon:                       video
-          - title:                      Was wir fürchten
-            href:                       /pages/public/video/serien/was-wir-fuerchten/
-            icon:                       video
+    - title:                            Serien
+      icon:                             video
+      dropdown:
 
-      - title:                          Show
-        icon:                           video
-        dropdown:
+        - title:                        Auf Achse
+          href:                         /pages/public/video/serien/auf-achse/
+          icon:                         filmstrip
+        - title:                        Waisenhaus für wilde Tiere
+          href:                         /pages/public/video/serien/harnas/
+          icon:                         filmstrip
+        - title:                        Was wir fürchten
+          href:                         /pages/public/video/serien/was-wir-fuerchten/
+          icon:                         filmstrip
 
-          - title:                      AGT & BGT
-            href:                       /pages/public/video/show/xgt/
-            icon:                       video
+    - title:                            Shows
+      icon:                             video
+      dropdown:
 
-          - title:                      TV Total
-            href:                       /pages/public/video/show/tv-total/
-            icon:                       video
-          - title:                      Sträter
-            href:                       /pages/public/video/show/straeter/
-            icon:                       video
-          - title:                      Missverstehen Sie mich richtig!
-            href:                       /pages/public/video/show/missverstehen/
-            icon:                       video
+        - title:                        AGT & BGT
+          href:                         /pages/public/video/show/xgt/
+          icon:                         filmstrip
 
-      - title:                          TV Highlights
-        icon:                           video
-        dropdown:
+        - title:                        TV Total
+          href:                         /pages/public/video/show/tv-total/
+          icon:                         filmstrip
+        - title:                        Sträter
+          href:                         /pages/public/video/show/straeter/
+          icon:                         filmstrip
 
-          - title:                      Kerkeling
-            href:                       /pages/public/video/tv-highlights/kerkeling/
-            icon:                       video
+#       - title:                        Missverstehen Sie mich richtig!
+#         href:                         /pages/public/video/show/missverstehen/
+#         icon:                         filmstrip
 
-      - title:                          Comedy
-        icon:                           video
-        dropdown:
+    - title:                            Comedy
+      icon:                             video
+      dropdown:
 
-          - title:                      Horst Evers
-            href:                       /pages/public/video/comedy/evers/
-            icon:                       video
+        - title:                        Hape Kerkeling
+          href:                         /pages/public/video/comedy/kerkeling/
+          icon:                         filmstrip
+
+        - title:                        Horst Evers
+          href:                         /pages/public/video/comedy/evers/
+          icon:                         filmstrip
+
+#       - title:                        Karl Valentin
+#         href:                         /pages/public/video/comedy/valentin/
+#         icon:                         filmstrip
 
 # ------------------------------------------------------------------------------
 # Menu BLOG

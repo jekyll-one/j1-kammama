@@ -1,0 +1,93 @@
+---
+title:                                  Audio Player
+tagline:                                Abspielen mit AmplitudeJS
+
+date:                                   2024-12-18
+#last_modified:                         2024-12-18
+
+description: >
+                                        Benutzerdefinierte Player, die von AmplitudeJS erstellt
+                                        wurden, um Audio individuell wiederzugeben.
+keywords: >
+                                        Audio, Player, AmplitudeJS, J1-Template
+
+categories:                             [ Audio ]
+tags:                                   [ Player, AmplitudeJS, J1-Template ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/alexey-ruban.jpg
+  width:                                1280
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/audio/player
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/alexey-ruban.jpg
+          alt:                          Audio Player
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{% endcapture %}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Benutzerdefinierte Player, die von AmplitudeJS erstellt
+wurden, um Audio individuell wiederzugeben.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  3+ Minuten zum Lesen
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+lorem:sentences[5]
+
+lorem:sentences[3]
+
+

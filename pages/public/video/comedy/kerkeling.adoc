@@ -26,7 +26,7 @@ tts:                                    true
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
-permalink:                              /pages/public/video/tv-highlights/kerkeling/
+permalink:                              /pages/public/video/comedy/kerkeling/
 
 resources:                              [ videojs ]
 resource_options:

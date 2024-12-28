@@ -1,7 +1,7 @@
 ---
 title:                                  Sträter
-tagline:                                TV Show
-title_extention:                        Sträter Show
+tagline:                                Comedy Show mit Gästen
+title_extention:                        Comedy Show mit Gästen
 
 
 date:                                   2024-09-14
@@ -93,54 +93,54 @@ Internetverbindung zum Ansehen der Videos *zwingend* erforderlich.
 
 [role="mt-5"]
 [[straeter-marc-uwe-kling]]
-== Show mit Autor Marc-Uwe Kling
+== Abend mit Autor Marc-Uwe Kling
 
-Sexualität ist so ein Thema. Insbesondere für Eltern, die sehrwohl im Laufe
-der Zeit zu Spezialisten in Fragen von Erziehung der eigenen Kinder geworden
-sind.
+Sexualität ist so ein Thema. Eltern werden im Laufe der Zeit sehrwohl zu
+Spezialisten in Fragen der Erziehung. Dennoch sind Eltern keine Pädagogen.
 
-Dennoch sind wir *normale* Erwachsene und keine Pädagogen. Wenn es um das
-spezielle Wissen geht, dass man seinen Kindern vermitteln möchte, kann soetwas
-auch gewaltig schiefgehen. Ein wie ich finde sehr amüsanter Rohrkrepierer zum
-Thema *Aufklärung* zeigt das folgende Video.
+Wenn es um Wissen geht, dass man seinen Kindern zu Themen der Sexualität
+vermitteln möchte (oder muss), kann das auch gewaltig schiefgehen. Sehen Sie
+einen amüsanten Rohrkrepierer zum Thema *Aufklärung*. Gelesen von Marc-Uwe Kling
+und Torsten Sträter.
 
-.Sträter Show mit Marc-Uwe Kling (WDR Fernsehen, 2022, 10 Min)
-videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/282/2823650/2823650_48912942.mp4[start="00:32:30" poster="/assets/video/gallery/straeter-marc-uwe-kling.jpg" role="mt-4 mb-5"]
+.Gast Marc-Uwe Kling
+// videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/282/2823650/2823650_48912942.mp4[start="00:32:30" poster="/assets/video/gallery/straeter-marc-uwe-kling.jpg" role="mt-4 mb-5"]
+youtube::YT-AFO8Em_8[start="00:43:42" poster="/assets/video/gallery/straeter-marc-uwe-kling.jpg" role="mt-4 mb-5"]
 
 
 [role="mt-5"]
 [[straeter-laura-wotorra]]
-== Show mit Moderation Laura Wontorra
+== Abend mit Moderation Laura Wontorra
 
-Laura Wontorra erzählt Torsten Stäter über ihre steile Karriere, ihre
-Kochkünste und über Lampenfieber. Gemeinsam kommentieren sie sportliche
-Wettkämpfe der etwas anderen Art.
+Laura Wontorra erzählt Torsten Stäter über ihre Karriere, Kochkünste und über
+Lampenfieber. Gemeinsam kommentieren sie sportliche Wettkämpfe der etwas
+anderen Art.
 
-.Sträter Show mit Laura Wotorra (WDR Fernsehen, 2023, 12 Min)
+.Gast Laura Wotorra
 videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/310/3104436/3104436_57034391.mp4[start="00:04:00" poster="/assets/video/gallery/straeter-laura-wontorra.jpg" role="mt-4 mb-5"]
 // youtube::dISStyvJDCA[start="00:04:00" poster="/assets/video/gallery/straeter-laura-wontorra.jpg" role="mt-4 mb-5"]
 
 
 [role="mt-5"]
 [[straeter-wladimir-kaminer]]
-== Show mit Autor Wladimir Kaminer
+== Abend mit Autor Wladimir Kaminer
 
-Zu Gast ist der Schriftsteller Wladimir Kaminer, der mit Sträter eine Reihe
-von Lokalnachrichten aus aller Welt vorträgt.
+Zu Gast ist der Schriftsteller Wladimir Kaminer. Die beiden präsentieren
+ungewöhnliche (lokal) Nachrichten aus aller Welt.
 
-.Sträter Show mit Wladimir Kaminer (WDR Fernsehen, 2023, 12 Min)
-videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2921065/2921065_51538185.mp4[start="00:04:10" poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mt-4 mb-5"]
+.Gast Wladimir Kaminer
+// videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2921065/2921065_51538185.mp4[start="00:04:10" poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mt-4 mb-5"]
+youtube::Z6MzsZXhMZs[poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mt-4 mb-5"]
 
 
 [role="mt-5"]
 [[straeter-ralph-ruthe]]
-== Show mit Cartoonist Ralph Ruthe
+== Abend mit Cartoonist Ralph Ruthe
 
-Zu Gast ist der Zeichner und Cartoonist Ralph Ruthe. Das Gespräch ist gefüllt
-mit lustigen Sprüchen, nostalgischen Texten und brillanten *Witzbildchen* von
-Ralph Ruthe.
+Zu Gast ist der Zeichner und Cartoonist Ralph Ruthe. Lustige Sprüche,
+nostalgische Texte und brillante *Cartoons* von Ralph Ruthe.
 
-.Sträter Show mit Ralph Ruthe (WDR Fernsehen, 2023, 12 Min)
+.Gast Ralph Ruthe
 videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2925505/2925505_51633160.mp4[start="00:03:00" poster="/assets/video/gallery/straeter-ralph-ruthe.jpg" role="mt-4 mb-5"]
 
 

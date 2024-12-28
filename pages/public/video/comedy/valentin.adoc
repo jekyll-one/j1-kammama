@@ -1,0 +1,110 @@
+---
+title:                                  Karl Valentin
+tagline:                                Autor und Kabarettist
+
+date:                                   2024-09-15
+#last_modified:                         2023-01-01
+
+description: >
+                                        Karl Valentin (1882 - 1948) war ein deutscher Komiker, Volkssänger,
+                                        Autor und Filmproduzent. Er beeinflusste mit seinem Humor
+                                        zahlreiche deutsche Künstler, darunter Loriot, Gerhard Polt
+                                        und Helge Schneider.
+
+
+keywords:                               Kabarettist,  
+
+
+categories:                             [ Video ]
+tags:                                   [ Liesl Karlstadt, Karl Valentin, Comedy ]
+
+image:
+  path:                                 /assets/image/pages/evers/horst-evers.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/comedy/valentin/
+
+resources:                              [ videojs ]
+resource_options:
+  - attic:
+      padding_top:                      550
+      slides:
+        - url:                          /assets/image/pages/evers/horst-evers.jpg
+          alt:                          Horst Evers
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Karl Valentin (mit bürgerlichem Namen Valentin Ludwig Fey, 1882 - 1948) war
+ein deutscher Komiker, Volkssänger, Autor und Filmproduzent. Er beeinflusste
+mit seinem Humor zahlreiche deutsche Künstler, darunter Loriot, Gerhard Polt
+und Helge Schneider.
+
+// timeinfo::45+[type="video"]
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Videozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über Liesl Karlstadt und Karl Valentin
+// Quelle: https://de.wikipedia.org/wiki/Karl_Valentin[Wikipedia, {browser-window--new}]
+
+Valentin selbst nannte sich Humorist, Komiker und Stückeschreiber. Der Humor
+seiner Sketche und Stücke beruhte insbesondere auf seiner Sprachkunst und
+seinem *Anarchismus der Sprache*.
+
+Valentins Sprachwitz zielte besonders auf ihn selbst. Uunterstützt wurde sein
+Witz durch seine lange, hagere Gestalt, die er durch slapstickartige Einlagen
+betonte.
+
+Die Tragik seiner Komik wurden durch den ständigen Kampf mit alltäglichen
+Dingen wie der Auseinandersetzung mit Behörden und Mitmenschen genährt.
+
+[role="mt-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Videos direkt über die Plattform
+_YouTube_ geladen. Daher ist eine Internetverbindung zum Ansehen der Videos
+*zwingend* erforderlich.
+====
+
+
+[role="mt-5"]
+== Die Orchesterprobe
+
+Hier geraten Musiker und Kapellmeister aneinander. Sprachverwirrung und
+Altagswahnsinn werden von Karl Valentin (Trompeter) mit seiner Bühnen-Partnerin
+_Liesl Karlstadt_ (Kapellmeister) auf die Spitze getrieben.
+
+Ein Bayerischer Filmklassiker; sehen Sie selbst.
+
+.Liesl Karlstadt, Karl Valentin - Orchesterprobe
+youtube::OHV5JUohg3k[poster="https://img.youtube.com/vi/OHV5JUohg3k/maxresdefault.jpg" role="mt-4 mb-8"]
