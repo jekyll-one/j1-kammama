@@ -36,8 +36,47 @@ settings:
     - playlist:
       enabled:                          true
 
+      name:                             spontanorama_2025
+      title:                            Spontanorama 2025
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_spontanorama_2025
+        name:                           Spontanorama
+        artist:                         Ralf Schmitz
+        audio_base:                     //traffic.megaphone.fm
+        cover_image:                    //is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/97/06/f8/9706f81b-d813-6a3f-aebf-cb6458c835e6/mza_10167167701331003864.jpg/540x540bb.webp
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E01 · Etwas besonderes sein
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH5599094573.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/etwas-besonderes-sein/id1741818812?i=1000682353087
+          duration:                     "01:08:33"
+
+    # --------------------------------------------------------------------------
+    # Spontanorama 2024
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
       name:                             spontanorama_2024
-      title:                            Spontanorama 2014
+      title:                            Spontanorama 2024
 
       # ------------------------------------------------------------------------
       # ALBUM settings
@@ -46,7 +85,7 @@ settings:
         name:                           Spontanorama
         artist:                         Ralf Schmitz
         audio_base:                     //traffic.megaphone.fm
-        cover_image:                    /assets/audio/cover/spontanorama/spontanorama.jpg
+        cover_image:                    //is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/97/06/f8/9706f81b-d813-6a3f-aebf-cb6458c835e6/mza_10167167701331003864.jpg/540x540bb.webp
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -61,7 +100,6 @@ settings:
           rating:                       4
           audio:                        EARLYSTUDIOSGMBH3620876950.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/was-wolltest-du-gerade-eigentlich-machen/id1741818812?i=1000653504852
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:41:26"
 
         # title 02
@@ -72,7 +110,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH5736564883.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mama-ich-w%C3%A4re-gerne-ein-pottwal/id1741818812?i=1000654224140
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:56:44"
 
         # title 03
@@ -83,7 +120,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH5176024731.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-wilden-00er-jahre/id1741818812?i=1000654983003
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:57:39"
 
         # title 04
@@ -94,7 +130,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH4916731254.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/zwei-schauspieler-in-schottland/id1741818812?i=1000655723815
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:05:27"
 
         # title 05
@@ -105,7 +140,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH6618135223.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/d%C3%BCnne-luft-und-italienischer-kaffee/id1741818812?i=1000656441315
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:55:12"
 
         # title 06
@@ -116,7 +150,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH8017985151.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-geschichten-von-scrabble-man/id1741818812?i=1000657218868
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:49:25"
 
         # title 07
@@ -127,7 +160,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH3868463003.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/geeint-in-der-abneigung/id1741818812?i=1000657979323
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:59:12"
 
         # title 08
@@ -138,7 +170,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH5391596454.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-champignon-mafia/id1741818812?i=1000658835647
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:48:09"
 
         # title 09
@@ -149,7 +180,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH5096457580.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/der-sprache-eine-sprache-geben/id1741818812?i=1000659565878
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:44:40"
 
         # title 10
@@ -160,7 +190,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH6576412628.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-herkunft-von-hildegard/id1741818812?i=1000660366358
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:56:27"
 
         # title 11
@@ -171,7 +200,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH5586806905.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mit-einer-sonne-im-herzen/id1741818812?i=1000661082383
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:55:30"
 
         # title 12
@@ -182,7 +210,6 @@ settings:
           rating:                       4
           audio:                        EARLYSTUDIOSGMBH1878022846.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/gib-dem-fleisch-die-zeit/id1741818812?i=1000661839901
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:45:54"
 
         # title 13
@@ -193,7 +220,6 @@ settings:
           rating:                       4
           audio:                        EARLYSTUDIOSGMBH8191293375.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/uschi-und-die-liebe/id1741818812?i=1000662567462
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:56:39"
 
         # title 14
@@ -204,7 +230,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH7303295712.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/ein-paar-n%C3%BCsse-f%C3%BCr-ein-startup/id1741818812?i=1000663257289
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:06:50"
 
         # title 15
@@ -215,7 +240,6 @@ settings:
           rating:                       4
           audio:                        EARLYSTUDIOSGMBH7140915461.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/jetzt-gehts-in-den-feierabend/id1741818812?i=1000663969169
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:53:21"
 
         # title 16
@@ -226,7 +250,6 @@ settings:
           rating:                       1
           audio:                        EARLYSTUDIOSGMBH1133810969.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/vom-leben-zum-zyniker-gemacht/id1741818812?i=1000664660006
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:04:02"
 
         # title 17
@@ -237,7 +260,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH3094286313.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/an-den-extremit%C3%A4ten-der-gr%C3%B6%C3%9Fenskala/id1741818812?i=1000665363324
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:05:13"
 
         # title 18
@@ -248,7 +270,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH5232892078.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/oben-ohne-sport/id1741818812?i=1000666176636
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:04:04"
 
         # title 19
@@ -259,7 +280,6 @@ settings:
           rating:                       4
           audio:                        EARLYSTUDIOSGMBH9170736970.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/symmetrische-zusammenkunft/id1741818812?i=1000666951961
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:16:06"
 
         # title 20
@@ -270,7 +290,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH7391183547.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/eine-odyssee-zu-sich-selbst/id1741818812?i=1000668396329
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:59:33"
 
         # title 21
@@ -281,7 +300,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH4307178142.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/tubus-in-die-lunge-schieben/id1741818812?i=1000669206148
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:59:33"
 
         # title 22
@@ -292,7 +310,6 @@ settings:
           rating:                       1
           audio:                        EARLYSTUDIOSGMBH2286370230.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/filterbubble-pick-up-artist/id1741818812?i=1000669983817
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:05:52"
 
         # title 23
@@ -303,7 +320,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH7650987152.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/hauptsache-die-kohle-kommt/id1741818812?i=1000670713919
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:05:52"
 
         # title 24
@@ -314,7 +330,6 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH2160363806.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/ein-topf-mit-salz/id1741818812?i=1000671604806
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:54:01"
 
         # title 25
@@ -325,7 +340,6 @@ settings:
           rating:                       1
           audio:                        EARLYSTUDIOSGMBH3669994699.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/nichts-lebendes-in-der-wohnung/id1741818812?i=1000672425180
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:02:00"
 
         # title 26
@@ -336,7 +350,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH1235501434.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/das-richtige-mango-management/id1741818812?i=1000673360731
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:02:00"
 
         # title 27
@@ -347,7 +360,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH4745836256.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/spontaner-zusammensto%C3%9F/id1741818812?i=1000674214586
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:09:00"
 
         # title 28
@@ -358,7 +370,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH1877491089.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/das-war-deep/id1741818812?i=1000675128484
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:53:42"
 
         # title 29
@@ -369,7 +380,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH4130157548.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/begegnungen-mit-der-anderen-seite/id1741818812?i=1000675980838
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:12:45"
 
         # title 30
@@ -380,7 +390,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH4365471324.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-stimme-muss-passen/id1741818812?i=1000676874063
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:01:53"
 
         # title 31
@@ -391,7 +400,6 @@ settings:
           rating:                       2
           audio:                        EARLYSTUDIOSGMBH8851903473.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/internationale-kn6pfe/id1741818812?i=1000677694033
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:57:37"
 
         # title 32
@@ -402,10 +410,9 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH7308547194.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/schön-unangenehm/id1741818812?i=1000678464844
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "00:55:32"
   
-          # title 33
+        # title 33
         - item:
           enabled:                      true
           <<:                           *album_spontanorama_2024
@@ -413,10 +420,9 @@ settings:
           rating:                       4
           audio:                        EARLYSTUDIOSGMBH9359245174.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mach-die-spülmaschine-auf/id1741818812?i=1000679272782
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:02:59"
 
-          # title 34
+        # title 34
         - item:
           enabled:                      true
           <<:                           *album_spontanorama_2024
@@ -424,10 +430,9 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH2190260904.mp3
           audio_info:                   https://podcasts.apple.com/de/podcast/trainieren-mit-witz/id1741818812?i=1000680074245
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:04:17"
 
-          # title 35
+        # title 35
         - item:
           enabled:                      true
           <<:                           *album_spontanorama_2024
@@ -435,10 +440,9 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH3511658701.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mit-geschlossenen-fenstern-schreien/id1741818812?i=1000680894411
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:05:22"
 
-          # title 36
+        # title 36
         - item:
           enabled:                      true
           <<:                           *album_spontanorama_2024
@@ -446,8 +450,41 @@ settings:
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH4027575030.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/regionalprogramm-zu-karneval/id1741818812?i=1000681689260
-          cover_image:                  /assets/audio/cover/spontanorama/spontanorama.jpg
           duration:                     "01:08:33"
+
+    # --------------------------------------------------------------------------
+    #  Wischmeyers Stundenhotel 2022
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          false
+
+      name:                             stundenhotel_2022
+      title:                            Stundenhotel 2022
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_stundenhotel_2022
+        name:                           Stundenhotel
+        artist:                         Wischmeyer & Voß
+        audio_base:                     //rbprogressivedl-a.akamaihd.net
+        cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2022
+          title:                        23201 · Mach's mir von hinten – Jahresrückblick 2022
+          audio:                        clips/114/114755/114755_00466976_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2022/bremen-zwei/12202975/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=448&ch=29c7745bfd759a36 # /assets/audio/cover/stundenhotel/2023/S23E14.jpg
+          duration:                     "02:03:29"
 
 
     # --------------------------------------------------------------------------
@@ -478,73 +515,83 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E01 · Die Birne voll Rosinen und der Zukunft zugewandt (1)
-          audio:                        clips/116/116162/116162_00471541_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt/bremen-zwei/12307751/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E01.jpg
-          duration:                     "01:00:49"
+          title:                        23E01 · Mach's mir von hinten – Jahresrückblick 2022
+          audio:                        clips/114/114755/114755_00466976_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2022/bremen-zwei/12202975/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=448&ch=29c7745bfd759a36 # /assets/audio/cover/stundenhotel/2023/S23E14.jpg
+          duration:                     "02:03:29"
 
         # title 02
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E02 · Die Birne voll Rosinen und der Zukunft zugewandt (2)
-          audio:                        clips/117/117443/117443_00475872_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt-2/bremen-zwei/12399667/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E02.jpg
-          duration:                     "00:59:20"
+          title:                        23E02 · Die Birne voll Rosinen und der Zukunft zugewandt (1)
+          audio:                        clips/116/116162/116162_00471541_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt/bremen-zwei/12307751/
+          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E01.jpg
+          duration:                     "01:00:49"
 
         # title 03
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E03 · Von Warzen und Schrunden
-          audio:                        clips/117/117764/117764_00477008_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/von-warzen-und-schrunden/bremen-zwei/12419749/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E03.jpg
-          duration:                     "01:12:54"
+          title:                        23E03 · Die Birne voll Rosinen und der Zukunft zugewandt (2)
+          audio:                        clips/117/117443/117443_00475872_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt-2/bremen-zwei/12399667/
+          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E02.jpg
+          duration:                     "00:59:20"
 
         # title 04
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E04 · Hattu Zeit, muttu hören
-          audio:                        clips/119/119038/119038_00481314_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/hattu-zeit-muttu-hoeren/bremen-zwei/12536191/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E04.jpg
-          duration:                     "01:11:23"
+          title:                        23E04 · Von Warzen und Schrunden
+          audio:                        clips/117/117764/117764_00477008_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/von-warzen-und-schrunden/bremen-zwei/12419749/
+          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E03.jpg
+          duration:                     "01:12:54"
 
         # title 05
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E05 · Come in and find out
+          title:                        23E05 · Hattu Zeit, muttu hören
+          audio:                        clips/119/119038/119038_00481314_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/hattu-zeit-muttu-hoeren/bremen-zwei/12536191/
+          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E04.jpg
+          duration:                     "01:11:23"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2023
+          title:                        23E06 · Come in and find out
           audio:                        clips/120/120012/120012_00484559_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/come-in-and-find-out/bremen-zwei/12599305/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E05.jpg
           duration:                     "01:17:56"
           
-        # title 06
+        # title 07
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E06 · Ohne Wenn und Aberglaube
+          title:                        23E07 · Ohne Wenn und Aberglaube
           audio:                        clips/121/121408/121408_00489119_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ohne-wenn-und-aberglaube/bremen-zwei/12683395/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E06.jpg
           duration:                     "01:22:19"          
 
-        # title 07
+        # title 08
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E07 · Seniorenresidenz Moderfrieden
+          title:                        23E08 · Seniorenresidenz Moderfrieden
           audio:                        clips/122/122340/122340_00492249_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/seniorenresidenz-moderfrieden/bremen-zwei/94497682/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E07.jpg
           duration:                     "01:03:33"
 
-        # title 08
+        # title 09
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
@@ -554,66 +601,55 @@ settings:
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E09.jpg
           duration:                     "01:10:23"
 
-        # title 09
+        # title 10
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E09 · Unbedingt abwehrbereit
+          title:                        23E10 · Unbedingt abwehrbereit
           audio:                        clips/124/124619/124619_00499941_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/unbedingt-abwehrbereit/bremen-zwei/94650438/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E09.jpg
           duration:                     "01:09:10"
 
-        # title 10
+        # title 11
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E10 · Ich mach's mir selbst
+          title:                        23E11 · Ich mach's mir selbst
           audio:                        clips/126/126163/126163_00505084_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ich-mach-s-mir-selbst/bremen-zwei/94752454/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E10.jpg
           duration:                     "01:12:03"
 
-        # title 11
+        # title 12
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E11 · Na dann, gute Nacht
+          title:                        23E12 · Na dann, gute Nacht
           audio:                        clips/127/127066/127066_00508013_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/na-dann-gute-nacht/bremen-zwei/94814450/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E11.jpg
           duration:                     "01:19:32"
 
-        # title 12
+        # title 13
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E12 · Feste feiern, locker bleiben
+          title:                        23E13 · Feste feiern, locker bleiben
           audio:                        clips/128/128185/128185_00511714_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/feste-feiern-locker-bleiben/bremen-zwei/12835417/
           cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E12.jpg
           duration:                     "01:16:35"
 
-        # title 13
-        - item:
-          enabled:                      true
-          <<:                           *album_stundenhotel_2023
-          title:                        23E13 · Schön eng ist weit genug
-          audio:                        clips/130/130416/130416_00519141_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/schoen-eng-ist-weit-genug/bremen-zwei/12968235/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E13.jpg
-          duration:                     "01:19:43"
-
         # title 14
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E14 · Mach's mir von hinten – Jahresrückblick 2022
-          audio:                        clips/114/114755/114755_00466976_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2022/bremen-zwei/12202975/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=448&ch=29c7745bfd759a36 # /assets/audio/cover/stundenhotel/2023/S23E14.jpg
-          duration:                     "02:03:29"
-
+          title:                        23E14 · Schön eng ist weit genug
+          audio:                        clips/130/130416/130416_00519141_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/schoen-eng-ist-weit-genug/bremen-zwei/12968235/
+          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E13.jpg
+          duration:                     "01:19:43"
 
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel 2024
@@ -643,7 +679,7 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2024
-          title:                        24E00 · Mach's mir von hinten 2023
+          title:                        24E00 · Mach's mir von hinten – Jahresrückblick 2023
           rating:                       3
           audio:                        clips/131/131039/131039_00521211_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-2023-der-erste-teil-des-jahresrueckblicks/bremen-zwei/13010263/
@@ -654,7 +690,7 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2024
-          title:                        24E01 · Mach's mir nochmal von hinten 2023
+          title:                        24E01 · Mach's mir nochmal von hinten
           rating:                       3
           audio:                        clips/131/131040/131040_00521213_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-nochmal-von-hinten-2023-der-zweite-teil-des-jahresrueckblicks/bremen-zwei/13010265/
@@ -782,16 +818,41 @@ settings:
           cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E12.jpg
           duration:                     "01:14:58"
 
-        # title 13
+
+    # --------------------------------------------------------------------------
+    #  Wischmeyers Stundenhotel 2025
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             stundenhotel_2025
+      title:                            Stundenhotel 2025
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_stundenhotel_2025
+        name:                           Stundenhotel
+        artist:                         Wischmeyer & Voß
+        audio_base:                     //rbprogressivedl-a.akamaihd.net
+        cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
         - item:
           enabled:                      true
-          <<:                           *album_stundenhotel_2024
-          title:                        24E13 · Auch an Geschenke denken
+          <<:                           *album_stundenhotel_2025
+          title:                        25E01 · Mach's mir von hinten – Jahresrückblick 2024
           rating:                       3
-          audio:                        clips/145/145913/145913_00570553_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/auch-an-geschenke-denken/bremen-zwei/13924519/
+          audio:                        clips/146/146840/146840_00573649_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2024/bremen-zwei/13997181/
           cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E13.jpg
-          duration:                     "01:03:09"
+          duration:                     "02:02:48"
 
 
     # --------------------------------------------------------------------------
@@ -847,6 +908,39 @@ settings:
   players:
 
     # --------------------------------------------------------------------------
+    # Spontanorama 2025, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - plaver:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               spontanorama_2025_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           spontanorama_2025
+        title:                          Spontanorama 2025
+        audio_info:                     true
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
     # Spontanorama 2024, LARGE player
     # --------------------------------------------------------------------------
     #
@@ -876,6 +970,39 @@ settings:
       playlist:
         name:                           spontanorama_2024
         title:                          Spontanorama 2024
+        audio_info:                     true
+        audio_rating:                   true
+  
+
+    # --------------------------------------------------------------------------
+    # Stundenhotel 2022, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - plaver:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2022_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #    
+      playlist:
+        name:                           stundenhotel_2022
+        title:                          Stundenhotel 2022
         audio_info:                     true
         audio_rating:                   true 
 
@@ -912,7 +1039,6 @@ settings:
         audio_info:                     true
         audio_rating:                   true 
 
-
     # --------------------------------------------------------------------------
     # Stundenhotel 2024, LARGE player
     # --------------------------------------------------------------------------
@@ -942,6 +1068,39 @@ settings:
       playlist:
         name:                           stundenhotel_2024
         title:                          Stundenhotel 2024
+        audio_info:                     true
+        audio_rating:                   true
+
+
+    # --------------------------------------------------------------------------
+    # Stundenhotel 2025, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - plaver:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2025_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           stundenhotel_2025
+        title:                          Stundenhotel 2025
         audio_info:                     true
         audio_rating:                   true
 

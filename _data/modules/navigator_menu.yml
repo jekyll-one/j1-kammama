@@ -61,8 +61,8 @@
   sublevel:
 
     - title:                            Player
-      href:                             /pages/public/video/player
-      icon:                             play
+      href:                             /pages/public/amplitude_yt_tester/
+      icon:                             test-tube
 
     - title:                            Serien
       icon:                             video

@@ -146,6 +146,15 @@ Blinden mit runden Würfeln ermittelt: Das kann schon mal etwas brauchen.
 
 
 [role="mt-5"]
+=== 2025
+
+Im Player sind alle Episoden verfügbar, die im *Jahr 2025* produziert wurden.
+
+.Stundenhotel 2025
+amplitude::stundenhotel_2025_large[role="mt-4 mb-5"]
+
+
+[role="mt-5"]
 === 2024
 
 Im Player sind alle Episoden verfügbar, die im *Jahr 2024* produziert wurden.
@@ -162,3 +171,13 @@ Im Player sind alle Episoden verfügbar, die im *Jahr 2023* produziert wurden.
 
 .Stundenhotel 2023
 amplitude::stundenhotel_2023_large[role="mt-4 mb-8"]
+
+
+// [role="mt-5"]
+// === 2022
+
+// Im Player sind alle Episoden verfügbar, die im *Jahr 2022* produziert wurden.
+
+// .Stundenhotel 2022
+// amplitude::stundenhotel_2022_large[role="mt-4 mb-8"]
+

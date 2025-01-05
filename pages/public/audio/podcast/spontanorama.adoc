@@ -98,38 +98,45 @@ mitgewirkt, die schon heute legendär sind. Darunter die TV-Show _Schillerstraß
 und der Kino-Film _7 Zwerge – Männer allein im Wald_ von 2004; eine Komödie
 von und mit Otto Waalkes.
 
-In seinem neuen Projekt von 2024, dem Podcast-Format *SpantanOrama*, stellt
-Ralf sein Können als Moderator und sein Interesse an Menschen und deren
-Geschichten unter Beweis.
-
 [role="mt-4"]
 === Mehr über Ralf
 
-Ralf Schmitz hat sich als einer der beliebtesten deutschen Comedians etabliert.
-Es ist bekannt für seine Fähigkeit zu improvisieren. Ralf berrscht zahlreiche
-Genres und ist als Solokünstler mit eigenen Bühnenprogrammen zu sehen.
+Ralf Schmitz ist einer der beliebtesten deutschen Comedians. Bekannt für
+seine Schnelligkeit und dem Talent zur Improvisation. Mehr zu Ralf unter:
 
 * https://de.wikipedia.org/wiki/Ralf_Schmitz[Wikipedia, {browser-window--new}]
 * https://www.prosieben.de/themen/stars/profile/ralf-schmitz-64334[ProSieben, {browser-window--new}]
-* https://www.eventim.de/artist/ralf-schmitz[Eventim, {browser-window--new}]
+
+Als Solokünstler begeistert er mit eigenen Bühnenprogrammen, die in vielen
+deutschen Städten zu sehen sind. Brüllend komische Stand-up-Nummern,
+Impro-Comedy mit dem Publikum wechseln in Höchstgeschwingkeit mit unglaublichen
+Geschichten und Anekdoten. Aktuelle Termine und Tickets zum Bühnenprogramm kann
+man hier finden: https://www.eventim.de/artist/ralf-schmitz[Eventim - Ralf Schmitz, {browser-window--new}].
+
+Mit seinem neuesten Projekt, dem Podcast-Format *SpantanOrama* aus dem Jahr 2024,
+stellt Ralf eimal mehr sein Können als Moderator und sein Interesse an Menschen
+wie deren Geschichten unter Beweis.
+
+Mehr zu den Episoden des Podcast in den folgenden Abschnitten.
 
 
 [role="mt-5"]
 == Über den Podcast
 
-Während er im Studio ungeduldig wartet, läuft draußen ein Mitglied seines
-Teams durch die Straßen der Kölner Innenstadt. Immer auf der Suche nach
+Während  Ralf Schmitz im Studio ungeduldig wartet, läuft draußen ein Mitglied
+seines Teams durch die Straßen der Kölner Innenstadt. Immer auf der Suche nach
 zufälligen Passantinnen und Passanten, die spontan bereit sind alles stehen
-und liegen zu lassen um mit Ralf Schmitz für eine Stunde zu quatschen.
+und liegen zu lassen um mit Ralf für eine Stunde zu quatschen.
 
 [role="mt-4 mb-4"]
 [NOTE]
 ====
 Aus Gründen des *Urheberschutzes*, lädt der Audio Player alle Folgen über
-das Angebot der https://earlystudios.com/[Early Studios, {browser-window--new}].
+das Angebot der https://earlystudios.com/[Early Studios, {browser-window--new}],
+die den Podcast produziert. Zum Hören der Episoden ist eine Internetverbindung
+zwingend *erforderlich*.
 
-Daher ist zum Hören ist eine Internetverbindung *erforderlich*. Es erscheint
-jeweils an *Donnerstagen* in *jeder Woche* eine neue Folge.
+Es erscheint jeweils an *Donnerstagen* in *jeder Woche* eine neue Folge.
 ====
 
 
@@ -143,29 +150,29 @@ und seiner Gäste.
 [role="mt-4 mb-5"]
 [TIP]
 ====
-Die Episoden werden auf der Seite *wöchentlich* aktualisiert. Alle Folgen des
-Podcasts findet man überall da, wo es Podcasts gibt. Zum Beispiel bei:
+Die Episoden werden auf dieser Seite *wöchentlich* aktualisiert. Außerden sind
+alle Folgen des Podcasts überall da zu finden, wo es Podcasts gibt. Zum
+Beispiel bei:
 
-// * https://www.tiktok.com/@ralfschmitzoffiziell/video/7361702507791256865?lang=de-DE[Tiktok, {browser-window--new}]
 * https://podcast.de/podcast/3446603/spontanorama[Podcasts.de, {browser-window--new}]
 * https://podcasts.apple.com/de/podcast/spontanorama/id1741818812[Apple Podcasts, {browser-window--new}]
 * https://open.spotify.com/show/1CZ31uaQ6JTwood52CKQ9H[Spotify, {browser-window--new}]
 ====
 
-// [role="mt-4"]
-// === 2025
+[role="mt-4"]
+=== 2025
 
-// Im Player sind alle Episoden verfügbar, die im Jahr *2025* produziert
-// wurden.
+Im Player sind alle Episoden verfügbar, die im Jahr *2025* produziert
+wurden.
 
-// .Spontanorama · 2025
-// amplitude::spontanorama_2025_large[role="mt-4 mb-5"]
+.Spontanorama · 2025
+amplitude::spontanorama_2025_large[role="mt-4 mb-5"]
 
 [role="mt-4"]
 === 2024
 
-In April startete der Podcast. Im Player sind alle Episoden verfügbar, die
-im Jahr *2024* produziert wurden.
+In April startete der neue Podcast von Ralf Schmitz. Im Player sind alle
+Episoden verfügbar, die im Jahr *2024* produziert wurden.
 
 .Spontanorama · 2024
 amplitude::spontanorama_2024_large[role="mt-4 mb-8"]
