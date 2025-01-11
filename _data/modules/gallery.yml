@@ -35,17 +35,15 @@ settings:
     # ==========================================================================
 
     # --------------------------------------------------------------------------
-    # HTML5 VIDEO
+    # The Piano (YouTube)
     #
     - gallery:
       enabled:                          true
 
-      id:                               jg_video_html5
+      id:                               the_piano_leibzig
       type:                             video
-      video:                            html5
-      video_base_path:                  /assets/video/html5
-      image_base_path:                  /assets/video/poster/html5
-      thumb_base_path:                  /assets/video/poster/html5
+      video:                            youtube
+      image_base_path:                  //img.youtube.com/vi
 
       # ------------------------------------------------------------------------
       # Justified Gallery settings
@@ -69,40 +67,32 @@ settings:
         options:
           licenseKey:                   0000-0000-000-0000
           download:                     false
+
           alignThumbnails:              left
+#          addClass:                     lg-uno-thumbnails                       # customized thumbnails
+#          appendThumbnailsTo:           .lg-outer                               # required for customized thumbnails
+#          animateThumb:                 false                                   # required for customized thumbnails
+#          allowMediaOverlap:            true                                    # required for customized thumbnails
+
           animateThumb:                 true
           autoplayFirstVideo:           true
-          videojs:                      true
-          videojsTheme:                 vjs-theme-uno
+          videojs:                      false
 
         videojsOptions:
+          enabled:                      false
+
+#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
+        playerParams:
           enabled:                      true
-
-          muted:                        false
-          preload:                      true
-#         videoStart:                   ["00:00:30", "00:01:30"]                  # start time (hh:mm:ss) for [video1, video2]
-
-          controls:                     true
-          controlBar:
-            playbackRates:              [0.25, 0.5, 1, 1.5, 2]
-            remainingTimeDisplay:       true
-            pictureInPictureToggle:     false
-
-            volumePanel:
-              inline:                   false
-
-            hotkeysPlugin:
-              enabled:                  true
-              options:
-                volumeStep:             0.2
-
-            zoomPlugin:
-              enabled:                  true
-              options:
-                moveX:                  0
-                moveY:                  0
-                rotate:                 0
-                zoom:                   1
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+#         controls:                     1                                       # default = 0
+#         enablejsapi:                  1                                       # default = 1
+#         hl:                           en                                      # default = en
+#         loop:                         0                                       # default = 0
+          mute:                         0                                       # default = 1
+#         playsinline:                  1                                       # for mobile|iOS only
+#         wmode:                        opaque                                  # default = opaque
 
       # ------------------------------------------------------------------------
       # CSS filter options
@@ -119,231 +109,45 @@ settings:
       #
       videos:
 
-        - video:                        # video 1
+        # video 1
+        - video:
           enabled:                      true
 
-          name:                         Peck Pocketed
-          type:                         html5
+          name:                         S01Levin
+          type:                         youtube
           size:                         1280-720
-          source:                       peck_pocketed.mp4
-          poster_image:                 peck_pocketed.jpg
+          source:                       //youtube.com/watch?v=GOixlmYCg4k
+          poster_image:                 GOixlmYCg4k/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Peck Pocketed &middot; Student Academy Award winning Cartoon Clip
+          caption_text:                 S01 · Levin
           description: >
-                                        <h5>Peck Pocketed by Kevin Herron | Disney Favorite</h5>
-                                        <h6>Student Academy Award winning Cartoon Clip</h6>
-                                        <br>
-          tracks:
-            - track:
-              default:                  true                                    # Indicates that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate
-              kind:                     captions
-              srclang:                  en                                      # Code for the language of the text track
-              label:                    English                                 # Descriptive text for the track that will used in the user interface (player)
-              src:                      /assets/video/tracks/html5/peck_pocketed/captions/video.vtt
+                                        <h5>S01 · Levin - Kiss the Rain</h5>
+                                        <!-- h6>
+                                          Levin hat "Kiss the Rain" wunderschön und mit
+                                          viel Gefühl gespielt. Jeder Ton berührt die Seele.
+                                        </h6 -->
 
-            - track:
-              default:                  true                                    # Indicates that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate
-              kind:                     chapters
-              srclang:                  en                                      # Code for the language of the text track
-              label:                    Chapters                                # Descriptive text for the track that will used in the user interface (player)
-              src:                      /assets/video/tracks/html5/peck_pocketed/chapters/video.vtt
-
-        - video:                        # video 2
+        # video 2
+        - video:
           enabled:                      true
 
-          name:                         Rollin Wild
-          type:                         html5
+          name:                         S01Luca
+          type:                         youtube
           size:                         1280-720
-          source:                       rolling_wild.mp4
-          poster_image:                 rolling_wild.jpg
+          source:                       //youtube.com/watch?v=Gu0HtPId7NU
+          poster_image:                 Gu0HtPId7NU/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Rollin` Wild &middot; Short Funny animated video clip created at the Film Academy
+          caption_text:                 S01 · Luca
           description: >
-                                        <h5>Rollin` Wild</h5>
-                                        <h6>Short Funny Animated Clip created at the Film Academy</h6>
-                                        <br>
+                                        <h5>S01 · Luca - Wird schon</h5>
+                                        <!-- h6>
+                                          Toller Song. Und das Klavier war wie selbstverständlich
+                                          dabei.
+                                        </ -->
 
-    # --------------------------------------------------------------------------
-    # HTML5 VIDEO (Online)
-    #
-    - gallery:
-      enabled:                          true
 
-      id:                               jg_video_wwf
-      type:                             video
-      video:                            html5
-      video_base_path:                  //rodlzdf-a.akamaihd.net/none/zdf/
-      image_base_path:                  //epg-image.zdf.de/fotobase-webdelivery/images
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-          alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      true
-          videojsTheme:                 vjs-theme-uno
-
-        videojsOptions:
-          enabled:                      true
-
-          muted:                        false
-          preload:                      true
-#         videoStart:                   ["00:00:30", "00:01:30"]                  # start time (hh:mm:ss) for [video1, video2]
-
-          controls:                     true
-          controlBar:
-            playbackRates:              [0.25, 0.5, 1, 1.5, 2]
-            remainingTimeDisplay:       true
-            pictureInPictureToggle:     false
-
-            volumePanel:
-              inline:                   false
-
-            hotkeysPlugin:
-              enabled:                  true
-              options:
-                volumeStep:             0.2
-
-            zoomPlugin:
-              enabled:                  true
-              options:
-                moveX:                  0
-                moveY:                  0
-                rotate:                 0
-                zoom:                   1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        - video:                        # video 1
-          enabled:                      true
-
-          name:                         Jahrestag
-          type:                         html5
-          size:                         1280-720
-          source:                       23/10/231031_2220_s1_f1_wwf/6/231031_2220_s1_f1_wwf_a1a2_2360k_p35v17.mp4
-          poster_image:                 f5870166-fb47-405d-a7d6-d7e3fc1882a4?layout=768x432
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E01 Was wir fürchten &middot; Jahrestag
-          description: >
-                                        <h5>S01E01 Was wir fürchten &middot; Jahrestag</h5>
-                                        <h6></h6>
-                                        <br>
-
-        - video:                        # video 2
-          enabled:                      true
-
-          name:                         Der rote Teufel
-          type:                         html5
-          size:                         1280-720
-          source:                       23/10/231031_2305_s1_f2_wwf/6/231031_2305_s1_f2_wwf_a1a2_2360k_p35v17.mp4
-          poster_image:                 7a17e60a-0e49-47d6-bf89-5ad6b578b889?layout=768x432
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E02 Was wir fürchten &middot; Der rote Teufel
-          description: >
-                                        <h5>S01E02 Was wir fürchten &middot; Der rote Teufel</h5>
-                                        <h6</h6>
-                                        <br>
-
-        - video:                        # video 3
-          enabled:                      true
-
-          name:                         Narren
-          type:                         html5
-          size:                         1280-720
-          source:                       23/10/231031_2345_s1_f3_wwf/6/231031_2345_s1_f3_wwf_a1a2_2360k_p35v17.mp4
-          poster_image:                 9ff8f7bf-cdcc-4c14-9b7e-70936d6128c8?layout=768x432
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E03 Was wir fürchten &middot; Narren
-          description: >
-                                        <h5>S01E03 Was wir fürchten &middot; Narren</h5>
-                                        <h6></h6>
-                                        <br>
-
-        - video:                        # video 4
-          enabled:                      true
-
-          name:                         Familienbande
-          type:                         html5
-          size:                         1280-720
-          source:                       23/10/231031_2305_s1_f2_wwf/6/231031_2305_s1_f2_wwf_a1a2_2360k_p35v17.mp4
-          poster_image:                 913b3c31-309e-4885-83ce-0c165b194c9d?layout=384x216
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E04 Was wir fürchten &middot; Familienbande
-          description: >
-                                        <h5>S01E04 Was wir fürchten &middot; Familienbande</h5>
-                                        <h6</h6>
-                                        <br>
-
-        - video:                        # video 5
-          enabled:                      true
-
-          name:                         Gefangen
-          type:                         html5
-          size:                         1280-720
-          source:                       23/11/231101_0115_s1_f5_wwf/6/231101_0115_s1_f5_wwf_a1a2_2360k_p35v17.mp4
-          poster_image:                 b3ec9c3c-aaa9-4be0-864b-8c93a8c9c165?layout=384x216
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E05 Was wir fürchten &middot; Gefangen
-          description: >
-                                        <h5>S01E05 Was wir fürchten &middot; Gefangen</h5>
-                                        <h6></h6>
-                                        <br>
-
-        - video:                        # video 6
-          enabled:                      true
-
-          name:                         Erlösung
-          type:                         html5
-          size:                         1280-720
-          source:                       23/11/231101_0205_s1_f6_wwf/6/231101_0205_s1_f6_wwf_a1a2_2360k_p35v17.mp4
-          poster_image:                 a8242478-abc6-416d-841b-4009c1daf7cd?layout=384x216
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E06 Was wir fürchten &middot; Erlösung
-          description: >
-                                        <h5>S01E06 Was wir fürchten &middot; Erlösung</h5>
-                                        <h6</h6>
-                                        <br>
 
     # --------------------------------------------------------------------------
     # Online VIDEO Auf Achse (YouTube)

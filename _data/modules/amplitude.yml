@@ -68,6 +68,17 @@ settings:
           audio_info:                   //podcasts.apple.com/de/podcast/etwas-besonderes-sein/id1741818812?i=1000682353087
           duration:                     "01:08:33"
 
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E02 · Hat nicht lang gehalten
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH2539234843.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/hat-nicht-lang-gehalten/id1741818812?i=1000683237962
+          duration:                     "01:03:19"
+
+
     # --------------------------------------------------------------------------
     # Spontanorama 2024
     # --------------------------------------------------------------------------

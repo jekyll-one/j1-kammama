@@ -1,0 +1,135 @@
+---
+title:                                  The Piano
+tagline:                                Die etwas andere Talentshow
+title_extention:                        Die etwas andere Talentshow
+
+
+date:                                   2024-09-14
+#last_modified:                         2023-01-01
+
+description: >
+                                        The Piano ist eine etwas andere Talentshow. Im Mittelpunkt stehen
+                                        (unentdeckte) Talente aus ganz  Deutschland, die eines gemeinsam
+                                        haben: Ihre ganz besondere Geschichte und die Beziehung zu einem
+                                        der beliebtesten Musikinstrumente in Deutschland: Dem Klavier.
+
+keywords:                               Musik, TV, Show, Igor Levit, Mark Forster,
+                                        Piano, VOX
+
+categories:                             [ Video ]
+tags:                                   [ Show, Mark Forster, Igor Levit ]
+
+image:
+  path:                                 /assets/image/leute/torsten-straeter.jpg
+  width:                                1280
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/show/the-piano/
+
+resources:                              [ gallery, lightgallery, videojs ]
+resource_options:
+  - attic:
+      padding_top:                      550
+      slides:
+        - url:                          /assets/image/leute/torsten-straeter.jpg
+          alt:                          The Piano
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// See: https://www.ndr.de/kultur/musik/klassik/The-Piano-Igor-Levit-und-Mark-Forster-entdecken-Talente-im-Bahnhof,thepiano100.html
+[role="dropcap"]
+Musik im Hauptbahnhof? *The Piano* macht es möglich. In das Gewimmel aus
+Reisenden, Wartenden und gehetzten Pendlern bringen wir den Menschen Musik,
+die die Seele berührt.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  3+ Minuten Videozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über die Show
+
+Mit https://www.vox.de/cms/sendungen/the-piano.html[The Piano, {browser-window--new}]
+ist im September 2024 eine etwas andere Talentshow auf VOX gestartet. Im
+Mittelpunkt stehen (unentdeckte) Talente aus ganz Deutschland, die eines
+gemeinsam haben: Ihre ganz besondere Geschichte zu einem der beliebtesten
+Musikinstrumente in Deutschland: Dem Klavier.
+
+Die Pianistinnen und Pianisten zeigen ihr Können im öffentlichen Raum. In
+Hauptbahnhöfen von vier deutschen Großstädten. Die Talente ahnen nicht, dass
+zwei ganz besondere Beobachter ihnen aufmerksam zuschauen und zuhören:
+Der deutsche Sänger
+https://de.wikipedia.org/wiki/Mark_Forster[Mark Forster, {browser-window--new}]
+und der Pianist
+https://de.wikipedia.org/wiki/Igor_Levit[Igor Levit, {browser-window--new}].
+
+Hinter den Kulissen kommentieren die beiden die Auftritte der Talente. Die
+Bandbreite der Auftritte der Pianisten ist groß: Von Klassik bis Pop, von
+vierhändig bis begleitet von Gesang.
+
+Mark Forster und Igor Levit organisieren als Finale ein großes Abschlusskonzert,
+bei dem aus jeder Stadt eines der Talente mit ihnen gemeinsam auf der Bühne
+stehen.
+
+Moderiert wird das neue Format von der Radio- und Fernsehmoderatorin
+https://annikalau.de/home.html[Annika Lau, {browser-window--new}]
+(Antenne Bayern, Sat.1 und RTL).
+
+[role="mt-4"]
+[NOTE]
+====
+Aus Gründen des *Urheberschutzes*, laden die Video Player alle Beiträge über das
+Angebot von https://www.youtube.com/hashtag/thepiano[Youtube, {browser-window--new}].
+Zum Abspielen der Videos ist eine Internetverbindung zwingend *erforderlich*.
+====
+
+
+[role="mt-5"]
+== Im Bahnhof
+
+Das Format kann überzeugen. Kleine Clips ergänzen die Performances und
+erzählen Geschichten über die Menschen dahinter. Julia konnte lange ihre
+Finger nicht bewegen. Farshad musste flüchten und schon als Kind arbeiten.
+
+.Bahnhof Leibzig
+gallery::the_piano_leibzig[role="mt-4 mb-4"]
+
+
+[role="mt-5"]
+== Abschluß Konzert
+
+The Piano ist eine Musiksendung, die Klassik und Pop zusammenbringt. Am Ende
+jeder Folge lüften die beiden Stars das Geheimnis, dass sie Mäuschen gespielt
+haben. Und eröffnen einem oder einer die Überraschung: Ein Auftritt beim Finale.
+Dem Abschluß Konzert, gemeinsam mit Igor und Mark auf der Bühne der Wuppertaler
+Stadthalle.
+
+//.Abschluß Konzert
