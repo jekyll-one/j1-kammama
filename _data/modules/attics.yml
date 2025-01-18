@@ -39,15 +39,15 @@ settings:
 
   # duo-color effect, base color 'blue' (requires gray-scaled images)
   #
-  background_color_1:                   var(--md-gray-300)
-  background_color_2:                   var(--md-gray-900)
+  # background_color_1:                   var(--md-gray-300)
+  # background_color_2:                   var(--md-gray-900)
 
   # CSS filter setting applied on (backstretch|background) image
   #
   filters:
-    grayscale:                          0
-    contrast:                           1
-    brightness:                         1
+    # grayscale:                          0
+    # contrast:                           1
+    # brightness:                         1
 
   # ----------------------------------------------------------------------------
   # Layout specific properties

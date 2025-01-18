@@ -35,7 +35,7 @@ resource_options:
   - attic:
       padding_top:                      550
       slides:
-        - url:                          /assets/image/leute/torsten-straeter.jpg
+        - url:                          /assets/video/poster/youtube/the_piano/piano.jpg
           alt:                          The Piano
 ---
 

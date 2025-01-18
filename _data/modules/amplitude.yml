@@ -73,11 +73,20 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E02 · Hat nicht lang gehalten
-          rating:                       3
+          rating:                       1
           audio:                        EARLYSTUDIOSGMBH2539234843.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/hat-nicht-lang-gehalten/id1741818812?i=1000683237962
           duration:                     "01:03:19"
 
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E03 · Richtig coole Filme machen
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH8877098978.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/richtig-coole-filme-machen/id1741818812?i=1000684154944
+          duration:                     "00:48:52"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024

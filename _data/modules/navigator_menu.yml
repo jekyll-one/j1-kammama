@@ -82,6 +82,10 @@
       icon:                             video
       dropdown:
 
+        - title:                        The Piano
+          href:                         /pages/public/video/show/the-piano/
+          icon:                         filmstrip
+
         - title:                        AGT & BGT
           href:                         /pages/public/video/show/xgt/
           icon:                         filmstrip
@@ -89,6 +93,7 @@
         - title:                        TV Total
           href:                         /pages/public/video/show/tv-total/
           icon:                         filmstrip
+
         - title:                        Sträter
           href:                         /pages/public/video/show/straeter/
           icon:                         filmstrip
