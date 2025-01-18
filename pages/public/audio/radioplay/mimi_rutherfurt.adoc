@@ -1,9 +1,10 @@
 ---
 title:                                  Mimi Rutherfurt
-tagline:                                Hörspiel Serie
+title_extention:                        YT Video Integration
+tagline:                                YT Video Integration
 
-date:                                   2024-09-11
-#last_modified:                         2024-09-11
+date:                                   2024-09-21
+#last_modified:                         2024-01-01
 
 description: >
                                         Die englische Lady "Mimi Rutherfurt" möchte in der britischen
@@ -19,32 +20,35 @@ tags:                                   [ Hörspiel, Mimi Rutherfurt ]
 
 image:
   path:                                 /assets/image/leute/margaret-rutherford.jpg
-  width:                                1280
-  height:                               720
+  width:                                1920
+  height:                               1280
 
-tts:                                    true
-fab_menu_id:                            open_toc                                # default
-personalization:                        false
-comments:                               false
-
+attic:                                  false
 regenerate:                             false
+personalization:                        true
 permalink:                              /pages/public/audio/radioplay/mimi-rutherfurt/
 
-resources:                              [ amplitudejs, gallery, lightgallery, videojs ]
+resources:                              [ amplitudejs ]
 resource_options:
   - attic:
-#     opacity:                          0.5
-      padding_top:                      550
       slides:
         - url:                          /assets/image/leute/margaret-rutherford.jpg
-          alt:                          Margaret Rutherford
+          alt:                          Video Tester
 ---
-
 
 // Page Initializer
 // =============================================================================
 // Enable the Liquid Preprocessor
 :page-liquid:
+
+// Attribute settings for section control
+//
+:ytp-api--description:                  false
+:ytp--example:                          false
+:ytp--audio-player:                     true
+:ms-slider-video--example:              false
+
+:manon-melodie--playlist:               //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
 
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
@@ -92,10 +96,6 @@ Unter den Sprecherinnen und Sprechern sind viele alte Bekannte. Die Hauptfigur
 Lady Rutherfurt wird von _Gisela Fritsch_ verkörpert; sie verstarb in Jahr 2013.
 Seit Folge 37 spricht _Ingrid Stein_ die Stimme von Mimi Rutherfurt.
 
-Die alte Dame erlebt ihre Abenteuer nicht nur im provinziellen Idyll. Unter
-anderem bringt sie das Verbrechen in den Buckingham Palace, auf den Luxusliner
-Queen Mary und nach Stonehenge.
-
 [role="mt-4 mb-4"]
 [TIP]
 ====
@@ -108,12 +108,12 @@ https://www.youtube.com/watch?v=qEhzpBJpUq0&list=PLLsYXB2u7E7CjL97CTVUnJl4WY3ws6
 
 [role="mt-5"]
 == Episoden
-// Nachtexpress: https://www.youtube.com/watch?v=I4VTc8nQxDs
 
-lorem:sentences[5]
+Die alte Dame erlebt ihre Abenteuer nicht nur im provinziellen Idyll. Unter
+anderem bringt sie das Verbrechen in den Buckingham Palace, auf den Luxusliner
+Queen Mary und nach Stonehenge.
 
-.Mimi Rutherfurt
-gallery::radioplay_mimi_rutherfurt[role="mt-4 mb-4"]
+.Mimi Rutherfurt · Maritim Verlag
+amplitude::mimi_rutherfurt_yt_large[role="mt-4 mb-8"]
 
-[role="mb-7"]
-lorem:sentences[5]
+

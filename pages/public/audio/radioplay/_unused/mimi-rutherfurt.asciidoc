@@ -1,0 +1,118 @@
+---
+title:                                  Mimi Rutherfurt
+tagline:                                Hörspiel Serie
+
+date:                                   2024-09-11
+#last_modified:                         2024-09-11
+
+description: >
+                                        Die englische Lady "Mimi Rutherfurt" möchte in der britischen
+                                        Provinz eigentlich einen ruhigen Lebensabend verbringen. Doch
+                                        immer wieder schlittert sie in geheimnisvolle Kriminalfälle.
+                                        Die Fälle sind angelehnt an die Romane der legendären
+                                        Miss Marple Reihe von Agatha Christie.
+keywords: >
+                                        Hörspiel, Radioplay, Mimi Rutherfurt
+
+categories:                             [ Audio ]
+tags:                                   [ Hörspiel, Mimi Rutherfurt ]
+
+image:
+  path:                                 /assets/image/leute/margaret-rutherford.jpg
+  width:                                1280
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/audio/radioplay/mimi-rutherfurt/
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+#     opacity:                          0.5
+      padding_top:                      550
+      slides:
+        - url:                          /assets/image/leute/margaret-rutherford.jpg
+          alt:                          Margaret Rutherford
+---
+
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Mimi Rutherfurt, eine englische Lady, möchte in der britischen Provinz
+eigentlich einen ruhigen Lebensabend verbringen. Doch immer wieder schlittert
+sie in geheimnisvolle Kriminalfälle hinein.
+
+Die Geschichten sind angelehnt an die Fälle der legendären _Miss Marple_-Reihe
+von _Agatha Christie_.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Audiozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über die Hörspiele
+// https://www.youtube.com/@MaritimVerlag
+// https://music.apple.com/de/album/margaret-rutherford-collectors-edition-1/1694329605
+
+Die Hörspiel-Serie *Mimi Rutherfurt* des
+https://maritim-hoerspiele.de[Maritim Verlags, {browser-window--new}]
+ist eine wundervolle Hommage an die beliebten *Miss Marple* Romane von
+Agatha Christie.
+
+Unter den Sprecherinnen und Sprechern sind viele alte Bekannte. Die Hauptfigur
+Lady Rutherfurt wird von _Gisela Fritsch_ verkörpert; sie verstarb in Jahr 2013.
+Seit Folge 37 spricht _Ingrid Stein_ die Stimme von Mimi Rutherfurt.
+
+Die alte Dame erlebt ihre Abenteuer nicht nur im provinziellen Idyll. Unter
+anderem bringt sie das Verbrechen in den Buckingham Palace, auf den Luxusliner
+Queen Mary und nach Stonehenge.
+
+[role="mt-4 mb-4"]
+[TIP]
+====
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der Plattform
+https://www.youtube.com/watch?v=qEhzpBJpUq0&list=PLLsYXB2u7E7CjL97CTVUnJl4WY3ws6Ptj[YouTube, {browser-window--new}]
+(Playlist) geladen. Eine Internetverbindung zum Hören der Hörspiele ist daher
+*zwingend* erforderlich.
+====
+
+[role="mt-5"]
+== Episoden
+// Nachtexpress: https://www.youtube.com/watch?v=I4VTc8nQxDs
+
+lorem:sentences[5]
+
+.Mimi Rutherfurt · Maritim Verlag
+amplitude::mimi_rutherfurt_yt_large[role="mt-4 mb-8"]
+
+

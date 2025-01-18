@@ -31,9 +31,9 @@
 - item:                                 Audio
   sublevel:
 
-    - title:                            Player
-      href:                             /pages/public/audio/player
-      icon:                             play
+    # - title:                            Player
+    #   href:                             /pages/public/audio/player
+    #   icon:                             play
 
     - title:                            Podcasts
       icon:                             volume-high
@@ -46,13 +46,13 @@
           href:                         /pages/public/audio/podcast/stundenhotel/
           icon:                         ear-hearing
 
-#   - title:                            Hörbücher
-#     icon:                             volume-high
-#     dropdown:
+    - title:                            Hörbücher
+      icon:                             volume-high
+      dropdown:
 
-#       - title:                        Mimi Rutherfurt
-#         href:                         /pages/public/audio/radioplay/mimi-rutherfurt/
-#         icon:                         ear-hearing
+        - title:                        Mimi Rutherfurt
+          href:                         /pages/public/audio/radioplay/mimi-rutherfurt/
+          icon:                         ear-hearing
 
 # ------------------------------------------------------------------------------
 # Menu Video
@@ -60,9 +60,9 @@
 - item:                                 Video
   sublevel:
 
-    - title:                            Player
-      href:                             /pages/public/amplitude_yt_tester/
-      icon:                             test-tube
+    # - title:                            Player
+    #   href:                             /pages/public/amplitude_yt_tester/
+    #   icon:                             test-tube
 
     - title:                            Serien
       icon:                             video
