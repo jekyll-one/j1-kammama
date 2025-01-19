@@ -1009,6 +1009,102 @@ settings:
           cover_image:                  //img.youtube.com/vi/mBRbyVFIL0U/hqdefault.jpg
           duration:                     "01:19:16"
 
+    # --------------------------------------------------------------------------
+    #  Sherlock Holmes
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             sherlock_holmes_wdr_5
+      title:                            Sherlock Holmes
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_sherlock_holmes_wdr_5
+        name:                           Sherlock Holmes
+        artist:                         Detektivgeschichten WDR 5
+        audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E01 Späte Rache · Folge 1
+          audio:                        303/3038838/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge1_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-1/wdr-5/12976955/
+          duration:                     "00:26:40"
+  
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E02 Späte Rache · Folge 2
+          audio:                        303/3038841/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge2_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-2/wdr-5/12976959/
+          duration:                     "00:35:23"  
+  
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E03 Späte Rache · Folge 3
+          audio:                        303/3038842/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge3_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-3/wdr-5/12976963/
+          duration:                     "00:30:18"  
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E04 Späte Rache · Folge 4
+          audio:                        303/3038843/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge4_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-4/wdr-5/12976967/
+          duration:                     "00:39:03"
+  
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E05 Späte Rache · Folge 5
+          audio:                        303/3038846/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge5_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-2/wdr-5/12976959/
+          duration:                     "00:40:35"  
+  
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E06 Späte Rache · Folge 6
+          audio:                        303/3038850/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge6_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-6/wdr-5/12976989/
+          duration:                     "00:35:50"  
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E07 Späte Rache · Folge 7
+          audio:                        303/3038852/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge7_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-7/wdr-5/12976993/
+          duration:                     "00:28:44"  
+  
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_wdr_5
+          title:                        24E08 Späte Rache · Folge 8
+          audio:                        303/3038854/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge8_wdr5.mp3
+          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-8/wdr-5/12976999/
+          duration:                     "00:33:55"  
+
 
   # ============================================================================
   # PLAYER configuration
@@ -1255,6 +1351,37 @@ settings:
         audio_info:                     true
         audio_rating:                   true     
 
+    # --------------------------------------------------------------------------
+    # Sherlock Holmes, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               spaete_rache_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           sherlock_holmes_wdr_5
+        title:                          Sherlock Holmes
+        audio_info:                     true
+        audio_rating:                   true
 
 # ------------------------------------------------------------------------------
 # END config

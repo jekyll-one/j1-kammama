@@ -1,0 +1,132 @@
+---
+title:                                  Sherlock Holmes
+tagline:                                Detektivgeschichten
+
+date:                                   2024-09-10
+#last_modified:                         2024-09-10
+
+description: >
+                                        Die Detektivgeschichten mit Sherlock Holmes,
+                                        von Sir Arthur Conan Doyle, fasziniren seit über
+                                        einem Jahrhundert. Sympatisch hochnäsig, very british
+                                        und mit einer brillanten Kombinationsgabe gesegnet.
+                                        So kennt man den Meisterdetektiv.
+keywords: >
+                                        WDR 5, Sherlock Holmes, Detektivgeschichten,
+                                        Hörbuch
+
+categories:                             [ Audio ]
+tags:                                   [ Hörbuch, Sherlock Holmes ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/stundenhotel.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/audio/radioplay/sherlock_holmes/
+
+resources:                              [ amplitudejs, videojs ]
+resource_options:
+  - attic:
+#     opacity:                          0.5
+      padding_top:                      550
+      slides:
+        - url:                          //www1.wdr.de/mediathek/audio/sendereihen-bilder/wdr5-sendereiehenbild-100~_v-gseagaleriexl.jpg
+          alt:                          Detektivgeschichten
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:time-num--string:                      30+
+:time-de--string:                       Minuten
+:time-de--description:                  Audiozeit
+
+// Attribute settings for section control
+//
+:ytp_video:                             false
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// //www1.wdr.de/mediathek/audio/sendereihen-bilder/wdr5-sendereiehenbild-100~_v-gseagaleriexl.jpg
+// //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
+// //api.ardmediathek.de/image-service/images/u…:image:039bd92f77079adb?w=448&ch=8c8f80ac5b8bf57a
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Die Detektivgeschichten erzählen, wie der skurrile Ermittler Sherlock Holmes
+und der traumatisierte Kriegsheimkehrer Dr. Watson miteinander Krinalfälle
+lösen. Die Geschichten sind mehr als nur Krimis. Sie sind eine Studie über
+die menschliche Natur, über Gut und Böse wie über Gerechtigkeit und Rache.
+
+[subs=attributes]
+++++
+<div class="video-title">
+  <i class="mdi mdi-gray mdi-clock-time-five-outline mdi-24px mr-2"></i>
+  {time-num--string} {time-de--string} {time-de--description}
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
+Podcasts *zwingend* erforderlich.
+====
+
+
+[role="mt-5"]
+== Detektivgeschichten
+
+Die Krininamfälle mit Sherlock Holmes, von Sir Arthur Conan Doyle, faszinieren
+seit über einem Jahrhundert. Sympatisch hochnäsig, *very british* und mit
+einer brillanten Kombinationsgabe gesegnet. So kennt man den Meisterdetektiv.
+
+[role="mt-4"]
+=== Späte Rache
+
+*Späte Rache* oder *Eine Studie in Scharlachrot* ist der erste Fall von
+Sherlock Holmes und Dr Watson. Es ist ein Roman, der nicht nur die beiden
+Hauptcharaktere, Sherlock Holmes und Dr. Watson, vorstellt, sondern auch
+die einzigartige Dynamik ihrer Beziehung wie die außergewöhnlichen
+Fähigkeiten des Meisterdetektiv *Sherlock Holmes*.
+
+Die Geschichte ist in zwei Teile gegliedert. Im ersten Teil lernt man
+Dr. Watson kennen, einen ehemaligen Militärarzt, der nach seinen
+Kriegserlebnissen in London eine neue Existenz beginnt. Durch Zufall trifft
+er auf den exzentrischen Sherlock Holmes, einen Privatdetektiv mit einer
+außergewöhnlichen Beobachtungsgabe. Gemeinsam mieten sie sich in ein Haus 
+in der *Baker Street 221b*, das fortan als Basis für ihre Ermittlungen
+dient.
+
+Der zweite Teil führt in die Welt der Kriminalität. Ein grausamer Mord an
+einem Mann namens _Enoch J. Drebber_ erschüttert London. An der Wand des
+Tatortes ist mit *Blut* das Wort *Rache* geschrieben. Scotland Yard ist
+ratlos. Und so wird Sherlock Holmes beauftragt, den Fall zu lösen.
+
+[role="mt-"]
+.Detektivgeschichten · Späte Rache
+amplitude::spaete_rache_large[role="mt-4 mb-5"]
+
+
