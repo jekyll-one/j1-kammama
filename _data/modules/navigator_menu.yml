@@ -50,6 +50,10 @@
       icon:                             volume-high
       dropdown:
 
+        - title:                        Sherlock Holmes
+          href:                         /pages/public/audio/radioplay/sherlock_holmes/
+          icon:                         ear-hearing
+
         - title:                        Mimi Rutherfurt
           href:                         /pages/public/audio/radioplay/mimi-rutherfurt/
           icon:                         ear-hearing
