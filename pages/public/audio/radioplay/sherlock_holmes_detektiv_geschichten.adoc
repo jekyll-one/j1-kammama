@@ -19,7 +19,7 @@ categories:                             [ Audio ]
 tags:                                   [ Hörbuch, Sherlock Holmes ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/stundenhotel.jpg
+  path:                                 //www1.wdr.de/mediathek/audio/sendereihen-bilder/wdr5-sendereiehenbild-100~_v-gseagaleriexl.jpg
   width:                                1920
   height:                               1200
 
@@ -31,7 +31,7 @@ comments:                               false
 regenerate:                             false
 permalink:                              /pages/public/audio/radioplay/sherlock_holmes/
 
-resources:                              [ amplitudejs, videojs ]
+resources:                              [ amplitudejs ]
 resource_options:
   - attic:
 #     opacity:                          0.5
@@ -53,10 +53,6 @@ resource_options:
 :time-de--string:                       Minuten
 :time-de--description:                  Audiozeit
 
-// Attribute settings for section control
-//
-:ytp_video:                             false
-
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
 {% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
@@ -67,7 +63,7 @@ resource_options:
 
 // Load page attributes
 // -----------------------------------------------------------------------------
-{% include {{load_attributes}} scope="global" %}
+{% include {{load_attributes}} scope="none" %}
 
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,22 +84,13 @@ die menschliche Natur, über Gut und Böse wie über Gerechtigkeit und Rache.
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
 [role="mt-5"]
-[NOTE]
-====
-Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
-der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
-Podcasts *zwingend* erforderlich.
-====
-
-
-[role="mt-5"]
-== Detektivgeschichten
+== Romane
 
 Die Krininamfälle mit Sherlock Holmes, von Sir Arthur Conan Doyle, faszinieren
 seit über einem Jahrhundert. Sympatisch hochnäsig, *very british* und mit
 einer brillanten Kombinationsgabe gesegnet. So kennt man den Meisterdetektiv.
 
-[role="mt-4"]
+[role="mt-5"]
 === Späte Rache
 
 *Späte Rache* oder *Eine Studie in Scharlachrot* ist der erste Fall von
@@ -112,21 +99,217 @@ Hauptcharaktere, Sherlock Holmes und Dr. Watson, vorstellt, sondern auch
 die einzigartige Dynamik ihrer Beziehung wie die außergewöhnlichen
 Fähigkeiten des Meisterdetektiv *Sherlock Holmes*.
 
-Die Geschichte ist in zwei Teile gegliedert. Im ersten Teil lernt man
-Dr. Watson kennen, einen ehemaligen Militärarzt, der nach seinen
-Kriegserlebnissen in London eine neue Existenz beginnt. Durch Zufall trifft
-er auf den exzentrischen Sherlock Holmes, einen Privatdetektiv mit einer
-außergewöhnlichen Beobachtungsgabe. Gemeinsam mieten sie sich in ein Haus 
-in der *Baker Street 221b*, das fortan als Basis für ihre Ermittlungen
-dient.
+Die Geschichte ist in *mehrere Abschnitte* gegliedert. Im *ersten Abschnitt*
+(Folge 1) lernt man Dr. Watson kennen, einen ehemaligen Militärarzt, der
+nach seinen Kriegserlebnissen in London eine neue Existenz beginnt. Durch
+Zufall trifft er auf den exzentrischen Sherlock Holmes, einen Privatdetektiv
+mit einer außergewöhnlichen Beobachtungsgabe. Gemeinsam mieten sie sich ein
+Haus in der Londoner *Baker Street 221b*, das fortan als Basis für ihre
+Ermittlungen dient.
 
-Der zweite Teil führt in die Welt der Kriminalität. Ein grausamer Mord an
-einem Mann namens _Enoch J. Drebber_ erschüttert London. An der Wand des
-Tatortes ist mit *Blut* das Wort *Rache* geschrieben. Scotland Yard ist
-ratlos. Und so wird Sherlock Holmes beauftragt, den Fall zu lösen.
+Der *zweite Abschnitt* (Teile 2-4) führt in die Welt der Kriminalität. Ein
+grausamer Mord an einem Mann namens _Enoch J. Drebber_ erschüttert London.
+An der Wand des Tatortes ist mit Blut das Wort *Rache* geschrieben.
+Scotland Yard ist ratlos. Und so wird Sherlock Holmes beauftragt, den Fall
+zu lösen.
 
-[role="mt-"]
-.Detektivgeschichten · Späte Rache
+Der *dritte Abschnitt* (Teile 5+6) ist eine Rückblende und führt in die USA
+20 Jahre zurück zur Geschichte des Ermordeten und die seines Mörders. Über
+die Rückblende wird klar, um wessen *Rache* es sich handelt und wer der
+Ermordete ist.
+
+Die *letzten Episoden* (Teile 7+8) greifen die eigentliche Kriminalgeschichte
+wieder auf und der Fall wird gelöst. Mit dem Wissen aus der Rückblende wird
+klar um welche Rache es sich handelt, wer _Enoch J. Drebber_ eigentlich war.
+Mit diesem Wissen kann der Hörer erleben, welche besonderen Fähigkeiten
+Sherlock Holmes besitzt und wie er diese zur Lösung von Krininalfällen nutzt.
+
+Viel Spaß beim Zuhören.
+
+
+[role="mt-4"]
+[[spaete-rache-player]]
+=== Player
+
+Im Player finden Sie alle Folgen des Hörspiels. Es werden alle Episoden
+automatisch nacheinander abgespielt. Über die Bedienelemente des Players können
+einzelne Folgen ausgewählt werden. *Innerhalb* einer Folge kann vor- und
+zurückgesprungen werden, falls man einen bestimmten Abschnitt nocheinmal hören
+oder überspringen möchte.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
+Podcasts *zwingend* erforderlich.
+====
+
+[role="mt-5 mb-5"]
+.Späte Rache · Von Sir Arthur Conan Doyle, gelesen von Michael Müller
 amplitude::spaete_rache_large[role="mt-4 mb-5"]
 
+
+[role="mt-5"]
+== Kurzgeschichten
+
+Die Kurzgeschichten um Sherlock Holmes bieten eine große Vielfalt an Fällen,
+die von einfachen Diebstählen bis hin zu Verschwörungen reichen. Die
+Geschichten um Sherlock Holmes sind ein Klassiker der Kriminalliteratur
+und bieten sowohl Unterhaltung als auch Denkanstöße.
+
+Sie sind eine Hommage an die menschliche Intelligenz und die *Faszination* für
+*das Rätselhafte*.
+
+
+[role="mt-4"]
+=== Das getupfte Band
+
+_Helen Stoner_ wendet sich verzweifelt an Sherlock Holmes und Dr. Watson.
+Sie lebt in einem *alten Herrenhaus* mit ihrem *Stiefvater*, _Dr. Roylott_,
+einem exzentrischen Mann mit einer dunklen Vergangenheit. Helen fürchtet
+um ihr Leben, da sie *seltsame Geräusche* hört und glaubt, dass sie das
+gleiche Schicksal ereilen könnte wie ihrer *Zwillingsschwester*, die kurz
+*vor ihrer Hochzeit* unter mysteriösen Umständen *starb*.
+
+Holmes und Watson reisen zu *Stoke Moran*, dem Anwesen von _Dr. Roylott_.
+Dort entdecken sie zahlreiche Ungereimtheiten: ein seltsames Pfeifen in
+der Nacht, ein verschlossener Lüftungsschacht zwischen Helens Zimmer und
+dem Zimmer ihres Stiefvaters und ein altes indisches Trommelchen.
+
+Holmes vermutet, dass _Dr. Roylott_ ein *tödliches Geheimnis verbirgt* und
+_Helen Stoner_ bedroht. Er stellt eine Verbindung zwischen den merkwürdigen
+*Geräuschen* und dem *Tod der Zwillingsschwester* her. In einer dramatischen
+nächtlichen Beobachtung stellen Holmes und Watson eine Falle.
+
+Als _Dr. Roylott_ versucht, Helen zu töten, wird er von seinem eigenen
+tödlichen Trick überrascht ...
+
+
+[role="mt-4"]
+=== Das Landhaus in Hampshire
+
+Im Zentrum der Handlung steht das junge *Kindermädchen* _Violet Hunter_,
+die um Holmes' Hilfe bittet. Sie arbeitet im *Landhaus Copper Beeches*
+in Hampshire, doch ihre Anstellung ist mit *seltsamen Bedingungen* verbunden:
+Sie muss ihre langen Haare abschneiden und ein auffälliges blaues Kleid
+tragen.
+
+Die Atmosphäre im Haus ist beklemmend. Violet berichtet von einem
+geheimnisvollen Unbekannten, der um das Anwesen streift, und von dem
+eigenartigen Verhalten des Hausherrn, _Mr. Rucastle_. Als sie in einer
+Schublade einen Zopf findet, der erschreckend ihrer eigenen abgeschnittenen
+Haarpracht gleicht, wächst ihre Angst.
+
+Holmes, der stets von Rätseln fasziniert ist, nimmt den Fall an. Er schickt
+Violet zurück nach *Copper Beeches* und bittet sie, ein Telegramm zu senden,
+sobald sie in Schwierigkeiten gerät.
+
+Währenddessen beginnt er, die wenigen Informationen, die er von Violet
+erhalten hat, zu analysieren ...
+
+
+[role="mt-4"]
+=== Der Bund der Rothaarigen
+
+*Der Bund der Rothaarigen"* ist eine der berühmtesten Kurzgeschichten von
+Sir Arthur Conan Doyle, in der Sherlock Holmes seine außergewöhnlichen
+deduktiven Fähigkeiten unter Beweis stellt.
+
+Die Geschichte dreht sich um _Jabez Wilson_, einen *Pfandleiher* mit
+auffälligem *rotem Haar*. Eines Tages wird er von seinem Angestellten auf
+eine ungewöhnliche Anzeige aufmerksam gemacht: Gesucht wird ein rothaariger
+Mann für einen lukrativen Job in der sogenannten *Liga der Rothaarigen*.
+Wilson bewirbt sich und wird tatsächlich angenommen. Seine Aufgabe besteht
+darin, acht Stunden täglich in einem abgelegenen Raum zu sitzen und zu
+kopieren.
+
+Nach einigen Wochen wird die Liga plötzlich aufgelöst und Wilson steht vor
+einem Rätsel. Er wendet sich an Sherlock Holmes, der schnell erkennt, dass
+hinter dem vermeintlichen Club ein *ausgeklügelter Plan steckt*.
+
+Die Kurzgeschichte ist ein klassisches Sherlock-Holmes-Kriminalstück, die den
+Hörer mit ihrer cleveren Auflösung überrascht. Sie zeigt, wie der berühmte
+Detektiv auch scheinbar *unscheinbare Fälle* in *spannende Abenteuer*
+verwandelt ...
+
+
+[role="mt-4"]
+=== Silberstrahl
+
+Sherlock Holmes und Dr. Watson werden in ein mysteriöses Geschehen verwickelt,
+das sich in der rauen Landschaft von *Dartmoor* abspielt. Das Verschwinden des
+schnellsten Rennpferdes Englands, des *Silberstrahls*, und der darauf folgende
+*Mord an seinem Trainer*, John Straker, werfen ihre Schatten auf die idyllische
+Moorlandschaft.
+
+Der Besitzer des Pferdes, Colonel Ross, bittet Holmes um Hilfe, um Licht in
+die dunklen Machenschaften zu bringen. Holmes und Watson reisen nach *Dartmoor*
+und beginnen ihre Ermittlungen. Schnell wird klar, dass hinter dem Verschwinden
+des Pferdes und dem Mord mehr steckt als nur ein einfacher Diebstahl. Die
+beiden Detektive stoßen auf eine Vielzahl von Verdächtigen, darunter einen
+Londoner Buchmacher und Strakers Rivalen, _Silas Brown_.
+
+Durch scharfe Beobachtungen und logische Schlussfolgerungen gelingt es Holmes,
+ein komplexes *Netz* aus Intrigen, Gier und Verrat zu entwirren. Er verfolgt
+jede noch so kleine Spur, analysiert die Tatortbeweise und enthüllt schließlich
+die wahre Identität des Täters.
+
+Holmes' brillante Fähigkeit, aus kleinsten Details große Zusammenhänge zu
+erkennen, stehen im Mittelpunkt der Handlung. Die Geschichte ist voller
+Spannung und Wendungen, die den Hörer bis zur letzten Sekunde fesseln ...
+
+
+[role="mt-4"]
+[[skandalgeschichte-im-fuerstentum-o]]
+=== Skandalgeschichte im Fürstentum O
+
+In dieser Erzählung wird Sherlock Holmes von einem hochrangigen Besucher
+aufgesucht: *einem König*. Dieser steht vor einem großen Problem: Ein
+kompromittierendes Foto, das ihn mit einer *ehemaligen Geliebten*, der
+mysteriösen _Irene Adler_, zeigt, könnte seine geplante *Verlobung* mit einer
+*Prinzessin* zunichtemachen.
+
+Holmes nimmt den Fall an und beginnt seine Ermittlungen. Er verfolgt dabei
+eine einzige Spur: _Irene Adler_. Die Frau, die sich als weitaus klüger und
+entschlossener erweist als erwartet.
+
+Es entwickelt sich ein spannendes Katz-und-Maus-Spiel zwischen Holmes und
+Adler. Holmes versucht, das Foto zurückzugewinnen, während Adler alles daran
+setzt, es zu schützen. Dabei zeigt sich, dass Adler nicht nur schön, sondern
+auch äußerst intelligent und unabhängig ist.
+
+Die Geschichte nimmt eine unerwartete Wendung, als Holmes schließlich Adler
+findet. In einem cleveren Schachzug gelingt es ihm, das Foto zu beschaffen.
+Doch statt es seinem Auftraggeber zu übergeben, zerstört Holmes es. Er erkennt,
+dass Adler ein Recht auf ihr Privatleben hat und dass das Foto für sie von
+unschätzbarem Wert ist.
+
+Die *Skandalgeschichte im Fürstentum O* ist mehr als nur ein Detektivfall.
+Sie ist eine Geschichte über Macht, Liebe, Ehre und die Bedeutung von
+Privatsphäre. Sie ist ein Klassiker der Literatur und hat bis heute nichts
+von ihrer Faszination verloren.
+
+
+[role="mt-4"]
+[[kurzgeschichten-player]]
+=== Player
+
+Im Player finden Sie alle Folgen der Hörspiele. Es werden alle Episoden
+automatisch nacheinander abgespielt. Über die Bedienelemente des Players können
+einzelne Folgen ausgewählt werden. *Innerhalb* einer Folge kann vor- und
+zurückgesprungen werden, falls man einen bestimmten Abschnitt nocheinmal hören
+oder überspringen möchte.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
+Podcasts *zwingend* erforderlich.
+====
+
+[role="mt-5 mb-5"]
+.Kurzgeschichten · Von Sir Arthur Conan Doyle, gelesen von Regina Münch
+amplitude::kurzgeschichten_large[role="mt-4 mb-5"]
 

@@ -356,8 +356,9 @@ resources:
       data:
         css:                            [
                                           core/css/themes/unolight/bootstrap,
-                                          core/css/icon-fonts/mdib,
                                           core/css/icon-fonts/fontawesome,
+                                          core/css/icon-fonts/mdib,
+                                          
                                           core/css/vendor
                                         ]
         files:                          [ adapter/js/j1.js ]
@@ -806,7 +807,7 @@ resources:
       pass_init_data:                   false
 
       data:
-        css:                            []
+        css:                            [ modules/rtable/css/theme/uno/rtable ]
         files:                          [ adapter/js/rtable.js ]
         js:                             [ modules/rtable/js/rtable ]
         init_function:                  [ j1.adapter.rtable.init ]
@@ -1328,17 +1329,19 @@ resources:
                                           modules/videojs/css/themes/sea,
                                           modules/videojs/css/themes/uno
                                         ]
-        files:                          []
+        files:                          [ adapter/js/videojs.js ]
         js:                             [
                                           modules/videojs/js/video,
+                                          modules/videojs/js/plugins/controls/autocaption/autocaption,
                                           modules/videojs/js/plugins/controls/hotkeys/hotkeys,
                                           modules/videojs/js/plugins/controls/skipbuttons/skipbuttons,
                                           modules/videojs/js/plugins/controls/zoom/zoom,
                                           modules/videojs/js/plugins/players/dm/dailymotion,
+                                          modules/videojs/js/plugins/players/wt/wistia,
                                           modules/videojs/js/plugins/players/vm/vimeo,
                                           modules/videojs/js/plugins/players/yt/youtube
                                         ]
-        init_function:                  []
+        init_function:                  [ j1.adapter.videojs.init]
 
   # ----------------------------------------------------------------------------
   # TikToc Player, Version v1.0.11
@@ -1919,24 +1922,55 @@ resources:
         init_function:                  [ j1.adapter.amplitude.init ]
 
   # ----------------------------------------------------------------------------
-  # jqueryScrollbar
+  # Swiper
   #
-  - name:                               J1 jqueryScrollbar
+  - name:                               SwiperJS
     resource:
-      enabled:                          false
+      enabled:                          true
 
-      id:                               scrollbars
-      comment:                          Module jqueryScrollbar
+      id:                               swiper
+      comment:                          Module Swiper
       region:                           body-footer
       layout:                           [ home, page, post ]
-      required:                         always
+      required:                         ondemand
       script_load:                      defer
       pass_init_data:                   false
 
       data:
-        css:                            [ modules/jqueryScrollbar/css/scrollbar ]
-        files:                          []
-        js:                             [ modules/jqueryScrollbar/js/scrollbar ]
+        css:                            [
+                                          modules/swiper/css/theme/uno,
+                                          modules/swiper/css/swiper-bundle
+                                        ]
+        files:                          [ adapter/js/swiper.js ]
+        js:                             [ modules/swiper/js/swiper-bundle ]
+        init_function:                  [ j1.adapter.swiper.init ]
+
+  # ----------------------------------------------------------------------------
+  # Photoswipe Lightbox
+  #
+  - name:                               Photoswipe
+    resource:
+      enabled:                          true
+
+      id:                               photoswipe
+      comment:                          Module Photoswipe
+      region:                           body-footer
+      layout:                           [ home, page, post ]
+      required:                         ondemand
+      script_load:                      defer
+      pass_init_data:                   false
+
+      data:
+        css:                            [
+                                          modules/photoswipe/css/photoswipe,
+                                          modules/photoswipe/css/photoswipe-caption-plugin,
+                                        ]
+        files:                          [
+                                          modules/photoswipe/js/photoswipe-core.min.js,
+                                          modules/photoswipe/js/photoswipe-lightbox.min.js,
+                                          modules/photoswipe/js/photoswipe-caption-plugin.min.js
+                                        ]
+        js:                             []
         init_function:                  []
 
 # ------------------------------------------------------------------------------

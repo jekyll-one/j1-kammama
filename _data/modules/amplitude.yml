@@ -1010,22 +1010,23 @@ settings:
           duration:                     "01:19:16"
 
     # --------------------------------------------------------------------------
-    #  Sherlock Holmes
+    #  Sherlock Holmes, Späte Rache
     # --------------------------------------------------------------------------
     #
     - playlist:
       enabled:                          true
 
-      name:                             sherlock_holmes_wdr_5
+      name:                             sherlock_holmes_spaete_rache
       title:                            Sherlock Holmes
 
       # ------------------------------------------------------------------------
       # ALBUM settings
       # ------------------------------------------------------------------------
-      album:                            &album_sherlock_holmes_wdr_5
+      album:                            &album_sherlock_holmes_spaete_rache
         name:                           Sherlock Holmes
-        artist:                         Detektivgeschichten WDR 5
+        artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
+        audio_info:                     //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/sherlock-holmes-114.html
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
 
       # ------------------------------------------------------------------------
@@ -1036,74 +1037,284 @@ settings:
         # title 01
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E01 Späte Rache · Folge 1
           audio:                        303/3038838/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge1_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-1/wdr-5/12976955/
-          duration:                     "00:26:40"
+          duration:                     "26:40"
   
         # title 02
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E02 Späte Rache · Folge 2
           audio:                        303/3038841/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge2_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-2/wdr-5/12976959/
-          duration:                     "00:35:23"  
+          duration:                     "35:23"  
   
         # title 03
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E03 Späte Rache · Folge 3
           audio:                        303/3038842/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge3_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-3/wdr-5/12976963/
-          duration:                     "00:30:18"  
+          duration:                     "30:18"  
 
         # title 04
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E04 Späte Rache · Folge 4
           audio:                        303/3038843/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge4_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-4/wdr-5/12976967/
-          duration:                     "00:39:03"
+          duration:                     "39:03"
   
         # title 05
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E05 Späte Rache · Folge 5
           audio:                        303/3038846/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge5_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-2/wdr-5/12976959/
-          duration:                     "00:40:35"  
+          duration:                     "40:35"  
   
         # title 06
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E06 Späte Rache · Folge 6
           audio:                        303/3038850/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge6_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-6/wdr-5/12976989/
-          duration:                     "00:35:50"  
+          duration:                     "35:50"  
 
         # title 07
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E07 Späte Rache · Folge 7
           audio:                        303/3038852/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge7_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-7/wdr-5/12976993/
-          duration:                     "00:28:44"  
+          duration:                     "28:44"  
   
         # title 08
         - item:
           enabled:                      true
-          <<:                           *album_sherlock_holmes_wdr_5
+          <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E08 Späte Rache · Folge 8
           audio:                        303/3038854/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge8_wdr5.mp3
-          audio_info:                   //ardaudiothek.de/episode/wdr-5-sherlock-holmes-detektivgeschichten-hoerbuch/spaete-rache-folge-8/wdr-5/12976999/
-          duration:                     "00:33:55"  
+          duration:                     "33:55"  
+
+
+    # --------------------------------------------------------------------------
+    #  Sherlock Holmes, Kurzgeschichten
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             sherlock_holmes_kurzgeschichten
+      title:                            Sherlock Holmes
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_sherlock_holmes_kurzgeschichten
+        name:                           Sherlock Holmes
+        artist:                         WDR 5 Lies mir was vor
+        audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
+        audio_info:                     //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/sherlock-holmes-114.html
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E01 Das getupfte Band · Folge 1
+          audio:                        303/3038120/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_dasgetupftebandteil12_wdr5.mp3
+          duration:                     "34:24"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E02 Das getupfte Band · Folge 2
+          audio:                        303/3038119/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_dasgetupftebandteil22_wdr5.mp3
+          duration:                     "35:14"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E03 Das Landhaus in Hampshire · Folge 1
+          audio:                        303/3038136/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_daslandhausinhampshireteil12_wdr5.mp3
+          duration:                     "26:41"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E04 Das Landhaus in Hampshire · Folge 2
+          audio:                        303/3038139/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_daslandhausinhampshireteil22_wdr5.mp3
+          duration:                     "37:17"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E05 Der Bund der Rothaarigen · Folge 1
+          audio:                        303/3038113/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_derbundderrothaarigenteil12_wdr5.mp3
+          duration:                     "29:34"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E06 Der Bund der Rothaarigen · Folge 2
+          audio:                        303/3038115/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_derbundderrothaarigenteil22_wdr5.mp3
+          duration:                     "25:57"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E07 Silberstrahl · Folge 1
+          audio:                        303/3038131/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_silberstrahlteil12_wdr5.mp3
+          duration:                     "37:22"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E08 Silberstrahl · Folge 2
+          audio:                        303/3038132/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_silberstrahlteil22_wdr5.mp3
+          duration:                     "27:34"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E09 Skandalgeschichte im Fürstentum O  · Folge 1
+          audio:                        303/3038044/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_skandalgeschichteimfuerstentumoteil12_wdr5.mp3
+          duration:                     "24:14"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_sherlock_holmes_kurzgeschichten
+          title:                        23E10 Skandalgeschichte im Fürstentum O  · Folge 2
+          audio:                        303/3038045/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_skandalgeschichteimfuerstentumoteil22_wdr5.mp3					
+          duration:                     "32:57"
+
+
+    # --------------------------------------------------------------------------
+    #  WDR 5 Das Gespenst von Canterville
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             das_gespenst_von_canterville
+      title:                            Komödie von Oscar Wilde
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_gespenst_von_canterville
+        name:                           Komödie von Oscar Wilde
+        artist:                         WDR 5 Lies mir was vor
+        audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
+        audio_info:                     //ardaudiothek.de/sendung/wdr-5-das-gespenst-von-canterville-hoerbuch/12823543/
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:173867dc06bdb893?w=448&ch=6cd67a7b15b148fe
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_gespenst_von_canterville
+          title:                        23E01 Das Gespenst von Canterville · Folge 1
+          audio:                        301/3016847/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge1_wdr5.mp3
+          duration:                     "17:13"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_gespenst_von_canterville
+          title:                        23E02 Das Gespenst von Canterville · Folge 2
+          audio:                        301/3016848/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge2_wdr5.mp3
+          duration:                     "13:07"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_gespenst_von_canterville
+          title:                        23E03 Das Gespenst von Canterville · Folge 3
+          audio:                        301/3016849/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge3_wdr5.mp3
+          duration:                     "19:59"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_gespenst_von_canterville
+          title:                        23E04 Das Gespenst von Canterville · Folge 4
+          audio:                        301/3016850/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge4_wdr5.mp3
+          duration:                     "13:18"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_gespenst_von_canterville
+          title:                        23E05 Das Gespenst von Canterville · Folge 5
+          audio:                        301/3016851/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge5_wdr5.mp3
+          duration:                     "21:31"
+
+
+    # --------------------------------------------------------------------------
+    #  WDR 5 Das Paradies der Damen
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             paradies_der_damen
+      title:                            Roman von Emile Zolas
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_paradies_der_damen
+        name:                           Roman von Emile Zolas
+        artist:                         WDR 5 Hörbuch
+        audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
+        audio_info:                     //ardaudiothek.de/sendung/wdr-5-das-paradies-der-damen-hoerbuch/10378063/
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:552e4077b13dfb54?w=448&ch=72a75b44642fc04a
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E01 Das Paradies der Damen · Folge 1
+          audio:                        269/2696983/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge1_wdr5.mp3
+          duration:                     "22:06"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E02 Das Paradies der Damen · Folge 2
+          audio:                        269/2696984/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge2_wdr5.mp3
+          duration:                     "27:31"
+
+
+
+
 
 
   # ============================================================================
@@ -1351,8 +1562,9 @@ settings:
         audio_info:                     true
         audio_rating:                   true     
 
+
     # --------------------------------------------------------------------------
-    # Sherlock Holmes, LARGE player
+    # Sherlock Holmes, Späte Rache, LARGE player
     # --------------------------------------------------------------------------
     #
     - player:
@@ -1363,7 +1575,7 @@ settings:
       enabled:                          true
       id:                               spaete_rache_large
       type:                             large
-      display_hours:                    true
+#     display_hours:                    false
 
       # ------------------------------------------------------------------------
       # CONTROL settings
@@ -1378,10 +1590,108 @@ settings:
       # PLAYLIST settings
       #
       playlist:
-        name:                           sherlock_holmes_wdr_5
-        title:                          Sherlock Holmes
+        name:                           sherlock_holmes_spaete_rache
+        title:                          Sir Arthur Conan Doyle
         audio_info:                     true
-        audio_rating:                   true
+        audio_rating:                   false
+
+    # --------------------------------------------------------------------------
+    # Sherlock Holmes, Kurzgeschichten, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               kurzgeschichten_large
+      type:                             large
+#     display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           sherlock_holmes_kurzgeschichten
+        title:                          Sir Arthur Conan Doyle
+        audio_info:                     true
+        audio_rating:                   false
+
+
+    # --------------------------------------------------------------------------
+    # Das Gespenst von Canterville, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               gespenst_von_canterville_large
+      type:                             large
+#     display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           das_gespenst_von_canterville
+        title:                          Komödie von Oscar Wilde
+        audio_info:                     true
+        audio_rating:                   false
+
+
+    # --------------------------------------------------------------------------
+    # Das Paradies der Damen, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               paradies_der_damen_large
+      type:                             large
+#     display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           paradies_der_damen
+        title:                          Roman von Emile Zolas
+        audio_info:                     true
+        audio_rating:                   false
 
 # ------------------------------------------------------------------------------
 # END config

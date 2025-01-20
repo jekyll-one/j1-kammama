@@ -1,0 +1,360 @@
+---
+title:                                  Das Paradies der Damen
+tagline:                                Roman von Emile Zolas
+
+date:                                   2025-01-18
+#last_modified:                         2025-01-18
+
+description: >
+                                        Ein Klassiker der Weltliteratur: "Das Paradies der Damen".
+                                        Emile Zolas Roman entführt in ein Pariser Modewarenhaus,
+                                        in die Salons der reichen Kundschaft und in die Kammern
+                                        der kleinen Angestellten. Der Roman spielt im Paris
+                                        des 19. Jahrhunderts und handelt von den Auswirkungen des
+                                        Aufstiegs großer Kaufhäuser auf kleine Einzelhändler wie
+                                        dem sozialen Gefüge der Gesellschaft seiner Zeit.
+
+keywords: >
+                                        WDR 5, Emile Zolas, Das Paradies der Damen,
+                                        Roman, Hörbuch
+
+categories:                             [ Audio ]
+tags:                                   [ Hörbuch, Das Paradies der Damen ]
+
+image:
+  path:                                 //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/kaufhaus-vintage-100~_v-gseapremiumxl.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/audio/radioplay/paradies_der_damen/
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+#     opacity:                          0.5
+      padding_top:                      550
+      slides:
+        - url:                          //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/kaufhaus-vintage-100~_v-gseapremiumxl.jpg
+          alt:                          Das Paradies der Damen    
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:time-num--string:                      15+
+:time-de--string:                       Minuten
+:time-de--description:                  Audiozeit
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="none" %}
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Ein Klassiker der Weltliteratur: "Das Paradies der Damen". Emile Zolas Roman
+entführt in ein Pariser Modewarenhaus, in die Salons der reichen Kundschaft
+und in die Kammern der kleinen Angestellten. Der Roman spielt im Paris des
+19. Jahrhunderts und handelt von den Auswirkungen des Aufstiegs großer
+Kaufhäuser auf kleine Einzelhändler wie dem sozialen Gefüge der Gesellschaft
+seiner Zeit.
+
+[subs=attributes]
+++++
+<div class="video-title">
+  <i class="mdi mdi-gray mdi-clock-time-five-outline mdi-24px mr-2"></i>
+  {time-num--string} {time-de--string} {time-de--description}
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Handlung
+
+Emile Zolas begann am 28. Mai 1882 mit der Niederschrift und beendete sie am
+25. Januar 1883. Kurz danach erschien das Buch bei Charpentier in 60.000
+Exemplaren nach dem üblichen, diesmal nicht sehr erfolgreichen Vorabdruck
+im Gil Blas, der vom 17. Dezember 1882 bis zum 1. März 1883 erfolgte.
+
+Anhand der Geschichte der Protagonistin Denise, einer Verkäuferin, die aus der
+Provinz nach Paris kommt und im Paradies der Damen eine Anstellung findet,
+wird das Wachstum und die Struktur dieses Kaufhauses und gleichzeitig der
+Niedergang des kleingewerblichen Einzelhandels eines kompletten Pariser
+Stadtviertels beschrieben. Die im Roman auftauchenden Figuren sind aktiv
+oder passiv mit dem expandierenden Kaufhaus verbunden - als Mitarbeiter,
+Käufer oder anliegender Einzelhändler. Besonderes Augenmerk findet neben
+der Verkäuferin Denise der Inhaber des Kaufhauses, Octave Mouret, und
+dessen Leben in der feinen Pariser Gesellschaft sowie seine Geschäftspraktiken.
+
+Vorbild für diese Romanfigur waren der Unternehmer Auguste Hériot, der das
+Pariser Kaufhaus Grands Magasins du Louvre begründete, sowie Aristide
+Boucicaut, der Gründer des Le Bon Marché.
+
+Um den Kampf des kleinen Einzelhändlers gegen das aufkommende Großwarenhaus
+darzustellen, betrieb Zola gewohntermaßen umfangreiche betriebswirtschaftliche
+und soziologische Studien; er interviewte Geschäftsführer, Abteilungsleiter
+und Verkäuferinnen der genannten Warenhäuser. Sein fiktives Riesenwarenhaus
+sollte ein ideales Beispiel darstellen, deshalb nahm er sich bei dessen
+Beschreibung die Verwaltung des Unternehmens Le Bon Marché zum Vorbild,
+während ihm das Kaufhaus Grands Magasins du Louvre zwar schlechter organisiert,
+in der Warenpräsentation aber überlegen erschien.
+
+Das Manuskript von Emile Zolas 380 Seiten starke Dokumentation wird
+in der Pariser Nationalbibliothek aufbewahrt und steht als Download oder
+transkribiert in den „Carnets d'enquêtes“ von Henri Mitterand zur Verfügung.
+Sie beschreibt bereits moderne Marketingstrategien wie zum Beispiel den
+Einsatz von Lockartikeln, die zum Einstandspreis verkauft werden, und das
+Verteilen von Firmenluftballons an Kinder, die somit zu Reklameträgern
+gemacht werden.
+
+Der Autororin gelingt es, schon durch die Beschreibung der Fassade des
+Kaufhauses beim Leser die Neugier auf das Innere zu wecken. Zola eröffnet
+Einblicke in die Lebensverhältnisse der Kaufhausangestellten seiner Zeit
+und legt dar, wie die Kunden bzw. hauptsächlich Kundinnen zum Kaufen verführt
+werden.
+
+Die Schriftstellerin zeichnet in ihrem Roman einerseits ein naturalistisches
+Bild der Gepflogenheiten und Arbeitsverhältnisse der Mittelschicht im
+Frankreich des ausgehenden 19. Jahrhunderts. Andererseits baut sie fantastische
+Elemente ein, so wird die Mode als Vampir metaphorisiert, der die Kundinnen
+lockt und verführt.
+
+Im Hinblick auf die Rolle der Frau ist der Roman modern. Einerseits erscheint
+das Kaufhaus als Ort, wo Kundinnen ihren Fantasien und Impulsen nachgehen
+können, andererseits bietet das Kaufhaus für die Angestellten die Möglichkeit
+der finanziellen Unabhängigkeit.
+
+[role="mt-4"]
+== Berufe und Gehälter
+
+Das Gehalt einer Verkäuferin im Pariser Kaufhaus Le Bon Marché im Jahr 1880
+hing von verschiedenen Faktoren ab, wie z. B.:
+
+[cols="4,8a", subs=+macros, options="header", width="100%", role="rtable mt-4 mb-4"]
+|===
+|Faktoren |Beschreibung
+
+|*Berufserfahrung*
+|Verkäuferinnen mit mehr Erfahrung verdienten in der Regel mehr
+als Neueinsteigerinnen.
+
+|*Qualifikationen*
+|Verkäuferinnen mit besonderen Fähigkeiten, wie z. B. Fremdsprachenkenntnissen
+oder Erfahrung im Umgang mit Kunden, konnten ein höheres Gehalt erwarten.
+
+|*Position*
+|Verkäufer*innen in leitenden Positionen, wie z. B.  Abteilungsleiter*innen,
+verdienten mehr als Verkäuferinnen an der Front.
+
+|===
+
+Basierend auf historischen Quellen lässt sich schätzen, dass das monatliche
+Gehalt einer Verkäuferin im Le Bon Marché im Jahr 1880 zwischen 50 und 150
+französischen Francs lag.
+
+[cols="4,8a", subs=+macros, options="header", width="100%", role="rtable mt-4 mb-4"]
+|===
+|Bezahlung |Beschreibung
+
+|*Niedriglohn*
+|*50 Francs* pro Monat entsprachen etwa dem Existenzminimum für eine einzelne
+Person.
+
+|*Durchschnittliches Gehalt*
+|*100 Francs* pro Monat ermöglichten einen bescheidenen Lebensstandard.
+
+|*Hohes Gehalt*
+|*150 Francs* pro Monat und mehr galten als gut bezahlt und ermöglichten
+einen komfortablen Lebensstandard.
+
+|===
+
+Neben dem monatlichen Gehalt erhielten Verkäuferinnen im Le Bon Marché
+häufig zusätzliche Leistungen, wie beispielsweise:
+
+[cols="4,8a", subs=+macros, options="header", width="100%", role="rtable mt-4 mb-4"]
+|===
+|Leistungen |Beschreibung
+
+|*Kost und Logis*
+|In einigen Fällen stellte das Kaufhaus den Verkäuferinnen Unterkunft und
+Verpflegung zur Verfügung.
+
+|*Krankengeld*
+|Das Kaufhaus unterstützte Verkäuferinnen im Falle von Krankheit oder
+Arbeitsunfähigkeit.
+
+|*Altersvorsorge*
+|Das Kaufhaus bot den Verkäuferinnen in einigen Fällen eine betriebliche
+Altersvorsorge an.
+
+|===
+
+Um das Gehalt einer Verkäuferin im Jahr 1880 in heutige Euro umzurechnen,
+muss man die Inflation berücksichtigen. Der heutige Wert von *100 Francs*
+aus dem Jahr 1880 entspricht heute in etwa *1.500 €*.
+
+[role="mt-4 mb-5"]
+[CAUTION]
+====
+Es ist wichtig zu beachten, dass die oben genannten Gehälter nur Richtwerte
+sind. Die tatsächlichen Gehälter können von diesen Angaben abweichen.
+====
+
+[role="mt-5"]
+== Figuren/Charaktere
+
+Der Roman ist komplex und eine ganze Reihe von Personen spielen hier eine
+Rolle. Da nicht jeder ein Gedächtniskünstler was Name und Personen betrifft,
+hier die wichtigsten Charaktere des Romans.
+
+[cols="4,8a", subs=+macros, options="header", width="100%", role="rtable mt-4 mb-4"]
+|===
+|Figur |Beschreibung
+
+|_Denise Baudu_
+|Eine junge Provinzlerin, die nach Paris kommt, um Arbeit zu finden. Sie ist
+die Hauptprotagonistin des Romans.
+                        
+|_Genevieve Baudu_
+|Kusine von Denise. Für Genevieve ist seit 10 Jahren eine Heirat mit
+Colomban geplant, wird aber aus wirtschaftlichen Gründen des Vaters
+(Tuchwarenhändler) immer wieder verschoben.
+
+|_Pépé_ \| _Jean Baudu_
+|Denises jüngere Brüder.
+
+|_Familie Baudu_
+|Denises Eltern und Geschwister. Sie leben in der Provinz und sind besorgt
+um Denises Wohlergehen. Onkel Baudu in Paris ist Tuchwarenhändler der als
+Einzelhändler in Konkurrenz zu "Paradies der Damen" unter hohen
+wirtschaftlichen Druck gerät.
+
+|_Familie Robineau_
+|Famile des Schirmhändlers und bekannt mit der Familie Baudu, dem
+Tuchwarenhändler. Das Haus und der gemietete Laden von Robineau grenzt
+an das *Paradies der Damen* und soll für Erweiterungen des Kaufhauses
+aufgekauft werden. Robineau wehrt sich nack Kräften in einem erbittertem
+Kampf gegen die Übernahme, obwohl die finanziellen Angebote zur Aufgabe
+des laufenden Mietvertrags von noch 10 Jahren aufzugeben enorm hoch
+sind.
+
+|_Pauline_
+|Denises enge Freundin und Kollegin. Pauline ist eine gutmütige junge Frau.
+
+|_Deloche_
+|_Denise Baudu_ trifft _Deloche_ am ersten Tag der Vorstellung als Mitarbeiter
+im *Paradies der Damen*. Er wird als Verkäufer in der Konfektionsabteilung
+angenommen. Im Laufe der Zeit ist Deloche unglückich verliebt in _Denise Baudu_,
+die ihm jedoch ihre Kameradschaft versichert.
+
+|_Favier_
+|Verkäufer in der Konfektionsabteilung des *Paradies der Damen*.
+
+|_Hutin_
+|Zweiter Verkäufer der Konfektionsabteilung des *Paradies der Damen*.
+
+|_Claire Prunaire_
+|Verkäuferin im *Paradies der Damen*, die um die Aufmerksamkeit von
+_Octave Mouret_ buhlt und in Konkurrenz zu _Frau Desforges_ eine der
+Geliebten von Mouret wird. _Colomban_ liebt _Claire_, jedoch chancenlos.
+Oobwohl er gleichzeitig seit Jahren eine Heirat mit _Genevieve Baudu _
+geplant ist.
+
+|_Octave Mouret_
+|*Besitzer* des Kaufhauses *Das Paradies der Damen*. Er ist ein skrupelloser
+Geschäftsmann, der keine Skrupel hat, um seine Ziele zu erreichen. _Mouret_
+ist ein Frauenheld und hat eine komplexe Beziehung zu _Denise_.
+
+|_Inspektor Jouve_
+|(Haus-)Detektiv im *Paradies der Damen*.
+
+|_Baron von Hartmann_
+|Immobilienbanker, der die Liegenschaften in der Straße des *Das Paradies der Damen*
+aufkauft.
+
+|_Bouthemont_
+|Mitarbeiter und *Teilhaber* am Kaufhaus *Das Paradies der Damen*.
+
+|_Henriette Desforges_
+|*Witwe eines Börsenspekulanten* und heimliche *Geliebte* von _Octave Mouret_.
+
+|_Madame Aurélie_
+|Leiterin der Damenabteilung. _Madame Aurélie_ ist eine strenge und unnahbare
+Frau. Sie verschafft ihrem Sohn die Stellung des Hauptkassierers von Kasse 10.
+
+|_Bourdoncle_
+|*Stellvertreter* von _Octave Mouret_.
+
+|_Colomban_
+|*Chef der Etage*. _Colomban_ ist ein korpulenter, jovialer junger Mann.
+Eine Heirat mit _Genevieve Baudu_ ist geplant.
+
+|_Frau von Boves_
+|*Prominente Kundin* des Kaufhauses *Paradies der Damen*.
+
+|_Madame de Bovary_
+|*Prominente Kundin* des Kaufhauses *Paradies der Damen*. Sie ist eine elegante
+und reiche Frau, die unglücklich in ihrer Ehe ist und im Kaufhaus Ablenkung
+sucht.
+
+|_Marguerite_
+|Haushälterin von _Octave Mouret_. _Marguerite_ ist eine treue und loyale
+Dienerin.
+
+|_Theodore_
+|*Sohn* von _Octave Mouret_ und seiner *ersten Frau*. _Theodore_ ist ein
+kränkliches und sensibles Kind.
+
+|_Jean de Joigny_
+|Junger Mann, der sich in _Denise_ verliebt. _Jean_ ist ein idealistischer
+und unkonventioneller Künstler. Er steht in Konkurrenz zu _Octave Mouret_.
+
+|_Paul von Vallagnosc_
+|*Jugendfreund* von _Octave Mouret_.
+
+|_Bourras_
+|*Alter Verkäufer* im Kaufhaus, der die Veränderungen im Einzelhandel kritisch
+betrachtet und nostalgisch nach den alten Tagen des Kleinhändlers ist.
+
+|===
+
+
+[role="mt-5"]
+== Player
+
+Im Player finden Sie alle Folgen des Hörspiels. Es werden alle Episoden
+automatisch nacheinander abgespielt. Über die Bedienelemente des Players können
+einzelne Folgen ausgewählt werden. *Innerhalb* einer Folge kann vor- und
+zurückgesprungen werden, falls man einen bestimmten Abschnitt nocheinmal hören
+oder überspringen möchte.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
+Podcasts *zwingend* erforderlich.
+====
+
+[role="mt-5 mb-5"]
+.Das Paradies der Damen · Von Emile Zolas, gelesen von Regina Münch
+amplitude::paradies_der_damen_large[role="mt-4 mb-5"]
+
+

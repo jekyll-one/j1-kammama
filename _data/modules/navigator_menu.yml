@@ -50,13 +50,35 @@
       icon:                             volume-high
       dropdown:
 
-        - title:                        Sherlock Holmes
-          href:                         /pages/public/audio/radioplay/sherlock_holmes/
-          icon:                         ear-hearing
+      - title:                          Literatur
+        icon:                           bookshelf
+        dropdown:
 
-        - title:                        Mimi Rutherfurt
-          href:                         /pages/public/audio/radioplay/mimi-rutherfurt/
-          icon:                         ear-hearing
+          - title:                      Das Paradies der Damen
+            href:                       /pages/public/audio/radioplay/paradies_der_damen/
+            icon:                       ear-hearing   
+
+      - title:                          Comedy
+        icon:                           emoticon-excited-outline
+        dropdown:
+
+          - title:                      Das Gespenst von Canterville
+            href:                       /pages/public/audio/radioplay/gespenst_von_canterville/
+            icon:                       ear-hearing        
+
+      - title:                          Crime
+        icon:                           pistol
+        dropdown:
+
+          - title:                      Sherlock Holmes
+            href:                       /pages/public/audio/radioplay/sherlock_holmes/
+            icon:                       ear-hearing
+
+          - title:                      Mimi Rutherfurt
+            href:                       /pages/public/audio/radioplay/mimi-rutherfurt/
+            icon:                       ear-hearing
+
+
 
 # ------------------------------------------------------------------------------
 # Menu Video

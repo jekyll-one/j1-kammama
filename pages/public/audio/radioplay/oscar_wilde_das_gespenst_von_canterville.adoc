@@ -1,0 +1,168 @@
+---
+title:                                  Das Gespenst von Canterville
+tagline:                                Komödie von Oscar Wilde
+
+date:                                   2025-01-18
+#last_modified:                         2025-01-18
+
+description: >
+                                        Komödie von Oscar Wilde. Als eine amerikanische Familie
+                                        das englische Schloss Canterville bezieht, gruseln sich
+                                        nicht die Menschen - sondern das im Schloss ansässige Gespenst.
+
+keywords: >
+                                        WDR 5, Oscar Wilde, Das Gespenst von Canterville,
+                                        Komödie, Hörbuch
+
+categories:                             [ Audio ]
+tags:                                   [ Hörbuch, Das Gespenst von Canterville ]
+
+image:
+  path:                                 //www.schauspiel-leipzig.de/content-images/image720/d6f522366427f4716c81829d004295ba/9436/das_gespenst_von_canterville_18.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/audio/radioplay/gespenst_von_canterville/
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+#     opacity:                          0.5
+      padding_top:                      550
+      slides:
+        - url:                          //www.schauspiel-leipzig.de/content-images/image720/d6f522366427f4716c81829d004295ba/9436/das_gespenst_von_canterville_18.jpg
+          alt:                          Detektivgeschichten
+
+          badge:
+            type:                       unsplash
+            author:                     Schauspiel Leipzig
+            href:                       //www.schauspiel-leipzig.de      
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:time-num--string:                      15+
+:time-de--string:                       Minuten
+:time-de--description:                  Audiozeit
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// //www1.wdr.de/mediathek/audio/sendereihen-bilder/wdr5-sendereiehenbild-100~_v-gseagaleriexl.jpg
+// //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
+// //api.ardmediathek.de/image-service/images/u…:image:039bd92f77079adb?w=448&ch=8c8f80ac5b8bf57a
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="none" %}
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Komödie von Oscar Wilde. Als eine amerikanische Familie das englische
+Schloss Canterville bezieht, gruseln sich nicht die Menschen - sondern
+das im Schloss ansässige Gespenst.
+
+[subs=attributes]
+++++
+<div class="video-title">
+  <i class="mdi mdi-gray mdi-clock-time-five-outline mdi-24px mr-2"></i>
+  {time-num--string} {time-de--string} {time-de--description}
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Das Gespenst von Canterville
+
+Der amerikanische Botschafter Hiram B. Otis zieht mit seiner Familie in das
+Schloss Canterville ein, das er trotz der Warnungen vor einem Gespenst gekauft
+hat. Bei dem Gespenst handelt es sich um einen Vorfahren der Cantervilles,
+Sir Simon, der vor etwa 300 Jahren seine Frau umgebracht hat und zur Strafe
+für diesen Mord nach dem Tod keine Ruhe finden kann. Dieses Familiengespenst
+soll für zahlreiche Nervenzusammenbrüche oder Todesfälle früherer Besitzer
+verantwortlich sein.
+
+Kurz nach dem Einzug gibt es Anzeichen, die auf einen Poltergeist hinweisen,
+aber die pragmatische amerikanische Familie lässt sich nicht einschüchtern
+und zeigt sich von den seltsamen Vorkommnissen vollkommen unbeeindruckt.
+Auch ein sich immer wieder erneuernder Blutfleck auf dem Fußboden und
+Donnerschläge zu den ungünstigsten Zeitpunkten können die Familie nicht
+erschrecken. Stattdessen kämpft sie gegen jegliche Spukversuche des
+spukenden „Sir Simon“ mit modernen Hilfsmitteln an. Die erste Begegnung
+des Gespenstes mit der Familie endet damit, dass es von dem Botschafter
+aufgefordert wird, seine störend rasselnden Ketten mit Aurora-Schmieröl
+einzufetten, und von den jungen Zwillingssöhnen mit Kopfkissen beworfen
+wird.
+
+Auch später gelingt es dem Gespenst nicht, die Familie zu erschrecken.
+Stattdessen verletzt es sich beim Versuch, die eigene Ritterrüstung anzulegen,
+wonach Mrs. Otis dem Gespenst eine Medizin anbietet. Später stolpert es über
+von den Zwillingen gespannte Fäden, rutscht auf deren Butterfallen aus,
+wird selbst von einer Gespensterattrappe erschreckt und, als es die Tür
+zum Schlafzimmer der Zwillinge aufstößt, mit einem Krug Wasser übergossen.
+
+Eines Tages kommt die jugendliche Tochter Virginia von einem Ausritt zurück,
+bei dem ihr Kleid zerrissen ist. Sie betritt das Schloss durch den Hintereingang
+und sieht im Gobelinzimmer jemanden, den sie für eine der Zofen ihrer Mutter
+hält. In der Hoffnung, diese könne ihr das Kleid ausbessern, betritt sie den
+Raum, erkennt jedoch das Gespenst, das traurig die herabfallenden Blätter
+betrachtet.
+
+Sie beschließt, es zu trösten, und spricht es an. Das Gespenst ist erstaunt
+über den Mut des Mädchens, beginnt aber ein Gespräch mit Virginia. Im Laufe
+dessen begreift sie nun das alte Gedicht „Wenn’s ein güldne Maid vollbringt,
+Sündenmund zum Beten zwingt, wenn die tote Mandel sprießt, Kindes
+Mitleidsträne fließt: endlich wird’s im Haus dann still, Friede wohnt in
+Canterville“, wonach es des Gebetes eines unschuldigen Kindes bedarf, um
+das Gespenst zu erlösen und es seine letzte Ruhe finden zu lassen. Furchtlos
+begleitet sie den Geist, um ihm zu helfen.
+
+Als Virginia nicht zum Abendessen erscheint, beginnt eine aufgeregte Suche
+nach dem Mädchen. Der Verdacht, einige Zigeuner hätten es entführt, bestätigt
+sich nicht. Mr. Otis und Herzog Cecil, der Virginia verehrt, suchen die Gegend
+ab, die übrigen Familienmitglieder das Schloss. Am späten Abend gibt die
+Familie die Suche auf.
+
+Um Punkt Mitternacht kommt Virginia mit einem Donnerschlag zurück, mit einem
+Kästchen wertvollen Schmucks, den ihr das Gespenst aus Dankbarkeit überlassen
+hat. Die Gebeine des Gespenstes werden beerdigt, Virginia darf den Schmuck
+behalten und heiratet ihren Verehrer, den Herzog Cecil.
+
+
+[role="mt-5"]
+=== Player
+
+Im Player finden Sie alle Folgen des Hörspiels. Es werden alle Episoden
+automatisch nacheinander abgespielt. Über die Bedienelemente des Players können
+einzelne Folgen ausgewählt werden. *Innerhalb* einer Folge kann vor- und
+zurückgesprungen werden, falls man einen bestimmten Abschnitt nocheinmal hören
+oder überspringen möchte.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
+Podcasts *zwingend* erforderlich.
+====
+
+[role="mt-5 mb-5"]
+.Das Gespenst von Canterville· Von Oscar Wilde, gelesen von Benno Schulz
+amplitude::gespenst_von_canterville_large[role="mt-4 mb-5"]
+
+
