@@ -91,14 +91,13 @@ Lady Rutherfurt wird von _Gisela Fritsch_ verkörpert; sie verstarb in Jahr 2013
 Seit Folge 37 spricht _Ingrid Stein_ die Stimme von Mimi Rutherfurt.
 
 [role="mt-4 mb-4"]
-[TIP]
+[NOTE]
 ====
-Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
-der Plattform
-https://www.youtube.com/watch?v=qEhzpBJpUq0&list=PLLsYXB2u7E7CjL97CTVUnJl4WY3ws6Ptj[YouTube, {browser-window--new}]
-(Playlist) geladen. Eine Internetverbindung zum Hören der Hörspiele ist daher
-*zwingend* erforderlich.
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Folgen direkt über
+das Angebot der Plattform link:https://youtube.com/[YouTube, {browser-window--new}].
+Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
 ====
+
 
 [role="mt-5"]
 == Episoden

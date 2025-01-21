@@ -56,7 +56,7 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
-:time-num--string:                      15+
+:time-num--string:                      60+
 :time-de--string:                       Minuten
 :time-de--description:                  Audiozeit
 
@@ -89,140 +89,65 @@ seiner Zeit.
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
 [role="mt-5"]
-== Handlung
+== Über den Autor
 
-Emile Zolas begann am 28. Mai 1882 mit der Niederschrift und beendete sie am
-25. Januar 1883. Kurz danach erschien das Buch bei Charpentier in 60.000
-Exemplaren nach dem üblichen, diesmal nicht sehr erfolgreichen Vorabdruck
-im Gil Blas, der vom 17. Dezember 1882 bis zum 1. März 1883 erfolgte.
+_Émile Zola_ war ein französischer Schriftsteller und Journalist, 1840 in
+Paris geboren und verstarb dort 1902. Bevor er sich ganz der Literatur widmete,
+arbeitete er als *Journalist* und *Kunstkritiker*. In dieser Zeit setzte er
+sich für die Impressionisten ein, insbesondere für den Maler _Édouard Manet_.
 
-Anhand der Geschichte der Protagonistin Denise, einer Verkäuferin, die aus der
-Provinz nach Paris kommt und im Paradies der Damen eine Anstellung findet,
-wird das Wachstum und die Struktur dieses Kaufhauses und gleichzeitig der
-Niedergang des kleingewerblichen Einzelhandels eines kompletten Pariser
-Stadtviertels beschrieben. Die im Roman auftauchenden Figuren sind aktiv
-oder passiv mit dem expandierenden Kaufhaus verbunden - als Mitarbeiter,
-Käufer oder anliegender Einzelhändler. Besonderes Augenmerk findet neben
-der Verkäuferin Denise der Inhaber des Kaufhauses, Octave Mouret, und
-dessen Leben in der feinen Pariser Gesellschaft sowie seine Geschäftspraktiken.
+Zola gilt als einer der bedeutendsten französischen Schriftsteller des
+19. Jahrhunderts und wird als der Hauptvertreter des *Naturalismus* und
+des *Realismus* in der Literatur gesehen.
 
-Vorbild für diese Romanfigur waren der Unternehmer Auguste Hériot, der das
-Pariser Kaufhaus Grands Magasins du Louvre begründete, sowie Aristide
-Boucicaut, der Gründer des Le Bon Marché.
+Seine Werke zeichnen sich durch eine *detaillierte Darstellung* des sozialen
+Lebens, der menschlichen Leidenschaften und der Auswirkungen von Umwelt und
+Vererbung auf den Charakter aus.
 
-Um den Kampf des kleinen Einzelhändlers gegen das aufkommende Großwarenhaus
-darzustellen, betrieb Zola gewohntermaßen umfangreiche betriebswirtschaftliche
-und soziologische Studien; er interviewte Geschäftsführer, Abteilungsleiter
-und Verkäuferinnen der genannten Warenhäuser. Sein fiktives Riesenwarenhaus
-sollte ein ideales Beispiel darstellen, deshalb nahm er sich bei dessen
-Beschreibung die Verwaltung des Unternehmens Le Bon Marché zum Vorbild,
-während ihm das Kaufhaus Grands Magasins du Louvre zwar schlechter organisiert,
-in der Warenpräsentation aber überlegen erschien.
-
-Das Manuskript von Emile Zolas 380 Seiten starke Dokumentation wird
-in der Pariser Nationalbibliothek aufbewahrt und steht als Download oder
-transkribiert in den „Carnets d'enquêtes“ von Henri Mitterand zur Verfügung.
-Sie beschreibt bereits moderne Marketingstrategien wie zum Beispiel den
-Einsatz von Lockartikeln, die zum Einstandspreis verkauft werden, und das
-Verteilen von Firmenluftballons an Kinder, die somit zu Reklameträgern
-gemacht werden.
-
-Der Autororin gelingt es, schon durch die Beschreibung der Fassade des
-Kaufhauses beim Leser die Neugier auf das Innere zu wecken. Zola eröffnet
-Einblicke in die Lebensverhältnisse der Kaufhausangestellten seiner Zeit
-und legt dar, wie die Kunden bzw. hauptsächlich Kundinnen zum Kaufen verführt
-werden.
-
-Die Schriftstellerin zeichnet in ihrem Roman einerseits ein naturalistisches
-Bild der Gepflogenheiten und Arbeitsverhältnisse der Mittelschicht im
-Frankreich des ausgehenden 19. Jahrhunderts. Andererseits baut sie fantastische
-Elemente ein, so wird die Mode als Vampir metaphorisiert, der die Kundinnen
-lockt und verführt.
-
-Im Hinblick auf die Rolle der Frau ist der Roman modern. Einerseits erscheint
-das Kaufhaus als Ort, wo Kundinnen ihren Fantasien und Impulsen nachgehen
-können, andererseits bietet das Kaufhaus für die Angestellten die Möglichkeit
-der finanziellen Unabhängigkeit.
-
-[role="mt-4"]
-== Berufe und Gehälter
-
-Das Gehalt einer Verkäuferin im Pariser Kaufhaus Le Bon Marché im Jahr 1880
-hing von verschiedenen Faktoren ab, wie z. B.:
-
-[cols="4,8a", subs=+macros, options="header", width="100%", role="rtable mt-4 mb-4"]
-|===
-|Faktoren |Beschreibung
-
-|*Berufserfahrung*
-|Verkäuferinnen mit mehr Erfahrung verdienten in der Regel mehr
-als Neueinsteigerinnen.
-
-|*Qualifikationen*
-|Verkäuferinnen mit besonderen Fähigkeiten, wie z. B. Fremdsprachenkenntnissen
-oder Erfahrung im Umgang mit Kunden, konnten ein höheres Gehalt erwarten.
-
-|*Position*
-|Verkäufer*innen in leitenden Positionen, wie z. B.  Abteilungsleiter*innen,
-verdienten mehr als Verkäuferinnen an der Front.
-
-|===
-
-Basierend auf historischen Quellen lässt sich schätzen, dass das monatliche
-Gehalt einer Verkäuferin im Le Bon Marché im Jahr 1880 zwischen 50 und 150
-französischen Francs lag.
-
-[cols="4,8a", subs=+macros, options="header", width="100%", role="rtable mt-4 mb-4"]
-|===
-|Bezahlung |Beschreibung
-
-|*Niedriglohn*
-|*50 Francs* pro Monat entsprachen etwa dem Existenzminimum für eine einzelne
-Person.
-
-|*Durchschnittliches Gehalt*
-|*100 Francs* pro Monat ermöglichten einen bescheidenen Lebensstandard.
-
-|*Hohes Gehalt*
-|*150 Francs* pro Monat und mehr galten als gut bezahlt und ermöglichten
-einen komfortablen Lebensstandard.
-
-|===
-
-Neben dem monatlichen Gehalt erhielten Verkäuferinnen im Le Bon Marché
-häufig zusätzliche Leistungen, wie beispielsweise:
-
-[cols="4,8a", subs=+macros, options="header", width="100%", role="rtable mt-4 mb-4"]
-|===
-|Leistungen |Beschreibung
-
-|*Kost und Logis*
-|In einigen Fällen stellte das Kaufhaus den Verkäuferinnen Unterkunft und
-Verpflegung zur Verfügung.
-
-|*Krankengeld*
-|Das Kaufhaus unterstützte Verkäuferinnen im Falle von Krankheit oder
-Arbeitsunfähigkeit.
-
-|*Altersvorsorge*
-|Das Kaufhaus bot den Verkäuferinnen in einigen Fällen eine betriebliche
-Altersvorsorge an.
-
-|===
-
-Um das Gehalt einer Verkäuferin im Jahr 1880 in heutige Euro umzurechnen,
-muss man die Inflation berücksichtigen. Der heutige Wert von *100 Francs*
-aus dem Jahr 1880 entspricht heute in etwa *1.500 €*.
-
-[role="mt-4 mb-5"]
-[CAUTION]
-====
-Es ist wichtig zu beachten, dass die oben genannten Gehälter nur Richtwerte
-sind. Die tatsächlichen Gehälter können von diesen Angaben abweichen.
-====
 
 [role="mt-5"]
-== Figuren/Charaktere
+== Über den Roman
+
+Zolas Roman _Das Paradies der Damen_, Original: _Le Bonheur des Dames_,
+erschien 1882 und bietet einen faszinierenden Einblick in das Paris des
+späten 19. Jahrhunderts. Genauer gesagt in die Zeit der aufstrebenden
+*Kaufhauskultur*. Zola zeichnet ein detailreiches Bild der sozialen und
+wirtschaftlichen Veränderungen, die mit dem Aufstieg großer Warenhäuser
+einhergingen.
+
+Im Roman wird der Inhaber des Kaufhauses _Octave Mouret_ und dessen Leben in
+der feinen Pariser Gesellschaft sowie seine Geschäftspraktiken thematisiert.
+Vorbilder für diese Romanfigur waren der Unternehmer _Auguste Hériot_, der
+das Pariser Kaufhaus _Grands Magasins du Louvre_ gründete, sowie _Aristide Boucicaut_,
+der Gründer des _Le Bon Marché_.
+
+Weiter wird die Geschichte von _Denise Baudu_ erzählt, einer jungen Frau aus
+der Provinz, die nach den Tode der Eltern mit ihren kleineren Brüdern
+_Pépé_ und _Jean_ nach Paris zieht um Arbeit zu finden. Zunächst sucht sie
+ihren Onkel auf, der als *Tuchwarenhändler* in der Stadt lebt. Doch der Onkel
+ist als Einzelhändler in Konkurrenz zum *Paradies der Damen* unter hohen
+wirtschaftlichen Druck geraten, und kann Denise keine Stellung anbieten.
+
+Sie findet eine Anstellung im großen Kaufhaus *Paradies der Damen*, das immer
+mächtiger wird und die kleinen Geschäfte in der Umgebung in den Ruin treibt.
+_Denise_ steigt in der Hierarchie des Kaufhauses auf und wird Zeugin der
+harten Arbeitsbedingungen der Verkäuferinnen, der Konkurrenz unter den
+Angestellten und der skrupellosen Geschäftspraktiken des Besitzers
+Octave Mouret. Mouret ist ein charismatischer und ehrgeiziger Mann, der
+sein Kaufhaus zu einem wahren Imperium ausbaut.
+
+Die Liebe von _Denise_ zu _Octave Moure_ verkompliziert ihr Handeln, da _Denise_
+zwischen ihren eigenen Ambitionen und ihrer Zuneigung zu ihm hin- und
+hergerissen ist.
+
+*Das Paradies der Damen* ist mehr als nur ein Roman über ein Kaufhaus. Zola
+liefert eine sozialkritische Analyse der modernen Gesellschaft und ihrer
+Widersprüche. Sein Werk gilt als eines der bedeutendsten Werke des Naturalismus
+und hat die Literatur und das gesellschaftliche Denken nachhaltig beeinflusst.
+
+
+[role="mt-5"]
+=== Charaktere des Romans
 
 Der Roman ist komplex und eine ganze Reihe von Personen spielen hier eine
 Rolle. Da nicht jeder ein Gedächtniskünstler was Name und Personen betrifft,
@@ -352,9 +277,9 @@ oder überspringen möchte.
 [role="mt-4 mb-5"]
 [NOTE]
 ====
-Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
-der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
-Podcasts *zwingend* erforderlich.
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Folgen direkt
+über das Angebot der link:https://www.ardaudiothek.de/[ARD Audiothek, {browser-window--new}].
+Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
 ====
 
 [role="mt-5 mb-5"]

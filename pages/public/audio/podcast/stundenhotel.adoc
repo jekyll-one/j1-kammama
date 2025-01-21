@@ -1,7 +1,6 @@
 ---
 title:                                  Stundenhotel
-tagline:                                Satire Podcast mit Dietmar Wischmeyer
-
+tagline:                                Satire Podcast
 date:                                   2024-09-10
 #last_modified:                         2024-09-10
 
@@ -35,11 +34,16 @@ permalink:                              /pages/public/audio/podcast/stundenhotel
 resources:                              [ amplitudejs, videojs ]
 resource_options:
   - attic:
-#     opacity:                          0.5
+      opacity:                          0.8
       padding_top:                      550
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/stundenhotel.jpg
+        - url:                          //api.ardmediathek.de/image-service/images/urn:ard:image:505bdf228e6943b9?w=448&ch=aa6f24c2e7cf8b36
           alt:                          stundenhotel
+          badge:
+            type:                       unsplash
+            author:                     Bremen 2
+            href:                       //ardaudiothek.de/sendung/wischmeyers-stundenhotel/59505860/
+
 ---
 
 // Page Initializer
@@ -53,10 +57,6 @@ resource_options:
 :time-num--string:                      60+
 :time-de--string:                       Minuten
 :time-de--description:                  Audiozeit
-
-// Attribute settings for section control
-//
-:ytp_video:                             false
 
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
@@ -78,11 +78,6 @@ Spontan und teils mit harten Pointen.
 
 [subs=attributes]
 ++++
-<!-- div class="video-title">
-  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
-  60+ Minuten Audiozeit
-</div -->
-
 <div class="video-title">
   <i class="mdi mdi-gray mdi-clock-time-five-outline mdi-24px mr-2"></i>
   {time-num--string} {time-de--string} {time-de--description}
@@ -92,40 +87,26 @@ Spontan und teils mit harten Pointen.
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
 [role="mt-5"]
-[NOTE]
-====
-Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
-der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
-Podcasts *zwingend* erforderlich.
-====
-
-
-// Mit seiner satirischen Radiokolumne Wischmeyers Schwarzbuch ist er wöchentlich auf radioeins zu hören.
-
-[role="mt-5"]
 == Episoden
 
-_Dietmar Wischmeyer_ bezeichnet sich selbst als B-Promi und findet das gut und
-richtig so. Dennoch werden sehr viele Menschen in Deutschanld Wischmeyer
-kennen. Einer großen Fernsehöffentlichkeit ist er mit Beiträgen zu der Rubrik
-*Logbuch der Bekloppten und Bescheuerten* in der *ZDF-Heute Show* bekannt
-geworden.
+_Dietmar Wischmeyer_ bezeichnet sich selbst als B-Promi und findet das gut
+und richtig so. Dennoch werden sehr viele Menschen in Deutschanld Wischmeyer
+kennen. Einer großen Fernsehöffentlichkeit ist er mit Beiträgen zur Rubrik
+link:https://www.youtube.com/watch?v=KBNqwb1TqMw/[Logbuch der Bekloppten und Bescheuerten, {browser-window--new}]
+der
+link:https://www.zdf.de/comedy/heute-show/[ZDF-Heute Show, {browser-window--new}]
+bekannt geworden.
 
 Promi-Podcasts können so eine Sache sein. Glühende Verehrer*innen eines Promis
-werden wahrschinlich die jeweiligen Podcasts sehr mögen - für alle anderen nicht
-unbedingt.
+werden wahrschinlich die jeweiligen Podcasts sehr mögen - für alle anderen
+nicht unbedingt.
 
 Dietmar Wischmeyer ist ein kluger Kopf - jedoch mit recht ausgeprägten Attitüde
 eines Intellektuellen. Er hält sein Wissen noch seine persönliche Meinung
 hinter dem Berg. So manche werden ihn als Klugscheisser empfinden und seine
 Ansichten nicht unbedingt teilen.
 
-ifeval::[{ytp_video} == true]
-.Wischmeyers Logbuch der Bekloppten und Bescheuerten · Die 12 Verlorenen
-youtube::1j8ScJPL6Uw[poster="/assets/video/poster/youtube/wischmeyers-logbuch.jpg" role="mt-4 mb-5"]
-endif::[]
-
-Die Besonderheit an diesen Promi-Podcast ist der **Dauer-Gast** _Tina Voß_,
+Die Besonderheit an diesen Promi-Podcast ist der *Dauer-Gast* _Tina Voß_,
 die sich in jeder Folge tapfer den Kommentaren und Bemerkungen Wischmeyer's
 zum jeweiligen Thema stellt.
 
@@ -136,7 +117,7 @@ Wortgefechte.
 Ein Thema ist in jedem Podcast Programm: *Untenrum*. Zwischenmenschliches von
 Frauen und Männern, Norddeutsch das *Wemsen*, findet immer seinen Platz.
 
-[role="mt-4"]
+[role="mt-4 mb-5"]
 [TIP]
 ====
 Es erscheint in der *ersten Woche jeden Monats* eine neue Folge. Der Tag des
@@ -144,11 +125,18 @@ neuen Podcasts ist unbekannt. Der genaue Tag wird von einem einäugigen
 Blinden mit runden Würfeln ermittelt: Das kann schon mal etwas brauchen.
 ====
 
-
 [role="mt-5"]
 === 2025
 
 Im Player sind alle Episoden verfügbar, die im *Jahr 2025* produziert wurden.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Folgen direkt
+über das Angebot der link:https://www.ardaudiothek.de/[ARD Audiothek, {browser-window--new}].
+Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
+====
 
 .Stundenhotel 2025
 amplitude::stundenhotel_2025_large[role="mt-4 mb-5"]
@@ -160,6 +148,14 @@ amplitude::stundenhotel_2025_large[role="mt-4 mb-5"]
 Im Player sind alle Episoden verfügbar, die im *Jahr 2024* produziert wurden.
 Episonen aus voherigen Jahren findedt man in den folgenden Abschnitten.
 
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Folgen direkt
+über das Angebot der link:https://www.ardaudiothek.de/[ARD Audiothek, {browser-window--new}].
+Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
+====
+
 .Stundenhotel 2024
 amplitude::stundenhotel_2024_large[role="mt-4 mb-5"]
 
@@ -168,6 +164,14 @@ amplitude::stundenhotel_2024_large[role="mt-4 mb-5"]
 === 2023
 
 Im Player sind alle Episoden verfügbar, die im *Jahr 2023* produziert wurden.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Folgen direkt
+über das Angebot der link:https://www.ardaudiothek.de/[ARD Audiothek, {browser-window--new}].
+Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
+====
 
 .Stundenhotel 2023
 amplitude::stundenhotel_2023_large[role="mt-4 mb-8"]

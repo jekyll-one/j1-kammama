@@ -155,9 +155,9 @@ oder überspringen möchte.
 [role="mt-4 mb-5"]
 [NOTE]
 ====
-Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
-der _ARD Mediathek_ geladen. Daher ist eine Internetverbindung zum Hören des
-Podcasts *zwingend* erforderlich.
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Folgen direkt
+über das Angebot der link:https://www.ardaudiothek.de/[ARD Audiothek, {browser-window--new}].
+Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
 ====
 
 [role="mt-5 mb-5"]

@@ -133,8 +133,8 @@ und liegen zu lassen um mit Ralf für eine Stunde zu quatschen.
 ====
 Aus Gründen des *Urheberschutzes*, lädt der Audio Player alle Folgen über
 das Angebot der https://earlystudios.com/[Early Studios, {browser-window--new}],
-die den Podcast produziert. Zum Hören der Episoden ist eine Internetverbindung
-zwingend *erforderlich*.
+die den Podcast produziert. Daher ist eine Internetverbindung zum Hören
+*zwingend* erforderlich.
 
 Es erscheint jeweils an *Donnerstagen* in *jeder Woche* eine neue Folge.
 ====
