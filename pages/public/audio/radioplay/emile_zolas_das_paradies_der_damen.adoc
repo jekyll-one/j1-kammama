@@ -37,11 +37,15 @@ permalink:                              /pages/public/audio/radioplay/paradies_d
 resources:                              [ amplitudejs ]
 resource_options:
   - attic:
-#     opacity:                          0.5
+      opacity:                          .8
       padding_top:                      550
       slides:
         - url:                          //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/kaufhaus-vintage-100~_v-gseapremiumxl.jpg
-          alt:                          Das Paradies der Damen    
+          alt:                          Das Paradies der Damen
+          badge:
+            type:                       unsplash
+            author:                     WDR 5
+            href:                       //ardaudiothek.de/sendung/wdr-5-das-paradies-der-damen-hoerbuch/10378063/
 ---
 
 // Page Initializer
@@ -62,7 +66,7 @@ resource_options:
 
 // Load page attributes
 // -----------------------------------------------------------------------------
-{% include {{load_attributes}} scope="none" %}
+{% include {{load_attributes}} scope="global" %}
 
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

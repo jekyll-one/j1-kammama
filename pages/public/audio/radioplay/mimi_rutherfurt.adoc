@@ -1,17 +1,16 @@
 ---
 title:                                  Mimi Rutherfurt
-title_extention:                        YT Video Integration
-tagline:                                YT Video Integration
+title_extention:                        Geheimnisvolle Kriminalfälle 
+tagline:                                Geheimnisvolle Kriminalfälle 
 
 date:                                   2024-09-21
 #last_modified:                         2024-01-01
 
 description: >
-                                        Die englische Lady "Mimi Rutherfurt" möchte in der britischen
-                                        Provinz eigentlich einen ruhigen Lebensabend verbringen. Doch
-                                        immer wieder schlittert sie in geheimnisvolle Kriminalfälle.
-                                        Die Fälle sind angelehnt an die Romane der legendären
-                                        Miss Marple Reihe von Agatha Christie.
+                                        Mimi Rutherfurt, eine englische Lady, möchte in der britischen Provinz
+                                        eigentlich einen ruhigen Lebensabend verbringen. Doch immer wieder schlittert
+                                        sie in Kriminalfälle. Die Geschichten sind angelehnt an die legendären
+                                        Kriminalgeschichten von "Miss Marple" der Bestseller Autorin "Agatha Christie".
 keywords: >
                                         Hörspiel, Radioplay, Mimi Rutherfurt
 
@@ -29,26 +28,23 @@ personalization:                        true
 permalink:                              /pages/public/audio/radioplay/mimi-rutherfurt/
 
 resources:                              [ amplitudejs ]
-resource_options:
+resource_options:  
   - attic:
+      opacity:                          .8
+      padding_top:                      550
       slides:
-        - url:                          /assets/image/leute/margaret-rutherford.jpg
-          alt:                          Video Tester
+        - url:                          //bilder.deutschlandfunk.de/FI/LE/_5/02/FILE_50248b104e9d636ac7cd115f87e007b2/7062174-169-jpg-100-1920x1080.jpg
+          alt:                          Margaret Rutherford
+          badge:
+            type:                       unsplash
+            author:                     Deutschlandfunk
+            href:                       //www.deutschlandfunk.de/125-geburtstag-von-margaret-rutherford-fuer-immer-miss-100.html       
 ---
 
 // Page Initializer
 // =============================================================================
 // Enable the Liquid Preprocessor
 :page-liquid:
-
-// Attribute settings for section control
-//
-:ytp-api--description:                  false
-:ytp--example:                          false
-:ytp--audio-player:                     true
-:ms-slider-video--example:              false
-
-:manon-melodie--playlist:               //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
 
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
@@ -68,10 +64,8 @@ resource_options:
 [role="dropcap"]
 Mimi Rutherfurt, eine englische Lady, möchte in der britischen Provinz
 eigentlich einen ruhigen Lebensabend verbringen. Doch immer wieder schlittert
-sie in geheimnisvolle Kriminalfälle hinein.
-
-Die Geschichten sind angelehnt an die Fälle der legendären _Miss Marple_-Reihe
-von _Agatha Christie_.
+sie in Kriminalfälle. Die Geschichten sind angelehnt an die legendären
+Kriminalgeschichten von "Miss Marple" der Bestseller Autorin "Agatha Christie".
 
 ++++
 <div class="video-title">

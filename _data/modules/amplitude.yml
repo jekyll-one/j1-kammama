@@ -1144,7 +1144,7 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_sherlock_holmes_kurzgeschichten
-          title:                        23E03 Das Landhaus in Hampshire · Folge 1
+          title:                        23E03 Das Landhaus in Hampshire · Folge 3
           audio:                        303/3038136/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_daslandhausinhampshireteil12_wdr5.mp3
           duration:                     "26:41"
 
@@ -1312,9 +1312,229 @@ settings:
           audio:                        269/2696984/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge2_wdr5.mp3
           duration:                     "27:31"
 
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E03 Das Paradies der Damen · Folge 3
+          audio:                        269/2696985/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge3_wdr5.mp3
+          duration:                     "29:52"
 
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E04 Das Paradies der Damen · Folge 4
+          audio:                        269/2696986/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge4_wdr5.mp3
+          duration:                     "30:21"
 
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E05 Das Paradies der Damen · Folge 5
+          audio:                        269/2696987/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge5_wdr5.mp3
+          duration:                     "24:41"
 
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E06 Das Paradies der Damen · Folge 6
+          audio:                        269/2696988/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge6_wdr5.mp3
+          duration:                     "28:49"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E07 Das Paradies der Damen · Folge 7
+          audio:                        269/2696991/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge7_wdr5.mp3
+          duration:                     "25:05"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E08 Das Paradies der Damen · Folge 8
+          audio:                        269/2696990/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge8_wdr5.mp3
+          duration:                     "19:26"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E09 Das Paradies der Damen · Folge 9
+          audio:                        269/2696989/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge9_wdr5.mp3
+          duration:                     "19:30"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E10 Das Paradies der Damen · Folge 10
+          audio:                        269/2696993/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge10_wdr5.mp3
+          duration:                     "36:42"
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E11 Das Paradies der Damen · Folge 11
+          audio:                        269/2696994/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge11_wdr5.mp3
+          duration:                     "33:01"
+
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E12 Das Paradies der Damen · Folge 12
+          audio:                        269/2696995/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge12_wdr5.mp3
+          duration:                     "30:04"
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E13 Das Paradies der Damen · Folge 13
+          audio:                        269/2696997/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge13_wdr5.mp3
+          duration:                     "23:41"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E14 Das Paradies der Damen · Folge 14
+          audio:                        269/2697000/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge14_wdr5.mp3
+          duration:                     "30:37"
+
+        # title 15
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E15 Das Paradies der Damen · Folge 15
+          audio:                        269/2697001/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge15_wdr5.mp3
+          duration:                     "23:20"
+
+        # title 16
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E16 Das Paradies der Damen · Folge 16
+          audio:                        269/2697003/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge16_wdr5.mp3
+          duration:                     "19:58"
+
+        # title 17
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E17 Das Paradies der Damen · Folge 17
+          audio:                        269/2697002/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge17_wdr5.mp3
+          duration:                     "20:33"
+
+        # title 18
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E18 Das Paradies der Damen · Folge 18
+          audio:                        269/2697004/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge18_wdr5.mp3
+          duration:                     "29:05"
+
+        # title 19
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E19 Das Paradies der Damen · Folge 19
+          audio:                        269/2697005/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge19_wdr5.mp3
+          duration:                     "30:37"
+
+        # title 20
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E20 Das Paradies der Damen · Folge 20
+          audio:                        269/2697007/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge20_wdr5.mp3
+          duration:                     "30:53"
+
+        # title 21
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E21 Das Paradies der Damen · Folge 21
+          audio:                        269/2697006/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge21_wdr5.mp3
+          duration:                     "29:28"
+
+        # title 22
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E22 Das Paradies der Damen · Folge 22
+          audio:                        269/2697008/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge22_wdr5.mp3
+          duration:                     "26:34"
+
+        # title 23
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E23 Das Paradies der Damen · Folge 23
+          audio:                        269/2697014/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge23_wdr5.mp3
+          duration:                     "22:36"
+
+        # title 24
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E24 Das Paradies der Damen · Folge 24
+          audio:                        269/2697017/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge24_wdr5.mp3
+          duration:                     "34:01"
+
+        # title 25
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E25 Das Paradies der Damen · Folge 25
+          audio:                        269/2697018/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge25_wdr5.mp3
+          duration:                     "28:02"
+
+        # title 26
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E26 Das Paradies der Damen · Folge 26
+          audio:                        269/2697052/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge26_wdr5.mp3
+          duration:                     "22:16"
+
+        # title 27
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E27 Das Paradies der Damen · Folge 27
+          audio:                        269/2697055/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge27_wdr5.mp3
+          duration:                     "22:02"
+
+        # title 28
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E28 Das Paradies der Damen · Folge 28
+          audio:                        269/2697059/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge28_wdr5.mp3
+          duration:                     "22:43"
+
+        # title 29
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E29 Das Paradies der Damen · Folge 29
+          audio:                        269/2697071/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge29_wdr5.mp3
+          duration:                     "24:20"
+
+        # title 30
+        - item:
+          enabled:                      true
+          <<:                           *album_paradies_der_damen
+          title:                        22E30 Das Paradies der Damen · Folge 30
+          audio:                        269/2697074/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge30_wdr5.mp3
+          duration:                     "25:30"
 
 
   # ============================================================================
@@ -1575,7 +1795,6 @@ settings:
       enabled:                          true
       id:                               spaete_rache_large
       type:                             large
-#     display_hours:                    false
 
       # ------------------------------------------------------------------------
       # CONTROL settings
@@ -1607,7 +1826,6 @@ settings:
       enabled:                          true
       id:                               kurzgeschichten_large
       type:                             large
-#     display_hours:                    false
 
       # ------------------------------------------------------------------------
       # CONTROL settings
@@ -1640,7 +1858,6 @@ settings:
       enabled:                          true
       id:                               gespenst_von_canterville_large
       type:                             large
-#     display_hours:                    false
 
       # ------------------------------------------------------------------------
       # CONTROL settings
@@ -1673,7 +1890,6 @@ settings:
       enabled:                          true
       id:                               paradies_der_damen_large
       type:                             large
-#     display_hours:                    false
 
       # ------------------------------------------------------------------------
       # CONTROL settings

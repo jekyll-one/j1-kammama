@@ -31,21 +31,13 @@
 - item:                                 Audio
   sublevel:
 
-    # - title:                            Player
-    #   href:                             /pages/public/audio/player
-    #   icon:                             play
+  # - title:                            Player
+  #   href:                             /pages/public/audio/player
+  #   icon:                             play
 
-    - title:                            Podcasts
-      icon:                             volume-high
-      dropdown:
-
-        - title:                        SpontanOrama
-          href:                         /pages/public/audio/podcast/spontanorama/
-          icon:                         ear-hearing
-        - title:                        Stundenhotel
-          href:                         /pages/public/audio/podcast/stundenhotel/
-          icon:                         ear-hearing
-
+      # ------------------------------------------------------------------------
+      # Hörbücher
+      #
     - title:                            Hörbücher
       icon:                             volume-high
       dropdown:
@@ -78,7 +70,19 @@
             href:                       /pages/public/audio/radioplay/mimi-rutherfurt/
             icon:                       ear-hearing
 
+      # ------------------------------------------------------------------------
+      # Podcasts
+      #
+    - title:                            Podcasts
+      icon:                             volume-high
+      dropdown:
 
+        - title:                        SpontanOrama
+          href:                         /pages/public/audio/podcast/spontanorama/
+          icon:                         ear-hearing
+        - title:                        Stundenhotel
+          href:                         /pages/public/audio/podcast/stundenhotel/
+          icon:                         ear-hearing
 
 # ------------------------------------------------------------------------------
 # Menu Video
