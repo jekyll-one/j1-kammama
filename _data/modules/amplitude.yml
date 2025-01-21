@@ -1286,7 +1286,7 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_paradies_der_damen
         name:                           Roman von Emile Zolas
-        artist:                         WDR 5 Hörbuch
+        artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //ardaudiothek.de/sendung/wdr-5-das-paradies-der-damen-hoerbuch/10378063/
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:552e4077b13dfb54?w=448&ch=72a75b44642fc04a

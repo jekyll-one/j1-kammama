@@ -161,7 +161,7 @@ Podcasts *zwingend* erforderlich.
 ====
 
 [role="mt-5 mb-5"]
-.Das Gespenst von Canterville· Von Oscar Wilde, gelesen von Benno Schulz
+.Das Gespenst von Canterville· Gelesen von Benno Schulz
 amplitude::gespenst_von_canterville_large[role="mt-4 mb-5"]
 
 

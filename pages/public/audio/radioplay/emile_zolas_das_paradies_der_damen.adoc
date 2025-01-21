@@ -358,7 +358,7 @@ Podcasts *zwingend* erforderlich.
 ====
 
 [role="mt-5 mb-5"]
-.Das Paradies der Damen · Von Emile Zolas, gelesen von Regina Münch
+.Das Paradies der Damen · Gelesen von Regina Münch
 amplitude::paradies_der_damen_large[role="mt-4 mb-5"]
 
 
