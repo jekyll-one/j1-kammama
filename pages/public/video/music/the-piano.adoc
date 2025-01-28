@@ -28,7 +28,7 @@ tts:                                    true
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
-permalink:                              /pages/public/video/show/the-piano/
+permalink:                              /pages/public/video/music/the-piano/
 
 resources:                              [ gallery, lightgallery, videojs ]
 resource_options:

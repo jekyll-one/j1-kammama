@@ -108,13 +108,20 @@
           href:                         /pages/public/video/serien/was-wir-fuerchten/
           icon:                         filmstrip
 
-    - title:                            Shows
+    - title:                            Musik
       icon:                             video
       dropdown:
 
         - title:                        The Piano
-          href:                         /pages/public/video/show/the-piano/
+          href:                         /pages/public/video/music/the-piano/
           icon:                         filmstrip
+        - title:                        TinyDesk Concerts
+          href:                         /pages/public/video/music/tinydesk-concerts/
+          icon:                         filmstrip
+
+    - title:                            Shows
+      icon:                             video
+      dropdown:
 
         - title:                        AGT & BGT
           href:                         /pages/public/video/show/xgt/

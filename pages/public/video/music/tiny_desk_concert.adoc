@@ -30,7 +30,7 @@ tts:                                    true
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
-permalink:                              /pages/public/video/show/tinydesk-concerts/
+permalink:                              /pages/public/video/music/tinydesk-concerts/
 
 resources:                              [ gallery, lightgallery, videojs ]
 resource_options:
