@@ -30,7 +30,7 @@ settings:
   playlists:
 
     # --------------------------------------------------------------------------
-    # Spontanorama 2024
+    # Spontanorama 2025
     # --------------------------------------------------------------------------
     #
     - playlist:
@@ -87,6 +87,16 @@ settings:
           audio:                        EARLYSTUDIOSGMBH8877098978.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/richtig-coole-filme-machen/id1741818812?i=1000684154944
           duration:                     "00:48:52"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E04 · Neuken in de Keuken
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH6492494961.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/neuken-in-de-keuken/id1741818812?i=1000685078158
+          duration:                     "01:01:40"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024

@@ -1,0 +1,133 @@
+---
+title:                                  TinyDesk Concerts
+tagline:                                US-Amerikanische Konzertreihe
+title_extention:                        US-Amerikanische Konzertreihe
+
+
+date:                                   2024-09-14
+#last_modified:                         2023-01-01
+
+description: >
+                                        Tiny Desk Concerts sind eine beliebte Konzertreihe des
+                                        US-amerikanischen Hörfunknetzwerks NPR, die für ihre
+                                        intime und ungezwungene Atmosphäre bekannt ist. Wie der
+                                        Name schon vermuten lässt, finden diese Konzerte an
+                                        einem ganz besonderen Ort statt: am Schreibtisch des
+                                        Radiomoderators Bob Boilen.
+
+keywords:                               Musik, Konzert, Bob Boilen, TinyDesk,
+                                        NPR
+
+categories:                             [ Video ]
+tags:                                   [ Konzert, TinyDesk ]
+
+image:
+  path:                                 /assets/image/leute/torsten-straeter.jpg
+  width:                                1280
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/show/tinydesk-concerts/
+
+resources:                              [ gallery, lightgallery, videojs ]
+resource_options:
+  - attic:
+      padding_top:                      550
+      slides:
+        - url:                          //yt3.ggpht.com/vUmgDVEv5QUWksojEiqrjEFFjDpnyd6XM7Ow8AJI0uct-Se3PLiHGqPRo03znLI8jzmz9qCHX496=s640-c-fcrop64=1,00000000ffffffff-rw-nd-v1
+          alt:                          TinyDesk Concerts
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Tiny Desk Concerts sind eine beliebte Konzertreihe des US-amerikanischen
+Hörfunknetzwerks NPR, die für ihre intime und ungezwungene Atmosphäre bekannt
+ist. Wie der Name schon vermuten lässt, finden diese Konzerte an einem ganz
+besonderen Ort statt: Am Schreibtisch des Radiomoderators Bob Boilen in seinem
+Büro bei NPR in Washington, D.C.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  15+ Minuten Videozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über die Show
+// See:
+
+Die Idee zu den Tiny Desk Concerts entstand eher zufällig. Bei einem
+Konzertbesuch während des South by Southwest Festivals im Jahr 2008 war
+die Stimmung so laut, dass Bob Boilen und sein Kollege Stephen Thompson
+der Musik kaum folgen konnten.
+
+Spontan scherzte Thompson, die Musikerin solle doch lieber in seinem Büro
+auftreten. Gesagt, getan - drei Wochen später fand das erste Tiny Desk Konzert
+statt.
+
+Warum sind Tiny Desk Concerts so beliebt? Hier einige Gründe.
+
+Authentizität::
+Die Konzerte wirken authentisch und ungekünstelt.
+
+Entdeckung neuer Musik::
+Viele Zuschauer nutzen die Tiny Desk Concerts, um neue Künstler zu entdecken.
+
+Nostalgischer Faktor::
+Die einfache und intime Atmosphäre erinnert an Hauskonzerte und weckt bei
+vielen Zuschauern nostalgische Gefühle.
+
+Vielfältige Genre::
+Von Folk und Indie über Hip-Hop und Jazz bis hin zu klassischen Klängen ist
+für jeden Musikgeschmack etwas dabei.
+
+
+[role="mt-5"]
+== Player 
+
+Die Konzertreihe hat sich im Laufe der Jahre weiterentwickelt. Während zu
+Anfang vor allem *Singer-Songwriter* auftraten, sind heute Bands und Künstler
+aus sehr *verschiedenen Genres* vertreten.
+
+Zudem haben die Tiny Desk Concerts dazu beigetragen, dass viele auch *weniger*
+bekannte Künstler eine größere Âufmerksamkeit bekommen haben.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des *Urheberschutzes*, laden die Video Player alle Beiträge über das
+Angebot von link://www.youtube.com/[Youtube, {browser-window--new}].
+Zum Abspielen der Videos ist eine Internetverbindung zwingend *erforderlich*.
+====
+
+.TinyDesk Concerts (Pop)
+gallery::tiny_desk_concerts_pop[role="mt-4 mb-8"]
+
+
+// .TinyDesk Concerts (Latin)
+// gallery::tiny_desk_concerts_latin[role="mt-4 mb-4"]

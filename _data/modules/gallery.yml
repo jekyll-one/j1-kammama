@@ -148,6 +148,169 @@ settings:
                                         </ -->
 
 
+    # --------------------------------------------------------------------------
+    # TinyDesk Concerts (Pop, YouTube)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               tiny_desk_concerts_pop
+      type:                             video
+      video:                            youtube
+      image_base_path:                  //img.youtube.com/vi
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+
+          alignThumbnails:              left
+#          addClass:                     lg-uno-thumbnails                       # customized thumbnails
+#          appendThumbnailsTo:           .lg-outer                               # required for customized thumbnails
+#          animateThumb:                 false                                   # required for customized thumbnails
+#          allowMediaOverlap:            true                                    # required for customized thumbnails
+
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+#         controls:                     1                                       # default = 0
+#         enablejsapi:                  1                                       # default = 1
+#         hl:                           en                                      # default = en
+#         loop:                         0                                       # default = 0
+          mute:                         0                                       # default = 1
+#         playsinline:                  1                                       # for mobile|iOS only
+#         wmode:                        opaque                                  # default = opaque
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        # video 1
+        - video:
+          enabled:                      true
+
+          name:                         S01DuaLipa
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=F4neLJQC1_E
+          poster_image:                 F4neLJQC1_E/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S01 · Dua Lipa (At Home)
+          description: >
+                                        <h5>S01 · Dua Lipa, Tiny Desk (At Home) </h5>
+
+        # video 2
+        - video:
+          enabled:                      true
+
+          name:                         S02DuaLipa
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=y38qQRg3UDI
+          poster_image:                 y38qQRg3UDI/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S02 · Dua Lipa (At the TinyDesk)
+          description: >
+                                        <h5>S02 · Dua Lipa (At the TinyDesk)
+
+        # video 3
+        - video:
+          enabled:                      true
+
+          name:                         S03BillieEilish
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=fOAIrUZbOwo
+          poster_image:                 fOAIrUZbOwo/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S03 · Billie Eilish (At the TinyDesk)
+          description: >
+                                        <h5>S03 · Billie Eilish (At the TinyDesk)
+
+        # video 4
+        - video:
+          enabled:                      true
+
+          name:                         S04AliciaKeys
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=uwUt1fVLb3E
+          poster_image:                 uwUt1fVLb3E/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S04 · Alicia Keys (At the TinyDesk)
+          description: >
+                                        <h5>S04 · Alicia Keys (At the TinyDesk)
+        # video 5
+        - video:
+          enabled:                      true
+
+          name:                         S05CamilaCabello
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=F7wIRxQEetc
+          poster_image:                 F7wIRxQEetc/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S05 · Camila Cabello (At Home)
+          description: >
+                                        <h5>S05 · Camila Cabello (At Home)
+
+        # video 6
+        - video:
+          enabled:                      true
+
+          name:                         S06OliviaRodrigo
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=jmh3iruf4RA
+          poster_image:                 jmh3iruf4RA/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S06 · Olivia Rodrigo (At the TinyDesk)
+          description: >
+                                        <h5>S06 · Olivia Rodrigo (At the TinyDesk)
 
     # --------------------------------------------------------------------------
     # Online VIDEO Auf Achse (YouTube)
