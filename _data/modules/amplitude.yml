@@ -1020,6 +1020,53 @@ settings:
           duration:                     "01:19:16"
 
     # --------------------------------------------------------------------------
+    #  Smooth Jazz (Dua Lipa)
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             smooth_jazz_dua_lipa_yt
+      title:                            Dua Lipa
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_smooth_jazz_dua_lipa_yt
+        name:                           Dua Lipa
+        artist:                         Smooth Jazz All Stars
+        audio_base:                     //youtube.com
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Training Season
+          audio:                        watch?v=_R0Vj2zC5VI
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/_R0Vj2zC5VI/maxresdefault.jpg
+          duration:                     "03:07"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Houdini
+          audio:                        watch?v=xlsKFDyQTJg
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/xlsKFDyQTJg/maxresdefault.jpg
+          duration:                     "02:26"
+  
+
+    # --------------------------------------------------------------------------
     #  Sherlock Holmes, Späte Rache
     # --------------------------------------------------------------------------
     #
@@ -1791,6 +1838,49 @@ settings:
         title:                          Mimi Rutherfurt
         audio_info:                     true
         audio_rating:                   true     
+
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Smooth Jazz (Dua Lipa)
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      id:                               smooth_jazz_dua_lipa_yt_large
+      type:                             large
+      source:                           video
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           smooth_jazz_dua_lipa_yt
+        title:                          Dua Lipa
+        audio_info:                     true
+        audio_rating:                   false   
 
 
     # --------------------------------------------------------------------------

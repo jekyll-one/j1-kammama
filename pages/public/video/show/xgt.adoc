@@ -73,7 +73,7 @@ BGT (Btitan's got Tatlent) und AGT (America's got Tatemt).
 [role="mt-5"]
 == Über die Show
 
-Btitan's und America’s Got Talent (Akronym: BGT/AGT) ist eine im Fernsehen
+Btitan's und America's Got Talent (Akronym: BGT/AGT) ist eine im Fernsehen
 übertragene Talentshow-Wettbewerb und Teil des von Simon Cowell gegründeten
 globalen Got-Talent-Franchise.
 
@@ -112,6 +112,9 @@ _YouTube_ geladen. Daher ist eine Internetverbindung zum Ansehen der Videos
 Das Programm wird von Fremantle USA und Syco Entertainment produziert und
 im Fernsehsender NBC ausgestrahlt.
 
+[role="mt-4"]
+=== AGT 2024
+
 Dog Dancing wird recht häufig auf der Bühne präsentiert. So präsentierte
 Adrian Stoica in der 18. Staffel von AGT seinen Hund Hurricane
 https://www.youtube.com/watch?v=ENGRnUN1UKQ)[Youtube, {browser-window--new}].
@@ -134,6 +137,19 @@ verstehen kann.
 .Sky Elements · AGT 2024 
 youtube::cN8IrZUhPtc[poster="//img.youtube.com/vi/cN8IrZUhPtc/maxresdefault.jpg" role="mt-4 mb-5"]
 
+[role="mt-4"]
+=== AGT Compilations 
+
+Auf der großen Showbühne von AGT haben über die Jahre viele Talente aus den
+USA wie auch vielen anderen Ländern ihr Können gezeigt. Was ist aus ihnen
+geworden und wie haben sie sich entwickelt?
+
+Ein schöne Zusammenfassung von bewegenden Momenten von damals und den
+Auftritten von heute zeigt das folge Video
+
+.When AGT Contestants COME BACK Years Later
+youtube::uK9OW1kVMs8[poster="//img.youtube.com/vi/uK9OW1kVMs8/maxresdefault.jpg" role="mt-4 mb-5"]
+
 
 [role="mt-5"]
 [[bgt]]
@@ -152,6 +168,10 @@ Buzzer betätigt, muss der Kandidat mit seiner Vorstellung aufhören.
 Am Schluss des Auftritts bewerten die Juroren den Kandidaten mit Ja (Yes) oder
 Nein (No). Hat der Kandidat von der Mehrheit der Juroren ein Ja bekommen, darf
 er in der nächsten Runde erneut auftreten.
+
+
+[role="mt-4"]
+=== BGT Compilations 
 
 .Gifted Kids · BGT
 youtube::npe6S1tBrYs[poster="//img.youtube.com/vi/npe6S1tBrYs/maxresdefault.jpg" role="mt-4 mb-8"]

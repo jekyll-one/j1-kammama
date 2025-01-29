@@ -1,0 +1,109 @@
+---
+title:                                  Smooth Jazz All Stars 
+title_extention:                        Bekannte Melodien
+tagline:                                Bekannte Melodien
+
+date:                                   2025-01-29
+#last_modified:                         2025-01-29
+
+description: >
+                                        Smooth Jazz All Stars sind eine lose Bezeichnung
+                                        für eine Gruppe von Musikern, die sich zusammenschließen,
+                                        um Smooth Jazz zu spielen
+keywords: >
+                                        Musik, Smooth Jazz 
+
+categories:                             [ Audio ]
+tags:                                   [ Musik, Smooth Jazz ]
+
+image:
+  path:                                 /assets/image/modules/attics/1920x1280/alice-donovan-rouse-2.jpg
+  width:                                1920
+  height:                               1280
+
+attic:                                  false
+regenerate:                             false
+personalization:                        true
+permalink:                              /pages/public/audio/music/smooth-jazz/
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+      filters:
+#       grayscale:                      0
+#       contrast:                       1
+        brightness:                     0.7  
+      padding_top:                      650
+      slides:
+        - url:                          /assets/image/modules/attics/1920x1280/alice-donovan-rouse-2.jpg
+          alt:                          alice-donovan-rouse
+          badge:
+            type:                       unsplash
+            author:                     Alice Donovan Rouse
+            href:                       https://unsplash.com/de/@alicekat
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Smooth Jazz All Stars sind eine lose Bezeichnung für eine Gruppe von Musikern,
+die sich zusammenschließen, um Smooth Jazz zu spielen.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  5+ Minuten Audiozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über Smooth Jazz
+
+Was zeichnet Smooth Jazz aus?
+
+Sanfte Melodien::
+Im Gegensatz zum traditionellen Jazz, der oft improvisierte und komplexe
+Strukturen aufweist, legt Smooth Jazz Wert auf eingängige Melodien und
+harmonische Arrangements.
+
+Entspannte Atmosphäre::
+Die Musik ist oft entspannend und lädt zum Zuhören ein.
+
+Einflüsse aus anderen Genres::
+Smooth Jazz bezieht häufig Elemente aus R&B, Funk und Pop ein.
+
+[role="mt-4 mb-5"]
+== Renditions of Dua Lipa
+
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Stücke des Albums
+direkt über das Angebot der YouTube Plattform
+link://youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM[Smooth Jazz Renditions of Dua Lipa, {browser-window--new}].
+
+Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
+====
+
+.Smooth Jazz Renditions of Dua Lipa · YouTube
+amplitude::smooth_jazz_dua_lipa_yt_large[role="mt-4 mb-8"]
+

@@ -108,5 +108,3 @@ Queen Mary und nach Stonehenge.
 
 .Mimi Rutherfurt · Maritim Verlag
 amplitude::mimi_rutherfurt_yt_large[role="mt-4 mb-8"]
-
-

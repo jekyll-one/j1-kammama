@@ -35,9 +35,20 @@
   #   href:                             /pages/public/audio/player
   #   icon:                             play
 
-      # ------------------------------------------------------------------------
-      # Hörbücher
-      #
+    # --------------------------------------------------------------------------
+    # Music
+    #
+    - title:                            Musik
+      icon:                             volume-high
+      dropdown:
+
+        - title:                        Smooth Jazz All Stars
+          href:                         /pages/public/audio/music/smooth-jazz/
+          icon:                         ear-hearing  
+
+    # --------------------------------------------------------------------------
+    # Hörbücher
+    #
     - title:                            Hörbücher
       icon:                             volume-high
       dropdown:
@@ -70,9 +81,9 @@
             href:                       /pages/public/audio/radioplay/mimi-rutherfurt/
             icon:                       ear-hearing
 
-      # ------------------------------------------------------------------------
-      # Podcasts
-      #
+    # --------------------------------------------------------------------------
+    # Podcasts
+    #
     - title:                            Podcasts
       icon:                             volume-high
       dropdown:
