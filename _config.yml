@@ -47,19 +47,19 @@
 #   values:                             development|production
 #   default:                            development
 #
-environment:                            production
+environment:                            development
 
 # version
 # ------------------------------------------------------------------------------
 # Sets the build version of the site
 #
-version:                                2024.3.17
+version:                                2024.3.18
 
 # copyright
 # ------------------------------------------------------------------------------
 # Sets the copyright info of the site
 #
-copyright:                              © 2024, 2025 J1 · Alle Rechte vorbehalten
+copyright:                              © 2023-2025 J1 · Alle Rechte vorbehalten
 
 # noscript
 # ------------------------------------------------------------------------------
@@ -308,9 +308,8 @@ permalink:                              pretty
 #
 # NOTE: Required setting for the sitemap plugin, for example.
 # ------------------------------------------------------------------------------
-
-# url:                                  http://localhost:16000
-url:                                    https://kammama.jekyll.one/
+url:                                    http://localhost:16000
+# url:                                  https://kammama.jekyll.one/
 
 # The subpath of your site, e.g. /blog/. Used in conjunction with
 # site.url (see above) when you want a link to something with the

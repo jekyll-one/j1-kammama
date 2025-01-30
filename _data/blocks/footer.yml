@@ -98,7 +98,7 @@ settings:
               enabled:                  true
 
               type:                     copyright
-              statement:                © 2024, 2025 Lanus.tech · Ale Rechte vorbehalten
+              statement:                © 2023-2025 Lanus.tech · Ale Rechte vorbehalten
               translate_statement:      notranslate                             # translate|notranslate
               href:                     /pages/public/legal/de/copyright/
 

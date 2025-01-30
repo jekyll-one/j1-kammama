@@ -53,13 +53,13 @@ environment:                            production
 # ------------------------------------------------------------------------------
 # Sets the build version of the site
 #
-version:                                2024.3.17
+version:                                2024.3.18
 
 # copyright
 # ------------------------------------------------------------------------------
 # Sets the copyright info of the site
 #
-copyright:                              © 2024, 2025 J1 · Alle Rechte vorbehalten
+copyright:                              © 2023-2025 J1 · Alle Rechte vorbehalten
 
 # noscript
 # ------------------------------------------------------------------------------
