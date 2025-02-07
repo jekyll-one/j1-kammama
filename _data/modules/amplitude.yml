@@ -98,6 +98,26 @@ settings:
           audio_info:                   //podcasts.apple.com/de/podcast/neuken-in-de-keuken/id1741818812?i=1000685078158
           duration:                     "01:01:40"
 
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E05 · Frech nach vorne
+          rating:                       4
+          audio:                        EARLYSTUDIOSGMBH5400109086.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/frech-nach-vorne/id1741818812?i=1000686905111
+          duration:                     "01:02:40"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E06 · Schrott of the Day
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH1913495758.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/schrott-of-the-day/id1741818812?i=1000689463568
+          duration:                     "00:47:52"
+
     # --------------------------------------------------------------------------
     # Spontanorama 2024
     # --------------------------------------------------------------------------
@@ -516,7 +536,6 @@ settings:
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=448&ch=29c7745bfd759a36 # /assets/audio/cover/stundenhotel/2023/S23E14.jpg
           duration:                     "02:03:29"
 
-
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel 2023
     # --------------------------------------------------------------------------
@@ -848,7 +867,6 @@ settings:
           cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E12.jpg
           duration:                     "01:14:58"
 
-
     # --------------------------------------------------------------------------
     #  Wischmeyers Stundenhotel 2025
     # --------------------------------------------------------------------------
@@ -884,6 +902,16 @@ settings:
           cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E13.jpg
           duration:                     "02:02:48"
 
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2025
+          title:                        25E02 · Mach's mir von vorne 2025
+          rating:                       3
+          audio:                        clips/148/148251/148251_00578272_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-vorne-2025/bremen-zwei/14099723/
+          cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
+          duration:                     "02:16:28"
 
     # --------------------------------------------------------------------------
     #  Mimi Rutherfurt, Maritim Verlag
@@ -1065,6 +1093,137 @@ settings:
           cover_image:                  //img.youtube.com/vi/xlsKFDyQTJg/maxresdefault.jpg
           duration:                     "02:26"
   
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        One Kiss
+          audio:                        watch?v=cclphGPeYn0
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/cclphGPeYn0/maxresdefault.jpg
+          duration:                     "03:28"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        New Rules
+          audio:                        watch?v=e_oPuubdNWg
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/e_oPuubdNWg/maxresdefault.jpg
+          duration:                     "03:14"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Illusion
+          audio:                        watch?v=1u4WmO5puh0
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/1u4WmO5puh0/maxresdefault.jpg
+          duration:                     "03:14"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Scared to Be Lonely
+          audio:                        watch?v=mVexLhWR43c
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/mVexLhWR43c/maxresdefault.jpg
+          duration:                     "03:22"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Physical
+          audio:                        watch?v=bu-WFdernVo
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/bu-WFdernVo/maxresdefault.jpg
+          duration:                     "03:25"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Love Again
+          audio:                        watch?v=GB_shDpDJho
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/GB_shDpDJho/maxresdefault.jpg
+          duration:                     "03:25"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Break My Heart
+          audio:                        watch?v=eu2MqQnsQnw
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/eu2MqQnsQnw/maxresdefault.jpg
+          duration:                     "03:07"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        These Walls
+          audio:                        watch?v=j0iQ-h3gLbg
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/j0iQ-h3gLbg/maxresdefault.jpg
+          duration:                     "03:30"
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        End of an Era
+          audio:                        watch?v=ICNGKgZ7NXU
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/ICNGKgZ7NXU/maxresdefault.jpg
+          duration:                     "03:33"
+
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Don't Start Now
+          audio:                        watch?v=HQ-1Jx5Tr6A
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/HQ-1Jx5Tr6A/maxresdefault.jpg
+          duration:                     "03:33"
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Levitating
+          audio:                        watch?v=mn4gpC2sp0s
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/mn4gpC2sp0s/maxresdefault.jpg
+          duration:                     "02:48"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Sweetest Pie
+          audio:                        watch?v=xULkEz9fWbU
+          rating:                       3
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/xULkEz9fWbU/maxresdefault.jpg
+          duration:                     "03:27"
 
     # --------------------------------------------------------------------------
     #  Sherlock Holmes, Späte Rache
@@ -1154,7 +1313,6 @@ settings:
           title:                        24E08 Späte Rache · Folge 8
           audio:                        303/3038854/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge8_wdr5.mp3
           duration:                     "33:55"  
-
 
     # --------------------------------------------------------------------------
     #  Sherlock Holmes, Kurzgeschichten
@@ -1261,7 +1419,6 @@ settings:
           audio:                        303/3038045/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_skandalgeschichteimfuerstentumoteil22_wdr5.mp3					
           duration:                     "32:57"
 
-
     # --------------------------------------------------------------------------
     #  WDR 5 Das Gespenst von Canterville
     # --------------------------------------------------------------------------
@@ -1326,7 +1483,6 @@ settings:
           title:                        23E05 Das Gespenst von Canterville · Folge 5
           audio:                        301/3016851/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge5_wdr5.mp3
           duration:                     "21:31"
-
 
     # --------------------------------------------------------------------------
     #  WDR 5 Das Paradies der Damen
@@ -1603,7 +1759,7 @@ settings:
     # Spontanorama 2025, LARGE player
     # --------------------------------------------------------------------------
     #
-    - plaver:
+    - player:
 
       # ------------------------------------------------------------------------
       # GENERAL settings
@@ -1636,7 +1792,7 @@ settings:
     # Spontanorama 2024, LARGE player
     # --------------------------------------------------------------------------
     #
-    - plaver:
+    - player:
 
       # ------------------------------------------------------------------------
       # GENERAL settings
@@ -1664,13 +1820,12 @@ settings:
         title:                          Spontanorama 2024
         audio_info:                     true
         audio_rating:                   true
-  
 
     # --------------------------------------------------------------------------
     # Stundenhotel 2022, LARGE player
     # --------------------------------------------------------------------------
     #
-    - plaver:
+    - player:
 
       # ------------------------------------------------------------------------
       # GENERAL settings
@@ -1698,12 +1853,11 @@ settings:
         audio_info:                     true
         audio_rating:                   true 
 
-
     # --------------------------------------------------------------------------
     # Stundenhotel 2023, LARGE player
     # --------------------------------------------------------------------------
     #
-    - plaver:
+    - player:
 
       # ------------------------------------------------------------------------
       # GENERAL settings
@@ -1735,7 +1889,7 @@ settings:
     # Stundenhotel 2024, LARGE player
     # --------------------------------------------------------------------------
     #
-    - plaver:
+    - player:
 
       # ------------------------------------------------------------------------
       # GENERAL settings
@@ -1763,12 +1917,11 @@ settings:
         audio_info:                     true
         audio_rating:                   true
 
-
     # --------------------------------------------------------------------------
     # Stundenhotel 2025, LARGE player
     # --------------------------------------------------------------------------
     #
-    - plaver:
+    - player:
 
       # ------------------------------------------------------------------------
       # GENERAL settings
@@ -1795,7 +1948,6 @@ settings:
         title:                          Stundenhotel 2025
         audio_info:                     true
         audio_rating:                   true
-
 
     # --------------------------------------------------------------------------
     # LARGE player, Mimi Rutherfurt
@@ -1839,7 +1991,6 @@ settings:
         audio_info:                     true
         audio_rating:                   true     
 
-
     # --------------------------------------------------------------------------
     # LARGE player, Smooth Jazz (Dua Lipa)
     # --------------------------------------------------------------------------
@@ -1881,7 +2032,6 @@ settings:
         title:                          Dua Lipa
         audio_info:                     true
         audio_rating:                   false   
-
 
     # --------------------------------------------------------------------------
     # Sherlock Holmes, Späte Rache, LARGE player
@@ -1945,7 +2095,6 @@ settings:
         audio_info:                     true
         audio_rating:                   false
 
-
     # --------------------------------------------------------------------------
     # Das Gespenst von Canterville, LARGE player
     # --------------------------------------------------------------------------
@@ -1976,7 +2125,6 @@ settings:
         title:                          Komödie von Oscar Wilde
         audio_info:                     true
         audio_rating:                   false
-
 
     # --------------------------------------------------------------------------
     # Das Paradies der Damen, LARGE player

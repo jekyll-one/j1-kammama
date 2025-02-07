@@ -154,26 +154,47 @@ youtube::uK9OW1kVMs8[poster="//img.youtube.com/vi/uK9OW1kVMs8/maxresdefault.jpg"
 [role="mt-5"]
 [[bgt]]
 == BGT
+
+An der Castingshow können in England Personen jeden Alters teilnehmen. Es
+können Teilnehmer einzeln oder in einer Gruppe auftreten. Die Kandidaten
+treten mit einem selbst gewählten Programm, wie etwa Singen oder einer 
+Tanzperformance, vor der Jury und dem Publikum auf.
+
+[role="mt-5"]
+=== BGT 2024
+// See: https://de.wikipedia.org/wiki/Sydnie_Christmas
 // See: https://de.wikipedia.org/wiki/Britain%E2%80%99s_Got_Talent
 
-An der Castingshow können Personen jeglichen Alters teilnehmen. Es können
-Personen einzeln oder in einer Gruppe auftreten. Die Kandidaten treten mit
-einem selbst gewählten Programm, wie etwa Singen oder einer Tanzperformance,
-vor der Jury und dem Publikum auf.
+lorem:sentences[5]
 
-Die Juroren können während der Vorstellung einen Buzzer betätigen, um
-anzuzeigen, dass ihnen die Vorstellung nicht gefällt. Haben alle Juroren den
-Buzzer betätigt, muss der Kandidat mit seiner Vorstellung aufhören.
+.Sydnie Christmas · BGT 2024
+youtube::qqb6pPYQm1Y[poster="//img.youtube.com/vi/qqb6pPYQm1Y/maxresdefault.jpg" role="mt-4 mb-5"]
 
-Am Schluss des Auftritts bewerten die Juroren den Kandidaten mit Ja (Yes) oder
-Nein (No). Hat der Kandidat von der Mehrheit der Juroren ein Ja bekommen, darf
-er in der nächsten Runde erneut auftreten.
+
+[role="mt-5"]
+=== Afrika rockts BGT
+
+Keine Pop-Diva ist sicher, wenn die 11-jährige _Asanda Jezile_ ihren Song
+covert. Erleben Sie die sensationellsten Momente der jungen und talentierten
+Sängerin. Mit weltbekannten Hits von *Rihanna* und *Byonce*.
+
+.Asanda Jezile · BGT 2013
+youtube::IT2U0PM9mYk[poster="//img.youtube.com/vi/IT2U0PM9mYk/maxresdefault.jpg" role="mt-4 mb-5"]
+
+Afrikanische Kinder sind zum Tanzen geboren und haben ein ganz natürliches
+Verständnis für Rhythmus. Die *Ghetto Kids* aus *Uganda* erfüllen den Raum
+mit Freude und Positivität. Alle um sie herum verspürten eine gute Stimmung,
+wenn sie die Bühne betreten.
+
+.Ghetto Kids · BGT 2023
+youtube::x7DTDjAjwBs[poster="//img.youtube.com/vi/x7DTDjAjwBs/maxresdefault.jpg" role="mt-4 mb-5"]
 
 
 [role="mt-4"]
-=== BGT Compilations 
+[[bgt-compilations]]
+=== Compilations 
 
-.Gifted Kids · BGT
+lorem:sentences[5]
+
+.Gifted Kids · Compilation
 youtube::npe6S1tBrYs[poster="//img.youtube.com/vi/npe6S1tBrYs/maxresdefault.jpg" role="mt-4 mb-8"]
-
-
