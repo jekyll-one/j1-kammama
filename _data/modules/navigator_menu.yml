@@ -169,18 +169,18 @@
 # ------------------------------------------------------------------------------
 # Menu BLOG
 #
-- item:                                 Blog
-  sublevel:
+# - item:                                 Blog
+#   sublevel:
 
-    - title:                            Navigator
-      href:                             /pages/public/blog/navigator/
-      icon:                             near-me
-    - title:                            Kategorien
-      href:                             /pages/public/blog/navigator/archive/categoryview/
-      icon:                             pin
-    - title:                            Archiv
-      href:                             /pages/public/blog/navigator/archive/allview/
-      icon:                             archive
+#     - title:                            Navigator
+#       href:                             /pages/public/blog/navigator/
+#       icon:                             near-me
+#     - title:                            Kategorien
+#       href:                             /pages/public/blog/navigator/archive/categoryview/
+#       icon:                             pin
+#     - title:                            Archiv
+#       href:                             /pages/public/blog/navigator/archive/allview/
+#       icon:                             archive
 
 # ------------------------------------------------------------------------------
 # Menu Themes
@@ -201,8 +201,8 @@
 # ------------------------------------------------------------------------------
 # TopLevel item
 #
-- item:                                 Vorschau
-  href:                                 /#previewer
+# - item:                                 Vorschau
+#   href:                                 /#previewer
 
 # ------------------------------------------------------------------------------
 # Menu ABOUT
