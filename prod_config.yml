@@ -310,7 +310,7 @@ permalink:                              pretty
 # ------------------------------------------------------------------------------
 
 # url:                                  http://localhost:16000
-url:                                    https://kammama.jekyll.one/
+url:                                    https://kammama.lanus.tech/
 
 # The subpath of your site, e.g. /blog/. Used in conjunction with
 # site.url (see above) when you want a link to something with the
