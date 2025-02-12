@@ -1,0 +1,477 @@
+# ------------------------------------------------------------------------------
+# ~/_data/modules/amplitude.yml
+# User Configuration of the AmplitudeJS Module
+#
+# Product/Info:
+# https://jekyll.one
+#
+# Copyright (C) 2023, 2024 Juergen Adams
+#
+# J1 Template is licensed under the MIT License.
+# See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Description
+#
+description:
+  title:                                AmplitudeJS
+  scope:                                User settings
+  location:                             _data/modules/amplitude.yml
+
+# ------------------------------------------------------------------------------
+# User settings
+#
+settings:
+
+  # ============================================================================
+  # PLAYER configuration
+  # ----------------------------------------------------------------------------
+  players:
+
+    # --------------------------------------------------------------------------
+    # Spontanorama 2025, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               spontanorama_2025_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           spontanorama_2025
+        title:                          Spontanorama 2025
+        audio_info:                     true
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
+    # Spontanorama 2024, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               spontanorama_2024_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           spontanorama_2024
+        title:                          Spontanorama 2024
+        audio_info:                     true
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
+    # Stundenhotel 2022, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2022_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #    
+      playlist:
+        name:                           stundenhotel_2022
+        title:                          Stundenhotel 2022
+        audio_info:                     true
+        audio_rating:                   true 
+
+    # --------------------------------------------------------------------------
+    # Stundenhotel 2023, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2023_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #    
+      playlist:
+        name:                           stundenhotel_2023
+        title:                          Stundenhotel 2023
+        audio_info:                     true
+        audio_rating:                   true 
+
+    # --------------------------------------------------------------------------
+    # Stundenhotel 2024, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2024_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           stundenhotel_2024
+        title:                          Stundenhotel 2024
+        audio_info:                     true
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
+    # Stundenhotel 2025, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               stundenhotel_2025_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           stundenhotel_2025
+        title:                          Stundenhotel 2025
+        audio_info:                     true
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Mimi Rutherfurt
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      id:                               mimi_rutherfurt_yt_large
+      type:                             large
+      source:                           video
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           mimi_rutherfurt_yt
+        title:                          Mimi Rutherfurt
+        audio_info:                     true
+        audio_rating:                   true     
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Smooth Jazz (Dua Lipa)
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      id:                               smooth_jazz_dua_lipa_yt_large
+      type:                             large
+      source:                           video
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           smooth_jazz_dua_lipa_yt
+        title:                          Dua Lipa
+        audio_info:                     true
+        audio_rating:                   false   
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Smooth Jazz (Diana Kroll)
+    # --------------------------------------------------------------------------
+    #
+    # - player:
+
+    #   # ------------------------------------------------------------------------
+    #   # GENERAL settings
+    #   #     
+    #   enabled:                          true
+
+    #   id:                               diana_kroll_yt_large
+    #   type:                             large
+    #   source:                           video
+    #   display_hours:                    false
+
+    #   # ------------------------------------------------------------------------
+    #   # CONTROL settings
+    #   #
+    #   song_progress_bar:                true
+    #   skip_forward_backward_button:     true
+    #   forward_backward_skip_seconds:    60
+    #   volume_slider:
+    #     enabled:                        true
+    #     preset_value:                   46
+
+    #   # ------------------------------------------------------------------------
+    #   # PLUGIN settings
+    #   #
+    #   plugin_manager:
+    #     enabled:                        true
+    #     plugins:                        [ ytp ]
+
+    #   # ------------------------------------------------------------------------
+    #   # PLAYLIST settings
+    #   #
+    #   playlist:
+    #     name:                           album_diana_kroll_yt
+    #     title:                          Diana Krall
+    #     audio_info:                     true
+    #     audio_rating:                   false   
+
+    # --------------------------------------------------------------------------
+    # Sherlock Holmes, Späte Rache, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               spaete_rache_large
+      type:                             large
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           sherlock_holmes_spaete_rache
+        title:                          Sir Arthur Conan Doyle
+        audio_info:                     true
+        audio_rating:                   false
+
+    # --------------------------------------------------------------------------
+    # Sherlock Holmes, Kurzgeschichten, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               kurzgeschichten_large
+      type:                             large
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           sherlock_holmes_kurzgeschichten
+        title:                          Sir Arthur Conan Doyle
+        audio_info:                     true
+        audio_rating:                   false
+
+    # --------------------------------------------------------------------------
+    # Das Gespenst von Canterville, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               gespenst_von_canterville_large
+      type:                             large
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           das_gespenst_von_canterville
+        title:                          Komödie von Oscar Wilde
+        audio_info:                     true
+        audio_rating:                   false
+
+    # --------------------------------------------------------------------------
+    # Das Paradies der Damen, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               paradies_der_damen_large
+      type:                             large
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           paradies_der_damen
+        title:                          Roman von Emile Zolas
+        audio_info:                     true
+        audio_rating:                   false
+
+# ------------------------------------------------------------------------------
+# END config
