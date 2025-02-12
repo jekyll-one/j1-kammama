@@ -1062,7 +1062,7 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_smooth_jazz_dua_lipa_yt
         name:                           Dua Lipa
-        artist:                         Smooth Jazz All Stars
+        artist:                         Smooth Jazz Renditions
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
 
@@ -1240,7 +1240,7 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_smooth_jazz_dua_lipa_yt
         name:                           Dua Lipa
-        artist:                         Smooth Jazz All Stars
+        artist:                         Smooth Jazz Renditions
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
 

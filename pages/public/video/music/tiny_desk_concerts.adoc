@@ -136,21 +136,22 @@ Zum Abspielen der Videos ist eine Internetverbindung zwingend *erforderlich*.
 
 
 [role="mt-5"]
-=== Pop und Dancefloor
+// === Pop und Dancefloor
+=== Pop
 
 Als Beipiele für (heutigen) Pop stehen die Künstlerinnen Dua Lipa, Billy Eillish,
-oder Sabrina Carpenter. Sehen Sie bitte die Konzerte aus 2024 lediglich als
-Beispiele. Viele weitere tolle Konzerte finden Sie auf den Seiten von
-link://NPR Music.org/series/tiny-desk-concerts/[NPR Music - TinyDesk Concerts, {browser-window--new}].
+oder Sabrina Carpenter. Sehen Sie bitte die Konzerte lediglich als Beispiele.
+Viele weitere tolle Konzerte finden Sie auf den Seiten von
+link://npr.org/series/tiny-desk-concerts/[NPR Music - TinyDesk Concerts, {browser-window--new}].
 
-*Dancefloor*, oder Eurodance, ist eine Stilrichtung innerhalb der elektronischen
-*Tanzmusik*, die in den frühen bis mittleren 1990er Jahren vor allem in Europa
-sehr populär war.
+// *Dancefloor*, oder Eurodance, ist eine Stilrichtung innerhalb der elektronischen
+// *Tanzmusik*, die in den frühen bis mittleren 1990er Jahren vor allem in Europa
+// sehr populär war.
 
-Die Musikrichtung Dancefloor ist bekannt für ihre eingängigen Melodien, und
-schneller Beats. Als Musik zum Tanzen ist die Musikrichtung, insbesondere
-als *Remix* bekannter DJs, bis heute als Party Musik auch bei jungen Leuten
-beliebt.
+// Die Musikrichtung Dancefloor ist bekannt für ihre eingängigen Melodien, und
+// schneller Beats. Als Musik zum Tanzen ist die Musikrichtung, insbesondere
+// als *Remix* bekannter DJs, bis heute als Party Musik auch bei jungen Leuten
+// beliebt.
 
 .TinyDesk Concerts (Pop)
 gallery::tiny_desk_concerts_pop[role="mt-4 mb-5"]

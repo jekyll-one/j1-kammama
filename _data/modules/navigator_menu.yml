@@ -42,8 +42,8 @@
       icon:                             volume-high
       dropdown:
 
-        - title:                        Smooth Jazz All Stars
-          href:                         /pages/public/audio/music/smooth-jazz/
+        - title:                        Smooth Jazz
+          href:                         /pages/public/audio/music/smooth-jazz-renditions/
           icon:                         ear-hearing  
 
     # --------------------------------------------------------------------------

@@ -53,7 +53,7 @@ environment:                            production
 # ------------------------------------------------------------------------------
 # Sets the build version of the site
 #
-version:                                2024.3.17
+version:                                2024.3.18
 
 # copyright
 # ------------------------------------------------------------------------------
@@ -310,11 +310,7 @@ permalink:                              pretty
 # ------------------------------------------------------------------------------
 
 # url:                                  http://localhost:16000
-<<<<<<< HEAD
 url:                                    https://kammama.lanus.tech/
-=======
-url:                                    https://kammama.jekyll.one/
->>>>>>> 759162341d1411620e4b404e0592288d956c188d
 
 # The subpath of your site, e.g. /blog/. Used in conjunction with
 # site.url (see above) when you want a link to something with the

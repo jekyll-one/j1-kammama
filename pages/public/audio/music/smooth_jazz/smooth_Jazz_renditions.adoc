@@ -1,5 +1,5 @@
 ---
-title:                                  Smooth Jazz Renditions
+title:                                  Smooth Jazz
 title_extention:                        Zuhören und Entspannen
 tagline:                                Zuhören und Entspannen
 
@@ -24,9 +24,9 @@ image:
   height:                               1280
 
 regenerate:                             false
-fab_menu_id:                            open_toc                                # default
+fab_menu_id:                            open_toc
 personalization:                        true
-permalink:                              /pages/public/audio/music/smooth-jazz/
+permalink:                              /pages/public/audio/music/smooth-jazz-renditions/
 
 resources:                              [ amplitudejs ]
 resource_options:
@@ -35,7 +35,7 @@ resource_options:
         brightness:                     0.7  
       padding_top:                      650
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/alice-donovan-rouse-2.jpg
+        - url:                          /assets/image/modules/attics/1920x1280/alice-donovan-rouse-3.jpg
           alt:                          alice-donovan-rouse
           badge:
             type:                       unsplash
@@ -81,7 +81,7 @@ Funk und Pop ein.
 [role="mt-5"]
 == Über Smooth Jazz
 
-Was zeichnet Smooth Jazz aus?
+Was Smooth Jazz auszeichnet:
 
 Sanfte Melodien::
 Im Gegensatz zum traditionellen Jazz, der oft improvisierte und komplexe
@@ -89,29 +89,22 @@ Strukturen verwendet, legt Smooth Jazz Wert auf eingängige Melodien und
 harmonische Arrangements.
 
 Entspannte Atmosphäre::
-Die Musik ist entspannend und lädt zum Zuhören ein.
-
-Einflüsse aus anderen Genres::
-Smooth Jazz bezieht häufig Elemente aus R&B, Funk und Pop ein.
-
-
-[role="mt-5"]
-== Sound von Dua Lipa
-
-_Dua Lipa_ hat sich in kurzer Zeit zu einer der prägendsten Sängerinnen der
-Popmusik entwickelt. Ihre Musik ist ein Spiegelbild moderner Popkultur,
-musikalischer Vielfalt und tanzbarer Rhythmen.
+Die Musik ist entspannend und lädt zum Zuhören ein. Smooth Jazz bezieht
+häufig Elemente aus R&B, Funk und Pop ein.
 
 
 [role="mt-5 mb-5"]
 == Dua Lipa
 
-Die Absicht von Dua Lipa mit ihrer Musik ist sicher nicht: Zuhören und
-Entspannen. In einer Club-Atmosphäre wären Bewegung und Tanz die richtigen
-Worte.
+_Dua Lipa_ hat sich in kurzer Zeit zu einer der prägendsten Sängerinnen der
+Popmusik entwickelt. Ihre Musik ist ein Spiegelbild moderner Popkultur,
+musikalischer Vielfalt und tanzbarer Rhythmen.
 
-Die Smmoth Jazz Intepretationen der Songs von Dua Lipa laden als instrumental
-Versionen zum Zuhören ein und es lässt sich dabei wunderbar entspannen
+Die Absicht von _Dua Lipa_ mit ihrer Musik ist sicher nicht: Zuhören und
+Entspannen. In einer Club-Atmosphäre wären Bewegung und Tanz die richtigen
+Worte. Die Smmoth Jazz Intepretationen der Songs von Dua Lipa als
+*instrumentale Versionen* laden zum Zuhören ein und es lässt sich dabei
+wunderbar entspannen.
 
 [NOTE]
 ====
@@ -123,5 +116,16 @@ Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
 ====
 
 .Renditions von Dua Lipa · YouTube
-amplitude::smooth_jazz_dua_lipa_yt_large[role="mt-4 mb-8"]
+amplitude::smooth_jazz_dua_lipa_yt_large[role="mt-4 mb-4"]
+
+[role="mb-8"]
+[TIP]
 ====
+Wer die Musik von _Dua Lipa_ im Original hören möchte, kann das auch auf
+diesen Seiten. Zwei *TinyDesk* Konzerte von ihr aus dem Jahr 2020 als Home
+Version während der Pandemie und aktuell aus dem Jahr 2024 (TinyDesk Version)
+sind auf der Seite der
+link:/pages/public/video/music/tinydesk-concerts/#pop[TinyDesk Konzerte (Pop), {browser-window--new}]
+zu finden.
+====
+
