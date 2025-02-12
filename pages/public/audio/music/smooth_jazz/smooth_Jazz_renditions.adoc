@@ -1,15 +1,17 @@
 ---
-title:                                  Smooth Jazz All Stars 
-title_extention:                        Bekannte Melodien
-tagline:                                Bekannte Melodien
+title:                                  Smooth Jazz Renditions
+title_extention:                        Zuhören und Entspannen
+tagline:                                Zuhören und Entspannen
 
 date:                                   2025-01-29
 #last_modified:                         2025-01-29
 
 description: >
-                                        Smooth Jazz All Stars sind eine lose Bezeichnung
-                                        für eine Gruppe von Musikern, die sich zusammenschließen,
-                                        um Smooth Jazz zu spielen
+                                        Im Gegensatz zum traditionellen Jazz, der oft
+                                        improvisierte und komplexe Strukturen verwendet,
+                                        legt Smooth Jazz Wert auf eingängige Melodien und
+                                        harmonische Arrangements. Moderner Smooth Jazz
+                                        bezieht Elemente aus R&B, Funk und Pop ein.
 keywords: >
                                         Musik, Smooth Jazz 
 
@@ -64,8 +66,10 @@ resource_options:
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
-Smooth Jazz All Stars sind eine lose Bezeichnung für eine Gruppe von Musikern,
-die sich zusammenschließen, um Smooth Jazz zu spielen.
+Im Gegensatz zum traditionellen Jazz, der oft improvisierte und komplexe
+Strukturen verwendet, legt Smooth Jazz Wert auf eingängige Melodien und
+harmonische Arrangements. Moderner Smooth Jazz bezieht Elemente aus R&B,
+Funk und Pop ein.
 
 ++++
 <div class="video-title">
@@ -92,8 +96,16 @@ Die Musik ist oft entspannend und lädt zum Zuhören ein.
 Einflüsse aus anderen Genres::
 Smooth Jazz bezieht häufig Elemente aus R&B, Funk und Pop ein.
 
-[role="mt-4 mb-5"]
-== Renditions of Dua Lipa
+
+[role="mt-5 mb-5"]
+== Dua Lipa
+
+Die Absicht von Dua Lipa mit ihrer Musik ist sicher nicht: Zuhören und
+Entspannen. In einer Club-Atmosphäre wären Bewegung und Tanz die richtigen
+Worte.
+
+Die Smmoth Jazz Intepretationen der Songs von Dua Lipa laden als instrumental
+Versionen zum Zuhören ein und es lässt sich dabei wunderbar entspannen
 
 [NOTE]
 ====
@@ -104,6 +116,12 @@ link://youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM[Smoot
 Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
 ====
 
-.Smooth Jazz Renditions of Dua Lipa · YouTube
+.Renditions von Dua Lipa · YouTube
 amplitude::smooth_jazz_dua_lipa_yt_large[role="mt-4 mb-8"]
 
+[TIP]
+====
+Möchten Sie originale Konzertversionen von Dua Lipa hören (und sehen)? Auf
+der Seite link:/pages/public/video/music/tinydesk-concerts/[]
+
+====

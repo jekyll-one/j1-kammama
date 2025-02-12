@@ -1,7 +1,7 @@
 ---
 title:                                  TinyDesk Concerts
-tagline:                                US-Amerikanische Konzertreihe
-title_extention:                        US-Amerikanische Konzertreihe
+tagline:                                Konzertreihe von NPR Music
+title_extention:                        Konzertreihe von NPR Music
 
 
 date:                                   2024-09-14
@@ -9,14 +9,14 @@ date:                                   2024-09-14
 
 description: >
                                         Tiny Desk Concerts sind eine beliebte Konzertreihe des
-                                        US-amerikanischen Hörfunknetzwerks NPR, die für ihre
+                                        US-amerikanischen Hörfunknetzwerks NPR Music, die für ihre
                                         intime und ungezwungene Atmosphäre bekannt ist. Wie der
                                         Name schon vermuten lässt, finden diese Konzerte an
                                         einem ganz besonderen Ort statt: am Schreibtisch des
                                         Radiomoderators Bob Boilen.
 
 keywords:                               Musik, Konzert, Bob Boilen, TinyDesk,
-                                        NPR
+                                        NPR Music
 
 categories:                             [ Video ]
 tags:                                   [ Konzert, TinyDesk ]
@@ -37,8 +37,8 @@ resource_options:
   - attic:
       padding_top:                      550
       slides:
-        - url:                          //yt3.ggpht.com/vUmgDVEv5QUWksojEiqrjEFFjDpnyd6XM7Ow8AJI0uct-Se3PLiHGqPRo03znLI8jzmz9qCHX496=s640-c-fcrop64=1,00000000ffffffff-rw-nd-v1
-          alt:                          TinyDesk Concerts
+        - url:                          /assets/image/modules/attics/1920x1280/npr-tiny-desk.jpg
+          alt:                          NPR Music TinyDesk
 ---
 
 // Page Initializer
@@ -63,10 +63,10 @@ resource_options:
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
 Tiny Desk Concerts sind eine beliebte Konzertreihe des US-amerikanischen
-Hörfunknetzwerks NPR, die für ihre intime und ungezwungene Atmosphäre bekannt
-ist. Wie der Name schon vermuten lässt, finden diese Konzerte an einem ganz
-besonderen Ort statt: Am Schreibtisch des Radiomoderators Bob Boilen in seinem
-Büro bei NPR in Washington, D.C.
+Hörfunknetzwerks _NPR Music_, die für ihre intime und ungezwungene Atmosphäre
+bekannt ist. Wie der Name schon vermuten lässt, finden diese Konzerte an
+einem ganz besonderen Ort statt: Am Schreibtisch des Radiomoderators Bob Boilen
+in seinem Büro bei _NPR Music_ in Washington, D.C.
 
 ++++
 <div class="video-title">
@@ -78,7 +78,7 @@ Büro bei NPR in Washington, D.C.
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
 [role="mt-5"]
-== Über die Show
+== Über die Konzerte
 // See:
 
 Die Idee zu den Tiny Desk Concerts entstand eher zufällig. Bei einem
@@ -87,16 +87,20 @@ die Stimmung so laut, dass Bob Boilen und sein Kollege Stephen Thompson
 der Musik kaum folgen konnten.
 
 Spontan scherzte Thompson, die Musikerin solle doch lieber in seinem Büro
-auftreten. Gesagt, getan - drei Wochen später fand das erste Tiny Desk Konzert
-statt.
+auftreten. Gesagt, getan - drei Wochen später fand das erste Tiny Desk
+Konzert statt.
 
 Warum sind Tiny Desk Concerts so beliebt? Hier einige Gründe.
 
 Authentizität::
-Die Konzerte wirken authentisch und ungekünstelt.
+Die Konzerte wirken authentisch und ungekünstelt. Die Künstler können in
+einer ruhigen und intimen Atmospäre über ihre Musik sprechen und dem
+Publikum persönliches zu ihrer Entwicklung als Musiker wie zu ihren Songs
+sagen.
 
 Entdeckung neuer Musik::
-Viele Zuschauer nutzen die Tiny Desk Concerts, um neue Künstler zu entdecken.
+Viele Zuschauer - wie auch viele Musiker selbst - nutzen die Plattform
+Tiny Desk Concerts, um neue Künstler zu entdecken.
 
 Nostalgischer Faktor::
 Die einfache und intime Atmosphäre erinnert an Hauskonzerte und weckt bei
@@ -108,26 +112,150 @@ für jeden Musikgeschmack etwas dabei.
 
 
 [role="mt-5"]
-== Player 
+== Konzerte
 
 Die Konzertreihe hat sich im Laufe der Jahre weiterentwickelt. Während zu
 Anfang vor allem *Singer-Songwriter* auftraten, sind heute Bands und Künstler
-aus sehr *verschiedenen Genres* vertreten.
+aus sehr *verschiedenen Genres* vertreten. Zudem haben die Tiny Desk Concerts
+dazu beigetragen, dass viele auch *weniger* bekannte Künstler eine größere
+Âufmerksamkeit bekommen haben.
 
-Zudem haben die Tiny Desk Concerts dazu beigetragen, dass viele auch *weniger*
-bekannte Künstler eine größere Âufmerksamkeit bekommen haben.
+Das Format der TinyDesk Konzerte ist beim Pulikum wie bei Künstlern aus der
+Musikbranche sehr beliebt. NPR Music hat im Laufe der Jahre eine große Zahl an
+Konzerten produziert. Die vorgestellten Konzerte sollen lediglich als Beispiele
+zeigen, wie Hausmusik auch anders geht.
 
 [role="mt-4 mb-5"]
 [NOTE]
 ====
-Aus Gründen des *Urheberschutzes*, laden die Video Player alle Beiträge über das
-Angebot von link://www.youtube.com/[Youtube, {browser-window--new}].
+Aus Gründen des *Urheberschutzes*, laden die Video Player alle Beiträge über
+das Angebot von link://www.youtube.com/[Youtube, {browser-window--new}].
+
 Zum Abspielen der Videos ist eine Internetverbindung zwingend *erforderlich*.
 ====
 
+
+[role="mt-5"]
+=== Pop und Dancefloor
+
+Als Beipiele für (heutigen) Pop stehen die Künstlerinnen Dua Lipa, Billy Eillish,
+oder Sabrina Carpenter. Sehen Sie bitte die Konzerte aus 2024 lediglich als
+Beispiele. Viele weitere tolle Konzerte finden Sie auf den Seiten von
+link://NPR Music.org/series/tiny-desk-concerts/[NPR Music - TinyDesk Concerts, {browser-window--new}].
+
+*Dancefloor*, oder Eurodance, ist eine Stilrichtung innerhalb der elektronischen
+*Tanzmusik*, die in den frühen bis mittleren 1990er Jahren vor allem in Europa
+sehr populär war.
+
+Die Musikrichtung Dancefloor ist bekannt für ihre eingängigen Melodien, und
+schneller Beats. Als Musik zum Tanzen ist die Musikrichtung, insbesondere
+als *Remix* bekannter DJs, bis heute als Party Musik auch bei jungen Leuten
+beliebt.
+
 .TinyDesk Concerts (Pop)
-gallery::tiny_desk_concerts_pop[role="mt-4 mb-8"]
+gallery::tiny_desk_concerts_pop[role="mt-4 mb-5"]
 
 
-// .TinyDesk Concerts (Latin)
-// gallery::tiny_desk_concerts_latin[role="mt-4 mb-4"]
+[role="mt-5"]
+=== Latin, Funk und R&B
+
+Latin, Funk wie R&B stehen für tanzbare Rythmen und ein Lebensgefühl, das
+uns in Deutschgand - insbesondere in der kalten Jahreszeit - an Sommergefühle
+erinnert. Die Musik steht für mich als eine Idee von Urlaub und Reisen an
+ferne exotische Ziele der Karibik.
+
+Die kubanisch-amerikanische Sängerin _Camila Cabello_ zeigt mit ihrer Musik
+ein breites Spektrum moderner Musik. Ihre Songs lassen sich zwar hauptsächlich
+dem Pop-Genre zuordnen, jedoch die lateinamerikanischen Rhythmen und Einflüsse
+zeigen die Vielfalt ihrer urbanen Popmusik, die in Clubs gerne gespielt werden.
+
+.TinyDesk Concerts (Latin, Funk und R&B)
+gallery::tiny_desk_concerts_latin_funk_rb[role="mt-4 mb-5"]
+
+Der in Kuba geborene Pianist _Roberto Fonsecas_ spielt mit seinem Sinn für
+karibische Rythem wunderbare Melodien, für die die Insel bekannt ist. Schon das
+erste Stück in seinem TinyDesk Konzert erinnert an die lange Geschichte der 
+afro-kubanischen Jazztradition: Man bekommt nicht nur ein treibendes Fundament
+zu hören, sondern auch die Art von Bläserlinien, die seit den 1940er Jahren
+gespielt werden, als sich kubanische Rhythmen und Jazzimprovisation aufeinander
+trafen.
+
+_Nile Rodgers_ mit seiner Band _CHIC_ ist eine der einflussreichsten Bands
+der *Disco-Ära* aus den 1980er bis in die 1990er Jahre. Sie haben eine
+einzigartige Mischung aus Funk, Soul und Disco geschaffen, die bis heute viele
+Künstler inspiriert. Die Musik von _Nile Rodgers_ und _CHIC_ haben weiterhin
+großen Einfluss auf die Popmusik von heute und wird immer noch gerne gehört
+und gefeiert. Ich denke: Aus guten Gründen.
+
+_Alicia Keys_ ist eine US-amerikanische Sängerin, Songwriterin und Pianistin.
+Sie ist für ihre soulige und R&B-orientierte Musik bekannt. Ihre Musik lässt
+sich jedoch nicht auf diese Genres beschränken, da sie Elemente aus Pop,
+Hip-Hop und Jazz in ihre Songs einfließen lässt. Keys hat im Laufe ihrer
+Karriere zahlreiche Auszeichnungen erhalten und ist eine der bekanntesten
+wie erfolgreichsten Musikerinnen des 21. Jahrhunderts.
+
+
+[role="mt-5"]
+=== Die Gitarre am TinyDesk
+
+Die Gitarre, und Gitarrenmusik generell, erreicht wie kaum ein anderes
+Instrument aus einer Vielzahl von Gründen weltweite Beliebtheit. Die Gitarre
+ist ein unglaublich vielseitiges Instrument, das für eine sehr große Zahl von
+Musikstilen verwendet werden kann. Von Klassik über Pop, Rock und Jazz bis hin
+zu Folk und Country.
+
+Diese enorme Anpassungsfähigkeit hat es der Gitarre ermöglicht, in den
+verschiedensten Kulturen und musikalischen Kontexten große Bedeutung zu
+bekommen. Die Gitarre ist nicht nur ein Musikinstrument, sondern ein Werkzeug
+für kreativen Ausdruck, eine Quelle der Freude und ein Bindeglied zwischen
+Menschen auf der ganzen Welt.
+
+Beherrscht man dieses Instrument, ist die Musik zum Niederknien.
+
+_Yasmin Williams_ ist eine Fingerstyle-Gitarristin, die das Griffbrett des
+Instruments mit einem beeindruckenden Gespür für die zwischen den Saiten
+flimmernde Landschaft auf und ab klopft, schlägt und gleiten lässt.
+Als Erzählerin von Geschichtenen erschafft Yasmin neue Welten. Am Tiny Desk
+lädt sie uns in ihre ein.
+
+.TinyDesk Concerts (Gitarre)
+gallery::tiny_desk_concerts_guitar[role="mt-4 mb-4"]
+
+_Marta Pereira da Costa_ wurde 1982 in Lissabon geboren. Die Musik war schon
+früh Teil ihres Lebens. Mit vier Jahren begann sie Klavierunterricht und mit
+acht Jahren klassischen Gitarrenunterricht. Mit 18 kam sie zum ersten Mal mit
+der portugiesischen Gitarre in Berührung. Auf Anregung ihres Vaters, der sie
+zu einer Unterrichtsstunde bei Carlos Gonçalves, dem Gitarristen von
+Amália Rodrigues, mitnahm.
+
+Am 15. November 2023 gab Marta ein Konzert am TinyDesk. Wer jemals in Portugal
+gewesen war und ein wenig die Musik des *Fado* kennt, wird die besondere
+Melancholie dieser Musik in ihrem Gitarrenspiel hören können.
+
+
+[role="mt-5"]
+=== Das Klavier am TinyDesk
+
+Das Klavier und die Klaviermusik sind aus guten Gründen weltweite gemocht.
+Das Klavier besitzt einen enormen Tonumfang, der tiefe Bässe und hohe Höhen
+gleichermaßen abdeckt. Dadurch kann es ein breites Spektrum an musikalischen
+Texturen und Emotionen erzeugen. Die Bandbreites Instruments, vom zarten
+Pianissimo bis zu kraftvollem Forte und erlaubt Pianisten, die Musik besonders
+ausdrucksstark zu gestalten und zu interpretieren.
+
+.TinyDesk Concerts (Klavier)
+gallery::tiny_desk_concerts_piano[role="mt-4 mb-4"]
+
+Klaviermusik kann tiefe Emotionen hervorrufen und berührt die Zuhörer auf
+einer persönlichen Ebene. Sie kann Freude, Trauer, Liebe, Leidenschaft,
+Melancholie oder Hoffnung ausdrücken. Wenn mans kann.
+
+Eine Musikerin die es kann ist _Isata Kanneh-Mason_. Isata, 1996 in England
+geboren, hat sechs Geschwister. Alle Geschwister haben eine klassische
+Musikausbildung. Einige von ihnen haben bereits Karrieren gestartet,
+darunter die Älteste: Isata. Sie studierte an der Royal Academy of Music in
+London und hat seitdem eine erfolgreiche Karriere als Pianistin verfolgt.
+
+Sie ist bekannt für ihre ausdrucksstarken Interpretationen und ihre technische
+Virtuosität. Die Künstlerin spielt drei ihrer Lieblingsstücke am Tiny Desk.
+Grandios.

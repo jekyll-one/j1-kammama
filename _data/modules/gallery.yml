@@ -33,8 +33,9 @@ settings:
     # ==========================================================================
     # VIDEO Galleries
     # ==========================================================================
-
+    # See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
     # --------------------------------------------------------------------------
+
     # The Piano (YouTube)
     #
     - gallery:
@@ -69,11 +70,6 @@ settings:
           download:                     false
 
           alignThumbnails:              left
-#          addClass:                     lg-uno-thumbnails                       # customized thumbnails
-#          appendThumbnailsTo:           .lg-outer                               # required for customized thumbnails
-#          animateThumb:                 false                                   # required for customized thumbnails
-#          allowMediaOverlap:            true                                    # required for customized thumbnails
-
           animateThumb:                 true
           autoplayFirstVideo:           true
           videojs:                      false
@@ -81,18 +77,12 @@ settings:
         videojsOptions:
           enabled:                      false
 
-#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
+
         playerParams:
           enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-#         controls:                     1                                       # default = 0
-#         enablejsapi:                  1                                       # default = 1
-#         hl:                           en                                      # default = en
-#         loop:                         0                                       # default = 0
-          mute:                         0                                       # default = 1
-#         playsinline:                  1                                       # for mobile|iOS only
-#         wmode:                        opaque                                  # default = opaque
+          start:                        ["00:00:00", "00:00:00"]
+          autoplay:                     1
+          mute:                         0
 
       # ------------------------------------------------------------------------
       # CSS filter options
@@ -147,9 +137,8 @@ settings:
                                           dabei.
                                         </ -->
 
-
     # --------------------------------------------------------------------------
-    # TinyDesk Concerts (Pop, YouTube)
+    # TinyDesk Concerts, Pop (YouTube)
     #
     - gallery:
       enabled:                          true
@@ -181,13 +170,7 @@ settings:
         options:
           licenseKey:                   0000-0000-000-0000
           download:                     false
-
           alignThumbnails:              left
-#          addClass:                     lg-uno-thumbnails                       # customized thumbnails
-#          appendThumbnailsTo:           .lg-outer                               # required for customized thumbnails
-#          animateThumb:                 false                                   # required for customized thumbnails
-#          allowMediaOverlap:            true                                    # required for customized thumbnails
-
           animateThumb:                 true
           autoplayFirstVideo:           true
           videojs:                      false
@@ -195,18 +178,11 @@ settings:
         videojsOptions:
           enabled:                      false
 
-#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
         playerParams:
           enabled:                      true
           start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
           autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-#         controls:                     1                                       # default = 0
-#         enablejsapi:                  1                                       # default = 1
-#         hl:                           en                                      # default = en
-#         loop:                         0                                       # default = 0
           mute:                         0                                       # default = 1
-#         playsinline:                  1                                       # for mobile|iOS only
-#         wmode:                        opaque                                  # default = opaque
 
       # ------------------------------------------------------------------------
       # CSS filter options
@@ -234,9 +210,9 @@ settings:
           poster_image:                 F4neLJQC1_E/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S01 · Dua Lipa (At Home)
+          caption_text:                 S01 · Dua Lipa (2020)
           description: >
-                                        <h5>S01 · Dua Lipa, Tiny Desk (At Home) </h5>
+                                        <h4> S01 · Dua Lipa, at Home (Pandemic 2020) </h4>
 
         # video 2
         - video:
@@ -249,9 +225,9 @@ settings:
           poster_image:                 y38qQRg3UDI/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S02 · Dua Lipa (At the TinyDesk)
+          caption_text:                 S02 · Dua Lipa (2024)
           description: >
-                                        <h5>S02 · Dua Lipa (At the TinyDesk)
+                                        <h4> S02 · Dua Lipa at NPR Music (2024) </h4>
 
         # video 3
         - video:
@@ -264,9 +240,161 @@ settings:
           poster_image:                 fOAIrUZbOwo/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S03 · Billie Eilish (At the TinyDesk)
+          caption_text:                 S03 · Billie Eilish (2024)
           description: >
-                                        <h5>S03 · Billie Eilish (At the TinyDesk)
+                                        <h4> S03 · Billie Eilish at NPR Music 2024 </h4>
+
+        # video 4
+        - video:
+          enabled:                      true
+
+          name:                         S04SabrinaCarpenter
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=BEoGvTlJMyY
+          poster_image:                 BEoGvTlJMyY/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S04 · Sabrina Carpenter (2024)
+          description: >
+                                        <h4> S04 · Sabrina Carpenter at NPR Music 2024 </h4>
+
+        # video 5
+        - video:
+          enabled:                      true
+
+          name:                         S05TaylorSwift
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=FvVnP8G6ITs
+          poster_image:                 FvVnP8G6ITs/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S04 · Taylor Swift (2019)
+          description: >
+                                        <h4> S04 · Taylor Swift at NPR Music 2019 </h4>
+
+        # video 6
+        - video:
+          enabled:                      true
+
+          name:                         S06JustinTimberlake
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=cMIJsoaxRjk
+          poster_image:                 cMIJsoaxRjk/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S04 · Justin Timberlake (2024)
+          description: >
+                                        <h4> S04 · Justin Timberlake at NPR Music 2024 </h4>
+                     
+    # --------------------------------------------------------------------------
+    # TinyDesk Concerts, Latin, Funk und R&B (YouTube)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               tiny_desk_concerts_latin_funk_rb
+      type:                             video
+      video:                            youtube
+      image_base_path:                  //img.youtube.com/vi
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+          mute:                         0                                       # default = 1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        # video 1
+        - video:
+          enabled:                      true
+
+          name:                         S01CamilaCabello
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=F7wIRxQEetc
+          poster_image:                 F7wIRxQEetc/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S01 · Camila Cabello (2021)
+          description: >
+                                        <h4> S01 · Camila Cabello, at Home (Pandemic 2021) </h4>
+
+        # video 2
+        - video:
+          enabled:                      true
+
+          name:                         S02RobertoFonsecas
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=vdph2l0iw74
+          poster_image:                 vdph2l0iw74/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S02 · Roberto Fonsecas (2025)
+          description: >
+                                        <h4> S02 · Roberto Fonsecas at NPR Music (2025) </h4>
+
+        # video 3
+        - video:
+          enabled:                      true
+
+          name:                         S03NileRodgers
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=pRERgcQe-fQ
+          poster_image:                 pRERgcQe-fQ/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S03 · Nile Rodgers (2023)
+          description: >
+                                        <h4> S02 · Nile Rodgers at NPR Music (2023) </h4>
 
         # video 4
         - video:
@@ -279,38 +407,178 @@ settings:
           poster_image:                 uwUt1fVLb3E/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S04 · Alicia Keys (At the TinyDesk)
+          caption_text:                 S04 · Alicia Keys (2020)
           description: >
-                                        <h5>S04 · Alicia Keys (At the TinyDesk)
-        # video 5
+                                        <h4>S04 · Alicia Keys at NPR Music (2020) </h4>
+
+    # --------------------------------------------------------------------------
+    # TinyDesk Concerts, Guitar (YouTube)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               tiny_desk_concerts_guitar
+      type:                             video
+      video:                            youtube
+      image_base_path:                  //img.youtube.com/vi
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+          mute:                         0                                       # default = 1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        # video 1
         - video:
           enabled:                      true
 
-          name:                         S05CamilaCabello
+          name:                         S01YasminWilliams
           type:                         youtube
           size:                         1280-720
-          source:                       //youtube.com/watch?v=F7wIRxQEetc
-          poster_image:                 F7wIRxQEetc/maxresdefault.jpg
+          source:                       //youtube.com/watch?v=E6-z-Gqd30Q
+          poster_image:                 E6-z-Gqd30Q/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S05 · Camila Cabello (At Home)
+          caption_text:                 S01 · Yasmin Williams (2025)
           description: >
-                                        <h5>S05 · Camila Cabello (At Home)
+                                        <h4> S01 · Yasmin Williams, at NPR Music (2025) </h4>
 
-        # video 6
+        # video 2
         - video:
           enabled:                      true
 
-          name:                         S06OliviaRodrigo
+          name:                         S02MartaPereira
           type:                         youtube
           size:                         1280-720
-          source:                       //youtube.com/watch?v=jmh3iruf4RA
-          poster_image:                 jmh3iruf4RA/maxresdefault.jpg
+          source:                       //youtube.com/watch?v=wzlZ68ts-IU
+          poster_image:                 wzlZ68ts-IU/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S06 · Olivia Rodrigo (At the TinyDesk)
+          caption_text:                 S02 · Marta Pereira da Costa (2023)
           description: >
-                                        <h5>S06 · Olivia Rodrigo (At the TinyDesk)
+                                        <h4> S02 · Marta Pereira da Costa at NPR Music (2023) </h4>
+
+    # --------------------------------------------------------------------------
+    # TinyDesk Concerts, Piano (YouTube)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               tiny_desk_concerts_piano
+      type:                             video
+      video:                            youtube
+      image_base_path:                  //img.youtube.com/vi
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+          mute:                         0                                       # default = 1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        # video 1
+        - video:
+          enabled:                      true
+
+          name:                         S01IsataKannehMason
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=QFGWCRXkWns
+          poster_image:                 QFGWCRXkWns/maxresdefault.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 S01 · Isata Kanneh-Mason (2025)
+          description: >
+                                        <h4> S01 · Isata Kanneh-Mason, at NPR Music (2025) </h4>
 
     # --------------------------------------------------------------------------
     # Online VIDEO Auf Achse (YouTube)
