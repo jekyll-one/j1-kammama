@@ -23,8 +23,8 @@ image:
   width:                                1920
   height:                               1280
 
-attic:                                  false
 regenerate:                             false
+fab_menu_id:                            open_toc                                # default
 personalization:                        true
 permalink:                              /pages/public/audio/music/smooth-jazz/
 
@@ -32,8 +32,6 @@ resources:                              [ amplitudejs ]
 resource_options:
   - attic:
       filters:
-#       grayscale:                      0
-#       contrast:                       1
         brightness:                     0.7  
       padding_top:                      650
       slides:
@@ -87,14 +85,22 @@ Was zeichnet Smooth Jazz aus?
 
 Sanfte Melodien::
 Im Gegensatz zum traditionellen Jazz, der oft improvisierte und komplexe
-Strukturen aufweist, legt Smooth Jazz Wert auf eingängige Melodien und
+Strukturen verwendet, legt Smooth Jazz Wert auf eingängige Melodien und
 harmonische Arrangements.
 
 Entspannte Atmosphäre::
-Die Musik ist oft entspannend und lädt zum Zuhören ein.
+Die Musik ist entspannend und lädt zum Zuhören ein.
 
 Einflüsse aus anderen Genres::
 Smooth Jazz bezieht häufig Elemente aus R&B, Funk und Pop ein.
+
+
+[role="mt-5"]
+== Sound von Dua Lipa
+
+_Dua Lipa_ hat sich in kurzer Zeit zu einer der prägendsten Sängerinnen der
+Popmusik entwickelt. Ihre Musik ist ein Spiegelbild moderner Popkultur,
+musikalischer Vielfalt und tanzbarer Rhythmen.
 
 
 [role="mt-5 mb-5"]
@@ -118,10 +124,4 @@ Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
 
 .Renditions von Dua Lipa · YouTube
 amplitude::smooth_jazz_dua_lipa_yt_large[role="mt-4 mb-8"]
-
-[TIP]
-====
-Möchten Sie originale Konzertversionen von Dua Lipa hören (und sehen)? Auf
-der Seite link:/pages/public/video/music/tinydesk-concerts/[]
-
 ====
