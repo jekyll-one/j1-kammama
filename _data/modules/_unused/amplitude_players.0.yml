@@ -286,7 +286,7 @@ settings:
       #
       song_progress_bar:                true
       skip_forward_backward_button:     true
-      forward_backward_skip_seconds:    15
+      forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
         preset_value:                   46
@@ -306,6 +306,48 @@ settings:
         title:                          Dua Lipa
         audio_info:                     true
         audio_rating:                   false   
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Smooth Jazz (Diana Kroll)
+    # --------------------------------------------------------------------------
+    #
+    # - player:
+
+    #   # ------------------------------------------------------------------------
+    #   # GENERAL settings
+    #   #     
+    #   enabled:                          true
+
+    #   id:                               diana_kroll_yt_large
+    #   type:                             large
+    #   source:                           video
+    #   display_hours:                    false
+
+    #   # ------------------------------------------------------------------------
+    #   # CONTROL settings
+    #   #
+    #   song_progress_bar:                true
+    #   skip_forward_backward_button:     true
+    #   forward_backward_skip_seconds:    60
+    #   volume_slider:
+    #     enabled:                        true
+    #     preset_value:                   46
+
+    #   # ------------------------------------------------------------------------
+    #   # PLUGIN settings
+    #   #
+    #   plugin_manager:
+    #     enabled:                        true
+    #     plugins:                        [ ytp ]
+
+    #   # ------------------------------------------------------------------------
+    #   # PLAYLIST settings
+    #   #
+    #   playlist:
+    #     name:                           album_diana_kroll_yt
+    #     title:                          Diana Krall
+    #     audio_info:                     true
+    #     audio_rating:                   false   
 
     # --------------------------------------------------------------------------
     # Sherlock Holmes, Späte Rache, LARGE player
@@ -430,48 +472,6 @@ settings:
         title:                          Roman von Emile Zolas
         audio_info:                     true
         audio_rating:                   false
-
-    # --------------------------------------------------------------------------
-    # LARGE player, Smooth Jazz (Diana Krall)
-    # --------------------------------------------------------------------------
-    #
-    - player:
-
-      # ------------------------------------------------------------------------
-      # GENERAL settings
-      #     
-      enabled:                          true
-
-      id:                               diana_krall_yt_large
-      type:                             large
-      source:                           video
-      display_hours:                    false
-
-      # ------------------------------------------------------------------------
-      # CONTROL settings
-      #
-      song_progress_bar:                true
-      skip_forward_backward_button:     true
-      forward_backward_skip_seconds:    15
-      volume_slider:
-        enabled:                        true
-        preset_value:                   46
-
-      # ------------------------------------------------------------------------
-      # PLUGIN settings
-      #
-      plugin_manager:
-        enabled:                        true
-        plugins:                        [ ytp ]
-
-      # ------------------------------------------------------------------------
-      # PLAYLIST settings
-      #
-      playlist:
-        name:                           diana_krall_yt
-        title:                          Diana Krall
-        audio_info:                     true
-        audio_rating:                   false   
 
 # ------------------------------------------------------------------------------
 # END config

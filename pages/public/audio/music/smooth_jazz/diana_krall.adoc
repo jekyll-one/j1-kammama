@@ -1,7 +1,7 @@
 ---
-title:                                  Diana Krall 
-tagline:                                Live in Rio 2008
-title_extention:                        Live in Rio 2008
+title:                                  Diana Krall
+tagline:                                Jazzpianistin und Sängerin
+title_extention:                        Jazzpianistin und Sängerin
 
 
 date:                                   2025-02-08
@@ -14,7 +14,7 @@ description: >
 
 keywords:                               Musik, Jazz, Diana Krall
 
-categories:                             [ Video ]
+categories:                             [ Audio ]
 tags:                                   [ Musik , Diana Krall ]
 
 image:
@@ -26,9 +26,9 @@ compress:                               false
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
-permalink:                              /pages/public/video/music/diana-krall/
+permalink:                              /pages/public/audio/music/diana-krall/
 
-resources:                              [ videojs ]                             # [ amplitudejs, videojs ]
+resources:                              [ amplitudejs ]                         # [ amplitudejs, videojs ]
 resource_options:
   - attic:
       padding_top:                      550
@@ -45,8 +45,6 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
-:show-audio:                            false
-:show-video:                            true
 
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
@@ -89,56 +87,13 @@ meistverkauften Jazzkünstlerinnen aller Zeiten. Sie hat mehrere Grammys
 gewonnen und mit vielen bekannten Musikern zusammengearbeitet, darunter
 _Tony Bennett_, _Paul McCartney_ und _Barbra Streisand_.
 
-ifeval::[{show-video} == true]
-[role="mt-5"]
-== Video Playlist
 
-Dianas Musikstil ist eine Mischung aus *Jazz*, *Pop* und *Blues*. Ihre Stimme
-ist warm und soulig - ihr Klavierspiel einfühlsam. Sie ist bekannt für ihre
-Live-Auftritte, bei denen sie das Publikum mit der Musik wie mit ihrer
-Ausstrahlung begeistert.
-
-[role="mt-4 mb-5"]
-[NOTE]
-====
-Aus Gründen des Urheberschutzes, lädt der Video Player alle Videos direkt
-über das Angebot der YouTube Plattform
-link://youtube.com/watch?v=7sxK8ghb9PU&list=PL63F10BA7870008CB[Diana Krall (Playlist), {browser-window--new}].
-
-Eine Internetverbindung ist zum Abspielen der Videos daher *zwingend*
-erforderlich.
-====
-
-.Cry Me A River · Live in Rio
-youtube::cizgXSegrko[poster="//img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg" role="mt-4 mb-5"]
-
-.Walk On By · Live in Rio
-youtube::yCwc-5YTBb0[poster="//img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg" role="mt-4 mb-5"]
-
-.Este seu Olhar · Live in Rio
-youtube::okb8nIpuXgs[poster="//img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg" role="mt-4 mb-5"]
-
-.So Nice · Live in Rio
-youtube::LKaAS3ZxiKM[poster="//img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg" role="mt-4 mb-5"]
-
-[role="mb-8"]
-[TIP]
-====
-Die Playlist von _Diana Krall_ auf YouTube steht auf diesen Seiten auch als
-**Audio**-Version unter
-link:/pages/public/audio/music/diana-krall/#audio-playlist[Diana Krall · Audio Playlist, {browser-window--new}]
-zur Verfügung.
-====
-
-endif::[]
-
-ifeval::[{show-audio} == true]
 [role="mt-5"]
 == Audio Playlist
 
-Die Playlist von _Diana Krall_ auf YouTube steht auf diesen Seiten auch als
-**Audio**-Version unter
-link:/pages/public/audio/music/diana-krall/#audio-playlist[Diana Krall · Audio Playlist, {browser-window--new}]
+Teile der Playlist von _Diana Krall_ auf YouTube steht auf diesen Seiten auch
+als **Video**-Version unter
+link:/pages/public/video/music/diana-krall/#video-playlist[Diana Krall · Live in Rio, {browser-window--new}]
 zur Verfügung.
 
 [role="mt-4 mb-5"]
@@ -146,13 +101,11 @@ zur Verfügung.
 ====
 Aus Gründen des Urheberschutzes, lädt der Audio Player alle Stücke der
 *Playlist* direkt über das Angebot der YouTube Plattform
-link://youtube.com/watch?v=7sxK8ghb9PU&list=PL63F10BA7870008CB[Diana Krall (Playlist), {browser-window--new}].
+link:https://www.youtube.com/watch?v=7sxK8ghb9PU&list=PL63F10BA7870008CB[Diana Krall (Playlist), {browser-window--new}].
 
 Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
 ====
 
 .Diana Krall · YouTube
 amplitude::diana_krall_yt_large[role="mt-4 mb-8"]
-
-endif::[]
 

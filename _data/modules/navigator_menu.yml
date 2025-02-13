@@ -42,9 +42,17 @@
       icon:                             volume-high
       dropdown:
 
-        - title:                        Smooth Jazz
-          href:                         /pages/public/audio/music/smooth-jazz-renditions/
-          icon:                         ear-hearing  
+      - title:                          Smooth Jazz
+        icon:                           volume-high
+        dropdown:
+
+          - title:                      Diana Krall
+            href:                       /pages/public/audio/music/diana-krall/
+            icon:                       ear-hearing
+
+          - title:                      Smooth Jazz Renditions
+            href:                       /pages/public/audio/music/smooth-jazz-renditions/
+            icon:                       ear-hearing
 
     # --------------------------------------------------------------------------
     # Hörbücher
@@ -123,6 +131,9 @@
       icon:                             video
       dropdown:
 
+        - title:                        Diana Krall
+          href:                         /pages/public/video/music/diana-krall/
+          icon:                         filmstrip
         - title:                        The Piano
           href:                         /pages/public/video/music/the-piano/
           icon:                         filmstrip

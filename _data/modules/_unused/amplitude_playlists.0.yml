@@ -1226,6 +1226,52 @@ settings:
           duration:                     "03:27"
 
     # --------------------------------------------------------------------------
+    #  Smooth Jazz (Diana Kroll)
+    # --------------------------------------------------------------------------
+    #
+    # - playlist:
+    #   enabled:                          true
+
+    #   name:                             diana_kroll_yt
+    #   title:                            Dua Lipa
+
+    #   # ------------------------------------------------------------------------
+    #   # ALBUM settings
+    #   # ------------------------------------------------------------------------
+    #   album:                            &album_diana_kroll_yt
+    #     name:                           Dua Lipa
+    #     artist:                         Smooth Jazz Renditions
+    #     audio_base:                     //youtube.com
+    #     cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+
+    #   # ------------------------------------------------------------------------
+    #   # TITLE settings (songs)
+    #   # ------------------------------------------------------------------------
+    #   items:
+
+    #     # title 01
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_diana_kroll_yt
+    #       title:                        Training Season
+    #       audio:                        watch?v=_R0Vj2zC5VI
+    #       rating:                       3
+    #       audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+    #       cover_image:                  //img.youtube.com/vi/_R0Vj2zC5VI/maxresdefault.jpg
+    #       duration:                     "03:07"
+
+    #     # title 02
+    #     - item:
+    #       enabled:                      true
+    #       <<:                           *album_diana_kroll_yt
+    #       title:                        Houdini
+    #       audio:                        watch?v=xlsKFDyQTJg
+    #       rating:                       3
+    #       audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+    #       cover_image:                  //img.youtube.com/vi/xlsKFDyQTJg/maxresdefault.jpg
+    #       duration:                     "02:26"
+
+    # --------------------------------------------------------------------------
     #  Sherlock Holmes, Späte Rache
     # --------------------------------------------------------------------------
     #
@@ -1748,250 +1794,6 @@ settings:
           title:                        22E30 Das Paradies der Damen · Folge 30
           audio:                        269/2697074/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge30_wdr5.mp3
           duration:                     "25:30"
-
-    # --------------------------------------------------------------------------
-    #  Smooth Jazz (Diana Krall)
-    # --------------------------------------------------------------------------
-    
-    - playlist:
-      enabled:                          true
-
-      name:                             diana_krall_yt
-      title:                            Diana Krall
-
-      # ------------------------------------------------------------------------
-      # ALBUM settings
-      # ------------------------------------------------------------------------
-      album:                            &album_diana_krall_yt
-        name:                           Diana Krall
-        artist:                         Smooth Jazz
-        audio_base:                     //youtube.com
-        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
-
-      # ------------------------------------------------------------------------
-      # TITLE settings (songs)
-      # ------------------------------------------------------------------------
-      items:
-
-        # title 01
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Cry Me A River · Live in Rio (2008)
-          audio:                        watch?v=cizgXSegrko
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "06:07"
-
-        # title 02
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Walk On By · Live in Rio (2008)
-          audio:                        watch?v=yCwc-5YTBb0
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "05:10"
-
-        # title 03
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Este seu Olhar · Live in Rio (2008)
-          audio:                        watch?v=okb8nIpuXgs
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "03:11"
-
-        # title 04
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        So Nice · Live in Rio (2008)
-          audio:                        watch?v=LKaAS3ZxiKM
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "06:07"
-
-        # title 05
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Besame Mucho (2010)
-          audio:                        watch?v=4uEl5Z5DEDw
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "06:07"
-
-        # title 06
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        When I look in your eyes (2009)
-          audio:                        watch?v=Hkke0UOJMB0
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:00"
-
-        # title 07
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Narrow Daylight (2010)
-          audio:                        watch?v=0XMZNI1qKh8
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "03:29"
-
-        # title 08
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Quiet Nights Video (2010)
-          audio:                        watch?v=LyHFY-gWLR4
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:43"
-
-        # title 09
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        The Look Of Love (2010)
-          audio:                        watch?v=Yr8xDSPjII8
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "03:50"
-
-        # title 10
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        You Go To My Head (2010)
-          audio:                        watch?v=Mpq61KN2ShY
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "03:48"
-
-        # title 11
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        East Of The Sun (2010)
-          audio:                        watch?v=jkk2mMq2x8E
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/jkk2mMq2x8E/maxresdefault.jpg
-          duration:                     "04:10"
-
-        # title 12
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Almost Blue (2010)
-          audio:                        watch?v=_z7X8fbNIkI
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/_z7X8fbNIkI/maxresdefault.jpg
-          duration:                     "03:59"
-
-        # title 13
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Temptation (2010)
-          audio:                        watch?v=pbej3bEnPfk
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:37"
-
-        # title 14
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Maybe You'll Be There (2009)
-          audio:                        watch?v=dMsvBwvZ7U8
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:26"
-
-        # title 15
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        A Blossom Fell (2010)
-          audio:                        watch?v=GBnWGAQQw1w
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:14"
-
-        # title 16
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Boulevard of broken dreams (2012)
-          audio:                        watch?v=J5fBxO5YL3Q
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "06:21"
-
-        # title 17
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        How Can You Mend A Broken Heart (2010)
-          audio:                        watch?v=mG88b1qjWik
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:35"
-
-        # title 18
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Abandoned Masquerade (2012)
-          audio:                        watch?v=tHWusss1MHk
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:22"
-
-        # title 19
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Is You Is Or Is You Ain't My Baby (2012)
-          audio:                        watch?v=m-_wewgy-Ls
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:57"
-
-        # title 20
-        - item:
-          enabled:                      true
-          <<:                           *album_diana_krall_yt
-          title:                        Just The Way You Are (2010)
-          audio:                        watch?v=d8RYUZT57XA
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
-          cover_image:                  //img.youtube.com/vi/d8RYUZT57XA/maxresdefault.jpg
-          duration:                     "04:01"
 
 # ------------------------------------------------------------------------------
 # END config
