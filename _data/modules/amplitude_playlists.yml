@@ -113,10 +113,20 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E06 · Schrott of the Day
-          rating:                       3
+          rating:                       4
           audio:                        EARLYSTUDIOSGMBH1913495758.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/schrott-of-the-day/id1741818812?i=1000689463568
           duration:                     "00:47:52"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E07 · Die 9 Kammern
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH1831289568.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/die-9-kammern/id1741818812?i=1000691616319
+          duration:                     "01:16:16"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024
