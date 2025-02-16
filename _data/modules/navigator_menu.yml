@@ -145,6 +145,10 @@
       icon:                             video
       dropdown:
 
+        - title:                        Carpool Karaoke
+          href:                         /pages/public/video/show/carpool-karaoke/
+          icon:                         filmstrip
+
         - title:                        AGT & BGT
           href:                         /pages/public/video/show/xgt/
           icon:                         filmstrip
@@ -156,10 +160,6 @@
         - title:                        Sträter
           href:                         /pages/public/video/show/straeter/
           icon:                         filmstrip
-
-#       - title:                        Missverstehen Sie mich richtig!
-#         href:                         /pages/public/video/show/missverstehen/
-#         icon:                         filmstrip
 
     - title:                            Comedy
       icon:                             video
