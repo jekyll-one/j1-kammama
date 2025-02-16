@@ -1235,18 +1235,12 @@ settings:
         videojsOptions:
           enabled:                      true
 
-#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
+
         playerParams:
           enabled:                      true
           start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
           autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-#         controls:                     1                                       # default = 0
-#         enablejsapi:                  1                                       # default = 1
-#         hl:                           en                                      # default = en
-#         loop:                         0                                       # default = 0
           mute:                         0                                       # default = 1
-#         playsinline:                  1                                       # for mobile|iOS only
-#         wmode:                        opaque                                  # default = opaque
 
       # ------------------------------------------------------------------------
       # CSS filter options
@@ -1400,6 +1394,190 @@ settings:
                                           Bald stößt ein eifriger Helfer hinzu, der ihnen den ganzen Tag lang hilft.
                                           Doch Mimi Rutherfurt ist er nicht ganz geheuer...
                                         </h6 -->
+
+    # --------------------------------------------------------------------------
+    # Carpool Caraoke,(YouTube)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               carpool_karaoke_selected
+      type:                             video
+      video:                            youtube
+      image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+          mute:                         0                                       # default = 1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        # video 1
+        - video:
+          enabled:                      true
+
+          name:                         MichelleObama
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=ln3wAdRAim4
+          poster_image:                 michelle_obama.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 First Lady Michelle Obama
+          description: >
+                                        <h4> First Lady Michelle Obama </h4>
+        # video 2
+        - video:
+          enabled:                      true
+
+          name:                         LadyGaga
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=X5Cfi7U4eL4
+          poster_image:                 lady_gaga.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Lady Gaga
+          description: >
+                                        <h4> Lady Gaga </h4>
+
+    # --------------------------------------------------------------------------
+    # Carpool Caraoke, James and Adele (YouTube)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               carpool_karaoke_james_and_adele
+      type:                             video
+      video:                            youtube
+      image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+          mute:                         0                                       # default = 1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        # video 1
+        - video:
+          enabled:                      true
+
+          name:                         Adele_2016
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=Nck6BZga7TQ
+          poster_image:                 adele.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Adele · First Tour (2016)
+          description: >
+                                        <h4> Adele · First Tour (2016) </h4>
+
+        # video 2
+        - video:
+          enabled:                      true
+
+          name:                         Adele_2023
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=nV8UZJNBY6Y
+          poster_image:                 adele_last.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Adele · Last Carpool Caraoke (2023)
+          description: >
+                                        <h4> Adele · Last Carpool Caraoke 2023</h4>
+
 
 # ------------------------------------------------------------------------------
 # END config

@@ -1,0 +1,217 @@
+---
+title:                                  Singen im Auto
+tagline:                                Mit James Corden und Gästen
+title_extention:                        Mit James Corden und Gästen
+
+
+date:                                   2024-09-14
+#last_modified:                         2023-01-01
+
+description: >
+                                        Mit Carpool Karaoke lud der britische Moderator James Corden
+                                        bekannte Musiker ein, um während der Fahrt ihre Lieder mitzusingen.
+                                        Die Idee war, dass Corden auf dem Weg zur Arbeit war und die
+                                        Sonderspur für Fahrgemeinschaften nutzen wollte.
+
+keywords:                               TV, Show, CBS, Carpool Karaoke, The Late Late Show, James Corden
+
+categories:                             [ Video ]
+tags:                                   [ Show, Carpool Karaoke, James Corden ]
+
+image:
+  path:                                 /assets/image/pages/carpool_Karaoke/carpool-karaoke-neon-logo.png
+  width:                                1280
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc
+compress:                               false
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/video/show/carpool-karaoke/
+
+resources:                              [ gallery, lightgallery, videojs ]
+resource_options:
+  - attic:
+      padding_top:                      550
+      slides:
+        - url:                          /assets/image/pages/carpool_karaoke/carpool-karaoke-neon-logo.png
+          alt:                          Torsten Sträter
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Die „The Late Late Show“ war eine beliebte Late-Night-Show in den USA, die bis
+zum Jahr 2023 auf dem Sender CBS gesendet wurde. Die Show hatte eine breite
+Palette von Gästen, von Hollywood-Stars über Musiker bis hin zu Politikern.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  20+ Minuten Videozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über die Late Late Show
+
+Die Show mit _James Corden_ war die *letzte* Staffel von *The Late Late Show* 
+auf CBS und zeichnete sich durch den britischen Moderator aus. Von Beginn
+an begeisterte er die Zuschauer mit seinem sehr humorvollen und charmanten
+Stil der Moderation.
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, lädt der Player die ausgewählten Videos direkt
+über das Angebot der
+link://youtube.com[YouTube Plattform, {browser-window--new}].
+====
+
+
+[role="mt-4"]
+=== Der Anfang
+
+_James Corden_ war in der USA völlig unbekannt. Noch hatte er Erfahrungen mit
+Late-Night-Shows; weder in den USA noch in Großbritannien. Er hatte neue Ideen
+wie eine solche Show, die sehr spät gesendet wurde, aussehen könnte. Seine
+Vorstellung war eine Abkehr vom journalistischen Gepräge seiner Vorgänger.
+
+Stattdessen: Gute Musik live gespielt und Teil des Ganzen. Viel Humor,
+entspannte Gespräche und humorvolle Aktionen und Sketche mit seinen Gästen
+sollten den bisherigen Talk an Schreibtisch ablösen. Ein Zusammensein auf
+einer Couch und das Publikum im Studio mittendrin. Das ist etwas komplett
+anderes. 
+
+In kaum einem anderan Land wie den USA wäre soetwas möglich gewesen. Sicher
+war die Show auf CBS in die Jahre gekommen. Doch eines gilt hier: Scheitern
+ist kein Untergang. Und sollte das Risko lohnen: Go for it. Mit den Möglichkeiten
+des Senders wurde die Umsetzung entschieden. Mit allem was dazu gehört:
+Neues Studio mit Unterstützung eines erfahrenen Produktionsteams. Klein aber
+fein.
+
+James als Gastgeber brachte frischen Wind in das **Late-Night**-Format in den
+USA. Seine Energie, sein natürlicher Witz wie die Fähigkeit eine persönliche
+Verbindung zu den Gästen aufzubauen, machten die Show mit ihm als Moderator
+einzigartig.
+
+.Der Anfang als Unbekannter
+youtube::Q1QKPruAM7I[poster="//img.youtube.com/vi/Q1QKPruAM7I/maxresdefault.jpg" role="mt-4 mb-5"]
+
+[role="mt-4"]
+=== Singen im Auto
+
+Der Weg zu dem Format was wohl kaum vorgezeichnet. Singen im Auto ist nicht
+ungewöhnlich; der Font eines Autros ist sehr privat - auch in der Öffenthkeit;
+auf der Straße. Jedoch mit den weltweit bekanntesten Musikern und Sängern im
+Auto eine Runde zu drehen und mit dem Auto-Radio zu singen schon etwas anderes.
+
+Das Besondere an *Carpool Karaoke* war die ungezwungene und sehr unterhaltsame
+Atmosphäre, in der die Stars ihre Musik auf eine neue und persönliche Weise
+präsentieren konnten.
+
+Eine der ersten war _Mariah Carey_ und sie ist nicht dafür bekannt besonders
+nahbar zu sein. Dennoch hat es James geschafft; wie auch immer. Das Format
+wurde zu einer Marke - für die Show wie für die Künstler.
+
+Die Fans liebten es, ihre Lieblingskünstler in einer entspannten Umgebung zu
+erleben und mit ihnen zu singen. Die Chemie zwischen Corden und den Gästen war
+ungewöhnlich. Was zu sehr amüsanten und denkwürdigen Momenten führte.
+
+.Singen im Auto
+youtube::vVjIREizcgE[poster="//img.youtube.com/vi/vVjIREizcgE/maxresdefault.jpg" role="mt-4 mb-5"]
+
+
+[role="mt-4"]
+=== Die Brits
+
+Das _James Corden_ aus England kommt wird wohl jedem jetzt klar geworden sein.
+Die Wurzeln von James sind eines ganz bestimmt: Britisch. Beruflich wie Privat
+als Sprachschüler, war ich des Öfteren dort. Ich erinnere mich mich gerne daran
+zurück. Ich gebe es zu: Zum Teil mit Schrecken. Unsere europäischen Nachbarn
+sind echte Bister: Wenn komisch, wenn feiern - dann richtig.
+
+.Wir sind ein wenig Britisch
+youtube::sUjQV-we8aU[poster="//img.youtube.com/vi/sUjQV-we8aU/maxresdefault.jpg" role="mt-4 mb-5"]
+
+
+[role="mt-4"]
+=== Das Ende
+
+Im April 2023 wurde die letzte Folge der *The Late Late Show* auf CBS mit
+_James Corden_ ausgestrahlt. Corden hatte zuvor angekündigt, die Show zu
+verlassen, um mehr Zeit mit seiner Familie in Großbritannien zu verbringen.
+Sein Abschied wurde von vielen Fans in den USA - wie International - sehr
+bedauert. Aber er hinterließ ein beeindruckendes Erbe an unvergesslichen
+Momenten und sehr gute Unterhaltung.
+
+.Das Ende der Show mit James Corden
+youtube::ocpGfxJ_S1g[poster="//img.youtube.com/vi/ocpGfxJ_S1g/maxresdefault.jpg" role="mt-4 mb-5"]
+
+
+[role="mt-4 mb-5"]
+[TIP]
+====
+Den Kanal der Show finden Sie auf der YouTube Plattform unter
+link://youtube.com/@TheLateLateShow[The Late Late Show, {browser-window--new}].
+====
+
+
+[role="mt-5"]
+== Carpool Karaoke
+
+In der Rubrik *Carpool Karaoke* der Show, in der der Moderator berühmte Musiker
+einlud, um während der Fahrt ihre Lieder mitzusingen. Die Idee war, dass Corden
+auf dem Weg zur Arbeit war und die Sonderspur für Fahrgemeinschaften nutzen
+wollte, oder dass er in einer neuen Stadt, wie London (mit Adele), Liverpool
+(mit Paul McCartney) oder New York City (mit Madonna) eine Wegbeschreibung von
+einem Einheimischen benötigte.
+
+[role="mt-4 mb-5"]
+[TIP]
+====
+*Alle Folgen* können über den Kanal auf der YouTube Platform
+link://www.youtube.com/hashtag/carpoolkaraoke[Carpool Karaoke, {browser-window--new}]
+abgerufen werden.
+====
+
+Eine Auswahl der schönsten Touren - meiner Ansicht - finden Sie in der
+folgenden Gallerie.
+
+.Carpool Karaoke · Ausgewählte Episoden
+gallery::carpool_karaoke_selected[role="mb-5"]
+
+
+[role="mt-4"]
+=== Der Abschied mit Adele
+
+Nach acht Jahren wurde die *letzte Folge* mit _James Corden_ im Jahr 2023
+ausgestrahlt. In der letzten Folge von *Carpool Karaoke* begrüßte er wieder
+_Adele_, einer guten Freundin von ihm. Sie war bereits im Jahr 2016 in einer
+Episode zu sehen. Beide Folgen sind unterhaltsam, doch die letzte Folge ist
+besonders: Ein wunderbarer wie emotionaler Abschluss.
+
+.Carpool Karaoke · Adele und James (2016|2023)
+gallery::carpool_karaoke_james_and_adele[role="mb-8"]
+
