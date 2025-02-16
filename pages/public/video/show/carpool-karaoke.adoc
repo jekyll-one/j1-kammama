@@ -218,4 +218,12 @@ besonders: Ein wunderbarer wie emotionaler Abschluss.
 gallery::carpool_karaoke_james_and_adele[role="mb-8"]
 
 
+[role="mt-5"]
+== Epilog
+
+Das Umsetzen einer guten Idee braucht eine Menge Energie wie einen starken
+Glauben daran, das es gelingt. Und noch viel mehr: Menschen die dabei helfen
+und eigene Energien einbringen. Das ist unverzichtbar.
+
+
 
