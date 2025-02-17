@@ -1396,12 +1396,12 @@ settings:
                                         </h6 -->
 
     # --------------------------------------------------------------------------
-    # Carpool Caraoke,(YouTube)
+    # Carpool Caraoke, Ladies Tour (YouTube)
     #
     - gallery:
       enabled:                          true
 
-      id:                               carpool_karaoke_selected
+      id:                               carpool_karaoke_ladies_tour
       type:                             video
       video:                            youtube
       image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
@@ -1471,6 +1471,7 @@ settings:
           caption_text:                 First Lady Michelle Obama
           description: >
                                         <h4> First Lady Michelle Obama </h4>
+
         # video 2
         - video:
           enabled:                      true
@@ -1485,6 +1486,279 @@ settings:
           caption_text:                 Lady Gaga
           description: >
                                         <h4> Lady Gaga </h4>
+
+        # video 3
+        - video:
+          enabled:                      true
+
+          name:                         ArianaGrande
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=_8ZDK_E5p84
+          poster_image:                 ariana_grande.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Ariana Grande
+          description: >
+                                        <h4> Ariana Grande </h4>
+
+        # video 4
+        - video:
+          enabled:                      true
+
+          name:                         BillieEilish
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=uh2qGWfmESk
+          poster_image:                 billie_eilish.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Billie Eilish
+          description: >
+                                        <h4> Billie Eilish </h4>
+
+        # video 5
+        - video:
+          enabled:                      true
+
+          name:                         BritneySpears
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=pSd9hiBGoE0
+          poster_image:                 britney_spears.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Britney Spears
+          description: >
+                                        <h4> Britney Spears </h4>
+
+        # video 6
+        - video:
+          enabled:                      true
+
+          name:                         ChristinaAguilera
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=R10qTLfwm8E
+          poster_image:                 christina _aguilera.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Christina Aguilera
+          description: >
+                                        <h4> Christina Aguilera </h4>
+
+        # video 7
+        - video:
+          enabled:                      true
+
+          name:                         JenniferHudson 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=nGze8bbBQ-A
+          poster_image:                 jennifer_hudson.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Jennifer Hudson 
+          description: >
+                                        <h4> Jennifer Hudson </h4>
+
+        # video 8
+        - video:
+          enabled:                      true
+
+          name:                         JenniferLopez 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=qQIsdod0LWo
+          poster_image:                 jennifer_lopez.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Jennifer Lopez 
+          description: >
+                                        <h4> Jennifer Lopez </h4>
+
+        # video 9
+        - video:
+          enabled:                      true
+
+          name:                         MeghanTrainor 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=Wx98Ht7fgI8
+          poster_image:                 meghan_trainor.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Meghan Trainor 
+          description: >
+                                        <h4> Meghan Trainor </h4>
+
+        # video 10
+        - video:
+          enabled:                      true
+
+          name:                         Pink 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=sottGW1p5os
+          poster_image:                 pink.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Pink 
+          description: >
+                                        <h4> Pink </h4>
+
+        # video 11
+        - video:
+          enabled:                      true
+
+          name:                         MariahCarey 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=z2iwQoKD6mg
+          poster_image:                 mariah_carey.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Mariah Carey 
+          description: >
+                                        <h4> Mariah Carey </h4>
+
+        # video 12
+        - video:
+          enabled:                      true
+
+          name:                         NickiMinaj 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=HD4kk7tA6D8
+          poster_image:                 nicki_minaj.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Nicki Minaj 
+          description: >
+                                        <h4> Nicki Minaj </h4>
+
+    # --------------------------------------------------------------------------
+    # Carpool Caraoke, Gents Tour (YouTube)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               carpool_karaoke_gents_tour
+      type:                             video
+      video:                            youtube
+      image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      true
+          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+          mute:                         0                                       # default = 1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        # video 1
+        - video:
+          enabled:                      true
+
+          name:                         PaulMcCartney
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=QjvzCTqkBDQ
+          poster_image:                 paul_mc_cartney.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Paul McCartney
+          description: >
+                                        <h4> Paul McCartney </h4>
+
+        # video 2
+        - video:
+          enabled:                      true
+
+          name:                         EltonJohn
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=nblf7Yw4jys
+          poster_image:                 elton_john.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Elton John
+          description: >
+                                        <h4> Elton John </h4>
+
+        # video 3
+        - video:
+          enabled:                      true
+
+          name:                         GeorgeMichael
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=hvuENG3O9TM
+          poster_image:                 george_michael.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 George Michael
+          description: >
+                                        <h4> George Michael </h4>
+
+        # video 4
+        - video:
+          enabled:                      true
+
+          name:                         StevieWonder
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=qqrvm2XDvpQ
+          poster_image:                 stevie_wonder.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Stevie Wonder
+          description: >
+                                        <h4> Stevie Wonder </h4>
+
 
     # --------------------------------------------------------------------------
     # Carpool Caraoke, James and Adele (YouTube)

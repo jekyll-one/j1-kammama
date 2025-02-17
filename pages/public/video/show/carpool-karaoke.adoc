@@ -32,11 +32,13 @@ permalink:                              /pages/public/video/show/carpool-karaoke
 
 resources:                              [ gallery, lightgallery, videojs ]
 resource_options:
+  - toccer:
+      collapseDepth:                    3
   - attic:
       padding_top:                      550
       slides:
         - url:                          /assets/image/pages/carpool_karaoke/carpool-karaoke-neon-logo.png
-          alt:                          Torsten Sträter
+          alt:                          Carpool Karaoke
 ---
 
 // Page Initializer
@@ -149,8 +151,8 @@ youtube::vVjIREizcgE[poster="//img.youtube.com/vi/vVjIREizcgE/maxresdefault.jpg"
 [role="mt-4"]
 === Die Brits
 
-Das _James Corden_ aus England kommt wird wohl jedem jetzt klar geworden sein.
-Die Wurzeln von James sind eines ganz bestimmt: Britisch. Beruflich wie Privat
+Das _James Corden_ aus England kommt wird wohl jedem klar geworden sein. Die
+Wurzeln von James sind eines ganz bestimmt: Britisch. Beruflich wie Privat,
 als Sprachschüler, war ich des Öfteren dort. Ich erinnere mich mich gerne daran
 zurück. Ich gebe es zu: Zum Teil mit Schrecken. Unsere europäischen Nachbarn
 sind echte Bister: Wenn komisch, wenn feiern - dann richtig.
@@ -172,7 +174,6 @@ Momenten und sehr gute Unterhaltung.
 .Das Ende der Show mit James Corden
 youtube::ocpGfxJ_S1g[poster="//img.youtube.com/vi/ocpGfxJ_S1g/maxresdefault.jpg" role="mt-4 mb-5"]
 
-
 [role="mt-4 mb-5"]
 [TIP]
 ====
@@ -184,39 +185,47 @@ link://youtube.com/@TheLateLateShow[The Late Late Show, {browser-window--new}].
 [role="mt-5"]
 == Carpool Karaoke
 
-In der Rubrik *Carpool Karaoke* der Show, in der der Moderator berühmte Musiker
-einlud, um während der Fahrt ihre Lieder mitzusingen. Die Idee war, dass Corden
+In der Rubrik *Carpool Karaoke* der Show, in der der Moderator bekannte Musiker
+einlud, wurden während der Fahrt ihre Lieder gesungen. Die Idee war, dass Corden
 auf dem Weg zur Arbeit war und die Sonderspur für Fahrgemeinschaften nutzen
-wollte, oder dass er in einer neuen Stadt, wie London (mit Adele), Liverpool
+wollte. Oder dass er in einer fremden Stadt, wie London (mit Adele), Liverpool
 (mit Paul McCartney) oder New York City (mit Madonna) eine Wegbeschreibung von
 einem Einheimischen benötigte.
+
+// .Stevie Wonder
+// youtube::qqrvm2XDvpQ[poster="//img.youtube.com/vi/qqrvm2XDvpQ/maxresdefault.jpg" role="mt-4 mb-5"]
 
 [role="mt-4 mb-5"]
 [TIP]
 ====
-*Alle Folgen* können über den Kanal auf der YouTube Platform
+*Alle Folgen* können über den Kanal auf der YouTube Plattform
 link://www.youtube.com/hashtag/carpoolkaraoke[Carpool Karaoke, {browser-window--new}]
 abgerufen werden.
 ====
 
-[role="mt-4"]
-=== Ausgewählte Episoden
-
-Eine Auswahl der schönsten Touren - meiner Ansicht - finden Sie in der
-folgenden Gallerie.
-
-.Carpool Karaoke · Ausgewählte Episoden
-gallery::carpool_karaoke_selected[role="mb-5"]
-
+Eine Auswahl der schönsten Touren - meiner Ansicht - finden Sie in den
+folgenden Gallerien.
 
 [role="mt-4"]
-=== Der Abschied mit Adele
+=== Ladies Tour
+
+.Carpool Karaoke · Ladies Tour
+gallery::carpool_karaoke_ladies_tour[role="mb-5"]
+
+[role="mt-4"]
+=== Gents Tour
+
+.Carpool Karaoke · Gents Tour
+gallery::carpool_karaoke_gents_tour[role="mb-5"]
+
+[role="mt-4"]
+=== Abschied mit Adele
 
 Nach acht Jahren wurde die *letzte Folge* mit _James Corden_ im Jahr 2023
 ausgestrahlt. In der letzten Folge von *Carpool Karaoke* begrüßte er wieder
 _Adele_, einer guten Freundin von ihm. Sie war bereits im Jahr 2016 in einer
 Episode zu sehen. Beide Folgen sind unterhaltsam, doch die letzte Folge ist
-besonders: Ein wunderbarer wie emotionaler Abschluss.
+besonders: Ein wunderbarer wie emotionaler Abschluß.
 
 .Carpool Karaoke · Adele und James (2016|2023)
 gallery::carpool_karaoke_james_and_adele[role="mb-5"]
@@ -229,3 +238,4 @@ gallery::carpool_karaoke_james_and_adele[role="mb-5"]
 Das Umsetzen einer guten Idee braucht eine Menge Energie wie einen starken
 Glauben daran, das es gelingt. Und noch viel mehr: Menschen die dabei helfen
 und eigene Energien einbringen. Das ist unverzichtbar.
+
