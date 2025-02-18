@@ -1401,7 +1401,7 @@ settings:
     - gallery:
       enabled:                          true
 
-      id:                               carpool_karaoke_ladies_tour
+      id:                               carpool_karaoke_ladies
       type:                             video
       video:                            youtube
       image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
@@ -1468,9 +1468,9 @@ settings:
           poster_image:                 michelle_obama.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 First Lady Michelle Obama
+          caption_text:                 First Lady Michelle Obama (July 2016)
           description: >
-                                        <h4> First Lady Michelle Obama </h4>
+                                        <h4> First Lady Michelle Obama (July 2016) </h4>
 
         # video 2
         - video:
@@ -1483,9 +1483,9 @@ settings:
           poster_image:                 lady_gaga.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Lady Gaga
+          caption_text:                 Lady Gaga (Oktober 2016)
           description: >
-                                        <h4> Lady Gaga </h4>
+                                        <h4> Lady Gaga (Oktober 2016) </h4>
 
         # video 3
         - video:
@@ -1498,9 +1498,9 @@ settings:
           poster_image:                 ariana_grande.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Ariana Grande
+          caption_text:                 Ariana Grande (August 2018)
           description: >
-                                        <h4> Ariana Grande </h4>
+                                        <h4> Ariana Grande (August 2018) </h4>
 
         # video 4
         - video:
@@ -1513,9 +1513,9 @@ settings:
           poster_image:                 billie_eilish.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Billie Eilish
+          caption_text:                 Billie Eilish (Dezember 2019)
           description: >
-                                        <h4> Billie Eilish </h4>
+                                        <h4> Billie Eilish (Dezember 2019 </h4>
 
         # video 5
         - video:
@@ -1528,9 +1528,9 @@ settings:
           poster_image:                 britney_spears.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Britney Spears
+          caption_text:                 Britney Spears (August 2016)
           description: >
-                                        <h4> Britney Spears </h4>
+                                        <h4> Britney Spears (August 2016) </h4>
 
         # video 6
         - video:
@@ -1543,9 +1543,9 @@ settings:
           poster_image:                 christina _aguilera.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Christina Aguilera
+          caption_text:                 Christina Aguilera (April 2018)
           description: >
-                                        <h4> Christina Aguilera </h4>
+                                        <h4> Christina Aguilera (April 2018) </h4>
 
         # video 7
         - video:
@@ -1558,9 +1558,9 @@ settings:
           poster_image:                 jennifer_hudson.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Jennifer Hudson 
+          caption_text:                 Jennifer Hudson (April 2015)
           description: >
-                                        <h4> Jennifer Hudson </h4>
+                                        <h4> Jennifer Hudson (April 2015) </h4>
 
         # video 8
         - video:
@@ -1573,9 +1573,9 @@ settings:
           poster_image:                 jennifer_lopez.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Jennifer Lopez 
+          caption_text:                 Jennifer Lopez (März 2016)
           description: >
-                                        <h4> Jennifer Lopez </h4>
+                                        <h4> Jennifer Lopez (März 2016)</h4>
 
         # video 9
         - video:
@@ -1588,9 +1588,9 @@ settings:
           poster_image:                 meghan_trainor.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Meghan Trainor 
+          caption_text:                 Meghan Trainor (Januar 2020)
           description: >
-                                        <h4> Meghan Trainor </h4>
+                                        <h4> Meghan Trainor (Januar 2020) </h4>
 
         # video 10
         - video:
@@ -1603,9 +1603,9 @@ settings:
           poster_image:                 pink.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Pink 
+          caption_text:                 Pink (November 2017)
           description: >
-                                        <h4> Pink </h4>
+                                        <h4> Pink (November 2017) </h4>
 
         # video 11
         - video:
@@ -1618,9 +1618,9 @@ settings:
           poster_image:                 mariah_carey.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Mariah Carey 
+          caption_text:                 Mariah Carey (März 2015)
           description: >
-                                        <h4> Mariah Carey </h4>
+                                        <h4> Mariah Carey (März 2015) </h4>
 
         # video 12
         - video:
@@ -1633,9 +1633,9 @@ settings:
           poster_image:                 nicki_minaj.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Nicki Minaj 
+          caption_text:                 Nicki Minaj (April 2022)
           description: >
-                                        <h4> Nicki Minaj </h4>
+                                        <h4> Nicki Minaj (April 2022) </h4>
 
     # --------------------------------------------------------------------------
     # Carpool Caraoke, Gents Tour (YouTube)
@@ -1643,7 +1643,7 @@ settings:
     - gallery:
       enabled:                          true
 
-      id:                               carpool_karaoke_gents_tour
+      id:                               carpool_karaoke_gents
       type:                             video
       video:                            youtube
       image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
@@ -1710,9 +1710,9 @@ settings:
           poster_image:                 paul_mc_cartney.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Paul McCartney
+          caption_text:                 Paul McCartney (Juni 2018, 23:43)
           description: >
-                                        <h4> Paul McCartney </h4>
+                                        <h4> Paul McCartney (Juni 2018, 23:43) </h4>
 
         # video 2
         - video:
@@ -1725,26 +1725,10 @@ settings:
           poster_image:                 elton_john.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Elton John
+          caption_text:                 Elton John (Februar 2016, 11:38)
           description: >
-                                        <h4> Elton John </h4>
-
+                                        <h4> Elton John (Februar 2016, 11:38) </h4>
         # video 3
-        - video:
-          enabled:                      true
-
-          name:                         GeorgeMichael
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=hvuENG3O9TM
-          poster_image:                 george_michael.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 George Michael
-          description: >
-                                        <h4> George Michael </h4>
-
-        # video 4
         - video:
           enabled:                      true
 
@@ -1755,10 +1739,144 @@ settings:
           poster_image:                 stevie_wonder.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Stevie Wonder
+          caption_text:                 Stevie Wonder (September 2015, 10:53)
           description: >
-                                        <h4> Stevie Wonder </h4>
+                                        <h4> Stevie Wonder (September 2015, 10:53) </h4>
 
+        # video 4
+        - video:
+          enabled:                      true
+
+          name:                         RodStewart
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=5ndj6xn2P0c
+          poster_image:                 rod_stewart.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Rod Stewart (Juli 2015, 09:15)
+          description: >
+                                        <h4> Rod Stewart (Juli 2015, 09:15) </h4>
+
+        # video 5
+        - video:
+          enabled:                      true
+
+          name:                         JustinBieber
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=Dx06c0ZEBMk
+          poster_image:                 justin_bieber.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Justin Bieber (Mai 2015, 14:20)
+          description: >
+                                        <h4> Justin Bieber (Mai 2015, 14:20) </h4>
+
+        # video 6
+        - video:
+          enabled:                      true
+
+          name:                         EdSheeran
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=ckdsJ-LaCvM
+          poster_image:                 ed_sheeran.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Ed Sheeran (Juni 2017, 13:22)
+          description: >
+                                        <h4> Ed Sheeran (Juni 2017, 13:22) </h4>
+
+        # video 7
+        - video:
+          enabled:                      true
+
+          name:                         RedHotChiliPeppers 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=cfudXO_vzWk
+          poster_image:                 red_hot_chili_peppers.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Red Hot Chili Peppers (Juni 2016, 15:34)
+          description: >
+                                        <h4> Red Hot Chili Peppers (Juni 2016, 15:34) </h4>
+
+        # video 8
+        - video:
+          enabled:                      true
+
+          name:                         BrunoMars 
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=AFxCO_DyzYM
+          poster_image:                 bruno_mars.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Bruno Mars (Dezember 2016, 15:24)
+          description: >
+                                        <h4> Bruno Mars (Dezember 2016, 15:24) </h4>
+
+        # video 9
+        - video:
+          enabled:                      true
+
+          name:                         HarryStyles
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=JvLLx0cpJVI
+          poster_image:                 harry_styles.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Harry Styles (Mai 2017, 13:38)
+          description: >
+                                        <h4> Harry Styles (Mai 2017, 13:38) </h4>
+
+        # video 10
+        - video:
+          enabled:                      true
+
+          name:                         ChrisMartin
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=SADub7W22Zg
+          poster_image:                 chris_martin.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Chris Martin (Februar 2016, 15:38)
+          description: >
+                                        <h4> Chris Martin (Februar 2016, 15:38) </h4>
+
+        # video 11
+        - video:
+          enabled:                      true
+
+          name:                         MichaelBuble
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=Kg7UWnNF_rA
+          poster_image:                 michael_buble.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Michael Bublé (Oktober 2018, 15:08)
+          description: >
+                                        <h4> Michael Bublé (Oktober 2018, 15:08) </h4>
+
+        # video 12
+        - video:
+          enabled:                      true
+
+          name:                         SamSmith
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=z2FHKVzGhgA
+          poster_image:                 sam_smith.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Sam Smith (November 2017, 15:33)
+          description: >
+                                        <h4> Sam Smith (November 2017, 15:33) </h4>
 
     # --------------------------------------------------------------------------
     # Carpool Caraoke, James and Adele (YouTube)

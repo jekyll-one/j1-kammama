@@ -69,7 +69,7 @@ Palette von Gästen, von Hollywood-Stars über Musiker bis hin zu Politikern.
 ++++
 <div class="video-title">
   <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
-  20+ Minuten Videozeit
+  15+ Minuten Videozeit
 </div>
 ++++
 
@@ -78,10 +78,10 @@ Palette von Gästen, von Hollywood-Stars über Musiker bis hin zu Politikern.
 [role="mt-5"]
 == Über die Late Late Show
 
-Die Show mit _James Corden_ war die *letzte* Staffel von *The Late Late Show* 
+Die Show mit _James Corden_ war die *letzte* Version der *The Late Late Show* 
 auf CBS und zeichnete sich durch den britischen Moderator aus. Von Beginn
 an begeisterte er die Zuschauer mit seinem sehr humorvollen und charmanten
-Stil der Moderation.
+Stil der Moderation und dem komplett neuen Stil der Show.
 
 [role="mt-4 mb-5"]
 [NOTE]
@@ -98,26 +98,26 @@ link://youtube.com[YouTube Plattform, {browser-window--new}].
 _James Corden_ war in der USA völlig unbekannt. Noch hatte er Erfahrungen mit
 Late-Night-Shows; weder in den USA noch in Großbritannien. Er hatte neue Ideen
 wie eine solche Show, die sehr spät gesendet wurde (um 12Uhr30 in der Nacht),
-aussehen könnte. Seine Vorstellung war eine Abkehr vom journalistischen Gepräge
-seiner Vorgänger.
+aussehen könnte. Seine Vorstellung war eine Abkehr vom eher journalistischen 
+Gepräge seiner Vorgänger hin zu einer warmen, persönlichen Atmosphäre mit den
+Gästen. 
 
-Stattdessen: Gute Musik live gespielt, mit einer bunten Mischung an Musikern
-und Teil des Ganzen. Viel Humor, entspannte Gespräche und humorvolle Aktionen
-und Sketche mit seinen Gästen sollten den bisherigen Talk an Schreibtisch
-ablösen. Ein Zusammensein auf einer Couch und das Publikum im Studio mittendrin.
-Das ist etwas komplett anderes. 
+Gute Musik live gespielt, mit einer bunten Mischung an Musikern als Teil des
+Ganzen. Viel Humor, entspannte Gespräche und humorvolle Aktionen und Sketche
+mit seinen Gästen sollten den bisherigen Talk an Schreibtisch ablösen. Ein
+Zusammensein auf einer Couch und das Publikum im Studio mittendrin. Das ist
+etwas komplett anderes. 
 
 In kaum einem anderan Land wie den USA wäre soetwas möglich gewesen. Sicher
 war die Show auf CBS in die Jahre gekommen. Doch eines gilt hier: Scheitern
-ist kein Untergang. Und sollte das Risko lohnen: Go for it. Mit den Möglichkeiten
-des Senders wurde die Umsetzung entschieden. Mit allem was dazu gehört:
-Neues Studio mit Unterstützung eines erfahrenen Produktionsteams. Klein aber
-fein.
+ist kein Untergang. Und sollte das Risko lohnen: *Go for it*. Mit den
+Möglichkeiten des größten Senders der USA wurde die Umsetzung entschieden. Mit
+allem was dazu gehört: Neues Studio mit Unterstützung eines erfahrenen Teams.
+Klein aber fein.
 
-James als Gastgeber brachte frischen Wind in das **Late-Night**-Format in den
-USA. Seine Energie, sein natürlicher Witz wie die Fähigkeit eine persönliche
-Verbindung zu den Gästen aufzubauen, machten die Show mit ihm als Moderator
-einzigartig.
+James als Gastgeber brachte frischen Wind in das **Late-Night**-Format. Seine
+Energie, sein natürlicher Witz wie die Fähigkeit eine persönliche Verbindung zu
+den Gästen aufzubauen, machten die Show mit ihm als Moderator einzigartig.
 
 .Der Anfang als Unbekannter
 youtube::Q1QKPruAM7I[poster="//img.youtube.com/vi/Q1QKPruAM7I/maxresdefault.jpg" role="mt-4 mb-5"]
@@ -125,26 +125,29 @@ youtube::Q1QKPruAM7I[poster="//img.youtube.com/vi/Q1QKPruAM7I/maxresdefault.jpg"
 [role="mt-4"]
 === Singen im Auto
 
-Der Weg zu dem Format war wohl kaum vorgezeichnet. Singen im Auto ist nicht
-ungewöhnlich. Der Font eines Autos ist sehr privat. Auch in der Öffenthkeit,
-auf der Straße. Jedoch mit den weltweit bekanntesten Musikern und Sängern im
-Auto eine Runde zu drehen um mit ihnen, und einem Auto-Radio, zu singen schon
-etwas anderes.
+Der Weg zu dem Format war wohl kaum vorgezeichnet. Es gab ähnliches als kleine
+Geschichten auch in anderen Sendungen, jedoch von einem echten Format als fester
+Bestandteil einer Show weit entfernt. 
+
+Singen im Auto ist nicht ungewöhnlich. Der Font eines Autos ist sehr privat.
+Auch in der Öffenthkeit, auf der Straße. Jedoch mit den weltweit bekanntesten
+Musikern und Sängern im Auto eine Runde zu drehen um mit ihnen, und einem Auto
+Radio, zu singen schon etwas anderes.
 
 Das Besondere an *Carpool Karaoke* ist die ungezwungene und sehr unterhaltsame
 Atmosphäre, in der die Künstler ihre Musik auf eine neue und persönliche Weise
 präsentieren konnten.
 
-Eine der ersten war _Mariah Carey_ und sie ist nicht dafür bekannt besonders
-nahbar zu sein. Dennoch hat es James geschafft; wie auch immer. Das Format
-wurde zu einer Marke. Für die Show wie für die Künstler.
+Eine der ersten war _Mariah Carey_. Und sie ist nicht dafür bekannt, in TV
+Sendungen besonders nahbar zu sein. Dennoch hat es James geschafft; wie auch
+immer. Das Format wurde zu einer Marke. Für die Show wie für die Künstler.
 
 Die Fans liebten es, ihre Lieblingskünstler in einer entspannten Umgebung zu
-erleben und mit ihnen zu sein. Die Chemie zwischen James und den Gästen war
-ungewöhnlich. Was immer wieder zu sehr amüsanten und teils zu denkwürdigen
-Momenten führte. Ein großer Spaß.
+erleben und in gewisser Weise mit ihnen zu sein. Die Chemie zwischen James und
+den Gästen war ungewöhnlich. Was immer wieder zu sehr amüsanten und teils zu
+denkwürdigen Momenten führte.
 
-.Singen im Auto
+.Carpool Karaoke
 youtube::vVjIREizcgE[poster="//img.youtube.com/vi/vVjIREizcgE/maxresdefault.jpg" role="mt-4 mb-5"]
 
 
@@ -164,14 +167,14 @@ youtube::sUjQV-we8aU[poster="//img.youtube.com/vi/sUjQV-we8aU/maxresdefault.jpg"
 [role="mt-4"]
 === Das Ende
 
-Im April 2023 wurde die letzte Folge der *The Late Late Show* auf CBS mit
+Im *April 2023* wurde die letzte Folge der *The Late Late Show* auf CBS mit
 _James Corden_ ausgestrahlt. Corden hatte zuvor angekündigt, die Show zu
 verlassen, um mehr Zeit mit seiner Familie in Großbritannien zu verbringen.
 Sein Abschied wurde von vielen Fans in den USA - wie International - sehr
 bedauert. Aber er hinterließ ein beeindruckendes Erbe an unvergesslichen
-Momenten und sehr gute Unterhaltung.
+Momenten. Und sehr gute TV Unterhaltung die man immer wieder gerne ansieht.
 
-.Das Ende der Show mit James Corden
+.Der letzte Tag
 youtube::ocpGfxJ_S1g[poster="//img.youtube.com/vi/ocpGfxJ_S1g/maxresdefault.jpg" role="mt-4 mb-5"]
 
 [role="mt-4 mb-5"]
@@ -187,45 +190,91 @@ link://youtube.com/@TheLateLateShow[The Late Late Show, {browser-window--new}].
 
 In der Rubrik *Carpool Karaoke* der Show, in der der Moderator bekannte Musiker
 einlud, wurden während der Fahrt ihre Lieder gesungen. Die Idee war, dass Corden
-auf dem Weg zur Arbeit war und die Sonderspur für Fahrgemeinschaften nutzen
-wollte. Oder dass er in einer fremden Stadt, wie London (mit Adele), Liverpool
-(mit Paul McCartney) oder New York City (mit Madonna) eine Wegbeschreibung von
-einem Einheimischen benötigte.
-
-// .Stevie Wonder
-// youtube::qqrvm2XDvpQ[poster="//img.youtube.com/vi/qqrvm2XDvpQ/maxresdefault.jpg" role="mt-4 mb-5"]
+in *Los Angeles* auf dem Weg zur Arbeit war und die Sonderspur für Fahrgemeinschaften nutzen
+wollte. Oder dass er in einer fremden Stadt, wie *London* mit _Adele_,
+*Liverpool* mit _Paul McCartney_ oder *New York City* mit _Madonna_ eine
+Wegbeschreibung von einem Einheimischen benötigte.
 
 [role="mt-4 mb-5"]
 [TIP]
 ====
-*Alle Folgen* können über den Kanal auf der YouTube Plattform
+*Alle Folgen* können über den *Kanal* auf der *YouTube* Plattform
 link://www.youtube.com/hashtag/carpoolkaraoke[Carpool Karaoke, {browser-window--new}]
 abgerufen werden.
 ====
 
-Eine Auswahl der schönsten Touren - meiner Ansicht - finden Sie in den
-folgenden Gallerien.
+Eine Auswahl an sehr schönen Episoden, meiner Ansicht nach, finden Sie in den
+folgenden Galerien als Beispiele. Jeweils zwölf Episoden mit weiblichen und
+männlichen Gästen.
+Mehr Hintergründe und *Details* zu der Show und den Folgen der Rubrik vom Jahr
+*2015* bis zum Ende im Jahr *2023* kann man auf der (englischen)
+Seite von
+link://en.wikipedia.org/wiki/Carpool_Karaoke[Wikipedia · Carpool Karaoke, {browser-window--new}]
+finden.
+
+Eines sind die Touren von Carpool Karaoke immer: Beste Unterhaltung. Sehen Sie
+selbst.
 
 [role="mt-4"]
-=== Ladies Tour
+=== Touren der Frauen
 
-.Carpool Karaoke · Ladies Tour
-gallery::carpool_karaoke_ladies_tour[role="mb-5"]
+Amüsant ist Carpool Karaoke immer. Spektakulär die Folge mit der First Lady
+der USA _Michelle Obama_ im letzten Jahr der Präsidentschaft von _Barack Obama_
+(2009 bis 2017) im Juli 2016.
+
+Unvergesslich die Tour mit _Lady Gaga_. Sie hatte gerade ihren Führerschein
+bestanden und übnahm in der Folge den Fahrersitz. Beide hatten gute Nerven,
+doch die von James haben nicht lange gehalten.
+
+Im März 2016 strahlte CBS eine Sondersendung mit Höhepunkten der Rubrik und
+einer Neuauflage mit _Jennifer Lopez_ aus. Die  Sendung gewann im gleichen Jahr
+einen *Emmy* als herausragendes Variety-Special.
+
+Unvergleichbare Einblicke in das Privatleben konnten die Zuschauer in der Folge
+mit _Billie Eilish_ aus Dezember 2019 erleben: Ein Besuch im Elternhaus der
+Künstlerin. James Cordon wurde in das Jugendzimmer von Billies Bruder eingeladen
+und machte zwei ungewöhnliche Bekanntschaften. Er lernte Billies Mutter kennen
+und eines ihrer Haustiere: _Cooli_, die blaue Vogelspinne.
+
+.Carpool Karaoke · Frauen
+gallery::carpool_karaoke_ladies[role="mb-5"]
 
 [role="mt-4"]
-=== Gents Tour
+=== Touren der Männer
 
-.Carpool Karaoke · Gents Tour
-gallery::carpool_karaoke_gents_tour[role="mb-5"]
+Die Touren der Männer stehen denen der Frauen in nichts nach. Der Besuch des
+Landsmanns _Paul McCartney_ in Liverpool gehört ohne Zweifel dazu. Der Besuch
+des Elternhauses von Paul wie einer der Kneipen, in der McCartney in seiner
+Jugend aufgetreten war. Ein Meilenstein - und wunderbar emotional.
+
+Das James Cordon mit Jung und Alt kann zeigt die Episode mit _Justin Bieber_
+aus Mai 2015. Schön bekloppt und herrlich britisch.
+
+Die link://redhotchilipeppers.com/[Red Hot Chili Peppers, {browser-window--new}]
+traten in der Folge im Juni 2016 auf. Die Jungs sind eine Rockband, verbunden
+miteinander und in der Musik die sie machen. Ich persönlich bin kein echter Fan
+von Rockmusik. Sie haben eine einzigartige Mischung aus Funk, Punk, Rock und
+Alternative-Elementen geschaffen, die sie zu einer der einflussreichsten
+Bands der letzten Jahrzehnte gemacht hat.
+
+Die Band wurde 1983 in Los Angeles gegründet, wo die Gründungsmitglieder
+_Anthony Kiedis_ (Sänger) und _Flea_ (Bassist, bürgerlich Michael Balzary)
+zusammen zur Schule gingen. Die besondere Beziehung von Anthony und Flea
+zueinander sieht man in dem Video, die Verbundenheit Aller als Band ebenso.
+Ihre Live-Auftritte sind immer ein Spektakel, die Carpool Karaoke Tour nicht
+weniger.
+
+.Carpool Karaoke · Männer
+gallery::carpool_karaoke_gents[role="mb-5"]
 
 [role="mt-4"]
 === Abschied mit Adele
 
-Nach acht Jahren wurde die *letzte Folge* mit _James Corden_ im Jahr 2023
+Nach acht Jahren wurde die *letzte* Folge mit _James Corden_ im Jahr *2023*
 ausgestrahlt. In der letzten Folge von *Carpool Karaoke* begrüßte er wieder
-_Adele_, einer guten Freundin von ihm. Sie war bereits im Jahr 2016 in einer
+_Adele_, einer guten Freundin von ihm. Sie war bereits im Jahr *2016* in einer
 Episode zu sehen. Beide Folgen sind unterhaltsam, doch die letzte Folge ist
-besonders: Ein wunderbarer wie emotionaler Abschluß.
+besonders: Ein wunderbarer und emotionaler Abschluß.
 
 .Carpool Karaoke · Adele und James (2016|2023)
 gallery::carpool_karaoke_james_and_adele[role="mb-5"]
@@ -236,6 +285,7 @@ gallery::carpool_karaoke_james_and_adele[role="mb-5"]
 
 [role="mb-8"]
 Das Umsetzen einer guten Idee braucht eine Menge Energie wie einen starken
-Glauben daran, das es gelingt. Und noch viel mehr: Menschen die dabei helfen
-und eigene Energien einbringen. Das ist unverzichtbar.
+Glauben daran, das es gelingt. Überall. Und noch viel mehr: Menschen die dabei
+helfen und eigene Energien in ein Team einbringen. Das ist unverzichtbar.
 
+*Go for it*.
