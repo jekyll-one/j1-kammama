@@ -128,6 +128,36 @@ settings:
           audio_info:                   //podcasts.apple.com/de/podcast/die-9-kammern/id1741818812?i=1000691616319
           duration:                     "01:16:16"
 
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E08 · Keine Haare mehr auf dem Kopf
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH9785350368.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/keine-haare-mehr-auf-dem-kopf/id1741818812?i=1000694160035
+          duration:                     "01:00:23"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E09 · Das wird nicht billig
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH1994952322.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/das-wird-nicht-billig/id1741818812?i=1000696377623
+          duration:                     "01:09:23"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E10 · Die große Comedy-Kugel
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH2972648335.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/die-gro%C3%9Fe-comedy-kugel/id1741818812?i=1000697973099
+          duration:                     "00:55:00"
+
     # --------------------------------------------------------------------------
     # Spontanorama 2024
     # --------------------------------------------------------------------------
@@ -922,6 +952,17 @@ settings:
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-vorne-2025/bremen-zwei/14099723/
           cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
           duration:                     "02:16:28"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2025
+          title:                        25E03 · Aschermittwoch - Deutschland hat fertig
+          rating:                       3
+          audio:                        clips/150/150102/150102_00584370_audio_stereo.mp3
+          audio_info:                   //audiothek.de/episode/wischmeyers-stundenhotel/aschermittwoch-deutschland-hat-fertig/bremen-zwei/14242941/
+          cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
+          duration:                     "01:03:06"
 
     # --------------------------------------------------------------------------
     #  Mimi Rutherfurt, Maritim Verlag
