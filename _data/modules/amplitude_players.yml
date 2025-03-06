@@ -266,6 +266,48 @@ settings:
         audio_rating:                   true     
 
     # --------------------------------------------------------------------------
+    # LARGE player, Ephraim Kishon
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      id:                               ephraim_kishon_yt_large
+      type:                             large
+      source:                           video
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           ephraim_kishon_yt
+        title:                          Ephraim Kishon
+        audio_info:                     true
+        audio_rating:                   true     
+
+    # --------------------------------------------------------------------------
     # LARGE player, Smooth Jazz (Dua Lipa)
     # --------------------------------------------------------------------------
     #

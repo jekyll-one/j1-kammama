@@ -1,0 +1,89 @@
+---
+title:                                  Ephraim Kishon
+title_extention:                        Satire
+tagline:                                Satire
+
+date:                                   2025-02-11
+#last_modified:                         2025-02-11
+
+description: >
+
+keywords: >
+                                        Hörspiel, Radioplay, Ephraim Kishon
+
+categories:                             [ Audio ]
+tags:                                   [ Hörspiel, Ephraim Kishon ]
+
+image:
+  path:                                 /assets/image/leute/margaret-rutherford.jpg
+  width:                                1920
+  height:                               1280
+
+attic:                                  false
+regenerate:                             false
+personalization:                        true
+permalink:                              /pages/public/audio/radioplay/ephraim-kishon/
+
+resources:                              [ amplitudejs ]
+resource_options:  
+  - attic:
+      opacity:                          .8
+      padding_top:                      550
+      slides:
+        - url:                          //bilder.deutschlandfunk.de/FI/LE/_5/02/FILE_50248b104e9d636ac7cd115f87e007b2/7062174-169-jpg-100-1920x1080.jpg
+          alt:                          Margaret Rutherford
+          badge:
+            type:                       unsplash
+            author:                     Deutschlandfunk
+            href:                       //www.deutschlandfunk.de/125-geburtstag-von-margaret-rutherford-fuer-immer-miss-100.html       
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Mimi Rutherfurt, eine englische Lady, möchte in der britischen Provinz
+eigentlich einen ruhigen Lebensabend verbringen. Doch immer wieder schlittert
+sie in Kriminalfälle. Die Geschichten sind angelehnt an die legendären
+Kriminalgeschichten von "Miss Marple" der Bestseller Autorin "Agatha Christie".
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  45+ Minuten Audiozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über Ephraim Kishon
+// https://www.youtube.com/watch?v=9LojTw98Fks
+
+
+[role="mt-5"]
+== Hörbucher
+
+Die alte Dame erlebt ihre Abenteuer nicht nur im provinziellen Idyll. Unter
+anderem bringt sie das Verbrechen in den Buckingham Palace, auf den Luxusliner
+Queen Mary und nach Stonehenge.
+
+.Ephraim Kishon · Hörbucher
+amplitude::ephraim_kishon_yt_large[role="mt-4 mb-8"]

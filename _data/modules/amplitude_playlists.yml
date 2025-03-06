@@ -1099,6 +1099,52 @@ settings:
           duration:                     "01:19:16"
 
     # --------------------------------------------------------------------------
+    #  Ephraim Kishon, YouTube
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             ephraim_kishon_yt
+      title:                            Ephraim Kishon
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_ephraim_kishon_yt
+        name:                           Ephraim Kishon
+        artist:                         YouTube
+        audio_base:                     //youtube.com
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_yt
+          title:                        Beste Familiengeschichten
+          audio:                        watch?v=9LojTw98Fks
+          rating:                       3
+          audio_info:                   //youtube.com/watch?v=9LojTw98Fks
+          cover_image:                  //img.youtube.com/vi/9LojTw98Fks/maxresdefault.jpg
+          duration:                     "02:55:35"
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_yt
+          title:                        Der seekranke Walfisch
+          audio:                        watch?v=dVcKNn6-BUg
+          rating:                       3
+          audio_info:                   //youtube.com/watch?v=dVcKNn6-BUg
+          cover_image:                  //img.youtube.com/vi/dVcKNn6-BUg/maxresdefault.jpg
+          duration:                     "03:19:16"
+
+    # --------------------------------------------------------------------------
     #  Smooth Jazz (Dua Lipa)
     # --------------------------------------------------------------------------
     #
