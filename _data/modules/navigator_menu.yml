@@ -67,6 +67,10 @@
 
           - title:                      Das Paradies der Damen
             href:                       /pages/public/audio/radioplay/paradies_der_damen/
+            icon:                       ear-hearing
+
+          - title:                      Ephraim Kishon
+            href:                       /pages/public/audio/radioplay/ephraim-kishon/
             icon:                       ear-hearing   
 
       - title:                          Comedy
