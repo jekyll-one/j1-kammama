@@ -104,7 +104,7 @@ end
 # Specify the THEME GEM used for the project
 
 # Loaded from RubyGems
-gem 'j1-template', '~> 2024.3'
+gem 'j1-template', '~> 2024.3', '= 2024.3.18'
 
 # Loaded from gem.fury.io
 #source 'https://gem.fury.io/jekyll-one-org/' do
