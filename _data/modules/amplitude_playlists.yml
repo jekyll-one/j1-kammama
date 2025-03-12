@@ -1133,16 +1133,27 @@ settings:
           cover_image:                  //img.youtube.com/vi/9LojTw98Fks/maxresdefault.jpg
           duration:                     "02:55:35"
 
-        # title 01
+        # title 02
         - item:
           enabled:                      true
           <<:                           *album_ephraim_kishon_yt
-          title:                        Der seekranke Walfisch
-          audio:                        watch?v=dVcKNn6-BUg
+          title:                        Beste Autofahrergeschichten
+          audio:                        watch?v=D2gVmGFa2wE
           rating:                       3
-          audio_info:                   //youtube.com/watch?v=dVcKNn6-BUg
-          cover_image:                  //img.youtube.com/vi/dVcKNn6-BUg/maxresdefault.jpg
-          duration:                     "03:19:16"
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          cover_image:                  //img.youtube.com/vi/D2gVmGFa2wE/maxresdefault.jpg
+          duration:                     "00:59:44"
+
+        # # title 03
+        # - item:
+        #   enabled:                      true
+        #   <<:                           *album_ephraim_kishon_yt
+        #   title:                        Essen ist meine Lieblingsspeise
+        #   audio:                        watch?v=tOTV-jCpre4
+        #   rating:                       3
+        #   audio_info:                   //youtube.com/watch?v=tOTV-jCpre4
+        #   cover_image:                  //img.youtube.com/vi/tOTV-jCpre4/maxresdefault.jpg
+        #   duration:                     "03:19:16"
 
     # --------------------------------------------------------------------------
     #  Smooth Jazz (Dua Lipa)

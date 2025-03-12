@@ -7,7 +7,10 @@ date:                                   2025-02-11
 #last_modified:                         2025-02-11
 
 description: >
-
+                                        Ephraim Kishon war ein israelischer Schriftsteller, Satiriker,
+                                        Journalist, Drehbuchautor und Filmregisseur ungarischer Herkunft.
+                                        Er gilt als einer der meistgelesenen und erfolgreichsten Satiriker
+                                        des 20. Jahrhunderts im deutschsprachigen Raum.
 keywords: >
                                         Hörspiel, Radioplay, Ephraim Kishon
 
@@ -15,11 +18,11 @@ categories:                             [ Audio ]
 tags:                                   [ Hörspiel, Ephraim Kishon ]
 
 image:
-  path:                                 /assets/image/leute/margaret-rutherford.jpg
+  path:                                 //media1.faz.net/ppmedia/w1240/aktuell/3527659893/1.9935169/16x9/ephraim-kishon-im-jahr-1992.jpg
   width:                                1920
   height:                               1280
 
-attic:                                  false
+
 regenerate:                             false
 personalization:                        true
 permalink:                              /pages/public/audio/radioplay/ephraim-kishon/
@@ -30,12 +33,12 @@ resource_options:
       opacity:                          .8
       padding_top:                      550
       slides:
-        - url:                          //bilder.deutschlandfunk.de/FI/LE/_5/02/FILE_50248b104e9d636ac7cd115f87e007b2/7062174-169-jpg-100-1920x1080.jpg
-          alt:                          Margaret Rutherford
+        - url:                          //media1.faz.net/ppmedia/w1240/aktuell/3527659893/1.9935169/16x9/ephraim-kishon-im-jahr-1992.jpg
+          alt:                          Ephraim Kishon
           badge:
             type:                       unsplash
-            author:                     Deutschlandfunk
-            href:                       //www.deutschlandfunk.de/125-geburtstag-von-margaret-rutherford-fuer-immer-miss-100.html       
+            author:                     FAZ
+            href:                       //www.faz.net/aktuell/feuilleton/buecher/autoren/ephraim-kishon-zum-100-geburtstag-biographie-ein-leben-fuer-den-humor-19933530.html
 ---
 
 // Page Initializer
@@ -59,15 +62,15 @@ resource_options:
 // Page content
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [role="dropcap"]
-Mimi Rutherfurt, eine englische Lady, möchte in der britischen Provinz
-eigentlich einen ruhigen Lebensabend verbringen. Doch immer wieder schlittert
-sie in Kriminalfälle. Die Geschichten sind angelehnt an die legendären
-Kriminalgeschichten von "Miss Marple" der Bestseller Autorin "Agatha Christie".
+Ephraim Kishon (1924-2005) war ein israelischer Schriftsteller, Satiriker,
+Journalist, Drehbuchautor und Filmregisseur ungarischer Herkunft. Er gilt als
+einer der meistgelesenen und erfolgreichsten Satiriker des 20. Jahrhunderts
+im deutschsprachigen Raum.
 
 ++++
 <div class="video-title">
   <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
-  45+ Minuten Audiozeit
+  10+ Minuten Audiozeit
 </div>
 ++++
 
@@ -75,15 +78,43 @@ Kriminalgeschichten von "Miss Marple" der Bestseller Autorin "Agatha Christie".
 // -----------------------------------------------------------------------------
 [role="mt-5"]
 == Über Ephraim Kishon
-// https://www.youtube.com/watch?v=9LojTw98Fks
 
+Kishon war ein scharfer Beobachter des menschlichen Verhaltens und der
+gesellschaftlichen Verhältnisse. Seine Satiren zeichnen sich durch ihren
+feinen Humor, ihre Ironie und ihren bissigen Witz aus.
+
+// .Ephraim Kishon · Zeitzeugen 
+// youtube::6NfppAgDCqk[poster="/assets/video/poster/youtube/zeitzeugen/zeitzeugen.jpg" role="mt-4 mb-4"]
+
+Die Geschichten Kishons spiegeln die Zeit wider, in der Ephraim Kishon lebte
+und schrieb, hauptsächlich die zweite Hälfte des 20. Jahrhunderts. Die
+satirischen Kurzgeschichten sind zeitlos und sprechen Leser jeden Alters
+an.
+
+Kishon war ein Meister der Sprachkunst und verstand es, durchaus komplexe
+Themen auf sehr unterhaltsame Weise darzustellen.
 
 [role="mt-5"]
-== Hörbucher
+== Beste Geschichten
 
-Die alte Dame erlebt ihre Abenteuer nicht nur im provinziellen Idyll. Unter
-anderem bringt sie das Verbrechen in den Buckingham Palace, auf den Luxusliner
-Queen Mary und nach Stonehenge.
+Die besten *Geschichten* von Ephraim Kishon sind eine Sammlung humorvoller,
+satirischer Kurzgeschichten. Kishon betrachtet mit viel Ironie und Witz die
+kleinen und großen Probleme des Alltags in Israel der 1970er Jahre.
 
-.Ephraim Kishon · Hörbucher
+Die *Familiengeschichten* behandeln alltägliche Situationen. Typische
+Erlebnisse wie Einkaufen, Urlaub, Schulausflüge, Erziehungsprobleme und den
+alltäglichen Wahnsinn des Familienlebens. Im Mittelpunkt stehen Kishon selbst,
+seine *beste Ehefrau von allen* und seine drei Kinder. Kishon nimmt in den
+Familiengeschichten sich und seine Familie dabei liebevoll auf die Schippe.
+
+Diw *Autofahrergeschichten* sind eine Sammlung humorvoller Satiren rund um das
+Thema Autofahren. Sie schildern auf unterhaltsame Weise die Absurditäten und
+Tücken des modernen Straßenverkehrs. Beispielsweise Familienausflüge. Warum
+eine Autofahrt mit der Familie spannender sein kann als jeder Krimi.
+Oder wie eine Parkplatzsuche zu einer unvergesslichen *Safari* wird. Ebenso
+technische Pannen: Wie eine angezogene Handbremse zum *drahtlosen Telefon*
+mutiert. Und Verkehrskontrollen: Wie man sich auf humorvolle Art und Weise
+an Verkehrspolizisten *rächen* kann.
+
+.Ephraim Kishon · Beste Geschichten
 amplitude::ephraim_kishon_yt_large[role="mt-4 mb-8"]
