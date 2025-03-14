@@ -158,6 +158,16 @@ settings:
           audio_info:                   //podcasts.apple.com/de/podcast/die-gro%C3%9Fe-comedy-kugel/id1741818812?i=1000697973099
           duration:                     "00:55:00"
 
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E11 · Ein Buch über Dreck
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH9375841185.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/ein-buch-%C3%BCber-dreck/id1741818812?i=1000698959688
+          duration:                     "00:43:00"
+
     # --------------------------------------------------------------------------
     # Spontanorama 2024
     # --------------------------------------------------------------------------
