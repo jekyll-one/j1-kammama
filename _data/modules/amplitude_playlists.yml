@@ -1123,7 +1123,7 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_ephraim_kishon_yt
         name:                           Ephraim Kishon
-        artist:                         YouTube
+        artist:                         Beste Geschichten
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
 
@@ -1147,12 +1147,46 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_ephraim_kishon_yt
-          title:                        Beste Autofahrergeschichten
+          title:                        Beste Autofahrergeschichten, Teil 1
           audio:                        watch?v=D2gVmGFa2wE
           rating:                       3
           audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
           cover_image:                  //img.youtube.com/vi/D2gVmGFa2wE/maxresdefault.jpg
           duration:                     "00:59:44"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_yt
+          title:                        Beste Autofahrergeschichten, Teil 2
+          audio:                        watch?v=zBSlRSGp5N4
+          rating:                       3
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          cover_image:                  //img.youtube.com/vi/zBSlRSGp5N4/maxresdefault.jpg
+          duration:                     "00:57:31"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_yt
+          title:                        Der Blaumilck-Kanal
+          audio:                        watch?v=KcXP2fMvQq8
+          rating:                       4
+          audio_info:                   //youtube.com/watch?v=KcXP2fMvQq8
+          cover_image:                  //img.youtube.com/vi/KcXP2fMvQq8/maxresdefault.jpg
+          duration:                     "00:11:25"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_yt
+          title:                        Die netten Nachbarn
+          audio:                        watch?v=X0RyupUgu2s
+          rating:                       4
+          audio_info:                   //youtube.com/watch?v=X0RyupUgu2s
+          cover_image:                  //img.youtube.com/vi/X0RyupUgu2s/maxresdefault.jpg
+          # //m.media-amazon.com/images/I/61xJ76npfrL._SY342_.jpg
+          duration:                     "01:14:08"
 
         # # title 03
         # - item:
