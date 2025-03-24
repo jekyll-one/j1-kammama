@@ -168,6 +168,16 @@ settings:
           audio_info:                   //podcasts.apple.com/de/podcast/ein-buch-%C3%BCber-dreck/id1741818812?i=1000698959688
           duration:                     "00:43:00"
 
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E12 · Drittel Life Crisis
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH4151930296.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/drittel-life-crisis/id1741818812?i=1000700017848
+          duration:                     "01:00:45"
+  
     # --------------------------------------------------------------------------
     # Spontanorama 2024
     # --------------------------------------------------------------------------
