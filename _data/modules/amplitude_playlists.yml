@@ -173,11 +173,21 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E12 · Drittel Life Crisis
-          rating:                       3
+          rating:                       5
           audio:                        EARLYSTUDIOSGMBH4151930296.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/drittel-life-crisis/id1741818812?i=1000700017848
           duration:                     "01:00:45"
-  
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E13 · Mein schönstes erstes Mal
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH3139491282.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/mein-sch%C3%B6nstes-erstes-mal/id1741818812?i=1000700981216
+          duration:                     "00:57:13"
+
     # --------------------------------------------------------------------------
     # Spontanorama 2024
     # --------------------------------------------------------------------------
