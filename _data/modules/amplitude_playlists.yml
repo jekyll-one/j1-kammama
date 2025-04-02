@@ -994,6 +994,17 @@ settings:
           cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
           duration:                     "01:03:06"
 
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2025
+          title:                        25E04 · Amerika hat uns nicht mehr lieb
+          rating:                       3
+          audio:                        clips/151/151349/151349_00588461_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/amerika-hat-uns-nicht-mehr-lieb/bremen-zwei/14366159/
+          cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
+          duration:                     "01:05:00"
+
     # --------------------------------------------------------------------------
     #  Mimi Rutherfurt, Maritim Verlag
     # --------------------------------------------------------------------------
