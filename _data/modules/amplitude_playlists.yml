@@ -802,7 +802,7 @@ settings:
           rating:                       3
           audio:                        clips/131/131039/131039_00521211_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-2023-der-erste-teil-des-jahresrueckblicks/bremen-zwei/13010263/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E00.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:9440866db9bf917a
           duration:                     "01:08:42"
 
         # title 01
@@ -813,7 +813,7 @@ settings:
           rating:                       3
           audio:                        clips/131/131040/131040_00521213_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-nochmal-von-hinten-2023-der-zweite-teil-des-jahresrueckblicks/bremen-zwei/13010265/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E01.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d1814928d0c82bc5
           duration:                     "01:06:53"
 
         # title 02
@@ -824,7 +824,7 @@ settings:
           rating:                       3
           audio:                        clips/132/132443/132443_00525982_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/nach-uns-die-zukunft/bremen-zwei/13092223/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E02.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a2f75f5e526173ea
           duration:                     "01:11:29"
 
         # title 03
@@ -835,7 +835,7 @@ settings:
           rating:                       3
           audio:                        clips/134/134023/134023_00531244_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/futur-ii/bremen-zwei/13175287/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E03.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2649a284f37d9078
           duration:                     "01:30:38"
 
         # title 04
@@ -846,7 +846,7 @@ settings:
           rating:                       3
           audio:                        clips/135/135820/135820_00537057_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/manni-manni/bremen-zwei/13268195/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E04.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:ae1dceb8fab008ae
           duration:                     "01:19:00"
 
         # title 05
@@ -857,7 +857,7 @@ settings:
           rating:                       3
           audio:                        clips/136/136986/136986_00540859_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/brotlose-kunstfehler/bremen-zwei/13363073/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E05.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:b63d3c7a18fd0ea5
           duration:                     "01:08:44"
 
         # title 06
@@ -868,7 +868,7 @@ settings:
           rating:                       3
           audio:                        clips/137/137316/137316_00541891_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-1/bremen-zwei/13383931/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E06.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:e36e87b4e9c8503f
           duration:                     "01:02:02"
 
         # title 07
@@ -879,7 +879,7 @@ settings:
           rating:                       3
           audio:                        clips/137/137320/137320_00541902_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-2/bremen-zwei/13383983/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E07.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:58fb5de87d85f832
           duration:                     "01:08:45"
 
         # title 08
@@ -890,7 +890,7 @@ settings:
           rating:                       3
           audio:                        clips/139/139563/139563_00549321_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/luxus-thema-verfehlt/bremen-zwei/13521805/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E08.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:010b2ee0c2c9d515
           duration:                     "01:13:28"
 
         # title 09
@@ -901,7 +901,7 @@ settings:
           rating:                       3
           audio:                        clips/140/140518/140518_00552636_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/nackedei-auf-bremen-zwei/bremen-zwei/13587949/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E09.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d96ff4a907c9310d
           duration:                     "01:08:33"
 
         # title 10
@@ -912,7 +912,7 @@ settings:
           rating:                       3
           audio:                        clips/141/141943/141943_00557359_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/go-west-und-der-rest/bremen-zwei/13668961/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E10.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:193e866537477b2f
           duration:                     "01:16:13"
 
         # title 11
@@ -922,8 +922,8 @@ settings:
           title:                        24E11 · Ey, lieb sein, Du Vollpfosten
           rating:                       3
           audio:                        clips/142/142840/142840_00560298_audio_stereo.mp3
-          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/go-west-und-der-rest/bremen-zwei/13668961/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E11.jpg
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ey-lieb-sein-du-vollpfosten/bremen-zwei/13723419/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:e4dd4fc128fa744a
           duration:                     "01:13:06"
 
         # title 12
@@ -934,7 +934,7 @@ settings:
           rating:                       3
           audio:                        clips/144/144622/144622_00566238_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/maustot-im-angebot/bremen-zwei/13832097/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E12.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2b5ce8fe527aa0f6
           duration:                     "01:14:58"
 
     # --------------------------------------------------------------------------
@@ -969,7 +969,7 @@ settings:
           rating:                       3
           audio:                        clips/146/146840/146840_00573649_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2024/bremen-zwei/13997181/
-          cover_image:                  /assets/audio/cover/stundenhotel/2024/S24E13.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:0449d5bae5aed7d0
           duration:                     "02:02:48"
 
         # title 02
@@ -980,7 +980,7 @@ settings:
           rating:                       3
           audio:                        clips/148/148251/148251_00578272_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-vorne-2025/bremen-zwei/14099723/
-          cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:bc022b9d1462279e
           duration:                     "02:16:28"
 
         # title 03
@@ -991,7 +991,7 @@ settings:
           rating:                       3
           audio:                        clips/150/150102/150102_00584370_audio_stereo.mp3
           audio_info:                   //audiothek.de/episode/wischmeyers-stundenhotel/aschermittwoch-deutschland-hat-fertig/bremen-zwei/14242941/
-          cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
+          cover_image:                  https://api.ardmediathek.de/image-service/images/urn:ard:image:2566e3e3f489c3ee
           duration:                     "01:03:06"
 
         # title 04
@@ -1002,7 +1002,7 @@ settings:
           rating:                       3
           audio:                        clips/151/151349/151349_00588461_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/amerika-hat-uns-nicht-mehr-lieb/bremen-zwei/14366159/
-          cover_image:                  /assets/audio/cover/stundenhotel/2025/S25E02.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:8ed3893a97da9b18
           duration:                     "01:05:00"
 
     # --------------------------------------------------------------------------
