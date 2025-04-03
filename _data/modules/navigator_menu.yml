@@ -69,17 +69,21 @@
             href:                       /pages/public/audio/radioplay/paradies_der_damen/
             icon:                       ear-hearing
 
-          - title:                      Ephraim Kishon
-            href:                       /pages/public/audio/radioplay/ephraim-kishon/
+          - title:                      Xerox
+            href:                       /pages/public/audio/radioplay/xerox/
             icon:                       ear-hearing
 
-      - title:                          Comedy
+      - title:                          Comedy & Satire
         icon:                           emoticon-excited-outline
         dropdown:
 
           - title:                      Das Gespenst von Canterville
             href:                       /pages/public/audio/radioplay/gespenst_von_canterville/
-            icon:                       ear-hearing        
+            icon:                       ear-hearing
+
+          - title:                      Ephraim Kishon
+            href:                       /pages/public/audio/radioplay/ephraim-kishon/
+            icon:                       ear-hearing
 
       - title:                          Crime
         icon:                           pistol

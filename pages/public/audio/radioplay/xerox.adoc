@@ -1,0 +1,107 @@
+---
+title:                                  Fien Veldman
+title_extention:                        Xerox
+tagline:                                Xerox
+
+date:                                   2025-04-03
+#last_modified:                         2025-04-03
+
+description: >
+                                        Fien Veldman, geboren 1990 in Leeuwarden, Niederlande, ist eine niederländische
+                                        Autorin, Journalistin und Theaterkritikerin. Die Autorin  beschäftigt sich oft
+                                        mit sozialen Rängen und Hierarchien, emanzipatorischen Erzählungen und
+                                        feministischen Perspektiven, oft mit einem subtilen Humor.
+keywords: >
+                                        Hörspiel, Radioplay, Fien Veldman
+
+categories:                             [ Audio ]
+tags:                                   [ Hörspiel, Fien Veldman ]
+
+image:
+  path:                                 //api.ardmediathek.de/image-service/images/urn:ard:image:bcd2fe77c828bee5
+  width:                                1920
+  height:                               1280
+
+
+regenerate:                             false
+personalization:                        true
+permalink:                              /pages/public/audio/radioplay/xerox/
+
+resources:                              [ amplitudejs ]
+resource_options:  
+  - attic:
+      opacity:                          .8
+      padding_top:                      550
+      slides:
+        - url:                          //api.ardmediathek.de/image-service/images/urn:ard:image:bcd2fe77c828bee5
+          alt:                          Fien Veldman
+          badge:
+            type:                       unsplash
+            author:                     ARD
+            href:                       //ardaudiothek.de/sendung/xerox-von-fien-veldman/14246321/
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Fien Veldman, geboren 1990 in Leeuwarden, Niederlande, ist eine niederländische
+Autorin, Journalistin und Theaterkritikerin. Die Autorin  beschäftigt sich oft
+mit sozialen Rängen und Hierarchien, emanzipatorischen Erzählungen und
+feministischen Perspektiven. Und das mit einem besonderen und subtilen Humor.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  20+ Minuten Audiozeit jeweils in 16 Folgen
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+// https://www.ardaudiothek.de/sendung/xerox-von-fien-veldman/14246321/
+
+[role="mt-5"]
+== Über den Roman
+
+Der Debüt-Roman *Xerox* ist eine scharfsinnige und humorvolle Auseinandersetzung
+mit der Entfremdung in der modernen Gesellschaft, der Oberflächlichkeit der
+Arbeitswelt und der Suche nach Sinn und Verbindung.
+
+// .Fien Veldman · Druckfrisch 
+// youtube::6NfppAgDCqk[poster="/assets/video/poster/youtube/zeitzeugen/zeitzeugen.jpg" role="mt-4 mb-4"]
+
+Der Roman behandelt auf subtile und humorvolle Weise wichtige Fragen unserer
+Zeit und lässt den Leser Nachdenken über die moderne Gesellschaft und das
+heutige menschliche Miteinander.
+
+[role="mt-4"]
+== Xerox
+
+_Fien Veldman_ erzählt die Geschichte einer namenlosen jungen Frau, die in
+einem Amsterdamer Start-up Unternehmen arbeitet und dort für den Bürodrucker
+zuständig ist.
+
+Die Protagonistin stammt aus einfachen Verhältnissen und fühlt sich in der
+modernen Arbeitswelt fremd und isoliert. Ihren einzigen Vertrauten findet sie
+in dem Drucker, dem sie all ihre Sorgen und Gedanken anvertraut.
+
+.Fien Veldman · Xerox
+amplitude::xerox_yt_large[role="mt-4 mb-8"]

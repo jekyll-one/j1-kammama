@@ -53,11 +53,6 @@ settings:
       # ------------------------------------------------------------------------
       items:
 
-      # ------------------------------------------------------------------------
-      # TITLE settings (songs)
-      # ------------------------------------------------------------------------
-      items:
-
         # title 01
         - item:
           enabled:                      true
@@ -999,11 +994,11 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2025
           title:                        25E04 · Amerika hat uns nicht mehr lieb
-          rating:                       3
+          rating:                       1
           audio:                        clips/151/151349/151349_00588461_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/amerika-hat-uns-nicht-mehr-lieb/bremen-zwei/14366159/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:8ed3893a97da9b18
-          duration:                     "01:05:00"
+          duration:                     "01:05:20"
 
     # --------------------------------------------------------------------------
     #  Mimi Rutherfurt, Maritim Verlag
@@ -1231,6 +1226,190 @@ settings:
         #   duration:                     "03:19:16"
 
     # --------------------------------------------------------------------------
+    #  Fien Feldman, Xerox
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             xerox_2024
+      title:                            Xerox
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_xerox_2024
+        name:                           Xerox
+        artist:                         Fien Feldman
+        audio_base:                     //pdodswr-a.akamaihd.net/swr/swrkultur/literatur/hoerbuch/xerox
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:8ee024a33603d29a
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E01 · Xerox
+          rating:                       4
+          audio:                        2209492.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-1-16/swr-kultur/14276279/
+          duration:                     "23:04"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E02 · Xerox
+          rating:                       4
+          audio:                        2209493.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-2-16/swr-kultur/14276307/
+          duration:                     "22:28"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E03 · Xerox
+          rating:                       4
+          audio:                        2209496.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-3-16/swr-kultur/14276325/
+          duration:                     "23:31"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E04 · Xerox
+          rating:                       4
+          audio:                        2209510.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-4-16/swr-kultur/14282783/
+          duration:                     "22:49"          
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E05 · Xerox
+          rating:                       4
+          audio:                        2209512.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-5-16/swr-kultur/14276367/
+          duration:                     "22:35"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E06 · Xerox
+          rating:                       4
+          audio:                        2209514.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-6-16/swr-kultur/14276385/
+          duration:                     "22:52" 
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E07 · Xerox
+          rating:                       4
+          audio:                        2209517.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-7-16/swr-kultur/14276411/
+          duration:                     "22:42"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E08 · Xerox
+          rating:                       4
+          audio:                        2209523.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-8-16/swr-kultur/14276427/
+          duration:                     "22:36" 
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E09 · Xerox
+          rating:                       4
+          audio:                        2209528.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-9-16/swr-kultur/14276439/
+          duration:                     "23:16"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E10 · Xerox
+          rating:                       4
+          audio:                        2209533.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-10-16/swr-kultur/14276459/
+          duration:                     "23:00" 
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E11 · Xerox
+          rating:                       4
+          audio:                        2209540.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-11-16/swr-kultur/14276465/
+          duration:                     "24:30"
+
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E12 · Xerox
+          rating:                       4
+          audio:                        2209542.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-12-16/swr-kultur/14276491/
+          duration:                     "23:44" 
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E13 · Xerox
+          rating:                       4
+          audio:                        2209544.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-13-16/swr-kultur/14276497/
+          duration:                     "24:12"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E14 · Xerox
+          rating:                       4
+          audio:                        2209545.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-14-16/swr-kultur/14276529/
+          duration:                     "23:57" 
+
+        # title 15
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E15 · Xerox
+          rating:                       4
+          audio:                        2209547.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-15-16/swr-kultur/14276563/
+          duration:                     "24:24"
+
+        # title 16
+        - item:
+          enabled:                      true
+          <<:                           *album_xerox_2024
+          title:                        E16 · Xerox
+          rating:                       4
+          audio:                        2209554.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-16-16/swr-kultur/14276607/
+          duration:                     "24:24" 
+
+    # --------------------------------------------------------------------------
     #  Smooth Jazz (Dua Lipa)
     # --------------------------------------------------------------------------
     #
@@ -1259,10 +1438,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Training Season
-          audio:                        watch?v=_R0Vj2zC5VI
+          audio:                        watch?v=Op899TJjhfo
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/_R0Vj2zC5VI/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/Op899TJjhfo/maxresdefault.jpg
           duration:                     "03:07"
 
         # title 02
@@ -1270,10 +1449,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Houdini
-          audio:                        watch?v=xlsKFDyQTJg
+          audio:                        watch?v=RZTPR8xMtDo
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/xlsKFDyQTJg/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/RZTPR8xMtDo/maxresdefault.jpg
           duration:                     "02:26"
   
         # title 03
@@ -1281,10 +1460,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        One Kiss
-          audio:                        watch?v=cclphGPeYn0
+          audio:                        watch?v=xD4At1EtNyI
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/cclphGPeYn0/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/xD4At1EtNyI/maxresdefault.jpg
           duration:                     "03:28"
 
         # title 04
@@ -1292,10 +1471,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        New Rules
-          audio:                        watch?v=e_oPuubdNWg
+          audio:                        watch?v=C8Crqa8x5DY
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/e_oPuubdNWg/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/C8Crqa8x5DY/maxresdefault.jpg
           duration:                     "03:14"
 
         # title 05
@@ -1303,10 +1482,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Illusion
-          audio:                        watch?v=1u4WmO5puh0
+          audio:                        watch?v=HmBEAifVbg0
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/1u4WmO5puh0/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/HmBEAifVbg0/maxresdefault.jpg
           duration:                     "03:14"
 
         # title 06
@@ -1314,10 +1493,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Scared to Be Lonely
-          audio:                        watch?v=mVexLhWR43c
+          audio:                        watch?v=UA8eyosefW8
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/mVexLhWR43c/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/UA8eyosefW8/maxresdefault.jpg
           duration:                     "03:22"
 
         # title 07
@@ -1325,10 +1504,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Physical
-          audio:                        watch?v=bu-WFdernVo
+          audio:                        watch?v=37mzUbjx4UU
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/bu-WFdernVo/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/37mzUbjx4UU/maxresdefault.jpg
           duration:                     "03:25"
 
         # title 08
@@ -1336,10 +1515,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Love Again
-          audio:                        watch?v=GB_shDpDJho
+          audio:                        watch?v=KAxnBIDdne0
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/GB_shDpDJho/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/KAxnBIDdne0/maxresdefault.jpg
           duration:                     "03:25"
 
         # title 09
@@ -1347,10 +1526,10 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Break My Heart
-          audio:                        watch?v=eu2MqQnsQnw
+          audio:                        watch?v=clZy4xLJoGw
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/eu2MqQnsQnw/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/clZy4xLJoGw/maxresdefault.jpg
           duration:                     "03:07"
 
         # title 10
@@ -1358,48 +1537,48 @@ settings:
           enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        These Walls
-          audio:                        watch?v=j0iQ-h3gLbg
+          audio:                        watch?v=iLnogjAn2iY
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/j0iQ-h3gLbg/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/iLnogjAn2iY/maxresdefault.jpg
           duration:                     "03:30"
 
         # title 11
         - item:
-          enabled:                      true
+          enabled:                      false
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        End of an Era
-          audio:                        watch?v=ICNGKgZ7NXU
+          audio:                        watch?v=jbPzp0NTOyc
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/ICNGKgZ7NXU/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
           duration:                     "03:33"
 
         # title 12
         - item:
-          enabled:                      true
+          enabled:                      false
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Don't Start Now
-          audio:                        watch?v=HQ-1Jx5Tr6A
+          audio:                        watch?v=AT2Lp8784dA
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/HQ-1Jx5Tr6A/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/AT2Lp8784dA/maxresdefault.jpg
           duration:                     "03:33"
 
         # title 13
         - item:
-          enabled:                      true
+          enabled:                      false
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Levitating
-          audio:                        watch?v=mn4gpC2sp0s
+          audio:                        watch?v=sAUOWZQoH5Q
           rating:                       3
           audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/mn4gpC2sp0s/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/sAUOWZQoH5Q/maxresdefault.jpg
           duration:                     "02:48"
 
         # title 14
         - item:
-          enabled:                      true
+          enabled:                      false
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Sweetest Pie
           audio:                        watch?v=xULkEz9fWbU

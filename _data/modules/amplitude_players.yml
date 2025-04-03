@@ -308,6 +308,48 @@ settings:
         audio_rating:                   true     
 
     # --------------------------------------------------------------------------
+    # LARGE player, Fien Feldman - Xerox
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      id:                               xerox_yt_large
+      type:                             large
+      # source:                           audio
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      # plugin_manager:
+      #   enabled:                        false
+      #   plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           xerox_2024
+        title:                          Fien Feldman
+        audio_info:                     true
+        audio_rating:                   true 
+
+    # --------------------------------------------------------------------------
     # LARGE player, Smooth Jazz (Dua Lipa)
     # --------------------------------------------------------------------------
     #
