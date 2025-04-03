@@ -1545,7 +1545,7 @@ settings:
 
         # title 11
         - item:
-          enabled:                      false
+          enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        End of an Era
           audio:                        watch?v=jbPzp0NTOyc
@@ -1556,7 +1556,7 @@ settings:
 
         # title 12
         - item:
-          enabled:                      false
+          enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Don't Start Now
           audio:                        watch?v=AT2Lp8784dA
@@ -1567,7 +1567,7 @@ settings:
 
         # title 13
         - item:
-          enabled:                      false
+          enabled:                      true
           <<:                           *album_smooth_jazz_dua_lipa_yt
           title:                        Levitating
           audio:                        watch?v=sAUOWZQoH5Q
@@ -1577,15 +1577,15 @@ settings:
           duration:                     "02:48"
 
         # title 14
-        - item:
-          enabled:                      false
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Sweetest Pie
-          audio:                        watch?v=xULkEz9fWbU
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/xULkEz9fWbU/maxresdefault.jpg
-          duration:                     "03:27"
+        # - item:
+        #   enabled:                      false
+        #   <<:                           *album_smooth_jazz_dua_lipa_yt
+        #   title:                        Sweetest Pie
+        #   audio:                        watch?v=xULkEz9fWbU
+        #   rating:                       3
+        #   audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+        #   cover_image:                  //img.youtube.com/vi/xULkEz9fWbU/maxresdefault.jpg
+        #   duration:                     "03:27"
 
     # --------------------------------------------------------------------------
     #  Sherlock Holmes, Späte Rache
