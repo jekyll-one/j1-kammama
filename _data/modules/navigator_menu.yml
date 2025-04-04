@@ -50,9 +50,9 @@
             href:                       /pages/public/audio/music/diana-krall/
             icon:                       ear-hearing
 
-          # - title:                      Smooth Jazz Renditions
-          #   href:                       /pages/public/audio/music/smooth-jazz-renditions/
-          #   icon:                       ear-hearing
+          - title:                      Smooth Jazz Renditions
+            href:                       /pages/public/audio/music/smooth-jazz-renditions/
+            icon:                       ear-hearing
 
     # --------------------------------------------------------------------------
     # Hörbücher
@@ -109,6 +109,17 @@
           icon:                         ear-hearing
         - title:                        Stundenhotel
           href:                         /pages/public/audio/podcast/stundenhotel/
+          icon:                         ear-hearing
+
+    # --------------------------------------------------------------------------
+    # Dokus & Reportagen
+    #
+    - title:                            Dokus & Reportagen
+      icon:                             volume-high
+      dropdown:
+
+        - title:                        Heidi Klum
+          href:                         /pages/public/audio/podcast/doku/heidi_klum/
           icon:                         ear-hearing
 
 # ------------------------------------------------------------------------------

@@ -30,6 +30,85 @@ settings:
   playlists:
 
     # --------------------------------------------------------------------------
+    #  Heidi Klum
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             heidi_klum
+      title:                            Heidi Klum
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_heidi_klum
+        name:                           Catwalk zur Macht
+        artist:                         Heidi Klum
+        audio_base:                     //hrardmediathek-a.akamaihd.net/odinson/das-imperium-heidi-klum-catwalk-zur-macht
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:0f4f82b5683a7951
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_heidi_klum
+          title:                        E01 · Alles kein Zufall
+          rating:                       3
+          audio:                        b4d40a51-7250-41e5-9db7-06e91af47a87/62d28476-2745-4195-b364-f0bd56802f3a/b4d40a51-7250-41e5-9db7-06e91af47a87_103062597_1739267003010.mp3
+          audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/alles-kein-zufall-s01-e01/ard/14167869/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:b4dfad209de77375
+          duration:                     "29:00"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_heidi_klum
+          title:                        E02 · Zu dick für Deutschland
+          rating:                       3
+          audio:                        344b4bb7-c582-40dd-9218-510ad21d992c/c5a0f782-be5b-4424-b9bf-a7551aaf2766/344b4bb7-c582-40dd-9218-510ad21d992c_103093555_1739267243026.mp3
+          audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/zu-dick-fuer-deutschland-s01-e02/ard/14167943/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2a1552784b21bead
+          duration:                     "26:17"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_heidi_klum
+          title:                        E03 · Für nichts zu schade
+          rating:                       3
+          audio:                        0519660b-d5f0-44c1-ba4a-867641eeb54b/6c0f48e9-ab88-4d93-b64f-33f4a71ba7f7/0519660b-d5f0-44c1-ba4a-867641eeb54b_103107706_1739267429309.mp3
+          audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/fuer-nichts-zu-schade-s01-e03/ard/14167979/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:bab7addb6f77e1e8?w=448&ch=9d0e5fe2281c2d81
+          duration:                     "30:44"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_heidi_klum
+          title:                        E04 · GNTM - Alles nur Show
+          rating:                       3
+          audio:                        64565b1d-423a-46c4-9e17-6c7841b8aa76/6064ab62-090a-429e-9ef1-da09627c0d3e/64565b1d-423a-46c4-9e17-6c7841b8aa76_103106519_1739267566006.mp3
+          audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/gntm-alles-nur-show-s01-e04/ard/14167955/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:5b526bbc9715303a?w=448&ch=1f7f8e8321df780e
+          duration:                     "34:28"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_heidi_klum
+          title:                        E05 · Mittelfinger an die Hater
+          rating:                       3
+          audio:                        68f1eeee-16e5-46a1-a916-a23294a8b26c/09f91e62-94b1-4f37-9547-ff494fd1a1b4/68f1eeee-16e5-46a1-a916-a23294a8b26c_103106576_1739267760533.mp3
+          audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/mittelfinger-an-die-hater-s01-e05/ard/14167965/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:5d3e8ca311865a52?w=448&ch=2fafdfdaac2a6b1a
+          duration:                     "37:22"
+
+    # --------------------------------------------------------------------------
     # Spontanorama 2025
     # --------------------------------------------------------------------------
     #

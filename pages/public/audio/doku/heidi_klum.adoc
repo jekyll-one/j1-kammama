@@ -1,0 +1,144 @@
+---
+title:                                  Heidi Klum
+title_extention:                        Catwalk zur Macht
+tagline:                                Catwalk zur Macht
+
+date:                                   2025-04-04
+#last_modified:                         2025-04-04
+
+description: >                                  
+                                        Heidi Klum ist das deutsche Model. Aber ihre Show und ihre Auftritte
+                                        sind nur ein kleiner Teil ihres Geschäfts. Tatsächlich ist sie eine
+                                        der erfolgreichsten Selfmade-Frauen der Welt.
+keywords: >
+                                        Radioplay, Heidi Klum
+
+categories:                             [ Duko ]
+tags:                                   [ Podcast, Heidi Klum ]
+
+image:
+  path:                                 https://assets.ad-magazin.de/photos/672887ccaa2a69d03b0e44fa/3:2/w_2560%2Cc_limit/GettyImages-2174100030.jpg
+  width:                                1920
+  height:                               1280
+
+regenerate:                             false
+personalization:                        true
+permalink:                              /pages/public/audio/podcast/doku/heidi_klum/
+
+resources:                              [ amplitudejs ]
+resource_options:  
+  - attic:
+      opacity:                          .6
+      padding_top:                      550
+      slides:
+        - url:                          //api.ardmediathek.de/image-service/images/urn:ard:image:0f4f82b5683a7951
+          alt:                          Heidi Klum
+          badge:
+            type:                       unsplash
+            author:                     ARD
+            href:                       //ardaudiothek.de/sendung/das-imperium-heidi-klum-catwalk-zur-macht/14119983/
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Heidi Klum ist das deutsche Model. Aber ihre Show und ihre Auftritte
+sind nur ein kleiner Teil ihres Geschäfts. Tatsächlich ist sie eine
+der erfolgreichsten Selfmade-Frauen der Welt.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  20+ Minuten Audiozeit jeweils in 5 Folgen
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+// //ardaudiothek.de/sendung/das-imperium-heidi-klum-catwalk-zur-macht/14119983/
+
+[role="mt-5"]
+== Über Heidi Klum
+
+Heidi Klum wurde am 1. Juni 1973 in Bergisch Gladbach (Nordrhein-Westfalen)
+geboren. Ihre Mutter Erna war Friseurin, ihr Vater Günther arbeitete als
+leitender Angestellter bei einem Kosmetikunternehmen.
+
+Heidi Klums Modelkarriere begann 1992, als sie den nationalen Modelwettbewerb
+*Model 92* gewann und sich gegen 25.000 andere Teilnehmerinnen durchsetzte.
+Der Preis war ein 300.000-Dollar-Vertrag mit Metropolitan Models in New York.
+Nach ihrem Highschool-Abschluss 1992 entschied sich Klum, Model zu werden,
+anstatt Modedesign zu studieren.
+
+1993 zog sie in die USA und erlangte schnell Bekanntheit in der Modelwelt.
+Ihr Durchbruch kam 1998, als sie auf dem Cover der Sports Illustrated Swimsuit
+Issue erschien. Dies führte zu zahlreichen weiteren hochkarätigen Modeljobs,
+darunter dem Status als Victoria's Secret Angel, eine Rolle, die sie 13 Jahre
+lang innehatte.
+
+Neben ihrer Modelkarriere hat Klum auch eine erfolgreiche Fernsehkarriere
+aufgebaut. Seit 2006 moderiert und fungiert sie als Jurorin der deutschen
+Version von *Next Topmodel* und von 2004 bis 2017 als Moderatorin der Reality
+Show *Project Runway*. 2013 erhielt sie dafür einen Emmy Award als herausragende
+Moderatorin einer Reality-Show oder eines Reality-Wettbewerbs.
+
+Von 2013 bis 2018 und erneut von 2020 bis 2024 war sie außerdem Jurorin bei
+*America's Got Talent* (AGT). Darüber hinaus produzierte und moderierte sie
+weitere Fernsehsendungen wie *Making the Cut* und *Queen of Drags*.
+
+Klum hat sich auch als Schauspielerin versucht und trat in Filmen wie
+*Blow Dry*, *Zoolander* und *Ella – Verflixt & zauberhaft* sowie in
+Fernsehserien wie *Sex and the City*, *How I Met Your Mother* und
+*Parks and Recreation* auf. Sie lieh auch Animationsfilmen wie *Arctic Dogs*
+ihre Stimme.
+
+Neben ihrer Model- und Fernseharbeit ist Klum eine erfolgreiche Geschäftsfrau.
+Sie hat eigene Linien für Kleidung, Dessous, Bademode, Schmuck und Parfüms auf
+den Markt gebracht. Sie ist außerdem Co-Autorin des Buches
+*Body of Knowledge: 8 Rules of Model Behavior* und kreierte die Hautpflegelinie
+*Heidi Klum's In An Instant*.
+
+
+[role="mt-4"]
+== Das Imperium Heidi Klum
+
+High Heels, Glamour, Laufstege. _Heidi Klum_ ist DAS deutsche Model. Aber
+ihre Show und ihre Auftritte sind nur ein kleiner Teil ihres Geschäfts.
+Tatsächlich ist sie eine der erfolgreichsten Selfmade-Frauen der Welt, managt
+viele Marken und ist unfassbar reich. Wie hat sie es geschafft, ein Megastar
+zu werden und zu bleiben? 
+ 
+_Heidi Klums_ Geheimnis: Sie erschafft sich immer wieder neu. Model, Werbe
+Ikone, TV-Produzentin - und schließlich Boss eines weltweiten Imperiums aus
+Geld, Macht und Schönheit. Ihre Marketing-Aktionen gehen direkt viral - Blamage
+oder Kalkül?
+ 
+Das weltweite Lifestyle-Imperium Klum ist heute mehrere hundert Millionen Euro
+schwer. Heidi Klum hat ihr Wirtschafts-Imperium step by step weiter ausbaut,
+während tausende Kolleg:innen auf dem Weg nach ganz oben scheitern.
+
+Was ist ihr Geheimnis? Warum endet die Karriere nicht? Wie hat Heidi Klum sich
+stets neu erfunden? Welche Personen haben ihr dabei geholfen? Dazu haben wir
+mit Insidern gesprochen, die in ihrer Karriere eine entscheidende Rolle
+gespielt haben.
+
+.Heidi Klum · Catwalk zur Macht
+amplitude::heidi_klum_yt_large[role="mt-4 mb-8"]
