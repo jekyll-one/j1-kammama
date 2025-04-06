@@ -108,6 +108,86 @@ settings:
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:5d3e8ca311865a52?w=448&ch=2fafdfdaac2a6b1a
           duration:                     "37:22"
 
+
+    # --------------------------------------------------------------------------
+    #  Walter Fischer (OZ)
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             walter_fischer
+      title:                            Walter Fischer
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_walter_fischer
+        name:                           Graffiti-Künstler
+        artist:                         Walter Fischer
+        audio_base:                     //avdlswr-a.akamaihd.net/swr/swrkultur/feature/oz
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_walter_fischer
+          title:                        E01 · Der Mond schien hell
+          rating:                       3
+          audio:                        2185946.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/der-mond-schien-hell-1-5/ard/14144597/
+          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
+          duration:                     "24:26"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_walter_fischer
+          title:                        E02 · Die schiefe Bahn
+          rating:                       3
+          audio:                        2185970.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/die-schiefe-bahn-2-5/ard/14144645/
+          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
+          duration:                     "29:03"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_walter_fischer
+          title:                        E03 · Unter Druck
+          rating:                       3
+          audio:                        2186462.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/unter-druck-3-5/ard/14150611/
+          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
+          duration:                     "34:16"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_walter_fischer
+          title:                        E04 · Es lebe der Sprühling
+          rating:                       3
+          audio:                        2186487.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/es-lebe-der-spruehling-4-5/ard/14150679/
+          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
+          duration:                     "31:10"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_walter_fischer
+          title:                        E05 · Es lebe der Sprühling
+          rating:                       3
+          audio:                        2186488.m.mp3
+          audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/city-of-oz-5-5/ard/14150685/
+          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
+          duration:                     "32:10"
+
     # --------------------------------------------------------------------------
     # Spontanorama 2025
     # --------------------------------------------------------------------------

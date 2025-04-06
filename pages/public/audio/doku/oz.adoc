@@ -1,0 +1,118 @@
+---
+title:                                  Walter Fischer
+title_extention:                        Graffiti-Künstler, Schmierfink, Rebell
+tagline:                                Graffiti-Künstler, Schmierfink, Rebell
+
+date:                                   2025-04-04
+#last_modified:                         2025-04-04
+
+description: >                                  
+                                        Walter Josef Fischer, alias OZ. Er war Hamburgs, und wohl
+                                        auch Deutschlands, bekanntester Sprayer und Graffitikünstler.
+                                        Am 25. September 2014, in der Nacht von Donnerstag auf Freitag,
+                                        wurde er in der Nähe des Hauptbahnhofs Hamburg beim Sprühen
+                                        von einer S-Bahn erfasst und tödlich verletzt.
+keywords: >
+                                        Radioplay, OZ, Walter Fischer
+
+categories:                             [ Duko ]
+tags:                                   [ Podcast, OZ, Walter Fischer ]
+
+image:
+  path:                                 //ndr.de/geschichte/koepfe/oz178_v-fullhd.jpg
+  width:                                1920
+  height:                               1280
+
+regenerate:                             false
+personalization:                        true
+permalink:                              /pages/public/audio/podcast/doku/oz/
+
+resources:                              [ amplitudejs ]
+resource_options:  
+  - attic:
+      opacity:                          .6
+      padding_top:                      550
+      slides:
+        - url:                          //ndr.de/geschichte/koepfe/oz178_v-fullhd.jpg
+          alt:                          Heidi Klum
+          badge:
+            type:                       unsplash
+            author:                     ARD
+            href:                       https://www.ardaudiothek.de/sendung/oz-graffiti-kuenstler-schmierfink-rebell/14107933/
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Walter Josef Fischer, alias OZ. Er war Hamburgs, und wohl auch Deutschlands,
+bekanntester Sprayer und Graffitikünstler. Am 25. September 2014, in der Nacht
+von Donnerstag auf Freitag, wurde er in der Nähe des Hauptbahnhofs Hamburg
+beim Sprühen von einer S-Bahn erfasst und tödlich verletzt.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  20+ Minuten Audiozeit jeweils in 5 Folgen
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+// //ardaudiothek.de/sendung/das-imperium-heidi-klum-catwalk-zur-macht/14119983/
+
+[role="mt-5"]
+== Über Walter Josef Fischer
+
+Walter Josef Fischer, alias OZ, wuchs als uneheliches Kind ohne Familie in
+einem katholischen Heim in Heidelberg auf. Dort litt er unter Anfeindungen
+wegen einer Lippen-Kiefer-Gaumenspalte, die später mehrfach operiert wurde.
+
+Er verließ die Hauptschule ohne Abschluss. Anschließend begann er Ausbildungen
+als Damenfriseur und Gärtner, die er ebenfalls abbrach. Mit dem Sprühen von
+Graffiti begann er 1977 in Stuttgart. Im selben Jahr unternahm er Reisen
+innerhalb Europas und nach Indien, Thailand, Afghanistan und Indonesien.
+
+Ab 1992 lebte er in Hamburg. Zunächst sprühte OZ nur Smileys, später auch
+Schriftzüge, Kringel und großformatige, abstrakte Bilder. Nach Schätzungen
+der Hamburger Polizei hatte OZ bereits bis 2002 über 120.000 Zeichen im
+Stadtbild hinterlassen.
+
+Zuletzt lebte OZ in einer Ladenwohnung im Stadtteil Billstedt. Er war von einem
+Gericht als *seelisch behindert* eingestuft worden und wurde die letzten sechs
+Jahre seines Lebens von Sozialarbeitern betreut.
+
+[role="mt-4"]
+== OZ - Graffiti-Künstler, Schmierfink, Rebell
+
+Zwei Jahrzehnte lang geht der Graffiti-Sprayer OZ jede Nacht raus und
+*macht Hamburg bunter*, wie er sagt. Oder, wie andere urteilen: Er
+verschandelt die Stadt.
+
+Immer wieder wird er verprügelt, und immer wieder verurteilt, insgesamt zu 
+mehr als acht Jahren Gefängnis. Doch OZ macht immer weiter, am Ende stirbt er
+als Künstler.
+
+Was war sein Antrieb? Kai Sieverding und Sven Stillich begeben sich auf die
+Suche nach dem Menschen hinter der Sprühdose und finden ein Leben, das von
+Extremen geprägt ist.
+
+.OZ · Graffiti-Künstler, Schmierfink, Rebell
+amplitude::oz_yt_large[role="mt-4 mb-8"]
