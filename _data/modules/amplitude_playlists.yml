@@ -337,10 +337,30 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E13 · Mein schönstes erstes Mal
-          rating:                       3
+          rating:                       2
           audio:                        EARLYSTUDIOSGMBH3139491282.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mein-sch%C3%B6nstes-erstes-mal/id1741818812?i=1000700981216
           duration:                     "00:57:13"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E14 · Code Red
+          rating:                       3
+          audio:                        EARLYSTUDIOSGMBH2338128572.mp3
+          audio_info:                   https://podcasts.apple.com/de/podcast/code-red/id1741818812?i=1000701962252
+          duration:                     "00:51:02"
+
+        # title 15
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E15 · Helikopter Hupen
+          rating:                       4
+          audio:                        EARLYSTUDIOSGMBH5196874671.mp3
+          audio_info:                   https://podcasts.apple.com/de/podcast/helikopter-hupen/id1741818812?i=1000702931307
+          duration:                     "00:54:06"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024
