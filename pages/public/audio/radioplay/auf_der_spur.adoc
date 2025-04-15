@@ -106,16 +106,13 @@ Commissario Brunetti.
 [role="mt-4"]
 === Guido Blankenhorn
 
-_Guido Blankenhorn_ ist eine fiktive Figur, ein ehemaliger Kriminalkommissar in
-Hamburg, der vorzeitig in Pension geschickt wurde, nachdem er *ressortfremd*
-das Vorgehen von Kollegen in einer linken Buchhandlung untersucht hatte.
+_Guido Blankenhorn_ ist ein ehemaliger Kriminalkommissar in Hamburg, der
+vorzeitig in Pension geschickt wurde, nachdem er *ressortfremd* das Vorgehen
+von Kollegen in einer linken Buchhandlung untersucht hatte.
 
 Er wurde in den 1970er Jahren von _Uwe Friesel_ für eine Reihe von Hörspielen
 des Norddeutscher Rundfunks geschaffen. Die Rolle des _Guido Blankenhorn_
 wird in den Hörspielen von dem Schauspieler _Rolf Becker_ gesprochen.
-
-Die Hörspiele erzählen von Blankenhorns inoffiziellen Ermittlungen in
-verschiedenen Kriminalfällen.
 
 
 [role="mt-5"]
@@ -149,4 +146,19 @@ von _Donna Leon_. Mit Michael König, Hille Darjes u.a.
 
 [role="mt-5 mb-5"]
 .Auf der Spur · Commissario Brunetti
-amplitude::auf_der_spur_commissario_brunetti_large[role="mb-8"]
+amplitude::auf_der_spur_brunetti_large[role="mb-5"]
+
+
+[role="mt-4"]
+=== Ex-Kommissar Blankenhorn
+
+Die Hörspiele erzählen von Blankenhorns inoffiziellen Ermittlungen in
+verschiedenen Kriminalfällen. Von Uwe Friesel, mit Andrea Dahmen, Klaus Höhne,
+Daniela Ziegler u.a.
+
+* Guido Blankenhorn:  Rolf Becker
+* Regie:              Hans Rosenhauer
+
+[role="mt-5 mb-5"]
+.Auf der Spur · Ex-Kommissar Blankenhorn
+amplitude::auf_der_spur_blankenhorn_large[role="mb-5"]

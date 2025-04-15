@@ -609,7 +609,7 @@ settings:
       # GENERAL settings
       #     
       enabled:                          true
-      id:                               auf_der_spur_commissario_brunetti_large
+      id:                               auf_der_spur_brunetti_large
       type:                             large
 
       # ------------------------------------------------------------------------
@@ -625,7 +625,7 @@ settings:
       # PLAYLIST settings
       #
       playlist:
-        name:                           auf_der_spur_commissario_brunetti
+        name:                           auf_der_spur_brunetti
         title:                          Auf der Spur
         audio_info:                     true
         audio_rating:                   false

@@ -2296,13 +2296,13 @@ settings:
     - playlist:
       enabled:                          true
 
-      name:                             auf_der_spur_commissario_brunetti 
+      name:                             auf_der_spur_brunetti 
       title:                            Commissario Brunetti
 
       # ------------------------------------------------------------------------
       # ALBUM settings
       # ------------------------------------------------------------------------
-      album:                            &album_auf_der_spur_commissario_brunetti
+      album:                            &album_auf_der_spur_brunetti
         name:                           Auf der Spur
         artist:                         Commissario Brunetti
         # audio_base:                   //cdn-storage.br.de
@@ -2317,7 +2317,7 @@ settings:
         # title 01
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E01 Vendetta · 1/2
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4G/_-dS/_2Fd_yxd_U1S/6eca5959-8223-4cbc-a1c2-8d58b166ca97_2.mp3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-vendetta-1-2-spur-zu-mafia-und-korruption/ard/13612491/
@@ -2327,7 +2327,7 @@ settings:
         # title 02
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E02 Vendetta · 2/2
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4G/_-dS/_2Fd_yxd_K1S/9e67d7a1-8030-4650-be55-5ea3c488464b_2.mp3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-vendetta-2-2-venedig-krimi-von-donna-leon/ard/13612495/ 
@@ -2337,7 +2337,7 @@ settings:
         # title 03
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E03 Sanft entschlafen · 1/1
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4G/_AES/_28p_yk6571S/e3e7096c-3b09-4974-aa12-50726b13d138_2.mp3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-sanft-entschlafen-1-2-mord-im-kloster-orden/ard/13768895/
@@ -2347,7 +2347,7 @@ settings:
         # title 04
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E04 Sanft entschlafen · 2/2
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4G/_AES/_28p_yk69U1S/ccdfe4de-5c72-4eec-95c3-e421af8e9aa4_2.mp3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-sanft-entschlafen-2-2-hinter-kalten-mauern/ard/13768899/
@@ -2357,7 +2357,7 @@ settings:
         # title 05
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E05 Venezianische Scharade · 1/1
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4P/_-iS/_28H_Avy5H1S/29123705-8e2b-4501-9009-d9dbdaef2e28_2.mp3
           audio_info:                   /ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianische-scharade-1-2-krimi-hoerspiel-von-donna-leon/ard/14094867/
@@ -2367,7 +2367,7 @@ settings:
         # title 06
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E06 Venezianische Scharade · 2/2
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4G/_AiS/_28c_ArH5U1S/3e38fbde-d63b-49fd-9495-9aff88ff911b_2.mp3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianische-scharade-2-2-erpressung-und-doppeltes-spiel/ard/13927593/
@@ -2377,7 +2377,7 @@ settings:
         # title 07
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E07 Venezianisches Finale · 1/1
           audio:                        //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/326/3263600/3263600_61498484.mp3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianische-scharade-1-2-krimi-hoerspiel-von-donna-leon/ard/14094867/
@@ -2387,7 +2387,7 @@ settings:
         # title 08
         - item:
           enabled:                      true
-          <<:                           *album_auf_der_spur_commissario_brunetti
+          <<:                           *album_auf_der_spur_brunetti
           title:                        E08 Venezianisches Finale · 2/2
           audio:                        //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/326/3265742/3265742_61558487.mp3?download=true
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianisches-finale-2-2-venedig-krimi-von-donna-leon/ard/14300419/
