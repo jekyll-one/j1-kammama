@@ -1,0 +1,152 @@
+---
+title:                                  Auf der Spur
+tagline:                                Die ARD Ermittlerkrimis
+
+date:                                   2024-09-10
+#last_modified:                         2024-09-10
+
+description: >
+                                        Mysteriöse Morde und kuriose Kriminalfälle im Fadenkreuz. Ob Kommissar-Genie,
+                                        Privatdetektivin, Profilerin oder Hobbyschnüffler: Im Krimi-Podcast begeben
+                                        sich Ermittler im Kampf gegen das Verbrechen auf die Spurensuche.
+keywords: >
+                                        WDR 5, Sherlock Holmes, Detektivgeschichten,
+                                        Hörbuch
+
+categories:                             [ Audio ]
+tags:                                   [ Hörbuch, Sherlock Holmes ]
+
+image:
+  path:                                 //daserste.de/sammlung-image-140~_type-at_ratio-1x1_width-1280_06a204.jpg
+  width:                                1920
+  height:                               1200
+
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/audio/radioplay/auf_der_spur/
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+      opacity:                          .6
+      padding_top:                      550
+      slides:
+        - url:                          //daserste.de/sammlung-image-140~_type-at_ratio-1x1_width-1280_06a204.jpg
+          alt:                          Die ARD Ermittlerkrimis
+          badge:
+            type:                       unsplash
+            author:                     ARD
+            href:                       //ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432/
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:time-num--string:                      30+
+:time-de--string:                       Minuten
+:time-de--description:                  Audiozeit
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Mysteriöse Morde und kuriose Kriminalfälle im Fadenkreuz. Ob Kommissar-Genie,
+Privatdetektivin, Profilerin oder Hobbyschnüffler: Im Krimi-Podcast begeben
+sich Ermittler im Kampf gegen das Verbrechen auf die Spurensuche.
+
+[subs=attributes]
+++++
+<div class="video-title">
+  <i class="mdi mdi-gray mdi-clock-time-five-outline mdi-24px mr-2"></i>
+  {time-num--string} {time-de--string} {time-de--description}
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Detektive
+
+Es erscheinen jedoe Woche, jeweils am Diestag, neue Krininamfälle. Auf dieser
+Seite finden Sie die besten Detektive des Podcasts und ihre spannensten Fälle.
+Alle Episoden des Podcasts finden Sie unter
+link://ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432/[Die ARD Ermittlerkrimis, {browser-window--new}].
+
+Viel Spaß beim Zuhören.
+
+[role="mt-4"]
+=== Commissario Brunetti
+
+Commissario _Guido Brunetti_ ist die Hauptfigur in einer Reihe von Kriminal-
+Romanen der amerikanischen Autorin _Donna Leon_, die in Venedig spielen.
+In den Romanen ist Brunetti ein Kriminalkommissar bei der italienischen
+Staatspolizei, der in Venedig stationiert ist.
+
+Die Krimi-Reihe begann 1992 mit dem Roman *Venezianisches Finale*. Ein
+Dirigent wird in der Opernpause tot aufgefunden. In seiner Garderobe
+riecht es unverkennbar nach Bittermandel - Zyankali. Ein heikler Fall für
+Commissario Brunetti.
+
+[role="mt-4"]
+=== Guido Blankenhorn
+
+_Guido Blankenhorn_ ist eine fiktive Figur, ein ehemaliger Kriminalkommissar in
+Hamburg, der vorzeitig in Pension geschickt wurde, nachdem er *ressortfremd*
+das Vorgehen von Kollegen in einer linken Buchhandlung untersucht hatte.
+
+Er wurde in den 1970er Jahren von _Uwe Friesel_ für eine Reihe von Hörspielen
+des Norddeutscher Rundfunks geschaffen. Die Rolle des _Guido Blankenhorn_
+wird in den Hörspielen von dem Schauspieler _Rolf Becker_ gesprochen.
+
+Die Hörspiele erzählen von Blankenhorns inoffiziellen Ermittlungen in
+verschiedenen Kriminalfällen.
+
+
+[role="mt-5"]
+== Hörspiele
+
+In Playern finden Sie eine Auswahl der Folgen aus der Serie *Auf der Spur*.
+Alle Episoden der Serie finden Sie unter
+link://ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432/[Die ARD Ermittlerkrimis, {browser-window--new}].
+
+[role="mt-4 mb-4"]
+[NOTE]
+====
+Über die Bedienelemente des Players können einzelne Folgen ausgewählt werden.
+*Innerhalb* einer Folge kann sekundenweise vor- und zurückgesprungen werden,
+falls man einen bestimmten Abschnitt nocheinmal hören oder überspringen möchte.
+
+Aus Gründen des Urheberschutzes, werden alle Folgen direkt über das Angebot
+der _ARD Audiohek_ geladen. Daher ist eine Internetverbindung zum Hören des
+Podcasts *zwingend* erforderlich.
+====
+
+[role="mt-4"]
+=== Commissario Brunetti
+
+Finden Sie im Player vier spannenden Fälles des _Commissario Brunetti_
+von _Donna Leon_. Mit Michael König, Hille Darjes u.a.
+
+* Sprecherin:   Hannelore Hoger
+* Regie:        Hans Gerd Krogmann
+
+
+[role="mt-5 mb-5"]
+.Auf der Spur · Commissario Brunetti
+amplitude::auf_der_spur_commissario_brunetti_large[role="mb-8"]

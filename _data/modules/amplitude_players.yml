@@ -600,6 +600,37 @@ settings:
         audio_rating:                   false
 
     # --------------------------------------------------------------------------
+    # Auf der Spur, Commissario Brunetti, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               auf_der_spur_commissario_brunetti_large
+      type:                             large
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           auf_der_spur_commissario_brunetti
+        title:                          Auf der Spur
+        audio_info:                     true
+        audio_rating:                   false
+
+    # --------------------------------------------------------------------------
     # LARGE player, Smooth Jazz (Diana Krall)
     # --------------------------------------------------------------------------
     #
