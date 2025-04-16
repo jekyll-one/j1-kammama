@@ -628,7 +628,71 @@ settings:
         name:                           auf_der_spur_brunetti
         title:                          Auf der Spur
         audio_info:                     true
-        audio_rating:                   false
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
+    # Auf der Spur, Detektivinnen, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               auf_der_spur_detektivinnen_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           auf_der_spur_detektivinnen
+        title:                          Detektivinnen
+        audio_info:                     true
+        audio_rating:                   true
+
+
+    # --------------------------------------------------------------------------
+    # Auf der Spur, Detektive, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               auf_der_spur_detektive_large
+      type:                             large
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           auf_der_spur_detektive
+        title:                          Detektive
+        audio_info:                     true
+        audio_rating:                   true
 
     # --------------------------------------------------------------------------
     # LARGE player, Smooth Jazz (Diana Krall)

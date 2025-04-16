@@ -51,7 +51,7 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
-:time-num--string:                      30+
+:time-num--string:                      50+
 :time-de--string:                       Minuten
 :time-de--description:                  Audiozeit
 
@@ -80,28 +80,88 @@ sich Ermittler im Kampf gegen das Verbrechen auf die Spurensuche.
 
 // Include sub-documents (if any)
 // -----------------------------------------------------------------------------
-[role="mt-5"]
-== Detektive
+// See: https://www.ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432/
 
-Es erscheinen jedoe Woche, jeweils am Diestag, neue Krininamfälle. Auf dieser
-Seite finden Sie die besten Detektive des Podcasts und ihre spannensten Fälle.
-Alle Episoden des Podcasts finden Sie unter
+Seit Sommer 2023 erscheint jedoe Woche, jeweils am Diestag, ein neuer
+Krininamfall. Auf dieser Seite finden Sie eine Auswahl der Ermittler des
+Podcasts und ihrer Fälle. Alle Episoden des Podcasts finden Sie unter
 link://ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432/[Die ARD Ermittlerkrimis, {browser-window--new}].
 
 Viel Spaß beim Zuhören.
 
+
+[role="mt-5"]
+== Die Detektivinnen
+
+lorem:sentences[5]
+
+[role="mt-4"]
+=== Fariza Nasri
+
+Der Autor der Krimi-Reihe *Oberkommissarin Nasri und Ex-Mordermittler Franck*
+ist _Friedrich Ani_.
+
+Fariza Nasri ist eine Oberkommissarin, eine nüchterne und taffe Persönlichkeit
+die ihren Beruf ernst nimmt. In diesen Krimis ermittelt sie zusammen mit dem
+Ex-Mordermittler _Jakob Franck_.
+
+Die Fälle sind in einen düsteren und kleinbürgerlichen Milieu angesiedelt
+und behandeln Mordfälle in der Gegend von München. Die Hörspiele zeichnen
+sich durch sorgfältige Ermittlungsarbeit und überraschende Lösungen aus.
+Gelegentlich gibt es persönliche Kommentare von Nasri, die Einblicke in ihre
+Gedankenwelt geben.
+
+[role="mt-4"]
+=== Melitta Frankenberg
+
+Die Autorin der **Melitta und Stern**-Reihe ist _Katja Röder_.
+
+_Melitta Frankenberg_ hat das Asperger-Syndrom. Diese Besonderheit ist in ihren
+Ermittlungen sowohl ein Hindernis als auch eine Hilfe. Ihr Asperger ermöglicht
+ihr ein besonders schnelles und analytisches Denken, kann aber gleichzeitig
+Schwierigkeiten in der sozialen Kommunikation mit sich bringen.
+
+Die Krimis spielen im fränkischen Raum, insbesondere in und um Bamberg. Die
+Fälle drehen sich um regionale Besonderheiten und manchmal auch um die
+Vergangenheit der Region. Ihre Fälle ermittelt Melitta zusammen mit ihrem
+*kleinkriminellen* Freund _Anton Stern_.
+
+[role="mt-4"]
+[[bloemke-und-huppertz]]
+=== Helga Bloemke und Käthe Huppertz
+
+Helga Bloemke und Käthe Huppertz sind zwei Freundinnen, die auf humorvolle
+und oft unkonventionelle Weise Kriminalfälle lösen. Ihre Geschichten sind
+in einem rheinischen Milieu angesiedelt und zeichnen sich durch ihren
+charmanten und humorvollen Ton aus.
+
+Käthe Huppertz wird als die unternehmungslustigere und initiativere der
+beiden dargestellt, während Helga Bloemke eher die bedächtigere und manchmal
+etwas zögerliche Partnerin ist. Gemeinsam bilden sie jedoch ein unschlagbares
+Team.
+
+Die Hörspiele werden von den Autorinnen _Maria Franziska Schüller_ und
+_Cornelia Walter_ geschrieben und erfreuen sich großer Beliebtheit.
+
+
+[role="mt-5"]
+== Die Detektive
+
+[role="mt-4"]
+lorem:sentences[5]
+
 [role="mt-4"]
 === Commissario Brunetti
 
-Commissario _Guido Brunetti_ ist die Hauptfigur in einer Reihe von Kriminal-
+Commissario _Guido Brunetti_ ist die Hauptfigur in einer Reihe von Kriminal
 Romanen der amerikanischen Autorin _Donna Leon_, die in Venedig spielen.
 In den Romanen ist Brunetti ein Kriminalkommissar bei der italienischen
 Staatspolizei, der in Venedig stationiert ist.
 
-Die Krimi-Reihe begann 1992 mit dem Roman *Venezianisches Finale*. Ein
-Dirigent wird in der Opernpause tot aufgefunden. In seiner Garderobe
-riecht es unverkennbar nach Bittermandel - Zyankali. Ein heikler Fall für
-Commissario Brunetti.
+Die Krimi-Reihe begann im Jahr 1992 mit dem Roman *Venezianisches Finale*.
+Ein international bekannter Dirigent wird in der Opernpause tot aufgefunden.
+In seiner Garderobe riecht es unverkennbar nach Bittermandel - Zyankali.
+Die Ermittlungen werden zu einem heiklen Fall für Commissario Brunetti.
 
 [role="mt-4"]
 === Guido Blankenhorn
@@ -116,7 +176,7 @@ wird in den Hörspielen von dem Schauspieler _Rolf Becker_ gesprochen.
 
 
 [role="mt-5"]
-== Hörspiele
+== Die Hörspiele
 
 In Playern finden Sie eine Auswahl der Folgen aus der Serie *Auf der Spur*.
 Alle Episoden der Serie finden Sie unter
@@ -134,31 +194,44 @@ der _ARD Audiohek_ geladen. Daher ist eine Internetverbindung zum Hören des
 Podcasts *zwingend* erforderlich.
 ====
 
+
 [role="mt-4"]
-=== Commissario Brunetti
+=== Detektivinnen
+
+[role="mb-4"]
+lorem:sentences[5]
+
+[role="mb-5"]
+.Auf der Spur · Detektivinnen
+amplitude::auf_der_spur_detektivinnen_large[role="mb-5"]
+
+
+[role="mt-4"]
+=== Detektive
+
+[role="mb-4"]
+lorem:sentences[5]
+
+[role="mt-4"]
+==== Commissario Brunetti
 
 Finden Sie im Player vier spannenden Fälles des _Commissario Brunetti_
 von _Donna Leon_. Mit Michael König, Hille Darjes u.a.
 
+[role="mb-4"]
 * Sprecherin:   Hannelore Hoger
 * Regie:        Hans Gerd Krogmann
 
-
-[role="mt-5 mb-5"]
+[role="mb-5"]
 .Auf der Spur · Commissario Brunetti
 amplitude::auf_der_spur_brunetti_large[role="mb-5"]
 
-
 [role="mt-4"]
-=== Ex-Kommissar Blankenhorn
+==== Weitere Detektive
 
-Die Hörspiele erzählen von Blankenhorns inoffiziellen Ermittlungen in
-verschiedenen Kriminalfällen. Von Uwe Friesel, mit Andrea Dahmen, Klaus Höhne,
-Daniela Ziegler u.a.
+[role="mb-4"]
+lorem:sentences[5]
 
-* Guido Blankenhorn:  Rolf Becker
-* Regie:              Hans Rosenhauer
-
-[role="mt-5 mb-5"]
-.Auf der Spur · Ex-Kommissar Blankenhorn
-amplitude::auf_der_spur_blankenhorn_large[role="mb-5"]
+[role="mb-5"]
+.Auf der Spur · Detektive
+amplitude::auf_der_spur_detektive_large[role="mb-8"]
