@@ -348,7 +348,7 @@ settings:
           title:                        25E14 · Code Red
           rating:                       3
           audio:                        EARLYSTUDIOSGMBH2338128572.mp3
-          audio_info:                   https://podcasts.apple.com/de/podcast/code-red/id1741818812?i=1000701962252
+          audio_info:                   //podcasts.apple.com/de/podcast/code-red/id1741818812?i=1000701962252
           duration:                     "00:51:02"
 
         # title 15
@@ -358,8 +358,28 @@ settings:
           title:                        25E15 · Helikopter Hupen
           rating:                       4
           audio:                        EARLYSTUDIOSGMBH5196874671.mp3
-          audio_info:                   https://podcasts.apple.com/de/podcast/helikopter-hupen/id1741818812?i=1000702931307
+          audio_info:                   //podcasts.apple.com/de/podcast/helikopter-hupen/id1741818812?i=1000702931307
           duration:                     "00:54:06"
+
+        # title 16
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E16 · Lampe oder Schrank
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH7330399852.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/lampe-oder-schrank/id1741818812?i=1000703794230
+          duration:                     "01:00:23"
+
+        # title 17
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E17 · Du spieltest Cello
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH8794017696.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/du-spieltest-cello/id1741818812?i=1000704648409
+          duration:                     "00:54:45"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024
