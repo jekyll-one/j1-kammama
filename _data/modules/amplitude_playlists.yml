@@ -674,10 +674,10 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E19 · Zu früh gekommen
-          rating:                       1
+          rating:                       4
           audio:                        EARLYSTUDIOSGMBH4737863855.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/zu-fr%C3%BCh-gekommen/id1741818812?i=1000706727422
-          duration:                     "01:06:53"
+          duration:                     "01:03:10"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024
