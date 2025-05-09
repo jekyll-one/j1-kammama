@@ -1,0 +1,141 @@
+---
+title:                                  WDR 2 Comedy
+tagline:                                Kabarettisten im Westen
+
+date:                                   2025-04-25
+last_modified:                          2025-04-25
+
+description: >
+                                        WDR 2 Comedy ist die Plattform für die besten
+                                        Kabarettisten und Comedians aus dem Westen. Hier
+                                        hören Sie die besten Auftritte, die besten Sketche.
+keywords: >
+                                        Podcast, Comedy, WDR 2
+
+categories:                             [ Audio ]
+tags:                                   [ Podcast, WDR Comedy ]
+
+image:
+  path:                                 //api.ardmediathek.de/image-service/images/urn:ard:image:c002f9290783f54e?w=1920
+  width:                                1280
+  height:                               720
+
+tts:                                    true
+fab_menu_id:                            open_toc                                # default
+personalization:                        false
+comments:                               false
+
+regenerate:                             false
+permalink:                              /pages/public/audio/podcast/wdr2_comedy/
+
+resources:                              [ amplitudejs ]
+resource_options:
+  - attic:
+#     opacity:                          0.5
+      padding_top:                      550
+      slides:
+        - url:                          //api.ardmediathek.de/image-service/images/urn:ard:image:c002f9290783f54e?w=1920
+          alt:                          //ardaudiothek.de/sendung/wdr-2-comedy/36244858/
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+WDR 2 Comedy ist die Plattform für die besten Kabarettisten und Comedians
+aus dem Westen. Hier hören Sie die besten Auftritte, die besten Sketche.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  1+ Minuten Audiozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+
+// [role="mt-5"]
+// == Über den Podcast
+
+// Während  Ralf Schmitz im Studio ungeduldig wartet, läuft draußen ein Mitglied
+// seines Teams durch die Straßen der Kölner Innenstadt. Immer auf der Suche nach
+// zufälligen Passantinnen und Passanten, die spontan bereit sind alles stehen
+// und liegen zu lassen um mit Ralf für eine Stunde zu quatschen.
+
+// [role="mt-4 mb-4"]
+// [NOTE]
+// ====
+// Aus Gründen des *Urheberschutzes*, lädt der Audio Player alle Folgen über
+// das Angebot der https://earlystudios.com/[Early Studios, {browser-window--new}],
+// die den Podcast produziert. Daher ist eine Internetverbindung zum Hören
+// *zwingend* erforderlich.
+
+// Es erscheint jeweils an *Donnerstagen* in *jeder Woche* eine neue Folge.
+// ====
+
+// [role="mt-5"]
+// == Über Jünter
+
+// Ralf Schmitz ist ein vielseitiger deutscher Unterhaltungskünstler. Viele
+// Menschen in Deutschland werden ihn kennen, aber nicht unbedingt alle.
+// Das wäre aber schade, da er durch viele Talente überzeuen kann. Seine
+// Schlagfertigkeit, das improvisatorische Können und seine energiegeladenen
+// Auftritte machen ihn einzigartig.
+
+
+[role="mt-5"]
+== WDR 2 Comedy
+
+lorem:sentences[5]
+
+[role="mt-4"]
+[[juenter_erklaert]]
+=== Jünter erklärt
+
+In der Schule lernt man für's Leben. Das ist wohl so. Leider nur nicht alles.
+Es fehlt häufig das Praktische. Oder Aktuelles. Und: Oder, oder.
+
+Bei den Praktischen, den Aktuellen wie den Oder-Oder Themen des Lebens, die
+durchaus kompliziert sein können, springt _Uli Winters_, alias *Jünter*, ein.
+Er erklärt die eher schwierigen Dinge des Lebens.
+
+[role="mb-4"]
+Wenn Jünter sie erklärt bleiben sie kompliziert, aber erträglich.
+Weil lustig; und das in einer Minute.
+
+.Jünter erklärt · Uli Winters
+amplitude::wdr2_comedy_juenter_erklaert_large[role="mb-5"]
+
+
+[role="mt-4"]
+=== History Hautnah
+
+Die Geschichte der Menscheit ist lang. Bei genauer Betrachtung wird sie immer
+länger. Vieles wurde erforscht, vieles vergessen. Daher die Frage: Wie war es
+wirlich? Dabei kann _Friedemann Weise_ helfen.
+
+[role="mb-4"]
+Er ist Historiker auf besondere Weise. Er hat sich auf die Geschichten hinter
+der Historie spezialisiert. Und erzählt sie uns. Das macht Spaß.
+
+.History Hautnah · Friedemann Weise
+amplitude::wdr2_comedy_history_hautnah_large[role="mb-5"]
+

@@ -114,6 +114,9 @@
         - title:                        Stundenhotel
           href:                         /pages/public/audio/podcast/stundenhotel/
           icon:                         ear-hearing
+        - title:                        WDR 2 Comedy 
+          href:                         /pages/public/audio/podcast/wdr2_comedy/
+          icon:                         ear-hearing
 
     # --------------------------------------------------------------------------
     # Dokus & Reportagen

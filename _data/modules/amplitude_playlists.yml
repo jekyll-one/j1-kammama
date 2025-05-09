@@ -187,6 +187,284 @@ settings:
           #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
           duration:                     "32:10"
 
+
+    # --------------------------------------------------------------------------
+    # WDR 2 Comedy, Jünter erklärt (Uli Winters)
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             wdr2_comedy_juenter_erklaert
+      title:                            WDR 2 Comedy
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_wdr2_comedy_juenter_erklaert
+        name:                           Uli Winters
+        artist:                         Jünter erklärt
+        start:                          "00:03"
+        audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
+        audio_info:                     //ardaudiothek.de/sendung/wdr-2-comedy/36244858/
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:4c3f21c395d8836c?w=1000
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Eierfärben
+          audio:                        327/3276896/3276896_61851651.mp3
+          rating:                       3
+          duration:                     "00:55"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        ETA
+          audio:                        327/3276904/3276904_61851828.mp3
+          rating:                       3
+          duration:                     "00:55"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Führerscheinprüfungsfragen
+          audio:                        327/3275165/3275165_61802710.mp3
+          rating:                       3
+          duration:                     "01:01"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Windows 10
+          audio:                        325/3253941/3253941_61248821.mp3
+          rating:                       3
+          duration:                     "00:51"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Bitcoin
+          audio:                        324/3244202/3244202_60994128.mp3
+          rating:                       3
+          duration:                     "00:54"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Streupflicht
+          audio:                        323/3237382/3237382_60805477.mp3
+          rating:                       3
+          duration:                     "00:50"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Sauna
+          audio:                        323/3233816/3233816_60716090.mp3
+          rating:                       3
+          duration:                     "00:45"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Umtausch
+          audio:                        322/3224829/3224829_60444878.mp3
+          rating:                       3
+          duration:                     "00:40"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Paketzustellung
+          audio:                        322/3224769/3224769_60443521.mp3
+          rating:                       3
+          duration:                     "00:58"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Die FIFA
+          audio:                        322/3221740/3221740_60360972.mp3
+          rating:                       3
+          duration:                     "00:47"
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        DAX-Rekord
+          audio:                        321/3218633/3218633_60270744.mp3
+          rating:                       3
+          duration:                     "00:49"
+
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Kopfläuse
+          audio:                        321/3214853/3214853_60158180.mp3
+          rating:                       3
+          duration:                     "00:47"
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        Wärmedämmung
+          audio:                        321/3211385/3211385_60062225.mp3
+          rating:                       3
+          duration:                     "00:43"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_juenter_erklaert
+          title:                        KFZ-Versicherungswechsel
+          audio:                        320/3207837/3207837_59958738.mp3
+          rating:                       3
+          duration:                     "00:45"
+
+   # --------------------------------------------------------------------------
+    # WDR 2 Comedy, History Hautnah (Friedemann Weise)
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             wdr2_comedy_history_hautnah
+      title:                            WDR 2 Comedy
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_wdr2_comedy_history_hautnah
+        name:                           History Hautnah
+        artist:                         Friedemann Weise
+        start:                          "00:03"
+        audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
+        audio_info:                     //ardaudiothek.de/sendung/wdr-2-comedy/36244858/
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:c50f2f3541b43b75?w=1000
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Das Buch wird erfunden
+          audio:                        327/3271712/3271712_61708624.mp3
+          rating:                       3
+          duration:                     "01:49"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Staatsschulden
+          audio:                        326/3267517/3267517_61604308.mp3
+          rating:                       3
+          duration:                     "02:00"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Waffenruhe
+          audio:                        326/3264275/3264275_61515467.mp3
+          rating:                       3
+          duration:                     "01:40"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Fastenzeit
+          audio:                        326/3261421/3261421_61437568.mp3
+          rating:                       3
+          duration:                     "01:45"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Karnevalszug
+          audio:                        325/3258189/3258189_61354305.mp3
+          rating:                       3
+          duration:                     "01:26"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Die Erfindung der Wahl
+          audio:                        325/3251186/3251186_61174547.mp3
+          rating:                       3
+          duration:                     "01:49"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Erfindung der Wahlplakate
+          audio:                        324/3243173/3243173_60966966.mp3
+          rating:                       3
+          duration:                     "01:58"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Der erste Wahlomat
+          audio:                        325/3254590/3254590_61262912.mp3
+          rating:                       3
+          duration:                     "01:36"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Anfänge der Migration
+          audio:                        324/3247688/3247688_61085468.mp3
+          rating:                       3
+          duration:                     "01:18"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Schattenflotte
+          audio:                        323/3237026/3237026_60799777.mp3
+          rating:                       2
+          duration:                     "01:31"
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_wdr2_comedy_history_hautnah
+          title:                        Fitnessstudio
+          audio:                        323/3233703/3233703_60713186.mp3
+          rating:                       3
+          duration:                     "01:55"
+
     # --------------------------------------------------------------------------
     # Spontanorama 2025
     # --------------------------------------------------------------------------
@@ -380,6 +658,26 @@ settings:
           audio:                        EARLYSTUDIOSGMBH8794017696.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/du-spieltest-cello/id1741818812?i=1000704648409
           duration:                     "00:54:45"
+
+        # title 18
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E18 · Spongebob Mexicana
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH7803500090.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/spongebob-mexicana/id1741818812?i=1000705611016
+          duration:                     "01:06:53"
+
+        # title 19
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E19 · Zu früh gekommen
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH4737863855.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/zu-fr%C3%BCh-gekommen/id1741818812?i=1000706727422
+          duration:                     "01:06:53"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024

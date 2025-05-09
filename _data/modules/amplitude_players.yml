@@ -30,6 +30,73 @@ settings:
   players:
 
     # --------------------------------------------------------------------------
+    # WDR 2 Comedy, Jünter erklärt LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               wdr2_comedy_juenter_erklaert_large
+      type:                             large
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           wdr2_comedy_juenter_erklaert
+        title:                          Jünter erklärt
+        audio_info:                     true
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
+    # WDR 2 Comedy, History Hautnah (Friedemann Weise) LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               wdr2_comedy_history_hautnah_large
+      type:                             large
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   46
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           wdr2_comedy_history_hautnah
+        title:                          History Hautnah
+        audio_info:                     true
+        audio_rating:                   true
+
+
+    # --------------------------------------------------------------------------
     # Spontanorama 2025, LARGE player
     # --------------------------------------------------------------------------
     #
