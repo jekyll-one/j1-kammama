@@ -679,6 +679,17 @@ settings:
           audio_info:                   //podcasts.apple.com/de/podcast/zu-fr%C3%BCh-gekommen/id1741818812?i=1000706727422
           duration:                     "01:03:10"
 
+        # title 20
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E20 · Weil Punkt!
+          rating:                       1
+          audio:                        EARLYSTUDIOSGMBH1308588369.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/weil-punkt/id1741818812?i=1000708514242
+          duration:                     "00:48:46"
+
+
     # --------------------------------------------------------------------------
     # Spontanorama 2024
     # --------------------------------------------------------------------------
