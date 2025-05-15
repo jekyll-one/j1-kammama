@@ -124,7 +124,7 @@ ihren Hund _Rhythm_.
 Das ist Hunde-Training auf höchstem Niveau.
 
 .Roni Sagi & Rhythm · AGT 2024 
-youtube::1J2qz6B-PFY[poster="//img.youtube.com/vi/1J2qz6B-PFY/maxresdefault.jpg" role="mt-4 mb-5"]
+youtube::1J2qz6B-PFY[poster="//img.youtube.com/vi/1J2qz6B-PFY/maxresdefault.jpg" role="mb-5"]
 
 
 Sky Elements nutzt den Nachthimmel als Leinwand, auf der alles möglich ist.
@@ -135,7 +135,7 @@ Das ist sind Emotionen am Nachhimmel, die man auch als Nicht-Amerikaner
 verstehen kann.
 
 .Sky Elements · AGT 2024 
-youtube::cN8IrZUhPtc[poster="//img.youtube.com/vi/cN8IrZUhPtc/maxresdefault.jpg" role="mt-4 mb-5"]
+youtube::cN8IrZUhPtc[poster="//img.youtube.com/vi/cN8IrZUhPtc/maxresdefault.jpg" role="mb-5"]
 
 [role="mt-4"]
 === AGT Compilations 
@@ -148,7 +148,7 @@ Ein schöne Zusammenfassung von bewegenden Momenten von damals und den
 Auftritten von heute zeigt das folge Video
 
 .When AGT Contestants COME BACK Years Later
-youtube::uK9OW1kVMs8[poster="//img.youtube.com/vi/uK9OW1kVMs8/maxresdefault.jpg" role="mt-4 mb-5"]
+youtube::uK9OW1kVMs8[poster="//img.youtube.com/vi/uK9OW1kVMs8/maxresdefault.jpg" role="mb-5"]
 
 
 [role="mt-5"]
@@ -168,18 +168,18 @@ Tanzperformance, vor der Jury und dem Publikum auf.
 lorem:sentences[5]
 
 .Sydnie Christmas · BGT 2024
-youtube::qqb6pPYQm1Y[poster="//img.youtube.com/vi/qqb6pPYQm1Y/maxresdefault.jpg" role="mt-4 mb-5"]
+youtube::qqb6pPYQm1Y[poster="//img.youtube.com/vi/qqb6pPYQm1Y/maxresdefault.jpg" role="mb-5"]
 
 
 [role="mt-5"]
-=== Afrika rockts BGT
+=== Afrika rocks BGT
 
 Keine Pop-Diva ist sicher, wenn die 11-jährige _Asanda Jezile_ ihren Song
 covert. Erleben Sie die sensationellsten Momente der jungen und talentierten
 Sängerin. Mit weltbekannten Hits von *Rihanna* und *Byonce*.
 
 .Asanda Jezile · BGT 2013
-youtube::IT2U0PM9mYk[poster="//img.youtube.com/vi/IT2U0PM9mYk/maxresdefault.jpg" role="mt-4 mb-5"]
+youtube::IT2U0PM9mYk[poster="//img.youtube.com/vi/IT2U0PM9mYk/maxresdefault.jpg" role="mb-5"]
 
 Afrikanische Kinder sind zum Tanzen geboren und haben ein ganz natürliches
 Verständnis für Rhythmus. Die *Ghetto Kids* aus *Uganda* erfüllen den Raum
@@ -187,14 +187,30 @@ mit Freude und Positivität. Alle um sie herum verspürten eine gute Stimmung,
 wenn sie die Bühne betreten.
 
 .Ghetto Kids · BGT 2023
-youtube::x7DTDjAjwBs[poster="//img.youtube.com/vi/x7DTDjAjwBs/maxresdefault.jpg" role="mt-4 mb-5"]
+youtube::x7DTDjAjwBs[poster="//img.youtube.com/vi/x7DTDjAjwBs/maxresdefault.jpg" role="mb-5"]
 
 
 [role="mt-4"]
 [[bgt-compilations]]
-=== Compilations 
+=== AGT Compilations
+
+Erleben Sie die beeindruckendsten Gesangstalente von Britain's Got Talent
+aus dem Jahr 2025. Diese Zusammenstellung präsentiert die herausragenden
+Sängerinnen und Sänger, die Publikum und Jury bei den Auditions und im
+Halbfinale begeistert haben.
+
+Von kraftvollen Balladen bis hin zu einzigartigen Auftritten. Diese Acts
+schaffen die Bühne für eine unvergessliche Staffel.
+
+.Best Singers From Britain's Got Talent 2025
+youtube::RgBZAtILpHA[poster="//img.youtube.com/vi/RgBZAtILpHA/maxresdefault.jpg" role="mb-5"]
 
 lorem:sentences[5]
 
-.Gifted Kids · Compilation
-youtube::npe6S1tBrYs[poster="//img.youtube.com/vi/npe6S1tBrYs/maxresdefault.jpg" role="mt-4 mb-8"]
+.Gifted Kids · Top 5 Most Talented Kids on BGT
+youtube::npe6S1tBrYs[poster="//img.youtube.com/vi/npe6S1tBrYs/maxresdefault.jpg" role="mb-5"]
+
+lorem:sentences[5]
+
+.Gifted Kids · Best Young Guitarists EVER on Got Talent
+youtube::19Lth1Gb3DQ[poster="//img.youtube.com/vi/19Lth1Gb3DQ/maxresdefault.jpg" role="mb-8"]
