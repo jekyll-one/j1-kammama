@@ -1136,10 +1136,10 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
-          title:                        23E01 · Mach's mir von hinten – Jahresrückblick 2022
+          title:                        23E01 · Mach's mir von hinten - Jahresrückblick 2022
           audio:                        clips/114/114755/114755_00466976_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2022/bremen-zwei/12202975/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=448&ch=29c7745bfd759a36 # /assets/audio/cover/stundenhotel/2023/S23E14.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=1000
           duration:                     "02:03:29"
 
         # title 02
@@ -1149,7 +1149,7 @@ settings:
           title:                        23E02 · Die Birne voll Rosinen und der Zukunft zugewandt (1)
           audio:                        clips/116/116162/116162_00471541_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt/bremen-zwei/12307751/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E01.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:916bafda695cab82?w=1000
           duration:                     "01:00:49"
 
         # title 03
@@ -1159,7 +1159,7 @@ settings:
           title:                        23E03 · Die Birne voll Rosinen und der Zukunft zugewandt (2)
           audio:                        clips/117/117443/117443_00475872_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt-2/bremen-zwei/12399667/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E02.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:916bafda695cab82?w=1000
           duration:                     "00:59:20"
 
         # title 04
@@ -1169,7 +1169,7 @@ settings:
           title:                        23E04 · Von Warzen und Schrunden
           audio:                        clips/117/117764/117764_00477008_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/von-warzen-und-schrunden/bremen-zwei/12419749/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E03.jpg
+          cover_image:                  https://api.ardmediathek.de/image-service/images/urn:ard:image:2601217cc38c05c4?w=1000
           duration:                     "01:12:54"
 
         # title 05
@@ -1179,7 +1179,7 @@ settings:
           title:                        23E05 · Hattu Zeit, muttu hören
           audio:                        clips/119/119038/119038_00481314_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/hattu-zeit-muttu-hoeren/bremen-zwei/12536191/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E04.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d2a197634c775d9b?w=1000
           duration:                     "01:11:23"
 
         # title 06
@@ -1189,7 +1189,7 @@ settings:
           title:                        23E06 · Come in and find out
           audio:                        clips/120/120012/120012_00484559_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/come-in-and-find-out/bremen-zwei/12599305/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E05.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a3fa5764c91f9176?w=1000
           duration:                     "01:17:56"
           
         # title 07
@@ -1199,7 +1199,7 @@ settings:
           title:                        23E07 · Ohne Wenn und Aberglaube
           audio:                        clips/121/121408/121408_00489119_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ohne-wenn-und-aberglaube/bremen-zwei/12683395/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E06.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:22c3d20a891c244b?w=1000
           duration:                     "01:22:19"          
 
         # title 08
@@ -1209,7 +1209,7 @@ settings:
           title:                        23E08 · Seniorenresidenz Moderfrieden
           audio:                        clips/122/122340/122340_00492249_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/seniorenresidenz-moderfrieden/bremen-zwei/94497682/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E07.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:69660a7d8428683e?w=1000
           duration:                     "01:03:33"
 
         # title 09
@@ -1219,7 +1219,7 @@ settings:
           title:                        23E09 · Müll oder Zecken
           audio:                        clips/123/123213/123213_00495261_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/muell-oder-zecken/bremen-zwei/94562434/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E09.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d5cfd67e1f3e3892?w=1000
           duration:                     "01:10:23"
 
         # title 10
@@ -1229,7 +1229,7 @@ settings:
           title:                        23E10 · Unbedingt abwehrbereit
           audio:                        clips/124/124619/124619_00499941_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/unbedingt-abwehrbereit/bremen-zwei/94650438/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E09.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:010f647c082f6e3d?w=1000
           duration:                     "01:09:10"
 
         # title 11
@@ -1239,7 +1239,7 @@ settings:
           title:                        23E11 · Ich mach's mir selbst
           audio:                        clips/126/126163/126163_00505084_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ich-mach-s-mir-selbst/bremen-zwei/94752454/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E10.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:47f735942782319a?w=1000
           duration:                     "01:12:03"
 
         # title 12
@@ -1249,7 +1249,7 @@ settings:
           title:                        23E12 · Na dann, gute Nacht
           audio:                        clips/127/127066/127066_00508013_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/na-dann-gute-nacht/bremen-zwei/94814450/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E11.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:bc022b9d1462279e?w=1000
           duration:                     "01:19:32"
 
         # title 13
@@ -1259,7 +1259,7 @@ settings:
           title:                        23E13 · Feste feiern, locker bleiben
           audio:                        clips/128/128185/128185_00511714_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/feste-feiern-locker-bleiben/bremen-zwei/12835417/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E12.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:06c05b7f556a0f79?w=1000
           duration:                     "01:16:35"
 
         # title 14
@@ -1269,7 +1269,7 @@ settings:
           title:                        23E14 · Schön eng ist weit genug
           audio:                        clips/130/130416/130416_00519141_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/schoen-eng-ist-weit-genug/bremen-zwei/12968235/
-          cover_image:                  /assets/audio/cover/stundenhotel/2023/S23E13.jpg
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a70fd7e40634139b?w=1000
           duration:                     "01:19:43"
 
     # --------------------------------------------------------------------------
@@ -1304,7 +1304,7 @@ settings:
           rating:                       3
           audio:                        clips/131/131039/131039_00521211_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-2023-der-erste-teil-des-jahresrueckblicks/bremen-zwei/13010263/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:9440866db9bf917a
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:9440866db9bf917a?w=1000
           duration:                     "01:08:42"
 
         # title 01
@@ -1315,7 +1315,7 @@ settings:
           rating:                       3
           audio:                        clips/131/131040/131040_00521213_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-nochmal-von-hinten-2023-der-zweite-teil-des-jahresrueckblicks/bremen-zwei/13010265/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d1814928d0c82bc5
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d1814928d0c82bc5?w=1000
           duration:                     "01:06:53"
 
         # title 02
@@ -1326,7 +1326,7 @@ settings:
           rating:                       3
           audio:                        clips/132/132443/132443_00525982_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/nach-uns-die-zukunft/bremen-zwei/13092223/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a2f75f5e526173ea
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a2f75f5e526173ea?w=1000
           duration:                     "01:11:29"
 
         # title 03
@@ -1337,7 +1337,7 @@ settings:
           rating:                       3
           audio:                        clips/134/134023/134023_00531244_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/futur-ii/bremen-zwei/13175287/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2649a284f37d9078
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2649a284f37d9078?w=1000
           duration:                     "01:30:38"
 
         # title 04
@@ -1348,7 +1348,7 @@ settings:
           rating:                       3
           audio:                        clips/135/135820/135820_00537057_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/manni-manni/bremen-zwei/13268195/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:ae1dceb8fab008ae
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:ae1dceb8fab008ae?w=1000
           duration:                     "01:19:00"
 
         # title 05
@@ -1359,7 +1359,7 @@ settings:
           rating:                       3
           audio:                        clips/136/136986/136986_00540859_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/brotlose-kunstfehler/bremen-zwei/13363073/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:b63d3c7a18fd0ea5
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:b63d3c7a18fd0ea5?w=1000
           duration:                     "01:08:44"
 
         # title 06
@@ -1370,7 +1370,7 @@ settings:
           rating:                       3
           audio:                        clips/137/137316/137316_00541891_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-1/bremen-zwei/13383931/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:e36e87b4e9c8503f
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:e36e87b4e9c8503f?w=1000
           duration:                     "01:02:02"
 
         # title 07
@@ -1381,7 +1381,7 @@ settings:
           rating:                       3
           audio:                        clips/137/137320/137320_00541902_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-im-mai-teil-2/bremen-zwei/13383983/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:58fb5de87d85f832
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:58fb5de87d85f832?w=1000
           duration:                     "01:08:45"
 
         # title 08
@@ -1392,7 +1392,7 @@ settings:
           rating:                       3
           audio:                        clips/139/139563/139563_00549321_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/luxus-thema-verfehlt/bremen-zwei/13521805/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:010b2ee0c2c9d515
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:010b2ee0c2c9d515?w=1000
           duration:                     "01:13:28"
 
         # title 09
@@ -1403,7 +1403,7 @@ settings:
           rating:                       3
           audio:                        clips/140/140518/140518_00552636_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/nackedei-auf-bremen-zwei/bremen-zwei/13587949/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d96ff4a907c9310d
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d96ff4a907c9310d?w=1000
           duration:                     "01:08:33"
 
         # title 10
@@ -1414,7 +1414,7 @@ settings:
           rating:                       3
           audio:                        clips/141/141943/141943_00557359_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/go-west-und-der-rest/bremen-zwei/13668961/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:193e866537477b2f
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:193e866537477b2f?w=1000
           duration:                     "01:16:13"
 
         # title 11
@@ -1425,7 +1425,7 @@ settings:
           rating:                       3
           audio:                        clips/142/142840/142840_00560298_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ey-lieb-sein-du-vollpfosten/bremen-zwei/13723419/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:e4dd4fc128fa744a
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:e4dd4fc128fa744a?w=1000
           duration:                     "01:13:06"
 
         # title 12
@@ -1436,7 +1436,7 @@ settings:
           rating:                       3
           audio:                        clips/144/144622/144622_00566238_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/maustot-im-angebot/bremen-zwei/13832097/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2b5ce8fe527aa0f6
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2b5ce8fe527aa0f6?w=1000
           duration:                     "01:14:58"
 
     # --------------------------------------------------------------------------
@@ -1471,7 +1471,7 @@ settings:
           rating:                       3
           audio:                        clips/146/146840/146840_00573649_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2024/bremen-zwei/13997181/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:0449d5bae5aed7d0
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:0449d5bae5aed7d0?w=1000
           duration:                     "02:02:48"
 
         # title 02
@@ -1482,7 +1482,7 @@ settings:
           rating:                       3
           audio:                        clips/148/148251/148251_00578272_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-vorne-2025/bremen-zwei/14099723/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:bc022b9d1462279e
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:bc022b9d1462279e?w=1000
           duration:                     "02:16:28"
 
         # title 03
@@ -1493,7 +1493,7 @@ settings:
           rating:                       3
           audio:                        clips/150/150102/150102_00584370_audio_stereo.mp3
           audio_info:                   //audiothek.de/episode/wischmeyers-stundenhotel/aschermittwoch-deutschland-hat-fertig/bremen-zwei/14242941/
-          cover_image:                  https://api.ardmediathek.de/image-service/images/urn:ard:image:2566e3e3f489c3ee
+          cover_image:                  https://api.ardmediathek.de/image-service/images/urn:ard:image:2566e3e3f489c3ee?w=1000
           duration:                     "01:03:06"
 
         # title 04
@@ -1504,8 +1504,19 @@ settings:
           rating:                       1
           audio:                        clips/151/151349/151349_00588461_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/amerika-hat-uns-nicht-mehr-lieb/bremen-zwei/14366159/
-          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:8ed3893a97da9b18
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:8ed3893a97da9b18?w=1000
           duration:                     "01:05:20"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_stundenhotel_2025
+          title:                        25E05 · Is wirklich Schluss?
+          rating:                       1
+          audio:                        clips/152/152008/152008_00590658_audio_stereo.mp3
+          audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/is-wirklich-schluss/bremen-zwei/14431621/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:fc07f1839049be54?w=1000
+          duration:                     "01:20:28"
 
     # --------------------------------------------------------------------------
     #  Mimi Rutherfurt, Maritim Verlag
