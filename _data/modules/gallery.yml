@@ -5,7 +5,7 @@
 # Product/Info:
 # https://jekyll.one
 #
-# Copyright (C) 2023, 2024 Juergen Adams
+# Copyright (C) 2023-2025 Juergen Adams
 #
 # J1 Template is licensed under the MIT License.
 # See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
@@ -23,6 +23,11 @@ description:
 # User configuration settings
 #
 settings:
+
+  # ----------------------------------------------------------------------------
+  # GENERAL options
+  # ----------------------------------------------------------------------------
+  #
   enabled:                              true
 
   # ----------------------------------------------------------------------------
@@ -31,20 +36,18 @@ settings:
   galleries:
 
     # ==========================================================================
-    # VIDEO Galleries
+    # Image Galleries
     # ==========================================================================
-    # See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
-    # --------------------------------------------------------------------------
 
-    # The Piano (YouTube)
+    # --------------------------------------------------------------------------
+    # Old Times
     #
     - gallery:
       enabled:                          true
 
-      id:                               the_piano_leibzig
-      type:                             video
-      video:                            youtube
-      image_base_path:                  //img.youtube.com/vi
+      id:                               jg_old_times
+      type:                             image
+      image_base_path:                  /assets/image/module/gallery/old_time/image/grand_pa
 
       # ------------------------------------------------------------------------
       # Justified Gallery settings
@@ -55,7 +58,75 @@ settings:
         gutters:                        3
 
       # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
+      # Lightbox settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg                                      # lb | lg
+
+      lightGallery:
+        plugins:                        lgFullscreen, lgRotate, lgThumbnail
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+
+      # ------------------------------------------------------------------------
+      # Images
+      #
+      images:
+
+        - image:                        # image
+          file:                         image-1.jpg
+          caption_text:                 GrandPa &middot; 80th Birthday
+          description: >
+                                        <h5>GrandPa</h5>
+                                        <h6>80th Birthday</h6>
+
+        - image:                        # image
+          file:                         image-2.jpg
+          caption_text:                 GrandPa &middot; 80th Birthday
+          description: >
+                                        <h5>GrandPa</h5>
+                                        <h6>80th Birthday</h6>
+
+        - image:                        # image
+          file:                         image-3.jpg
+          caption_text:                 GrandPa &middot; Annual journey
+          description: >
+                                        <h5>GrandPa</h5>
+                                        <h6>Annual journey</h6>
+
+        - image:                        # image
+          file:                         image-4.jpg
+          caption_text:                 GrandPa &middot; Annual journey
+          description: >
+                                        <h5>GrandPa</h5>
+                                        <h6>Annual journey</h6>
+
+    # --------------------------------------------------------------------------
+    # Gallery Mega Cities
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               jg_mega_cities
+      type:                             image
+      image_base_path:                  /assets/image/module/swiper/simple/mega_city/image
+
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      150
+        gutters:                        1
+
+      # ------------------------------------------------------------------------
+      # Lightbox settings
       # ------------------------------------------------------------------------
       #
       lightbox:
@@ -63,26 +134,16 @@ settings:
         type:                           lg
 
       lightGallery:
-        plugins:                        lgThumbnail, lgVideo
+        plugins:                        lgFullscreen, lgRotate, lgThumbnail
 
         options:
           licenseKey:                   0000-0000-000-0000
           download:                     false
-
           alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]
-          autoplay:                     1
-          mute:                         0
+          addClass:                     lg-uno-thumbnails                         # customized thumbnails
+          appendThumbnailsTo:           .lg-outer                                 # required for customized thumbnails
+          animateThumb:                 false                                     # required for customized thumbnails
+          allowMediaOverlap:            true                                      # required for customized thumbnails
 
       # ------------------------------------------------------------------------
       # CSS filter options
@@ -90,63 +151,115 @@ settings:
       filters:
         enabled:                        false
         grayscale:                      0
-        contrast:                       1
-        brightness:                     1
+        contrast:                       0.8
+        brightness:                     0.4
 
       # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
+      # Images
       #
-      videos:
+      images:
 
-        # video 1
-        - video:
-          enabled:                      true
-
-          name:                         S01Levin
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=GOixlmYCg4k
-          poster_image:                 GOixlmYCg4k/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01 · Levin
+        - image:                        # image 1
+          file:                         banter-snaps_b.jpg
+          caption_text:                 Japan &middot; City of Osaka
           description: >
-                                        <h5>S01 · Levin - Kiss the Rain</h5>
-                                        <!-- h6>
-                                          Levin hat "Kiss the Rain" wunderschön und mit
-                                          viel Gefühl gespielt. Jeder Ton berührt die Seele.
-                                        </h6 -->
+                                        <h5>Japan</h5>
+                                        <h6>City of Osaka</h6>
 
-        # video 2
-        - video:
-          enabled:                      true
-
-          name:                         S01Luca
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=Gu0HtPId7NU
-          poster_image:                 Gu0HtPId7NU/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01 · Luca
+        - image:                        # image 2
+          file:                         denys-nevozhai-1_b.jpg
+          caption_text:                 China &middot; Man posing at the rooftop of Jin Mao Tower Shanghai
           description: >
-                                        <h5>S01 · Luca - Wird schon</h5>
-                                        <!-- h6>
-                                          Toller Song. Und das Klavier war wie selbstverständlich
-                                          dabei.
-                                        </ -->
+                                        <h5>China</h5>
+                                        <h6>Man posing at the rooftop of Jin Mao Tower Shanghai</h6>
+
+        - image:                        # image 3
+          file:                         gints-gailis_b.jpg
+          caption_text:                 Indonesia &middot; Shangri-La Hotel Jakarta
+          description: >
+                                        <h5>Indonesia</h5>
+                                        <h6>Shangri-La Hotel Jakarta</h6>
+
+        - image:                        # image 4
+          file:                         steven-diaz_b.jpg
+          caption_text:                 Indonesia &middot; Shangri-La Hotel Jakarta
+          description: >
+                                        <h5>Japan</h5>
+                                        <h6>Tokyo seen from World Trade Center Observation Deck</h6>
+
+        - image:                        # image 5
+          file:                         denys-nevozhai-2_b.jpg
+          caption_text:                 China &middot; Young couple over Shenzhen
+          description: >
+                                        <h5>China</h5>
+                                        <h6>Young couple over Shenzhen</h6>
+
+        - image:                        # image 6
+          file:                         johan-mouchet_b.jpg
+          caption_text:                 Australia &middot; The Queen Bee at the Eureka Tower of Melbourne
+          description: >
+                                        <h5>Australia</h5>
+                                        <h6>The Queen Bee at the Eureka Tower of Melbourne</h6>
+
+        - image:                        # image 7
+          file:                         thomas-tucker_b.jpg
+          caption_text:                 Taiwan &middot; Sunset over City of Taipei
+          description: >
+                                        <h5>Taiwan</h5>
+                                        <h6>Sunset over City of Taipei</h6>
+
+        - image:                        # image 8
+          file:                         emmad-mazhari_b.jpg
+          caption_text:                 United States &middot; City of Chicago
+          description: >
+                                        <h5>United States</h5>
+                                        <h6>City of Chicago</h6>
+
+        - image:                        # image 9
+          file:                         federico-rizzarelli_b.jpg
+          caption_text:                 China &middot; City of Shanghai
+          description: >
+                                        <h5>China</h5>
+                                        <h6>City of Shanghai</h6>
+
+        - image:                        # image 10
+          file:                         andreas-brucker_b.jpg
+          caption_text:                 Thailand &middot; City of Bangkok
+          description: >
+                                        <h5>Thailand</h5>
+                                        <h6>City of Bangkok</h6>
+
+        - image:                        # image 11
+          file:                         luca-bravo_b.jpg
+          caption_text:                 Taiwan &middot; Sunset over City of Taipei
+          description: >
+                                        <h5>Taiwan</h5>
+                                        <h6>Sunset over City of Taipei</h6>
+
+        - image:                        # image 12
+          file:                         ethan-brooke_b.jpg
+          caption_text:                 South Korea &middot; Lotte World Tower Seoul
+          description: >
+                                        <h5>South Korea</h5>
+                                        <h6>Lotte World Tower Seoul</h6>
+
+
+    # ==========================================================================
+    # Video Galleries
+    # ==========================================================================
 
     # --------------------------------------------------------------------------
-    # TinyDesk Concerts, Pop (YouTube)
+    # HTML5 VIDEO
     #
     - gallery:
       enabled:                          true
 
-      id:                               tiny_desk_concerts_pop
+      id:                               jg_video_html5
       type:                             video
-      video:                            youtube
-      image_base_path:                  //img.youtube.com/vi
+      video:                            html5
+      video_base_path:                  /assets/video/html5
+      image_base_path:                  /assets/video/poster/html5
+      thumb_base_path:                  /assets/video/poster/html5
 
       # ------------------------------------------------------------------------
       # Justified Gallery settings
@@ -173,473 +286,45 @@ settings:
           alignThumbnails:              left
           animateThumb:                 true
           autoplayFirstVideo:           true
-          videojs:                      false
+          videojs:                      true
+          videojsTheme:                 vjs-theme-uno
 
         videojsOptions:
-          enabled:                      false
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-          mute:                         0                                       # default = 1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        # video 1
-        - video:
           enabled:                      true
 
-          name:                         S01DuaLipa
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=F4neLJQC1_E
-          poster_image:                 F4neLJQC1_E/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01 · Dua Lipa (2020)
-          description: >
-                                        <h4> S01 · Dua Lipa, at Home (Pandemic 2020) </h4>
+          muted:                        false
+          preload:                      true
+#         videoStart:                   ["00:00:30", "00:01:30"]                # start time (hh:mm:ss) for [video1, video2]
 
-        # video 2
-        - video:
-          enabled:                      true
+          controls:                     true
+          controlBar:
+            playbackRates:              [0.25, 0.5, 1, 1.5, 2]
+            remainingTimeDisplay:       true
+            pictureInPictureToggle:     false
 
-          name:                         S02DuaLipa
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=y38qQRg3UDI
-          poster_image:                 y38qQRg3UDI/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S02 · Dua Lipa (2024)
-          description: >
-                                        <h4> S02 · Dua Lipa at NPR Music (2024) </h4>
+            volumePanel:
+              inline:                   false
 
-        # video 3
-        - video:
-          enabled:                      true
+            hotKeysPlugin:
+              enabled:                  true
+              options:
+                volumeStep:             0.2
 
-          name:                         S03BillieEilish
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=fOAIrUZbOwo
-          poster_image:                 fOAIrUZbOwo/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S03 · Billie Eilish (2024)
-          description: >
-                                        <h4> S03 · Billie Eilish at NPR Music 2024 </h4>
+            skipButtonsPlugin:
+              enabled:                  true
+              options:
+                forward:                5
+                backward:               5
+                backwardIndex:          0
+                forwardIndex:           1
 
-        # video 4
-        - video:
-          enabled:                      true
-
-          name:                         S04SabrinaCarpenter
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=BEoGvTlJMyY
-          poster_image:                 BEoGvTlJMyY/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S04 · Sabrina Carpenter (2024)
-          description: >
-                                        <h4> S04 · Sabrina Carpenter at NPR Music 2024 </h4>
-
-        # video 5
-        - video:
-          enabled:                      true
-
-          name:                         S05TaylorSwift
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=FvVnP8G6ITs
-          poster_image:                 FvVnP8G6ITs/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S04 · Taylor Swift (2019)
-          description: >
-                                        <h4> S04 · Taylor Swift at NPR Music 2019 </h4>
-
-        # video 6
-        - video:
-          enabled:                      true
-
-          name:                         S06JustinTimberlake
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=cMIJsoaxRjk
-          poster_image:                 cMIJsoaxRjk/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S04 · Justin Timberlake (2024)
-          description: >
-                                        <h4> S04 · Justin Timberlake at NPR Music 2024 </h4>
-                     
-    # --------------------------------------------------------------------------
-    # TinyDesk Concerts, Latin, Funk und R&B (YouTube)
-    #
-    - gallery:
-      enabled:                          true
-
-      id:                               tiny_desk_concerts_latin_funk_rb
-      type:                             video
-      video:                            youtube
-      image_base_path:                  //img.youtube.com/vi
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-          alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-          mute:                         0                                       # default = 1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        # video 1
-        - video:
-          enabled:                      true
-
-          name:                         S01CamilaCabello
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=F7wIRxQEetc
-          poster_image:                 F7wIRxQEetc/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01 · Camila Cabello (2021)
-          description: >
-                                        <h4> S01 · Camila Cabello, at Home (Pandemic 2021) </h4>
-
-        # video 2
-        - video:
-          enabled:                      true
-
-          name:                         S02RobertoFonsecas
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=vdph2l0iw74
-          poster_image:                 vdph2l0iw74/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S02 · Roberto Fonsecas (2025)
-          description: >
-                                        <h4> S02 · Roberto Fonsecas at NPR Music (2025) </h4>
-
-        # video 3
-        - video:
-          enabled:                      true
-
-          name:                         S03NileRodgers
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=pRERgcQe-fQ
-          poster_image:                 pRERgcQe-fQ/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S03 · Nile Rodgers (2023)
-          description: >
-                                        <h4> S02 · Nile Rodgers at NPR Music (2023) </h4>
-
-        # video 4
-        - video:
-          enabled:                      true
-
-          name:                         S04AliciaKeys
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=uwUt1fVLb3E
-          poster_image:                 uwUt1fVLb3E/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S04 · Alicia Keys (2020)
-          description: >
-                                        <h4>S04 · Alicia Keys at NPR Music (2020) </h4>
-
-    # --------------------------------------------------------------------------
-    # TinyDesk Concerts, Guitar (YouTube)
-    #
-    - gallery:
-      enabled:                          true
-
-      id:                               tiny_desk_concerts_guitar
-      type:                             video
-      video:                            youtube
-      image_base_path:                  //img.youtube.com/vi
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-          alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-          mute:                         0                                       # default = 1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        # video 1
-        - video:
-          enabled:                      true
-
-          name:                         S01YasminWilliams
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=E6-z-Gqd30Q
-          poster_image:                 E6-z-Gqd30Q/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01 · Yasmin Williams (2025)
-          description: >
-                                        <h4> S01 · Yasmin Williams, at NPR Music (2025) </h4>
-
-        # video 2
-        - video:
-          enabled:                      true
-
-          name:                         S02MartaPereira
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=wzlZ68ts-IU
-          poster_image:                 wzlZ68ts-IU/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S02 · Marta Pereira da Costa (2023)
-          description: >
-                                        <h4> S02 · Marta Pereira da Costa at NPR Music (2023) </h4>
-
-    # --------------------------------------------------------------------------
-    # TinyDesk Concerts, Piano (YouTube)
-    #
-    - gallery:
-      enabled:                          true
-
-      id:                               tiny_desk_concerts_piano
-      type:                             video
-      video:                            youtube
-      image_base_path:                  //img.youtube.com/vi
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-          alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-          mute:                         0                                       # default = 1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        # video 1
-        - video:
-          enabled:                      true
-
-          name:                         S01IsataKannehMason
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=QFGWCRXkWns
-          poster_image:                 QFGWCRXkWns/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01 · Isata Kanneh-Mason (2025)
-          description: >
-                                        <h4> S01 · Isata Kanneh-Mason, at NPR Music (2025) </h4>
-
-    # --------------------------------------------------------------------------
-    # Online VIDEO Auf Achse (YouTube)
-    # See: https://www.youtube.com/playlist?list=PL0JpwqkRm94I2f1dykG_o5b1moIEx10_n
-    #
-    - gallery:
-      enabled:                          true
-
-      id:                               auf_achse_s01
-      type:                             video
-      video:                            youtube
-      image_base_path:                  //img.youtube.com/vi
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-
-          alignThumbnails:              left
-#          addClass:                     lg-uno-thumbnails                       # customized thumbnails
-#          appendThumbnailsTo:           .lg-outer                               # required for customized thumbnails
-#          animateThumb:                 false                                   # required for customized thumbnails
-#          allowMediaOverlap:            true                                    # required for customized thumbnails
-
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-#         controls:                     1                                       # default = 0
-#         enablejsapi:                  1                                       # default = 1
-#         hl:                           en                                      # default = en
-#         loop:                         0                                       # default = 0
-          mute:                         0                                       # default = 1
-#         playsinline:                  1                                       # for mobile|iOS only
-#         wmode:                        opaque                                  # default = opaque
+            zoomPlugin:
+              enabled:                  true
+              options:
+                moveX:                  0
+                moveY:                  0
+                rotate:                 0
+                zoom:                   1
 
       # ------------------------------------------------------------------------
       # CSS filter options
@@ -659,373 +344,67 @@ settings:
         - video:                        # video 1
           enabled:                      true
 
-          name:                         S01E01
-          type:                         youtube
+          name:                         Peck Pocketed
+          type:                         html5
           size:                         1280-720
-          source:                       //youtube.com/watch?v=i8oqdcmAv4Y
-          poster_image:                 i8oqdcmAv4Y/maxresdefault.jpg
+          source:                       peck_pocketed.mp4
+          poster_image:                 peck_pocketed.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S01E01 · Vollgas
+          caption_text:                 Peck Pocketed &middot; Student Academy Award winning Cartoon Clip
           description: >
-                                        <h5>S01E01 · Vollgas</h5>
-                                        <!-- h6>
-                                          Franz Meersdonk sucht für eine Terminfracht nach Teheran einen
-                                          Fahrer für den zweiten LKW. Günther Willers wäre der richtige Mann,
-                                          aber der hat sich in den Kopf gesetzt, sein Glück als Rennfahrer zu machen.
-                                          Als Hitzkopf Willers am Vortag des großen Bergrennens seine Karre in den
-                                          Graben setzt, wird er weich. Aber er verlangt, von der Chefin der Spedition
-                                          Mittermann einen eigenen Wagen zu bekommen, den sie auch noch vorfinanzieren
-                                          müsse.
-                                          <br><br>
-                                          Überraschend unterstützt Meersdonk diese Forderung, indem er auszusteigen droht.
-                                          Buchstäblich im letzten Moment können Willers und er mit ihren Sattelschleppern
-                                          termingerecht in Richtung Teheran aufbrechen.
-                                        </h6 -->
+                                        <h5>Peck Pocketed by Kevin Herron | Disney Favorite</h5>
+                                        <h6>Student Academy Award winning Cartoon Clip</h6>
+                                        <br>
+          tracks:
+            - track:
+              default:                  true                                    # Indicates that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate
+              kind:                     captions
+              srclang:                  en                                      # Code for the language of the text track
+              label:                    English                                 # Descriptive text for the track that will used in the user interface (player)
+              src:                      /assets/video/tracks/html5/peck_pocketed/captions/video.vtt
+
+            - track:
+              default:                  true                                    # Indicates that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate
+              kind:                     chapters
+              srclang:                  en                                      # Code for the language of the text track
+              label:                    Chapters                                # Descriptive text for the track that will used in the user interface (player)
+              src:                      /assets/video/tracks/html5/peck_pocketed/chapters/video.vtt
 
         - video:                        # video 2
           enabled:                      true
 
-          name:                         S01E02
-          type:                         youtube
+          name:                         Rollin Wild
+          type:                         html5
           size:                         1280-720
-          source:                       //youtube.com/watch?v=yb6P3QggRkY
-          poster_image:                 yb6P3QggRkY/maxresdefault.jpg
+          source:                       rolling_wild.mp4
+          poster_image:                 rolling_wild.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S01E02 · Nur eine kleine Verwechslung
+          caption_text:                 Rollin` Wild &middot; Short Funny animated video clip created at the Film Academy
           description: >
-                                        <h5>S01E02 · Nur eine kleine Verwechslung</h5>
-                                        <!-- h6>
-                                          Dem Transportunternehmer Reimers wird ein Lastwagen gestohlen und
-                                          vermutlich auf der Route quer durch Jugoslawien nach Griechenland gebracht,
-                                          um dort per Schiff in den Nahen Osten verladen zu werden.
-                                          <br><br>
-                                          Reimers und Sohn nehmen die Verfolgung selbst in die Hand. Über den Rundfunk
-                                          lassen sie eine Prämie ausloben für jeden, der sachdienliche Hinweise zur
-                                          Ergreifung des Täters gibt. Die Beschreibung, die aus dem Radio kommt, passt
-                                          nun aber auch genau auf Meersdonks Wagen, der daraufhin mehrfach „gestellt“
-                                          wird.
-                                          <br>
-                                          Bis er selbst mit Willers Hilfe dafür sorgt, dass das gesuchte Fahrzeug gefunden
-                                          wird, damit er endlich wieder ungestört fahren kann
-                                        </h6 -->
-
-        - video:                        # video 3
-          enabled:                      true
-
-          name:                         S01E03
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=yhXAJVp5nOc
-          poster_image:                 yhXAJVp5nOc/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E03 · Die thessalische Nacht
-          description: >
-                                        <h5>S01E03 · Die thessalische Nacht</h5>
-                                        <!-- h6>
-                                          Günther Willers trifft in Saloniki einen alten Bekannten wieder,
-                                          der ihn vor Jahren auf gemeine Weise betrogen hat: Sengle! Er will
-                                          mit ihm abrechnen.
-                                          <br><br>
-                                          Sengle, inzwischen kein kleiner Fisch mehr, hält sich Willers aber
-                                          mit rabiaten Methoden vom Hals ...
-                                        </h6 -->
-
-        - video:                        # video 4
-          enabled:                      true
-
-          name:                         S01E04
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=9lh5ORLIU-Q
-          poster_image:                 9lh5ORLIU-Q/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E04 · Tommys Trip
-          description: >
-                                        <h5>S01E04 · Tommys Trip</h5>
-                                        <!-- h6>
-                                          Tommy ist einer der vielen Tramps, die nach Indien wollen. Obwohl
-                                          Meersdonk grundsätzlich keine Anhalter mitnimmt – Tommy schafft es.
-                                          Indem er ihm auf den Wecker fällt, entsteht so etwas wie Sympathie,
-                                          bis Tommy versucht, Meersdonk zu beklauen.
-                                          <br><br>
-                                          Der schmeißt ihn hinaus – aber wenig später gerät er selbst in
-                                          Schwierigkeiten mit der Zollfahndung. Als Meersdonk ratlos im Gefängnis
-                                          sitzt, taucht der völlig mittellose Tommy wieder auf. Vor der Polizei
-                                          beschuldigt er sich, er habe das Schmuggelgut in Meersdonks Lkw versteckt.
-                                          <br><br>
-                                          Prompt wird er abgeschoben und kommt so schnell und billig wieder heim.
-                                          Zwei Fliegen mit einer Klappe, meint er. Zwar schafft er es jetzt nicht
-                                          mehr bis Indien – aber Meersdonk kann weiterfahren.
-                                        </h6 -->
-
-        - video:                        # video 5
-          enabled:                      true
-
-          name:                         S01E05
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=_rA1D4G2K6A
-          poster_image:                 _rA1D4G2K6A/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E05 · Ganoven unter sich
-          description: >
-                                        <h5>S01E05 · Ganoven unter sich</h5>
-                                        <!-- h6>
-                                          Willers und einige Fahrerkollegen werden nachts überfallen und
-                                          ausgeraubt. Der Anführer der Bande nimmt Willers das Geld aus einem
-                                          Geheimversteck, von dem eigentlich nur einer wissen konnte, der ihn
-                                          genau kennt.
-                                          <br><br>
-                                          Nach einigen anderen Hinweisen fällt der Verdacht auf den ehemaligen
-                                          Kollegen Horst Volkers. Doch ehe Willers und Meersdonk im Flughafen
-                                          zur Selbstjustiz greifen und Volkers schnappen können, werden sie
-                                          von der einheimischen Polizei eingebuchtet. Schani, ein undurchsichtiger
-                                          Exil-Österreicher, will gleichfalls an die ansehnliche Beute ran.
-                                          <br><br>
-                                          Aber Meersdonk und Willers kommen frei, stellen eine raffinierte Falle
-                                          und holen sich ihr Geld wieder.
-                                        </h6 -->
-
-        - video:                        # video 6
-          enabled:                      true
-
-          name:                         S01E06
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=Q5_1PvkdorY
-          poster_image:                 Q5_1PvkdorY/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E06 · Kolbenfresser
-          description: >
-                                        <h5>S01E06 · Kolbenfresser</h5>
-                                        <!-- h6>
-                                          Willers, wegen seiner Eskapaden unlieb aufgefallen, bekommt einen
-                                          Beifahrer zugeteilt. Jörg benimmt sich von Anfang an recht merkwürdig.
-                                          So verkauft er, um Geld für Benzin aufzutreiben, heimlich die Lichtmaschine
-                                          im Austausch gegen eine alte. Eine Kette von Komplikationen ist die Folge.
-                                          <br><br>
-                                          Schließlich, nach einem Unfall, ist es Willers, der den ganzen Motor seines
-                                          neuen Lastwagens verkauft. Aber auch der eingetauschte Motor versagt, und
-                                          der Truck steckt endgültig fest. Nachts brennt plötzlich das ganze Fahrzeug,
-                                          und jeder Löschversuch kommt zu spät.
-                                          <br><br>
-                                          Willers hat Jörg in Verdacht, doch zunächst versuchen beide, Meersdonk und
-                                          den anderen Fahrern klarzumachen, dass es sich um einen Versicherungsfall
-                                          handelt. Dann zieht Meersdonks Schlepper den intakt gebliebenen Auflieger
-                                          in höchster Eile in den Hafen, wo er gerade noch rechtzeitig die Fähre
-                                          erreicht. Damit ist die Fracht komplett auf dem Schiff, in Syrien wird sie
-                                          von persischen Zugmaschinen abgeholt und nach Teheran geschleppt werden.
-                                          <br><br>
-                                          Aber das mit dem Versicherungsfall wird noch ein Nachspiel haben.
-                                        </h6 -->
-
-        - video:                        # video 7
-          enabled:                      true
-
-          name:                         S01E07
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=uBfcQt2sM-A
-          poster_image:                 uBfcQt2sM-A/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E07 · Fliegender Start
-          description: >
-                                        <h5>S01E07 · Fliegender Start</h5>
-                                        <!-- h6>
-                                          Mit schier übermenschlichem Einsatz hatten Meersdonk und Willers es
-                                          geschafft, den Druckmaschinen-Transport für Teheran termingerecht auf
-                                          die Fähre zu bringen. Umso härter der Schlag, als sie bei ihrer Rückkehr
-                                          nach München die Firma Mittermann pleite finden.
-                                          <br><br>
-                                          Der Ayatollah hat das Persiengeschäft ruiniert. Mit einem Mal müssen
-                                          stolze Kilometerkönige als Wäschereifahrer und Kiestransporteure jobben.
-                                          <br><br>
-                                          Würde da nicht Willers mit etwas schrägen Methoden einen neuen Frachtauftrag
-                                          für beide aufreißen: Bohrgeräte für Tahoua. Wohin? In eine Oase in Nigeria.
-                                        </h6 -->
-
-        - video:                        # video 8
-          enabled:                      true
-
-          name:                         S01E08
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=vxQ1ZrHOTSE
-          poster_image:                 vxQ1ZrHOTSE/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E08 · Eine Frau in der Koje
-          description: >
-                                        <h5>S01E08 · Eine Frau in der Koje</h5>
-                                        <!-- h6>
-                                          Bei der Fähre von Genua nach Nordafrika taucht plötzlich Carla auf.
-                                          Willers wird schwach und bringt sie heimlich aufs Schiff. Aber auf der
-                                          Überfahrt entdeckt der viel besonnenere Meersdonk sie bei sich in der Koje.
-                                          <br><br>
-                                          Und gegen alle seine ehernen Prinzipien schmuggelt er sie nach Tunesien.
-                                          Und möchte ihr, ganz unvermittelt vom Geheimnis der jungen Frau fasziniert,
-                                          weiterhelfen. Aber Carla entzieht sich allen Beschützerinstinkten – und löst
-                                          ihr Problem allein.
-                                        </h6 -->
-
-        - video:                        # video 9
-          enabled:                      true
-
-          name:                         S01E09
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=0nqx8dMY180
-          poster_image:                 0nqx8dMY180/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E09 · Landjäger
-          description: >
-                                        <h5>S01E09 · Landjäger</h5>
-                                        <!-- h6>
-                                          In Tunis bleiben die Bohrgeräte zunächst mal im Zoll hängen. So nehmen
-                                          Meersdonk und Willers kurze Gelegenheitsfahrten an. Als Meersdonk eine
-                                          Geschwindigkeitsbeschränkung missachtet, findet er sich plötzlich im
-                                          Gefängnis wieder.
-                                          <br><br>
-                                          Er versucht es mit Bestechung – und kommt prompt frei. Schnell spricht
-                                          es sich herum, aber als kurz darauf Willers in eine Polizeisperre gerät,
-                                          läuft das bei ihm ganz anders ab: Willers steckt in großen Schwierigkeiten,
-                                          so menschlich entgegenkommend der Polizeichef sich auch gibt, als er die
-                                          beiden reichlich verwirrten Fahrerfreunde sogar zur Hochzeit seiner Tochter
-                                          einlädt ...
-                                        </h6 -->
-
-        - video:                        # video 10
-          enabled:                      true
-
-          name:                         S01E10
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=nvP9ChGLBXQ
-          poster_image:                 nvP9ChGLBXQ/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E10 · Lalla und Kifkif
-          description: >
-                                        <h5>S01E10 · Lalla und Kifkif</h5>
-                                        <!-- h6>
-                                          Willers stößt das Schlimmste zu, was einem Fernfahrer passieren kann:
-                                          Er fährt ein Kind an. Aus Angst vor der Rache des Dorfes versteckt er
-                                          sich bei Lalla und Kifkif, zwei „Aussteigern“, die hier in Tunesien
-                                          das ganz andere Leben erproben.
-                                          <br><br>
-                                          Inmitten anderer Fernfahrer, die gerne hier rasten, gerät Willers in
-                                          die Eifersuchtshektik des komischen Pärchens. Als nachts jemand ein
-                                          Messer auf ihn wirft, scheint alles klar. Nur Meersdonk schwant eine
-                                          Verbindung zwischen dem Mordanschlag und dem verletzten Kind ...
-                                        </h6 -->
-
-        - video:                        # video 11
-          enabled:                      true
-
-          name:                         S01E11
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=N0kSinIPaZc
-          poster_image:                 N0kSinIPaZc/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E11 · Schwarze Fracht
-          description: >
-                                        <h5>S01E11 · Schwarze Fracht</h5>
-                                        <!-- h6>
-                                          Auf der verzweifelten Suche nach einem Zwischenauftrag gerät Willers
-                                          an den windigen holländischen Kollegen van Haaren. Elektrogeräte durch
-                                          die Sahara – warum nicht? Aber in Wirklichkeit besteht der Transport
-                                          aus dreißig schwarzen Gastarbeitern, die über die Grenze zu schmuggeln
-                                          sind.
-                                          <br><br>
-                                          Menschenfracht! Willers kann sie nicht im Stich lassen. Aber ein Sandstrum,
-                                          der streikende Motor, das ausgehende Wasser, die große Wüste …
-                                          <br><br>
-                                          Wäre da nicht ein schwarzer Kupferschmied mit seinen geschickten Händen,
-                                          hätten sie die nächste menschliche Ansiedlung gewiss nie erreicht.
-                                        </h6 -->
-
-        - video:                        # video 12
-          enabled:                      true
-
-          name:                         S01E12
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=Iwj65yW-RpA
-          poster_image:                 Iwj65yW-RpA/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E12 · Tödliche Dosis
-          description: >
-                                        <h5>S01E12 · Tödliche Dosis</h5>
-                                        <!-- h6>
-                                          Endlich mit den Bohrgeräten unterwegs, wird Meersdonk in Bizerta
-                                          von Aman’s Familie sehnlichst erwartet, bringt er doch ein hierzulande
-                                          rares Medikament für den schwerkranken Vater mit. Unverzüglich spritzt
-                                          der Arzt die Ampulle – und in der Nacht stirbt das Familienoberhaupt.
-                                          <br><br>
-                                          Für die Familie hat Meersdonk ein falsches Medikament mitgebracht, und
-                                          sie hält den Freund im Haus fest. Willers hat Mühe, den Kollegen überhaupt
-                                          aufzustöbern, aber er muss sich noch etwas ganz Ungewöhnliches ausdenken,
-                                          um die Unschuld seines Freundes überzeugend zu beweisen.
-                                        </h6 -->
-
-        - video:                        # video 13
-          enabled:                      true
-
-          name:                         S01E13
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=vXuHlInZSr8
-          poster_image:                 vXuHlInZSr8/maxresdefault.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S01E13 · Wüstenkoller
-          description: >
-                                        <h5>S01E13 · Wüstenkoller</h5>
-                                        <!-- h6>
-                                          Meersdonk und Willers gelangen an den Bestimmungsort ihrer Reise,
-                                          zur Oase Tahoua in Niger. Hier arbeitet eine kleine Forschergruppe
-                                          an einem Projekt zur Fruchtbarmachung der Wüste. Endlich läuft der
-                                          Fernlaster sein Ziel an: die Oase Tahoua in Niger.
-                                          <br><br>
-                                          Überschwenglicher Empfang durch den kleinen deutschen Forschertrupp.
-                                          Aber anstatt die Ersatzteile für das Bohrgerät abzuladen, geschieht
-                                          tagelang – nichts! Willers, zermürbt durch Hitze und Stress, entwickelt
-                                          sogar Verständnis für die Lethargie der Entwicklungshelfer. Nur Meersdonk,
-                                          so stur wie pflichtbewusst, analysiert die Situation richtig: Wüstenkoller!
-                                          Er durchschaut die Sinnlosigkeit dieses Projekts und sinnt auf eine radikale
-                                          Lösung.
-                                        </h6 -->
-
+                                        <h5>Rollin` Wild</h5>
+                                        <h6>Short Funny Animated Clip created at the Film Academy</h6>
+                                        <br>
 
     # --------------------------------------------------------------------------
-    # Online VIDEO Harnas (YouTube)
-    # See: https://www.youtube.com/playlist?list=PL0JpwqkRm94I2f1dykG_o5b1moIEx10_n
+    # Online VIDEO Tylor Swift (YouTube)
+    # See: https://www.youtube.com/playlist?list=PLINj2JJM1jxOxE-4mVaEJCEzO1CiR0Cwm
     #
     - gallery:
       enabled:                          true
 
-      id:                               harnas_s02
+      id:                               jg_video_online_taylor_swift
       type:                             video
       video:                            youtube
-      image_base_path:                  /assets/video/poster/youtube/harnas
+      image_base_path:                  //img.youtube.com/vi
 
       # ------------------------------------------------------------------------
       # Justified Gallery settings
       # ------------------------------------------------------------------------
       #
       gallery_options:
-        rowHeight:                      200
+        rowHeight:                      250
         gutters:                        3
 
       # ------------------------------------------------------------------------
@@ -1081,129 +460,110 @@ settings:
         - video:                        # video 1
           enabled:                      true
 
-          name:                         S02E01
+          name:                         Tylor Swift
           type:                         youtube
           size:                         1280-720
-          source:                       //youtube.com/watch?v=64RebCRdTm4
-          poster_image:                 S02E01.jpg
+          source:                       //youtube.com/watch?v=q3zqJs7JUCQ
+          poster_image:                 q3zqJs7JUCQ/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S02E01 · Von Straußen, Pavianen und dem Springbock Bambi Blommetjie
+          caption_text:                 Fortnight (feat. Post Malone) &middot; Official Music Video
           description: >
-                                        <h5>S02E01 · Von Straußen, Pavianen und dem Springbock Bambi Blommetjie</h5>
-                                        <!-- h6>
-                                          Heute kommen die neuen Volontäre an, um ein paar Wochen oder Monate auf Harnas
-                                          zu arbeiten. Erster Einsatzort: das Paviangehege. Hier lebt ein Rudel von
-                                          acht jungen männlichen Tieren. Sie sind sehr verspielt und manchmal etwas
-                                          streitlustig. Das Putzkommando muss mit Überfällen rechnen – die Paviane
-                                          wollen die Zweibeiner nämlich lausen.
-                                          <br><br>
-                                          Heute sollen die Papageien Unterhaltung bekommen. Astrid ist auf dem Weg zu
-                                          ihnen. Astrid ist die deutsche Koordinatorin von Harnas und seit 15 Jahren
-                                          der Farm verbunden.
-                                          <br><br>
-                                          Volontärin Davina ist unterwegs zu einer 250 Kilometer entfernten Farm. Dort
-                                          sollen Babystrauße abgeholt werden, die von umherstreifenden Schakalen bedroht
-                                          sind. Mit wenigen Handgriffen, Wasser und Sand wird ein Auto umgerüstet – zum
-                                          Babystraußen-Mobil. Nun müssen die Kleinen nur noch die strapaziöse Reise nach
-                                          Harnas überstehen.
-                                        </h6 -->
+                                        <h5>Tylor Swift</h5>
+                                        <h6>Fortnight (feat. Post Malone) &middot; Official Music Video</h6>
+                                        <br>
 
         - video:                        # video 2
           enabled:                      true
 
-          name:                         S02E02
+          name:                         Tylor Swift
           type:                         youtube
           size:                         1280-720
-          source:                       //youtube.com/watch?v=yDr_4fqc2Dk
-          poster_image:                 S02E02.jpg
+          source:                       //youtube.com/watch?v=0GQ_QeZxdzo
+          poster_image:                 0GQ_QeZxdzo/maxresdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 S02E02 · Spaziergang mit Pavianen, Löwe Macho und ein Karakal Baby
+          caption_text:                 Fortnight (feat. Post Malone) &middot; Behind the Scenes
           description: >
-                                        <h5>S02E02 · Spaziergang mit Pavianen, Löwe Macho und ein Karakal Baby</h5>
-                                        <!-- h6>
-                                          Auf die Paviane wartet eine Überraschung. Die Gruppe mit den acht Jungen
-                                          unternimmt heute einen Spaziergang in den Busch. Reiseleiter ist Volontär Axel.
-                                          Sein Lieblingsthema ist die Rangordnung, in der er ja auch eine – in des Wortes
-                                          wahrstem Sinn – große Rolle spielt. Buschmänner und Volontäre treiben die Affen
-                                          so schnell wie möglich zu den Ausgängen. Der Grund für die Eile: Bei diesem Tempo
-                                          können die Affen nicht ihren Lieblingsbeschäftigungen nachgehen: zu stehlen oder
-                                          Gegenstände in Kleinholz verwandeln.
-                                          <br><br>
-                                          Es ist was im Busch. Ein Großaufgebot an Volontären und Farmmitarbeitern hat sich
-                                          draußen bei den Außengehegen versammelt. Fleischgeruch und Spannung liegen in der Luft.
-                                          Alle warten auf den <b>König</b> der Löwen. Macho ist wohl der imposanteste Löwe der
-                                          Farm. Und wie es sich für einen echten Macho gehört, lebt er hier mit drei Weibchen
-                                          zusammen. Seine Frauen sollen heute narkotisiert und eine Schwangerschaften vorbeugende
-                                          Spritze bekommen. Da muss er aus Sicherheitsgründen draußen bleiben.
-                                          <br><br>
-                                          Raubtierfütterung in Marietas Küche. Der junge Karakal ist etwas ungestüm. Das macht
-                                          es für Volontärin Astrid nicht gerade einfach. Der nächste Kandidat ist ein kleines
-                                          Erdmännchen, das von seiner Mutter verstoßen wurde. Die kleine Wildkatze freundet sich
-                                          unterdessen mit ihrem Spielgefährten an.
-                                        </h6 -->
+                                        <h5>Tylor Swift</h5>
+                                        <h6>Fortnight (feat. Post Malone) &middot; Behind the Scenes</h6>
+                                        <br>
 
-        - video:                        # video 3
-          enabled:                      true
-
-          name:                         S02E03
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=KlFQTGZ2iU4
-          poster_image:                 S02E03.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S02E03 · Das Waisenhaus für wilde Tiere
-          description: >
-                                        <h5>S02E03 · Das Waisenhaus für wilde Tiere</h5>
-                                        <!-- h6>
-                                          Heute treffen neue Volontäre ein, um als freiwillige Helfer für Wochen
-                                          oder Monate auf der Farm zu arbeiten. Sie kommen nicht allein. In einer
-                                          Kiste sitzt ein verwaister Pavian. Er wurde im Khomas-Hochland, einem
-                                          Gebirgsplateau rund um Windhoek, gefunden. Nun kommt er in gute Hände –
-                                          zu Marieta, der Leiterin von Harnas.
-                                          <br><br>
-                                          Zu ihr geht sie lieber nicht alleine, denn Assams Fütterung gilt in Harnas
-                                          als Mutprobe. Die Weißrückengeier-Dame ist nicht ohne, jedoch Assam hat heute
-                                          anscheinend einen guten Tag. Die Geier-Dame ist im besten Alter und da will
-                                          sie nun mal ein Nest bauen. Ein hübscher Mister Geier ist zwar nicht in Sicht,
-                                          aber vielleicht kommt ja eines Tages einer vorbeigeflattert.
-                                          <br><br>
-                                          Eine Gruppe Volontäre durchkämmt die Lifeline, die Auswilderungszone, nach
-                                          einem echten Harnas-Star. Pride war zwar in ihrer Zeit auf Harnas so zahm, dass
-                                          man mit ihr kuscheln konnte, aber nun lebt sie schon seit drei Jahren in der Lifeline.
-                                          Außerdem hat sie Nachwuchs. Deshalb kann niemand wissen, wie sie auf zu viel Nähe
-                                          reagiert.
-                                        </h6 -->
-
-        - video:                        # video 4
-          enabled:                      true
-
-          name:                         S02E03
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=KlFQTGZ2iU4
-          poster_image:                 S02E04.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 S02E04 · Das Waisenhaus für wilde Tiere
-          description: >
-                                        <h5>S02E04 · Das Waisenhaus für wilde Tiere</h5>
-                                        <!-- h6></h6 -->
+#         - video:                        # video 2
+#           enabled:                      true
+#
+#           name:                         Tylor Swift
+#           type:                         youtube
+#           size:                         1280-720
+# #         source:                       //youtube.com/watch?v=i8_w_m6HLJ0&list=PLINj2JJM1jxOxE-4mVaEJCEzO1CiR0Cwm
+#           source:                       //youtube.com/watch?v=i8_w_m6HLJ0
+#           pinterest_prefix:             Pin video
+#           tweet_prefix:                 Try video
+#           description: >
+#                                         <h5>Tylor Swift</h5>
+#                                         <h6>I Can Do With a Broken Heart</h6>
+#                                         <br>
+#           caption:
+#             text:                       I Can Do With a Broken Heart &middot; Tylor Swift
+#           poster:
+#             source:                     i8_w_m6HLJ0/maxresdefault.jpg
+# #           source:                     i8_w_m6HLJ0/sddefault.jpg
+#
+# #          playerParams:
+# #            start:                      50                                      # seconds to start
+#
+#
+#
+# #          playerParams:
+# #            start:                      50                                      # seconds to start
+#
+#         - video:                        # video 3
+#           enabled:                      true
+#
+#           name:                         Tylor Swift
+#           type:                         youtube
+#           size:                         1280-720
+#           source:                       //youtube.com/watch?v=RQMz4JDbtmI
+#           pinterest_prefix:             Pin video
+#           tweet_prefix:                 Try video
+#           description: >
+#                                         <h5>Tylor Swift</h5>
+#                                         <h6>The Tortured Poets Department (Official Lyric Video)</h6>
+#                                         <br>
+#           caption:
+#             text:                       The Tortured Poets Department (Official Lyric Video) &middot; Tylor Swift
+#           poster:
+#             source:                     RQMz4JDbtmI/maxresdefault.jpg
+#
+#         - video:                        # video 3
+#           enabled:                      true
+#
+#           name:                         Tylor Swift
+#           type:                         youtube
+#           size:                         1280-720
+#           source:                       //youtube.com/watch?v=wRKXAAV6jh4
+#           pinterest_prefix:             Pin video
+#           tweet_prefix:                 Try video
+#           description: >
+#                                         <h5>Tylor Swift</h5>
+#                                         <h6>My Boy Only Breaks His Favorite Toys (Official Lyric Video)</h6>
+#                                         <br>
+#           caption:
+#             text:                       My Boy Only Breaks His Favorite Toys (Official Lyric Video) &middot; Tylor Swift
+#           poster:
+#             source:                     wRKXAAV6jh4/maxresdefault.jpg
 
 
     # --------------------------------------------------------------------------
-    # Online VIDEO Mimi Rutherfurt (YouTube)
-    # See: https://www.youtube.com/watch?v=qEhzpBJpUq0&list=PLLsYXB2u7E7CjL97CTVUnJl4WY3ws6Ptj
+    # Online VIDEO Carpool Karaoke (YouTube)
     #
     - gallery:
       enabled:                          true
 
-      id:                               radioplay_mimi_rutherfurt
+      id:                               jg_video_online_youtube_james_and_adele
       type:                             video
       video:                            youtube
-      image_base_path:                  /assets/audio/cover/mimi-rutherfurt
+      image_base_path:                  //img.youtube.com/vi
 
       # ------------------------------------------------------------------------
       # Justified Gallery settings
@@ -1233,14 +593,20 @@ settings:
           videojs:                      false
 
         videojsOptions:
-          enabled:                      true
+          enabled:                      false
 
-
+#       See: https://stackoverflow.com/questions/40685142/youtube-autoplay-does-not-work-with-iframe
         playerParams:
           enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
+          start:                        ["00:00:50", "00:00:50"]                # start time video1, vido2
           autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
+#         controls:                     1                                       # default = 0
+#         enablejsapi:                  1                                       # default = 1
+#         hl:                           en                                      # default = en
+#         loop:                         0                                       # default = 0
           mute:                         0                                       # default = 1
+#         playsinline:                  1                                       # for mobile|iOS only
+#         wmode:                        opaque                                  # default = opaque
 
       # ------------------------------------------------------------------------
       # CSS filter options
@@ -1260,716 +626,378 @@ settings:
         - video:                        # video 1
           enabled:                      true
 
-          name:                         2018E01
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=qEhzpBJpUq0
-          poster_image:                 E01-Alte-Zeiten.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 2018E01 · Alte Zeiten
-          description: >
-                                        <h5>2018E01 · Alte Zeiten</h5>
-                                        <!-- h6>
-                                          An einem kalten Winterabend möchte Mimi Rutherfurt ihren alten Freund
-                                          Mr. Crawford besuchen, findet ihn jedoch tot in seinem Haus auf. Alles
-                                          deutet auf einen Selbstmord hin, doch die kriminalistische Dame will
-                                          daran nicht glauben, weswegen sie der neue Inspector nicht ernst nimmt.
-                                          <br>
-                                          Doch ein altes Foto enthält wichtige Hinweise ...
-                                          <br><br>
-                                        </h6 -->
-
-        - video:                        # video 2
-          enabled:                      true
-
-          name:                         2018E02
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=VLqH-swWQ6w
-          poster_image:                 E02-Nacht-Express.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 2018E02 · Nacht-Express
-          description: >
-                                        <h5>2018E02 · Nacht-Express</h5>
-                                        <!-- h6>
-                                          In einem Zugabteil lernt Inspector Thorndike seine Mitfahrerin,
-                                          die rüstige und Krimiinteressierte Rentnerin Mimi Rutherfurt,
-                                          eher unfreiwillig kennen. Doch eine weitere unangenehme Überraschung
-                                          wartet auf ihn, denn in einem anderen Abteil findet Miss Rutherfurt
-                                          eine Leiche.
-                                          <br>
-                                          Ein Wettlauf gegen die Zeit beginnt, denn in ein paar Stunden hat der
-                                          Zug sein Ziel erreicht und der Täter kann sich aus dem Staub machen ...
-                                          <br><br>
-                                        </h6 -->
-
-        - video:                        # video 3
-          enabled:                      true
-
-          name:                         2018E03
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=WAI07l_v9FA
-          poster_image:                 E03-Puppenspielerin.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 2018E03 · Puppenspielerin
-          description: >
-                                        <h5>2018E03 · Puppenspielerin</h5>
-                                        <!-- h6>
-                                          Der Secret Service bittet Mimi Rutherfurt auf einer Insel in der Karibik,
-                                          genannt "Lagoon Island", um Hilfe. Mr. Elpram hat einen seiner Geheimagenten
-                                          verloren. Dieser scheint spurlos verschwunden. Als er später durch Zufall auf
-                                          den Fotos eines Touristen auftaucht, können sie sich kaum vorstellen, welche
-                                          grausame Veränderung mit dem Mann vorgegangen sein muss.
-                                          <br><br>
-                                        </h6 -->
-
-        - video:                        # video 4
-          enabled:                      true
-
-          name:                         2018E04
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=ADKSPZJDErY
-          poster_image:                 E04-Todesliste.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 2018E04 · Todesliste
-          description: >
-                                        <h5>2018E04 · Todesliste</h5>
-                                        <!-- h6>
-                                          Ein mysteriöser Mörder treibt sein Unwesen und schlachtet seine Opfer regelrecht ab.
-                                          Einziger Hinweis ist ein mit Blut gemalter Schriftzug, der immer gleich lautet:
-                                          "The Demonic".
-                                          <br>
-                                          Durch Zufall stolpert auch Mimi Rutherfurt über den Fall und greift der Polizei gleich
-                                          kräftig unter die Arme...
-                                          <br><br>
-                                        </h6 -->
-
-        - video:                        # video 5
-          enabled:                      true
-
-          name:                         2019E05
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=ce_8ez1rFP0
-          poster_image:                 E05-Buckingham-Palace.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 2019E05 · Buckingham Palace
-          description: >
-                                        <h5>2019E05 · Buckingham Palace</h5>
-                                        <!-- h6>
-                                          Alte Beziehungen haben die Hobbykriminalistin Mimi Rutherfurt in eine ganz besondere
-                                          Lage gebracht: Getarnt als Küchenhilfe ermittelt sie nirgendwo anders als im berühmten
-                                          Buckingham Palace, in dem ein tückischer Mord Queen Mum in Besorgnis gebracht hat.
-                                          <br>
-                                          Denn die Krönungsfeier ihrer Tochter Elizabeth II. steht kurz bevor. Kann Mimi den Fall
-                                          rechtzeitig aufklären?
-                                        </h6 -->
-
-        - video:                        # video 6
-          enabled:                      true
-
-          name:                         2019E06
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=Isy7X_HFYKc
-          poster_image:                 E06-Flucht im Dunkeln.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 2019E06 · Flucht im Dunkeln
-          description: >
-                                        <h5>2019E06 · Flucht im Dunkeln</h5>
-                                        <h6>Info</h6>
-                                        <!-- h6>
-                                          Zusammen mit ihrer Freundin Helen Silmkins hat sich Mimi Rutherfurt der Verschönerung
-                                          eines ganz besonderen Ortes verschrieben: Stonehenge. Denn dort soll das Sommerfest
-                                          ihres Denkmalschutzvereines stattfinden.
-                                          <br>
-                                          Bald stößt ein eifriger Helfer hinzu, der ihnen den ganzen Tag lang hilft.
-                                          Doch Mimi Rutherfurt ist er nicht ganz geheuer...
-                                        </h6 -->
-
-    # --------------------------------------------------------------------------
-    # Carpool Caraoke, Ladies Tour (YouTube)
-    #
-    - gallery:
-      enabled:                          true
-
-      id:                               carpool_karaoke_ladies
-      type:                             video
-      video:                            youtube
-      image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-          alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-          mute:                         0                                       # default = 1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        # video 1
-        - video:
-          enabled:                      true
-
-          name:                         MichelleObama
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=ln3wAdRAim4
-          poster_image:                 michelle_obama.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 First Lady Michelle Obama (July 2016)
-          description: >
-                                        <h4> First Lady Michelle Obama (July 2016) </h4>
-
-        # video 2
-        - video:
-          enabled:                      true
-
-          name:                         LadyGaga
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=X5Cfi7U4eL4
-          poster_image:                 lady_gaga.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Lady Gaga (Oktober 2016)
-          description: >
-                                        <h4> Lady Gaga (Oktober 2016) </h4>
-
-        # video 3
-        - video:
-          enabled:                      true
-
-          name:                         ArianaGrande
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=_8ZDK_E5p84
-          poster_image:                 ariana_grande.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Ariana Grande (August 2018)
-          description: >
-                                        <h4> Ariana Grande (August 2018) </h4>
-
-        # video 4
-        - video:
-          enabled:                      true
-
-          name:                         BillieEilish
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=uh2qGWfmESk
-          poster_image:                 billie_eilish.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Billie Eilish (Dezember 2019)
-          description: >
-                                        <h4> Billie Eilish (Dezember 2019 </h4>
-
-        # video 5
-        - video:
-          enabled:                      true
-
-          name:                         BritneySpears
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=pSd9hiBGoE0
-          poster_image:                 britney_spears.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Britney Spears (August 2016)
-          description: >
-                                        <h4> Britney Spears (August 2016) </h4>
-
-        # video 6
-        - video:
-          enabled:                      true
-
-          name:                         ChristinaAguilera
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=R10qTLfwm8E
-          poster_image:                 christina _aguilera.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Christina Aguilera (April 2018)
-          description: >
-                                        <h4> Christina Aguilera (April 2018) </h4>
-
-        # video 7
-        - video:
-          enabled:                      true
-
-          name:                         JenniferHudson 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=nGze8bbBQ-A
-          poster_image:                 jennifer_hudson.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Jennifer Hudson (April 2015)
-          description: >
-                                        <h4> Jennifer Hudson (April 2015) </h4>
-
-        # video 8
-        - video:
-          enabled:                      true
-
-          name:                         JenniferLopez 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=qQIsdod0LWo
-          poster_image:                 jennifer_lopez.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Jennifer Lopez (März 2016)
-          description: >
-                                        <h4> Jennifer Lopez (März 2016)</h4>
-
-        # video 9
-        - video:
-          enabled:                      true
-
-          name:                         MeghanTrainor 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=Wx98Ht7fgI8
-          poster_image:                 meghan_trainor.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Meghan Trainor (Januar 2020)
-          description: >
-                                        <h4> Meghan Trainor (Januar 2020) </h4>
-
-        # video 10
-        - video:
-          enabled:                      true
-
-          name:                         Pink 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=sottGW1p5os
-          poster_image:                 pink.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Pink (November 2017)
-          description: >
-                                        <h4> Pink (November 2017) </h4>
-
-        # video 11
-        - video:
-          enabled:                      true
-
-          name:                         MariahCarey 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=z2iwQoKD6mg
-          poster_image:                 mariah_carey.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Mariah Carey (März 2015)
-          description: >
-                                        <h4> Mariah Carey (März 2015) </h4>
-
-        # video 12
-        - video:
-          enabled:                      true
-
-          name:                         NickiMinaj 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=HD4kk7tA6D8
-          poster_image:                 nicki_minaj.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Nicki Minaj (April 2022)
-          description: >
-                                        <h4> Nicki Minaj (April 2022) </h4>
-
-    # --------------------------------------------------------------------------
-    # Carpool Caraoke, Gents Tour (YouTube)
-    #
-    - gallery:
-      enabled:                          true
-
-      id:                               carpool_karaoke_gents
-      type:                             video
-      video:                            youtube
-      image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-          alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-          mute:                         0                                       # default = 1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        # video 1
-        - video:
-          enabled:                      true
-
-          name:                         PaulMcCartney
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=QjvzCTqkBDQ
-          poster_image:                 paul_mc_cartney.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Paul McCartney (Juni 2018, 23:43)
-          description: >
-                                        <h4> Paul McCartney (Juni 2018, 23:43) </h4>
-
-        # video 2
-        - video:
-          enabled:                      true
-
-          name:                         EltonJohn
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=nblf7Yw4jys
-          poster_image:                 elton_john.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Elton John (Februar 2016, 11:38)
-          description: >
-                                        <h4> Elton John (Februar 2016, 11:38) </h4>
-        # video 3
-        - video:
-          enabled:                      true
-
-          name:                         StevieWonder
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=qqrvm2XDvpQ
-          poster_image:                 stevie_wonder.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Stevie Wonder (September 2015, 10:53)
-          description: >
-                                        <h4> Stevie Wonder (September 2015, 10:53) </h4>
-
-        # video 4
-        - video:
-          enabled:                      true
-
-          name:                         RodStewart
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=5ndj6xn2P0c
-          poster_image:                 rod_stewart.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Rod Stewart (Juli 2015, 09:15)
-          description: >
-                                        <h4> Rod Stewart (Juli 2015, 09:15) </h4>
-
-        # video 5
-        - video:
-          enabled:                      true
-
-          name:                         JustinBieber
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=Dx06c0ZEBMk
-          poster_image:                 justin_bieber.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Justin Bieber (Mai 2015, 14:20)
-          description: >
-                                        <h4> Justin Bieber (Mai 2015, 14:20) </h4>
-
-        # video 6
-        - video:
-          enabled:                      true
-
-          name:                         EdSheeran
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=ckdsJ-LaCvM
-          poster_image:                 ed_sheeran.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Ed Sheeran (Juni 2017, 13:22)
-          description: >
-                                        <h4> Ed Sheeran (Juni 2017, 13:22) </h4>
-
-        # video 7
-        - video:
-          enabled:                      true
-
-          name:                         RedHotChiliPeppers 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=cfudXO_vzWk
-          poster_image:                 red_hot_chili_peppers.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Red Hot Chili Peppers (Juni 2016, 15:34)
-          description: >
-                                        <h4> Red Hot Chili Peppers (Juni 2016, 15:34) </h4>
-
-        # video 8
-        - video:
-          enabled:                      true
-
-          name:                         BrunoMars 
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=AFxCO_DyzYM
-          poster_image:                 bruno_mars.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Bruno Mars (Dezember 2016, 15:24)
-          description: >
-                                        <h4> Bruno Mars (Dezember 2016, 15:24) </h4>
-
-        # video 9
-        - video:
-          enabled:                      true
-
-          name:                         HarryStyles
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=JvLLx0cpJVI
-          poster_image:                 harry_styles.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Harry Styles (Mai 2017, 13:38)
-          description: >
-                                        <h4> Harry Styles (Mai 2017, 13:38) </h4>
-
-        # video 10
-        - video:
-          enabled:                      true
-
-          name:                         ChrisMartin
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=SADub7W22Zg
-          poster_image:                 chris_martin.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Chris Martin (Februar 2016, 15:38)
-          description: >
-                                        <h4> Chris Martin (Februar 2016, 15:38) </h4>
-
-        # video 11
-        - video:
-          enabled:                      true
-
-          name:                         MichaelBuble
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=Kg7UWnNF_rA
-          poster_image:                 michael_buble.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Michael Bublé (Oktober 2018, 15:08)
-          description: >
-                                        <h4> Michael Bublé (Oktober 2018, 15:08) </h4>
-
-        # video 12
-        - video:
-          enabled:                      true
-
-          name:                         SamSmith
-          type:                         youtube
-          size:                         1280-720
-          source:                       //youtube.com/watch?v=z2FHKVzGhgA
-          poster_image:                 sam_smith.jpg
-          pinterest_prefix:             Pin video
-          tweet_prefix:                 Try video
-          caption_text:                 Sam Smith (November 2017, 15:33)
-          description: >
-                                        <h4> Sam Smith (November 2017, 15:33) </h4>
-
-    # --------------------------------------------------------------------------
-    # Carpool Caraoke, James and Adele (YouTube)
-    #
-    - gallery:
-      enabled:                          true
-
-      id:                               carpool_karaoke_james_and_adele
-      type:                             video
-      video:                            youtube
-      image_base_path:                  /assets/video/poster/youtube/carpool_karaoke
-
-      # ------------------------------------------------------------------------
-      # Justified Gallery settings
-      # ------------------------------------------------------------------------
-      #
-      gallery_options:
-        rowHeight:                      250
-        gutters:                        3
-
-      # ------------------------------------------------------------------------
-      # Lightbox|lightGallery settings
-      # ------------------------------------------------------------------------
-      #
-      lightbox:
-        enabled:                        true
-        type:                           lg
-
-      lightGallery:
-        plugins:                        lgThumbnail, lgVideo
-
-        options:
-          licenseKey:                   0000-0000-000-0000
-          download:                     false
-          alignThumbnails:              left
-          animateThumb:                 true
-          autoplayFirstVideo:           true
-          videojs:                      false
-
-        videojsOptions:
-          enabled:                      false
-
-        playerParams:
-          enabled:                      true
-          start:                        ["00:00:00", "00:00:00"]                # start time video1, vido2
-          autoplay:                     1                                       # autoplay = 1 only available for YouTube when muted.
-          mute:                         0                                       # default = 1
-
-      # ------------------------------------------------------------------------
-      # CSS filter options
-      #
-      filters:
-        enabled:                        false
-        grayscale:                      0
-        contrast:                       1
-        brightness:                     1
-
-      # ------------------------------------------------------------------------
-      # Video settings
-      # ------------------------------------------------------------------------
-      #
-      videos:
-
-        # video 1
-        - video:
-          enabled:                      true
-
-          name:                         Adele_2016
+          name:                         Carpool Karaoke James and Adele
           type:                         youtube
           size:                         1280-720
           source:                       //youtube.com/watch?v=Nck6BZga7TQ
-          poster_image:                 adele.jpg
+          poster_image:                 Nck6BZga7TQ/mqdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Adele · First Tour (2016)
+          caption_text:                 Carpool Karaoke 2015 &middot; James and Adele
           description: >
-                                        <h4> Adele · First Tour (2016) </h4>
+                                        <h5>Carpool Karaoke 2015</h5>
+                                        <h6>
+                                        December 2015 - James is on holidays is about the holidays in
+                                        London and gets Adele off for a ride through the city. On the way
+                                        they sing some of their biggest hits.
+                                        </h6>
+                                        <br>
+          playerParams:
+            start:                      50                                      # seconds to start
 
-        # video 2
-        - video:
+        - video:                        # video 2
           enabled:                      true
 
-          name:                         Adele_2023
+          name:                         Last Carpool Karaoke
           type:                         youtube
           size:                         1280-720
           source:                       //youtube.com/watch?v=nV8UZJNBY6Y
-          poster_image:                 adele_last.jpg
+          poster_image:                 nV8UZJNBY6Y/mqdefault.jpg
           pinterest_prefix:             Pin video
           tweet_prefix:                 Try video
-          caption_text:                 Adele · Last Carpool Caraoke (2023)
+          caption_text:                 Carpool Karaoke 2023 &middot; Last Carpool Karaoke
           description: >
-                                        <h4> Adele · Last Carpool Caraoke 2023</h4>
+                                        <h5>Carpool Karaoke 2023</h5>
+                                        <h6>
+                                          April 2023 - Adele wakeup James at home for the last Late Night Show,
+                                          for the last Carpool Caraoke ever.
+                                        </h6>
+                                        <br>
+          playerParams:
+            start:                      50                                      # seconds to start
 
+    # --------------------------------------------------------------------------
+    # Online VIDEO (Vimeo)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               jg_video_online_vimeo
+      type:                             video
+      video:                            vimeo
+      image_base_path:                  /assets/video/poster/vimeo
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      false
+          autoplay:                     1
+          byline:                       0
+          portrait:                     0
+          color:                        var(--md-gray-100)
+          muted:                        0
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        - video:                        # video 1
+          enabled:                      true
+
+          name:                         Forever 21
+          type:                         vimeo
+          size:                         1280-720
+          source:                       //vimeo.com/179528528
+          poster_image:                 kick_it_old_school.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Forever 21 &middot; Kick It Old School
+          description: >
+                                        <h5>Forever 21</h5>
+                                        <h6>Kick It Old School</h6>
+                                        <br>
+          playerParams:
+            start:                      50                                      # seconds to start
+
+        - video:                        # video 2
+          enabled:                      true
+
+          name:                         Forever 21
+          type:                         vimeo
+          size:                         1280-720
+          source:                       //vimeo.com/202117650
+          poster_image:                 stay_colorful.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Forever 21 &middot; Stay Colorful, Babe!
+          description: >
+                                        <h5>Forever 21</h5>
+                                        <h6>Stay Colorful, Babe!</h6>
+                                        <br>
+
+    # --------------------------------------------------------------------------
+    # Online VIDEO (Dailymotion)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               jg_video_online_dailymotion
+      type:                             video
+      video:                            dailymotion
+      image_base_path:                  /assets/video/poster/dailymotion
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      false
+
+        videojsOptions:
+          enabled:                      false
+
+        playerParams:
+          enabled:                      false
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        - video:                        # video 1
+          enabled:                      true
+
+          name:                         SELF Channel
+          type:                         dailymotion
+          size:                         1280-720
+          source:                       //dai.ly/x887s09
+          poster_image:                 meditation.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 SELF Channel &middot; Morning Energy
+          description: >
+                                        <h5>SELF Channel</h5>
+                                        <h6>Guided Meditation: Morning Energy</h6>
+                                        <br>
+
+        - video:                        # video 2
+          enabled:                      true
+
+          name:                         SELF Channel
+          type:                         dailymotion
+          size:                         1280-720
+          source:                       //dai.ly/x87ycik
+          poster_image:                 pilates.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 SELF Channel &middot; Pilates Core Workout
+          description: >
+                                        <h5>SELF Channel</h5>
+                                        <h6>Beginner Mat Pilates: Core Workout</h6>
+                                        <br>
+
+    # --------------------------------------------------------------------------
+    # HTML5 VIDEO (over VodeoJS)
+    #
+    - gallery:
+      enabled:                          true
+
+      id:                               jg_video_html5_videojs
+      type:                             video
+      video:                            html5
+      video_base_path:                  /assets/video/html5
+      image_base_path:                  /assets/video/poster/html5
+      thumb_base_path:                  /assets/video/poster/html5
+
+      # ------------------------------------------------------------------------
+      # Justified Gallery settings
+      # ------------------------------------------------------------------------
+      #
+      gallery_options:
+        rowHeight:                      250
+        gutters:                        3
+
+      # ------------------------------------------------------------------------
+      # Lightbox|lightGallery settings
+      # ------------------------------------------------------------------------
+      #
+      lightbox:
+        enabled:                        true
+        type:                           lg
+
+      lightGallery:
+        plugins:                        lgThumbnail, lgVideo
+
+        options:
+          licenseKey:                   0000-0000-000-0000
+          download:                     false
+          alignThumbnails:              left
+          animateThumb:                 true
+          autoplayFirstVideo:           true
+          videojs:                      true
+          videojsTheme:                 vjs-theme-uno
+
+        videojsOptions:
+          enabled:                      true
+
+          muted:                        false
+          preload:                      true
+#         videoStart:                   ["00:00:30", "00:01:30"]                  # start time (hh:mm:ss) for [video1, video2]
+
+          controls:                     true
+          controlBar:
+            playbackRates:              [0.25, 0.5, 1, 1.5, 2]
+            remainingTimeDisplay:       true
+            pictureInPictureToggle:     false
+
+            volumePanel:
+              inline:                   false
+
+          # hotKeysPlugin:
+          #   enabled:                  true
+          #   options:
+          #     volumeStep:             0.2
+          #
+          # skipButtonsPlugin:
+          #   enabled:                  true
+          #   options:
+          #     forward:                5
+          #     backward:               5
+          #     backwardIndex:          0
+          #     forwardIndex:           1
+          # 
+          # zoomPlugin:
+          #   enabled:                  true
+          #   options:
+          #     moveX:                  0
+          #     moveY:                  0
+          #     rotate:                 0
+          #     zoom:                   1
+
+      # ------------------------------------------------------------------------
+      # CSS filter options
+      #
+      filters:
+        enabled:                        false
+        grayscale:                      0
+        contrast:                       1
+        brightness:                     1
+
+      # ------------------------------------------------------------------------
+      # Video settings
+      # ------------------------------------------------------------------------
+      #
+      videos:
+
+        - video:                        # video 1
+          enabled:                      true
+
+          name:                         Peck Pocketed
+          type:                         html5
+          size:                         1280-720
+          source:                       peck_pocketed.mp4
+          poster_image:                 peck_pocketed.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Peck Pocketed &middot; Student Academy Award winning Cartoon Clip
+          description: >
+                                        <h5>Peck Pocketed by Kevin Herron | Disney Favorite</h5>
+                                        <h6>Student Academy Award winning Cartoon Clip</h6>
+
+        # - video:                        # video 2
+        #   enabled:                      true
+        #
+        #   name:                         Rollin Wild
+        #   type:                         html5
+        #   size:                         1280-720
+        #   source:                       rolling_wild.mp4
+        #   poster_image:                 rolling_wild.jpg
+        #   pinterest_prefix:             Pin video
+        #   tweet_prefix:                 Try video
+        #   caption_text:                 Rollin` Wild &middot; Short Funny animated video clip created at the Film Academy
+        #   description: >
+        #                                 <h5>Rollin` Wild</h5>
+        #                                 <h6>Short Funny Animated Clip created at the Film Academy</h6>
+
+        - video:                        # video 2
+          enabled:                      true
+
+          name:                         Last Carpool Karaoke
+          type:                         youtube
+          size:                         1280-720
+          source:                       //youtube.com/watch?v=nV8UZJNBY6Y
+          poster_image:                 rolling_wild.jpg
+          pinterest_prefix:             Pin video
+          tweet_prefix:                 Try video
+          caption_text:                 Carpool Karaoke 2023 &middot; Last Carpool Karaoke
+          description: >
+                                        <h5>Carpool Karaoke 2023</h5>
+                                        <h6>
+                                          April 2023 - Adele wakeup James at home for the last Late Night Show,
+                                          for the last Carpool Caraoke ever.
+                                        </h6>
+                                        <br>
+          playerParams:
+            start:                      50                                      # seconds to start
 
 # ------------------------------------------------------------------------------
 # END config

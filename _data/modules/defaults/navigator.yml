@@ -6,7 +6,7 @@
 # Product/Info:
 # https://jekyll.one
 #
-# Copyright (C) 2023, 2024 Juergen Adams
+# Copyright (C) 2023-2025 Juergen Adams
 #
 # J1 Template is licensed under the MIT License.
 # See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
@@ -27,7 +27,6 @@ description:
 # Default settings
 #
 defaults:
-  enabled:                              true
 
   # ----------------------------------------------------------------------------
   # Font icon settings
@@ -60,11 +59,17 @@ defaults:
   #   values:                         size string (all supported size names mdi-*)
   #   default:                        true
   #
+  # ----------------------------------------------------------------------------
+
+  # ----------------------------------------------------------------------------
+  # GENERAL options
+  # ----------------------------------------------------------------------------
+  #
+  enabled:                              false
   icon_family:                          mdib
   icon_style:                           mdib
   icon_color:                           mdib-grey
   icon_size:                            mdib-sm
-
   nav_primary_color:                    var(--md-blue)
 
   # ----------------------------------------------------------------------------
@@ -91,7 +96,7 @@ defaults:
     bottom_line_height:                 1
     bottom_line_color:                  var(--md-gray-300)
     background_color_full:              rgba(255, 255, 255, 0.8)                # darken-800
-    background_color_scrolled:          var(--md-gray-200)                      # var(--md-blue)
+    background_color_scrolled:          var(--md-blue)
 
   # ----------------------------------------------------------------------------
   # NavMenu (Mobile)
@@ -145,7 +150,7 @@ defaults:
     dropdown_animate_in:                slideInDown
     dropdown_animate_out:               fadeOutDown
     dropdown_animate_duration:          .75                                     # seconds
-    dropdown_item_min_width:            16                                      # rem
+    dropdown_item_min_width:            15                                      # rem
     dropdown_menu_max_height:           35                                      # rem
     dropdown_font_size:                 small
     dropdown_padding_x:                 18                                      # rem

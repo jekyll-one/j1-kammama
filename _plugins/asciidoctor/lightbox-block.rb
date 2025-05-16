@@ -5,7 +5,7 @@
 # Product/Info:
 # https://jekyll.one
 #
-# Copyright (C) 2023, 2024 Juergen Adams
+# Copyright (C) 2023-2025 Juergen Adams
 #
 # J1 Template is licensed under the MIT License.
 # For details, see: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
@@ -20,7 +20,7 @@
 # Example:
 #
 #  .The image block title
-#  lightbox::lightbox-example[450, "assets/image/modules/gallery/old_times/image_01.jpg, description 1, assets/image/modules/gallery/old_times/image_02.jpg, description 2" ]
+#  lightbox::lightbox-example[450, "assets/image/module/gallery/old_times/image_01.jpg, description 1, assets/image/module/gallery/old_times/image_02.jpg, description 2" ]
 #
 # ------------------------------------------------------------------------------
 include Asciidoctor

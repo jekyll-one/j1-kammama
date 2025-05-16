@@ -166,7 +166,7 @@ Im Player sind alle Episoden verfügbar, die im Jahr *2025* produziert
 wurden.
 
 .Spontanorama · 2025
-amplitude::spontanorama_2025_large[role="mt-4 mb-5"]
+amplitude::spontanorama_2025_large[role="mb-5"]
 
 [role="mt-4"]
 === 2024
@@ -175,5 +175,5 @@ In April startete der neue Podcast von Ralf Schmitz. Im Player sind alle
 Episoden verfügbar, die im Jahr *2024* produziert wurden.
 
 .Spontanorama · 2024
-amplitude::spontanorama_2024_large[role="mt-4 mb-8"]
+amplitude::spontanorama_2024_large[role="mb-8"]
 

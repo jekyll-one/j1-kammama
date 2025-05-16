@@ -107,5 +107,5 @@ Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
 ====
 
 .Diana Krall · YouTube
-amplitude::diana_krall_yt_large[role="mt-4 mb-8"]
+amplitude::diana_krall_yt_large[role="mb-8"]
 

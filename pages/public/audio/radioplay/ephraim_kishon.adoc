@@ -101,11 +101,20 @@ Die besten *Geschichten* von Ephraim Kishon sind eine Sammlung humorvoller,
 satirischer Kurzgeschichten. Kishon betrachtet mit viel Ironie und Witz die
 kleinen und großen Probleme des Alltags in Israel der 1970er Jahre.
 
+[role="mt-4"]
+=== Beste Familiengeschichten
+
 Die *Familiengeschichten* behandeln alltägliche Situationen. Typische
 Erlebnisse wie Einkaufen, Urlaub, Schulausflüge, Erziehungsprobleme und den
 alltäglichen Wahnsinn des Familienlebens. Im Mittelpunkt stehen Kishon selbst,
 seine *beste Ehefrau von allen* und seine drei Kinder. Kishon nimmt in den
 Familiengeschichten sich und seine Familie dabei liebevoll auf die Schippe.
+
+.Ephraim Kishon · Beste Familiengeschichten
+amplitude::ephraim_kishon_beste_familiengeschichten_yt_large[role="mb-5"]
+
+[role="mt-4"]
+=== Beste Autofahrergeschichten
 
 Diw *Autofahrergeschichten* sind eine Sammlung humorvoller Satiren rund um das
 Thema Autofahren. Sie schildern auf unterhaltsame Weise die Absurditäten und
@@ -116,5 +125,5 @@ technische Pannen: Wie eine angezogene Handbremse zum *drahtlosen Telefon*
 mutiert. Und Verkehrskontrollen: Wie man sich auf humorvolle Art und Weise
 an Verkehrspolizisten *rächen* kann.
 
-.Ephraim Kishon · Beste Geschichten
-amplitude::ephraim_kishon_yt_large[role="mt-4 mb-8"]
+.Ephraim Kishon · Beste Autofahrergeschichten
+amplitude::ephraim_kishon_beste_autofahrer_geschichten_yt_large[role="mb-8"]

@@ -5,7 +5,7 @@
 # Product/Info:
 # https://jekyll.one
 #
-# Copyright (C) 2023, 2024 Juergen Adams
+# Copyright (C) 2023-2025 Juergen Adams
 #
 # J1 Template is licensed under the MIT License.
 # See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
@@ -27,7 +27,7 @@ include Asciidoctor
 # Example:
 #
 #   .Video title
-#   youtube::nV8UZJNBY6Y[poster="/assets/image/icons/videojs/videojs-poster.png" theme="city" role="mt-5 mb-5"]
+#   youtube::nV8UZJNBY6Y[poster="/assets/image/icon/videojs/videojs-poster.png" theme="city" role="mt-5 mb-5"]
 #
 # ------------------------------------------------------------------------------
 # See:
@@ -54,7 +54,7 @@ Asciidoctor::Extensions.register do
     name_positional_attributes 'caption', 'start','poster', 'theme', 'custom_buttons', 'role'
     default_attrs 'caption' => 'true',
                   'start' => '00:00:00',
-                  'poster' => '/assets/image/icons/videojs/videojs-poster.png',
+                  'poster' => '/assets/image/icon/videojs/videojs-poster.png',
                   'theme' => 'uno',
                   'custom_buttons' => true,
                   'role' => 'mt-4 mb-5'

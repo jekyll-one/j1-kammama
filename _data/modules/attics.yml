@@ -5,7 +5,7 @@
 # Product/Info:
 # https://jekyll.one
 #
-# Copyright (C) 2023, 2024 Juergen Adams
+# Copyright (C) 2023-2025 Juergen Adams
 #
 # J1 Template is licensed under the MIT License.
 # See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE
@@ -37,17 +37,11 @@ description:
 #
 settings:
 
-  # duo-color effect, base color 'blue' (requires gray-scaled images)
+  # ----------------------------------------------------------------------------
+  # GENERAL options
+  # ----------------------------------------------------------------------------
   #
-  # background_color_1:                   var(--md-gray-300)
-  # background_color_2:                   var(--md-gray-900)
-
-  # CSS filter setting applied on (backstretch|background) image
-  #
-  filters:
-    # grayscale:                          0
-    # contrast:                           1
-    # brightness:                         1
+  enabled:                              true
 
   # ----------------------------------------------------------------------------
   # Layout specific properties
@@ -80,7 +74,7 @@ settings:
         id:                             attic_page
         layout:                         page
 
-        padding_top:                    450
+        padding_top:                    600
 
     # --------------------------------------------------------------------------
     # Posts
@@ -93,7 +87,7 @@ settings:
         layout:                         [ collection, post ]
 
         title_animate:                  animate__fadeInDown
-        padding_top:                    450
+        padding_top:                    600
 
 # ------------------------------------------------------------------------------
 # END config

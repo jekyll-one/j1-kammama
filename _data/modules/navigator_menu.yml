@@ -18,7 +18,6 @@
 #   NO default settings
 # ------------------------------------------------------------------------------
 
-
 # ------------------------------------------------------------------------------
 # TopLevel item
 #
@@ -55,6 +54,23 @@
             icon:                       ear-hearing
 
     # --------------------------------------------------------------------------
+    # Podcasts
+    #
+    - title:                            Podcasts
+      icon:                             volume-high
+      dropdown:
+
+        - title:                        SpontanOrama
+          href:                         /pages/public/audio/podcast/spontanorama/
+          icon:                         ear-hearing
+        - title:                        Stundenhotel
+          href:                         /pages/public/audio/podcast/stundenhotel/
+          icon:                         ear-hearing
+        - title:                        WDR 2 Comedy 
+          href:                         /pages/public/audio/podcast/wdr2_comedy/
+          icon:                         ear-hearing
+
+    # --------------------------------------------------------------------------
     # Hörbücher
     #
     - title:                            Hörbücher
@@ -68,10 +84,6 @@
           - title:                      Das Paradies der Damen
             href:                       /pages/public/audio/radioplay/paradies_der_damen/
             icon:                       ear-hearing
-
-          # - title:                      Xerox
-          #   href:                       /pages/public/audio/radioplay/xerox/
-          #   icon:                       ear-hearing
 
       - title:                          Comedy & Satire
         icon:                           emoticon-excited-outline
@@ -100,23 +112,6 @@
           - title:                      Auf der Spur
             href:                       /pages/public/audio/radioplay/auf_der_spur/
             icon:                       ear-hearing
-
-    # --------------------------------------------------------------------------
-    # Podcasts
-    #
-    - title:                            Podcasts
-      icon:                             volume-high
-      dropdown:
-
-        - title:                        SpontanOrama
-          href:                         /pages/public/audio/podcast/spontanorama/
-          icon:                         ear-hearing
-        - title:                        Stundenhotel
-          href:                         /pages/public/audio/podcast/stundenhotel/
-          icon:                         ear-hearing
-        - title:                        WDR 2 Comedy 
-          href:                         /pages/public/audio/podcast/wdr2_comedy/
-          icon:                         ear-hearing
 
     # --------------------------------------------------------------------------
     # Dokus & Reportagen
@@ -251,6 +246,10 @@
 - item:                                 Über
   sublevel:
 
+#   - title:                            Making-of
+#     icon:                             tools
+#     href:                             /pages/public/about/making-of/
+
 #   - title:                            Wo gehts lang
 #     href:                             /pages/public/about/where_to_go/
 #     icon:                             foot-print
@@ -259,13 +258,10 @@
       icon:                             home-variant-outline
       href:                             /pages/public/about/site/
 
-#   - title:                            Making-of
-#     icon:                             tools
-#     href:                             /pages/public/about/making-of/
-
     - title:                            Privatsphäre
       icon:                             heart
       href:                             /pages/public/legal/de/privacy/
+
     - title:                            Kommentare
       icon:                             comment
       href:                             /pages/public/legal/de/comment_policy/

@@ -44,9 +44,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_heidi_klum
         name:                           Catwalk zur Macht
+        playlist:                       heidi_klum
         artist:                         Heidi Klum
         audio_base:                     //hrardmediathek-a.akamaihd.net/odinson/das-imperium-heidi-klum-catwalk-zur-macht
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:0f4f82b5683a7951
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -123,9 +127,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_walter_fischer
         name:                           Graffiti-Künstler
+        playlist:                       walter_fischer
         artist:                         Walter Fischer
         audio_base:                     //avdlswr-a.akamaihd.net/swr/swrkultur/feature/oz
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -187,7 +195,6 @@ settings:
           #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
           duration:                     "32:10"
 
-
     # --------------------------------------------------------------------------
     # WDR 2 Comedy, Jünter erklärt (Uli Winters)
     # --------------------------------------------------------------------------
@@ -203,6 +210,7 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_wdr2_comedy_juenter_erklaert
         name:                           Uli Winters
+        playlist:                       wdr2_comedy_juenter_erklaert
         artist:                         Jünter erklärt
         start:                          "00:03"
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
@@ -355,11 +363,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_wdr2_comedy_history_hautnah
         name:                           History Hautnah
+        playlist:                       wdr2_comedy_history_hautnah
         artist:                         Friedemann Weise
-        start:                          "00:03"
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //ardaudiothek.de/sendung/wdr-2-comedy/36244858/
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:c50f2f3541b43b75?w=1000
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false            
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -480,9 +491,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_spontanorama_2025
         name:                           Spontanorama
+        playlist:                       spontanorama_2025
         artist:                         Ralf Schmitz
         audio_base:                     //traffic.megaphone.fm
         cover_image:                    //is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/97/06/f8/9706f81b-d813-6a3f-aebf-cb6458c835e6/mza_10167167701331003864.jpg/540x540bb.webp
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -495,6 +510,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E01 · Etwas besonderes sein
           rating:                       1
+          start:                        false                                   # false | timestamp
+          end:                          false                                   # false | timestamp           
           audio:                        EARLYSTUDIOSGMBH5599094573.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/etwas-besonderes-sein/id1741818812?i=1000682353087
           duration:                     "01:08:33"
@@ -504,7 +521,9 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E02 · Hat nicht lang gehalten
-          rating:                       1
+          rating:                       2
+          start:                        false
+          end:                          false
           audio:                        EARLYSTUDIOSGMBH2539234843.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/hat-nicht-lang-gehalten/id1741818812?i=1000683237962
           duration:                     "01:03:19"
@@ -515,6 +534,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E03 · Richtig coole Filme machen
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH8877098978.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/richtig-coole-filme-machen/id1741818812?i=1000684154944
           duration:                     "00:48:52"
@@ -525,6 +546,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E04 · Neuken in de Keuken
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH6492494961.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/neuken-in-de-keuken/id1741818812?i=1000685078158
           duration:                     "01:01:40"
@@ -534,7 +557,9 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E05 · Frech nach vorne
-          rating:                       4
+          rating:                       5
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5400109086.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/frech-nach-vorne/id1741818812?i=1000686905111
           duration:                     "01:02:40"
@@ -545,6 +570,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E06 · Schrott of the Day
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1913495758.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/schrott-of-the-day/id1741818812?i=1000689463568
           duration:                     "00:47:52"
@@ -555,6 +582,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E07 · Die 9 Kammern
           rating:                       5
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1831289568.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-9-kammern/id1741818812?i=1000691616319
           duration:                     "01:16:16"
@@ -565,6 +594,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E08 · Keine Haare mehr auf dem Kopf
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH9785350368.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/keine-haare-mehr-auf-dem-kopf/id1741818812?i=1000694160035
           duration:                     "01:00:23"
@@ -575,6 +606,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E09 · Das wird nicht billig
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1994952322.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/das-wird-nicht-billig/id1741818812?i=1000696377623
           duration:                     "01:09:23"
@@ -585,6 +618,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E10 · Die große Comedy-Kugel
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH2972648335.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-gro%C3%9Fe-comedy-kugel/id1741818812?i=1000697973099
           duration:                     "00:55:00"
@@ -594,7 +629,9 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E11 · Ein Buch über Dreck
-          rating:                       3
+          rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH9375841185.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/ein-buch-%C3%BCber-dreck/id1741818812?i=1000698959688
           duration:                     "00:43:00"
@@ -605,6 +642,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E12 · Drittel Life Crisis
           rating:                       5
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4151930296.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/drittel-life-crisis/id1741818812?i=1000700017848
           duration:                     "01:00:45"
@@ -614,7 +653,9 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E13 · Mein schönstes erstes Mal
-          rating:                       2
+          rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH3139491282.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mein-sch%C3%B6nstes-erstes-mal/id1741818812?i=1000700981216
           duration:                     "00:57:13"
@@ -625,6 +666,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E14 · Code Red
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH2338128572.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/code-red/id1741818812?i=1000701962252
           duration:                     "00:51:02"
@@ -635,6 +678,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E15 · Helikopter Hupen
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5196874671.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/helikopter-hupen/id1741818812?i=1000702931307
           duration:                     "00:54:06"
@@ -645,6 +690,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E16 · Lampe oder Schrank
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7330399852.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/lampe-oder-schrank/id1741818812?i=1000703794230
           duration:                     "01:00:23"
@@ -654,7 +701,9 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E17 · Du spieltest Cello
-          rating:                       1
+          rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH8794017696.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/du-spieltest-cello/id1741818812?i=1000704648409
           duration:                     "00:54:45"
@@ -665,6 +714,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E18 · Spongebob Mexicana
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7803500090.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/spongebob-mexicana/id1741818812?i=1000705611016
           duration:                     "01:06:53"
@@ -675,6 +726,8 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E19 · Zu früh gekommen
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4737863855.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/zu-fr%C3%BCh-gekommen/id1741818812?i=1000706727422
           duration:                     "01:03:10"
@@ -685,10 +738,11 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E20 · Weil Punkt!
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1308588369.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/weil-punkt/id1741818812?i=1000708514242
           duration:                     "00:48:46"
-
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024
@@ -705,9 +759,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_spontanorama_2024
         name:                           Spontanorama
+        playlist:                       spontanorama_2024
         artist:                         Ralf Schmitz
         audio_base:                     //traffic.megaphone.fm
         cover_image:                    //is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/97/06/f8/9706f81b-d813-6a3f-aebf-cb6458c835e6/mza_10167167701331003864.jpg/540x540bb.webp
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false          
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -720,6 +778,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E01 · Was wolltest du gerade eigentlich machen?
           rating:                       4
+          start:                        false                                   # false | timestamp
+          end:                          false                                   # false | timestamp            
           audio:                        EARLYSTUDIOSGMBH3620876950.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/was-wolltest-du-gerade-eigentlich-machen/id1741818812?i=1000653504852
           duration:                     "00:41:26"
@@ -730,6 +790,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E02 · Mama, ich wäre gerne ein Pottwal!
           rating:                       2
+          start:                        false
+          end:                          false
           audio:                        EARLYSTUDIOSGMBH5736564883.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mama-ich-w%C3%A4re-gerne-ein-pottwal/id1741818812?i=1000654224140
           duration:                     "00:56:44"
@@ -740,6 +802,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E03 · Die wilden 00er Jahre
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5176024731.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-wilden-00er-jahre/id1741818812?i=1000654983003
           duration:                     "00:57:39"
@@ -750,6 +814,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E04 · Zwei Schauspieler in Schottland
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4916731254.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/zwei-schauspieler-in-schottland/id1741818812?i=1000655723815
           duration:                     "01:05:27"
@@ -760,6 +826,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E05 · Dünne Luft und italienischer Kaffee
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH6618135223.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/d%C3%BCnne-luft-und-italienischer-kaffee/id1741818812?i=1000656441315
           duration:                     "00:55:12"
@@ -770,6 +838,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E06 · Die Geschichten von Scrabble-Man
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH8017985151.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-geschichten-von-scrabble-man/id1741818812?i=1000657218868
           duration:                     "00:49:25"
@@ -780,6 +850,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E07 · Geeint in der Abneigung
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH3868463003.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/geeint-in-der-abneigung/id1741818812?i=1000657979323
           duration:                     "00:59:12"
@@ -790,6 +862,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E08 · Die Champignon Mafia
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5391596454.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-champignon-mafia/id1741818812?i=1000658835647
           duration:                     "00:48:09"
@@ -800,6 +874,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E09 · Der Sprache eine Sprache geben
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5096457580.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/der-sprache-eine-sprache-geben/id1741818812?i=1000659565878
           duration:                     "00:44:40"
@@ -810,6 +886,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E10 · Die Herkunft von Hildegard
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH6576412628.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-herkunft-von-hildegard/id1741818812?i=1000660366358
           duration:                     "00:56:27"
@@ -820,6 +898,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E11 · Mit einer Sonne im Herzen
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5586806905.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mit-einer-sonne-im-herzen/id1741818812?i=1000661082383
           duration:                     "00:55:30"
@@ -830,6 +910,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E12 · Gib dem Fleisch die Zeit
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1878022846.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/gib-dem-fleisch-die-zeit/id1741818812?i=1000661839901
           duration:                     "00:45:54"
@@ -840,6 +922,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E13 · Uschi und die Liebe
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH8191293375.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/uschi-und-die-liebe/id1741818812?i=1000662567462
           duration:                     "00:56:39"
@@ -850,6 +934,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E14 · Ein paar Nüsse für ein Startup
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7303295712.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/ein-paar-n%C3%BCsse-f%C3%BCr-ein-startup/id1741818812?i=1000663257289
           duration:                     "01:06:50"
@@ -860,6 +946,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E15 · Jetzt geht’s in den Feierabend
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7140915461.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/jetzt-gehts-in-den-feierabend/id1741818812?i=1000663969169
           duration:                     "00:53:21"
@@ -870,6 +958,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E16 · Vom Leben zum Zyniker gemacht
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1133810969.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/vom-leben-zum-zyniker-gemacht/id1741818812?i=1000664660006
           duration:                     "01:04:02"
@@ -880,6 +970,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E17 · An den Extremitäten der Größenskala
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH3094286313.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/an-den-extremit%C3%A4ten-der-gr%C3%B6%C3%9Fenskala/id1741818812?i=1000665363324
           duration:                     "01:05:13"
@@ -890,6 +982,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E18 · Oben ohne Sport
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5232892078.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/oben-ohne-sport/id1741818812?i=1000666176636
           duration:                     "01:04:04"
@@ -900,6 +994,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E19 · Symmetrische Zusammenkunft
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH9170736970.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/symmetrische-zusammenkunft/id1741818812?i=1000666951961
           duration:                     "01:16:06"
@@ -910,6 +1006,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E20 · Eine Odyssee zu sich selbst
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7391183547.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/eine-odyssee-zu-sich-selbst/id1741818812?i=1000668396329
           duration:                     "00:59:33"
@@ -920,6 +1018,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E21 · Tubus in die Lunge schieben
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4307178142.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/tubus-in-die-lunge-schieben/id1741818812?i=1000669206148
           duration:                     "00:59:33"
@@ -930,6 +1030,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E22 · Filterbubble - Pick-Up Artist
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH2286370230.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/filterbubble-pick-up-artist/id1741818812?i=1000669983817
           duration:                     "01:05:52"
@@ -940,6 +1042,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E23 · Hauptsache die Kohle kommt
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7650987152.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/hauptsache-die-kohle-kommt/id1741818812?i=1000670713919
           duration:                     "01:05:52"
@@ -950,6 +1054,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E24 · Ein Topf mit Salz
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH2160363806.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/ein-topf-mit-salz/id1741818812?i=1000671604806
           duration:                     "00:54:01"
@@ -960,6 +1066,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E25 · Nichts Lebendes in der Wohnung
           rating:                       1
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH3669994699.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/nichts-lebendes-in-der-wohnung/id1741818812?i=1000672425180
           duration:                     "01:02:00"
@@ -970,6 +1078,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E26 · Das richtige Mango-Management
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1235501434.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/das-richtige-mango-management/id1741818812?i=1000673360731
           duration:                     "01:02:00"
@@ -980,6 +1090,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E27 · Spontaner Zusammenstoß
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4745836256.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/spontaner-zusammensto%C3%9F/id1741818812?i=1000674214586
           duration:                     "01:09:00"
@@ -990,6 +1102,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E28 · Das war deep
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1877491089.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/das-war-deep/id1741818812?i=1000675128484
           duration:                     "00:53:42"
@@ -1000,6 +1114,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E29 · Begegnungen mit der anderen Seite
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4130157548.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/begegnungen-mit-der-anderen-seite/id1741818812?i=1000675980838
           duration:                     "01:12:45"
@@ -1010,6 +1126,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E30 · Die Stimme muss passen
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4365471324.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-stimme-muss-passen/id1741818812?i=1000676874063
           duration:                     "01:01:53"
@@ -1020,6 +1138,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E31 · Internationale Knöpfe
           rating:                       2
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH8851903473.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/internationale-kn6pfe/id1741818812?i=1000677694033
           duration:                     "00:57:37"
@@ -1030,6 +1150,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E32 · Schön unangenehm
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7308547194.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/schön-unangenehm/id1741818812?i=1000678464844
           duration:                     "00:55:32"
@@ -1040,6 +1162,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E33 · Mach die Spülmaschine auf
           rating:                       4
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH9359245174.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mach-die-spülmaschine-auf/id1741818812?i=1000679272782
           duration:                     "01:02:59"
@@ -1050,6 +1174,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E34 · Trainieren mit Witz
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH2190260904.mp3
           audio_info:                   https://podcasts.apple.com/de/podcast/trainieren-mit-witz/id1741818812?i=1000680074245
           duration:                     "01:04:17"
@@ -1060,6 +1186,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E35 · Mit geschlossenen Fenstern schreien
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH3511658701.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mit-geschlossenen-fenstern-schreien/id1741818812?i=1000680894411
           duration:                     "01:05:22"
@@ -1070,6 +1198,8 @@ settings:
           <<:                           *album_spontanorama_2024
           title:                        24E36 · Regionalprogramm zu Karneval
           rating:                       3
+          start:                        false
+          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4027575030.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/regionalprogramm-zu-karneval/id1741818812?i=1000681689260
           duration:                     "01:08:33"
@@ -1089,9 +1219,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_stundenhotel_2022
         name:                           Stundenhotel
+        playlist:                       stundenhotel_2022
         artist:                         Wischmeyer & Voß
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false            
+     
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -1123,9 +1258,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_stundenhotel_2023
         name:                           Stundenhotel
+        playlist:                       stundenhotel_2023
         artist:                         Wischmeyer & Voß
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -1137,6 +1276,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E01 · Mach's mir von hinten - Jahresrückblick 2022
+          rating:                       3
           audio:                        clips/114/114755/114755_00466976_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/mach-s-mir-von-hinten-der-jahresrueckblick-2022/bremen-zwei/12202975/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:4a4eed01427e5d05?w=1000
@@ -1147,6 +1287,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E02 · Die Birne voll Rosinen und der Zukunft zugewandt (1)
+          rating:                       3
           audio:                        clips/116/116162/116162_00471541_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt/bremen-zwei/12307751/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:916bafda695cab82?w=1000
@@ -1157,6 +1298,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E03 · Die Birne voll Rosinen und der Zukunft zugewandt (2)
+          rating:                       3
           audio:                        clips/117/117443/117443_00475872_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/die-birne-voll-rosinen-und-der-zukunft-zugewandt-2/bremen-zwei/12399667/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:916bafda695cab82?w=1000
@@ -1167,6 +1309,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E04 · Von Warzen und Schrunden
+          rating:                       3
           audio:                        clips/117/117764/117764_00477008_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/von-warzen-und-schrunden/bremen-zwei/12419749/
           cover_image:                  https://api.ardmediathek.de/image-service/images/urn:ard:image:2601217cc38c05c4?w=1000
@@ -1177,6 +1320,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E05 · Hattu Zeit, muttu hören
+          rating:                       3
           audio:                        clips/119/119038/119038_00481314_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/hattu-zeit-muttu-hoeren/bremen-zwei/12536191/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d2a197634c775d9b?w=1000
@@ -1187,6 +1331,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E06 · Come in and find out
+          rating:                       3
           audio:                        clips/120/120012/120012_00484559_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/come-in-and-find-out/bremen-zwei/12599305/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a3fa5764c91f9176?w=1000
@@ -1197,6 +1342,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E07 · Ohne Wenn und Aberglaube
+          rating:                       3
           audio:                        clips/121/121408/121408_00489119_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ohne-wenn-und-aberglaube/bremen-zwei/12683395/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:22c3d20a891c244b?w=1000
@@ -1207,6 +1353,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E08 · Seniorenresidenz Moderfrieden
+          rating:                       3
           audio:                        clips/122/122340/122340_00492249_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/seniorenresidenz-moderfrieden/bremen-zwei/94497682/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:69660a7d8428683e?w=1000
@@ -1217,6 +1364,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E09 · Müll oder Zecken
+          rating:                       3
           audio:                        clips/123/123213/123213_00495261_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/muell-oder-zecken/bremen-zwei/94562434/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d5cfd67e1f3e3892?w=1000
@@ -1227,6 +1375,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E10 · Unbedingt abwehrbereit
+          rating:                       3
           audio:                        clips/124/124619/124619_00499941_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/unbedingt-abwehrbereit/bremen-zwei/94650438/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:010f647c082f6e3d?w=1000
@@ -1237,6 +1386,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E11 · Ich mach's mir selbst
+          rating:                       3
           audio:                        clips/126/126163/126163_00505084_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/ich-mach-s-mir-selbst/bremen-zwei/94752454/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:47f735942782319a?w=1000
@@ -1247,6 +1397,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E12 · Na dann, gute Nacht
+          rating:                       3
           audio:                        clips/127/127066/127066_00508013_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/na-dann-gute-nacht/bremen-zwei/94814450/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:bc022b9d1462279e?w=1000
@@ -1257,6 +1408,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E13 · Feste feiern, locker bleiben
+          rating:                       3
           audio:                        clips/128/128185/128185_00511714_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/feste-feiern-locker-bleiben/bremen-zwei/12835417/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:06c05b7f556a0f79?w=1000
@@ -1267,6 +1419,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2023
           title:                        23E14 · Schön eng ist weit genug
+          rating:                       3
           audio:                        clips/130/130416/130416_00519141_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/schoen-eng-ist-weit-genug/bremen-zwei/12968235/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a70fd7e40634139b?w=1000
@@ -1287,9 +1440,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_stundenhotel_2024
         name:                           Stundenhotel
+        playlist:                       stundenhotel_2024
         artist:                         Wischmeyer & Voß
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false   
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -1454,9 +1611,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_stundenhotel_2025
         name:                           Stundenhotel
+        playlist:                       stundenhotel_2025
         artist:                         Wischmeyer & Voß
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false     
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -1512,7 +1673,7 @@ settings:
           enabled:                      true
           <<:                           *album_stundenhotel_2025
           title:                        25E05 · Is wirklich Schluss?
-          rating:                       1
+          rating:                       2
           audio:                        clips/152/152008/152008_00590658_audio_stereo.mp3
           audio_info:                   //ardaudiothek.de/episode/wischmeyers-stundenhotel/is-wirklich-schluss/bremen-zwei/14431621/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:fc07f1839049be54?w=1000
@@ -1533,9 +1694,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_mimi_rutherfurt_yt
         name:                           Mimi Rutherfurt
+        playlist:                       mimi_rutherfurt_yt
         artist:                         Maritim Verlag
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -1653,23 +1818,28 @@ settings:
           duration:                     "01:19:16"
 
     # --------------------------------------------------------------------------
-    #  Ephraim Kishon, YouTube
+    #  Ephraim Kishon, Beste Familiengeschichten
     # --------------------------------------------------------------------------
     #
     - playlist:
       enabled:                          true
 
-      name:                             ephraim_kishon_yt
+      name:                             ephraim_kishon_beste_familiengeschichten_yt
       title:                            Ephraim Kishon
 
       # ------------------------------------------------------------------------
       # ALBUM settings
       # ------------------------------------------------------------------------
-      album:                            &album_ephraim_kishon_yt
+      album:                            &album_ephraim_kishon_beste_familiengeschichten_yt
         name:                           Ephraim Kishon
-        artist:                         Beste Geschichten
+        playlist:                       ephraim_kishon_beste_familiengeschichten_yt
+        artist:                         Beste Familiengeschichten
+        audio_single:                   true
+        audio_fade:                     false
+        audio:                          watch?v=9LojTw98Fks
         audio_base:                     //youtube.com
-        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_info:                     //youtube.com/watch?v=9LojTw98Fks
+        cover_image:                    //img.youtube.com/vi/9LojTw98Fks/maxresdefault.jpg
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -1679,272 +1849,204 @@ settings:
         # title 01
         - item:
           enabled:                      true
-          <<:                           *album_ephraim_kishon_yt
-          title:                        Beste Familiengeschichten
-          audio:                        watch?v=9LojTw98Fks
-          rating:                       3
-          audio_info:                   //youtube.com/watch?v=9LojTw98Fks
-          cover_image:                  //img.youtube.com/vi/9LojTw98Fks/maxresdefault.jpg
-          duration:                     "02:55:35"
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Ein Vater wird geboren
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          "00:16:53"
+          duration:                     "00:16:50"
 
         # title 02
         - item:
           enabled:                      true
-          <<:                           *album_ephraim_kishon_yt
-          title:                        Beste Autofahrergeschichten, Teil 1
-          audio:                        watch?v=D2gVmGFa2wE
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Baby Sitting und was man dafür tun muß
           rating:                       3
-          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
-          cover_image:                  //img.youtube.com/vi/D2gVmGFa2wE/maxresdefault.jpg
-          duration:                     "00:59:44"
+          start:                        "00:16:55"
+          end:                          "00:28:34"
+          duration:                     "00:11:39"
 
         # title 03
         - item:
           enabled:                      true
-          <<:                           *album_ephraim_kishon_yt
-          title:                        Beste Autofahrergeschichten, Teil 2
-          audio:                        watch?v=zBSlRSGp5N4
-          rating:                       3
-          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
-          cover_image:                  //img.youtube.com/vi/zBSlRSGp5N4/maxresdefault.jpg
-          duration:                     "00:57:31"
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Schreckens Rotkäppchen
+          rating:                       2
+          start:                        "00:28:36"
+          end:                          "00:33:57"
+          duration:                     "00:05:20"
 
         # title 04
         - item:
           enabled:                      true
-          <<:                           *album_ephraim_kishon_yt
-          title:                        Der Blaumilck-Kanal
-          audio:                        watch?v=KcXP2fMvQq8
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Kontakt mit Linsen
           rating:                       4
-          audio_info:                   //youtube.com/watch?v=KcXP2fMvQq8
-          cover_image:                  //img.youtube.com/vi/KcXP2fMvQq8/maxresdefault.jpg
-          duration:                     "00:11:25"
+          start:                        "00:34:00"
+          end:                          "00:45:57"
+          duration:                     "00:11:57"
 
         # title 05
         - item:
           enabled:                      true
-          <<:                           *album_ephraim_kishon_yt
-          title:                        Die netten Nachbarn
-          audio:                        watch?v=X0RyupUgu2s
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Auf Mäusesuche
           rating:                       4
-          audio_info:                   //youtube.com/watch?v=X0RyupUgu2s
-          cover_image:                  //img.youtube.com/vi/X0RyupUgu2s/maxresdefault.jpg
-          # //m.media-amazon.com/images/I/61xJ76npfrL._SY342_.jpg
-          duration:                     "01:14:08"
-
-        # # title 03
-        # - item:
-        #   enabled:                      true
-        #   <<:                           *album_ephraim_kishon_yt
-        #   title:                        Essen ist meine Lieblingsspeise
-        #   audio:                        watch?v=tOTV-jCpre4
-        #   rating:                       3
-        #   audio_info:                   //youtube.com/watch?v=tOTV-jCpre4
-        #   cover_image:                  //img.youtube.com/vi/tOTV-jCpre4/maxresdefault.jpg
-        #   duration:                     "03:19:16"
-
-    # --------------------------------------------------------------------------
-    #  Fien Feldman, Xerox
-    # --------------------------------------------------------------------------
-    #
-    - playlist:
-      enabled:                          true
-
-      name:                             xerox_2024
-      title:                            Xerox
-
-      # ------------------------------------------------------------------------
-      # ALBUM settings
-      # ------------------------------------------------------------------------
-      album:                            &album_xerox_2024
-        name:                           Xerox
-        artist:                         Fien Feldman
-        audio_base:                     //pdodswr-a.akamaihd.net/swr/swrkultur/literatur/hoerbuch/xerox
-        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:8ee024a33603d29a
-
-      # ------------------------------------------------------------------------
-      # TITLE settings (songs)
-      # ------------------------------------------------------------------------
-      items:
-
-        # title 01
-        - item:
-          enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E01 · Xerox
-          rating:                       4
-          audio:                        2209492.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-1-16/swr-kultur/14276279/
-          duration:                     "23:04"
-
-        # title 02
-        - item:
-          enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E02 · Xerox
-          rating:                       4
-          audio:                        2209493.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-2-16/swr-kultur/14276307/
-          duration:                     "22:28"
-
-        # title 03
-        - item:
-          enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E03 · Xerox
-          rating:                       4
-          audio:                        2209496.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-3-16/swr-kultur/14276325/
-          duration:                     "23:31"
-
-        # title 04
-        - item:
-          enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E04 · Xerox
-          rating:                       4
-          audio:                        2209510.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-4-16/swr-kultur/14282783/
-          duration:                     "22:49"          
-
-        # title 05
-        - item:
-          enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E05 · Xerox
-          rating:                       4
-          audio:                        2209512.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-5-16/swr-kultur/14276367/
-          duration:                     "22:35"
+          start:                        "00:46:00"
+          end:                          "00:54:35"
+          duration:                     "00:08:35"
 
         # title 06
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E06 · Xerox
-          rating:                       4
-          audio:                        2209514.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-6-16/swr-kultur/14276385/
-          duration:                     "22:52" 
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Das Wunderkind
+          rating:                       2
+          start:                        "00:54:36"
+          end:                          "01:01:07"
+          duration:                     "00:06:31"
 
         # title 07
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E07 · Xerox
-          rating:                       4
-          audio:                        2209517.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-7-16/swr-kultur/14276411/
-          duration:                     "22:42"
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Ein Fläschchen für's Kätzchen
+          rating:                       3
+          start:                        "01:01:13"
+          end:                          "01:11:34"
+          duration:                     "00:10:21"
 
         # title 08
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E08 · Xerox
-          rating:                       4
-          audio:                        2209523.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-8-16/swr-kultur/14276427/
-          duration:                     "22:36" 
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Die Stmme des Blutes
+          rating:                       3
+          start:                        "01:11:36"
+          end:                          "01:20:44"
+          duration:                     "00:09:08"
 
         # title 09
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E09 · Xerox
-          rating:                       4
-          audio:                        2209528.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-9-16/swr-kultur/14276439/
-          duration:                     "23:16"
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Onkel Morris und das Kollosalgemälde
+          rating:                       3
+          start:                        "01:20:45"
+          end:                          "01:34:05"
+          duration:                     "00:13:20"
 
         # title 10
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E10 · Xerox
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Durch den Kakao gezogen 
           rating:                       4
-          audio:                        2209533.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-10-16/swr-kultur/14276459/
-          duration:                     "23:00" 
+          start:                        "01:34:08"
+          end:                          "01:44:39"
+          duration:                     "00:09:31"
 
         # title 11
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E11 · Xerox
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Ein Scnnuller Namens Zezie 
           rating:                       4
-          audio:                        2209540.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-11-16/swr-kultur/14276465/
-          duration:                     "24:30"
+          start:                        "01:44:41"
+          end:                          "01:54:02"
+          duration:                     "00:09:21"
 
         # title 12
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E12 · Xerox
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Gefahren des Wachstums
           rating:                       4
-          audio:                        2209542.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-12-16/swr-kultur/14276491/
-          duration:                     "23:44" 
+          start:                        "01:54:08"
+          end:                          "02:02:35"
+          duration:                     "00:07:27"
 
         # title 13
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E13 · Xerox
-          rating:                       4
-          audio:                        2209544.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-13-16/swr-kultur/14276497/
-          duration:                     "24:12"
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Wie man Freunde gewinnt
+          rating:                       3
+          start:                        "02:02:37"
+          end:                          "02:10:33"
+          duration:                     "00:07:56"
 
         # title 14
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E14 · Xerox
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Pedigree
           rating:                       4
-          audio:                        2209545.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-14-16/swr-kultur/14276529/
-          duration:                     "23:57" 
+          start:                        "02:10:35"
+          end:                          "02:22:26"
+          duration:                     "00:11:09"
 
         # title 15
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E15 · Xerox
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Dressur
           rating:                       4
-          audio:                        2209547.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-15-16/swr-kultur/14276563/
-          duration:                     "24:24"
+          start:                        "02:22:29"
+          end:                          "02:31:46"
+          duration:                     "00:08:15"
 
         # title 16
         - item:
           enabled:                      true
-          <<:                           *album_xerox_2024
-          title:                        E16 · Xerox
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Die große Steak-Saga
+          rating:                       3
+          start:                        "02:31:48"
+          end:                          "02:39:54"
+          duration:                     "00:08:07"
+
+        # title 17
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Der kluge Mann baut vor
+          rating:                       3
+          start:                        "02:39:56"
+          end:                          "02:47:44"
+          duration:                     "00:07:48"
+
+        # title 18
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_familiengeschichten_yt
+          title:                        Vertrauen gegen Vertrauen
           rating:                       4
-          audio:                        2209554.m.mp3
-          audio_info:                   //ardaudiothek.de/episode/xerox-von-fien-veldman/fien-veldman-xerox-16-16/swr-kultur/14276607/
-          duration:                     "24:24" 
+          start:                        "02:47:45"
+          end:                          "02:55:15"
+          duration:                     "00:07:30"
 
     # --------------------------------------------------------------------------
-    #  Smooth Jazz (Dua Lipa)
+    #  Ephraim Kishon, Beste Autofahrergeschichten
     # --------------------------------------------------------------------------
     #
     - playlist:
       enabled:                          true
 
-      name:                             smooth_jazz_dua_lipa_yt
-      title:                            Dua Lipa
+      name:                             ephraim_kishon_beste_autofahrer_geschichten_yt
+      title:                            Ephraim Kishon
 
       # ------------------------------------------------------------------------
       # ALBUM settings
       # ------------------------------------------------------------------------
-      album:                            &album_smooth_jazz_dua_lipa_yt
-        name:                           Dua Lipa
-        artist:                         Smooth Jazz Renditions
+      album:                            &album_ephraim_kishon_beste_autofahrer_geschichten_yt
+        name:                           Ephraim Kishon
+        playlist:                       ephraim_kishon_beste_autofahrer_geschichten_yt
+        artist:                         Beste Familiengeschichten
+        audio_single:                   true
         audio_base:                     //youtube.com
-        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        cover_image:                    //img.youtube.com/vi/D2gVmGFa2wE/maxresdefault.jpg
+        audio_fade:                     true
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -1954,156 +2056,38 @@ settings:
         # title 01
         - item:
           enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Training Season
-          audio:                        watch?v=Op899TJjhfo
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Süss ist die Rache
           rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/Op899TJjhfo/maxresdefault.jpg
-          duration:                     "03:07"
+          start:                        "00:00:39"
+          end:                          "00:04:27"
+          duration:                     "00:03:48"
 
         # title 02
         - item:
           enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Houdini
-          audio:                        watch?v=RZTPR8xMtDo
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Non-stop Autostop
           rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/RZTPR8xMtDo/maxresdefault.jpg
-          duration:                     "02:26"
-  
+          start:                        "00:04:29"
+          end:                          "00:08:34"
+          duration:                     "00:04:05"
+
         # title 03
         - item:
           enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        One Kiss
-          audio:                        watch?v=xD4At1EtNyI
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Privatparkplatz
           rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/xD4At1EtNyI/maxresdefault.jpg
-          duration:                     "03:28"
-
-        # title 04
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        New Rules
-          audio:                        watch?v=C8Crqa8x5DY
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/C8Crqa8x5DY/maxresdefault.jpg
-          duration:                     "03:14"
-
-        # title 05
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Illusion
-          audio:                        watch?v=HmBEAifVbg0
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/HmBEAifVbg0/maxresdefault.jpg
-          duration:                     "03:14"
-
-        # title 06
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Scared to Be Lonely
-          audio:                        watch?v=UA8eyosefW8
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/UA8eyosefW8/maxresdefault.jpg
-          duration:                     "03:22"
-
-        # title 07
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Physical
-          audio:                        watch?v=37mzUbjx4UU
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/37mzUbjx4UU/maxresdefault.jpg
-          duration:                     "03:25"
-
-        # title 08
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Love Again
-          audio:                        watch?v=KAxnBIDdne0
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/KAxnBIDdne0/maxresdefault.jpg
-          duration:                     "03:25"
-
-        # title 09
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Break My Heart
-          audio:                        watch?v=clZy4xLJoGw
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/clZy4xLJoGw/maxresdefault.jpg
-          duration:                     "03:07"
-
-        # title 10
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        These Walls
-          audio:                        watch?v=iLnogjAn2iY
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/iLnogjAn2iY/maxresdefault.jpg
-          duration:                     "03:30"
-
-        # title 11
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        End of an Era
-          audio:                        watch?v=jbPzp0NTOyc
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
-          duration:                     "03:33"
-
-        # title 12
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Don't Start Now
-          audio:                        watch?v=AT2Lp8784dA
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/AT2Lp8784dA/maxresdefault.jpg
-          duration:                     "03:33"
-
-        # title 13
-        - item:
-          enabled:                      true
-          <<:                           *album_smooth_jazz_dua_lipa_yt
-          title:                        Levitating
-          audio:                        watch?v=sAUOWZQoH5Q
-          rating:                       3
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-          cover_image:                  //img.youtube.com/vi/sAUOWZQoH5Q/maxresdefault.jpg
-          duration:                     "02:48"
-
-        # title 14
-        # - item:
-        #   enabled:                      false
-        #   <<:                           *album_smooth_jazz_dua_lipa_yt
-        #   title:                        Sweetest Pie
-        #   audio:                        watch?v=xULkEz9fWbU
-        #   rating:                       3
-        #   audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-        #   cover_image:                  //img.youtube.com/vi/xULkEz9fWbU/maxresdefault.jpg
-        #   duration:                     "03:27"
+          start:                        "00:08:35"
+          end:                          "00:12:03"
+          duration:                     "00:03:38"
 
     # --------------------------------------------------------------------------
     #  Sherlock Holmes, Späte Rache
@@ -2120,10 +2104,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_sherlock_holmes_spaete_rache
         name:                           Sherlock Holmes
+        playlist:                       
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/sherlock-holmes-114.html
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2209,10 +2197,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_sherlock_holmes_kurzgeschichten
         name:                           Sherlock Holmes
+        playlist:                       
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/sherlock-holmes-114.html
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2314,10 +2306,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_gespenst_von_canterville
         name:                           Komödie von Oscar Wilde
+        playlist:                       
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //ardaudiothek.de/sendung/wdr-5-das-gespenst-von-canterville-hoerbuch/12823543/
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:173867dc06bdb893?w=448&ch=6cd67a7b15b148fe
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2379,10 +2375,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_paradies_der_damen
         name:                           Roman von Emile Zolas
+        playlist:                       
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //ardaudiothek.de/sendung/wdr-5-das-paradies-der-damen-hoerbuch/10378063/
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:552e4077b13dfb54?w=448&ch=72a75b44642fc04a
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2644,10 +2644,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_auf_der_spur_brunetti
         name:                           Auf der Spur
+        playlist:                       
         artist:                         Commissario Brunetti
         # audio_base:                   //cdn-storage.br.de
         audio_info:                     //ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:320b7ec068f6c8ea
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2757,10 +2761,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_auf_der_spur_detektive
         name:                           Auf der Spur
+        playlist:                       
         artist:                         Detektive
         # audio_base:                   //cdn-storage.br.de
         audio_info:                     //ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:320b7ec068f6c8ea
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2826,10 +2834,14 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_auf_der_spur_detektivinnen
         name:                           Auf der Spur
+        playlist:                       
         artist:                         Detektivinnen
         # audio_base:                   //cdn-storage.br.de
         audio_info:                     //ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:320b7ec068f6c8ea
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2936,6 +2948,218 @@ settings:
           duration:                     "00:54:14"
 
     # --------------------------------------------------------------------------
+    #  Smooth Jazz (Dua Lipa)
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             smooth_jazz_dua_lipa_yt
+      title:                            Dua Lipa
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_smooth_jazz_dua_lipa_yt
+        name:                           Dua Lipa
+        playlist:                       smooth_jazz_dua_lipa_yt
+        artist:                         Smooth Jazz Renditions
+        audio_base:                     //youtube.com
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Training Season
+          audio:                        watch?v=Op899TJjhfo
+          rating:                       4
+          start:                        false                                   # false | timestamp
+          end:                          false                                   # false | timestamp            
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/Op899TJjhfo/maxresdefault.jpg
+          duration:                     "03:07"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Houdini
+          audio:                        watch?v=RZTPR8xMtDo
+          rating:                       4
+          start:                        false
+          end:                          false
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/RZTPR8xMtDo/maxresdefault.jpg
+          duration:                     "02:26"
+  
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        One Kiss
+          audio:                        watch?v=xD4At1EtNyI
+          rating:                       4
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/xD4At1EtNyI/maxresdefault.jpg
+          duration:                     "03:28"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        New Rules
+          audio:                        watch?v=C8Crqa8x5DY
+          rating:                       3
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/C8Crqa8x5DY/maxresdefault.jpg
+          duration:                     "03:14"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Illusion
+          audio:                        watch?v=HmBEAifVbg0
+          rating:                       4
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/HmBEAifVbg0/maxresdefault.jpg
+          duration:                     "03:14"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Scared to Be Lonely
+          audio:                        watch?v=UA8eyosefW8
+          rating:                       3
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/UA8eyosefW8/maxresdefault.jpg
+          duration:                     "03:22"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Physical
+          audio:                        watch?v=37mzUbjx4UU
+          rating:                       3
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/37mzUbjx4UU/maxresdefault.jpg
+          duration:                     "03:25"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Love Again
+          audio:                        watch?v=KAxnBIDdne0
+          rating:                       4
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/KAxnBIDdne0/maxresdefault.jpg
+          duration:                     "03:25"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Break My Heart
+          audio:                        watch?v=clZy4xLJoGw
+          rating:                       3
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/clZy4xLJoGw/maxresdefault.jpg
+          duration:                     "03:07"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        These Walls
+          audio:                        watch?v=iLnogjAn2iY
+          rating:                       4
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/iLnogjAn2iY/maxresdefault.jpg
+          duration:                     "03:30"
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        End of an Era
+          audio:                        watch?v=jbPzp0NTOyc
+          rating:                       3
+          start:                        false
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
+          duration:                     "03:33"
+
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Don't Start Now
+          audio:                        watch?v=AT2Lp8784dA
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          # cover_image:                //img.youtube.com/vi/AT2Lp8784dA/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
+          duration:                     "03:33"
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_smooth_jazz_dua_lipa_yt
+          title:                        Levitating
+          audio:                        watch?v=sAUOWZQoH5Q
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          false          
+          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          # cover_image:                //img.youtube.com/vi/sAUOWZQoH5Q/maxresdefault.jpg
+          cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
+          duration:                     "02:48"
+
+        # # title 14 (kapott)
+        # - item:
+        #   enabled:                      false
+        #   <<:                           *album_smooth_jazz_dua_lipa_yt
+        #   title:                        Sweetest Pie
+        #   audio:                        watch?v=xULkEz9fWbU
+        #   rating:                       3
+        #   start:                        false
+        #   end:                          false
+        #   audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+        #   cover_image:                  //img.youtube.com/vi/xULkEz9fWbU/maxresdefault.jpg
+        #   duration:                     "03:27"
+
+    # --------------------------------------------------------------------------
     #  Smooth Jazz (Diana Krall)
     # --------------------------------------------------------------------------
     
@@ -2950,9 +3174,13 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_diana_krall_yt
         name:                           Diana Krall
+        playlist:                       diana_krall_yt
         artist:                         Smooth Jazz
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2963,9 +3191,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Cry Me A River · Live in Rio (2008)
+          title:                        Cry Me A River · Live in Rio
           audio:                        watch?v=cizgXSegrko
           rating:                       3
+          start:                        "00:00:10"                              # false | timestamp
+          end:                          false                                   # false | timestamp          
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
           duration:                     "06:07"
@@ -2974,9 +3204,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Walk On By · Live in Rio (2008)
+          title:                        Walk On By · Live in Rio
           audio:                        watch?v=yCwc-5YTBb0
           rating:                       3
+          start:                        "00:00:05"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
           duration:                     "05:10"
@@ -2985,9 +3217,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Este seu Olhar · Live in Rio (2008)
+          title:                        Este seu Olhar · Live in Rio
           audio:                        watch?v=okb8nIpuXgs
           rating:                       3
+          start:                        "00:00:10"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
           duration:                     "03:11"
@@ -2996,9 +3230,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        So Nice · Live in Rio (2008)
+          title:                        So Nice · Live in Rio
           audio:                        watch?v=LKaAS3ZxiKM
           rating:                       3
+          start:                        "00:00:03"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
           duration:                     "06:07"
@@ -3007,9 +3243,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Besame Mucho (2010)
+          title:                        Besame Mucho
           audio:                        watch?v=4uEl5Z5DEDw
-          rating:                       3
+          rating:                       4
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "06:07"
@@ -3018,9 +3256,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        When I look in your eyes (2009)
+          title:                        When I look in your eyes
           audio:                        watch?v=Hkke0UOJMB0
-          rating:                       3
+          rating:                       4
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "05:00"
@@ -3029,9 +3269,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Narrow Daylight (2010)
+          title:                        Narrow Daylight
           audio:                        watch?v=0XMZNI1qKh8
-          rating:                       3
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "03:29"
@@ -3040,9 +3282,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Quiet Nights Video (2010)
+          title:                        Quiet Nights
           audio:                        watch?v=LyHFY-gWLR4
           rating:                       3
+          start:                        "00:00:05"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "04:43"
@@ -3051,9 +3295,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        The Look Of Love (2010)
+          title:                        The Look Of Love
           audio:                        watch?v=Yr8xDSPjII8
-          rating:                       3
+          rating:                       4
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "03:50"
@@ -3062,9 +3308,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        You Go To My Head (2010)
+          title:                        You Go To My Head
           audio:                        watch?v=Mpq61KN2ShY
           rating:                       3
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "03:48"
@@ -3073,9 +3321,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        East Of The Sun (2010)
+          title:                        East Of The Sun
           audio:                        watch?v=jkk2mMq2x8E
           rating:                       3
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/jkk2mMq2x8E/maxresdefault.jpg
           duration:                     "04:10"
@@ -3084,9 +3334,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Almost Blue (2010)
+          title:                        Almost Blue
           audio:                        watch?v=_z7X8fbNIkI
           rating:                       3
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/_z7X8fbNIkI/maxresdefault.jpg
           duration:                     "03:59"
@@ -3095,9 +3347,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Temptation (2010)
+          title:                        Temptation
           audio:                        watch?v=pbej3bEnPfk
           rating:                       3
+          start:                        "00:00:06"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "04:37"
@@ -3106,9 +3360,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Maybe You'll Be There (2009)
+          title:                        Maybe You'll Be There
           audio:                        watch?v=dMsvBwvZ7U8
-          rating:                       3
+          rating:                       4
+          start:                        "00:00:04"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "05:26"
@@ -3117,9 +3373,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        A Blossom Fell (2010)
+          title:                        A Blossom Fell
           audio:                        watch?v=GBnWGAQQw1w
           rating:                       3
+          start:                        "00:00:04"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "05:14"
@@ -3128,9 +3386,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Boulevard of broken dreams (2012)
+          title:                        Boulevard of broken dreams
           audio:                        watch?v=J5fBxO5YL3Q
           rating:                       3
+          start:                        "00:00:04"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "06:21"
@@ -3139,9 +3399,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        How Can You Mend A Broken Heart (2010)
+          title:                        How Can You Mend A Broken Heart
           audio:                        watch?v=mG88b1qjWik
-          rating:                       3
+          rating:                       4
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "04:35"
@@ -3150,9 +3412,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Abandoned Masquerade (2012)
+          title:                        Abandoned Masquerade
           audio:                        watch?v=tHWusss1MHk
           rating:                       3
+          start:                        "00:00:04"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "05:22"
@@ -3161,9 +3425,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Is You Is Or Is You Ain't My Baby (2012)
+          title:                        Is You Is Or Is You Ain't My Baby
           audio:                        watch?v=m-_wewgy-Ls
           rating:                       3
+          start:                        false
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
           duration:                     "04:57"
@@ -3172,9 +3438,11 @@ settings:
         - item:
           enabled:                      true
           <<:                           *album_diana_krall_yt
-          title:                        Just The Way You Are (2010)
+          title:                        Just The Way You Are
           audio:                        watch?v=d8RYUZT57XA
-          rating:                       3
+          rating:                       4
+          start:                        "00:00:02"
+          end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/d8RYUZT57XA/maxresdefault.jpg
           duration:                     "04:01"

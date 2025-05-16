@@ -157,7 +157,7 @@ Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
 ====
 
 .Stundenhotel 2024
-amplitude::stundenhotel_2024_large[role="mt-4 mb-5"]
+amplitude::stundenhotel_2024_large[role="mb-5"]
 
 
 [role="mt-5"]
@@ -174,7 +174,7 @@ Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
 ====
 
 .Stundenhotel 2023
-amplitude::stundenhotel_2023_large[role="mt-4 mb-8"]
+amplitude::stundenhotel_2023_large[role="mb-8"]
 
 
 // [role="mt-5"]

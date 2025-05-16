@@ -284,6 +284,6 @@ Daher ist eine Internetverbindung zum Hören *zwingend* erforderlich.
 
 [role="mt-5 mb-5"]
 .Das Paradies der Damen · Gelesen von Regina Münch
-amplitude::paradies_der_damen_large[role="mt-4 mb-5"]
+amplitude::paradies_der_damen_large[role="mb-8"]
 
 
