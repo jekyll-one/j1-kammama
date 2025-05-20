@@ -22,6 +22,7 @@ image:
   height:                               720
 
 tts:                                    true
+compress:                               false
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
@@ -202,7 +203,7 @@ Halbfinale begeistert haben.
 Von kraftvollen Balladen bis hin zu einzigartigen Auftritten. Diese Acts
 schaffen die Bühne für eine unvergessliche Staffel.
 
-.Best Singers From Britain's Got Talent 2025
+.Best Singers From Britains Got Talent 2025
 youtube::RgBZAtILpHA[poster="//img.youtube.com/vi/RgBZAtILpHA/maxresdefault.jpg" role="mb-5"]
 
 lorem:sentences[5]

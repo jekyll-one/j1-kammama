@@ -22,6 +22,7 @@ image:
   height:                               1200
 
 tts:                                    true
+compress:                               false
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false

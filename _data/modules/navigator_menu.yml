@@ -148,9 +148,10 @@
         - title:                        Waisenhaus für wilde Tiere
           href:                         /pages/public/video/serien/harnas/
           icon:                         filmstrip
-        - title:                        Was wir fürchten
-          href:                         /pages/public/video/serien/was-wir-fuerchten/
-          icon:                         filmstrip
+
+        # - title:                        Was wir fürchten
+        #   href:                         /pages/public/video/serien/was-wir-fuerchten/
+        #   icon:                         filmstrip
 
     - title:                            Musik
       icon:                             video
@@ -190,9 +191,9 @@
       icon:                             video
       dropdown:
 
-        - title:                        Hape Kerkeling
-          href:                         /pages/public/video/comedy/kerkeling/
-          icon:                         filmstrip
+        # - title:                        Hape Kerkeling
+        #   href:                         /pages/public/video/comedy/kerkeling/
+        #   icon:                         filmstrip
 
         - title:                        Horst Evers
           href:                         /pages/public/video/comedy/evers/

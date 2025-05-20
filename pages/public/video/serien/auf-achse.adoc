@@ -160,9 +160,9 @@ kann das die Länder, Menschen und Kulturen so sind - wie sie sind.
 gallery::auf_achse_s01[role="mt-4 mb-4"]
 
 
-[role="mt-5"]
-[[zweite-staffel]]
-== Zweite Staffel (1983/84)
+// [role="mt-5"]
+// [[zweite-staffel]]
+// == Zweite Staffel (1983/84)
 
 // Videos created by a digicam or a mobile can be played by J1 Template using
 // the lightGallery integration. Present videos you have made at it's best.
@@ -171,8 +171,8 @@ gallery::auf_achse_s01[role="mt-4 mb-4"]
 // gallery::jg_video_html5[role="mt-4 mb-5"]
 
 
-[role="mb-7"]
-In Vorbereitung.
+// [role="mb-7"]
+// In Vorbereitung.
 
 // .Staffel 2
 // gallery::auf_achse_s02[role="mt-5 mb-4"]

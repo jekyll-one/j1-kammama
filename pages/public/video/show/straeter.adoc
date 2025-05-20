@@ -23,6 +23,7 @@ image:
   height:                               720
 
 tts:                                    true
+compress:                               false
 fab_menu_id:                            open_toc
 comments:                               false
 regenerate:                             false
@@ -91,66 +92,58 @@ Internetverbindung zum Ansehen der Videos *zwingend* erforderlich.
 ====
 
 
-[role="mt-5"]
-[[straeter-marc-uwe-kling]]
-== Abend mit Autor Marc-Uwe Kling
+// [role="mt-5"]
+// [[straeter-marc-uwe-kling]]
+// == Abend mit Marc-Uwe Kling
 
-Sexualität ist so ein Thema. Eltern werden im Laufe der Zeit sehrwohl zu
-Spezialisten in Fragen der Erziehung. Dennoch sind Eltern keine Pädagogen.
+// Sexualität ist so ein Thema. Eltern werden im Laufe der Zeit sehrwohl zu
+// Spezialisten in Fragen der Erziehung. Dennoch sind Eltern keine Pädagogen.
 
-Wenn es um Wissen geht, dass man seinen Kindern zu Themen der Sexualität
-vermitteln möchte (oder muss), kann das auch gewaltig schiefgehen. Sehen Sie
-einen amüsanten Rohrkrepierer zum Thema *Aufklärung*. Gelesen von Marc-Uwe Kling
-und Torsten Sträter.
+// Wenn es um Wissen geht, dass man seinen Kindern zu Themen der Sexualität
+// vermitteln möchte (oder muss), kann das auch gewaltig schiefgehen. Sehen Sie
+// einen amüsanten Rohrkrepierer zum Thema *Aufklärung*. Gelesen von Marc-Uwe Kling
+// und Torsten Sträter.
 
-.Gast Marc-Uwe Kling
-// videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/282/2823650/2823650_48912942.mp4[start="00:32:30" poster="/assets/video/gallery/straeter-marc-uwe-kling.jpg" role="mt-4 mb-5"]
-youtube::YT-AFO8Em_8[start="00:43:42" poster="/assets/video/gallery/straeter-marc-uwe-kling.jpg" role="mt-4 mb-5"]
-
+// .Gast Autor Marc-Uwe Kling
+// youtube::YT-AFO8Em_8[start="00:43:42" poster="/assets/video/gallery/straeter-marc-uwe-kling.jpg" role="mb-5"]
 
 [role="mt-5"]
 [[straeter-laura-wotorra]]
-== Abend mit Moderation Laura Wontorra
+== Abend mit Laura Wontorra
 
 Laura Wontorra erzählt Torsten Stäter über ihre Karriere, Kochkünste und über
 Lampenfieber. Gemeinsam kommentieren sie sportliche Wettkämpfe der etwas
 anderen Art.
 
-.Gast Laura Wotorra
-videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/310/3104436/3104436_57034391.mp4[start="00:04:00" poster="/assets/video/gallery/straeter-laura-wontorra.jpg" role="mt-4 mb-5"]
-// youtube::dISStyvJDCA[start="00:04:00" poster="/assets/video/gallery/straeter-laura-wontorra.jpg" role="mt-4 mb-5"]
+.Gast Moderation Laura Wotorra
+videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/310/3104436/3104436_57034391.mp4[start="00:04:00" poster="/assets/video/gallery/straeter-laura-wontorra.jpg" role="mb-5"]
+// youtube::dISStyvJDCA[start="00:04:00" poster="/assets/video/gallery/straeter-laura-wontorra.jpg" role="mb-5"]
 
 
 [role="mt-5"]
 [[straeter-wladimir-kaminer]]
-== Abend mit Autor Wladimir Kaminer
+== Abend mit Wladimir Kaminer
 
 Zu Gast ist der Schriftsteller Wladimir Kaminer. Die beiden präsentieren
 ungewöhnliche (lokal) Nachrichten aus aller Welt.
 
-.Gast Wladimir Kaminer
-// videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2921065/2921065_51538185.mp4[start="00:04:10" poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mt-4 mb-5"]
-youtube::Z6MzsZXhMZs[poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mt-4 mb-5"]
+.Gast Autor Wladimir Kaminer
+youtube::Z6MzsZXhMZs[poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mb-5"]
 
 
 [role="mt-5"]
 [[straeter-ralph-ruthe]]
-== Abend mit Cartoonist Ralph Ruthe
+== Abend mit Ralph Ruthe
 
 Zu Gast ist der Zeichner und Cartoonist Ralph Ruthe. Lustige Sprüche,
 nostalgische Texte und brillante *Cartoons* von Ralph Ruthe.
 
-.Gast Ralph Ruthe
-videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2925505/2925505_51633160.mp4[start="00:03:00" poster="/assets/video/gallery/straeter-ralph-ruthe.jpg" role="mt-4 mb-5"]
+.Gast Cartoonist Ralph Ruthe
+videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2925505/2925505_51633160.mp4[start="00:03:00" poster="/assets/video/gallery/straeter-ralph-ruthe.jpg" role="mb-5"]
 
 
 [role="mt-5"]
-== Rubriken
-
-lorem:sentences[5]
-
-[role="mt-4"]
-=== Tino Bomelino
+== Tino Bomelino
 
 Comedian Tino Bomelino, im *richtigen* Leben _Tino Hartmann_ (geboren 1985 in
 Ost-Berlin), ist eigentlich studierter Informatiker (Universität Stuttgart).
@@ -175,21 +168,21 @@ von Freunden: Gut gemeint, aber ...
 
 [role="mt-5"]
 [[tino-bomelino-unsterblichkeit]]
-==== Unsterblichkeit
-//Wie werde ich unsterblich? – Tino Bomelino | STRÄTER Folge 20
+=== Unsterblichkeit
+// Wie werde ich unsterblich? – Tino Bomelino | STRÄTER Folge 20
 
 Tino Bomelino erklärt, was alles anders wäre, wären wir unsterblich. Und gibt
 wertvolle Ratschläge, wenn es soweit ist.
 
 Tino sagt: Sollte man wissen, bevor es soweit ist.
 
-.Tino Bomelino · Unsterblichkeit
-videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/310/3104436/3104436_57034391.mp4[start="00:33:20" poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
-//youtube::7HdwlymdK-U[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
+.Tino Bomelino · Tipps für Unsterblichkeit
+youtube::7HdwlymdK-U[poster="//img.youtube.com/vi/7HdwlymdK-U/maxresdefault.jpg" role="mb-5"]
+
 
 [role="mt-5"]
 [[tino-bomelino-hobbys]]
-==== Beliebte Hobbys
+=== Beliebte Hobbys
 
 Tino Bomelino präsentiert die beliebtesten Hobbys. Falls jemand noch kein
 Hobby hat und eines sucht, kann diese Präsentation bei der Suche nach
@@ -198,12 +191,12 @@ einem geeigneten Hobby helfen.
 Hobby finden mit Tino - oder auch nicht.
 
 .Tino Bomelino · Die beliebtesten Hobbys
-videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2921065/2921065_51538185.mp4[start="00:34:49" poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
+videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2921065/2921065_51538185.mp4[start="00:34:49" poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mb-5"]
 
 [role="mt-5"]
 [[tino-bomelino-erfolgs-kurs]]
-==== Erfolgs-Kurs
-//Tino Bomelino stellt seinen Erfolgskurs vor! | STRÄTER Folge 19
+=== Erfolgs-Kurs
+// Tino Bomelino stellt seinen Erfolgskurs vor! | STRÄTER Folge 19
 
 Tino Bomelino präsentiert wie man sein Leben optimieren kann. Ein Thema das
 sicher viele beschäftigt. Zeit ist Geld, das Konzept des GlobalTurbo für das
@@ -214,13 +207,12 @@ machen? Der absolut falsche Weg!
 Tino erklärt, wie Erfolg richtig geht.
 
 .Tino Bomelino · Erfolgs-Kurs
-videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/292/2925505/2925505_51633160.mp4[start="00:33:18" poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
-// youtube::gGdzc1Pwfps[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
+youtube::gGdzc1Pwfps[poster="//img.youtube.com/vi/gGdzc1Pwfps/maxresdefault.jpg" role="mb-5"]
 
 [role="mt-5"]
 [[tino-bomelino-unklare-gegenteile]]
-==== Unklare Gegenteile
-//Ausschnitt aus STRÄTER Folge 23 vom 26.10.2023.
+=== Unklare Gegenteile
+// Ausschnitt aus STRÄTER Folge 23 vom 26.10.2023.
 
 Wissen ist Macht; dass weis wohl jeder. Würde es Warnhinweise für die
 Präsentation von Tino Bomelino geben, dann vielleicht soetws: Kann Teile
@@ -231,12 +223,12 @@ aber schon wichtig sein können.
 Lernen für's Leben mit Tino.
 
 .Tino Bomelino · Unklare Gegenteile
-youtube::SxiubinEdfs[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
+youtube::SxiubinEdfs[poster="//img.youtube.com/vi/SxiubinEdfs/maxresdefault.jpg" role="mb-5"]
 
 [role="mt-5"]
 [[tino-bomelino-unnötige-superhelden]]
-==== Unnötige Superhelden
-//Tino Bomelino stellt unnötige Superhelden vor | STRÄTER Folge 21
+=== Unnötige Superhelden
+// Tino Bomelino stellt unnötige Superhelden vor | STRÄTER Folge 21
 
 Was kann die *Enten-Frau*? Wie kommuniziert *Telepathio*? Warum kommt
 die *Teleportier-Frau* immer zu spät? Und was findet *Super-Mann* nicht
@@ -245,12 +237,12 @@ super?
 Thema Superhelden unklar? Tino gibt Antworten.
 
 .Tino Bomelino · Unnötige Superhelden
-youtube::Is4R8H0dtlA[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
+youtube::Is4R8H0dtlA[poster="//img.youtube.com/vi/Is4R8H0dtlA/maxresdefault.jpg" role="mb-5"]
 
 [role="mt-5"]
 [[tino-bomelino-geschäftsideen]]
-==== Geschäftsideen
-//Tino Bomelino – Geschäftsideen für Torsten Sträter & Harald Schmidt | STRÄTER Folge 22
+=== Geschäftsideen
+// Tino Bomelino – Geschäftsideen für Torsten Sträter & Harald Schmidt | STRÄTER Folge 22
 
 Käse mit Pizza im Rand, ein Ausmalbuch für Erwachsene. Eine Tiervermietung und
 ein Pyramiden-Bastelplan, der dich und deine Freunde garantiert nicht in ein
@@ -260,7 +252,6 @@ Selbständigkeit auf die man nicht (unbedingt) kommt.
 Durchstarten im eigenen Business - mit Tino.
 
 .Tino Bomelino · Geschäftsideen
-youtube::yQ1jeCUmV0c[poster="/assets/video/gallery/straeter-tino-bomelino.jpg" role="mt-4 mb-5"]
+youtube::yQ1jeCUmV0c[poster="//img.youtube.com/vi/yQ1jeCUmV0c/maxresdefault.jpg" role="mb-8"]
 
-[role="mb-7"]
-lorem:sentences[5]
+

@@ -180,7 +180,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -213,7 +213,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -246,7 +246,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -279,7 +279,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -311,7 +311,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -343,7 +343,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -375,7 +375,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -407,7 +407,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -439,7 +439,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLUGIN settings
@@ -571,7 +571,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLUGIN settings
@@ -613,7 +613,7 @@ settings:
       forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLUGIN settings
@@ -734,7 +734,7 @@ settings:
       forward_backward_skip_seconds:    15
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLUGIN settings
@@ -772,7 +772,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -803,7 +803,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -834,7 +834,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -865,7 +865,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -896,7 +896,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -928,7 +928,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -959,7 +959,7 @@ settings:
       skip_forward_backward_button:     true
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
@@ -994,7 +994,7 @@ settings:
       forward_backward_skip_seconds:    15
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLUGIN settings
