@@ -20,7 +20,7 @@ categories:                             [ Video ]
 tags:                                   [ TV Serie, Trucker Epos ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/auf-achse.png
+  path:                                 /assets/image/module/attic/1920x1280/auf-achse.png
   width:                                1920
   height:                               1200
 
@@ -40,7 +40,7 @@ resource_options:
   - attic:
       padding_top:                      550
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/auf-achse.png
+        - url:                          /assets/image/module/attic/1920x1280/auf-achse.png
           alt:                          Auf Achse
 ---
 

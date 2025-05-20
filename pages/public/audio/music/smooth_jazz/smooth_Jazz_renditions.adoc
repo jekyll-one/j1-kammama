@@ -19,7 +19,7 @@ categories:                             [ Audio ]
 tags:                                   [ Musik, Smooth Jazz ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/alice-donovan-rouse-2.jpg
+  path:                                 /assets/image/module/attic/1920x1280/alice-donovan-rouse-2.jpg
   width:                                1920
   height:                               1280
 
@@ -35,7 +35,7 @@ resource_options:
         brightness:                     0.7  
       padding_top:                      650
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/alice-donovan-rouse-3.jpg
+        - url:                          /assets/image/module/attic/1920x1280/alice-donovan-rouse-3.jpg
           alt:                          alice-donovan-rouse
           badge:
             type:                       unsplash

@@ -1698,13 +1698,10 @@ settings:
         artist:                         Maritim Verlag
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
-        audio_fade:                     true
-        audio_single:                   false
-        shuffle:                        false
 
       # ------------------------------------------------------------------------
-      # TITLE settings (songs)
-      # ------------------------------------------------------------------------
+      # Playlist Items (Songs)
+      #
       items:
 
         # title 01
@@ -1724,7 +1721,7 @@ settings:
           <<:                           *album_mimi_rutherfurt_yt
           title:                        Nacht-Express
           audio:                        watch?v=I4VTc8nQxDs
-          rating:                       3
+          rating:                       4
           audio_info:                   //youtube.com/watch?v=I4VTc8nQxDs
           cover_image:                  //img.youtube.com/vi/I4VTc8nQxDs/maxresdefault.jpg
           duration:                     "00:59:35"
@@ -1757,7 +1754,7 @@ settings:
           <<:                           *album_mimi_rutherfurt_yt
           title:                        Buckingham Palace
           audio:                        watch?v=ce_8ez1rFP0
-          rating:                       3
+          rating:                       2
           audio_info:                   //youtube.com/watch?v=ce_8ez1rFP0
           cover_image:                  //img.youtube.com/vi/ce_8ez1rFP0/maxresdefault.jpg
           duration:                     "01:09:14"
@@ -1818,6 +1815,461 @@ settings:
           duration:                     "01:19:16"
 
     # --------------------------------------------------------------------------
+    # Manon Mélodie
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             manon_melodie_yt
+      title:                            Manon Mélodie
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_manon_melodie_yt
+        name:                           YouTube 2025
+        playlist:                       manon_melodie_yt
+        artist:                         Manon Mélodie
+        audio_base:                     //youtube.com
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        En Volant Haut                          # Hoch hinaus (fliegen)
+          audio:                        watch?v=5NiMGeQOzKQ
+          rating:                       2
+          # start:                        false                                   # timestamp | false
+          # end:                          false                                   # timestamp | false
+          # start:                        "00:00:30"
+          # end:                          "00:00:40"
+          # start:                        "00:01:20"
+          # end:                          "00:01:50"
+          start:                        "00:01:00"
+          end:                          "00:02:00"
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/5NiMGeQOzKQ/maxresdefault.jpg
+          duration:                     "02:47"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        Anno du Soleil                          # Jahr der Sonne
+          audio:                        watch?v=pCXSGCBSIG0
+          rating:                       4
+          start:                        "00:01:20"
+          end:                          "00:02:20"
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/pCXSGCBSIG0/maxresdefault.jpg
+          duration:                     "02:53"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        La Fête du cœur                         # Fest des Herzens
+          audio:                        watch?v=fFn1GZIYC4Y
+          rating:                       3
+          start:                        "00:01:00"
+          end:                          "00:02:00"
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/fFn1GZIYC4Y/maxresdefault.jpg
+          duration:                     "02:32"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        Fleur de Printemps                      # Frühlingsblume
+          audio:                        watch?v=OUjHRpNUqyw
+          rating:                       3
+          start:                        "00:01:20"
+          end:                          "00:02:20"          
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/OUjHRpNUqyw/maxresdefault.jpg
+          duration:                     "02:57"
+
+        # # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        Cote d'Azur                             # Cote d'Azur
+          audio:                        watch?v=9Z9yNpsiBKs
+          rating:                       3
+          start:                        "00:01:00"
+          end:                          "00:02:00"
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/9Z9yNpsiBKs/maxresdefault.jpg
+          duration:                     "02:42"
+
+        # # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        Les Échos du Passé                      # Echos der Vergangenheit          
+          audio:                        watch?v=_EYc5W3qy4s
+          rating:                       4
+          start:                        "00:01:20"
+          end:                          "00:02:20"         
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/_EYc5W3qy4s/maxresdefault.jpg
+          duration:                     "03:02"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        Les Souvenirs                           # Erinnerungen
+          audio:                        watch?v=i8ltW0WDcdQ
+          rating:                       4
+          start:                        "00:00:30"
+          end:                          "00:00:30"
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/i8ltW0WDcdQ/maxresdefault.jpg
+          duration:                     "02:19"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_manon_melodie_yt
+          title:                        La Vie en Dance                         # Leben im Tanz
+          audio:                        watch?v=yttS9UNgZFk
+          rating:                       4
+          start:                        "00:01:20"
+          end:                          "00:01:50"
+          audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
+          cover_image:                  //img.youtube.com/vi/yttS9UNgZFk/maxresdefault.jpg
+          duration:                     "02:45"
+
+    # --------------------------------------------------------------------------
+    # Bea and her Business
+    # https://www.beaandher.business/
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             bea_yt
+      title:                            Bea and her Business
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_bea_yt
+        name:                           YouTube 2025
+        playlist:                       bea_yt
+        artist:                         Bea and her Business
+        audio_base:                     //youtube.com
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        shuffle:                        false
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Safety Net (Official Video)
+          audio:                        watch?v=fTXrSVzkIXI
+          rating:                       5
+          start:                        "00:00:03"                              # false | timestamp
+          end:                          "00:03:20"                              # false | timestamp
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/fTXrSVzkIXI/maxresdefault.jpg
+          duration:                     "03:26"
+
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Good Things
+          audio:                        watch?v=dM7CmIHwJnU
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          "00:02:56"
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/dM7CmIHwJnU/maxresdefault.jpg
+          duration:                     "02:58"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Me Against My Head
+          audio:                        watch?v=bvXV4pfIzog
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          "00:03:14"
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/dM7CmIHwJnU/maxresdefault.jpg
+          duration:                     "03:21"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Never Ever Love a Liar (Live Session)
+          audio:                        watch?v=npctqyR5ZdU
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          false # "00:02:50"
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/npctqyR5ZdU/maxresdefault.jpg
+          duration:                     "02:53"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Smoking Lessons (Live Session)
+          audio:                        watch?v=DMxz1Sp8RPA
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/DMxz1Sp8RPA/maxresdefault.jpg
+          duration:                     "02:58"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Too Loud (And That's The Way I'm Going Out)
+          audio:                        watch?v=PcDCR8s0IU4
+          rating:                       4
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/PcDCR8s0IU4/maxresdefault.jpg
+          duration:                     "02:58"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        We're Not The Same
+          audio:                        watch?v=915zXRLgirM
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/915zXRLgirM/maxresdefault.jpg
+          duration:                     "03:16"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Born To Be Alive
+          audio:                        watch?v=hu8VcmkM0yI
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/hu8VcmkM0yI/maxresdefault.jpg
+          duration:                     "02:37"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        If I Was A God
+          audio:                        watch?v=eVcXzVMKf0I
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/eVcXzVMKf0I/maxresdefault.jpg
+          duration:                     "02:55"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Safety Net (Cry in your bed version)
+          audio:                        watch?v=W5uafrpOZ6M
+          rating:                       5
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/W5uafrpOZ6M/maxresdefault.jpg
+          duration:                     "02:55"
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Rich
+          audio:                        watch?v=gyquo0Z6ngY
+          rating:                       2
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/gyquo0Z6ngY/maxresdefault.jpg
+          duration:                     "02:31"
+
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        The Scientist
+          audio:                        watch?v=UXMMm3CdRdI
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/UXMMm3CdRdI/maxresdefault.jpg
+          duration:                     "02:31"
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Sunburnt Shoulders
+          audio:                        watch?v=6-B2hDMR7S0
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/6-B2hDMR7S0/maxresdefault.jpg
+          duration:                     "02:31"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        Nightmare Being 19 
+          audio:                        watch?v=s74aKArgOvU
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/s74aKArgOvU/maxresdefault.jpg
+          duration:                     "02:31"
+
+        # title 15
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        WOW!
+          audio:                        watch?v=R0UJgMJJaio
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/R0UJgMJJaio/maxresdefault.jpg
+          duration:                     "02:50"
+
+        # title 16
+        - item:
+          enabled:                      true
+          <<:                           *album_bea_yt
+          title:                        All The Boys
+          audio:                        watch?v=ffjNBbYa_oA
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
+          cover_image:                  //img.youtube.com/vi/ffjNBbYa_oA/maxresdefault.jpg
+          duration:                     "02:50"
+
+    # --------------------------------------------------------------------------
+    # Emancipator - Royalty Free Music
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             emancipator
+      title:                            Emancipator
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_from_dusk_to_dawn
+        name:                           From Dusk To Dawn
+        playlist:                       emancipator
+        artist:                         Emancipator
+        audio_base:                     /assets/audio/album/emancipator/from-dusk-to-dawn
+        cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_fade_in:                  true
+        audio_fade_out:                 true
+
+      # ------------------------------------------------------------------------
+      # Playlist Items (Songs)
+      #
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        First Snow
+          rating:                       2
+          start:                        false                                   # "00:01:00"
+          end:                          false                                   # "00:01:10"
+          audio:                        FirstSnow.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/soon-it-will-be-cold-enough.jpg
+          duration:                     "00:05:12"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        From Dusk To Dawn
+          rating:                       3
+          start:                        false                                   # "00:00:30"
+          end:                          false                                   # "00:00:40"
+          audio:                        DuskToDawn.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/from-dusk-to-dawn.jpg
+          duration:                     "00:05:25"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        Anthem
+          rating:                       3
+          start:                        false                                   # "00:00:30"
+          end:                          false                                   # "00:00:40"          
+          audio:                        Anthem.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/anthem.jpg
+          duration:                     "00:05:40"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_from_dusk_to_dawn
+          title:                        Safe In The Steep Cliffs
+          rating:                       3
+          start:                        false                                   # "00:00:30"
+          end:                          false                                   # "00:00:40"
+          audio:                        SafeInTheSteepCliffs.mp3
+          audio_info:                   //emancipator.bandcamp.com/
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/safe-in-the-steep-cliffs.jpg
+          duration:                     "00:04:35"
+
+    # --------------------------------------------------------------------------
     #  Ephraim Kishon, Beste Familiengeschichten
     # --------------------------------------------------------------------------
     #
@@ -1834,9 +2286,8 @@ settings:
         name:                           Ephraim Kishon
         playlist:                       ephraim_kishon_beste_familiengeschichten_yt
         artist:                         Beste Familiengeschichten
-        audio_single:                   true
-        audio_fade:                     false
         audio:                          watch?v=9LojTw98Fks
+        audio_fade:                     false
         audio_base:                     //youtube.com
         audio_info:                     //youtube.com/watch?v=9LojTw98Fks
         cover_image:                    //img.youtube.com/vi/9LojTw98Fks/maxresdefault.jpg
@@ -2043,10 +2494,9 @@ settings:
         name:                           Ephraim Kishon
         playlist:                       ephraim_kishon_beste_autofahrer_geschichten_yt
         artist:                         Beste Familiengeschichten
-        audio_single:                   true
+        audio_fade:                     false
         audio_base:                     //youtube.com
         cover_image:                    //img.youtube.com/vi/D2gVmGFa2wE/maxresdefault.jpg
-        audio_fade:                     true
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2087,6 +2537,210 @@ settings:
           rating:                       3
           start:                        "00:08:35"
           end:                          "00:12:03"
+          duration:                     "00:03:38"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Der letzte Schrei der Medien
+          rating:                       3
+          start:                        "00:12:05"
+          end:                          "00:19:54"
+          duration:                     "00:03:38"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        In den Händen der Chauvinisten
+          rating:                       3
+          start:                        "00:19:55"
+          end:                          "00:29:47"
+          duration:                     "00:03:38"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Ein Parasit fährt mit
+          rating:                       3
+          start:                        "00:19:55"
+          end:                          "00:37:57"
+          duration:                     "00:03:38"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Die Gefahren der guten Kinderstube
+          rating:                       3
+          start:                        "00:37:58"
+          end:                          "00:41:31"
+          duration:                     "00:03:38"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Jede Münze hat zwei Seiten
+          rating:                       3
+          start:                        "00:37:58"
+          end:                          "00:52:17"
+          duration:                     "00:03:38"
+
+        # title 09
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Das Werkstatt-Kabaret
+          rating:                       3
+          start:                        "00:52:19"
+          end:                          "00:55:28"
+          duration:                     "00:03:38"
+
+        # title 10
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=D2gVmGFa2wE
+          audio_info:                   //youtube.com/watch?v=D2gVmGFa2wE
+          title:                        Busfahren ist gefährlich
+          rating:                       3
+          start:                        "00:55:30"
+          end:                          "00:59:20"
+          duration:                     "00:03:38"
+
+        # title 11
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Ein Profi am Steuer
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false                                   # "00:03:12"
+          duration:                     "00:03:38"
+
+        # title 12
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Amtshandlung mit menschlichen Zügen
+          rating:                       3
+          start:                        "00:03:14"
+          end:                          false                                   # "00:06:04"
+          duration:                     "00:03:38"
+
+        # title 13
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Freund in der Not
+          rating:                       3
+          start:                        "00:06:05"
+          end:                          false
+          duration:                     "00:03:38"
+
+        # title 14
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Fernsehen hat vorrang
+          rating:                       3
+          start:                        "00:08:48"
+          end:                          false
+          duration:                     "00:03:38"
+
+        # title 15
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Parkplatz-Safari
+          rating:                       3
+          start:                        "00:16:51"
+          end:                          false
+          duration:                     "00:03:38"
+
+        # title 16
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Gottes Hand und Josseles Fuß
+          rating:                       3
+          start:                        "00:22:38"
+          end:                          false
+          duration:                     "00:03:38"
+
+        # title 17
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Ein vierbeiniger Autofan
+          rating:                       3
+          start:                        "00:29:13"
+          end:                          false
+          duration:                     "00:03:38"
+
+        # title 18
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Wir gehen in den Untergrund
+          rating:                       3
+          start:                        "00:38:29"
+          end:                          false
+          duration:                     "00:03:38"
+
+        # title 19
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Autofahren ist gesund
+          rating:                       3
+          start:                        "00:44:17"
+          end:                          false
+          duration:                     "00:03:38"
+
+        # title 20
+        - item:
+          enabled:                      true
+          <<:                           *album_ephraim_kishon_beste_autofahrer_geschichten_yt
+          audio:                        watch?v=zBSlRSGp5N4
+          audio_info:                   //youtube.com/watch?v=zBSlRSGp5N4
+          title:                        Und am Ende steht die Parklaterne
+          rating:                       3
+          start:                        "00:48:42"
+          end:                          false
           duration:                     "00:03:38"
 
     # --------------------------------------------------------------------------

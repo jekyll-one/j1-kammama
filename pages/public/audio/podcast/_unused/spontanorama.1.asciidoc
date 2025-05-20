@@ -19,7 +19,7 @@ categories:                             [ Podcast ]
 tags:                                   [ Impro, Ralf Schmitz ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/spontanorama.png
+  path:                                 /assets/image/module/attic/1920x1280/spontanorama.png
   width:                                1920
   height:                               1200
 
@@ -37,7 +37,7 @@ resource_options:
 #     opacity:                          0.5
       padding_top:                      650
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/spontanorama.jpg
+        - url:                          /assets/image/module/attic/1920x1280/spontanorama.jpg
           alt:                          SpontanOrama
 ---
 

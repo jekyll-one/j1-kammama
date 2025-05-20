@@ -30,6 +30,135 @@ settings:
   players:
 
     # --------------------------------------------------------------------------
+    # LARGE player, Manon Melodie
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #    
+      enabled:                          true
+
+      id:                               manon_melodie_yt_large
+      type:                             large
+      source:                           video
+      display_hours:                    false
+      audio_fade_in:                    true
+      audio_fade_out:                   true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    10
+      volume_slider:
+        enabled:                        true
+        preset_value:                   50
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #      
+      playlist:
+        name:                           manon_melodie_yt
+        title:                          Manon Mélodie
+        audio_info:                     true
+        audio_rating:                   true
+        shuffle:                        true
+        controls:                       false                                   # currently NOT supported for YTP
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Bea and her Business
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #    
+      enabled:                          true
+
+      id:                               bea_yt_large
+      type:                             large
+      source:                           video
+      display_hours:                    false
+      audio_fade_in:                    true
+      audio_fade_out:                   true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    10
+      volume_slider:
+        enabled:                        true
+        preset_value:                   50
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #      
+      playlist:
+        name:                           bea_yt
+        title:                          Bea and her Business
+        audio_info:                     true
+        audio_rating:                   true
+        shuffle:                        true
+        controls:                       false
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Emancipator
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      # ------------------------------------------------------------------------
+      # TIME settings
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   50
+
+      # ------------------------------------------------------------------------
+      # PLAYER settings
+      #
+      id:                               emancipator_large
+      type:                             large
+      audio_info:                       true
+      audio_rating:                     true
+
+      playlist:
+        name:                           emancipator
+        title:                          Emancipator
+        controls:                       false
+
+    # --------------------------------------------------------------------------
     # WDR 2 Comedy, Jünter erklärt LARGE player
     # --------------------------------------------------------------------------
     #
@@ -94,7 +223,6 @@ settings:
         title:                          History Hautnah
         audio_info:                     true
         audio_rating:                   true
-
 
     # --------------------------------------------------------------------------
     # Spontanorama 2025, LARGE player
@@ -290,47 +418,6 @@ settings:
         audio_info:                     true
         audio_rating:                   true
 
-    # --------------------------------------------------------------------------
-    # LARGE player, Mimi Rutherfurt
-    # --------------------------------------------------------------------------
-    #
-    - player:
-
-      # ------------------------------------------------------------------------
-      # GENERAL settings
-      #     
-      enabled:                          true
-
-      id:                               mimi_rutherfurt_yt_large
-      type:                             large
-      source:                           video
-      display_hours:                    true
-
-      # ------------------------------------------------------------------------
-      # CONTROL settings
-      #
-      song_progress_bar:                true
-      skip_forward_backward_button:     true
-      forward_backward_skip_seconds:    60
-      volume_slider:
-        enabled:                        true
-        preset_value:                   46
-
-      # ------------------------------------------------------------------------
-      # PLUGIN settings
-      #
-      plugin_manager:
-        enabled:                        true
-        plugins:                        [ ytp ]
-
-      # ------------------------------------------------------------------------
-      # PLAYLIST settings
-      #
-      playlist:
-        name:                           mimi_rutherfurt_yt
-        title:                          Mimi Rutherfurt
-        audio_info:                     true
-        audio_rating:                   true     
 
 
 
@@ -369,7 +456,6 @@ settings:
         title:                          Ephraim Kishon
         audio_info:                     true
         audio_rating:                   true     
-
 
     # --------------------------------------------------------------------------
     # LARGE player, Ephraim Kishon - Beste Familiengeschichten
@@ -546,7 +632,7 @@ settings:
         audio_rating:                   true 
 
     # --------------------------------------------------------------------------
-    # LARGE player, Fien Feldman - Xerox
+    # LARGE player, Mimi Rutherfurt
     # --------------------------------------------------------------------------
     #
     - player:
@@ -556,9 +642,9 @@ settings:
       #     
       enabled:                          true
 
-      id:                               xerox_yt_large
+      id:                               mimi_rutherfurt_yt_large
       type:                             large
-      # source:                           audio
+      source:                           video
       display_hours:                    false
 
       # ------------------------------------------------------------------------
@@ -566,26 +652,63 @@ settings:
       #
       song_progress_bar:                true
       skip_forward_backward_button:     true
-      forward_backward_skip_seconds:    60
+      forward_backward_skip_seconds:    30
       volume_slider:
         enabled:                        true
-        preset_value:                   46
+        preset_value:                   50
 
       # ------------------------------------------------------------------------
       # PLUGIN settings
       #
-      # plugin_manager:
-      #   enabled:                        false
-      #   plugins:                        [ ytp ]
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
 
       # ------------------------------------------------------------------------
       # PLAYLIST settings
       #
       playlist:
-        name:                           xerox_2024
-        title:                          Fien Feldman
+        name:                           mimi_rutherfurt_yt
+        title:                          Mimi Rutherfurt
         audio_info:                     true
-        audio_rating:                   true 
+        audio_rating:                   true     
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Emancipator
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      # ------------------------------------------------------------------------
+      # TIME settings
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      volume_slider:
+        enabled:                        true
+        preset_value:                   50
+
+      # ------------------------------------------------------------------------
+      # PLAYER settings
+      #
+      id:                               emancipator_large
+      type:                             large
+      audio_info:                       true
+      audio_rating:                     true
+
+      playlist:
+        name:                           emancipator
+        title:                          Emancipator
+        controls:                       false
 
     # --------------------------------------------------------------------------
     # LARGE player, Smooth Jazz (Dua Lipa)

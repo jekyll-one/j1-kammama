@@ -19,7 +19,7 @@ categories:                             [ Audio ]
 tags:                                   [ Podcast, Tina Voß, Dietmar Wischmeyer ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/stundenhotel.jpg
+  path:                                 /assets/image/module/attic/1920x1280/stundenhotel.jpg
   width:                                1920
   height:                               1200
 

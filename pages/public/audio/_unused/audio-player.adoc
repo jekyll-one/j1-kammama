@@ -15,7 +15,7 @@ categories:                             [ Audio ]
 tags:                                   [ Player, AmplitudeJS, J1-Template ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/alexey-ruban.jpg
+  path:                                 /assets/image/module/attic/1920x1280/alexey-ruban.jpg
   width:                                1280
   height:                               720
 
@@ -31,7 +31,7 @@ resources:                              [ amplitudejs ]
 resource_options:
   - attic:
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/alexey-ruban.jpg
+        - url:                          /assets/image/module/attic/1920x1280/alexey-ruban.jpg
           alt:                          Audio Player
 ---
 

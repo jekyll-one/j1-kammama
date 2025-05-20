@@ -19,7 +19,7 @@ categories:                             [ Site ]
 tags:                                   [ Review ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/lum3n.jpg
+  path:                                 /assets/image/module/attic/1920x1280/lum3n.jpg
   width:                                1920
   height:                               1080
 
@@ -36,7 +36,7 @@ resource_options:
   - attic:
       padding_top:                      550
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/alice-donovan-rouse.jpg
+        - url:                          /assets/image/module/attic/1920x1280/alice-donovan-rouse.jpg
           alt:                          alice-donovan-rouse
           badge:
             type:                       unsplash

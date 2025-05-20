@@ -18,7 +18,7 @@ categories:                             [ Video ]
 tags:                                   [ TV Serie, Tier-Doku ]
 
 image:
-  path:                                 /assets/image/modules/attics/1920x1280/harnas.png
+  path:                                 /assets/image/module/attic/1920x1280/harnas.png
   width:                                1920
   height:                               1200
 
@@ -36,7 +36,7 @@ resource_options:
   - attic:
       padding_top:                      550
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/harnas.jpg
+        - url:                          /assets/image/module/attic/1920x1280/harnas.jpg
           alt:                          Auf Achse
 ---
 

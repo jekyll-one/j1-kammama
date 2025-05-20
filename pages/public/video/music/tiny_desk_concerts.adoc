@@ -37,7 +37,7 @@ resource_options:
   - attic:
       padding_top:                      550
       slides:
-        - url:                          /assets/image/modules/attics/1920x1280/npr-tiny-desk.jpg
+        - url:                          /assets/image/module/attic/1920x1280/npr-tiny-desk.jpg
           alt:                          NPR Music TinyDesk
 ---
 
