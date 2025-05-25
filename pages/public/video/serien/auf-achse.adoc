@@ -157,7 +157,7 @@ kann das die Länder, Menschen und Kulturen so sind - wie sie sind.
 // ++++
 
 .Staffel 1
-gallery::auf_achse_s01[role="mt-4 mb-4"]
+gallery::auf_achse_s01[role="mb-8"]
 
 
 // [role="mt-5"]

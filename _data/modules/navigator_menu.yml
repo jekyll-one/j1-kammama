@@ -41,6 +41,10 @@
       icon:                             volume-high
       dropdown:
 
+      - title:                          Morcheeba
+        href:                           /pages/public/audio/music/morcheeba/
+        icon:                           ear-hearing
+
       - title:                          Smooth Jazz
         icon:                           volume-high
         dropdown:
@@ -116,7 +120,7 @@
     # --------------------------------------------------------------------------
     # Dokus & Reportagen
     #
-    - title:                            Dokus & Reportagen
+    - title:                            Infotainment
       icon:                             volume-high
       dropdown:
 

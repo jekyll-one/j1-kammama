@@ -276,15 +276,15 @@ Episode zu sehen. Beide Folgen sind unterhaltsam, doch die letzte Folge ist
 besonders: Ein wunderbarer und emotionaler Abschluß.
 
 .Carpool Karaoke · Adele und James (2016|2023)
-gallery::carpool_karaoke_james_and_adele[role="mb-5"]
+gallery::carpool_karaoke_james_and_adele[role="mb-8"]
 
 
-[role="mt-5"]
-== Epilog
+// [role="mt-5"]
+// == Epilog
 
-[role="mb-8"]
-Das Umsetzen einer guten Idee braucht eine Menge Energie wie einen starken
-Glauben daran, das es gelingt. Überall. Und noch viel mehr: Menschen die dabei
-helfen und eigene Energien in ein Team einbringen. Das ist unverzichtbar.
+// [role="mb-8"]
+// Das Umsetzen einer guten Idee braucht eine Menge Energie wie einen starken
+// Glauben daran, das es gelingt. Überall. Und noch viel mehr: Menschen die dabei
+// helfen und eigene Energien in ein Team einbringen. Das ist unverzichtbar.
 
-*Go for it*.
+// *Go for it*.

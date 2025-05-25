@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# ~/_data/modules/amplitude.yml
-# User Configuration of the AmplitudeJS Module
+# ~/_data/modules/amplitude_playlists.yml
+# User Playlist Configuration of the AmplitudeJS Module
 #
 # Product/Info:
 # https://jekyll.one
@@ -743,6 +743,18 @@ settings:
           audio:                        EARLYSTUDIOSGMBH1308588369.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/weil-punkt/id1741818812?i=1000708514242
           duration:                     "00:48:46"
+
+        # title 21
+        - item:
+          enabled:                      true
+          <<:                           *album_spontanorama_2025
+          title:                        25E21 · In der Drogerie auf Klo
+          rating:                       2
+          start:                        false
+          end:                          false          
+          audio:                        EARLYSTUDIOSGMBH3738453292.mp3
+          audio_info:                   //podcasts.apple.com/de/podcast/in-der-drogerie-auf-klo/id1741818812?i=1000709335355
+          duration:                     "01:11:49"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2024
@@ -1611,13 +1623,9 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_stundenhotel_2025
         name:                           Stundenhotel
-        playlist:                       stundenhotel_2025
         artist:                         Wischmeyer & Voß
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
-        audio_fade:                     true
-        audio_single:                   false
-        shuffle:                        false     
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -2189,6 +2197,124 @@ settings:
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/ffjNBbYa_oA/maxresdefault.jpg
           duration:                     "02:50"
+
+    # --------------------------------------------------------------------------
+    # Morcheeba,  Escape the Chaos (2025)
+    # 
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             morcheeba_yt
+      title:                            Morcheeba
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_morcheeba_yt
+        name:                           Escape the Chaos
+        playlist:                       morcheeba_yt
+        artist:                         Morcheeba
+        audio_base:                     //youtube.com
+        cover_image:                    /assets/audio/cover/morcheeba/escape_the_chaos.jpg
+        audio_fade:                     true
+        audio_single:                   false
+        audio_info:                     //youtube.com/playlist?list=PLZmpSK3klBc4kW8cQYpWNq-acm_aZ2xxT
+        shuffle:                        false
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        Call For Love
+          audio:                        watch?v=gD6k-TVoO2k
+          rating:                       4
+          start:                        "00:00:03"                              # false | timestamp "00:00:03"
+          end:                          false                                   # false | timestamp
+          duration:                     "04:22"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        Elephant Clouds
+          audio:                        watch?v=o_FtoYTvKpM
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          duration:                     "04:14"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        Peace Of Me
+          audio:                        watch?v=yEjjPtv_Gps
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          duration:                     "02:42"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        We Live And Die
+          audio:                        watch?v=Vj7MjK_jggw
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          duration:                     "03:11"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        Far We Come
+          audio:                        watch?v=m41qbIWlOqU
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          duration:                     "04:44"          
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        Molten
+          audio:                        watch?v=4d0Qg-pWjAg
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          duration:                     "04:41" 
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        Bleeding Out
+          audio:                        watch?v=oVS6j_Ax0FU
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          duration:                     "05:43" 
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_morcheeba_yt
+          title:                        Cooler Heads
+          audio:                        watch?v=4cGh8jSat5w
+          rating:                       3
+          start:                        "00:00:03"
+          end:                          false
+          duration:                     "02:11" 
 
     # --------------------------------------------------------------------------
     # Emancipator - Royalty Free Music

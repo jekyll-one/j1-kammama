@@ -1,0 +1,101 @@
+---
+title:                                  Morcheeba
+tagline:                                Trip-Hop
+title_extention:                        Trip-Hop
+
+
+date:                                   2025-02-08
+#last_modified:                         2025-02-08
+
+description: >
+                                        Die kanadische Jazzpianistin und Sängerin Diana Krall ist 
+                                        eine der bekanntesten und erfolgreichsten Jazzmusikerinnen
+                                        der Gegenwart.
+
+keywords:                               Musik, Jazz, Diana Krall
+
+categories:                             [ Audio ]
+tags:                                   [ Musik , Diana Krall ]
+
+image:
+  path:                                 /assets/audio/cover/morcheeba/morcheeba.jpg
+  width:                                1280
+  height:                               720
+
+compress:                               false
+fab_menu_id:                            open_toc
+comments:                               false
+regenerate:                             false
+permalink:                              /pages/public/audio/music/morcheeba/
+
+resources:                              [ amplitudejs ]                         # [ amplitudejs, videojs ]
+resource_options:
+  - attic:
+      padding_top:                      550
+      slides:
+        - url:                          /assets/audio/cover/morcheeba/morcheeba.jpg
+          alt:                          Morcheeba
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Die kanadische Jazzpianistin und Sängerin Diana Krall ist eine der bekanntesten
+und erfolgreichsten Jazzmusikerinnen der Gegenwart. 
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  3+ Minuten Videozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+[role="mt-5"]
+== Über Morcheeba
+// See: https://en.wikipedia.org/wiki/Escape_the_Chaos
+
+_Diana Krall_ wuchs in einer musikalischen Familie auf. Ihre Mutter war
+Sängerin, ihr Vater spielte Klavier. Schon als Kind erhielt sie Klavierunterricht
+und sang in verschiedenen Chören. Sie studierte am Berklee College of Music in
+Boston und zog später nach Los Angeles, wo sie mit dem Musiker Jimmy Rowles
+zusammenarbeitete.
+
+
+[role="mt-5"]
+== Escape the Chaos (2025)
+
+Teile der Playlist von _Diana Krall_ auf YouTube steht auf diesen Seiten auch
+
+
+[role="mt-4 mb-5"]
+[NOTE]
+====
+Aus Gründen des Urheberschutzes, lädt der Audio Player alle Stücke der
+*Playlist* direkt über das Angebot der YouTube Plattform
+link://youtube.com/playlist?list=PLZmpSK3klBc4kW8cQYpWNq-acm_aZ2xxT[Escape the Chaos (Playlist), {browser-window--new}].
+
+Eine Internetverbindung ist zum Hören daher *zwingend* erforderlich.
+====
+
+.Morcheeba · Escape the Chaos (YouTube 2025)
+amplitude::morcheeba_yt_large[role="mb-8"]

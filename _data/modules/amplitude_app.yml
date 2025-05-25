@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# ~/_data/modules/amplitude.yml
-# User Configuration of the AmplitudeJS Module
+# ~/_data/modules/amplitude_app.yml
+# User Player Configuration of the AmplitudeJS Module
 #
 # Product/Info:
 # https://jekyll.one
@@ -122,6 +122,52 @@ settings:
         controls:                       false
 
     # --------------------------------------------------------------------------
+    # LARGE player, Morcheeba
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #    
+      enabled:                          true
+
+      id:                               morcheeba_yt_large
+      type:                             large
+      source:                           video
+      display_hours:                    false
+      audio_fade_in:                    true
+      audio_fade_out:                   true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    10
+      volume_slider:
+        enabled:                        true
+        preset_value:                   50
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      plugin_manager:
+        enabled:                        true
+        plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #      
+      playlist:
+        name:                           morcheeba_yt
+        title:                          Morcheeba
+        audio_info:                     true
+        audio_rating:                   true
+        shuffle:                        true
+        controls:                       false
+
+    # --------------------------------------------------------------------------
     # LARGE player, Emancipator
     # --------------------------------------------------------------------------
     #
@@ -225,7 +271,7 @@ settings:
         audio_rating:                   true
 
     # --------------------------------------------------------------------------
-    # Spontanorama 2025, LARGE player
+    # Stundenhotel 2025, LARGE player
     # --------------------------------------------------------------------------
     #
     - player:
@@ -234,7 +280,7 @@ settings:
       # GENERAL settings
       #     
       enabled:                          true
-      id:                               spontanorama_2025_large
+      id:                               stundenhotel_2025_large
       type:                             large
       display_hours:                    true
 
@@ -243,7 +289,6 @@ settings:
       #
       song_progress_bar:                true
       skip_forward_backward_button:     true
-      forward_backward_skip_seconds:    60
       volume_slider:
         enabled:                        true
         preset_value:                   50
@@ -252,8 +297,8 @@ settings:
       # PLAYLIST settings
       #
       playlist:
-        name:                           spontanorama_2025
-        title:                          Spontanorama 2025
+        name:                           stundenhotel_2025
+        title:                          Stundenhotel 2025
         audio_info:                     true
         audio_rating:                   true
 
@@ -417,8 +462,6 @@ settings:
         title:                          Stundenhotel 2025
         audio_info:                     true
         audio_rating:                   true
-
-
 
 
       # ------------------------------------------------------------------------

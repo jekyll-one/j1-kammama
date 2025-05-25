@@ -100,9 +100,8 @@ Gehegen versorgen.
 lorem:sentences[5]
 
 .Staffel 2
-gallery::harnas_s02[role="mt-4 mb-4"]
+gallery::harnas_s02[role="mt-4 mb-8"]
 
-lorem:sentences[5]
 
 
 // [role="mt-5"]

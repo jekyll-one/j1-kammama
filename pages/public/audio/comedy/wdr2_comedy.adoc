@@ -137,5 +137,5 @@ Er ist Historiker auf besondere Weise. Er hat sich auf die Geschichten hinter
 der Historie spezialisiert. Und erzählt sie uns. Das macht Spaß.
 
 .History Hautnah · Friedemann Weise
-amplitude::wdr2_comedy_history_hautnah_large[role="mb-5"]
+amplitude::wdr2_comedy_history_hautnah_large[role="mb-8"]
 
