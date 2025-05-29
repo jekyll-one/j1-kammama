@@ -303,6 +303,39 @@ settings:
         audio_rating:                   true
 
     # --------------------------------------------------------------------------
+    # Spontanorama 2025, LARGE player
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+      id:                               spontanorama_2025_large
+      type:                             large
+      display_hours:                    true
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   50
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           spontanorama_2025
+        title:                          Spontanorama 2025
+        audio_info:                     true
+        audio_rating:                   true
+
+    # --------------------------------------------------------------------------
     # Spontanorama 2024, LARGE player
     # --------------------------------------------------------------------------
     #
@@ -671,6 +704,48 @@ settings:
       playlist:
         name:                           walter_fischer
         title:                          Walter Fischer (OZ)
+        audio_info:                     true
+        audio_rating:                   true 
+
+    # --------------------------------------------------------------------------
+    # LARGE player, Iconic
+    # --------------------------------------------------------------------------
+    #
+    - player:
+
+      # ------------------------------------------------------------------------
+      # GENERAL settings
+      #     
+      enabled:                          true
+
+      id:                               fast_food_large
+      type:                             large
+      source:                           audio
+      display_hours:                    false
+
+      # ------------------------------------------------------------------------
+      # CONTROL settings
+      #
+      song_progress_bar:                true
+      skip_forward_backward_button:     true
+      forward_backward_skip_seconds:    60
+      volume_slider:
+        enabled:                        true
+        preset_value:                   50
+
+      # ------------------------------------------------------------------------
+      # PLUGIN settings
+      #
+      # plugin_manager:
+      #   enabled:                        false
+      #   plugins:                        [ ytp ]
+
+      # ------------------------------------------------------------------------
+      # PLAYLIST settings
+      #
+      playlist:
+        name:                           fast_food
+        title:                          Fast Food - Long Story
         audio_info:                     true
         audio_rating:                   true 
 

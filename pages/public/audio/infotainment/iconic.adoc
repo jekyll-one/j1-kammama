@@ -1,0 +1,122 @@
+---
+title:                                  M&M
+title_extention:                        Mampf & Mode
+tagline:                                Mampf & Mode
+
+date:                                   2025-04-04
+#last_modified:                         2025-04-04
+
+description: >                                  
+                                        Ob Hoodie, Crop Top oder Trainingsanzug: Manche Kleidungsstücke sind so
+                                        ikonisch, dass Trends ihnen kaum etwas anhaben können. Aminata Belli nimmt
+                                        Euch mit in die Geschichte Eurer Lieblingsteile.
+keywords: >
+                                        Radioplay, Iconic, BR24, ARD,
+                                        Modegeschichte, Fast Food
+
+categories:                             [ Duko ]
+tags:                                   [ Podcast, Iconic ]
+
+image:
+  path:                                 //api.ardmediathek.de/image-service/images/urn:ard:image:94cd9944d6d2cc9a?w=1280
+  width:                                1920
+  height:                               1280
+
+regenerate:                             false
+personalization:                        true
+permalink:                              /pages/public/audio/podcast/doku/iconic/
+
+resources:                              [ amplitudejs ]
+resource_options:  
+  - attic:
+      opacity:                          .6
+      padding_top:                      550
+      slides:
+        - url:                          //api.ardmediathek.de/image-service/images/urn:ard:image:94cd9944d6d2cc9a?w=1280
+          alt:                          Iconic
+          badge:
+            type:                       unsplash
+            author:                     BR24|ARD
+            href:                       //ardaudiothek.de/sendung/fast-food-long-story/94764438/
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Ob Hoodie, Crop Top oder Trainingsanzug: Manche Kleidungsstücke sind so
+ikonisch, dass Trends ihnen kaum etwas anhaben können. Aminata Belli nimmt
+Euch mit in die Geschichte Eurer Lieblingsteile.
+
+Fast Food - Long Story erzählt die überraschenden und faszinierenden
+Geschichten hinter unseren Lieblingssnacks: Hamburger, Tiefkühlpizza,
+Instant-Ramen und Co. Es geht um zart schmelzenden Käse, scharf duftende
+Brühen. Und um die Menschen, die diese Essen groß gemacht haben. Und dafür
+oft alles aufs Spiel setzten.
+
+++++
+<div class="video-title">
+  <i class="mdib mdi-bs-primary mdib-clock mdib-24px mr-2"></i>
+  40+ Minuten Audiozeit
+</div>
+++++
+
+// Include sub-documents (if any)
+// -----------------------------------------------------------------------------
+// //ardaudiothek.de/sendung/fast-food-long-story/94764438/
+
+[role="mt-4"]
+== Mampf
+
+Fast Food - Long Story erzählt die überraschenden und faszinierenden
+Geschichten hinter unseren Lieblingssnacks: Hamburger, Tiefkühlpizza,
+Instant-Ramen und Co. Es geht um zart schmelzenden Käse, scharf duftende
+Brühen. Und um die Menschen, die diese Essen groß gemacht haben. Und dafür
+oft alles aufs Spiel setzten.
+
+Mit Host _Anke van de Weyer_.
+
+.Mampf ·  Fast Food - Long Story
+amplitude::fast_food_large[role="mb-4"]
+
+
+// [role="mt-5"]
+// == Mode
+
+// Manche Kleidungsstücke sind so ikonisch, dass Trends ihnen kaum etwas
+// anhaben können. Aminata Belli nimmt Euch mit in die Geschichte eurer
+// Lieblingsteile. Woher kommt ihre Coolness? Wie schaffen sie es, für
+// große popkulturelle Momente, Subkulturen oder Underdogs zu stehen?
+
+// Style erzählt Geschichte. Über uns – wie wir uns sehen, uns fühlen und
+// wahrgenommen werden wollen. Und über schillernde Herkunft der Kleidungsstücke
+// selbst. In Mode sind die Stories von Subkulturen eingewebt, von
+// technologischen Innovationen, von kleinen und großen Rebellionen.
+
+// In den Episoden könnt ihr in die Geschichte eintauchen und miterleben,
+// wie sich T-Shirt, Crop-Top, Trainigsanzug, Hoodie, Doc Martens und der
+// Herrenanzug zu langlebigen Stilikonen entwickelt haben.
+
+// Mit Host _Aminata Belli_.
+
+// .Mode ·  Crop Top oder Trainingsanzug
+// amplitude::mode_large[role="mb-8"]
+
+

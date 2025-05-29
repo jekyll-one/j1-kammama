@@ -102,6 +102,7 @@ end
 # Specify the THEME GEM used for the project
 
 # Loaded from RubyGems
+# gem 'j1-template', '~> 2024.3', '2024.3.22'
 gem 'j1-template', '~> 2024.3'
 
 # Loaded from gem.fury.io

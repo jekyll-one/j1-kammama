@@ -120,15 +120,15 @@ videojs:://wdrmedien-a.akamaihd.net/medp/ondemand/weltweit/fsk0/310/3104436/3104
 // youtube::dISStyvJDCA[start="00:04:00" poster="/assets/video/gallery/straeter-laura-wontorra.jpg" role="mb-5"]
 
 
-[role="mt-5"]
-[[straeter-wladimir-kaminer]]
-== Abend mit Wladimir Kaminer
+// [role="mt-5"]
+// [[straeter-wladimir-kaminer]]
+// == Abend mit Wladimir Kaminer
 
-Zu Gast ist der Schriftsteller Wladimir Kaminer. Die beiden präsentieren
-ungewöhnliche (lokal) Nachrichten aus aller Welt.
+// Zu Gast ist der Schriftsteller Wladimir Kaminer. Die beiden präsentieren
+// ungewöhnliche (lokal) Nachrichten aus aller Welt.
 
-.Gast Autor Wladimir Kaminer
-youtube::Z6MzsZXhMZs[poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mb-5"]
+// .Gast Autor Wladimir Kaminer
+// youtube::Z6MzsZXhMZs[poster="/assets/video/gallery/straeter-wladimir-kaminer.jpg" role="mb-5"]
 
 
 [role="mt-5"]

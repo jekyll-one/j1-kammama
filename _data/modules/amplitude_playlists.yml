@@ -49,7 +49,6 @@ settings:
         audio_base:                     //hrardmediathek-a.akamaihd.net/odinson/das-imperium-heidi-klum-catwalk-zur-macht
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:0f4f82b5683a7951
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false
 
       # ------------------------------------------------------------------------
@@ -66,7 +65,7 @@ settings:
           audio:                        b4d40a51-7250-41e5-9db7-06e91af47a87/62d28476-2745-4195-b364-f0bd56802f3a/b4d40a51-7250-41e5-9db7-06e91af47a87_103062597_1739267003010.mp3
           audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/alles-kein-zufall-s01-e01/ard/14167869/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:b4dfad209de77375
-          duration:                     "29:00"
+          duration:                     "00:29:00"
 
         # title 02
         - item:
@@ -77,7 +76,7 @@ settings:
           audio:                        344b4bb7-c582-40dd-9218-510ad21d992c/c5a0f782-be5b-4424-b9bf-a7551aaf2766/344b4bb7-c582-40dd-9218-510ad21d992c_103093555_1739267243026.mp3
           audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/zu-dick-fuer-deutschland-s01-e02/ard/14167943/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:2a1552784b21bead
-          duration:                     "26:17"
+          duration:                     "00:26:17"
 
         # title 03
         - item:
@@ -88,7 +87,7 @@ settings:
           audio:                        0519660b-d5f0-44c1-ba4a-867641eeb54b/6c0f48e9-ab88-4d93-b64f-33f4a71ba7f7/0519660b-d5f0-44c1-ba4a-867641eeb54b_103107706_1739267429309.mp3
           audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/fuer-nichts-zu-schade-s01-e03/ard/14167979/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:bab7addb6f77e1e8?w=448&ch=9d0e5fe2281c2d81
-          duration:                     "30:44"
+          duration:                     "00:30:44"
 
         # title 04
         - item:
@@ -99,7 +98,7 @@ settings:
           audio:                        64565b1d-423a-46c4-9e17-6c7841b8aa76/6064ab62-090a-429e-9ef1-da09627c0d3e/64565b1d-423a-46c4-9e17-6c7841b8aa76_103106519_1739267566006.mp3
           audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/gntm-alles-nur-show-s01-e04/ard/14167955/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:5b526bbc9715303a?w=448&ch=1f7f8e8321df780e
-          duration:                     "34:28"
+          duration:                     "00:34:28"
 
         # title 05
         - item:
@@ -110,7 +109,7 @@ settings:
           audio:                        68f1eeee-16e5-46a1-a916-a23294a8b26c/09f91e62-94b1-4f37-9547-ff494fd1a1b4/68f1eeee-16e5-46a1-a916-a23294a8b26c_103106576_1739267760533.mp3
           audio_info:                   //ardaudiothek.de/episode/das-imperium-heidi-klum-catwalk-zur-macht/mittelfinger-an-die-hater-s01-e05/ard/14167965/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:5d3e8ca311865a52?w=448&ch=2fafdfdaac2a6b1a
-          duration:                     "37:22"
+          duration:                     "00:37:22"
 
     # --------------------------------------------------------------------------
     #  Walter Fischer (OZ)
@@ -132,7 +131,6 @@ settings:
         audio_base:                     //avdlswr-a.akamaihd.net/swr/swrkultur/feature/oz
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false
 
       # ------------------------------------------------------------------------
@@ -148,8 +146,7 @@ settings:
           rating:                       3
           audio:                        2185946.m.mp3
           audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/der-mond-schien-hell-1-5/ard/14144597/
-          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
-          duration:                     "24:26"
+          duration:                     "00:24:26"
 
         # title 02
         - item:
@@ -159,8 +156,7 @@ settings:
           rating:                       3
           audio:                        2185970.m.mp3
           audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/die-schiefe-bahn-2-5/ard/14144645/
-          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
-          duration:                     "29:03"
+          duration:                     "00:29:03"
 
         # title 03
         - item:
@@ -170,8 +166,7 @@ settings:
           rating:                       3
           audio:                        2186462.m.mp3
           audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/unter-druck-3-5/ard/14150611/
-          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
-          duration:                     "34:16"
+          duration:                     "00:34:16"
 
         # title 04
         - item:
@@ -181,8 +176,7 @@ settings:
           rating:                       3
           audio:                        2186487.m.mp3
           audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/es-lebe-der-spruehling-4-5/ard/14150679/
-          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
-          duration:                     "31:10"
+          duration:                     "00:31:10"
 
         # title 05
         - item:
@@ -192,8 +186,100 @@ settings:
           rating:                       3
           audio:                        2186488.m.mp3
           audio_info:                   //ardaudiothek.de/episode/oz-graffiti-kuenstler-schmierfink-rebell/city-of-oz-5-5/ard/14150685/
-          #cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a5847a722c9efb13?w=448&ch=ad71cfb5e5aad0d3
-          duration:                     "32:10"
+          duration:                     "00:32:10"
+
+   # --------------------------------------------------------------------------
+    #  Iconic, Mampf
+    # --------------------------------------------------------------------------
+    #
+    - playlist:
+      enabled:                          true
+
+      name:                             fast_food
+      title:                            Iconic
+
+      # ------------------------------------------------------------------------
+      # ALBUM settings
+      # ------------------------------------------------------------------------
+      album:                            &album_fast_food
+        artist:                         Fast Food - Long Story
+        name:                           Iconic
+        playlist:                       fast_food
+        audio_base:                     //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4P/_-9S/
+        cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:3962a73d9e931654?w=1000
+        audio_fade:                     false
+        shuffle:                        false
+
+      # ------------------------------------------------------------------------
+      # TITLE settings (songs)
+      # ------------------------------------------------------------------------
+      items:
+
+        # title 01
+        - item:
+          enabled:                      true
+          <<:                           *album_fast_food
+          title:                        E01 · Die Instant Ramen
+          rating:                       3
+          audio:                        _2865Akd571S/49c9517a-fdb2-450a-b33e-85b3824421b7_2.mp3
+          audio_info:                   //ardaudiothek.de/episode/fast-food-long-story/die-instant-ramen-lebensretter-in-allen-lagen/ard/14407015/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:c48dfea66d7e6b37?w=1000
+          duration:                     "00:40:24"
+
+        # title 02
+        - item:
+          enabled:                      true
+          <<:                           *album_fast_food
+          title:                        E02 · Die Tiefkühlpizza
+          rating:                       3
+          audio:                        _2865Akd5H1S/236ea371-0e27-498d-82b3-4e1d0c879aeb_2.mp3
+          audio_info:                   //ardaudiothek.de/episode/fast-food-long-story/die-tiefkuehlpizza-dolce-vita-unter-null/ard/14408141/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:d9b67280b7815b0f?w=1000
+          duration:                     "00:44:53"
+
+        # title 03
+        - item:
+          enabled:                      true
+          <<:                           *album_fast_food
+          title:                        E03 · Der Döner
+          rating:                       4
+          audio:                        _2865Akd9U1S/14ee20a3-064c-4b83-82d3-dcffd7b8c8fd_2.mp3
+          audio_info:                   //ardaudiothek.de/episode/fast-food-long-story/der-doener-einmal-mit-allem-und-backgroundcheck-bitte/ard/14408331/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:18e457e97b0539ee?w=1000
+          duration:                     "00:44:37"
+
+        # title 04
+        - item:
+          enabled:                      true
+          <<:                           *album_fast_food
+          title:                        E04 · Der Caesar Salad
+          rating:                       3
+          audio:                        _2865Akd_H1S/8b5b43d2-6f99-46b6-b6f2-046e3bd43e9b_2.mp3
+          audio_info:                   //ardaudiothek.de/episode/fast-food-long-story/der-caesar-salad-alle-wege-fuehren-nach-tijuana/ard/14408315/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:e79eaf9013af4dd2?w=1000
+          duration:                     "00:42:01"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_fast_food
+          title:                        E05 · Der Hamburger
+          rating:                       2
+          audio:                        _2865Akg571S/c6d0a703-eec0-4146-86fc-e5f6dc8a34d8_2.mp3
+          audio_info:                   //ardaudiothek.de/episode/fast-food-long-story/der-hamburger-wirklich-das-beste-schlechte-essen/ard/14408291/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:497b88e1e9fe2c14?w=1000
+          duration:                     "00:39:39"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_fast_food
+          title:                        E06 · Der Borschtsch
+          rating:                       3
+          audio:                        _2865Akg9U1S/b6f55830-e286-49be-a2e9-3903d097aae6_2.mp3
+          audio_info:                   //ardaudiothek.de/episode/fast-food-long-story/der-borschtsch-wie-die-ukrainische-suppe-zum-sowjetischen-fast-food-wurde/ard/14408263/
+          cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:322dab62437f89e5?w=1000
+          duration:                     "00:46:01"
 
     # --------------------------------------------------------------------------
     # WDR 2 Comedy, Jünter erklärt (Uli Winters)
@@ -229,7 +315,7 @@ settings:
           title:                        Eierfärben
           audio:                        327/3276896/3276896_61851651.mp3
           rating:                       3
-          duration:                     "00:55"
+          duration:                     "00:00:55"
 
         # title 02
         - item:
@@ -238,7 +324,7 @@ settings:
           title:                        ETA
           audio:                        327/3276904/3276904_61851828.mp3
           rating:                       3
-          duration:                     "00:55"
+          duration:                     "00:00:55"
 
         # title 03
         - item:
@@ -247,7 +333,7 @@ settings:
           title:                        Führerscheinprüfungsfragen
           audio:                        327/3275165/3275165_61802710.mp3
           rating:                       3
-          duration:                     "01:01"
+          duration:                     "00:01:01"
 
         # title 04
         - item:
@@ -256,7 +342,7 @@ settings:
           title:                        Windows 10
           audio:                        325/3253941/3253941_61248821.mp3
           rating:                       3
-          duration:                     "00:51"
+          duration:                     "00:00:51"
 
         # title 05
         - item:
@@ -265,7 +351,7 @@ settings:
           title:                        Bitcoin
           audio:                        324/3244202/3244202_60994128.mp3
           rating:                       3
-          duration:                     "00:54"
+          duration:                     "00:00:54"
 
         # title 06
         - item:
@@ -274,7 +360,7 @@ settings:
           title:                        Streupflicht
           audio:                        323/3237382/3237382_60805477.mp3
           rating:                       3
-          duration:                     "00:50"
+          duration:                     "00:00:50"
 
         # title 07
         - item:
@@ -283,7 +369,7 @@ settings:
           title:                        Sauna
           audio:                        323/3233816/3233816_60716090.mp3
           rating:                       3
-          duration:                     "00:45"
+          duration:                     "00:00:45"
 
         # title 08
         - item:
@@ -292,7 +378,7 @@ settings:
           title:                        Umtausch
           audio:                        322/3224829/3224829_60444878.mp3
           rating:                       3
-          duration:                     "00:40"
+          duration:                     "00:00:40"
 
         # title 09
         - item:
@@ -301,7 +387,7 @@ settings:
           title:                        Paketzustellung
           audio:                        322/3224769/3224769_60443521.mp3
           rating:                       3
-          duration:                     "00:58"
+          duration:                     "00:00:58"
 
         # title 10
         - item:
@@ -310,7 +396,7 @@ settings:
           title:                        Die FIFA
           audio:                        322/3221740/3221740_60360972.mp3
           rating:                       3
-          duration:                     "00:47"
+          duration:                     "00:00:47"
 
         # title 11
         - item:
@@ -319,7 +405,7 @@ settings:
           title:                        DAX-Rekord
           audio:                        321/3218633/3218633_60270744.mp3
           rating:                       3
-          duration:                     "00:49"
+          duration:                     "00:00:49"
 
         # title 12
         - item:
@@ -328,7 +414,7 @@ settings:
           title:                        Kopfläuse
           audio:                        321/3214853/3214853_60158180.mp3
           rating:                       3
-          duration:                     "00:47"
+          duration:                     "00:00:47"
 
         # title 13
         - item:
@@ -337,7 +423,7 @@ settings:
           title:                        Wärmedämmung
           audio:                        321/3211385/3211385_60062225.mp3
           rating:                       3
-          duration:                     "00:43"
+          duration:                     "00:00:43"
 
         # title 14
         - item:
@@ -346,7 +432,7 @@ settings:
           title:                        KFZ-Versicherungswechsel
           audio:                        320/3207837/3207837_59958738.mp3
           rating:                       3
-          duration:                     "00:45"
+          duration:                     "00:00:45"
 
    # --------------------------------------------------------------------------
     # WDR 2 Comedy, History Hautnah (Friedemann Weise)
@@ -369,7 +455,6 @@ settings:
         audio_info:                     //ardaudiothek.de/sendung/wdr-2-comedy/36244858/
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:c50f2f3541b43b75?w=1000
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false            
 
       # ------------------------------------------------------------------------
@@ -384,7 +469,7 @@ settings:
           title:                        Das Buch wird erfunden
           audio:                        327/3271712/3271712_61708624.mp3
           rating:                       3
-          duration:                     "01:49"
+          duration:                     "00:01:49"
 
         # title 02
         - item:
@@ -393,7 +478,7 @@ settings:
           title:                        Staatsschulden
           audio:                        326/3267517/3267517_61604308.mp3
           rating:                       3
-          duration:                     "02:00"
+          duration:                     "00:02:00"
 
         # title 03
         - item:
@@ -402,7 +487,7 @@ settings:
           title:                        Waffenruhe
           audio:                        326/3264275/3264275_61515467.mp3
           rating:                       3
-          duration:                     "01:40"
+          duration:                     "00:01:40"
 
         # title 04
         - item:
@@ -411,7 +496,7 @@ settings:
           title:                        Fastenzeit
           audio:                        326/3261421/3261421_61437568.mp3
           rating:                       3
-          duration:                     "01:45"
+          duration:                     "00:01:45"
 
         # title 05
         - item:
@@ -420,7 +505,7 @@ settings:
           title:                        Karnevalszug
           audio:                        325/3258189/3258189_61354305.mp3
           rating:                       3
-          duration:                     "01:26"
+          duration:                     "00:01:26"
 
         # title 06
         - item:
@@ -429,7 +514,7 @@ settings:
           title:                        Die Erfindung der Wahl
           audio:                        325/3251186/3251186_61174547.mp3
           rating:                       3
-          duration:                     "01:49"
+          duration:                     "00:01:49"
 
         # title 07
         - item:
@@ -438,7 +523,7 @@ settings:
           title:                        Erfindung der Wahlplakate
           audio:                        324/3243173/3243173_60966966.mp3
           rating:                       3
-          duration:                     "01:58"
+          duration:                     "00:01:58"
 
         # title 08
         - item:
@@ -447,7 +532,7 @@ settings:
           title:                        Der erste Wahlomat
           audio:                        325/3254590/3254590_61262912.mp3
           rating:                       3
-          duration:                     "01:36"
+          duration:                     "00:01:36"
 
         # title 09
         - item:
@@ -456,7 +541,7 @@ settings:
           title:                        Anfänge der Migration
           audio:                        324/3247688/3247688_61085468.mp3
           rating:                       3
-          duration:                     "01:18"
+          duration:                     "00:01:18"
 
         # title 10
         - item:
@@ -465,7 +550,7 @@ settings:
           title:                        Schattenflotte
           audio:                        323/3237026/3237026_60799777.mp3
           rating:                       2
-          duration:                     "01:31"
+          duration:                     "00:01:31"
 
         # title 11
         - item:
@@ -474,7 +559,7 @@ settings:
           title:                        Fitnessstudio
           audio:                        323/3233703/3233703_60713186.mp3
           rating:                       3
-          duration:                     "01:55"
+          duration:                     "00:01:55"
 
     # --------------------------------------------------------------------------
     # Spontanorama 2025
@@ -495,9 +580,6 @@ settings:
         artist:                         Ralf Schmitz
         audio_base:                     //traffic.megaphone.fm
         cover_image:                    //is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/97/06/f8/9706f81b-d813-6a3f-aebf-cb6458c835e6/mza_10167167701331003864.jpg/540x540bb.webp
-        audio_fade:                     true
-        audio_single:                   false
-        shuffle:                        false        
 
       # ------------------------------------------------------------------------
       # TITLE settings (songs)
@@ -510,8 +592,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E01 · Etwas besonderes sein
           rating:                       1
-          start:                        false                                   # false | timestamp
-          end:                          false                                   # false | timestamp           
           audio:                        EARLYSTUDIOSGMBH5599094573.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/etwas-besonderes-sein/id1741818812?i=1000682353087
           duration:                     "01:08:33"
@@ -521,9 +601,7 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E02 · Hat nicht lang gehalten
-          rating:                       2
-          start:                        false
-          end:                          false
+          rating:                       1
           audio:                        EARLYSTUDIOSGMBH2539234843.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/hat-nicht-lang-gehalten/id1741818812?i=1000683237962
           duration:                     "01:03:19"
@@ -534,8 +612,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E03 · Richtig coole Filme machen
           rating:                       1
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH8877098978.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/richtig-coole-filme-machen/id1741818812?i=1000684154944
           duration:                     "00:48:52"
@@ -546,8 +622,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E04 · Neuken in de Keuken
           rating:                       1
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH6492494961.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/neuken-in-de-keuken/id1741818812?i=1000685078158
           duration:                     "01:01:40"
@@ -557,9 +631,7 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E05 · Frech nach vorne
-          rating:                       5
-          start:                        false
-          end:                          false          
+          rating:                       4
           audio:                        EARLYSTUDIOSGMBH5400109086.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/frech-nach-vorne/id1741818812?i=1000686905111
           duration:                     "01:02:40"
@@ -570,8 +642,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E06 · Schrott of the Day
           rating:                       4
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1913495758.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/schrott-of-the-day/id1741818812?i=1000689463568
           duration:                     "00:47:52"
@@ -582,8 +652,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E07 · Die 9 Kammern
           rating:                       5
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1831289568.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-9-kammern/id1741818812?i=1000691616319
           duration:                     "01:16:16"
@@ -594,8 +662,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E08 · Keine Haare mehr auf dem Kopf
           rating:                       3
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH9785350368.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/keine-haare-mehr-auf-dem-kopf/id1741818812?i=1000694160035
           duration:                     "01:00:23"
@@ -606,8 +672,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E09 · Das wird nicht billig
           rating:                       3
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1994952322.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/das-wird-nicht-billig/id1741818812?i=1000696377623
           duration:                     "01:09:23"
@@ -618,8 +682,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E10 · Die große Comedy-Kugel
           rating:                       3
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH2972648335.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/die-gro%C3%9Fe-comedy-kugel/id1741818812?i=1000697973099
           duration:                     "00:55:00"
@@ -629,9 +691,7 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E11 · Ein Buch über Dreck
-          rating:                       4
-          start:                        false
-          end:                          false          
+          rating:                       3
           audio:                        EARLYSTUDIOSGMBH9375841185.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/ein-buch-%C3%BCber-dreck/id1741818812?i=1000698959688
           duration:                     "00:43:00"
@@ -642,8 +702,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E12 · Drittel Life Crisis
           rating:                       5
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4151930296.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/drittel-life-crisis/id1741818812?i=1000700017848
           duration:                     "01:00:45"
@@ -653,9 +711,7 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E13 · Mein schönstes erstes Mal
-          rating:                       3
-          start:                        false
-          end:                          false          
+          rating:                       2
           audio:                        EARLYSTUDIOSGMBH3139491282.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/mein-sch%C3%B6nstes-erstes-mal/id1741818812?i=1000700981216
           duration:                     "00:57:13"
@@ -666,8 +722,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E14 · Code Red
           rating:                       3
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH2338128572.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/code-red/id1741818812?i=1000701962252
           duration:                     "00:51:02"
@@ -678,8 +732,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E15 · Helikopter Hupen
           rating:                       4
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH5196874671.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/helikopter-hupen/id1741818812?i=1000702931307
           duration:                     "00:54:06"
@@ -690,8 +742,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E16 · Lampe oder Schrank
           rating:                       1
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7330399852.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/lampe-oder-schrank/id1741818812?i=1000703794230
           duration:                     "01:00:23"
@@ -701,9 +751,7 @@ settings:
           enabled:                      true
           <<:                           *album_spontanorama_2025
           title:                        25E17 · Du spieltest Cello
-          rating:                       3
-          start:                        false
-          end:                          false          
+          rating:                       1
           audio:                        EARLYSTUDIOSGMBH8794017696.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/du-spieltest-cello/id1741818812?i=1000704648409
           duration:                     "00:54:45"
@@ -714,8 +762,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E18 · Spongebob Mexicana
           rating:                       1
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH7803500090.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/spongebob-mexicana/id1741818812?i=1000705611016
           duration:                     "01:06:53"
@@ -726,8 +772,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E19 · Zu früh gekommen
           rating:                       4
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH4737863855.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/zu-fr%C3%BCh-gekommen/id1741818812?i=1000706727422
           duration:                     "01:03:10"
@@ -738,8 +782,6 @@ settings:
           <<:                           *album_spontanorama_2025
           title:                        25E20 · Weil Punkt!
           rating:                       1
-          start:                        false
-          end:                          false          
           audio:                        EARLYSTUDIOSGMBH1308588369.mp3
           audio_info:                   //podcasts.apple.com/de/podcast/weil-punkt/id1741818812?i=1000708514242
           duration:                     "00:48:46"
@@ -776,7 +818,6 @@ settings:
         audio_base:                     //traffic.megaphone.fm
         cover_image:                    //is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/97/06/f8/9706f81b-d813-6a3f-aebf-cb6458c835e6/mza_10167167701331003864.jpg/540x540bb.webp
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false          
 
       # ------------------------------------------------------------------------
@@ -1236,7 +1277,6 @@ settings:
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false            
      
 
@@ -1275,7 +1315,6 @@ settings:
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false
 
       # ------------------------------------------------------------------------
@@ -1457,7 +1496,6 @@ settings:
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false   
 
       # ------------------------------------------------------------------------
@@ -1623,6 +1661,7 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_stundenhotel_2025
         name:                           Stundenhotel
+        playlist:                       stundenhotel_2025
         artist:                         Wischmeyer & Voß
         audio_base:                     //rbprogressivedl-a.akamaihd.net
         cover_image:                    /assets/audio/cover/stundenhotel/cover.jpg
@@ -1842,7 +1881,6 @@ settings:
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false
 
       # ------------------------------------------------------------------------
@@ -1867,7 +1905,7 @@ settings:
           end:                          "00:02:00"
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/5NiMGeQOzKQ/maxresdefault.jpg
-          duration:                     "02:47"
+          duration:                     "00:02:47"
 
         # title 02
         - item:
@@ -1880,7 +1918,7 @@ settings:
           end:                          "00:02:20"
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/pCXSGCBSIG0/maxresdefault.jpg
-          duration:                     "02:53"
+          duration:                     "00:02:53"
 
         # title 03
         - item:
@@ -1893,7 +1931,7 @@ settings:
           end:                          "00:02:00"
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/fFn1GZIYC4Y/maxresdefault.jpg
-          duration:                     "02:32"
+          duration:                     "00:02:32"
 
         # title 04
         - item:
@@ -1906,7 +1944,7 @@ settings:
           end:                          "00:02:20"          
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/OUjHRpNUqyw/maxresdefault.jpg
-          duration:                     "02:57"
+          duration:                     "00:02:57"
 
         # # title 05
         - item:
@@ -1919,7 +1957,7 @@ settings:
           end:                          "00:02:00"
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/9Z9yNpsiBKs/maxresdefault.jpg
-          duration:                     "02:42"
+          duration:                     "00:02:42"
 
         # # title 06
         - item:
@@ -1932,7 +1970,7 @@ settings:
           end:                          "00:02:20"         
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/_EYc5W3qy4s/maxresdefault.jpg
-          duration:                     "03:02"
+          duration:                     "00:03:02"
 
         # title 07
         - item:
@@ -1945,7 +1983,7 @@ settings:
           end:                          "00:00:30"
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/i8ltW0WDcdQ/maxresdefault.jpg
-          duration:                     "02:19"
+          duration:                     "00:02:19"
 
         # title 08
         - item:
@@ -1958,7 +1996,7 @@ settings:
           end:                          "00:01:50"
           audio_info:                   //youtube.com/channel/UCEsIlUzfXYT5AZSOVnbFqsQ
           cover_image:                  //img.youtube.com/vi/yttS9UNgZFk/maxresdefault.jpg
-          duration:                     "02:45"
+          duration:                     "00:02:45"
 
     # --------------------------------------------------------------------------
     # Bea and her Business
@@ -1981,7 +2019,6 @@ settings:
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false
 
       # ------------------------------------------------------------------------
@@ -2000,7 +2037,7 @@ settings:
           end:                          "00:03:20"                              # false | timestamp
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/fTXrSVzkIXI/maxresdefault.jpg
-          duration:                     "03:26"
+          duration:                     "00:03:26"
 
 
         # title 02
@@ -2014,7 +2051,7 @@ settings:
           end:                          "00:02:56"
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/dM7CmIHwJnU/maxresdefault.jpg
-          duration:                     "02:58"
+          duration:                     "00:02:58"
 
         # title 03
         - item:
@@ -2027,7 +2064,7 @@ settings:
           end:                          "00:03:14"
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/dM7CmIHwJnU/maxresdefault.jpg
-          duration:                     "03:21"
+          duration:                     "00:03:21"
 
         # title 04
         - item:
@@ -2040,7 +2077,7 @@ settings:
           end:                          false # "00:02:50"
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/npctqyR5ZdU/maxresdefault.jpg
-          duration:                     "02:53"
+          duration:                     "00:02:53"
 
         # title 05
         - item:
@@ -2053,7 +2090,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/DMxz1Sp8RPA/maxresdefault.jpg
-          duration:                     "02:58"
+          duration:                     "00:02:58"
 
         # title 06
         - item:
@@ -2066,7 +2103,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/PcDCR8s0IU4/maxresdefault.jpg
-          duration:                     "02:58"
+          duration:                     "00:02:58"
 
         # title 07
         - item:
@@ -2079,7 +2116,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/915zXRLgirM/maxresdefault.jpg
-          duration:                     "03:16"
+          duration:                     "00:03:16"
 
         # title 08
         - item:
@@ -2092,7 +2129,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/hu8VcmkM0yI/maxresdefault.jpg
-          duration:                     "02:37"
+          duration:                     "00:02:37"
 
         # title 09
         - item:
@@ -2105,7 +2142,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/eVcXzVMKf0I/maxresdefault.jpg
-          duration:                     "02:55"
+          duration:                     "00:02:55"
 
         # title 10
         - item:
@@ -2118,7 +2155,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/W5uafrpOZ6M/maxresdefault.jpg
-          duration:                     "02:55"
+          duration:                     "00:02:55"
 
         # title 11
         - item:
@@ -2131,7 +2168,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/gyquo0Z6ngY/maxresdefault.jpg
-          duration:                     "02:31"
+          duration:                     "00:02:31"
 
         # title 12
         - item:
@@ -2144,7 +2181,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/UXMMm3CdRdI/maxresdefault.jpg
-          duration:                     "02:31"
+          duration:                     "00:02:31"
 
         # title 13
         - item:
@@ -2157,7 +2194,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/6-B2hDMR7S0/maxresdefault.jpg
-          duration:                     "02:31"
+          duration:                     "00:02:31"
 
         # title 14
         - item:
@@ -2170,7 +2207,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/s74aKArgOvU/maxresdefault.jpg
-          duration:                     "02:31"
+          duration:                     "00:02:31"
 
         # title 15
         - item:
@@ -2183,7 +2220,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/R0UJgMJJaio/maxresdefault.jpg
-          duration:                     "02:50"
+          duration:                     "00:02:50"
 
         # title 16
         - item:
@@ -2196,7 +2233,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/channel/UC_qruKTFPfMUJW6gsPGcwgA
           cover_image:                  //img.youtube.com/vi/ffjNBbYa_oA/maxresdefault.jpg
-          duration:                     "02:50"
+          duration:                     "00:02:50"
 
     # --------------------------------------------------------------------------
     # Morcheeba,  Escape the Chaos (2025)
@@ -2219,7 +2256,6 @@ settings:
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/morcheeba/escape_the_chaos.jpg
         audio_fade:                     true
-        audio_single:                   false
         audio_info:                     //youtube.com/playlist?list=PLZmpSK3klBc4kW8cQYpWNq-acm_aZ2xxT
         shuffle:                        false
 
@@ -2237,7 +2273,7 @@ settings:
           rating:                       4
           start:                        "00:00:03"                              # false | timestamp "00:00:03"
           end:                          false                                   # false | timestamp
-          duration:                     "04:22"
+          duration:                     "00:04:22"
 
         # title 02
         - item:
@@ -2248,7 +2284,7 @@ settings:
           rating:                       3
           start:                        "00:00:03"
           end:                          false
-          duration:                     "04:14"
+          duration:                     "00:04:14"
 
         # title 03
         - item:
@@ -2259,7 +2295,7 @@ settings:
           rating:                       3
           start:                        "00:00:03"
           end:                          false
-          duration:                     "02:42"
+          duration:                     "00:02:42"
 
         # title 04
         - item:
@@ -2270,7 +2306,7 @@ settings:
           rating:                       3
           start:                        "00:00:03"
           end:                          false
-          duration:                     "03:11"
+          duration:                     "00:03:11"
 
         # title 05
         - item:
@@ -2281,7 +2317,7 @@ settings:
           rating:                       3
           start:                        "00:00:03"
           end:                          false
-          duration:                     "04:44"          
+          duration:                     "00:04:44"          
 
         # title 06
         - item:
@@ -2292,7 +2328,7 @@ settings:
           rating:                       3
           start:                        "00:00:03"
           end:                          false
-          duration:                     "04:41" 
+          duration:                     "00:04:41" 
 
         # title 07
         - item:
@@ -2303,7 +2339,7 @@ settings:
           rating:                       3
           start:                        "00:00:03"
           end:                          false
-          duration:                     "05:43" 
+          duration:                     "00:05:43" 
 
         # title 08
         - item:
@@ -2314,7 +2350,7 @@ settings:
           rating:                       3
           start:                        "00:00:03"
           end:                          false
-          duration:                     "02:11" 
+          duration:                     "00:02:11" 
 
     # --------------------------------------------------------------------------
     # Emancipator - Royalty Free Music
@@ -2329,12 +2365,13 @@ settings:
       # ------------------------------------------------------------------------
       # ALBUM settings
       # ------------------------------------------------------------------------
-      album:                            &album_from_dusk_to_dawn
-        name:                           From Dusk To Dawn
+      album:                            &album_emancipator_music
+        name:                           Emancipator Music
         playlist:                       emancipator
         artist:                         Emancipator
-        audio_base:                     /assets/audio/album/emancipator/from-dusk-to-dawn
+        audio_base:                     /assets/audio/album/emancipator
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
+        audio_info:                     //emancipatormusic.com/
         audio_fade_in:                  true
         audio_fade_out:                 true
 
@@ -2346,54 +2383,98 @@ settings:
         # title 01
         - item:
           enabled:                      true
-          <<:                           *album_from_dusk_to_dawn
+          <<:                           *album_emancipator_music
           title:                        First Snow
           rating:                       2
-          start:                        false                                   # "00:01:00"
-          end:                          false                                   # "00:01:10"
+          start:                        "00:01:00"                              # false | "00:01:00"
+          end:                          "00:01:20"                              # false | "00:01:10"
           audio:                        FirstSnow.mp3
-          audio_info:                   //emancipator.bandcamp.com/
-          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/soon-it-will-be-cold-enough.jpg
+          cover_image:                  /assets/audio/cover/emancipator/soon-it-will-be-cold-enough.jpg
           duration:                     "00:05:12"
 
         # title 02
         - item:
           enabled:                      true
-          <<:                           *album_from_dusk_to_dawn
+          <<:                           *album_emancipator_music
           title:                        From Dusk To Dawn
           rating:                       3
           start:                        false                                   # "00:00:30"
           end:                          false                                   # "00:00:40"
           audio:                        DuskToDawn.mp3
-          audio_info:                   //emancipator.bandcamp.com/
-          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/from-dusk-to-dawn.jpg
+          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn.jpg
           duration:                     "00:05:25"
 
         # title 03
         - item:
           enabled:                      true
-          <<:                           *album_from_dusk_to_dawn
+          <<:                           *album_emancipator_music
           title:                        Anthem
           rating:                       3
           start:                        false                                   # "00:00:30"
           end:                          false                                   # "00:00:40"          
           audio:                        Anthem.mp3
-          audio_info:                   //emancipator.bandcamp.com/
-          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/anthem.jpg
+          cover_image:                  /assets/audio/cover/emancipator/anthem.jpg
           duration:                     "00:05:40"
 
         # title 04
         - item:
           enabled:                      true
-          <<:                           *album_from_dusk_to_dawn
+          <<:                           *album_emancipator_music
           title:                        Safe In The Steep Cliffs
           rating:                       3
           start:                        false                                   # "00:00:30"
           end:                          false                                   # "00:00:40"
           audio:                        SafeInTheSteepCliffs.mp3
-          audio_info:                   //emancipator.bandcamp.com/
-          cover_image:                  /assets/audio/cover/emancipator/from-dusk-to-dawn/safe-in-the-steep-cliffs.jpg
+          cover_image:                  /assets/audio/cover/emancipator/safe-in-the-steep-cliffs.jpg
           duration:                     "00:04:35"
+
+        # title 05
+        - item:
+          enabled:                      true
+          <<:                           *album_emancipator_music
+          title:                        Time For Space
+          rating:                       3
+          start:                        false                                   # "00:00:30"
+          end:                          false                                   # "00:00:40"
+          audio:                        TimeForSpace.mp3
+          cover_image:                  /assets/audio/cover/emancipator/tine-for-space.jpg
+          duration:                     "00:07:13"
+
+        # title 06
+        - item:
+          enabled:                      true
+          <<:                           *album_emancipator_music
+          title:                        Sea To Sky
+          rating:                       3
+          start:                        false                                   # "00:00:30"
+          end:                          false                                   # "00:00:40"
+          audio:                        SeaToSky.mp3
+          cover_image:                  /assets/audio/cover/emancipator/sea-to-sky.jpg
+          duration:                     "00:04:24"
+
+        # title 07
+        - item:
+          enabled:                      true
+          <<:                           *album_emancipator_music
+          title:                        Alligator
+          rating:                       3
+          start:                        false                                   # "00:00:30"
+          end:                          false                                   # "00:00:40"
+          audio:                        alligator.mp3
+          cover_image:                  /assets/audio/cover/emancipator/alligator.jpg
+          duration:                     "00:03:13"
+
+        # title 08
+        - item:
+          enabled:                      true
+          <<:                           *album_emancipator_music
+          title:                        Dab City
+          rating:                       3
+          start:                        false                                   # "00:00:30"
+          end:                          false                                   # "00:00:40"
+          audio:                        DabCity.mp3
+          cover_image:                  /assets/audio/cover/emancipator/dab-city.jpg
+          duration:                     "00:04:22"
 
     # --------------------------------------------------------------------------
     #  Ephraim Kishon, Beste Familiengeschichten
@@ -2884,13 +2965,12 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_sherlock_holmes_spaete_rache
         name:                           Sherlock Holmes
-        playlist:                       
+        playlist:                       sherlock_holmes_spaete_rache
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/sherlock-holmes-114.html
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false        
 
       # ------------------------------------------------------------------------
@@ -2904,7 +2984,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E01 Späte Rache · Folge 1
           audio:                        303/3038838/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge1_wdr5.mp3
-          duration:                     "26:40"
+          duration:                     "00:26:40"
   
         # title 02
         - item:
@@ -2912,7 +2992,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E02 Späte Rache · Folge 2
           audio:                        303/3038841/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge2_wdr5.mp3
-          duration:                     "35:23"  
+          duration:                     "00:35:23"  
   
         # title 03
         - item:
@@ -2920,7 +3000,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E03 Späte Rache · Folge 3
           audio:                        303/3038842/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge3_wdr5.mp3
-          duration:                     "30:18"  
+          duration:                     "00:30:18"  
 
         # title 04
         - item:
@@ -2928,7 +3008,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E04 Späte Rache · Folge 4
           audio:                        303/3038843/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge4_wdr5.mp3
-          duration:                     "39:03"
+          duration:                     "00:39:03"
   
         # title 05
         - item:
@@ -2936,7 +3016,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E05 Späte Rache · Folge 5
           audio:                        303/3038846/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge5_wdr5.mp3
-          duration:                     "40:35"  
+          duration:                     "00:40:35"  
   
         # title 06
         - item:
@@ -2944,7 +3024,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E06 Späte Rache · Folge 6
           audio:                        303/3038850/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge6_wdr5.mp3
-          duration:                     "35:50"  
+          duration:                     "00:35:50"  
 
         # title 07
         - item:
@@ -2952,7 +3032,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E07 Späte Rache · Folge 7
           audio:                        303/3038852/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge7_wdr5.mp3
-          duration:                     "28:44"  
+          duration:                     "00:28:44"  
   
         # title 08
         - item:
@@ -2960,7 +3040,7 @@ settings:
           <<:                           *album_sherlock_holmes_spaete_rache
           title:                        24E08 Späte Rache · Folge 8
           audio:                        303/3038854/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2024-01-01_spaeterachefolge8_wdr5.mp3
-          duration:                     "33:55"  
+          duration:                     "00:33:55"  
 
     # --------------------------------------------------------------------------
     #  Sherlock Holmes, Kurzgeschichten
@@ -2977,13 +3057,12 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_sherlock_holmes_kurzgeschichten
         name:                           Sherlock Holmes
-        playlist:                       
+        playlist:                       sherlock_holmes_kurzgeschichten
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //www1.wdr.de/radio/wdr5/sendungen/lies-mir-was-vor/sherlock-holmes-114.html
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:907eb53ea747a808?w=448&ch=ec1ffce4aa88363d
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false        
 
       # ------------------------------------------------------------------------
@@ -2997,7 +3076,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E01 Das getupfte Band · Folge 1
           audio:                        303/3038120/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_dasgetupftebandteil12_wdr5.mp3
-          duration:                     "34:24"
+          duration:                     "00:34:24"
 
         # title 02
         - item:
@@ -3005,7 +3084,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E02 Das getupfte Band · Folge 2
           audio:                        303/3038119/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_dasgetupftebandteil22_wdr5.mp3
-          duration:                     "35:14"
+          duration:                     "00:35:14"
 
         # title 03
         - item:
@@ -3013,7 +3092,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E03 Das Landhaus in Hampshire · Folge 3
           audio:                        303/3038136/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_daslandhausinhampshireteil12_wdr5.mp3
-          duration:                     "26:41"
+          duration:                     "00:26:41"
 
         # title 04
         - item:
@@ -3021,7 +3100,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E04 Das Landhaus in Hampshire · Folge 2
           audio:                        303/3038139/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_daslandhausinhampshireteil22_wdr5.mp3
-          duration:                     "37:17"
+          duration:                     "00:37:17"
 
         # title 05
         - item:
@@ -3029,7 +3108,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E05 Der Bund der Rothaarigen · Folge 1
           audio:                        303/3038113/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_derbundderrothaarigenteil12_wdr5.mp3
-          duration:                     "29:34"
+          duration:                     "00:29:34"
 
         # title 06
         - item:
@@ -3037,7 +3116,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E06 Der Bund der Rothaarigen · Folge 2
           audio:                        303/3038115/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_derbundderrothaarigenteil22_wdr5.mp3
-          duration:                     "25:57"
+          duration:                     "00:25:57"
 
         # title 07
         - item:
@@ -3045,7 +3124,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E07 Silberstrahl · Folge 1
           audio:                        303/3038131/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_silberstrahlteil12_wdr5.mp3
-          duration:                     "37:22"
+          duration:                     "00:37:22"
 
         # title 08
         - item:
@@ -3053,7 +3132,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E08 Silberstrahl · Folge 2
           audio:                        303/3038132/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_silberstrahlteil22_wdr5.mp3
-          duration:                     "27:34"
+          duration:                     "00:27:34"
 
         # title 09
         - item:
@@ -3061,7 +3140,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E09 Skandalgeschichte im Fürstentum O  · Folge 1
           audio:                        303/3038044/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_skandalgeschichteimfuerstentumoteil12_wdr5.mp3
-          duration:                     "24:14"
+          duration:                     "00:24:14"
 
         # title 10
         - item:
@@ -3069,7 +3148,7 @@ settings:
           <<:                           *album_sherlock_holmes_kurzgeschichten
           title:                        23E10 Skandalgeschichte im Fürstentum O  · Folge 2
           audio:                        303/3038045/wdr5sherlockholmesdetektivgeschichtenhoerbuch_2023-12-31_skandalgeschichteimfuerstentumoteil22_wdr5.mp3					
-          duration:                     "32:57"
+          duration:                     "00:32:57"
 
     # --------------------------------------------------------------------------
     #  WDR 5 Das Gespenst von Canterville
@@ -3086,13 +3165,12 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_gespenst_von_canterville
         name:                           Komödie von Oscar Wilde
-        playlist:                       
+        playlist:                       das_gespenst_von_canterville
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //ardaudiothek.de/sendung/wdr-5-das-gespenst-von-canterville-hoerbuch/12823543/
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:173867dc06bdb893?w=448&ch=6cd67a7b15b148fe
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false        
 
       # ------------------------------------------------------------------------
@@ -3106,7 +3184,7 @@ settings:
           <<:                           *album_gespenst_von_canterville
           title:                        23E01 Das Gespenst von Canterville · Folge 1
           audio:                        301/3016847/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge1_wdr5.mp3
-          duration:                     "17:13"
+          duration:                     "00:17:13"
 
         # title 02
         - item:
@@ -3114,7 +3192,7 @@ settings:
           <<:                           *album_gespenst_von_canterville
           title:                        23E02 Das Gespenst von Canterville · Folge 2
           audio:                        301/3016848/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge2_wdr5.mp3
-          duration:                     "13:07"
+          duration:                     "00:13:07"
 
         # title 03
         - item:
@@ -3122,7 +3200,7 @@ settings:
           <<:                           *album_gespenst_von_canterville
           title:                        23E03 Das Gespenst von Canterville · Folge 3
           audio:                        301/3016849/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge3_wdr5.mp3
-          duration:                     "19:59"
+          duration:                     "00:19:59"
 
         # title 04
         - item:
@@ -3130,7 +3208,7 @@ settings:
           <<:                           *album_gespenst_von_canterville
           title:                        23E04 Das Gespenst von Canterville · Folge 4
           audio:                        301/3016850/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge4_wdr5.mp3
-          duration:                     "13:18"
+          duration:                     "00:13:18"
 
         # title 05
         - item:
@@ -3138,7 +3216,7 @@ settings:
           <<:                           *album_gespenst_von_canterville
           title:                        23E05 Das Gespenst von Canterville · Folge 5
           audio:                        301/3016851/wdr5dasgespenstvoncantervillehoerbuch_2023-11-01_dasgespenstvoncantervillefolge5_wdr5.mp3
-          duration:                     "21:31"
+          duration:                     "00:21:31"
 
     # --------------------------------------------------------------------------
     #  WDR 5 Das Paradies der Damen
@@ -3155,13 +3233,12 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_paradies_der_damen
         name:                           Roman von Emile Zolas
-        playlist:                       
+        playlist:                       paradies_der_damen
         artist:                         WDR 5 Lies mir was vor
         audio_base:                     //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0
         audio_info:                     //ardaudiothek.de/sendung/wdr-5-das-paradies-der-damen-hoerbuch/10378063/
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:552e4077b13dfb54?w=448&ch=72a75b44642fc04a
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false        
 
       # ------------------------------------------------------------------------
@@ -3175,7 +3252,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E01 Das Paradies der Damen · Folge 1
           audio:                        269/2696983/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge1_wdr5.mp3
-          duration:                     "22:06"
+          duration:                     "00:22:06"
 
         # title 02
         - item:
@@ -3183,7 +3260,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E02 Das Paradies der Damen · Folge 2
           audio:                        269/2696984/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge2_wdr5.mp3
-          duration:                     "27:31"
+          duration:                     "00:27:31"
 
         # title 03
         - item:
@@ -3191,7 +3268,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E03 Das Paradies der Damen · Folge 3
           audio:                        269/2696985/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge3_wdr5.mp3
-          duration:                     "29:52"
+          duration:                     "00:29:52"
 
         # title 04
         - item:
@@ -3199,7 +3276,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E04 Das Paradies der Damen · Folge 4
           audio:                        269/2696986/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge4_wdr5.mp3
-          duration:                     "30:21"
+          duration:                     "00:30:21"
 
         # title 05
         - item:
@@ -3207,7 +3284,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E05 Das Paradies der Damen · Folge 5
           audio:                        269/2696987/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge5_wdr5.mp3
-          duration:                     "24:41"
+          duration:                     "00:24:41"
 
         # title 06
         - item:
@@ -3215,7 +3292,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E06 Das Paradies der Damen · Folge 6
           audio:                        269/2696988/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge6_wdr5.mp3
-          duration:                     "28:49"
+          duration:                     "00:28:49"
 
         # title 07
         - item:
@@ -3223,7 +3300,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E07 Das Paradies der Damen · Folge 7
           audio:                        269/2696991/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge7_wdr5.mp3
-          duration:                     "25:05"
+          duration:                     "00:25:05"
 
         # title 08
         - item:
@@ -3231,7 +3308,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E08 Das Paradies der Damen · Folge 8
           audio:                        269/2696990/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge8_wdr5.mp3
-          duration:                     "19:26"
+          duration:                     "00:19:26"
 
         # title 09
         - item:
@@ -3239,7 +3316,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E09 Das Paradies der Damen · Folge 9
           audio:                        269/2696989/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge9_wdr5.mp3
-          duration:                     "19:30"
+          duration:                     "00:19:30"
 
         # title 10
         - item:
@@ -3247,7 +3324,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E10 Das Paradies der Damen · Folge 10
           audio:                        269/2696993/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge10_wdr5.mp3
-          duration:                     "36:42"
+          duration:                     "00:36:42"
 
         # title 11
         - item:
@@ -3255,7 +3332,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E11 Das Paradies der Damen · Folge 11
           audio:                        269/2696994/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge11_wdr5.mp3
-          duration:                     "33:01"
+          duration:                     "00:33:01"
 
         # title 12
         - item:
@@ -3271,7 +3348,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E13 Das Paradies der Damen · Folge 13
           audio:                        269/2696997/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge13_wdr5.mp3
-          duration:                     "23:41"
+          duration:                     "00:23:41"
 
         # title 14
         - item:
@@ -3279,7 +3356,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E14 Das Paradies der Damen · Folge 14
           audio:                        269/2697000/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge14_wdr5.mp3
-          duration:                     "30:37"
+          duration:                     "00:30:37"
 
         # title 15
         - item:
@@ -3287,7 +3364,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E15 Das Paradies der Damen · Folge 15
           audio:                        269/2697001/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge15_wdr5.mp3
-          duration:                     "23:20"
+          duration:                     "00:23:20"
 
         # title 16
         - item:
@@ -3295,7 +3372,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E16 Das Paradies der Damen · Folge 16
           audio:                        269/2697003/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge16_wdr5.mp3
-          duration:                     "19:58"
+          duration:                     "00:19:58"
 
         # title 17
         - item:
@@ -3303,7 +3380,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E17 Das Paradies der Damen · Folge 17
           audio:                        269/2697002/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge17_wdr5.mp3
-          duration:                     "20:33"
+          duration:                     "00:20:33"
 
         # title 18
         - item:
@@ -3311,7 +3388,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E18 Das Paradies der Damen · Folge 18
           audio:                        269/2697004/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge18_wdr5.mp3
-          duration:                     "29:05"
+          duration:                     "00:29:05"
 
         # title 19
         - item:
@@ -3319,7 +3396,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E19 Das Paradies der Damen · Folge 19
           audio:                        269/2697005/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge19_wdr5.mp3
-          duration:                     "30:37"
+          duration:                     "00:30:37"
 
         # title 20
         - item:
@@ -3327,7 +3404,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E20 Das Paradies der Damen · Folge 20
           audio:                        269/2697007/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge20_wdr5.mp3
-          duration:                     "30:53"
+          duration:                     "00:30:53"
 
         # title 21
         - item:
@@ -3335,7 +3412,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E21 Das Paradies der Damen · Folge 21
           audio:                        269/2697006/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge21_wdr5.mp3
-          duration:                     "29:28"
+          duration:                     "00:29:28"
 
         # title 22
         - item:
@@ -3343,7 +3420,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E22 Das Paradies der Damen · Folge 22
           audio:                        269/2697008/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge22_wdr5.mp3
-          duration:                     "26:34"
+          duration:                     "00:26:34"
 
         # title 23
         - item:
@@ -3351,7 +3428,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E23 Das Paradies der Damen · Folge 23
           audio:                        269/2697014/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge23_wdr5.mp3
-          duration:                     "22:36"
+          duration:                     "00:22:36"
 
         # title 24
         - item:
@@ -3359,7 +3436,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E24 Das Paradies der Damen · Folge 24
           audio:                        269/2697017/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge24_wdr5.mp3
-          duration:                     "34:01"
+          duration:                     "00:34:01"
 
         # title 25
         - item:
@@ -3367,7 +3444,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E25 Das Paradies der Damen · Folge 25
           audio:                        269/2697018/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge25_wdr5.mp3
-          duration:                     "28:02"
+          duration:                     "00:28:02"
 
         # title 26
         - item:
@@ -3375,7 +3452,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E26 Das Paradies der Damen · Folge 26
           audio:                        269/2697052/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge26_wdr5.mp3
-          duration:                     "22:16"
+          duration:                     "00:22:16"
 
         # title 27
         - item:
@@ -3383,7 +3460,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E27 Das Paradies der Damen · Folge 27
           audio:                        269/2697055/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge27_wdr5.mp3
-          duration:                     "22:02"
+          duration:                     "00:22:02"
 
         # title 28
         - item:
@@ -3391,7 +3468,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E28 Das Paradies der Damen · Folge 28
           audio:                        269/2697059/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge28_wdr5.mp3
-          duration:                     "22:43"
+          duration:                     "00:22:43"
 
         # title 29
         - item:
@@ -3399,7 +3476,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E29 Das Paradies der Damen · Folge 29
           audio:                        269/2697071/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge29_wdr5.mp3
-          duration:                     "24:20"
+          duration:                     "00:24:20"
 
         # title 30
         - item:
@@ -3407,7 +3484,7 @@ settings:
           <<:                           *album_paradies_der_damen
           title:                        22E30 Das Paradies der Damen · Folge 30
           audio:                        269/2697074/wdr5dasparadiesderdamenhoerbuch_2022-04-18_dasparadiesderdamenfolge30_wdr5.mp3
-          duration:                     "25:30"
+          duration:                     "00:25:30"
 
     # --------------------------------------------------------------------------
     #  Auf der Spur, Commissario Brunetti
@@ -3424,13 +3501,12 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_auf_der_spur_brunetti
         name:                           Auf der Spur
-        playlist:                       
+        playlist:                       auf_der_spur_brunetti 
         artist:                         Commissario Brunetti
         # audio_base:                   //cdn-storage.br.de
         audio_info:                     //ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:320b7ec068f6c8ea
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false        
 
       # ------------------------------------------------------------------------
@@ -3447,7 +3523,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-vendetta-1-2-spur-zu-mafia-und-korruption/ard/13612491/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:cb2cf6ae3813c76f
-          duration:                     "53:40"
+          duration:                     "00:53:40"
 
         # title 02
         - item:
@@ -3458,7 +3534,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-vendetta-2-2-venedig-krimi-von-donna-leon/ard/13612495/ 
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:cb2cf6ae3813c76f?w=1000
-          duration:                     "55:39"
+          duration:                     "00:55:39"
 
         # title 03
         - item:
@@ -3469,7 +3545,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-sanft-entschlafen-1-2-mord-im-kloster-orden/ard/13768895/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:0c2ae1022061cb33?w=1000
-          duration:                     "55:29"
+          duration:                     "00:55:29"
 
         # title 04
         - item:
@@ -3480,7 +3556,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-sanft-entschlafen-2-2-hinter-kalten-mauern/ard/13768899/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:0c2ae1022061cb33?w=1000
-          duration:                     "54:44"
+          duration:                     "00:54:44"
 
         # title 05
         - item:
@@ -3489,9 +3565,9 @@ settings:
           title:                        E05 Venezianische Scharade · 1/1
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4P/_-iS/_28H_Avy5H1S/29123705-8e2b-4501-9009-d9dbdaef2e28_2.mp3
           rating:                       3
-          audio_info:                   /ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianische-scharade-1-2-krimi-hoerspiel-von-donna-leon/ard/14094867/
+          audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianische-scharade-1-2-krimi-hoerspiel-von-donna-leon/ard/14094867/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:5836651a27c0a47a?w=1000
-          duration:                     "54:34"
+          duration:                     "00:54:34"
 
         # title 06
         - item:
@@ -3502,7 +3578,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianische-scharade-2-2-erpressung-und-doppeltes-spiel/ard/13927593/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:5836651a27c0a47a?w=1000
-          duration:                     "55:56"
+          duration:                     "00:55:56"
 
         # title 07
         - item:
@@ -3511,9 +3587,9 @@ settings:
           title:                        E07 Venezianisches Finale · 1/1
           audio:                        //wdrmedien-a.akamaihd.net/medp/podcast/weltweit/fsk0/326/3263600/3263600_61498484.mp3
           rating:                       3
-          audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianische-scharade-1-2-krimi-hoerspiel-von-donna-leon/ard/14094867/
+          audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianisches-finale-1-2-tot-vor-dem-letzten-akt/ard/14277199/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:b52d3ece166003ac?w=1000
-          duration:                     "54:34"
+          duration:                     "00:54:34"
 
         # title 08
         - item:
@@ -3524,7 +3600,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/commissario-brunetti-venezianisches-finale-2-2-venedig-krimi-von-donna-leon/ard/14300419/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:b52d3ece166003ac?w=1000                 
-          duration:                     "55:56"
+          duration:                     "00:55:56"
 
     # --------------------------------------------------------------------------
     #  Auf der Spur, Detektive
@@ -3541,13 +3617,12 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_auf_der_spur_detektive
         name:                           Auf der Spur
-        playlist:                       
+        playlist:                       auf_der_spur_detektive
         artist:                         Detektive
         # audio_base:                   //cdn-storage.br.de
         audio_info:                     //ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:320b7ec068f6c8ea
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false        
 
       # ------------------------------------------------------------------------
@@ -3564,7 +3639,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/ex-kommissar-blankenhorn-sein-erster-freier-fall-1-2-alte-liebe/ard/14337821/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a1f477159c2bbd59?w=1000
-          duration:                     "51:11"
+          duration:                     "00:51:11"
 
         # title 02
         - item:
@@ -3573,9 +3648,9 @@ settings:
           title:                        E02 Blankenhorn · Sein erster freier Fall (2/2)
           audio:                        //cdn-storage.br.de/MUJIuUOVBwQIbtChb6OHu7ODifWH_-4P/_-ZS/_286_2NP_H1S/d332fcfd-6c23-4dfc-97bd-9c20b9ed5a91_2.mp3
           rating:                       3
-          audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/ex-kommissar-blankenhorn-sein-erster-freier-fall-1-2-alte-liebe/ard/14337821/
+          audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/ex-kommissar-blankenhorn-sein-erster-freier-fall-2-2-erpressung/ard/14337815/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:a1f477159c2bbd59?w=1000
-          duration:                     "53:45"
+          duration:                     "00:53:45"
 
         # title 03
         - item:
@@ -3586,7 +3661,7 @@ settings:
           rating:                       3
           audio_info:                   //ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/ex-kommissar-blankenhorn-lauenburg-connection-tot-im-geteilten-berlin/ard/14356483/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:489b89509c9f37a0?w=1000
-          duration:                     "14:23"
+          duration:                     "00:14:23"
 
         # title 04
         - item:
@@ -3597,7 +3672,7 @@ settings:
           rating:                       3
           audio_info:                   //www.ardaudiothek.de/episode/auf-der-spur-die-ard-ermittlerkrimis/ex-kommissar-blankenhorn-und-der-blaumoerder-kunstzerstoerer/ard/14356497/
           cover_image:                  //api.ardmediathek.de/image-service/images/urn:ard:image:87ddb96e5900330f?w=1000
-          duration:                     "55:20"
+          duration:                     "00:55:20"
 
     # --------------------------------------------------------------------------
     #  Auf der Spur, Detektivinnen
@@ -3614,13 +3689,11 @@ settings:
       # ------------------------------------------------------------------------
       album:                            &album_auf_der_spur_detektivinnen
         name:                           Auf der Spur
-        playlist:                       
+        playlist:                       auf_der_spur_detektivinnen
         artist:                         Detektivinnen
-        # audio_base:                   //cdn-storage.br.de
         audio_info:                     //ardaudiothek.de/sendung/auf-der-spur-die-ard-ermittlerkrimis/94582432
         cover_image:                    //api.ardmediathek.de/image-service/images/urn:ard:image:320b7ec068f6c8ea
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false        
 
       # ------------------------------------------------------------------------
@@ -3747,7 +3820,6 @@ settings:
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false
 
       # ------------------------------------------------------------------------
@@ -3764,9 +3836,9 @@ settings:
           rating:                       4
           start:                        false                                   # false | timestamp
           end:                          false                                   # false | timestamp            
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=Op899TJjhfo
           cover_image:                  //img.youtube.com/vi/Op899TJjhfo/maxresdefault.jpg
-          duration:                     "03:07"
+          duration:                     "00:03:07"
 
         # title 02
         - item:
@@ -3777,9 +3849,9 @@ settings:
           rating:                       4
           start:                        false
           end:                          false
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=RZTPR8xMtDo
           cover_image:                  //img.youtube.com/vi/RZTPR8xMtDo/maxresdefault.jpg
-          duration:                     "02:26"
+          duration:                     "00:02:26"
   
         # title 03
         - item:
@@ -3790,9 +3862,9 @@ settings:
           rating:                       4
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=xD4At1EtNyI
           cover_image:                  //img.youtube.com/vi/xD4At1EtNyI/maxresdefault.jpg
-          duration:                     "03:28"
+          duration:                     "00:03:28"
 
         # title 04
         - item:
@@ -3803,9 +3875,9 @@ settings:
           rating:                       3
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=C8Crqa8x5DY
           cover_image:                  //img.youtube.com/vi/C8Crqa8x5DY/maxresdefault.jpg
-          duration:                     "03:14"
+          duration:                     "00:03:14"
 
         # title 05
         - item:
@@ -3816,9 +3888,9 @@ settings:
           rating:                       4
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=HmBEAifVbg0
           cover_image:                  //img.youtube.com/vi/HmBEAifVbg0/maxresdefault.jpg
-          duration:                     "03:14"
+          duration:                     "00:03:14"
 
         # title 06
         - item:
@@ -3829,9 +3901,9 @@ settings:
           rating:                       3
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=UA8eyosefW8
           cover_image:                  //img.youtube.com/vi/UA8eyosefW8/maxresdefault.jpg
-          duration:                     "03:22"
+          duration:                     "00:03:22"
 
         # title 07
         - item:
@@ -3842,9 +3914,9 @@ settings:
           rating:                       3
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=37mzUbjx4UU
           cover_image:                  //img.youtube.com/vi/37mzUbjx4UU/maxresdefault.jpg
-          duration:                     "03:25"
+          duration:                     "00:03:25"
 
         # title 08
         - item:
@@ -3855,9 +3927,9 @@ settings:
           rating:                       4
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=KAxnBIDdne0
           cover_image:                  //img.youtube.com/vi/KAxnBIDdne0/maxresdefault.jpg
-          duration:                     "03:25"
+          duration:                     "00:03:25"
 
         # title 09
         - item:
@@ -3868,9 +3940,9 @@ settings:
           rating:                       3
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=clZy4xLJoGw
           cover_image:                  //img.youtube.com/vi/clZy4xLJoGw/maxresdefault.jpg
-          duration:                     "03:07"
+          duration:                     "00:03:07"
 
         # title 10
         - item:
@@ -3881,9 +3953,9 @@ settings:
           rating:                       4
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=iLnogjAn2iY
           cover_image:                  //img.youtube.com/vi/iLnogjAn2iY/maxresdefault.jpg
-          duration:                     "03:30"
+          duration:                     "00:03:30"
 
         # title 11
         - item:
@@ -3894,9 +3966,9 @@ settings:
           rating:                       3
           start:                        false
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=jbPzp0NTOyc
           cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
-          duration:                     "03:33"
+          duration:                     "00:03:33"
 
         # title 12
         - item:
@@ -3907,10 +3979,10 @@ settings:
           rating:                       4
           start:                        "00:00:03"
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=AT2Lp8784dA
           # cover_image:                //img.youtube.com/vi/AT2Lp8784dA/maxresdefault.jpg
           cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
-          duration:                     "03:33"
+          duration:                     "00:03:33"
 
         # title 13
         - item:
@@ -3921,23 +3993,10 @@ settings:
           rating:                       4
           start:                        "00:00:03"
           end:                          false          
-          audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
+          audio_info:                   //youtube.com/watch?v=sAUOWZQoH5Q
           # cover_image:                //img.youtube.com/vi/sAUOWZQoH5Q/maxresdefault.jpg
           cover_image:                  //img.youtube.com/vi/jbPzp0NTOyc/maxresdefault.jpg
-          duration:                     "02:48"
-
-        # # title 14 (kapott)
-        # - item:
-        #   enabled:                      false
-        #   <<:                           *album_smooth_jazz_dua_lipa_yt
-        #   title:                        Sweetest Pie
-        #   audio:                        watch?v=xULkEz9fWbU
-        #   rating:                       3
-        #   start:                        false
-        #   end:                          false
-        #   audio_info:                   //youtube.com/playlist?list=OLAK5uy_lhit5tCDBcSM7swIQntwePlXkUVitzgzM
-        #   cover_image:                  //img.youtube.com/vi/xULkEz9fWbU/maxresdefault.jpg
-        #   duration:                     "03:27"
+          duration:                     "00:02:48"
 
     # --------------------------------------------------------------------------
     #  Smooth Jazz (Diana Krall)
@@ -3959,7 +4018,6 @@ settings:
         audio_base:                     //youtube.com
         cover_image:                    /assets/audio/cover/default/placeholder-blue.jpg
         audio_fade:                     true
-        audio_single:                   false
         shuffle:                        false
 
       # ------------------------------------------------------------------------
@@ -3978,7 +4036,7 @@ settings:
           end:                          false                                   # false | timestamp          
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "06:07"
+          duration:                     "00:06:07"
 
         # title 02
         - item:
@@ -3991,7 +4049,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "05:10"
+          duration:                     "00:05:10"
 
         # title 03
         - item:
@@ -4004,7 +4062,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "03:11"
+          duration:                     "00:03:11"
 
         # title 04
         - item:
@@ -4017,7 +4075,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/cizgXSegrko/maxresdefault.jpg
-          duration:                     "06:07"
+          duration:                     "00:06:07"
 
         # title 05
         - item:
@@ -4030,7 +4088,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "06:07"
+          duration:                     "00:06:07"
 
         # title 06
         - item:
@@ -4043,7 +4101,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:00"
+          duration:                     "00:05:00"
 
         # title 07
         - item:
@@ -4056,7 +4114,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "03:29"
+          duration:                     "00:03:29"
 
         # title 08
         - item:
@@ -4069,7 +4127,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:43"
+          duration:                     "00:04:43"
 
         # title 09
         - item:
@@ -4082,7 +4140,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "03:50"
+          duration:                     "00:03:50"
 
         # title 10
         - item:
@@ -4095,7 +4153,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "03:48"
+          duration:                     "00:03:48"
 
         # title 11
         - item:
@@ -4108,7 +4166,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/jkk2mMq2x8E/maxresdefault.jpg
-          duration:                     "04:10"
+          duration:                     "00:04:10"
 
         # title 12
         - item:
@@ -4121,7 +4179,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/_z7X8fbNIkI/maxresdefault.jpg
-          duration:                     "03:59"
+          duration:                     "00:03:59"
 
         # title 13
         - item:
@@ -4134,7 +4192,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:37"
+          duration:                     "00:04:37"
 
         # title 14
         - item:
@@ -4147,7 +4205,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:26"
+          duration:                     "00:05:26"
 
         # title 15
         - item:
@@ -4160,7 +4218,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:14"
+          duration:                     "00:05:14"
 
         # title 16
         - item:
@@ -4173,7 +4231,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "06:21"
+          duration:                     "00:06:21"
 
         # title 17
         - item:
@@ -4186,7 +4244,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:35"
+          duration:                     "00:04:35"
 
         # title 18
         - item:
@@ -4199,7 +4257,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "05:22"
+          duration:                     "00:05:22"
 
         # title 19
         - item:
@@ -4212,7 +4270,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/0XMZNI1qKh8/maxresdefault.jpg
-          duration:                     "04:57"
+          duration:                     "00:04:57"
 
         # title 20
         - item:
@@ -4225,7 +4283,7 @@ settings:
           end:                          false
           audio_info:                   //youtube.com/playlist?list=PL63F10BA7870008CB
           cover_image:                  //img.youtube.com/vi/d8RYUZT57XA/maxresdefault.jpg
-          duration:                     "04:01"
+          duration:                     "00:04:01"
 
 # ------------------------------------------------------------------------------
 # END config

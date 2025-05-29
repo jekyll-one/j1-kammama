@@ -124,6 +124,10 @@
       icon:                             volume-high
       dropdown:
 
+        - title:                        Mampf & Mode
+          href:                         /pages/public/audio/podcast/doku/iconic/
+          icon:                         ear-hearing
+
         - title:                        Heidi Klum
           href:                         /pages/public/audio/podcast/doku/heidi_klum/
           icon:                         ear-hearing
